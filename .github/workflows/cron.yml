@@ -1,0 +1,110 @@
+name: Planificateur dynamique (config/schedule.json)
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  check-schedule:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+      chat_id: ${{ steps.check.outputs.chat_id }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: check
+        name: Comparer l'heure GMT à la planification
+        run: |
+          if [ ! -f config/schedule.json ]; then
+            echo "Aucun config/schedule.json — rien à faire."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          NOW=$(date -u +%H)
+          RESULT=$(node -e "
+            const c = require('./config/schedule.json');
+            const times = Array.isArray(c.times) ? c.times.slice() : [];
+            if (c.time) times.push(c.time);
+            const hours = times.map(t => String(t).split(':')[0].padStart(2,'0'));
+            const now = process.argv[1];
+            console.log(JSON.stringify({
+              run: c.enabled === true && hours.includes(now),
+              chat: String(c.chat_id || ''),
+              times: times.join(','),
+            }));
+          " "$NOW")
+          echo "Créneaux: $(node -p "JSON.parse(process.argv[1]).times" "$RESULT") — heure actuelle: ${NOW}h GMT"
+          echo "chat_id=$(node -p "JSON.parse(process.argv[1]).chat" "$RESULT")" >> "$GITHUB_OUTPUT"
+          echo "should_run=$(node -p "String(JSON.parse(process.argv[1]).run)" "$RESULT")" >> "$GITHUB_OUTPUT"
+
+  run-pipeline:
+    needs: check-schedule
+    if: ${{ needs.check-schedule.outputs.should_run == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Installer FFmpeg + polices emoji + Edge TTS
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-color-emoji fonts-liberation python3-pip
+          fc-cache -f -v
+          pipx install edge-tts || pip3 install --break-system-packages edge-tts || pip3 install edge-tts
+          edge-tts --version || true
+
+      - name: Installer les dépendances
+        run: npm install --no-audit --no-fund
+
+      - name: Pipeline complet (IA -> rendu -> TikTok)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_MODEL_ID: ${{ vars.ELEVENLABS_MODEL_ID }}
+          CARTESIA_API_KEY: ${{ secrets.CARTESIA_API_KEY }}
+          CARTESIA_VOICE_ID: ${{ vars.CARTESIA_VOICE_ID }}
+          EDGE_TTS_VOICE: ${{ vars.EDGE_TTS_VOICE }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ needs.check-schedule.outputs.chat_id }}
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+          BUFFER_TIKTOK_PROFILE_ID: ${{ secrets.BUFFER_TIKTOK_PROFILE_ID }}
+        run: npm run pipeline
+
+      - name: Notifier Telegram
+        if: ${{ always() && needs.check-schedule.outputs.chat_id != '' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ needs.check-schedule.outputs.chat_id }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: npx tsx scripts/notify-telegram.ts
+
+      - name: Commit & push (input/, history.json, quiz.json)
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A input/ history.json quiz.json
+          if git diff --staged --quiet; then
+            echo "Rien a committer."
+          else
+            git commit -m "chore(cron): publication planifiée [skip ci]"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Video-Quiz-Planifiee-MP4
+          path: out/quiz.mp4
+          if-no-files-found: error

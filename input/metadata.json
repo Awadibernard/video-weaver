@@ -1,0 +1,126 @@
+{
+  "topic": "Philosophie",
+  "description": "Découvrez les fondements de la pensée philosophique",
+  "hashtags": [
+    "#philosophie",
+    "#science"
+  ],
+  "motif": "brain",
+  "cta": "Abonne-toi pour un quiz par jour !",
+  "emojis": [
+    "🧠",
+    "💡",
+    "📚",
+    "👥",
+    "💭"
+  ],
+  "uiScale": 0.85,
+  "questionCount": 5,
+  "questions": [
+    {
+      "question": "Qui est le père de la philosophie occidentale ?",
+      "emojis": [
+        "👴",
+        "📚",
+        "💡"
+      ],
+      "options": [
+        "Platon",
+        "Aristote",
+        "Socrate"
+      ],
+      "correct": 2,
+      "answer": "Socrate",
+      "explanation": "Socrate est considéré comme le père de la philosophie occidentale en raison de ses méthodes de questionnement et de ses contributions à l'éthique et à la métaphysique. Il a influencé de nombreux philosophes, notamment Platon et Aristote.",
+      "imagePrompts": [
+        "A cinematic lighting close-up of a bust of Plato, highly detailed, vivid colors, ultra sharp focus, professional photography",
+        "A hyper-realistic photorealistic 3D render of A hyper-realistic detailed 3D render of Aristotle standing in a ancient Greek library, surrounded by books, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A highly detailed illustration of Socrates sitting on a stone bench, deep in thought, swirling clouds in the background, volumetric light rays, 8k resolution"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que le stoïcisme ?",
+      "emojis": [
+        "🌿",
+        "🙏",
+        "💪"
+      ],
+      "options": [
+        "Une école de pensée qui valorise la raison et la vertu",
+        "Une philosophie qui prône le plaisir et la richesse",
+        "Un mouvement qui cherche à détruire la société"
+      ],
+      "correct": 0,
+      "answer": "Une école de pensée qui valorise la raison et la vertu",
+      "explanation": "Le stoïcisme est une école de pensée qui met l'accent sur la raison, la vertu et la self-maîtrise. Les stoïciens croient que les individus devraient se concentrer sur les choses qui sont sous leur contrôle et accepter les choses qui ne le sont pas.",
+      "imagePrompts": [
+        "A highly detailed 3D render of a stoic philosopher standing in a peaceful garden, surrounded by nature, cinematic lighting, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A photorealistic illustration of a person indulging in luxurious food and drink, dramatic composition, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic detailed 3D render of a person destroying a city, swirling clouds and smoke in the background, volumetric light rays, 8k resolution"
+      ]
+    },
+    {
+      "question": "Qui est l'auteur du livre 'Le Contrat social' ?",
+      "emojis": [
+        "📚",
+        "👑",
+        "🕊️"
+      ],
+      "options": [
+        "Jean-Jacques Rousseau",
+        "John Locke",
+        "Thomas Hobbes"
+      ],
+      "correct": 0,
+      "answer": "Jean-Jacques Rousseau",
+      "explanation": "Jean-Jacques Rousseau est l'auteur du livre 'Le Contrat social', qui explore les fondements de la société et du gouvernement. Il argue que les individus sont meilleurs dans l'état de nature et que la société corrompt les individus.",
+      "imagePrompts": [
+        "A highly detailed illustration of Jean-Jacques Rousseau sitting at a desk, writing, surrounded by books and papers, cinematic lighting, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of John Locke standing in a library, surrounded by books, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic detailed 3D render of Thomas Hobbes sitting on a throne, surrounded by darkness and smoke, volumetric light rays, 8k resolution"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que l'existentialisme ?",
+      "emojis": [
+        "🗺️",
+        "🕊️",
+        "💔"
+      ],
+      "options": [
+        "Une philosophie qui met l'accent sur la liberté et la responsabilité individuelle",
+        "Une école de pensée qui prône la conformité et l'obéissance",
+        "Un mouvement qui cherche à détruire l'individualité"
+      ],
+      "correct": 0,
+      "answer": "Une philosophie qui met l'accent sur la liberté et la responsabilité individuelle",
+      "explanation": "L'existentialisme est une philosophie qui met l'accent sur la liberté et la responsabilité individuelle. Les existentialistes croient que les individus sont libres de choisir leur propre chemin dans la vie et qu'ils sont responsables de leurs choix.",
+      "imagePrompts": [
+        "A highly detailed 3D render of a person standing at a crossroads, surrounded by darkness and uncertainty, cinematic lighting, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A photorealistic illustration of a person following a crowd, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic detailed 3D render of a person being consumed by a void, swirling clouds and smoke in the background, volumetric light rays, 8k resolution"
+      ]
+    },
+    {
+      "question": "Qui est l'auteur du livre 'La République' ?",
+      "emojis": [
+        "🏛️",
+        "📚",
+        "👑"
+      ],
+      "options": [
+        "Platon",
+        "Aristote",
+        "Épicure"
+      ],
+      "correct": 0,
+      "answer": "Platon",
+      "explanation": "Platon est l'auteur du livre 'La République', qui explore les fondements de la justice et de la société idéale. Il argue que la société idéale serait gouvernée par des philosophes-rois qui ont atteint la connaissance de la vérité.",
+      "imagePrompts": [
+        "A highly detailed illustration of Plato standing in a ancient Greek city, surrounded by buildings and people, cinematic lighting, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of Aristotle standing in a library, surrounded by books, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic detailed 3D render of Epicurus sitting in a garden, surrounded by nature, volumetric light rays, 8k resolution"
+      ]
+    }
+  ]
+}

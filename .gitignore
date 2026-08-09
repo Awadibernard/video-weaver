@@ -1,0 +1,10 @@
+node_modules
+out
+.env
+.env.local
+public/generated/*
+!public/generated/.gitkeep
+.DS_Store
+public/props.json
+out/
+input/video.mp4

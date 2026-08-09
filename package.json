@@ -1,0 +1,36 @@
+{
+  "name": "tikmation",
+  "version": "3.0.0",
+  "description": "Générateur headless de vidéos quiz verticales (Remotion + ElevenLabs) — CI only",
+  "private": true,
+  "scripts": {
+    "prepare-assets": "tsx scripts/prepare.ts",
+    "render": "remotion render src/index.ts QuizVideo out/quiz.mp4 --props=public/props.json --concurrency=1",
+    "build-video": "tsx scripts/pipeline.ts --skip-upload",
+    "start": "tsx scripts/pipeline.ts",
+    "dev": "node -e \"require('http').createServer((q,s)=>{s.writeHead(200,{'content-type':'text/plain'});s.end('Tikmation: headless CI renderer. Run npm run build-video')}).listen(8080)\" --",
+    "build": "node scripts/lovable-dist.mjs",
+    "build:dev": "node scripts/lovable-dist.mjs",
+    "generate-quiz": "tsx scripts/generate-quiz.ts",
+    "upload": "tsx scripts/upload.ts",
+    "pipeline": "tsx scripts/pipeline.ts",
+    "bot": "tsx bot/index.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.240",
+    "@remotion/cli": "^4.0.240",
+    "@remotion/google-fonts": "^4.0.504",
+    "@remotion/renderer": "^4.0.240",
+    "music-metadata": "^7.14.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.240"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}

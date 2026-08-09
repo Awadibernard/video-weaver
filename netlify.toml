@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "bot/api"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/*"
+  status = 200

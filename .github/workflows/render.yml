@@ -1,0 +1,113 @@
+name: Pipeline Quiz TikTok (IA + Remotion + Upload — headless)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "preview (rendu sans publication) | publish (pipeline complet) | regenerate (re-rendu du quiz.json actuel) | publish-only (upload seul)"
+        required: false
+        default: "publish"
+        type: choice
+        options: [preview, publish, regenerate, publish-only]
+      topic:
+        description: "Sujet imposé (laisser vide pour une rotation automatique des catégories)"
+        required: false
+        default: ""
+      skip_generate:
+        description: "true = réutiliser quiz.json existant (pas d'appel IA)"
+        required: false
+        default: "false"
+      chat_id:
+        description: "Chat Telegram à notifier (rempli automatiquement par le bot)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Installer FFmpeg + polices emoji + Edge TTS
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-color-emoji fonts-liberation python3-pip
+          fc-cache -f -v
+          # Niveau 3 du TTS (fallback gratuit)
+          pipx install edge-tts || pip3 install --break-system-packages edge-tts || pip3 install edge-tts
+          edge-tts --version || true
+
+
+      - name: Installer les dépendances
+        run: npm install --no-audit --no-fund
+
+      # --- Upload seul (bouton "🚀 Publier" du bot) : pas de rendu ---
+      - name: Upload TikTok uniquement
+        if: ${{ inputs.mode == 'publish-only' }}
+        env:
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+          BUFFER_TIKTOK_PROFILE_ID: ${{ secrets.BUFFER_TIKTOK_PROFILE_ID }}
+        run: npx tsx scripts/upload.ts
+
+      # --- Pipeline (IA -> rendu -> upload conditionnel) ---
+      - name: Pipeline
+        if: ${{ inputs.mode != 'publish-only' }}
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_MODEL_ID: ${{ vars.ELEVENLABS_MODEL_ID }}
+          FISH_AUDIO_API_KEYS: ${{ secrets.FISH_AUDIO_API_KEYS }}
+          FISH_AUDIO_REFERENCE_ID: ${{ vars.FISH_AUDIO_REFERENCE_ID }}
+          EDGE_TTS_VOICE: ${{ vars.EDGE_TTS_VOICE }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ inputs.chat_id }}
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+          BUFFER_TIKTOK_PROFILE_ID: ${{ secrets.BUFFER_TIKTOK_PROFILE_ID }}
+          FORCED_TOPIC: ${{ inputs.topic }}
+        run: |
+          FLAGS=""
+          if [ "${{ inputs.mode }}" != "publish" ]; then FLAGS="$FLAGS --skip-upload"; fi
+          if [ "${{ inputs.skip_generate }}" = "true" ] || [ "${{ inputs.mode }}" = "regenerate" ]; then FLAGS="$FLAGS --skip-generate"; fi
+          echo "Flags: $FLAGS"
+          npx tsx scripts/pipeline.ts $FLAGS
+
+      # --- Notification Telegram (lien Litterbox + boutons Zoom/Publier) ---
+      - name: Notifier Telegram
+        if: ${{ always() && inputs.chat_id != '' && inputs.mode != 'publish-only' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ inputs.chat_id }}
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+        run: npx tsx scripts/notify-telegram.ts
+
+
+      # --- Persistance : sauvegarde du JSON IA + de la memoire des sujets ---
+      - name: Commit & push (input/, history.json, quiz.json)
+        if: ${{ success() && inputs.mode != 'publish-only' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A input/ history.json quiz.json
+          if git diff --staged --quiet; then
+            echo "Rien a committer."
+          else
+            git commit -m "chore(ia): sauvegarde metadata + memoire quiz [skip ci]"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: ${{ inputs.mode != 'publish-only' }}
+        with:
+          name: Video-Quiz-Finale-MP4
+          path: out/quiz.mp4
+          if-no-files-found: error

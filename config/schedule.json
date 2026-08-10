@@ -1,6 +1,7 @@
 {
   "enabled": true,
   "times": [
+    "01:00",
     "15:00"
   ],
   "timezone": "GMT",

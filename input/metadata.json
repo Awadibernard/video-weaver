@@ -1,240 +1,159 @@
 {
-  "topic": "🔬 Découvre les Secrets de la Science !",
-  "description": "Teste tes connaissances en science et découvre de nouvelles choses incroyables !",
+  "topic": "🧠 Découvre les Secrets du Cerveau !",
+  "description": "Teste tes connaissances sur le fonctionnement de notre cerveau !",
   "hashtags": [
-    "#science",
-    "#quiz",
-    "#decouverte"
+    "#neurosciences",
+    "#psychologie",
+    "#science"
   ],
-  "motif": "tech",
+  "motif": "brain",
   "cta": "Abonne-toi pour 1 quiz / jour !",
   "ctaAudio": "Abonne-toi pour un quiz par jour !",
   "emojis": [
-    "🔬",
-    "🧪",
-    "✨",
-    "🌍",
-    "⚡",
     "🧠",
-    "🚀"
+    "👀",
+    "💡",
+    "🔬",
+    "📚",
+    "💻",
+    "🎯"
   ],
   "uiScale": 0.85,
-  "questionCount": 8,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Qui a inventé la pénicilline ?",
-      "questionAudio": "Qui a invente la penicilline",
-      "emojis": [
-        "🧬",
-        "💡",
-        "🏥",
-        "👨‍⚕️",
-        "🔬",
-        "📚",
-        "💻"
-      ],
-      "options": [
-        "Alexander Fleming",
-        "Louis Pasteur",
-        "Marie Curie"
-      ],
-      "correct": 0,
-      "answer": "Alexander Fleming",
-      "explanation": "Alexander Fleming a découvert la pénicilline en 1928. Il a reçu le prix Nobel pour cette découverte.",
-      "explanationAudio": "Alexander Fleming a decouvert la penicilline en mille neuf cent vingt huit il a recu le prix nobel pour cette decouverte",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of Photo de Alexander Fleming, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo de la penicilline, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que le principe de la relativité ?",
-      "questionAudio": "Qu est ce que le principe de la relativite",
-      "emojis": [
-        "🚂",
-        "🕰️",
-        "🔝",
-        "👨‍🎓",
-        "💡",
-        "📝",
-        "🔍"
-      ],
-      "options": [
-        "La vitesse de la lumière est constante",
-        "La gravité est une force universelle",
-        "Le temps est absolu"
-      ],
-      "correct": 0,
-      "answer": "La vitesse de la lumière est constante",
-      "explanation": "Le principe de la relativité d'Einstein stipule que la vitesse de la lumière est constante dans toutes les directions.",
-      "explanationAudio": "Le principe de la relativite d einstein stipule que la vitesse de la lumiere est constante dans toutes les directions",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of Photo d'Albert Einstein, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'une formule mathematique, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un train en mouvement, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que l'ADN ?",
-      "questionAudio": "Qu est ce que l adn",
-      "emojis": [
-        "🧬",
-        "🔬",
-        "👩‍🔬",
-        "💡",
-        "📚",
-        "🔍",
-        "👀"
-      ],
-      "options": [
-        "Un acide aminé",
-        "Un acide nucléique",
-        "Un glucide"
-      ],
-      "correct": 1,
-      "answer": "Un acide nucléique",
-      "explanation": "L'ADN est un acide nucléique qui contient les instructions génétiques pour le développement et la fonction des organismes vivants.",
-      "explanationAudio": "L adn est un acide nucleique qui contient les instructions genetiques pour le developpement et la fonction des organismes vivants",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of Photo d'une double helice, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'une cellule, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Qui a inventé le téléphone ?",
-      "questionAudio": "Qui a invente le telephone",
-      "emojis": [
-        "📞",
-        "📱",
-        "👂",
-        "💡",
-        "📚",
-        "🔍",
-        "👀"
-      ],
-      "options": [
-        "Alexander Graham Bell",
-        "Thomas Edison",
-        "Guglielmo Marconi"
-      ],
-      "correct": 0,
-      "answer": "Alexander Graham Bell",
-      "explanation": "Alexander Graham Bell a inventé le téléphone en 1876. Il a reçu le premier brevet pour cet appareil.",
-      "explanationAudio": "Alexander Graham Bell a invente le telephone en mille huit cent soixante seize il a recu le premier brevet pour cet appareil",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of Photo d'Alexander Graham Bell, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un telephone antique, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que la photosynthèse ?",
-      "questionAudio": "Qu est ce que la photosynthese",
-      "emojis": [
-        "🌱",
-        "🌿",
-        "🌻",
-        "🌞",
-        "🔬",
-        "📚",
-        "🔍"
-      ],
-      "options": [
-        "Un processus de respiration",
-        "Un processus de photosynthèse",
-        "Un processus de fermentation"
-      ],
-      "correct": 1,
-      "answer": "Un processus de photosynthèse",
-      "explanation": "La photosynthèse est un processus par lequel les plantes et certaines bactéries convertissent l'énergie lumineuse en énergie chimique.",
-      "explanationAudio": "La photosynthese est un processus par lequel les plantes et certaines bacteries convertissent l energie lumineuse en energie chimique",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of Photo d'une plante, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un arbre, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Qui a découvert les rayons X ?",
-      "questionAudio": "Qui a decouvert les rayons x",
-      "emojis": [
-        "📸",
-        "🔍",
-        "👨‍🔬",
-        "💡",
-        "📚",
-        "🔬",
-        "👀"
-      ],
-      "options": [
-        "Wilhelm Conrad Röntgen",
-        "Marie Curie",
-        "Pierre Curie"
-      ],
-      "correct": 0,
-      "answer": "Wilhelm Conrad Röntgen",
-      "explanation": "Wilhelm Conrad Röntgen a découvert les rayons X en 1895. Il a reçu le premier prix Nobel de physique pour cette découverte.",
-      "explanationAudio": "Wilhelm Conrad Rontgen a decouvert les rayons x en mille huit cent quatre vingt quinze il a recu le premier prix nobel de physique pour cette decouverte",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of Photo de Wilhelm Conrad Rontgen, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un appareil a rayons X, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que la cryogénie ?",
-      "questionAudio": "Qu est ce que la cryogenie",
-      "emojis": [
-        "❄️",
-        "🧬",
-        "👩‍🔬",
-        "💡",
-        "📚",
-        "🔍",
-        "👀"
-      ],
-      "options": [
-        "La science de la conservation des organismes vivants à basse température",
-        "La science de la production d'énergie nucléaire",
-        "La science de la propagation des ondes électromagnétiques"
-      ],
-      "correct": 0,
-      "answer": "La science de la conservation des organismes vivants à basse température",
-      "explanation": "La cryogénie est la science de la conservation des organismes vivants à basse température, souvent en utilisant l'azote liquide.",
-      "explanationAudio": "La cryogenie est la science de la conservation des organismes vivants a basse temperature souvent en utilisant l azote liquide",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of Photo d'un cryogene, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire de cryogenie, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un azote liquide, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Qui a inventé le microscope ?",
-      "questionAudio": "Qui a invente le microscope",
+      "question": "Quelle est la fonction du cortex cérébral ?",
+      "questionAudio": "Quelle est la fonction du cortex cérébral ?",
       "emojis": [
         "🔍",
         "👀",
-        "🔬",
         "💡",
+        "📊",
+        "🔬",
         "📚",
-        "🔍",
-        "👨‍🎓"
+        "👨‍💻"
       ],
       "options": [
-        "Antonie van Leeuwenhoek",
-        "Galileo Galilei",
-        "Leonardo da Vinci"
+        "Contrôle des mouvements",
+        "Traitement des informations sensorielles",
+        "Régulation des émotions"
+      ],
+      "correct": 1,
+      "answer": "Traitement des informations sensorielles",
+      "explanation": "Le cortex cérébral traite les informations sensorielles et permet la perception et la compréhension de notre environnement.",
+      "explanationAudio": "Le cortex cérébral traite les informations sensorielles et permet la perception et la compréhension de notre environnement.",
+      "imagePrompts": [
+        "A hyper-realistic 3D render of brain cortex, detailed neural connections, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A photorealistic illustration of sensory neurons, transmitting signals to the brain, ultra sharp focus, professional photography, volumetric light",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain emotional regulation, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le rôle de la dopamine dans le cerveau ?",
+      "questionAudio": "Quel est le rôle de la dopamine dans le cerveau ?",
+      "emojis": [
+        "💕",
+        "🎁",
+        "👍",
+        "💯",
+        "🔥",
+        "🎉",
+        "😊"
+      ],
+      "options": [
+        "Régulation de la faim",
+        "Contrôle de la douleur",
+        "Plaisir et récompense"
+      ],
+      "correct": 2,
+      "answer": "Plaisir et récompense",
+      "explanation": "La dopamine est impliquée dans la régulation du plaisir et de la récompense, et joue un rôle clé dans les processus de motivation et de plaisir.",
+      "explanationAudio": "La dopamine est impliquée dans la régulation du plaisir et de la récompense, et joue un rôle clé dans les processus de motivation et de plaisir.",
+      "imagePrompts": [
+        "A hyper-realistic illustration of dopamine molecules, binding to receptors, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain reward system, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A photorealistic image of a person experiencing pleasure, smiling, ultra sharp focus, professional photography, volumetric light"
+      ]
+    },
+    {
+      "question": "Quelle est la fonction du système limbique ?",
+      "questionAudio": "Quelle est la fonction du système limbique ?",
+      "emojis": [
+        "💖",
+        "👫",
+        "💬",
+        "📝",
+        "🔍",
+        "📚",
+        "👨‍💻"
+      ],
+      "options": [
+        "Régulation de la température corporelle",
+        "Contrôle des mouvements",
+        "Traitement des émotions"
+      ],
+      "correct": 2,
+      "answer": "Traitement des émotions",
+      "explanation": "Le système limbique est impliqué dans le traitement des émotions, la mémoire et la motivation, et joue un rôle clé dans les processus de régulation émotionnelle.",
+      "explanationAudio": "Le système limbique est impliqué dans le traitement des émotions, la mémoire et la motivation, et joue un rôle clé dans les processus de régulation émotionnelle.",
+      "imagePrompts": [
+        "A hyper-realistic 3D render of limbic system, detailed neural connections, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A photorealistic illustration of emotional neurons, transmitting signals to the brain, ultra sharp focus, professional photography, volumetric light",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain emotional regulation, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le rôle de l'hippocampe dans la mémoire ?",
+      "questionAudio": "Quel est le rôle de l'hippocampe dans la mémoire ?",
+      "emojis": [
+        "📚",
+        "📝",
+        "🔍",
+        "💡",
+        "📊",
+        "👨‍💻",
+        "🎯"
+      ],
+      "options": [
+        "Stockage de la mémoire à long terme",
+        "Traitement des informations sensorielles",
+        "Régulation des émotions"
       ],
       "correct": 0,
-      "answer": "Antonie van Leeuwenhoek",
-      "explanation": "Antonie van Leeuwenhoek est souvent crédité de l'invention du microscope, bien qu'il ait amélioré les designs existants.",
-      "explanationAudio": "Antonie van Leeuwenhoek est souvent credite de l invention du microscope bien qu il ait ameliore les designs existants",
+      "answer": "Stockage de la mémoire à long terme",
+      "explanation": "L'hippocampe est impliqué dans la formation et le stockage de la mémoire à long terme, et joue un rôle clé dans les processus de consolidation de la mémoire.",
+      "explanationAudio": "L'hippocampe est impliqué dans la formation et le stockage de la mémoire à long terme, et joue un rôle clé dans les processus de consolidation de la mémoire.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of Photo d'Antonie van Leeuwenhoek, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un microscope antique, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic illustration of hippocampus, detailed neural connections, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A photorealistic image of a person remembering a memory, smiling, ultra sharp focus, professional photography, volumetric light",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain memory consolidation, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le rôle de la plasticité cérébrale ?",
+      "questionAudio": "Quel est le rôle de la plasticité cérébrale ?",
+      "emojis": [
+        "🔄",
+        "🔩",
+        "📈",
+        "💡",
+        "📊",
+        "👨‍💻",
+        "🎯"
+      ],
+      "options": [
+        "Régulation de la température corporelle",
+        "Contrôle des mouvements",
+        "Adaptation et réorganisation du cerveau"
+      ],
+      "correct": 2,
+      "answer": "Adaptation et réorganisation du cerveau",
+      "explanation": "La plasticité cérébrale permet l'adaptation et la réorganisation du cerveau en réponse à des changements dans l'environnement ou à des expériences nouvelles.",
+      "explanationAudio": "La plasticité cérébrale permet l'adaptation et la réorganisation du cerveau en réponse à des changements dans l'environnement ou à des expériences nouvelles.",
+      "imagePrompts": [
+        "A hyper-realistic illustration of brain neurons, adapting and reorganizing, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A photorealistic image of a person learning a new skill, smiling, ultra sharp focus, professional photography, volumetric light",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain plasticity, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

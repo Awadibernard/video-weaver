@@ -1,125 +1,240 @@
 {
-  "topic": "Philosophie",
-  "description": "Découvrez les fondements de la pensée philosophique",
+  "topic": "🎥 Quiz Cinéma : Testez vos connaissances !",
+  "description": "Découvrez vos connaissances en cinéma et partagez vos scores !",
   "hashtags": [
-    "#philosophie",
-    "#science"
+    "#cinema",
+    "#quiz",
+    "#culture"
   ],
-  "motif": "brain",
-  "cta": "Abonne-toi pour un quiz par jour !",
+  "motif": "tech",
+  "cta": "Abonne-toi pour 1 quiz / jour !",
+  "ctaAudio": "Abonne-toi pour un quiz par jour !",
   "emojis": [
-    "🧠",
-    "💡",
-    "📚",
-    "👥",
-    "💭"
+    "🍿",
+    "🎬",
+    "📽",
+    "🎥",
+    "👏",
+    "🎉",
+    "📚"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 8,
   "questions": [
     {
-      "question": "Qui est le père de la philosophie occidentale ?",
+      "question": "Qui a réalisé 'Pulp Fiction' ?",
+      "questionAudio": "Qui a realise Pulp Fiction ?",
       "emojis": [
-        "👴",
+        "🎥",
+        "📽",
+        "👊",
+        "💼",
         "📚",
-        "💡"
+        "👏",
+        "🎬"
       ],
       "options": [
-        "Platon",
-        "Aristote",
-        "Socrate"
-      ],
-      "correct": 2,
-      "answer": "Socrate",
-      "explanation": "Socrate est considéré comme le père de la philosophie occidentale en raison de ses méthodes de questionnement et de ses contributions à l'éthique et à la métaphysique. Il a influencé de nombreux philosophes, notamment Platon et Aristote.",
-      "imagePrompts": [
-        "A cinematic lighting close-up of a bust of Plato, highly detailed, vivid colors, ultra sharp focus, professional photography",
-        "A hyper-realistic photorealistic 3D render of A hyper-realistic detailed 3D render of Aristotle standing in a ancient Greek library, surrounded by books, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A highly detailed illustration of Socrates sitting on a stone bench, deep in thought, swirling clouds in the background, volumetric light rays, 8k resolution"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que le stoïcisme ?",
-      "emojis": [
-        "🌿",
-        "🙏",
-        "💪"
-      ],
-      "options": [
-        "Une école de pensée qui valorise la raison et la vertu",
-        "Une philosophie qui prône le plaisir et la richesse",
-        "Un mouvement qui cherche à détruire la société"
+        "Quentin Tarantino",
+        "Martin Scorsese",
+        "Steven Spielberg"
       ],
       "correct": 0,
-      "answer": "Une école de pensée qui valorise la raison et la vertu",
-      "explanation": "Le stoïcisme est une école de pensée qui met l'accent sur la raison, la vertu et la self-maîtrise. Les stoïciens croient que les individus devraient se concentrer sur les choses qui sont sous leur contrôle et accepter les choses qui ne le sont pas.",
+      "answer": "Quentin Tarantino",
+      "explanation": "Pulp Fiction est un film de 1994 écrit et réalisé par Quentin Tarantino.",
+      "explanationAudio": "Pulp Fiction est un film de mil neuf cent quatre vingt quatorze ecrit et realise par Quentin Tarantino.",
       "imagePrompts": [
-        "A highly detailed 3D render of a stoic philosopher standing in a peaceful garden, surrounded by nature, cinematic lighting, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A photorealistic illustration of a person indulging in luxurious food and drink, dramatic composition, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of a person destroying a city, swirling clouds and smoke in the background, volumetric light rays, 8k resolution"
+        "A hyper-realistic photorealistic 3D render of Quentin Tarantino, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Pulp Fiction poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Film scene from Pulp Fiction, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Qui est l'auteur du livre 'Le Contrat social' ?",
+      "question": "Qui a joué le rôle de Luke Skywalker ?",
+      "questionAudio": "Qui a joue le role de Luke Skywalker ?",
       "emojis": [
-        "📚",
-        "👑",
-        "🕊️"
-      ],
-      "options": [
-        "Jean-Jacques Rousseau",
-        "John Locke",
-        "Thomas Hobbes"
-      ],
-      "correct": 0,
-      "answer": "Jean-Jacques Rousseau",
-      "explanation": "Jean-Jacques Rousseau est l'auteur du livre 'Le Contrat social', qui explore les fondements de la société et du gouvernement. Il argue que les individus sont meilleurs dans l'état de nature et que la société corrompt les individus.",
-      "imagePrompts": [
-        "A highly detailed illustration of Jean-Jacques Rousseau sitting at a desk, writing, surrounded by books and papers, cinematic lighting, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of John Locke standing in a library, surrounded by books, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of Thomas Hobbes sitting on a throne, surrounded by darkness and smoke, volumetric light rays, 8k resolution"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que l'existentialisme ?",
-      "emojis": [
-        "🗺️",
+        "🚀",
+        "👽",
+        "🔪",
+        "👊",
+        "🔴",
         "🕊️",
-        "💔"
-      ],
-      "options": [
-        "Une philosophie qui met l'accent sur la liberté et la responsabilité individuelle",
-        "Une école de pensée qui prône la conformité et l'obéissance",
-        "Un mouvement qui cherche à détruire l'individualité"
-      ],
-      "correct": 0,
-      "answer": "Une philosophie qui met l'accent sur la liberté et la responsabilité individuelle",
-      "explanation": "L'existentialisme est une philosophie qui met l'accent sur la liberté et la responsabilité individuelle. Les existentialistes croient que les individus sont libres de choisir leur propre chemin dans la vie et qu'ils sont responsables de leurs choix.",
-      "imagePrompts": [
-        "A highly detailed 3D render of a person standing at a crossroads, surrounded by darkness and uncertainty, cinematic lighting, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A photorealistic illustration of a person following a crowd, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of a person being consumed by a void, swirling clouds and smoke in the background, volumetric light rays, 8k resolution"
-      ]
-    },
-    {
-      "question": "Qui est l'auteur du livre 'La République' ?",
-      "emojis": [
-        "🏛️",
-        "📚",
         "👑"
       ],
       "options": [
-        "Platon",
-        "Aristote",
-        "Épicure"
+        "Mark Hamill",
+        "Harrison Ford",
+        "Carrie Fisher"
       ],
       "correct": 0,
-      "answer": "Platon",
-      "explanation": "Platon est l'auteur du livre 'La République', qui explore les fondements de la justice et de la société idéale. Il argue que la société idéale serait gouvernée par des philosophes-rois qui ont atteint la connaissance de la vérité.",
+      "answer": "Mark Hamill",
+      "explanation": "Mark Hamill a joué le rôle de Luke Skywalker dans la saga Star Wars.",
+      "explanationAudio": "Mark Hamill a joue le role de Luke Skywalker dans la saga Star Wars.",
       "imagePrompts": [
-        "A highly detailed illustration of Plato standing in a ancient Greek city, surrounded by buildings and people, cinematic lighting, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of Aristotle standing in a library, surrounded by books, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of Epicurus sitting in a garden, surrounded by nature, volumetric light rays, 8k resolution"
+        "A hyper-realistic photorealistic 3D render of Mark Hamill, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Luke Skywalker costume, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Star Wars poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le film le plus rentable de tous les temps ?",
+      "questionAudio": "Quel est le film le plus rentable de tous les temps ?",
+      "emojis": [
+        "🎥",
+        "📈",
+        "👊",
+        "💸",
+        "🔥",
+        "👑",
+        "🚀"
+      ],
+      "options": [
+        "Avengers : Endgame",
+        "Titanic",
+        "Star Wars : Le Réveil de la Force"
+      ],
+      "correct": 0,
+      "answer": "Avengers : Endgame",
+      "explanation": "Avengers : Endgame est le film le plus rentable de tous les temps, avec plus de 2,79 milliards de dollars de recettes.",
+      "explanationAudio": "Avengers Endgame est le film le plus rentable de tous les temps avec plus de deux milliards sept cent quatre vingt dix millions de dollars de recettes.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of Avengers Endgame poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Marvel Studios logo, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Box office results, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Qui a réalisé 'Le Seigneur des Anneaux' ?",
+      "questionAudio": "Qui a realise Le Seigneur des Anneaux ?",
+      "emojis": [
+        "🏹",
+        "🔮",
+        "👑",
+        "🔥",
+        "🌄",
+        "🏞️",
+        "👊"
+      ],
+      "options": [
+        "Peter Jackson",
+        "James Cameron",
+        "Steven Spielberg"
+      ],
+      "correct": 0,
+      "answer": "Peter Jackson",
+      "explanation": "Peter Jackson a réalisé la trilogie du Seigneur des Anneaux, basée sur les romans de J.R.R. Tolkien.",
+      "explanationAudio": "Peter Jackson a realise la trilogie du Seigneur des Anneaux basee sur les romans de J R R Tolkien.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of Peter Jackson, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Le Seigneur des Anneaux poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Middle-earth landscape, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Qui a joué le rôle de Tony Stark / Iron Man ?",
+      "questionAudio": "Qui a joue le role de Tony Stark Iron Man ?",
+      "emojis": [
+        "🤖",
+        "🔩",
+        "👊",
+        "💼",
+        "🔴",
+        "👑",
+        "🚀"
+      ],
+      "options": [
+        "Robert Downey Jr.",
+        "Chris Hemsworth",
+        "Chris Evans"
+      ],
+      "correct": 0,
+      "answer": "Robert Downey Jr.",
+      "explanation": "Robert Downey Jr. a joué le rôle de Tony Stark / Iron Man dans l'univers cinématographique Marvel.",
+      "explanationAudio": "Robert Downey Jr a joue le role de Tony Stark Iron Man dans l univers cinematographique Marvel.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of Robert Downey Jr, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Iron Man costume, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Marvel Studios logo, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le film d'animation le plus rentable de tous les temps ?",
+      "questionAudio": "Quel est le film d animation le plus rentable de tous les temps ?",
+      "emojis": [
+        "🎤",
+        "👑",
+        "🌟",
+        "🎥",
+        "👧",
+        "👸",
+        "🏰"
+      ],
+      "options": [
+        "La Reine des Neiges",
+        "Le Roi Lion",
+        "Toy Story 3"
+      ],
+      "correct": 0,
+      "answer": "La Reine des Neiges",
+      "explanation": "La Reine des Neiges est le film d'animation le plus rentable de tous les temps, avec plus de 1,27 milliard de dollars de recettes.",
+      "explanationAudio": "La Reine des Neiges est le film d animation le plus rentable de tous les temps avec plus d un milliard deux cent soixante dix millions de dollars de recettes.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of La Reine des Neiges poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Disney logo, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Box office results, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Qui a joué le rôle de James Bond ?",
+      "questionAudio": "Qui a joue le role de James Bond ?",
+      "emojis": [
+        "🔫",
+        "🕵️‍♂️",
+        "🔴",
+        "👊",
+        "🚗",
+        "👑",
+        "🕷️"
+      ],
+      "options": [
+        "Daniel Craig",
+        "Sean Connery",
+        "Roger Moore"
+      ],
+      "correct": 0,
+      "answer": "Daniel Craig",
+      "explanation": "Sean Connery a joué le rôle de James Bond dans sept films de la saga, de 1962 à 1983.",
+      "explanationAudio": "Sean Connery a joue le role de James Bond dans sept films de la saga de mil neuf cent soixante deux a mil neuf cent quatre vingt trois.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of Sean Connery, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of James Bond poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Aston Martin DB5, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Qui a réalisé 'Le Parrain' ?",
+      "questionAudio": "Qui a realise Le Parrain ?",
+      "emojis": [
+        "🎥",
+        "📽",
+        "👊",
+        "🔫",
+        "👑",
+        "🕊️",
+        "🔴"
+      ],
+      "options": [
+        "Francis Ford Coppola",
+        "Martin Scorsese",
+        "Steven Spielberg"
+      ],
+      "correct": 0,
+      "answer": "Francis Ford Coppola",
+      "explanation": "Francis Ford Coppola a réalisé la trilogie du Parrain, basée sur les romans de Mario Puzo.",
+      "explanationAudio": "Francis Ford Coppola a realise la trilogie du Parrain basee sur les romans de Mario Puzo.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of Francis Ford Coppola, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Le Parrain poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of Film scene from Le Parrain, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

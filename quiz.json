@@ -1,28 +1,28 @@
 [
   {
-    "question": "Qui a réalisé 'Pulp Fiction' ?",
-    "questionAudio": "Qui a realise Pulp Fiction ?",
+    "question": "Qui a inventé la pénicilline ?",
+    "questionAudio": "Qui a invente la penicilline",
     "options": [
-      "Quentin Tarantino",
-      "Martin Scorsese",
-      "Steven Spielberg"
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Marie Curie"
     ],
     "correct": 0,
-    "explanation": "Pulp Fiction est un film de 1994 écrit et réalisé par Quentin Tarantino.",
-    "explanationAudio": "Pulp Fiction est un film de mil neuf cent quatre vingt quatorze ecrit et realise par Quentin Tarantino.",
+    "explanation": "Alexander Fleming a découvert la pénicilline en 1928. Il a reçu le prix Nobel pour cette découverte.",
+    "explanationAudio": "Alexander Fleming a decouvert la penicilline en mille neuf cent vingt huit il a recu le prix nobel pour cette decouverte",
     "emojis": [
-      "🎥",
-      "📽",
-      "👊",
-      "💼",
+      "🧬",
+      "💡",
+      "🏥",
+      "👨‍⚕️",
+      "🔬",
       "📚",
-      "👏",
-      "🎬"
+      "💻"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Quentin Tarantino, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Pulp Fiction poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Film scene from Pulp Fiction, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of Photo de Alexander Fleming, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo de la penicilline, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
@@ -30,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Qui a joué le rôle de Luke Skywalker ?",
-    "questionAudio": "Qui a joue le role de Luke Skywalker ?",
+    "question": "Qu'est-ce que le principe de la relativité ?",
+    "questionAudio": "Qu est ce que le principe de la relativite",
     "options": [
-      "Mark Hamill",
-      "Harrison Ford",
-      "Carrie Fisher"
+      "La vitesse de la lumière est constante",
+      "La gravité est une force universelle",
+      "Le temps est absolu"
     ],
     "correct": 0,
-    "explanation": "Mark Hamill a joué le rôle de Luke Skywalker dans la saga Star Wars.",
-    "explanationAudio": "Mark Hamill a joue le role de Luke Skywalker dans la saga Star Wars.",
+    "explanation": "Le principe de la relativité d'Einstein stipule que la vitesse de la lumière est constante dans toutes les directions.",
+    "explanationAudio": "Le principe de la relativite d einstein stipule que la vitesse de la lumiere est constante dans toutes les directions",
     "emojis": [
-      "🚀",
-      "👽",
-      "🔪",
-      "👊",
-      "🔴",
-      "🕊️",
-      "👑"
+      "🚂",
+      "🕰️",
+      "🔝",
+      "👨‍🎓",
+      "💡",
+      "📝",
+      "🔍"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Mark Hamill, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Luke Skywalker costume, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Star Wars poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of Photo d'Albert Einstein, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'une formule mathematique, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un train en mouvement, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
@@ -60,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le film le plus rentable de tous les temps ?",
-    "questionAudio": "Quel est le film le plus rentable de tous les temps ?",
+    "question": "Qu'est-ce que l'ADN ?",
+    "questionAudio": "Qu est ce que l adn",
     "options": [
-      "Avengers : Endgame",
-      "Titanic",
-      "Star Wars : Le Réveil de la Force"
+      "Un acide aminé",
+      "Un acide nucléique",
+      "Un glucide"
     ],
-    "correct": 0,
-    "explanation": "Avengers : Endgame est le film le plus rentable de tous les temps, avec plus de 2,79 milliards de dollars de recettes.",
-    "explanationAudio": "Avengers Endgame est le film le plus rentable de tous les temps avec plus de deux milliards sept cent quatre vingt dix millions de dollars de recettes.",
+    "correct": 1,
+    "explanation": "L'ADN est un acide nucléique qui contient les instructions génétiques pour le développement et la fonction des organismes vivants.",
+    "explanationAudio": "L adn est un acide nucleique qui contient les instructions genetiques pour le developpement et la fonction des organismes vivants",
     "emojis": [
-      "🎥",
-      "📈",
-      "👊",
-      "💸",
-      "🔥",
-      "👑",
-      "🚀"
+      "🧬",
+      "🔬",
+      "👩‍🔬",
+      "💡",
+      "📚",
+      "🔍",
+      "👀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Avengers Endgame poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Marvel Studios logo, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Box office results, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of Photo d'une double helice, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'une cellule, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
@@ -90,29 +90,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Qui a réalisé 'Le Seigneur des Anneaux' ?",
-    "questionAudio": "Qui a realise Le Seigneur des Anneaux ?",
+    "question": "Qui a inventé le téléphone ?",
+    "questionAudio": "Qui a invente le telephone",
     "options": [
-      "Peter Jackson",
-      "James Cameron",
-      "Steven Spielberg"
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Guglielmo Marconi"
     ],
     "correct": 0,
-    "explanation": "Peter Jackson a réalisé la trilogie du Seigneur des Anneaux, basée sur les romans de J.R.R. Tolkien.",
-    "explanationAudio": "Peter Jackson a realise la trilogie du Seigneur des Anneaux basee sur les romans de J R R Tolkien.",
+    "explanation": "Alexander Graham Bell a inventé le téléphone en 1876. Il a reçu le premier brevet pour cet appareil.",
+    "explanationAudio": "Alexander Graham Bell a invente le telephone en mille huit cent soixante seize il a recu le premier brevet pour cet appareil",
     "emojis": [
-      "🏹",
-      "🔮",
-      "👑",
-      "🔥",
-      "🌄",
-      "🏞️",
-      "👊"
+      "📞",
+      "📱",
+      "👂",
+      "💡",
+      "📚",
+      "🔍",
+      "👀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Peter Jackson, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Le Seigneur des Anneaux poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Middle-earth landscape, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of Photo d'Alexander Graham Bell, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un telephone antique, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
@@ -120,29 +120,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Qui a joué le rôle de Tony Stark / Iron Man ?",
-    "questionAudio": "Qui a joue le role de Tony Stark Iron Man ?",
+    "question": "Qu'est-ce que la photosynthèse ?",
+    "questionAudio": "Qu est ce que la photosynthese",
     "options": [
-      "Robert Downey Jr.",
-      "Chris Hemsworth",
-      "Chris Evans"
+      "Un processus de respiration",
+      "Un processus de photosynthèse",
+      "Un processus de fermentation"
     ],
-    "correct": 0,
-    "explanation": "Robert Downey Jr. a joué le rôle de Tony Stark / Iron Man dans l'univers cinématographique Marvel.",
-    "explanationAudio": "Robert Downey Jr a joue le role de Tony Stark Iron Man dans l univers cinematographique Marvel.",
+    "correct": 1,
+    "explanation": "La photosynthèse est un processus par lequel les plantes et certaines bactéries convertissent l'énergie lumineuse en énergie chimique.",
+    "explanationAudio": "La photosynthese est un processus par lequel les plantes et certaines bacteries convertissent l energie lumineuse en energie chimique",
     "emojis": [
-      "🤖",
-      "🔩",
-      "👊",
-      "💼",
-      "🔴",
-      "👑",
-      "🚀"
+      "🌱",
+      "🌿",
+      "🌻",
+      "🌞",
+      "🔬",
+      "📚",
+      "🔍"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Robert Downey Jr, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Iron Man costume, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Marvel Studios logo, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of Photo d'une plante, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un arbre, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
@@ -150,29 +150,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le film d'animation le plus rentable de tous les temps ?",
-    "questionAudio": "Quel est le film d animation le plus rentable de tous les temps ?",
+    "question": "Qui a découvert les rayons X ?",
+    "questionAudio": "Qui a decouvert les rayons x",
     "options": [
-      "La Reine des Neiges",
-      "Le Roi Lion",
-      "Toy Story 3"
+      "Wilhelm Conrad Röntgen",
+      "Marie Curie",
+      "Pierre Curie"
     ],
     "correct": 0,
-    "explanation": "La Reine des Neiges est le film d'animation le plus rentable de tous les temps, avec plus de 1,27 milliard de dollars de recettes.",
-    "explanationAudio": "La Reine des Neiges est le film d animation le plus rentable de tous les temps avec plus d un milliard deux cent soixante dix millions de dollars de recettes.",
+    "explanation": "Wilhelm Conrad Röntgen a découvert les rayons X en 1895. Il a reçu le premier prix Nobel de physique pour cette découverte.",
+    "explanationAudio": "Wilhelm Conrad Rontgen a decouvert les rayons x en mille huit cent quatre vingt quinze il a recu le premier prix nobel de physique pour cette decouverte",
     "emojis": [
-      "🎤",
-      "👑",
-      "🌟",
-      "🎥",
-      "👧",
-      "👸",
-      "🏰"
+      "📸",
+      "🔍",
+      "👨‍🔬",
+      "💡",
+      "📚",
+      "🔬",
+      "👀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of La Reine des Neiges poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Disney logo, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Box office results, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of Photo de Wilhelm Conrad Rontgen, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un appareil a rayons X, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
@@ -180,29 +180,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Qui a joué le rôle de James Bond ?",
-    "questionAudio": "Qui a joue le role de James Bond ?",
+    "question": "Qu'est-ce que la cryogénie ?",
+    "questionAudio": "Qu est ce que la cryogenie",
     "options": [
-      "Daniel Craig",
-      "Sean Connery",
-      "Roger Moore"
+      "La science de la conservation des organismes vivants à basse température",
+      "La science de la production d'énergie nucléaire",
+      "La science de la propagation des ondes électromagnétiques"
     ],
     "correct": 0,
-    "explanation": "Sean Connery a joué le rôle de James Bond dans sept films de la saga, de 1962 à 1983.",
-    "explanationAudio": "Sean Connery a joue le role de James Bond dans sept films de la saga de mil neuf cent soixante deux a mil neuf cent quatre vingt trois.",
+    "explanation": "La cryogénie est la science de la conservation des organismes vivants à basse température, souvent en utilisant l'azote liquide.",
+    "explanationAudio": "La cryogenie est la science de la conservation des organismes vivants a basse temperature souvent en utilisant l azote liquide",
     "emojis": [
-      "🔫",
-      "🕵️‍♂️",
-      "🔴",
-      "👊",
-      "🚗",
-      "👑",
-      "🕷️"
+      "❄️",
+      "🧬",
+      "👩‍🔬",
+      "💡",
+      "📚",
+      "🔍",
+      "👀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Sean Connery, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of James Bond poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Aston Martin DB5, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of Photo d'un cryogene, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire de cryogenie, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un azote liquide, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
@@ -210,29 +210,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Qui a réalisé 'Le Parrain' ?",
-    "questionAudio": "Qui a realise Le Parrain ?",
+    "question": "Qui a inventé le microscope ?",
+    "questionAudio": "Qui a invente le microscope",
     "options": [
-      "Francis Ford Coppola",
-      "Martin Scorsese",
-      "Steven Spielberg"
+      "Antonie van Leeuwenhoek",
+      "Galileo Galilei",
+      "Leonardo da Vinci"
     ],
     "correct": 0,
-    "explanation": "Francis Ford Coppola a réalisé la trilogie du Parrain, basée sur les romans de Mario Puzo.",
-    "explanationAudio": "Francis Ford Coppola a realise la trilogie du Parrain basee sur les romans de Mario Puzo.",
+    "explanation": "Antonie van Leeuwenhoek est souvent crédité de l'invention du microscope, bien qu'il ait amélioré les designs existants.",
+    "explanationAudio": "Antonie van Leeuwenhoek est souvent credite de l invention du microscope bien qu il ait ameliore les designs existants",
     "emojis": [
-      "🎥",
-      "📽",
-      "👊",
-      "🔫",
-      "👑",
-      "🕊️",
-      "🔴"
+      "🔍",
+      "👀",
+      "🔬",
+      "💡",
+      "📚",
+      "🔍",
+      "👨‍🎓"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Francis Ford Coppola, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Le Parrain poster, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Film scene from Le Parrain, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of Photo d'Antonie van Leeuwenhoek, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un microscope antique, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Photo d'un laboratoire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",

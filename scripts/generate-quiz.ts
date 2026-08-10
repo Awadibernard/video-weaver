@@ -104,6 +104,7 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
   const rawPrompts: string[] =
     Array.isArray(raw.imagePrompts) && raw.imagePrompts.length === 3 ? raw.imagePrompts : options;
   const imagePrompts = rawPrompts.map((p) => {
+    // Accents = résidu de français → on retire les diacritiques
     let text = String(p || "")
       .trim()
       .normalize("NFD")
@@ -115,6 +116,7 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
     return text;
   }) as [string, string, string];
 
+  // Emojis spécifiques à CETTE question
   const emojis = (Array.isArray(raw.emojis) ? raw.emojis : [])
     .filter((e: unknown) => typeof e === "string" && e.trim().length > 0)
     .map((e: string) => e.trim()) as string[];
@@ -123,6 +125,7 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
     if (!emojis.includes(e)) emojis.push(e);
   }
 
+  // Séparation visuel / audio
   const pair = (value: any, legacy: any): { display: string; audio: string } => {
     const src = value ?? legacy;
     if (src && typeof src === "object") {
@@ -168,19 +171,22 @@ export async function generateQuiz(): Promise<QuizMetadata> {
   const forcedTopic = (process.env.FORCED_TOPIC || "").trim();
   const currentCategory = forcedTopic || history.categories[nextIndex];
 
+  // Tirage pondéré du nombre de questions
   const questionCount = getRandomQuestionCount();
 
   console.log(`📌 Catégorie sélectionnée : ${currentCategory}${forcedTopic ? " (imposée)" : ""}`);
   console.log(`🎲 Nombre de questions tiré au sort : ${questionCount}`);
+  console.log(`📜 Sujets déjà abordés : ${history.used_topics.length}`);
 
   const prompt = `
 Tu es un scientifique rigoureux et un expert en vulgarisation pour TikTok.
 Génère EXACTEMENT ${questionCount} questions au format JSON sur ce domaine : "${currentCategory}".
 
-CONTRAINTES DE FIABILITÉ STRICTES :
-1. Chaque information doit être un FAIT SCIENTIFIQUE AVÉRÉ.
-2. Pas de pseudo-science, pas de théories controversées.
-3. Les ${questionCount} questions doivent être DIFFÉRENTES.
+CONTRAINTES DE FIABILITÉ STRICTES (FACT-CHECKING) :
+1. Chaque information, question et réponse doit être un FAIT SCIENTIFIQUE AVÉRÉ et faire l'objet d'un consensus total.
+2. N'invente rien. Aucune pseudo-science, aucune théorie controversée.
+3. Si tu as le moindre doute sur l'exactitude d'un fait, choisis un autre sujet.
+4. Les ${questionCount} questions doivent être DIFFÉRENTES les unes des autres (aucune redite).
 
 INTERDICTION STRICTE DE PARLER DE CES SUJETS :
 ${JSON.stringify(history.used_topics.slice(-100))}
@@ -190,35 +196,65 @@ Tu dois répondre UNIQUEMENT avec un objet JSON valide structuré exactement com
   "topic": "Titre accrocheur et court pour TikTok (ex: 🧠 Test Tes Connaissances en Physique !)",
   "description": "Une phrase d'accroche très captivante pour inciter à regarder et commenter.",
   "hashtags": ["#science", "#quiz", "#cultureg", "#apprendre", "#decouverte"],
-  "motif": "Un seul mot-clé visuel parmi: space, nature, human-body, chemistry, tech, brain",
+  "motif": "Un seul mot-clé de thème visuel parmi: space, nature, human-body, chemistry, tech, brain",
   "cta": { "text_display": "Abonne-toi pour 1 quiz / jour !", "text_audio": "Abonne-toi pour un quiz par jour !" },
   "emojis": ["🔬", "🧪", "✨", "🌍", "⚡", "🧠", "🚀"],
   "uiScale": 0.85,
   "questions": [
     {
       "question": {
-        "text_display": "La question posée ? (max 140 caractères)",
+        "text_display": "La question posée ? (max 140 caractères, chiffres et symboles autorisés)",
         "text_audio": "La même question, entièrement en toutes lettres pour la voix off"
       },
       "options": ["Option A", "Option B", "Option C"],
       "answer": "Le texte EXACT de la bonne réponse, recopié depuis options",
       "correct": 0,
       "explanation": {
-        "text_display": "Explication factuelle en 2 phrases simples.",
+        "text_display": "Explication factuelle en 2 phrases simples (chiffres/symboles autorisés).",
         "text_audio": "La même explication, entièrement en toutes lettres."
       },
       "imagePrompts": ["english prompt A", "english prompt B", "english prompt C"],
-      "emojis": ["7 emojis PROPRES à cette question"]
+      "emojis": ["7 emojis PROPRES à cette question précise"]
     }
   ]
 }
 
 RÈGLES DE FORMAT :
-- "hashtags" : STRICTEMENT ENTRE 3 ET 5 HASHTAGS MAXIMUM. Doivent commencer par #.
 - "topic" : Titre principal percutant pour la publication TikTok.
 - "description" : Texte engageant pour la légende.
-- "questions" : contient EXACTEMENT ${questionCount} éléments.
-- "options" : 3 éléments par question.
+- "hashtags" : STRICTEMENT ENTRE 3 ET 5 HASHTAGS MAXIMUM. Doivent commencer par #.
+- "questions" contient EXACTEMENT ${questionCount} éléments. Ni plus, ni moins.
+- Chaque "options" contient EXACTEMENT 3 éléments.
+- "correct" est l'index (0, 1 ou 2) de "answer" dans "options". Varie la position d'une question à l'autre.
+- "emojis" (racine) : 7 emojis liés au thème global.
+- CHAQUE question possède SON PROPRE champ "emojis" (7 emojis), différent des autres questions et directement lié au contenu de CETTE question (ex: une question sur Napoléon → ["⚔️","🇫🇷","👑","🏛️","📜","🎖️","💣"], une question sur la peinture → ["🎨","🖼️","🖌️","🧑‍🎨","🏛️","✨","🎭"]). Ne recopie JAMAIS la même liste d'une question à l'autre.
+- "uiScale" vaut 0.85 (ne le modifie pas sans raison).
+
+═══════════════════════════════════════════════════════
+SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
+═══════════════════════════════════════════════════════
+Les champs "question", "explanation" et "cta" sont TOUJOURS des objets à deux clés :
+1. "text_display" → ce qui s'affiche à l'écran : court, avec chiffres, unités et symboles (ex: "100 km/h", "-273,15 °C", "H2O", "3,14", "1969").
+2. "text_audio" → ce qui est LU par la synthèse vocale : STRICTEMENT en toutes lettres, sans aucun chiffre ni symbole (ex: "cent kilomètres par heure", "moins deux cent soixante-treize virgule quinze degrés Celsius", "H deux O", "trois virgule quatorze", "mille neuf cent soixante-neuf").
+3. INTERDIT dans "text_audio" : 0-9, %, °, +, -, /, ×, =, ², ³, µ, km/h, °C, etc. Écris "pour cent", "degrés", "plus", "moins", "divisé par", "au carré", etc.
+4. Le sens des deux versions doit être rigoureusement identique.
+
+═══════════════════════════════════════════════════════
+RÔLE SUPPLÉMENTAIRE : "PROMPT MASTER" POUR "imagePrompts"
+═══════════════════════════════════════════════════════
+Le quiz est en FRANÇAIS, mais les "imagePrompts" alimentent un générateur d'images (Stable Diffusion / Pollinations) qui ne comprend QUE l'anglais.
+
+RÈGLES ABSOLUES pour "imagePrompts" :
+1. LANGUE : 100% ANGLAIS. Aucun mot français, aucun accent.
+2. UN PROMPT PAR OPTION, dans le MÊME ORDRE que "options" (3 éléments exactement).
+3. STRUCTURE OBLIGATOIRE : [type de rendu] + [sujet principal très détaillé] + [environnement/contexte] + [éclairage] + [mots-clés de qualité]
+4. MOTS-CLÉS DE QUALITÉ OBLIGATOIRES : au minimum 4 parmi — hyper-realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus, professional photography, volumetric light, dramatic composition, photorealistic 3D render.
+5. LONGUEUR : entre 15 et 35 mots, style "mots-clés séparés par des virgules".
+6. INTERDITS : texte/lettres/chiffres dans l'image, watermark, collage, personnages célèbres, mention du mot "option" ou de la lettre A/B/C.
+
+EXEMPLE DE TRANSFORMATION (à imiter impérativement) :
+  ❌ MAUVAIS : "une balle bleue"  /  "a blue ball"
+  ✅ EXCELLENT : "A hyper-realistic detailed 3D render of planet Earth floating in deep space, swirling clouds over blue oceans, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors"
 `;
 
   console.log("🤖 Envoi de la requête à l'API Groq...");
@@ -230,7 +266,10 @@ RÈGLES DE FORMAT :
       messages: [
         {
           role: "system",
-          content: "Tu es un générateur de JSON. Tu ne dois renvoyer aucun texte en dehors du JSON.",
+          content:
+            "Tu es un générateur de JSON. Tu ne dois renvoyer aucun texte en dehors du JSON. " +
+            `Le tableau 'questions' doit contenir EXACTEMENT ${questionCount} questions. ` +
+            "Chaque question doit contenir son propre champ 'emojis' (7 emojis pertinents, différents d'une question à l'autre) — ce champ ne peut jamais être vide.",
         },
         { role: "user", content: prompt },
       ],
@@ -292,11 +331,17 @@ RÈGLES DE FORMAT :
     questions,
   };
 
-  console.log(`🎉 Quiz généré : "${metadata.topic}" — Hashtags (${metadata.hashtags.length}): ${metadata.hashtags.join(" ")}`);
+  console.log(
+    `🎉 Quiz généré : "${metadata.topic}" — ${metadata.questionCount} questions (motif: ${metadata.motif})`
+  );
+  console.log(`🏷️ Hashtags (${metadata.hashtags.length}) : ${metadata.hashtags.join(" ")}`);
 
+  // --- Écriture metadata.json (upload) ---
   fs.mkdirSync(path.dirname(metadataPath), { recursive: true });
   fs.writeFileSync(metadataPath, JSON.stringify(metadata, null, 2));
+  console.log(`💾 ${metadataPath}`);
 
+  // --- Écriture quiz.json (rendu vidéo) ---
   const videoQuestions: QuizQuestion[] = metadata.questions.map((q) => ({
     question: q.question,
     questionAudio: q.questionAudio,
@@ -313,11 +358,14 @@ RÈGLES DE FORMAT :
   }));
 
   fs.writeFileSync(quizPath, JSON.stringify(videoQuestions, null, 2));
+  console.log(`💾 ${quizPath} (${videoQuestions.length} questions)`);
 
+  // --- Mémoire ---
   history.last_category_index = nextIndex;
   history.used_topics.push(metadata.topic);
   if (history.used_topics.length > 200) history.used_topics.shift();
   fs.writeFileSync(historyPath, JSON.stringify(history, null, 2));
+  console.log("🧠 Mémoire mise à jour.");
 
   return metadata;
 }

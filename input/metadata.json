@@ -1,159 +1,159 @@
 {
-  "topic": "🧠 Découvre les Secrets du Cerveau !",
-  "description": "Teste tes connaissances sur le fonctionnement de notre cerveau !",
+  "topic": "Découvre les Mystères de la Physique !",
+  "description": "Teste tes connaissances en physique et découvre les secrets de l'univers !",
   "hashtags": [
-    "#neurosciences",
-    "#psychologie",
-    "#science"
+    "#physique",
+    "#science",
+    "#decouverte"
   ],
-  "motif": "brain",
+  "motif": "tech",
   "cta": "Abonne-toi pour 1 quiz / jour !",
   "ctaAudio": "Abonne-toi pour un quiz par jour !",
   "emojis": [
-    "🧠",
-    "👀",
-    "💡",
     "🔬",
-    "📚",
-    "💻",
-    "🎯"
+    "🧪",
+    "✨",
+    "🌍",
+    "⚡",
+    "🧠",
+    "🚀"
   ],
   "uiScale": 0.85,
   "questionCount": 5,
   "questions": [
     {
-      "question": "Quelle est la fonction du cortex cérébral ?",
-      "questionAudio": "Quelle est la fonction du cortex cérébral ?",
+      "question": "Qu'est-ce que la vitesse de la lumière ?",
+      "questionAudio": "Qu est ce que la vitesse de la lumiere",
       "emojis": [
-        "🔍",
-        "👀",
         "💡",
-        "📊",
-        "🔬",
-        "📚",
-        "👨‍💻"
-      ],
-      "options": [
-        "Contrôle des mouvements",
-        "Traitement des informations sensorielles",
-        "Régulation des émotions"
-      ],
-      "correct": 1,
-      "answer": "Traitement des informations sensorielles",
-      "explanation": "Le cortex cérébral traite les informations sensorielles et permet la perception et la compréhension de notre environnement.",
-      "explanationAudio": "Le cortex cérébral traite les informations sensorielles et permet la perception et la compréhension de notre environnement.",
-      "imagePrompts": [
-        "A hyper-realistic 3D render of brain cortex, detailed neural connections, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A photorealistic illustration of sensory neurons, transmitting signals to the brain, ultra sharp focus, professional photography, volumetric light",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain emotional regulation, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est le rôle de la dopamine dans le cerveau ?",
-      "questionAudio": "Quel est le rôle de la dopamine dans le cerveau ?",
-      "emojis": [
-        "💕",
-        "🎁",
-        "👍",
-        "💯",
-        "🔥",
-        "🎉",
-        "😊"
-      ],
-      "options": [
-        "Régulation de la faim",
-        "Contrôle de la douleur",
-        "Plaisir et récompense"
-      ],
-      "correct": 2,
-      "answer": "Plaisir et récompense",
-      "explanation": "La dopamine est impliquée dans la régulation du plaisir et de la récompense, et joue un rôle clé dans les processus de motivation et de plaisir.",
-      "explanationAudio": "La dopamine est impliquée dans la régulation du plaisir et de la récompense, et joue un rôle clé dans les processus de motivation et de plaisir.",
-      "imagePrompts": [
-        "A hyper-realistic illustration of dopamine molecules, binding to receptors, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain reward system, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A photorealistic image of a person experiencing pleasure, smiling, ultra sharp focus, professional photography, volumetric light"
-      ]
-    },
-    {
-      "question": "Quelle est la fonction du système limbique ?",
-      "questionAudio": "Quelle est la fonction du système limbique ?",
-      "emojis": [
-        "💖",
-        "👫",
-        "💬",
-        "📝",
+        "🔦",
+        "🕳️",
+        "🚀",
         "🔍",
-        "📚",
-        "👨‍💻"
-      ],
-      "options": [
-        "Régulation de la température corporelle",
-        "Contrôle des mouvements",
-        "Traitement des émotions"
-      ],
-      "correct": 2,
-      "answer": "Traitement des émotions",
-      "explanation": "Le système limbique est impliqué dans le traitement des émotions, la mémoire et la motivation, et joue un rôle clé dans les processus de régulation émotionnelle.",
-      "explanationAudio": "Le système limbique est impliqué dans le traitement des émotions, la mémoire et la motivation, et joue un rôle clé dans les processus de régulation émotionnelle.",
-      "imagePrompts": [
-        "A hyper-realistic 3D render of limbic system, detailed neural connections, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A photorealistic illustration of emotional neurons, transmitting signals to the brain, ultra sharp focus, professional photography, volumetric light",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain emotional regulation, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est le rôle de l'hippocampe dans la mémoire ?",
-      "questionAudio": "Quel est le rôle de l'hippocampe dans la mémoire ?",
-      "emojis": [
-        "📚",
-        "📝",
-        "🔍",
-        "💡",
         "📊",
-        "👨‍💻",
-        "🎯"
+        "👨‍🔬"
       ],
       "options": [
-        "Stockage de la mémoire à long terme",
-        "Traitement des informations sensorielles",
-        "Régulation des émotions"
+        "300 000 km/s",
+        "400 000 km/s",
+        "200 000 km/s"
       ],
       "correct": 0,
-      "answer": "Stockage de la mémoire à long terme",
-      "explanation": "L'hippocampe est impliqué dans la formation et le stockage de la mémoire à long terme, et joue un rôle clé dans les processus de consolidation de la mémoire.",
-      "explanationAudio": "L'hippocampe est impliqué dans la formation et le stockage de la mémoire à long terme, et joue un rôle clé dans les processus de consolidation de la mémoire.",
+      "answer": "300 000 km/s",
+      "explanation": "La vitesse de la lumière est d'environ 300 000 km/s. C'est la vitesse à laquelle la lumière se propage dans le vide.",
+      "explanationAudio": "La vitesse de la lumiere est d environ trois cent mille kilometres par seconde c est la vitesse a laquelle la lumiere se propage dans le vide",
       "imagePrompts": [
-        "A hyper-realistic illustration of hippocampus, detailed neural connections, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A photorealistic image of a person remembering a memory, smiling, ultra sharp focus, professional photography, volumetric light",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain memory consolidation, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic detailed 3D render of a light beam traveling through space, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of a speedometer, with a needle pointing to 300 000 km/s, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A realistic depiction of a physicist measuring the speed of light, using a complex setup, photorealistic 3D render, cinematic lighting, 8k resolution"
       ]
     },
     {
-      "question": "Quel est le rôle de la plasticité cérébrale ?",
-      "questionAudio": "Quel est le rôle de la plasticité cérébrale ?",
+      "question": "Qu'est-ce que la loi de la gravitation universelle ?",
+      "questionAudio": "Qu est ce que la loi de la gravitation universelle",
       "emojis": [
-        "🔄",
-        "🔩",
-        "📈",
-        "💡",
-        "📊",
-        "👨‍💻",
-        "🎯"
+        "🌎",
+        "🌐",
+        "🔀",
+        "📝",
+        "👨‍🔬",
+        "🔍",
+        "💡"
       ],
       "options": [
-        "Régulation de la température corporelle",
-        "Contrôle des mouvements",
-        "Adaptation et réorganisation du cerveau"
+        "F = m1 * m2 / r^2",
+        "F = m1 + m2 * r",
+        "F = m1 - m2 / r"
+      ],
+      "correct": 0,
+      "answer": "F = m1 * m2 / r^2",
+      "explanation": "La loi de la gravitation universelle est F = m1 * m2 / r^2. Elle décrit la force d'attraction entre deux objets en fonction de leurs masses et de la distance qui les sépare.",
+      "explanationAudio": "La loi de la gravitation universelle est F egale m un fois m deux sur r au carré elle decrit la force d attraction entre deux objets en fonction de leurs masses et de la distance qui les separe",
+      "imagePrompts": [
+        "A hyper-realistic detailed 3D render of two planets orbiting each other, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of a physicist writing the equation F = m1 * m2 / r^2 on a blackboard, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A realistic depiction of a gravitational field, with objects being attracted to each other, photorealistic 3D render, cinematic lighting, 8k resolution"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que la théorie de la relativité restreinte ?",
+      "questionAudio": "Qu est ce que la theorie de la relativite restreinte",
+      "emojis": [
+        "🕰️",
+        "📏",
+        "🚂",
+        "🔀",
+        "📝",
+        "👨‍🔬",
+        "💡"
+      ],
+      "options": [
+        "Une théorie de la gravité",
+        "Une théorie de la lumière",
+        "Une théorie du temps et de l'espace"
       ],
       "correct": 2,
-      "answer": "Adaptation et réorganisation du cerveau",
-      "explanation": "La plasticité cérébrale permet l'adaptation et la réorganisation du cerveau en réponse à des changements dans l'environnement ou à des expériences nouvelles.",
-      "explanationAudio": "La plasticité cérébrale permet l'adaptation et la réorganisation du cerveau en réponse à des changements dans l'environnement ou à des expériences nouvelles.",
+      "answer": "Une théorie du temps et de l'espace",
+      "explanation": "La théorie de la relativité restreinte est une théorie physique qui décrit le comportement du temps et de l'espace. Elle a été développée par Albert Einstein en 1905.",
+      "explanationAudio": "La theorie de la relativite restreinte est une theorie physique qui decrit le comportement du temps et de l espace elle a ete developpee par Albert Einstein en mille neuf cent cinq",
       "imagePrompts": [
-        "A hyper-realistic illustration of brain neurons, adapting and reorganizing, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A photorealistic image of a person learning a new skill, smiling, ultra sharp focus, professional photography, volumetric light",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of brain plasticity, colorful synapses, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic detailed 3D render of a clock and a ruler, with a speedometer in the background, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of Albert Einstein writing the equation E = mc^2 on a blackboard, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A realistic depiction of a train traveling at high speed, with a clock and a calendar in the foreground, photorealistic 3D render, cinematic lighting, 8k resolution"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que la constante de Planck ?",
+      "questionAudio": "Qu est ce que la constante de Planck",
+      "emojis": [
+        "🌟",
+        "🔦",
+        "📊",
+        "👨‍🔬",
+        "📝",
+        "🔍",
+        "💡"
+      ],
+      "options": [
+        "6,626 x 10^-34 J s",
+        "6,626 x 10^-35 J s",
+        "6,626 x 10^-33 J s"
+      ],
+      "correct": 0,
+      "answer": "6,626 x 10^-34 J s",
+      "explanation": "La constante de Planck est une constante physique qui relie l'énergie d'un photon à sa fréquence. Elle est notée h et est égale à 6,626 x 10^-34 J s.",
+      "explanationAudio": "La constante de Planck est une constante physique qui relie l energie d un photon a sa frequence elle est note h et est egale a six virgule six deux six fois dix a la puissance moins trente-quatre joules seconde",
+      "imagePrompts": [
+        "A hyper-realistic detailed 3D render of a photon, with a wave and a particle representation, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of a physicist measuring the constant of Planck, using a complex setup, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A realistic depiction of a blackbody radiation, with a graph and a equation in the foreground, photorealistic 3D render, cinematic lighting, 8k resolution"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que la mécanique quantique ?",
+      "questionAudio": "Qu est ce que la mecanique quantique",
+      "emojis": [
+        "🌐",
+        "🔍",
+        "📊",
+        "👨‍🔬",
+        "📝",
+        "🔀",
+        "💻"
+      ],
+      "options": [
+        "Une théorie de la gravité",
+        "Une théorie de la lumière",
+        "Une théorie de la matière à l'échelle atomique"
+      ],
+      "correct": 2,
+      "answer": "Une théorie de la matière à l'échelle atomique",
+      "explanation": "La mécanique quantique est une théorie physique qui décrit le comportement de la matière à l'échelle atomique et subatomique. Elle a été développée dans les années 1920.",
+      "explanationAudio": "La mecanique quantique est une theorie physique qui decrit le comportement de la matiere a l echelle atomique et subatomique elle a ete developpee dans les annees mille neuf cent vingt",
+      "imagePrompts": [
+        "A hyper-realistic detailed 3D render of an atom, with electrons and a nucleus, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of a physicist working on a quantum mechanics equation, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A realistic depiction of a quantum computer, with a complex setup and a graph in the foreground, photorealistic 3D render, cinematic lighting, 8k resolution"
       ]
     }
   ]

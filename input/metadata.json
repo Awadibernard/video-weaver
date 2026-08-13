@@ -1,159 +1,240 @@
 {
-  "topic": "Découvre les Mystères de la Physique !",
-  "description": "Teste tes connaissances en physique et découvre les secrets de l'univers !",
+  "topic": "🧠 Découvre les Secrets du Corps Humain !",
+  "description": "Teste tes connaissances sur le corps humain et découvre ses secrets incroyables !",
   "hashtags": [
-    "#physique",
-    "#science",
-    "#decouverte"
+    "#biologie",
+    "#corpsHumain",
+    "#santé"
   ],
-  "motif": "tech",
+  "motif": "human-body",
   "cta": "Abonne-toi pour 1 quiz / jour !",
   "ctaAudio": "Abonne-toi pour un quiz par jour !",
   "emojis": [
     "🔬",
-    "🧪",
-    "✨",
-    "🌍",
-    "⚡",
     "🧠",
-    "🚀"
+    "👥",
+    "💊",
+    "🏋️‍♀️",
+    "👀",
+    "💡"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 8,
   "questions": [
     {
-      "question": "Qu'est-ce que la vitesse de la lumière ?",
-      "questionAudio": "Qu est ce que la vitesse de la lumiere",
+      "question": "Quel est le pourcentage d'eau dans le corps humain ?",
+      "questionAudio": "Quel est le pourcent d'eau dans le corps humain ?",
       "emojis": [
+        "💧",
+        "🌊",
+        "👥",
         "💡",
-        "🔦",
-        "🕳️",
-        "🚀",
-        "🔍",
-        "📊",
-        "👨‍🔬"
+        "🏋️‍♀️",
+        "👀",
+        "🔬"
       ],
       "options": [
-        "300 000 km/s",
-        "400 000 km/s",
-        "200 000 km/s"
+        "50%",
+        "60%",
+        "70%"
       ],
-      "correct": 0,
-      "answer": "300 000 km/s",
-      "explanation": "La vitesse de la lumière est d'environ 300 000 km/s. C'est la vitesse à laquelle la lumière se propage dans le vide.",
-      "explanationAudio": "La vitesse de la lumiere est d environ trois cent mille kilometres par seconde c est la vitesse a laquelle la lumiere se propage dans le vide",
+      "correct": 1,
+      "answer": "60%",
+      "explanation": "Le corps humain est composé d'environ soixante pour cent d'eau. L'eau est essentielle pour de nombreuses fonctions corporelles.",
+      "explanationAudio": "Le corps humain est compose d environ soixante pour cent d eau. L eau est essentielle pour de nombreuses fonctions corporelles.",
       "imagePrompts": [
-        "A hyper-realistic detailed 3D render of a light beam traveling through space, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of a speedometer, with a needle pointing to 300 000 km/s, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A realistic depiction of a physicist measuring the speed of light, using a complex setup, photorealistic 3D render, cinematic lighting, 8k resolution"
+        "A hyper-realistic 3D render of water molecules in the human body, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of the human body with sixty percent water composition, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A realistic depiction of a person drinking water, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Qu'est-ce que la loi de la gravitation universelle ?",
-      "questionAudio": "Qu est ce que la loi de la gravitation universelle",
+      "question": "Quel est l'organe le plus grand du corps humain ?",
+      "questionAudio": "Quel est l organe le plus grand du corps humain ?",
       "emojis": [
-        "🌎",
-        "🌐",
-        "🔀",
-        "📝",
-        "👨‍🔬",
-        "🔍",
-        "💡"
+        "👀",
+        "🔬",
+        "🧠",
+        "💡",
+        "🏋️‍♀️",
+        "👥",
+        "🔩"
       ],
       "options": [
-        "F = m1 * m2 / r^2",
-        "F = m1 + m2 * r",
-        "F = m1 - m2 / r"
-      ],
-      "correct": 0,
-      "answer": "F = m1 * m2 / r^2",
-      "explanation": "La loi de la gravitation universelle est F = m1 * m2 / r^2. Elle décrit la force d'attraction entre deux objets en fonction de leurs masses et de la distance qui les sépare.",
-      "explanationAudio": "La loi de la gravitation universelle est F egale m un fois m deux sur r au carré elle decrit la force d attraction entre deux objets en fonction de leurs masses et de la distance qui les separe",
-      "imagePrompts": [
-        "A hyper-realistic detailed 3D render of two planets orbiting each other, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of a physicist writing the equation F = m1 * m2 / r^2 on a blackboard, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A realistic depiction of a gravitational field, with objects being attracted to each other, photorealistic 3D render, cinematic lighting, 8k resolution"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que la théorie de la relativité restreinte ?",
-      "questionAudio": "Qu est ce que la theorie de la relativite restreinte",
-      "emojis": [
-        "🕰️",
-        "📏",
-        "🚂",
-        "🔀",
-        "📝",
-        "👨‍🔬",
-        "💡"
-      ],
-      "options": [
-        "Une théorie de la gravité",
-        "Une théorie de la lumière",
-        "Une théorie du temps et de l'espace"
+        "Coeur",
+        "Cerveau",
+        "Peau"
       ],
       "correct": 2,
-      "answer": "Une théorie du temps et de l'espace",
-      "explanation": "La théorie de la relativité restreinte est une théorie physique qui décrit le comportement du temps et de l'espace. Elle a été développée par Albert Einstein en 1905.",
-      "explanationAudio": "La theorie de la relativite restreinte est une theorie physique qui decrit le comportement du temps et de l espace elle a ete developpee par Albert Einstein en mille neuf cent cinq",
+      "answer": "Peau",
+      "explanation": "La peau est l'organe le plus grand du corps humain, elle protège le corps des agressions extérieures.",
+      "explanationAudio": "La peau est l organe le plus grand du corps humain, elle protege le corps des agressions exterieures.",
       "imagePrompts": [
-        "A hyper-realistic detailed 3D render of a clock and a ruler, with a speedometer in the background, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of Albert Einstein writing the equation E = mc^2 on a blackboard, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A realistic depiction of a train traveling at high speed, with a clock and a calendar in the foreground, photorealistic 3D render, cinematic lighting, 8k resolution"
+        "A hyper-realistic 3D render of the human skin, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of the human brain, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A realistic depiction of the human heart, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Qu'est-ce que la constante de Planck ?",
-      "questionAudio": "Qu est ce que la constante de Planck",
+      "question": "Quel est le système qui transporte l'oxygène dans le corps humain ?",
+      "questionAudio": "Quel est le systeme qui transporte l oxygene dans le corps humain ?",
       "emojis": [
-        "🌟",
-        "🔦",
-        "📊",
-        "👨‍🔬",
-        "📝",
-        "🔍",
-        "💡"
+        "❤️",
+        "🔴",
+        "👥",
+        "💡",
+        "🏋️‍♀️",
+        "👀",
+        "🔬"
       ],
       "options": [
-        "6,626 x 10^-34 J s",
-        "6,626 x 10^-35 J s",
-        "6,626 x 10^-33 J s"
+        "Système nerveux",
+        "Système circulatoire",
+        "Système digestif"
+      ],
+      "correct": 1,
+      "answer": "Système circulatoire",
+      "explanation": "Le système circulatoire transporte l'oxygène et les nutriments essentiels aux cellules du corps.",
+      "explanationAudio": "Le systeme circulatoire transporte l oxygene et les nutriments essentiels aux cellules du corps.",
+      "imagePrompts": [
+        "A hyper-realistic 3D render of red blood cells, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of the human circulatory system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A realistic depiction of the human digestive system, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le nom du processus par lequel les cellules se divisent ?",
+      "questionAudio": "Quel est le nom du processus par lequel les cellules se divisent ?",
+      "emojis": [
+        "🔬",
+        "🧬",
+        "👥",
+        "💡",
+        "🏋️‍♀️",
+        "👀",
+        "🔩"
+      ],
+      "options": [
+        "Mitose",
+        "Méiose",
+        "Photosynthèse"
       ],
       "correct": 0,
-      "answer": "6,626 x 10^-34 J s",
-      "explanation": "La constante de Planck est une constante physique qui relie l'énergie d'un photon à sa fréquence. Elle est notée h et est égale à 6,626 x 10^-34 J s.",
-      "explanationAudio": "La constante de Planck est une constante physique qui relie l energie d un photon a sa frequence elle est note h et est egale a six virgule six deux six fois dix a la puissance moins trente-quatre joules seconde",
+      "answer": "Mitose",
+      "explanation": "La mitose est le processus de division cellulaire qui permet la croissance et la réparation des tissus.",
+      "explanationAudio": "La mitose est le processus de division cellulaire qui permet la croissance et la reparation des tissus.",
       "imagePrompts": [
-        "A hyper-realistic detailed 3D render of a photon, with a wave and a particle representation, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of a physicist measuring the constant of Planck, using a complex setup, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A realistic depiction of a blackbody radiation, with a graph and a equation in the foreground, photorealistic 3D render, cinematic lighting, 8k resolution"
+        "A hyper-realistic 3D render of cell division, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of the human reproductive system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A realistic depiction of a plant undergoing photosynthesis, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Qu'est-ce que la mécanique quantique ?",
-      "questionAudio": "Qu est ce que la mecanique quantique",
+      "question": "Quel est le nom de la molécule qui constitue les os ?",
+      "questionAudio": "Quel est le nom de la molecule qui constitue les os ?",
       "emojis": [
-        "🌐",
-        "🔍",
-        "📊",
-        "👨‍🔬",
-        "📝",
-        "🔀",
-        "💻"
+        "💀",
+        "🔬",
+        "🧬",
+        "💡",
+        "🏋️‍♀️",
+        "👀",
+        "🔩"
       ],
       "options": [
-        "Une théorie de la gravité",
-        "Une théorie de la lumière",
-        "Une théorie de la matière à l'échelle atomique"
+        "Collagène",
+        "Kératine",
+        "Ostéine"
+      ],
+      "correct": 0,
+      "answer": "Collagène",
+      "explanation": "Le collagène est une protéine qui constitue la majorité de la matrice osseuse.",
+      "explanationAudio": "Le collagene est une proteine qui constitue la majorite de la matrice osseuse.",
+      "imagePrompts": [
+        "A hyper-realistic 3D render of collagen molecules, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of the human skin, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A realistic depiction of a bone structure, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le nom du système qui régule la température corporelle ?",
+      "questionAudio": "Quel est le nom du systeme qui regule la temperature corporelle ?",
+      "emojis": [
+        "🌡️",
+        "🔬",
+        "🧬",
+        "💡",
+        "🏋️‍♀️",
+        "👀",
+        "🔩"
+      ],
+      "options": [
+        "Système nerveux",
+        "Système circulatoire",
+        "Système endocrinien"
       ],
       "correct": 2,
-      "answer": "Une théorie de la matière à l'échelle atomique",
-      "explanation": "La mécanique quantique est une théorie physique qui décrit le comportement de la matière à l'échelle atomique et subatomique. Elle a été développée dans les années 1920.",
-      "explanationAudio": "La mecanique quantique est une theorie physique qui decrit le comportement de la matiere a l echelle atomique et subatomique elle a ete developpee dans les annees mille neuf cent vingt",
+      "answer": "Système endocrinien",
+      "explanation": "Le système endocrinien régule la température corporelle, ainsi que d'autres fonctions métaboliques.",
+      "explanationAudio": "Le systeme endocrinien regule la temperature corporelle, ainsi que d autres fonctions metaboliques.",
       "imagePrompts": [
-        "A hyper-realistic detailed 3D render of an atom, with electrons and a nucleus, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of a physicist working on a quantum mechanics equation, ultra sharp focus, professional photography, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A realistic depiction of a quantum computer, with a complex setup and a graph in the foreground, photorealistic 3D render, cinematic lighting, 8k resolution"
+        "A hyper-realistic 3D render of the human endocrine system, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of the human nervous system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A realistic depiction of the human circulatory system, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le nom de la protéine qui transporte l'oxygène dans le sang ?",
+      "questionAudio": "Quel est le nom de la proteine qui transporte l oxygene dans le sang ?",
+      "emojis": [
+        "❤️",
+        "🔴",
+        "👥",
+        "💡",
+        "🏋️‍♀️",
+        "👀",
+        "🔬"
+      ],
+      "options": [
+        "Hémoglobine",
+        "Myoglobine",
+        "Lactoglobine"
+      ],
+      "correct": 0,
+      "answer": "Hémoglobine",
+      "explanation": "L'hémoglobine est une protéine qui transporte l'oxygène des poumons aux tissus du corps.",
+      "explanationAudio": "L hemoglobine est une proteine qui transporte l oxygene des poumons aux tissus du corps.",
+      "imagePrompts": [
+        "A hyper-realistic 3D render of hemoglobin molecules, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of the human circulatory system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A realistic depiction of a lactoglobulin molecule, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le nom du processus par lequel les cellules meurent ?",
+      "questionAudio": "Quel est le nom du processus par lequel les cellules meurent ?",
+      "emojis": [
+        "💀",
+        "🔬",
+        "🧬",
+        "💡",
+        "🏋️‍♀️",
+        "👀",
+        "🔩"
+      ],
+      "options": [
+        "Apoptose",
+        "Nécrose",
+        "Mitose"
+      ],
+      "correct": 0,
+      "answer": "Apoptose",
+      "explanation": "L'apoptose est un processus de mort cellulaire programmée qui permet l'élimination des cellules endommagées ou inutiles.",
+      "explanationAudio": "L apoptose est un processus de mort cellulaire programme qui permet l elimination des cellules endommagees ou inutiles.",
+      "imagePrompts": [
+        "A hyper-realistic 3D render of apoptotic cells, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of the human immune system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A realistic depiction of a mitotic cell division, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

@@ -1,240 +1,186 @@
 {
-  "topic": "🧠 Découvre les Secrets du Corps Humain !",
-  "description": "Teste tes connaissances sur le corps humain et découvre ses secrets incroyables !",
+  "topic": "🧪 Test Tes Connaissances en Chimie !",
+  "description": "Découvre les secrets de la matière et teste tes connaissances en chimie !",
   "hashtags": [
-    "#biologie",
-    "#corpsHumain",
-    "#santé"
+    "#chimie",
+    "#science",
+    "#quiz"
   ],
-  "motif": "human-body",
+  "motif": "chemistry",
   "cta": "Abonne-toi pour 1 quiz / jour !",
   "ctaAudio": "Abonne-toi pour un quiz par jour !",
   "emojis": [
+    "🧪",
+    "⚗️",
     "🔬",
-    "🧠",
-    "👥",
-    "💊",
-    "🏋️‍♀️",
-    "👀",
-    "💡"
+    "💡",
+    "🌡️",
+    "🎯",
+    "📚"
   ],
   "uiScale": 0.85,
-  "questionCount": 8,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Quel est le pourcentage d'eau dans le corps humain ?",
-      "questionAudio": "Quel est le pourcent d'eau dans le corps humain ?",
+      "question": "Qu'est-ce que l'eau ?",
+      "questionAudio": "Qu est ce que l eau",
       "emojis": [
         "💧",
         "🌊",
-        "👥",
-        "💡",
-        "🏋️‍♀️",
-        "👀",
-        "🔬"
+        "🌴",
+        "🏞️",
+        "🌻",
+        "🐠",
+        "🚿"
       ],
       "options": [
-        "50%",
-        "60%",
-        "70%"
-      ],
-      "correct": 1,
-      "answer": "60%",
-      "explanation": "Le corps humain est composé d'environ soixante pour cent d'eau. L'eau est essentielle pour de nombreuses fonctions corporelles.",
-      "explanationAudio": "Le corps humain est compose d environ soixante pour cent d eau. L eau est essentielle pour de nombreuses fonctions corporelles.",
-      "imagePrompts": [
-        "A hyper-realistic 3D render of water molecules in the human body, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of the human body with sixty percent water composition, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A realistic depiction of a person drinking water, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est l'organe le plus grand du corps humain ?",
-      "questionAudio": "Quel est l organe le plus grand du corps humain ?",
-      "emojis": [
-        "👀",
-        "🔬",
-        "🧠",
-        "💡",
-        "🏋️‍♀️",
-        "👥",
-        "🔩"
-      ],
-      "options": [
-        "Coeur",
-        "Cerveau",
-        "Peau"
+        "Un métal",
+        "Un gaz",
+        "Un liquide"
       ],
       "correct": 2,
-      "answer": "Peau",
-      "explanation": "La peau est l'organe le plus grand du corps humain, elle protège le corps des agressions extérieures.",
-      "explanationAudio": "La peau est l organe le plus grand du corps humain, elle protege le corps des agressions exterieures.",
+      "answer": "Un liquide",
+      "explanation": "L'eau est un liquide à température ambiante. Elle est composée de deux atomes d'hydrogène et d'un atome d'oxygène (H2O).",
+      "explanationAudio": "L eau est un liquide a temperature ambiante. Elle est composee de deux atomes d hydrogene et d un atome d oxygene",
       "imagePrompts": [
-        "A hyper-realistic 3D render of the human skin, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of the human brain, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A realistic depiction of the human heart, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A photorealistic 3D render of a water molecule, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic detailed illustration of a metal atom, swirling electrons, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A detailed 3D render of a gas molecule, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors"
       ]
     },
     {
-      "question": "Quel est le système qui transporte l'oxygène dans le corps humain ?",
-      "questionAudio": "Quel est le systeme qui transporte l oxygene dans le corps humain ?",
+      "question": "Qu'est-ce que la chimie ?",
+      "questionAudio": "Qu est ce que la chimie",
       "emojis": [
-        "❤️",
-        "🔴",
-        "👥",
+        "🧬",
+        "🔬",
+        "📚",
+        "🎓",
+        "🔍",
         "💡",
-        "🏋️‍♀️",
-        "👀",
-        "🔬"
+        "👨‍🎓"
       ],
       "options": [
-        "Système nerveux",
-        "Système circulatoire",
-        "Système digestif"
+        "La science de la vie",
+        "La science de la matière",
+        "La science de l'univers"
       ],
       "correct": 1,
-      "answer": "Système circulatoire",
-      "explanation": "Le système circulatoire transporte l'oxygène et les nutriments essentiels aux cellules du corps.",
-      "explanationAudio": "Le systeme circulatoire transporte l oxygene et les nutriments essentiels aux cellules du corps.",
+      "answer": "La science de la matière",
+      "explanation": "La chimie est la science qui étudie la composition, les propriétés et les réactions des substances chimiques.",
+      "explanationAudio": "La chimie est la science qui etudie la composition les proprietes et les reactions des substances chimiques",
       "imagePrompts": [
-        "A hyper-realistic 3D render of red blood cells, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of the human circulatory system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A realistic depiction of the human digestive system, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic detailed 3D render of a chemistry lab, various equipment, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of a living cell, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
+        "A photorealistic 3D render of a galaxy, stars and planets, cinematic lighting, 8k resolution, highly detailed, vivid colors"
       ]
     },
     {
-      "question": "Quel est le nom du processus par lequel les cellules se divisent ?",
-      "questionAudio": "Quel est le nom du processus par lequel les cellules se divisent ?",
+      "question": "Qu'est-ce que l'atome ?",
+      "questionAudio": "Qu est ce que l atome",
       "emojis": [
-        "🔬",
-        "🧬",
-        "👥",
-        "💡",
-        "🏋️‍♀️",
+        "⚛️",
+        "🔋",
+        "📈",
+        "🔍",
+        "🎯",
         "👀",
-        "🔩"
+        "🔎"
       ],
       "options": [
-        "Mitose",
-        "Méiose",
-        "Photosynthèse"
-      ],
-      "correct": 0,
-      "answer": "Mitose",
-      "explanation": "La mitose est le processus de division cellulaire qui permet la croissance et la réparation des tissus.",
-      "explanationAudio": "La mitose est le processus de division cellulaire qui permet la croissance et la reparation des tissus.",
-      "imagePrompts": [
-        "A hyper-realistic 3D render of cell division, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of the human reproductive system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A realistic depiction of a plant undergoing photosynthesis, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est le nom de la molécule qui constitue les os ?",
-      "questionAudio": "Quel est le nom de la molecule qui constitue les os ?",
-      "emojis": [
-        "💀",
-        "🔬",
-        "🧬",
-        "💡",
-        "🏋️‍♀️",
-        "👀",
-        "🔩"
-      ],
-      "options": [
-        "Collagène",
-        "Kératine",
-        "Ostéine"
-      ],
-      "correct": 0,
-      "answer": "Collagène",
-      "explanation": "Le collagène est une protéine qui constitue la majorité de la matrice osseuse.",
-      "explanationAudio": "Le collagene est une proteine qui constitue la majorite de la matrice osseuse.",
-      "imagePrompts": [
-        "A hyper-realistic 3D render of collagen molecules, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of the human skin, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A realistic depiction of a bone structure, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est le nom du système qui régule la température corporelle ?",
-      "questionAudio": "Quel est le nom du systeme qui regule la temperature corporelle ?",
-      "emojis": [
-        "🌡️",
-        "🔬",
-        "🧬",
-        "💡",
-        "🏋️‍♀️",
-        "👀",
-        "🔩"
-      ],
-      "options": [
-        "Système nerveux",
-        "Système circulatoire",
-        "Système endocrinien"
+        "Un groupe de molécules",
+        "Un groupe d'éléments",
+        "La plus petite unité de matière"
       ],
       "correct": 2,
-      "answer": "Système endocrinien",
-      "explanation": "Le système endocrinien régule la température corporelle, ainsi que d'autres fonctions métaboliques.",
-      "explanationAudio": "Le systeme endocrinien regule la temperature corporelle, ainsi que d autres fonctions metaboliques.",
+      "answer": "La plus petite unité de matière",
+      "explanation": "L'atome est la plus petite unité de matière qui conserve les propriétés chimiques d'un élément.",
+      "explanationAudio": "L atome est la plus petite unite de matiere qui conserve les proprietes chimiques d un element",
       "imagePrompts": [
-        "A hyper-realistic 3D render of the human endocrine system, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of the human nervous system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A realistic depiction of the human circulatory system, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A detailed 3D render of an atom, protons and neutrons, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic detailed illustration of a group of molecules, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A photorealistic 3D render of a group of elements, periodic table, cinematic lighting, 8k resolution, highly detailed, vivid colors"
       ]
     },
     {
-      "question": "Quel est le nom de la protéine qui transporte l'oxygène dans le sang ?",
-      "questionAudio": "Quel est le nom de la proteine qui transporte l oxygene dans le sang ?",
+      "question": "Qu'est-ce que la molécule ?",
+      "questionAudio": "Qu est ce que la molecule",
       "emojis": [
-        "❤️",
-        "🔴",
-        "👥",
-        "💡",
-        "🏋️‍♀️",
-        "👀",
-        "🔬"
+        "🌈",
+        "🔗",
+        "🌱",
+        "🌻",
+        "🌺",
+        "🌴",
+        "🏞️"
       ],
       "options": [
-        "Hémoglobine",
-        "Myoglobine",
-        "Lactoglobine"
+        "Un groupe d'atomes",
+        "Un groupe de molécules",
+        "Un élément chimique"
       ],
       "correct": 0,
-      "answer": "Hémoglobine",
-      "explanation": "L'hémoglobine est une protéine qui transporte l'oxygène des poumons aux tissus du corps.",
-      "explanationAudio": "L hemoglobine est une proteine qui transporte l oxygene des poumons aux tissus du corps.",
+      "answer": "Un groupe d'atomes",
+      "explanation": "La molécule est un groupe d'atomes liés entre eux par des liaisons chimiques.",
+      "explanationAudio": "La molecule est un groupe d atomes lies entre eux par des liaisons chimiques",
       "imagePrompts": [
-        "A hyper-realistic 3D render of hemoglobin molecules, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of the human circulatory system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A realistic depiction of a lactoglobulin molecule, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic detailed 3D render of a molecule, atoms and bonds, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A detailed illustration of a group of molecules, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
+        "A photorealistic 3D render of an element, periodic table, cinematic lighting, 8k resolution, highly detailed, vivid colors"
       ]
     },
     {
-      "question": "Quel est le nom du processus par lequel les cellules meurent ?",
-      "questionAudio": "Quel est le nom du processus par lequel les cellules meurent ?",
+      "question": "Qu'est-ce que la réaction chimique ?",
+      "questionAudio": "Qu est ce que la reaction chimique",
       "emojis": [
-        "💀",
+        "⚗️",
         "🔬",
-        "🧬",
-        "💡",
-        "🏋️‍♀️",
-        "👀",
-        "🔩"
+        "🎯",
+        "🔍",
+        "📊",
+        "📝",
+        "👨‍🔬"
       ],
       "options": [
-        "Apoptose",
-        "Nécrose",
-        "Mitose"
+        "Un processus physique",
+        "Un processus chimique",
+        "Un processus biologique"
       ],
-      "correct": 0,
-      "answer": "Apoptose",
-      "explanation": "L'apoptose est un processus de mort cellulaire programmée qui permet l'élimination des cellules endommagées ou inutiles.",
-      "explanationAudio": "L apoptose est un processus de mort cellulaire programme qui permet l elimination des cellules endommagees ou inutiles.",
+      "correct": 1,
+      "answer": "Un processus chimique",
+      "explanation": "La réaction chimique est un processus chimique dans lequel des substances chimiques réagissent pour former de nouvelles substances.",
+      "explanationAudio": "La reaction chimique est un processus chimique dans lequel des substances chimiques reagissent pour former de nouvelles substances",
       "imagePrompts": [
-        "A hyper-realistic 3D render of apoptotic cells, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of the human immune system, swirling clouds over blue oceans, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic photorealistic 3D render of A realistic depiction of a mitotic cell division, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A detailed 3D render of a chemical reaction, reactants and products, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic detailed illustration of a physical process, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A photorealistic 3D render of a biological process, cells and organisms, cinematic lighting, 8k resolution, highly detailed, vivid colors"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que la loi des gaz parfaits ?",
+      "questionAudio": "Qu est ce que la loi des gaz parfaits",
+      "emojis": [
+        "📊",
+        "📝",
+        "🔍",
+        "🎯",
+        "📈",
+        "🔋",
+        "👨‍🔬"
+      ],
+      "options": [
+        "Un principe de la mécanique",
+        "Un principe de la thermodynamique",
+        "Un principe de la chimie"
+      ],
+      "correct": 1,
+      "answer": "Un principe de la thermodynamique",
+      "explanation": "La loi des gaz parfaits est un principe de la thermodynamique qui décrit le comportement des gaz parfaits.",
+      "explanationAudio": "La loi des gaz parfaits est un principe de la thermodynamique qui decrit le comportement des gaz parfaits",
+      "imagePrompts": [
+        "A detailed illustration of the ideal gas law, pressure and volume, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic detailed 3D render of a mechanical system, gears and levers, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+        "A photorealistic 3D render of a chemical reaction, reactants and products, cinematic lighting, 8k resolution, highly detailed, vivid colors"
       ]
     }
   ]

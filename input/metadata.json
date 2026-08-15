@@ -1,186 +1,159 @@
 {
-  "topic": "🧪 Test Tes Connaissances en Chimie !",
-  "description": "Découvre les secrets de la matière et teste tes connaissances en chimie !",
+  "topic": "Découvre les Secrets de la Nature !",
+  "description": "Teste tes connaissances sur les Sciences de la Terre et la Nature !",
   "hashtags": [
-    "#chimie",
     "#science",
-    "#quiz"
+    "#nature",
+    "#decouverte"
   ],
-  "motif": "chemistry",
+  "motif": "nature",
   "cta": "Abonne-toi pour 1 quiz / jour !",
   "ctaAudio": "Abonne-toi pour un quiz par jour !",
   "emojis": [
-    "🧪",
-    "⚗️",
-    "🔬",
-    "💡",
-    "🌡️",
-    "🎯",
-    "📚"
+    "🌍",
+    "🌴",
+    "🌊",
+    "🏔️",
+    "🐝",
+    "🌻",
+    "🦜"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Qu'est-ce que l'eau ?",
-      "questionAudio": "Qu est ce que l eau",
+      "question": "Qu'est-ce que le processus de formation des montagnes ?",
+      "questionAudio": "Qu est ce que le processus de formation des montagnes ?",
       "emojis": [
-        "💧",
+        "🏔️",
+        "🌋",
         "🌊",
         "🌴",
-        "🏞️",
-        "🌻",
-        "🐠",
-        "🚿"
+        "🏃‍♂️",
+        "🚧",
+        "💥"
       ],
       "options": [
-        "Un métal",
-        "Un gaz",
-        "Un liquide"
+        "Érosion",
+        "Sédimentation",
+        "Orogenèse"
       ],
       "correct": 2,
-      "answer": "Un liquide",
-      "explanation": "L'eau est un liquide à température ambiante. Elle est composée de deux atomes d'hydrogène et d'un atome d'oxygène (H2O).",
-      "explanationAudio": "L eau est un liquide a temperature ambiante. Elle est composee de deux atomes d hydrogene et d un atome d oxygene",
+      "answer": "Orogenèse",
+      "explanation": "L'orogenèse est le processus de formation des montagnes par plissement et déformation de la croûte terrestre.",
+      "explanationAudio": "L orogenese est le processus de formation des montagnes par plissement et deformation de la croute terrestre.",
       "imagePrompts": [
-        "A photorealistic 3D render of a water molecule, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic detailed illustration of a metal atom, swirling electrons, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A detailed 3D render of a gas molecule, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors"
+        "A hyper-realistic 3D render of mountain formation, tectonic plates colliding, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of sedimentary rocks, layered deposits, soft lighting, 4k resolution, realistic texture, earthy tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A dramatic composition of orogenesis, folded rocks, volumetric light rays, 8k resolution, highly detailed, cinematic lighting"
       ]
     },
     {
-      "question": "Qu'est-ce que la chimie ?",
-      "questionAudio": "Qu est ce que la chimie",
+      "question": "Quel est le plus grand désert du monde ?",
+      "questionAudio": "Quel est le plus grand desert du monde ?",
       "emojis": [
-        "🧬",
-        "🔬",
-        "📚",
-        "🎓",
-        "🔍",
-        "💡",
-        "👨‍🎓"
+        "🏜️",
+        "🌫️",
+        "❄️",
+        "☀️",
+        "🏃‍♂️",
+        "🚗",
+        "🗺️"
       ],
       "options": [
-        "La science de la vie",
-        "La science de la matière",
-        "La science de l'univers"
-      ],
-      "correct": 1,
-      "answer": "La science de la matière",
-      "explanation": "La chimie est la science qui étudie la composition, les propriétés et les réactions des substances chimiques.",
-      "explanationAudio": "La chimie est la science qui etudie la composition les proprietes et les reactions des substances chimiques",
-      "imagePrompts": [
-        "A hyper-realistic detailed 3D render of a chemistry lab, various equipment, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of a living cell, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
-        "A photorealistic 3D render of a galaxy, stars and planets, cinematic lighting, 8k resolution, highly detailed, vivid colors"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que l'atome ?",
-      "questionAudio": "Qu est ce que l atome",
-      "emojis": [
-        "⚛️",
-        "🔋",
-        "📈",
-        "🔍",
-        "🎯",
-        "👀",
-        "🔎"
-      ],
-      "options": [
-        "Un groupe de molécules",
-        "Un groupe d'éléments",
-        "La plus petite unité de matière"
+        "Désert du Sahara",
+        "Désert de Gobi",
+        "Désert d'Antarctique"
       ],
       "correct": 2,
-      "answer": "La plus petite unité de matière",
-      "explanation": "L'atome est la plus petite unité de matière qui conserve les propriétés chimiques d'un élément.",
-      "explanationAudio": "L atome est la plus petite unite de matiere qui conserve les proprietes chimiques d un element",
+      "answer": "Désert d'Antarctique",
+      "explanation": "Le désert d'Antarctique est le plus grand désert du monde, couvrant environ quatorze millions de kilomètres carrés.",
+      "explanationAudio": "Le desert d antarctique est le plus grand desert du monde, couvrant environ quatorze millions de kilometres carres.",
       "imagePrompts": [
-        "A detailed 3D render of an atom, protons and neutrons, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic detailed illustration of a group of molecules, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A photorealistic 3D render of a group of elements, periodic table, cinematic lighting, 8k resolution, highly detailed, vivid colors"
+        "A hyper-realistic 3D render of the Sahara desert, endless dunes, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of the Gobi desert, rocky outcrops, soft lighting, 4k resolution, realistic texture, earthy tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A dramatic composition of the Antarctic desert, icy landscape, volumetric light rays, 8k resolution, highly detailed, cinematic lighting"
       ]
     },
     {
-      "question": "Qu'est-ce que la molécule ?",
-      "questionAudio": "Qu est ce que la molecule",
+      "question": "Qu'est-ce que la photosynthèse ?",
+      "questionAudio": "Qu est ce que la photosynthese ?",
       "emojis": [
-        "🌈",
-        "🔗",
         "🌱",
+        "🌿",
         "🌻",
         "🌺",
-        "🌴",
-        "🏞️"
+        "🐝",
+        "🌸",
+        "🍃"
       ],
       "options": [
-        "Un groupe d'atomes",
-        "Un groupe de molécules",
-        "Un élément chimique"
+        "Processus de respiration cellulaire",
+        "Processus de fermentation",
+        "Processus de synthèse de glucose"
+      ],
+      "correct": 2,
+      "answer": "Processus de synthèse de glucose",
+      "explanation": "La photosynthèse est le processus par lequel les plantes et certaines bactéries synthétisent du glucose à partir de dioxyde de carbone et d'eau.",
+      "explanationAudio": "La photosynthese est le processus par lequel les plantes et certaines bacteries synthetisent du glucose a partir de dioxyde de carbone et d eau.",
+      "imagePrompts": [
+        "A hyper-realistic 3D render of photosynthesis, chloroplasts, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of cellular respiration, mitochondria, soft lighting, 4k resolution, realistic texture, earthy tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A dramatic composition of glucose synthesis, molecular structure, volumetric light rays, 8k resolution, highly detailed, cinematic lighting"
+      ]
+    },
+    {
+      "question": "Quel est le nom du plus grand fleuve du monde ?",
+      "questionAudio": "Quel est le nom du plus grand fleuve du monde ?",
+      "emojis": [
+        "🌊",
+        "🌴",
+        "🐠",
+        "🌻",
+        "🏞️",
+        "🚣‍♂️",
+        "🌟"
+      ],
+      "options": [
+        "Fleuve Amazone",
+        "Fleuve Nil",
+        "Fleuve Yangtze"
       ],
       "correct": 0,
-      "answer": "Un groupe d'atomes",
-      "explanation": "La molécule est un groupe d'atomes liés entre eux par des liaisons chimiques.",
-      "explanationAudio": "La molecule est un groupe d atomes lies entre eux par des liaisons chimiques",
+      "answer": "Fleuve Amazone",
+      "explanation": "Le fleuve Amazone est le plus grand fleuve du monde en termes de débit, avec un débit moyen de deux cent mille mètres cubes par seconde.",
+      "explanationAudio": "Le fleuve amazone est le plus grand fleuve du monde en termes de debit, avec un debit moyen de deux cent mille metres cubes par seconde.",
       "imagePrompts": [
-        "A hyper-realistic detailed 3D render of a molecule, atoms and bonds, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A detailed illustration of a group of molecules, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
-        "A photorealistic 3D render of an element, periodic table, cinematic lighting, 8k resolution, highly detailed, vivid colors"
+        "A hyper-realistic 3D render of the Amazon river, lush rainforest, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of the Nile river, desert landscape, soft lighting, 4k resolution, realistic texture, earthy tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A dramatic composition of the Yangtze river, majestic mountains, volumetric light rays, 8k resolution, highly detailed, cinematic lighting"
       ]
     },
     {
-      "question": "Qu'est-ce que la réaction chimique ?",
-      "questionAudio": "Qu est ce que la reaction chimique",
+      "question": "Qu'est-ce que la biodiversité ?",
+      "questionAudio": "Qu est ce que la biodiversite ?",
       "emojis": [
-        "⚗️",
-        "🔬",
-        "🎯",
-        "🔍",
-        "📊",
-        "📝",
-        "👨‍🔬"
+        "🐝",
+        "🌼",
+        "🌻",
+        "🐠",
+        "🌺",
+        "🌸",
+        "🌹"
       ],
       "options": [
-        "Un processus physique",
-        "Un processus chimique",
-        "Un processus biologique"
+        "Variété des écosystèmes",
+        "Variété des espèces",
+        "Variété des paysages"
       ],
       "correct": 1,
-      "answer": "Un processus chimique",
-      "explanation": "La réaction chimique est un processus chimique dans lequel des substances chimiques réagissent pour former de nouvelles substances.",
-      "explanationAudio": "La reaction chimique est un processus chimique dans lequel des substances chimiques reagissent pour former de nouvelles substances",
+      "answer": "Variété des espèces",
+      "explanation": "La biodiversité se réfère à la variété des espèces vivantes, y compris les plantes, les animaux et les micro-organismes.",
+      "explanationAudio": "La biodiversite se refere a la variete des especes vivantes, y compris les plantes, les animaux et les micro organismes.",
       "imagePrompts": [
-        "A detailed 3D render of a chemical reaction, reactants and products, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic detailed illustration of a physical process, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A photorealistic 3D render of a biological process, cells and organisms, cinematic lighting, 8k resolution, highly detailed, vivid colors"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que la loi des gaz parfaits ?",
-      "questionAudio": "Qu est ce que la loi des gaz parfaits",
-      "emojis": [
-        "📊",
-        "📝",
-        "🔍",
-        "🎯",
-        "📈",
-        "🔋",
-        "👨‍🔬"
-      ],
-      "options": [
-        "Un principe de la mécanique",
-        "Un principe de la thermodynamique",
-        "Un principe de la chimie"
-      ],
-      "correct": 1,
-      "answer": "Un principe de la thermodynamique",
-      "explanation": "La loi des gaz parfaits est un principe de la thermodynamique qui décrit le comportement des gaz parfaits.",
-      "explanationAudio": "La loi des gaz parfaits est un principe de la thermodynamique qui decrit le comportement des gaz parfaits",
-      "imagePrompts": [
-        "A detailed illustration of the ideal gas law, pressure and volume, professional photography, ultra sharp focus, 8k resolution, highly detailed, vivid colors",
-        "A hyper-realistic detailed 3D render of a mechanical system, gears and levers, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A photorealistic 3D render of a chemical reaction, reactants and products, cinematic lighting, 8k resolution, highly detailed, vivid colors"
+        "A hyper-realistic 3D render of ecosystem diversity, coral reef, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A highly detailed illustration of species diversity, forest ecosystem, soft lighting, 4k resolution, realistic texture, earthy tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A dramatic composition of landscape diversity, mountain range, volumetric light rays, 8k resolution, highly detailed, cinematic lighting"
       ]
     }
   ]

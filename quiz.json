@@ -1,180 +1,210 @@
 [
   {
-    "question": "Qui a inventé le téléphone ?",
-    "questionAudio": "Qui a invente le telephone ?",
+    "question": "Quel est le nom du système nerveux central ?",
+    "questionAudio": "Quel est le nom du système nerveux central ?",
     "options": [
-      "Graham Bell",
-      "Thomas Edison",
-      "Nikola Tesla"
+      "Système nerveux périphérique",
+      "Système nerveux central",
+      "Système nerveux autonome"
     ],
-    "correct": 0,
-    "explanation": "Graham Bell a breveté le premier téléphone en 1876. Il a révolutionné la communication.",
-    "explanationAudio": "Graham Bell a brevete le premier telephone en mille huit cent soixante-seize. Il a revolutionne la communication.",
+    "correct": 1,
+    "explanation": "Le système nerveux central est composé du cerveau et de la moelle épinière.",
+    "explanationAudio": "Le système nerveux central est compose du cerveau et de la moelle epiniere.",
     "emojis": [
-      "📞",
-      "📢",
+      "🧠",
+      "📚",
+      "💡",
       "👥",
       "💻",
+      "🎯",
+      "🔬"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic detailed 3D render of human brain, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+      "A hyper-realistic photorealistic 3D render of A detailed illustration of human nervous system, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A photorealistic 3D render of spinal cord, ultra sharp focus, highly detailed, cinematic lighting"
+    ],
+    "motif": "brain",
+    "ctaText": "Abonne-toi pour 1 quiz / jour !",
+    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle est la fonction principale des neurones ?",
+    "questionAudio": "Quelle est la fonction principale des neurones ?",
+    "options": [
+      "De transmettre des signaux électriques",
+      "De produire des hormones",
+      "De stocker des informations"
+    ],
+    "correct": 0,
+    "explanation": "Les neurones transmettent des signaux électriques pour communiquer entre eux.",
+    "explanationAudio": "Les neurones transmettent des signaux electriques pour communiquer entre eux.",
+    "emojis": [
+      "📊",
+      "💻",
+      "📈",
       "🔌",
-      "💸",
+      "📁",
+      "📝",
+      "🔍"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed illustration of neuron structure, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of hormone production, cinematic lighting, 8k resolution, highly detailed",
+      "A photorealistic 3D render of data storage, ultra sharp focus, highly detailed, cinematic lighting"
+    ],
+    "motif": "brain",
+    "ctaText": "Abonne-toi pour 1 quiz / jour !",
+    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le nom de la théorie qui explique comment nous apprenons ?",
+    "questionAudio": "Quel est le nom de la theorie qui explique comment nous apprenons ?",
+    "options": [
+      "Théorie de l'apprentissage social",
+      "Théorie de la relativité",
+      "Théorie de l'évolution"
+    ],
+    "correct": 0,
+    "explanation": "La théorie de l'apprentissage social explique comment nous apprenons par observation et imitation.",
+    "explanationAudio": "La theorie de l apprentissage social explique comment nous apprenons par observation et imitation.",
+    "emojis": [
+      "👥",
+      "📚",
+      "👫",
+      "🤝",
+      "📊",
+      "📈",
+      "📁"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic detailed 3D render of social learning, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+      "A hyper-realistic photorealistic 3D render of A detailed illustration of relativity theory, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A photorealistic 3D render of evolution theory, ultra sharp focus, highly detailed, cinematic lighting"
+    ],
+    "motif": "brain",
+    "ctaText": "Abonne-toi pour 1 quiz / jour !",
+    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le nom du processus qui permet de se souvenir ?",
+    "questionAudio": "Quel est le nom du processus qui permet de se souvenir ?",
+    "options": [
+      "Consolidation",
+      "Répression",
+      "Répression active"
+    ],
+    "correct": 0,
+    "explanation": "La consolidation est le processus qui permet de transférer les informations de la mémoire à court terme à la mémoire à long terme.",
+    "explanationAudio": "La consolidation est le processus qui permet de transferer les informations de la memoire a court terme a la memoire a long terme.",
+    "emojis": [
+      "📚",
+      "💭",
+      "📝",
+      "📁",
+      "📊",
+      "📈",
+      "🔍"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed illustration of memory consolidation, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of memory repression, cinematic lighting, 8k resolution, highly detailed",
+      "A photorealistic 3D render of active repression, ultra sharp focus, highly detailed, cinematic lighting"
+    ],
+    "motif": "brain",
+    "ctaText": "Abonne-toi pour 1 quiz / jour !",
+    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le nom de la partie du cerveau responsable de la régulation des émotions ?",
+    "questionAudio": "Quel est le nom de la partie du cerveau responsable de la regulation des emotions ?",
+    "options": [
+      "Cervelet",
+      "Cortex cérébral",
+      "Amygdale"
+    ],
+    "correct": 2,
+    "explanation": "L'amygdale est responsable de la régulation des émotions, notamment la peur et l'anxiété.",
+    "explanationAudio": "L amygdale est responsable de la regulation des emotions, notamment la peur et l anxiete.",
+    "emojis": [
+      "🧠",
+      "💡",
+      "🔥",
+      "💥",
+      "🌪️",
+      "🌫️",
+      "🌀"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed illustration of cerebellum, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of cerebral cortex, cinematic lighting, 8k resolution, highly detailed",
+      "A photorealistic 3D render of amygdala, ultra sharp focus, highly detailed, cinematic lighting"
+    ],
+    "motif": "brain",
+    "ctaText": "Abonne-toi pour 1 quiz / jour !",
+    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le nom de la théorie qui explique comment nous prenons des décisions ?",
+    "questionAudio": "Quel est le nom de la theorie qui explique comment nous prenons des decisions ?",
+    "options": [
+      "Théorie de la décision rationnelle",
+      "Théorie de la relativité",
+      "Théorie de l'évolution"
+    ],
+    "correct": 0,
+    "explanation": "La théorie de la décision rationnelle explique comment nous prenons des décisions en fonction de nos préférences et de nos croyances.",
+    "explanationAudio": "La theorie de la decision rationnelle explique comment nous prenons des decisions en fonction de nos preferences et de nos croyances.",
+    "emojis": [
+      "📊",
+      "💡",
+      "📈",
+      "📁",
+      "📝",
+      "🔍",
       "📈"
     ],
     "imagePrompts": [
-      "A hyper-realistic 3D render of Alexander Graham Bell holding the first telephone, highly detailed, cinematic lighting, 8k resolution, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of Thomas Edison in his laboratory, working on the light bulb, photorealistic 3D render, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A cinematic view of Nikola Tesla standing in front of his alternating current system, volumetric light rays, highly detailed, dramatic composition"
+      "A hyper-realistic detailed 3D render of rational decision making, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+      "A hyper-realistic photorealistic 3D render of A detailed illustration of relativity theory, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A photorealistic 3D render of evolution theory, ultra sharp focus, highly detailed, cinematic lighting"
     ],
-    "motif": "tech",
+    "motif": "brain",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
     "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le nom du premier ordinateur ?",
-    "questionAudio": "Quel est le nom du premier ordinateur ?",
+    "question": "Quel est le nom de la technique utilisée pour étudier le cerveau ?",
+    "questionAudio": "Quel est le nom de la technique utilisee pour etudier le cerveau ?",
     "options": [
-      "ENIAC",
-      "UNIVAC",
-      "Colossus"
+      "Imagerie par résonance magnétique",
+      "Électroencéphalographie",
+      "Tomographie par émission de positons"
     ],
     "correct": 0,
-    "explanation": "ENIAC, Electronic Numerical Integrator and Computer, a été le premier ordinateur électronique. Il a été construit en 1946.",
-    "explanationAudio": "E N I A C, electronic numerical integrator and computer, a ete le premier ordinateur electronique. Il a ete construit en mille neuf cent quarante-six.",
+    "explanation": "L'imagerie par résonance magnétique est une technique utilisée pour étudier la structure et le fonctionnement du cerveau.",
+    "explanationAudio": "L imagerie par resonance magnetique est une technique utilisee pour etudier la structure et le fonctionnement du cerveau.",
     "emojis": [
-      "🖥️",
+      "🧠",
       "💻",
-      "🔌",
+      "📸",
+      "🔍",
       "📊",
       "📈",
-      "🔍",
-      "💸"
+      "📁"
     ],
     "imagePrompts": [
-      "A highly detailed 3D render of the ENIAC machine, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic view of the UNIVAC computer, professional photography, volumetric light rays, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A detailed illustration of the Colossus computer, highly detailed, cinematic lighting, 8k resolution, vivid colors"
+      "A hyper-realistic photorealistic 3D render of A detailed illustration of MRI machine, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of EEG, cinematic lighting, 8k resolution, highly detailed",
+      "A photorealistic 3D render of PET scan, ultra sharp focus, highly detailed, cinematic lighting"
     ],
-    "motif": "tech",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Qui a inventé la pénicilline ?",
-    "questionAudio": "Qui a invente la penicilline ?",
-    "options": [
-      "Louis Pasteur",
-      "Alexander Fleming",
-      "Robert Koch"
-    ],
-    "correct": 1,
-    "explanation": "Alexander Fleming a découvert la pénicilline en 1928. Elle a révolutionné le traitement des infections bactériennes.",
-    "explanationAudio": "Alexander Fleming a decouvert la penicilline en mille neuf cent vingt-huit. Elle a revolutionne le traitement des infections bacteriennes.",
-    "emojis": [
-      "💊",
-      "🧬",
-      "🔬",
-      "👨‍🔬",
-      "🔍",
-      "💡",
-      "📚"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic 3D render of Louis Pasteur in his laboratory, working on vaccination, highly detailed, cinematic lighting",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of Alexander Fleming observing the penicillium mold, photorealistic 3D render, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A cinematic view of Robert Koch in his laboratory, working on the germ theory, volumetric light rays, highly detailed, dramatic composition"
-    ],
-    "motif": "tech",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le nom du premier moteur à combustion interne ?",
-    "questionAudio": "Quel est le nom du premier moteur a combustion interne ?",
-    "options": [
-      "Moteur à essence",
-      "Moteur Diesel",
-      "Moteur à vapeur"
-    ],
-    "correct": 0,
-    "explanation": "Le moteur à essence, inventé par Nikolaus August Otto en 1876, a été le premier moteur à combustion interne.",
-    "explanationAudio": "Le moteur a essence, invente par Nikolaus August Otto en mille huit cent soixante-seize, a ete le premier moteur a combustion interne.",
-    "emojis": [
-      "🚗",
-      "🛠️",
-      "💨",
-      "🔧",
-      "🔩",
-      "🚧",
-      "🔋"
-    ],
-    "imagePrompts": [
-      "A highly detailed 3D render of the first gasoline engine, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic view of the Diesel engine, professional photography, volumetric light rays, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A detailed illustration of the steam engine, highly detailed, cinematic lighting, 8k resolution, vivid colors"
-    ],
-    "motif": "tech",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Qui a inventé le premier radar ?",
-    "questionAudio": "Qui a invente le premier radar ?",
-    "options": [
-      "Guglielmo Marconi",
-      "Christian Huygens",
-      "Robert Watson-Watt"
-    ],
-    "correct": 2,
-    "explanation": "Robert Watson-Watt a développé le premier système de radar en 1935. Il a révolutionné la détection aérienne.",
-    "explanationAudio": "Robert Watson-Watt a developpe le premier systeme de radar en mille neuf cent trente-cinq. Il a revolutionne la detection aerienne.",
-    "emojis": [
-      "📡",
-      "🔍",
-      "🛡️",
-      "💻",
-      "📊",
-      "📈",
-      "🔝"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic 3D render of Guglielmo Marconi working on radio communication, highly detailed, cinematic lighting",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of Christian Huygens studying the properties of light, photorealistic 3D render, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A cinematic view of Robert Watson-Watt in front of a radar system, volumetric light rays, highly detailed, dramatic composition"
-    ],
-    "motif": "tech",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le nom du premier satellite artificiel ?",
-    "questionAudio": "Quel est le nom du premier satellite artificiel ?",
-    "options": [
-      "Sputnik 1",
-      "Explorer 1",
-      "Luna 1"
-    ],
-    "correct": 0,
-    "explanation": "Sputnik 1, lancé par l'URSS en 1957, a été le premier satellite artificiel. Il a marqué le début de l'ère spatiale.",
-    "explanationAudio": "Sputnik un, lance par l U R S S en mille neuf cent cinquante-sept, a ete le premier satellite artificiel. Il a marque le debut de l ere spatiale.",
-    "emojis": [
-      "🛰️",
-      "🚀",
-      "🌎",
-      "👽",
-      "🔭",
-      "🛰️",
-      "💫"
-    ],
-    "imagePrompts": [
-      "A highly detailed 3D render of Sputnik 1 in orbit, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic view of Explorer 1, professional photography, volumetric light rays, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A detailed illustration of Luna 1, highly detailed, cinematic lighting, 8k resolution, vivid colors"
-    ],
-    "motif": "tech",
+    "motif": "brain",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
     "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
     "uiScale": 0.85

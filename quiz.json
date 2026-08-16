@@ -1,210 +1,234 @@
 [
   {
-    "question": "Quel est le nom du système nerveux central ?",
-    "questionAudio": "Quel est le nom du système nerveux central ?",
+    "question": "Qu'est-ce que la vitesse de la lumière ?",
+    "questionAudio": "Qu est ce que la vitesse de la lumiere",
     "options": [
-      "Système nerveux périphérique",
-      "Système nerveux central",
-      "Système nerveux autonome"
-    ],
-    "correct": 1,
-    "explanation": "Le système nerveux central est composé du cerveau et de la moelle épinière.",
-    "explanationAudio": "Le système nerveux central est compose du cerveau et de la moelle epiniere.",
-    "emojis": [
-      "🧠",
-      "📚",
-      "💡",
-      "👥",
-      "💻",
-      "🎯",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic detailed 3D render of human brain, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of human nervous system, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A photorealistic 3D render of spinal cord, ultra sharp focus, highly detailed, cinematic lighting"
-    ],
-    "motif": "brain",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle est la fonction principale des neurones ?",
-    "questionAudio": "Quelle est la fonction principale des neurones ?",
-    "options": [
-      "De transmettre des signaux électriques",
-      "De produire des hormones",
-      "De stocker des informations"
+      "300 000 km/s",
+      "200 000 km/s",
+      "100 000 km/s"
     ],
     "correct": 0,
-    "explanation": "Les neurones transmettent des signaux électriques pour communiquer entre eux.",
-    "explanationAudio": "Les neurones transmettent des signaux electriques pour communiquer entre eux.",
+    "explanation": "La vitesse de la lumière est d'environ 300 000 km/s dans le vide.",
+    "explanationAudio": "La vitesse de la lumiere est d environ trois cent mille kilometres par seconde dans le vide",
     "emojis": [
-      "📊",
-      "💻",
-      "📈",
-      "🔌",
-      "📁",
-      "📝",
-      "🔍"
+      "🔬",
+      "🧪",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of neuron structure, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic detailed 3D render of hormone production, cinematic lighting, 8k resolution, highly detailed",
-      "A photorealistic 3D render of data storage, ultra sharp focus, highly detailed, cinematic lighting"
+      "A hyper-realistic detailed 3D render of light waves propagating through space, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+      "A highly detailed illustration of light particles moving at high speed, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
+      "A realistic depiction of a beam of light traveling through a vacuum, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus"
     ],
-    "motif": "brain",
+    "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
     "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le nom de la théorie qui explique comment nous apprenons ?",
-    "questionAudio": "Quel est le nom de la theorie qui explique comment nous apprenons ?",
+    "question": "Qu'est-ce que la force de gravité ?",
+    "questionAudio": "Qu est ce que la force de gravite",
     "options": [
-      "Théorie de l'apprentissage social",
-      "Théorie de la relativité",
-      "Théorie de l'évolution"
+      "Une force qui attire les objets les uns vers les autres",
+      "Une force qui repousse les objets les uns des autres",
+      "Une force qui fait tourner les objets"
     ],
     "correct": 0,
-    "explanation": "La théorie de l'apprentissage social explique comment nous apprenons par observation et imitation.",
-    "explanationAudio": "La theorie de l apprentissage social explique comment nous apprenons par observation et imitation.",
+    "explanation": "La force de gravité est une force qui attire les objets les uns vers les autres en fonction de leur masse.",
+    "explanationAudio": "La force de gravite est une force qui attire les objets les uns vers les autres en fonction de leur masse",
     "emojis": [
-      "👥",
-      "📚",
-      "👫",
-      "🤝",
-      "📊",
-      "📈",
-      "📁"
+      "🔬",
+      "🧪",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic detailed 3D render of social learning, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of relativity theory, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A photorealistic 3D render of evolution theory, ultra sharp focus, highly detailed, cinematic lighting"
+      "A highly detailed illustration of the Earth's gravitational field, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
+      "A realistic depiction of two objects attracting each other due to gravity, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of a black hole's gravitational pull, volumetric light rays, 8k resolution, highly detailed, vivid colors"
     ],
-    "motif": "brain",
+    "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
     "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le nom du processus qui permet de se souvenir ?",
-    "questionAudio": "Quel est le nom du processus qui permet de se souvenir ?",
+    "question": "Qu'est-ce que la loi de Newton ?",
+    "questionAudio": "Qu est ce que la loi de Newton",
     "options": [
-      "Consolidation",
-      "Répression",
-      "Répression active"
+      "Une loi qui décrit le mouvement des objets",
+      "Une loi qui décrit la force de gravité",
+      "Une loi qui décrit la vitesse de la lumière"
     ],
     "correct": 0,
-    "explanation": "La consolidation est le processus qui permet de transférer les informations de la mémoire à court terme à la mémoire à long terme.",
-    "explanationAudio": "La consolidation est le processus qui permet de transferer les informations de la memoire a court terme a la memoire a long terme.",
+    "explanation": "La loi de Newton décrit le mouvement des objets en fonction de la force qui agit sur eux.",
+    "explanationAudio": "La loi de Newton decrit le mouvement des objets en fonction de la force qui agit sur eux",
     "emojis": [
-      "📚",
-      "💭",
-      "📝",
-      "📁",
-      "📊",
-      "📈",
-      "🔍"
+      "🔬",
+      "🧪",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of memory consolidation, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic detailed 3D render of memory repression, cinematic lighting, 8k resolution, highly detailed",
-      "A photorealistic 3D render of active repression, ultra sharp focus, highly detailed, cinematic lighting"
+      "A highly detailed illustration of an object in motion, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
+      "A realistic depiction of a force being applied to an object, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of a pendulum in motion, volumetric light rays, 8k resolution, highly detailed, vivid colors"
     ],
-    "motif": "brain",
+    "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
     "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le nom de la partie du cerveau responsable de la régulation des émotions ?",
-    "questionAudio": "Quel est le nom de la partie du cerveau responsable de la regulation des emotions ?",
+    "question": "Qu'est-ce que la théorie de la relativité ?",
+    "questionAudio": "Qu est ce que la theorie de la relativite",
     "options": [
-      "Cervelet",
-      "Cortex cérébral",
-      "Amygdale"
-    ],
-    "correct": 2,
-    "explanation": "L'amygdale est responsable de la régulation des émotions, notamment la peur et l'anxiété.",
-    "explanationAudio": "L amygdale est responsable de la regulation des emotions, notamment la peur et l anxiete.",
-    "emojis": [
-      "🧠",
-      "💡",
-      "🔥",
-      "💥",
-      "🌪️",
-      "🌫️",
-      "🌀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of cerebellum, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic detailed 3D render of cerebral cortex, cinematic lighting, 8k resolution, highly detailed",
-      "A photorealistic 3D render of amygdala, ultra sharp focus, highly detailed, cinematic lighting"
-    ],
-    "motif": "brain",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le nom de la théorie qui explique comment nous prenons des décisions ?",
-    "questionAudio": "Quel est le nom de la theorie qui explique comment nous prenons des decisions ?",
-    "options": [
-      "Théorie de la décision rationnelle",
-      "Théorie de la relativité",
-      "Théorie de l'évolution"
+      "Une théorie qui décrit le mouvement des objets à des vitesses proches de la vitesse de la lumière",
+      "Une théorie qui décrit la force de gravité",
+      "Une théorie qui décrit la vitesse de la lumière"
     ],
     "correct": 0,
-    "explanation": "La théorie de la décision rationnelle explique comment nous prenons des décisions en fonction de nos préférences et de nos croyances.",
-    "explanationAudio": "La theorie de la decision rationnelle explique comment nous prenons des decisions en fonction de nos preferences et de nos croyances.",
+    "explanation": "La théorie de la relativité décrit le mouvement des objets à des vitesses proches de la vitesse de la lumière.",
+    "explanationAudio": "La theorie de la relativite decrit le mouvement des objets a des vitesses proches de la vitesse de la lumiere",
     "emojis": [
-      "📊",
-      "💡",
-      "📈",
-      "📁",
-      "📝",
-      "🔍",
-      "📈"
+      "🔬",
+      "🧪",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic detailed 3D render of rational decision making, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of relativity theory, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A photorealistic 3D render of evolution theory, ultra sharp focus, highly detailed, cinematic lighting"
+      "A hyper-realistic detailed 3D render of a spaceship traveling at high speed, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
+      "A highly detailed illustration of a clock in motion, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
+      "A realistic depiction of a particle accelerator, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus"
     ],
-    "motif": "brain",
+    "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
     "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le nom de la technique utilisée pour étudier le cerveau ?",
-    "questionAudio": "Quel est le nom de la technique utilisee pour etudier le cerveau ?",
+    "question": "Qu'est-ce que la mécanique quantique ?",
+    "questionAudio": "Qu est ce que la mecanique quantique",
     "options": [
-      "Imagerie par résonance magnétique",
-      "Électroencéphalographie",
-      "Tomographie par émission de positons"
+      "Une théorie qui décrit le comportement des particules à l'échelle atomique",
+      "Une théorie qui décrit la force de gravité",
+      "Une théorie qui décrit la vitesse de la lumière"
     ],
     "correct": 0,
-    "explanation": "L'imagerie par résonance magnétique est une technique utilisée pour étudier la structure et le fonctionnement du cerveau.",
-    "explanationAudio": "L imagerie par resonance magnetique est une technique utilisee pour etudier la structure et le fonctionnement du cerveau.",
+    "explanation": "La mécanique quantique décrit le comportement des particules à l'échelle atomique.",
+    "explanationAudio": "La mecanique quantique decrit le comportement des particules a l echelle atomique",
     "emojis": [
-      "🧠",
-      "💻",
-      "📸",
-      "🔍",
-      "📊",
-      "📈",
-      "📁"
+      "🔬",
+      "🧪",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of MRI machine, professional photography, volumetric light, dramatic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic detailed 3D render of EEG, cinematic lighting, 8k resolution, highly detailed",
-      "A photorealistic 3D render of PET scan, ultra sharp focus, highly detailed, cinematic lighting"
+      "A highly detailed illustration of atomic particles in motion, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
+      "A realistic depiction of a quantum computer, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of a quantum field, volumetric light rays, 8k resolution, highly detailed, vivid colors"
     ],
-    "motif": "brain",
+    "motif": "tech",
+    "ctaText": "Abonne-toi pour 1 quiz / jour !",
+    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Qu'est-ce que la thermodynamique ?",
+    "questionAudio": "Qu est ce que la thermodynamique",
+    "options": [
+      "Une théorie qui décrit les relations entre la chaleur, le travail et l'énergie",
+      "Une théorie qui décrit la force de gravité",
+      "Une théorie qui décrit la vitesse de la lumière"
+    ],
+    "correct": 0,
+    "explanation": "La thermodynamique décrit les relations entre la chaleur, le travail et l'énergie.",
+    "explanationAudio": "La thermodynamique decrit les relations entre la chaleur le travail et l energie",
+    "emojis": [
+      "🔬",
+      "🧪",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A highly detailed illustration of a heat engine, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
+      "A realistic depiction of a thermodynamic system, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of a temperature gradient, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+    ],
+    "motif": "tech",
+    "ctaText": "Abonne-toi pour 1 quiz / jour !",
+    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Qu'est-ce que l'électromagnétisme ?",
+    "questionAudio": "Qu est ce que l electromagnetisme",
+    "options": [
+      "Une force qui décrit les interactions entre les particules chargées",
+      "Une force qui décrit la gravité",
+      "Une force qui décrit la vitesse de la lumière"
+    ],
+    "correct": 0,
+    "explanation": "L'électromagnétisme décrit les interactions entre les particules chargées.",
+    "explanationAudio": "L electromagnetisme decrit les interactions entre les particules chargees",
+    "emojis": [
+      "🔬",
+      "🧪",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A highly detailed illustration of an electromagnetic field, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
+      "A realistic depiction of a charged particle in motion, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of a magnetic field, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+    ],
+    "motif": "tech",
+    "ctaText": "Abonne-toi pour 1 quiz / jour !",
+    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Qu'est-ce que la mécanique des fluides ?",
+    "questionAudio": "Qu est ce que la mecanique des fluides",
+    "options": [
+      "Une théorie qui décrit le comportement des fluides en mouvement",
+      "Une théorie qui décrit la force de gravité",
+      "Une théorie qui décrit la vitesse de la lumière"
+    ],
+    "correct": 0,
+    "explanation": "La mécanique des fluides décrit le comportement des fluides en mouvement.",
+    "explanationAudio": "La mecanique des fluides decrit le comportement des fluides en mouvement",
+    "emojis": [
+      "🔬",
+      "🧪",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A highly detailed illustration of a fluid in motion, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
+      "A realistic depiction of a flow simulation, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of a vortex, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+    ],
+    "motif": "tech",
+    "ctaText": "Abonne-toi pour 1 quiz / jour !",
+    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Qu'est-ce que la théorie des champs ?",
+    "questionAudio": "Qu est ce que la theorie des champs",
+    "options": [
+      "Une théorie qui décrit les interactions entre les particules à l'échelle fondamentale",
+      "Une théorie qui décrit la force de gravité",
+      "Une théorie qui décrit la vitesse de la lumière"
+    ],
+    "correct": 0,
+    "explanation": "La théorie des champs décrit les interactions entre les particules à l'échelle fondamentale.",
+    "explanationAudio": "La theorie des champs decrit les interactions entre les particules a l echelle fondamentale",
+    "emojis": [
+      "🔬",
+      "🧪",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A highly detailed illustration of a field theory, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
+      "A realistic depiction of a particle interaction, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
+      "A hyper-realistic detailed 3D render of a quantum field, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+    ],
+    "motif": "tech",
     "ctaText": "Abonne-toi pour 1 quiz / jour !",
     "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
     "uiScale": 0.85

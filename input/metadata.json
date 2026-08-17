@@ -1,227 +1,213 @@
 {
-  "topic": "Découvre les Secrets de la Physique !",
-  "description": "Teste tes connaissances en physique et découvre les secrets de l'univers !",
+  "topic": "Biologie & Corps Humain",
+  "description": "Découvre les secrets de ton corps !",
   "hashtags": [
-    "#physique",
-    "#science",
-    "#decouverte"
+    "#biologie",
+    "#corpsHumain",
+    "#santé"
   ],
-  "motif": "tech",
+  "motif": "human-body",
   "cta": "Abonne-toi pour 1 quiz / jour !",
   "ctaAudio": "Abonne-toi pour un quiz par jour !",
   "emojis": [
+    "🧠",
+    "💊",
+    "👨‍⚕️",
     "🔬",
-    "🧪",
-    "✨"
+    "🧬",
+    "💡",
+    "👍"
   ],
   "uiScale": 0.85,
-  "questionCount": 9,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Qu'est-ce que la vitesse de la lumière ?",
-      "questionAudio": "Qu est ce que la vitesse de la lumiere",
+      "question": "Qu'est-ce que l'ADN ?",
+      "questionAudio": "Qu'est-ce que l'ADN en toutes lettres ?",
       "emojis": [
+        "🧬",
         "🔬",
-        "🧪",
-        "✨"
+        "💡",
+        "👨‍⚕️",
+        "📚",
+        "💻",
+        "🎯"
       ],
       "options": [
-        "300 000 km/s",
-        "200 000 km/s",
-        "100 000 km/s"
+        "Un acide aminé",
+        "Un acide désoxyribonucléique",
+        "Un glucide"
       ],
-      "correct": 0,
-      "answer": "300 000 km/s",
-      "explanation": "La vitesse de la lumière est d'environ 300 000 km/s dans le vide.",
-      "explanationAudio": "La vitesse de la lumiere est d environ trois cent mille kilometres par seconde dans le vide",
+      "correct": 1,
+      "answer": "Un acide désoxyribonucléique",
+      "explanation": "L'ADN est une molécule qui contient les informations génétiques.",
+      "explanationAudio": "L'ADN est une molécule qui contient les informations genetiques en toutes lettres.",
       "imagePrompts": [
-        "A hyper-realistic detailed 3D render of light waves propagating through space, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A highly detailed illustration of light particles moving at high speed, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
-        "A realistic depiction of a beam of light traveling through a vacuum, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus"
+        "A hyper-realistic 3D render of DNA double helix structure, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A detailed illustration of DNA molecule, swirling clouds of nucleotides, volumetric light rays, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A photorealistic 3D model of DNA replication process, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting"
       ]
     },
     {
-      "question": "Qu'est-ce que la force de gravité ?",
-      "questionAudio": "Qu est ce que la force de gravite",
+      "question": "Quel est le rôle du cœur ?",
+      "questionAudio": "Quel est le role du coeur en toutes lettres ?",
       "emojis": [
+        "❤️",
+        "👨‍⚕️",
+        "💊",
         "🔬",
-        "🧪",
-        "✨"
+        "📊",
+        "👍",
+        "🏥"
       ],
       "options": [
-        "Une force qui attire les objets les uns vers les autres",
-        "Une force qui repousse les objets les uns des autres",
-        "Une force qui fait tourner les objets"
+        "Pomper le sang",
+        "Respirer",
+        "Digérer les aliments"
       ],
       "correct": 0,
-      "answer": "Une force qui attire les objets les uns vers les autres",
-      "explanation": "La force de gravité est une force qui attire les objets les uns vers les autres en fonction de leur masse.",
-      "explanationAudio": "La force de gravite est une force qui attire les objets les uns vers les autres en fonction de leur masse",
+      "answer": "Pomper le sang",
+      "explanation": "Le cœur pompe le sang dans les artères.",
+      "explanationAudio": "Le coeur pompe le sang dans les arteres en toutes lettres.",
       "imagePrompts": [
-        "A highly detailed illustration of the Earth's gravitational field, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
-        "A realistic depiction of two objects attracting each other due to gravity, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of a black hole's gravitational pull, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+        "A hyper-realistic 3D render of human heart, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A detailed illustration of heart anatomy, swirling clouds of blood vessels, volumetric light rays, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A photorealistic 3D model of heart beating, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting"
       ]
     },
     {
-      "question": "Qu'est-ce que la loi de Newton ?",
-      "questionAudio": "Qu est ce que la loi de Newton",
+      "question": "Qu'est-ce que le système nerveux ?",
+      "questionAudio": "Qu'est-ce que le systeme nerveux en toutes lettres ?",
       "emojis": [
+        "🧠",
+        "💡",
         "🔬",
-        "🧪",
-        "✨"
+        "👨‍⚕️",
+        "📚",
+        "💻",
+        "🎯"
       ],
       "options": [
-        "Une loi qui décrit le mouvement des objets",
-        "Une loi qui décrit la force de gravité",
-        "Une loi qui décrit la vitesse de la lumière"
+        "Un système qui contrôle les mouvements",
+        "Un système qui régule les émotions",
+        "Un système qui transmet les informations"
       ],
-      "correct": 0,
-      "answer": "Une loi qui décrit le mouvement des objets",
-      "explanation": "La loi de Newton décrit le mouvement des objets en fonction de la force qui agit sur eux.",
-      "explanationAudio": "La loi de Newton decrit le mouvement des objets en fonction de la force qui agit sur eux",
+      "correct": 2,
+      "answer": "Un système qui transmet les informations",
+      "explanation": "Le système nerveux transmet les informations entre les cellules.",
+      "explanationAudio": "Le systeme nerveux transmet les informations entre les cellules en toutes lettres.",
       "imagePrompts": [
-        "A highly detailed illustration of an object in motion, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
-        "A realistic depiction of a force being applied to an object, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of a pendulum in motion, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+        "A hyper-realistic 3D render of human brain, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A detailed illustration of nerve cells, swirling clouds of synapses, volumetric light rays, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A photorealistic 3D model of neural network, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting"
       ]
     },
     {
-      "question": "Qu'est-ce que la théorie de la relativité ?",
-      "questionAudio": "Qu est ce que la theorie de la relativite",
+      "question": "Quel est le rôle des poumons ?",
+      "questionAudio": "Quel est le role des poumons en toutes lettres ?",
       "emojis": [
+        "🫁",
+        "👨‍⚕️",
+        "💊",
         "🔬",
-        "🧪",
-        "✨"
+        "📊",
+        "👍",
+        "🏥"
       ],
       "options": [
-        "Une théorie qui décrit le mouvement des objets à des vitesses proches de la vitesse de la lumière",
-        "Une théorie qui décrit la force de gravité",
-        "Une théorie qui décrit la vitesse de la lumière"
+        "Respirer",
+        "Digérer les aliments",
+        "Pomper le sang"
       ],
       "correct": 0,
-      "answer": "Une théorie qui décrit le mouvement des objets à des vitesses proches de la vitesse de la lumière",
-      "explanation": "La théorie de la relativité décrit le mouvement des objets à des vitesses proches de la vitesse de la lumière.",
-      "explanationAudio": "La theorie de la relativite decrit le mouvement des objets a des vitesses proches de la vitesse de la lumiere",
+      "answer": "Respirer",
+      "explanation": "Les poumons respirent pour apporter de l'oxygène.",
+      "explanationAudio": "Les poumons respirent pour apporter de l'oxygene en toutes lettres.",
       "imagePrompts": [
-        "A hyper-realistic detailed 3D render of a spaceship traveling at high speed, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors",
-        "A highly detailed illustration of a clock in motion, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
-        "A realistic depiction of a particle accelerator, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus"
+        "A hyper-realistic 3D render of human lungs, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A detailed illustration of lung anatomy, swirling clouds of alveoli, volumetric light rays, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A photorealistic 3D model of breathing process, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting"
       ]
     },
     {
-      "question": "Qu'est-ce que la mécanique quantique ?",
-      "questionAudio": "Qu est ce que la mecanique quantique",
+      "question": "Qu'est-ce que le système immunitaire ?",
+      "questionAudio": "Qu'est-ce que le systeme immunitaire en toutes lettres ?",
       "emojis": [
+        "🧬",
+        "💡",
         "🔬",
-        "🧪",
-        "✨"
+        "👨‍⚕️",
+        "📚",
+        "💻",
+        "🎯"
       ],
       "options": [
-        "Une théorie qui décrit le comportement des particules à l'échelle atomique",
-        "Une théorie qui décrit la force de gravité",
-        "Une théorie qui décrit la vitesse de la lumière"
+        "Un système qui défend contre les infections",
+        "Un système qui régule les émotions",
+        "Un système qui transmet les informations"
       ],
       "correct": 0,
-      "answer": "Une théorie qui décrit le comportement des particules à l'échelle atomique",
-      "explanation": "La mécanique quantique décrit le comportement des particules à l'échelle atomique.",
-      "explanationAudio": "La mecanique quantique decrit le comportement des particules a l echelle atomique",
+      "answer": "Un système qui défend contre les infections",
+      "explanation": "Le système immunitaire défend contre les infections.",
+      "explanationAudio": "Le systeme immunitaire defend contre les infections en toutes lettres.",
       "imagePrompts": [
-        "A highly detailed illustration of atomic particles in motion, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
-        "A realistic depiction of a quantum computer, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of a quantum field, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+        "A hyper-realistic 3D render of immune cells, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A detailed illustration of immune system, swirling clouds of white blood cells, volumetric light rays, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A photorealistic 3D model of immune response, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting"
       ]
     },
     {
-      "question": "Qu'est-ce que la thermodynamique ?",
-      "questionAudio": "Qu est ce que la thermodynamique",
+      "question": "Quel est le rôle du foie ?",
+      "questionAudio": "Quel est le role du foie en toutes lettres ?",
       "emojis": [
+        "🫀",
+        "👨‍⚕️",
+        "💊",
         "🔬",
-        "🧪",
-        "✨"
+        "📊",
+        "👍",
+        "🏥"
       ],
       "options": [
-        "Une théorie qui décrit les relations entre la chaleur, le travail et l'énergie",
-        "Une théorie qui décrit la force de gravité",
-        "Une théorie qui décrit la vitesse de la lumière"
+        "Détoxifier le sang",
+        "Pomper le sang",
+        "Respirer"
       ],
       "correct": 0,
-      "answer": "Une théorie qui décrit les relations entre la chaleur, le travail et l'énergie",
-      "explanation": "La thermodynamique décrit les relations entre la chaleur, le travail et l'énergie.",
-      "explanationAudio": "La thermodynamique decrit les relations entre la chaleur le travail et l energie",
+      "answer": "Détoxifier le sang",
+      "explanation": "Le foie détoxifie le sang.",
+      "explanationAudio": "Le foie detoxifie le sang en toutes lettres.",
       "imagePrompts": [
-        "A highly detailed illustration of a heat engine, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
-        "A realistic depiction of a thermodynamic system, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of a temperature gradient, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+        "A hyper-realistic 3D render of human liver, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A detailed illustration of liver anatomy, swirling clouds of hepatocytes, volumetric light rays, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A photorealistic 3D model of liver function, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting"
       ]
     },
     {
-      "question": "Qu'est-ce que l'électromagnétisme ?",
-      "questionAudio": "Qu est ce que l electromagnetisme",
+      "question": "Qu'est-ce que le système digestif ?",
+      "questionAudio": "Qu'est-ce que le systeme digestif en toutes lettres ?",
       "emojis": [
+        "🍴",
+        "👨‍⚕️",
+        "💊",
         "🔬",
-        "🧪",
-        "✨"
+        "📊",
+        "👍",
+        "🏥"
       ],
       "options": [
-        "Une force qui décrit les interactions entre les particules chargées",
-        "Une force qui décrit la gravité",
-        "Une force qui décrit la vitesse de la lumière"
+        "Un système qui absorbe les nutriments",
+        "Un système qui régule les émotions",
+        "Un système qui transmet les informations"
       ],
       "correct": 0,
-      "answer": "Une force qui décrit les interactions entre les particules chargées",
-      "explanation": "L'électromagnétisme décrit les interactions entre les particules chargées.",
-      "explanationAudio": "L electromagnetisme decrit les interactions entre les particules chargees",
+      "answer": "Un système qui absorbe les nutriments",
+      "explanation": "Le système digestif absorbe les nutriments.",
+      "explanationAudio": "Le systeme digestif absorbe les nutriments en toutes lettres.",
       "imagePrompts": [
-        "A highly detailed illustration of an electromagnetic field, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
-        "A realistic depiction of a charged particle in motion, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of a magnetic field, volumetric light rays, 8k resolution, highly detailed, vivid colors"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que la mécanique des fluides ?",
-      "questionAudio": "Qu est ce que la mecanique des fluides",
-      "emojis": [
-        "🔬",
-        "🧪",
-        "✨"
-      ],
-      "options": [
-        "Une théorie qui décrit le comportement des fluides en mouvement",
-        "Une théorie qui décrit la force de gravité",
-        "Une théorie qui décrit la vitesse de la lumière"
-      ],
-      "correct": 0,
-      "answer": "Une théorie qui décrit le comportement des fluides en mouvement",
-      "explanation": "La mécanique des fluides décrit le comportement des fluides en mouvement.",
-      "explanationAudio": "La mecanique des fluides decrit le comportement des fluides en mouvement",
-      "imagePrompts": [
-        "A highly detailed illustration of a fluid in motion, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
-        "A realistic depiction of a flow simulation, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of a vortex, volumetric light rays, 8k resolution, highly detailed, vivid colors"
-      ]
-    },
-    {
-      "question": "Qu'est-ce que la théorie des champs ?",
-      "questionAudio": "Qu est ce que la theorie des champs",
-      "emojis": [
-        "🔬",
-        "🧪",
-        "✨"
-      ],
-      "options": [
-        "Une théorie qui décrit les interactions entre les particules à l'échelle fondamentale",
-        "Une théorie qui décrit la force de gravité",
-        "Une théorie qui décrit la vitesse de la lumière"
-      ],
-      "correct": 0,
-      "answer": "Une théorie qui décrit les interactions entre les particules à l'échelle fondamentale",
-      "explanation": "La théorie des champs décrit les interactions entre les particules à l'échelle fondamentale.",
-      "explanationAudio": "La theorie des champs decrit les interactions entre les particules a l echelle fondamentale",
-      "imagePrompts": [
-        "A highly detailed illustration of a field theory, ultra sharp focus, professional photography, dramatic composition, photorealistic 3D render",
-        "A realistic depiction of a particle interaction, highly detailed, cinematic lighting, 8k resolution, vivid colors, ultra sharp focus",
-        "A hyper-realistic detailed 3D render of a quantum field, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+        "A hyper-realistic 3D render of digestive system, cinematic lighting, 8k resolution, highly detailed, vivid colors",
+        "A hyper-realistic photorealistic 3D render of A detailed illustration of digestive tract, swirling clouds of digestive enzymes, volumetric light rays, ultra sharp focus, professional photography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A photorealistic 3D model of nutrient absorption, dramatic composition, photorealistic 3D render, highly detailed, cinematic lighting"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 /**
  * generate-quiz.ts — ÉTAPE 1 du pipeline.
  *
- * Génère un quiz de N questions via Groq (Llama-3), N étant tiré au sort par
+ * Génère un quiz de N questions via Groq / OpenAI, N étant tiré au sort par
  * un algorithme pondéré (voir scripts/question-count.ts), puis écrit :
  *  - input/metadata.json  → utilisé par scripts/upload.ts (légende TikTok)
  *  - quiz.json            → consommé par scripts/prepare.ts (rendu vidéo)
@@ -21,7 +21,7 @@ interface HistoryData {
 export interface QuizItem {
   /** Texte AFFICHÉ (chiffres/symboles autorisés). */
   question: string;
-  /** Texte LU par le TTS (tout en toutes lettres). */
+  /** Texte LU par le TTS (avec accents, sans ponctuation perturbatrice, phonétique). */
   questionAudio: string;
   options: [string, string, string];
   answer: string;
@@ -29,9 +29,9 @@ export interface QuizItem {
   correct: 0 | 1 | 2;
   /** Explication AFFICHÉE. */
   explanation: string;
-  /** Explication LUE par le TTS (toutes lettres). */
+  /** Explication LUE par le TTS. */
   explanationAudio: string;
-  /** Un prompt d'image par option (génération Pollinations). */
+  /** Un prompt d'image par option (format 1:1, style isolé). */
   imagePrompts: [string, string, string];
   /** Emojis PROPRES à cette question (affichés sous l'énoncé). */
   emojis: string[];
@@ -76,17 +76,16 @@ const defaultHistory: HistoryData = {
 };
 
 const FALLBACK_EMOJIS = ["🔬", "🧪", "✨", "🌍", "⚡", "🧠", "🚀"];
-const QUALITY_TAIL = "cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus";
-const QUALITY_KEYS = [
-  "hyper-realistic",
-  "photorealistic",
-  "cinematic",
-  "8k",
-  "highly detailed",
-  "vivid colors",
-  "sharp focus",
-  "volumetric",
-];
+
+/** Nettoie le texte audio pour le moteur TTS (Unreal Speech). */
+function cleanAudioText(text: string): string {
+  return String(text || "")
+    // CONSERVATION STRICTE DES ACCENTS (é, è, à, ê, ù, ç)
+    // Supprime uniquement la ponctuation perturbatrice pour le moteur TTS
+    .replace(/[?()"'\[\]{}]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
 /** Normalise une question renvoyée par l'IA (garde-fous format + prompts). */
 function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): QuizItem {
@@ -101,19 +100,53 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
       ? foundIndex
       : 0) as 0 | 1 | 2;
 
+  // --- Normalisation des prompts d'images ---
   const rawPrompts: string[] =
     Array.isArray(raw.imagePrompts) && raw.imagePrompts.length === 3 ? raw.imagePrompts : options;
-  const imagePrompts = rawPrompts.map((p) => {
-    // Accents = résidu de français → on retire les diacritiques
-    let text = String(p || "")
-      .trim()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "");
-    const score = QUALITY_KEYS.filter((k) => text.toLowerCase().includes(k)).length;
-    if (score < 3) {
-      text = `A hyper-realistic photorealistic 3D render of ${text.replace(/[.,]+$/, "")}, ${QUALITY_TAIL}`;
-    }
-    return text;
+
+  const PREFIX = "Square 1:1 aspect ratio, centered subject, clean lighting, ";
+  const STYLES = [
+    ", Clean 3D Octane Render",
+    ", Cinematic Studio Photography",
+    ", Modern Minimalist Vector Graphic",
+  ];
+
+  const BANNED_BUZZWORDS = [
+    /hyper-realistic/gi,
+    /photorealistic/gi,
+    /8k resolution/gi,
+    /8k/gi,
+    /trending on artstation/gi,
+    /highly detailed/gi,
+    /ultra sharp focus/gi,
+    /volumetric light/gi,
+  ];
+
+  const imagePrompts = rawPrompts.map((p, idx) => {
+    let text = String(p || "").trim();
+
+    // Suppression des diacritiques uniquement pour l'anglais du prompt d'image
+    text = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    // Élimination du buzzword stuffing
+    BANNED_BUZZWORDS.forEach((bw) => {
+      text = text.replace(bw, "");
+    });
+
+    // Nettoyage des résidus du préfixe s'il était présent
+    text = text.replace(/^Square 1:1 aspect ratio, centered subject, clean lighting,?\s*/i, "");
+    
+    // Nettoyage de tout style déjà injecté pour garantir l'isolation stricte
+    STYLES.forEach((s) => {
+      const cleanS = s.replace(", ", "");
+      text = text.replace(new RegExp(cleanS, "gi"), "");
+    });
+
+    text = text.replace(/^[.,\s]+|[.,\s]+$/g, "");
+
+    // Application du format obligatoire + sujet + style isolé dédié
+    const targetStyle = STYLES[idx % STYLES.length];
+    return `${PREFIX}${text}${targetStyle}`;
   }) as [string, string, string];
 
   // Emojis spécifiques à CETTE question
@@ -125,7 +158,7 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
     if (!emojis.includes(e)) emojis.push(e);
   }
 
-  // Séparation visuel / audio
+  // Séparation visuel / audio avec garde-fous TTS
   const pair = (value: any, legacy: any): { display: string; audio: string } => {
     const src = value ?? legacy;
     if (src && typeof src === "object") {
@@ -139,9 +172,10 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
 
   const q = pair(raw.question, raw.text_display);
   if (raw.text_audio && !q.audio) q.audio = String(raw.text_audio).trim();
-  const qAudio = String(raw.question_audio ?? raw.text_audio ?? q.audio ?? "").trim() || q.display;
+  const qAudio = cleanAudioText(String(raw.question_audio ?? raw.text_audio ?? q.audio ?? "").trim() || q.display);
+
   const exp = pair(raw.explanation, null);
-  const expAudio = String(raw.explanation_audio ?? exp.audio ?? "").trim() || exp.display;
+  const expAudio = cleanAudioText(String(raw.explanation_audio ?? exp.audio ?? "").trim() || exp.display);
 
   return {
     question: q.display,
@@ -157,10 +191,19 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
 }
 
 export async function generateQuiz(): Promise<QuizMetadata> {
-  console.log("🧠 Étape 1/3 — Génération du sujet via Groq (Llama-3)...");
+  console.log("🧠 Étape 1/3 — Génération du quiz via LLM...");
 
-  const apiKey = process.env.GROQ_API_KEY;
-  if (!apiKey) throw new Error("❌ GROQ_API_KEY manquant dans les secrets GitHub.");
+  // Vérification stricte des variables d'environnement
+  const apiKey = process.env.GROQ_API_KEY || process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    throw new Error("❌ Clé API manquante : Veuillez définir GROQ_API_KEY ou OPENAI_API_KEY dans vos variables d'environnement.");
+  }
+
+  const isGroq = !!process.env.GROQ_API_KEY;
+  const apiUrl = isGroq
+    ? "https://api.groq.com/openai/v1/chat/completions"
+    : "https://api.openai.com/v1/chat/completions";
+  const modelName = isGroq ? "llama-3.3-70b-versatile" : "gpt-4o";
 
   let history: HistoryData = defaultHistory;
   if (fs.existsSync(historyPath)) {
@@ -186,7 +229,7 @@ CONTRAINTES DE FIABILITÉ STRICTES (FACT-CHECKING) :
 1. Chaque information, question et réponse doit être un FAIT SCIENTIFIQUE AVÉRÉ et faire l'objet d'un consensus total.
 2. N'invente rien. Aucune pseudo-science, aucune théorie controversée.
 3. Si tu as le moindre doute sur l'exactitude d'un fait, choisis un autre sujet.
-4. Les ${questionCount} questions doivent être DIFFÉRENTES les unes des autres (aucune redite).
+4. Les ${questionCount} questions doivent être DIFFÉRENTES les unes des autres.
 
 INTERDICTION STRICTE DE PARLER DE CES SUJETS :
 ${JSON.stringify(history.used_topics.slice(-100))}
@@ -197,79 +240,78 @@ Tu dois répondre UNIQUEMENT avec un objet JSON valide structuré exactement com
   "description": "Une phrase d'accroche très captivante pour inciter à regarder et commenter.",
   "hashtags": ["#science", "#quiz", "#cultureg", "#apprendre", "#decouverte"],
   "motif": "Un seul mot-clé de thème visuel parmi: space, nature, human-body, chemistry, tech, brain",
-  "cta": { "text_display": "Abonne-toi pour 1 quiz / jour !", "text_audio": "Abonne-toi pour un quiz par jour !" },
+  "cta": { 
+    "text_display": "Abonne-toi pour 1 quiz / jour !", 
+    "text_audio": "Abonne toi pour un quiz par jour !" 
+  },
   "emojis": ["🔬", "🧪", "✨", "🌍", "⚡", "🧠", "🚀"],
   "uiScale": 0.85,
   "questions": [
     {
       "question": {
-        "text_display": "La question posée ? (max 140 caractères, chiffres et symboles autorisés)",
-        "text_audio": "La même question, entièrement en toutes lettres pour la voix off"
+        "text_display": "Quelle est la formule de l'eau à 0 °C ?",
+        "text_audio": "Quelle est la formule de l'eau à zéro degré celsius"
       },
       "options": ["Option A", "Option B", "Option C"],
       "answer": "Le texte EXACT de la bonne réponse, recopié depuis options",
       "correct": 0,
       "explanation": {
-        "text_display": "Explication factuelle en 2 phrases simples (chiffres/symboles autorisés).",
-        "text_audio": "La même explication, entièrement en toutes lettres."
+        "text_display": "La molécule d'eau contient 2 atomes d'hydrogène et 1 d'oxygène.",
+        "text_audio": "La molécule d'eau contient deux atomes d'hydrogène et un d'oxygène."
       },
-      "imagePrompts": ["english prompt A", "english prompt B", "english prompt C"],
-      "emojis": ["7 emojis PROPRES à cette question précise"]
+      "imagePrompts": [
+        "Square 1:1 aspect ratio, centered subject, clean lighting, clear ice cube resting on a dark wooden table, Clean 3D Octane Render",
+        "Square 1:1 aspect ratio, centered subject, clean lighting, liquid water dripping into a glass bowl, Cinematic Studio Photography",
+        "Square 1:1 aspect ratio, centered subject, clean lighting, H2O chemical molecular structure diagram, Modern Minimalist Vector Graphic"
+      ],
+      "emojis": ["💧", "🧊", "🧪", "🔬", "🌊", "❄️", "✨"]
     }
   ]
 }
 
-RÈGLES DE FORMAT :
-- "topic" : Titre principal percutant pour la publication TikTok.
-- "description" : Texte engageant pour la légende.
-- "hashtags" : STRICTEMENT ENTRE 3 ET 5 HASHTAGS MAXIMUM. Doivent commencer par #.
-- "questions" contient EXACTEMENT ${questionCount} éléments. Ni plus, ni moins.
+═══════════════════════════════════════════════════════
+OPTIMISATION STRICTE DU TTS (text_audio)
+═══════════════════════════════════════════════════════
+1. CONSERVATION DES ACCENTS FRANÇAIS : Conserve TOUS les accents français (é, è, à, ê, ù, ç). Ne les retire JAMAIS car le moteur TTS Unreal Speech en a besoin pour la prononciation.
+2. NETTOYAGE PONCTUATION : Supprime les points d'interrogation (?), parenthèses (), guillemets ("") et crochets []. Conserve uniquement les virgules et points pour marquer les pauses.
+3. ADAPTATION PHONÉTIQUE ET ÉPELLATION : Écris TOUT en toutes lettres.
+   - Symboles / Formules : "Au" -> "A U", "O2" -> "O deux", "H2O" -> "H deux O"
+   - Unités / Math : "0°C" -> "zéro degré celsius", "100 km/h" -> "cent kilomètres par heure", "50%" -> "cinquante pour cent".
+   - Nombres / Dates : "1969" -> "mille neuf cent soixante neuf".
+
+═══════════════════════════════════════════════════════
+OPTIMISATION STRICTE DES PROMPTS D'IMAGES (imagePrompts)
+═══════════════════════════════════════════════════════
+1. LANGUE : 100% Anglais.
+2. FORMAT CARRÉ OBLIGATOIRE : Tous les prompts doivent COMMENCER par : "Square 1:1 aspect ratio, centered subject, clean lighting, ".
+3. SUJETS CONCRETS : Décris uniquement des objets physiques, des matières ou des décors concrets. Pas de concepts scientifiques abstraits (ex: "une pomme rouge tombant sur un sol" au lieu de "concept de gravité").
+4. ISOLATION STRICTE DES STYLES (1 style unique par prompt) :
+   - Prompt 1 (Option A) : "Square 1:1 aspect ratio, centered subject, clean lighting, [Sujet physique concret A], Clean 3D Octane Render"
+   - Prompt 2 (Option B) : "Square 1:1 aspect ratio, centered subject, clean lighting, [Sujet physique concret B], Cinematic Studio Photography"
+   - Prompt 3 (Option C) : "Square 1:1 aspect ratio, centered subject, clean lighting, [Sujet physique concret C], Modern Minimalist Vector Graphic"
+5. ZÉRO BUZZWORD STUFFING : Interdiction d'inclure "hyper-realistic", "photorealistic", "8k", "trending on artstation", "highly detailed", "ultra sharp focus".
+
+RÈGLES DE FORMAT GÉNÉRALES :
+- "hashtags" : STRICTEMENT ENTRE 3 ET 5 HASHTAGS MAXIMUM avec #.
+- "questions" contient EXACTEMENT ${questionCount} éléments.
 - Chaque "options" contient EXACTEMENT 3 éléments.
-- "correct" est l'index (0, 1 ou 2) de "answer" dans "options". Varie la position d'une question à l'autre.
-- "emojis" (racine) : 7 emojis liés au thème global.
-- CHAQUE question possède SON PROPRE champ "emojis" (7 emojis), différent des autres questions et directement lié au contenu de CETTE question (ex: une question sur Napoléon → ["⚔️","🇫🇷","👑","🏛️","📜","🎖️","💣"], une question sur la peinture → ["🎨","🖼️","🖌️","🧑‍🎨","🏛️","✨","🎭"]). Ne recopie JAMAIS la même liste d'une question à l'autre.
-- "uiScale" vaut 0.85 (ne le modifie pas sans raison).
-
-═══════════════════════════════════════════════════════
-SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
-═══════════════════════════════════════════════════════
-Les champs "question", "explanation" et "cta" sont TOUJOURS des objets à deux clés :
-1. "text_display" → ce qui s'affiche à l'écran : court, avec chiffres, unités et symboles (ex: "100 km/h", "-273,15 °C", "H2O", "3,14", "1969").
-2. "text_audio" → ce qui est LU par la synthèse vocale : STRICTEMENT en toutes lettres, sans aucun chiffre ni symbole (ex: "cent kilomètres par heure", "moins deux cent soixante-treize virgule quinze degrés Celsius", "H deux O", "trois virgule quatorze", "mille neuf cent soixante-neuf").
-3. INTERDIT dans "text_audio" : 0-9, %, °, +, -, /, ×, =, ², ³, µ, km/h, °C, etc. Écris "pour cent", "degrés", "plus", "moins", "divisé par", "au carré", etc.
-4. Le sens des deux versions doit être rigoureusement identique.
-
-═══════════════════════════════════════════════════════
-RÔLE SUPPLÉMENTAIRE : "PROMPT MASTER" POUR "imagePrompts"
-═══════════════════════════════════════════════════════
-Le quiz est en FRANÇAIS, mais les "imagePrompts" alimentent un générateur d'images (Stable Diffusion / Pollinations) qui ne comprend QUE l'anglais.
-
-RÈGLES ABSOLUES pour "imagePrompts" :
-1. LANGUE : 100% ANGLAIS. Aucun mot français, aucun accent.
-2. UN PROMPT PAR OPTION, dans le MÊME ORDRE que "options" (3 éléments exactement).
-3. STRUCTURE OBLIGATOIRE : [type de rendu] + [sujet principal très détaillé] + [environnement/contexte] + [éclairage] + [mots-clés de qualité]
-4. MOTS-CLÉS DE QUALITÉ OBLIGATOIRES : au minimum 4 parmi — hyper-realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus, professional photography, volumetric light, dramatic composition, photorealistic 3D render.
-5. LONGUEUR : entre 15 et 35 mots, style "mots-clés séparés par des virgules".
-6. INTERDITS : texte/lettres/chiffres dans l'image, watermark, collage, personnages célèbres, mention du mot "option" ou de la lettre A/B/C.
-
-EXEMPLE DE TRANSFORMATION (à imiter impérativement) :
-  ❌ MAUVAIS : "une balle bleue"  /  "a blue ball"
-  ✅ EXCELLENT : "A hyper-realistic detailed 3D render of planet Earth floating in deep space, swirling clouds over blue oceans, cinematic lighting, volumetric light rays, 8k resolution, highly detailed, vivid colors"
+- "correct" est l'index (0, 1 ou 2).
+- "uiScale" vaut 0.85.
 `;
 
-  console.log("🤖 Envoi de la requête à l'API Groq...");
-  const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+  console.log(`🤖 Envoi de la requête à l'API (${isGroq ? "Groq" : "OpenAI"})...`);
+  const response = await fetch(apiUrl, {
     method: "POST",
     headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
     body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
+      model: modelName,
       messages: [
         {
           role: "system",
           content:
-            "Tu es un générateur de JSON. Tu ne dois renvoyer aucun texte en dehors du JSON. " +
+            "Tu es un générateur de JSON strict. Tu ne dois renvoyer aucun texte en dehors du JSON. " +
             `Le tableau 'questions' doit contenir EXACTEMENT ${questionCount} questions. ` +
-            "Chaque question doit contenir son propre champ 'emojis' (7 emojis pertinents, différents d'une question à l'autre) — ce champ ne peut jamais être vide.",
+            "Chaque question doit contenir son propre champ 'emojis' (7 emojis pertinents).",
         },
         { role: "user", content: prompt },
       ],
@@ -278,7 +320,7 @@ EXEMPLE DE TRANSFORMATION (à imiter impérativement) :
     }),
   });
 
-  if (!response.ok) throw new Error(`❌ Erreur API Groq: ${await response.text()}`);
+  if (!response.ok) throw new Error(`❌ Erreur API: ${await response.text()}`);
 
   const result = (await response.json()) as any;
   const data = JSON.parse(result.choices[0].message.content) as any;
@@ -306,16 +348,18 @@ EXEMPLE DE TRANSFORMATION (à imiter impérativement) :
     .map((h) => String(h).trim().replaceAll(/\s+/g, ""))
     .filter(Boolean)
     .map((h) => (h.startsWith("#") ? h : `#${h}`))
-    .slice(0, 5); // FORCE MAX 5 HASHTAGS
+    .slice(0, 5);
 
   const ctaRaw = data.cta;
   const ctaDisplay =
     (ctaRaw && typeof ctaRaw === "object"
       ? String(ctaRaw.text_display || ctaRaw.text_audio || "")
       : String(ctaRaw || "")
-    ).trim() || "Abonne-toi pour un quiz par jour !";
-  const ctaAudio =
+    ).trim() || "Abonne-toi pour 1 quiz par jour !";
+
+  const rawCtaAudio =
     (ctaRaw && typeof ctaRaw === "object" ? String(ctaRaw.text_audio || "") : "").trim() || ctaDisplay;
+  const ctaAudio = cleanAudioText(rawCtaAudio);
 
   const metadata: QuizMetadata = {
     topic: String(data.topic || currentCategory),
@@ -336,7 +380,7 @@ EXEMPLE DE TRANSFORMATION (à imiter impérativement) :
   );
   console.log(`🏷️ Hashtags (${metadata.hashtags.length}) : ${metadata.hashtags.join(" ")}`);
 
-  // --- Écriture metadata.json (upload) ---
+  // --- Écriture input/metadata.json (upload) ---
   fs.mkdirSync(path.dirname(metadataPath), { recursive: true });
   fs.writeFileSync(metadataPath, JSON.stringify(metadata, null, 2));
   console.log(`💾 ${metadataPath}`);
@@ -357,10 +401,11 @@ EXEMPLE DE TRANSFORMATION (à imiter impérativement) :
     uiScale: metadata.uiScale,
   }));
 
+  fs.mkdirSync(path.dirname(quizPath), { recursive: true });
   fs.writeFileSync(quizPath, JSON.stringify(videoQuestions, null, 2));
   console.log(`💾 ${quizPath} (${videoQuestions.length} questions)`);
 
-  // --- Mémoire ---
+  // --- Mise à jour de l'historique ---
   history.last_category_index = nextIndex;
   history.used_topics.push(metadata.topic);
   if (history.used_topics.length > 200) history.used_topics.shift();
@@ -375,4 +420,4 @@ if (require.main === module) {
     console.error(e);
     process.exit(1);
   });
-}
+    }

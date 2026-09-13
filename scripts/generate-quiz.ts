@@ -203,7 +203,7 @@ export async function generateQuiz(): Promise<QuizMetadata> {
   const apiUrl = isGroq
     ? "https://api.groq.com/openai/v1/chat/completions"
     : "https://api.openai.com/v1/chat/completions";
-  const modelName = isGroq ? "llama-3.3-70b-versatile" : "gpt-4o";
+  const modelName = isGroq ? "llama-3.1-8b-instant" : "gpt-4o";
 
   let history: HistoryData = defaultHistory;
   if (fs.existsSync(historyPath)) {

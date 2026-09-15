@@ -107,7 +107,8 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         if: ${{ inputs.mode != 'publish-only' }}
+        continue-on-error: true
         with:
           name: Video-Quiz-Finale-MP4
           path: out/quiz.mp4
-          if-no-files-found: error
+          if-no-files-found: ignore

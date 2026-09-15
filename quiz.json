@@ -1,242 +1,132 @@
 [
   {
-    "question": "Qu'est-ce que la formule chimique du gaz oxygène ?",
-    "questionAudio": "Qu est ce que la formule chimique du gaz oxygène",
+    "question": "Quelle plaque tectonique forme la majeure partie du fond océanique du Pacifique ?",
+    "questionAudio": "Quelle plaque tectonique forme la majeure partie du fond océanique du Pacifique",
     "options": [
-      "O",
-      "O2",
-      "H2O"
-    ],
-    "correct": 1,
-    "explanation": "La formule chimique du gaz oxygène est O2, car il est composé de deux atomes d'oxygène.",
-    "explanationAudio": "La formule chimique du gaz oxygène est o deux, car il est compose de deux atomes d oxygène",
-    "emojis": [
-      "🌿",
-      "🧬",
-      "⚗️",
-      "🔬",
-      "⚖️",
-      "🌸",
-      "💡"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic 3D render of oxygen molecule in space, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of oxygen atoms bonding, professional photography, volumetric light, dramatic composition, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A realistic image of a person inhaling oxygen, ultra sharp focus, highly detailed, cinematic lighting, 8k resolution"
-    ],
-    "motif": "chemistry",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le symbole chimique de l'or ?",
-    "questionAudio": "Quel est le symbole chimique de l or",
-    "options": [
-      "Ag",
-      "Au",
-      "Hg"
-    ],
-    "correct": 1,
-    "explanation": "Le symbole chimique de l'or est Au, dérivé du latin Aurum.",
-    "explanationAudio": "Le symbole chimique de l or est a u, derive du latin aurum",
-    "emojis": [
-      "💎",
-      "🏵️",
-      "💃",
-      "🕺",
-      "🔥",
-      "💫",
-      "👑"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic 3D render of gold nugget, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of gold atoms, professional photography, volumetric light, dramatic composition, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A realistic image of a gold ring, ultra sharp focus, highly detailed, cinematic lighting, 8k resolution"
-    ],
-    "motif": "chemistry",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle est la formule chimique de l'eau ?",
-    "questionAudio": "Quelle est la formule chimique de l eau",
-    "options": [
-      "H2O",
-      "CO2",
-      "O2"
+      "Plaque Pacifique",
+      "Plaque Nord‑Américaine",
+      "Plaque Indo‑Australienne"
     ],
     "correct": 0,
-    "explanation": "La formule chimique de l'eau est H2O, car elle est composée de deux atomes d'hydrogène et d'un atome d'oxygène.",
-    "explanationAudio": "La formule chimique de l eau est h deux o, car elle est composee de deux atomes d hydrogene et d un atome d oxygène",
+    "explanation": "La plaque Pacifique couvre environ 103 millions de km², c’est la plus grande plaque océanique.",
+    "explanationAudio": "La plaque Pacifique couvre environ cent trois millions de kilomètres carrés, c’est la plus grande plaque océanique.",
     "emojis": [
-      "💧",
-      "🌊",
-      "🏞️",
-      "🌴",
-      "🐠",
-      "🌻",
-      "🌺"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic 3D render of water molecule, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of water droplet, professional photography, volumetric light, dramatic composition, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A realistic image of a person drinking water, ultra sharp focus, highly detailed, cinematic lighting, 8k resolution"
-    ],
-    "motif": "chemistry",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le nom du processus chimique par lequel les plantes produisent de l'oxygène ?",
-    "questionAudio": "Quel est le nom du processus chimique par lequel les plantes produisent de l oxygène",
-    "options": [
-      "Respiration",
-      "Photosynthèse",
-      "Fermentation"
-    ],
-    "correct": 1,
-    "explanation": "La photosynthèse est le processus chimique par lequel les plantes produisent de l'oxygène à partir de l'eau et du dioxyde de carbone.",
-    "explanationAudio": "La photosynthese est le processus chimique par lequel les plantes produisent de l oxygène a partir de l eau et du dioxyde de carbone",
-    "emojis": [
-      "🌱",
-      "🌿",
-      "🌸",
-      "🐝",
-      "🌻",
-      "🏞️",
-      "🌞"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic 3D render of plant photosynthesis, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of plant cells, professional photography, volumetric light, dramatic composition, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A realistic image of a forest, ultra sharp focus, highly detailed, cinematic lighting, 8k resolution"
-    ],
-    "motif": "chemistry",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle est la température de fusion de l'eau ?",
-    "questionAudio": "Quelle est la temperature de fusion de l eau",
-    "options": [
-      "0°C",
-      "100°C",
-      "20°C"
-    ],
-    "correct": 0,
-    "explanation": "La température de fusion de l'eau est de 0°C, car c'est à cette température que l'eau solide (glace) se transforme en eau liquide.",
-    "explanationAudio": "La temperature de fusion de l eau est de zero degre celsius, car c est a cette temperature que l eau solide glace se transforme en eau liquide",
-    "emojis": [
-      "❄️",
-      "☃️",
-      "🌡️",
-      "📊",
-      "👀",
-      "💡",
+      "🌍",
+      "⚡",
       "🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic 3D render of ice melting, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of water molecules, professional photography, volumetric light, dramatic composition, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A realistic image of a thermometer, ultra sharp focus, highly detailed, cinematic lighting, 8k resolution"
+      "A hyper-realistic photorealistic 3D render of A detailed map of Earth's tectonic plates highlighting the Pacific Plate, high resolution, scientific illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Cross‑section view of the Pacific Ocean floor showing subduction zones, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Animated style diagram of plate movements with arrows, focusing on the Pacific Plate, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
-    "motif": "chemistry",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "motif": "science",
+    "ctaText": "Abonne-toi !",
+    "ctaTextAudio": "Abonne-toi !",
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le nom de l'élément chimique le plus léger ?",
-    "questionAudio": "Quel est le nom de l element chimique le plus leger",
+    "question": "Quel processus transforme l'eau liquide en vapeur dans le cycle de l'eau ?",
+    "questionAudio": "Quel processus transforme l'eau liquide en vapeur dans le cycle de l'eau",
     "options": [
-      "Hydrogène",
-      "Hélium",
-      "Oxygène"
+      "Évaporation",
+      "Condensation",
+      "Précipitation"
     ],
     "correct": 0,
-    "explanation": "L'hydrogène est l'élément chimique le plus léger, car il a la plus petite masse atomique.",
-    "explanationAudio": "L hydrogene est l element chimique le plus leger, car il a la plus petite masse atomique",
+    "explanation": "L'évaporation est le passage de l'eau de l'état liquide à l'état gazeux sous l'effet du soleil.",
+    "explanationAudio": "L'évaporation est le passage de l'eau de l'état liquide à l'état gazeux sous l'effet du soleil.",
     "emojis": [
-      "🌟",
-      "✨",
-      "⚡️",
-      "🔥",
-      "💥",
-      "🔮",
-      "👽"
+      "💧",
+      "☀️",
+      "🌈"
     ],
     "imagePrompts": [
-      "A hyper-realistic 3D render of hydrogen atom, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of periodic table, professional photography, volumetric light, dramatic composition, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A realistic image of a balloon filled with hydrogen, ultra sharp focus, highly detailed, cinematic lighting, 8k resolution"
+      "A hyper-realistic photorealistic 3D render of Sunlit ocean surface with water molecules turning into vapor, scientific style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Diagram of the water cycle emphasizing evaporation from lakes and seas, clear labels, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Illustration of water droplets rising from a river into the atmosphere, realistic colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
-    "motif": "chemistry",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "motif": "science",
+    "ctaText": "Abonne-toi !",
+    "ctaTextAudio": "Abonne-toi !",
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le nom du processus chimique par lequel les corps vivants produisent de l'énergie ?",
-    "questionAudio": "Quel est le nom du processus chimique par lequel les corps vivants produisent de l energie",
+    "question": "Quel instrument mesure la magnitude d'un séisme ?",
+    "questionAudio": "Quel instrument mesure la magnitude d'un séisme",
     "options": [
-      "Respiration",
-      "Photosynthèse",
-      "Fermentation"
+      "Sismomètre",
+      "Baromètre",
+      "Thermomètre"
     ],
     "correct": 0,
-    "explanation": "La respiration est le processus chimique par lequel les corps vivants produisent de l'énergie à partir de la nourriture et de l'oxygène.",
-    "explanationAudio": "La respiration est le processus chimique par lequel les corps vivants produisent de l energie a partir de la nourriture et de l oxygène",
+    "explanation": "Le sismomètre enregistre les ondes sismiques et permet de calculer la magnitude d'un tremblement de terre.",
+    "explanationAudio": "Le sismomètre enregistre les ondes sismiques et permet de calculer la magnitude d'un tremblement de terre.",
     "emojis": [
-      "🏃‍♂️",
-      "👅",
-      "💪",
-      "🔥",
-      "🌟",
-      "👍",
-      "💼"
+      "⚡",
+      "📊",
+      "🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic 3D render of human lungs, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of cellular respiration, professional photography, volumetric light, dramatic composition, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A realistic image of a person running, ultra sharp focus, highly detailed, cinematic lighting, 8k resolution"
+      "A hyper-realistic photorealistic 3D render of Modern seismometer device on a lab bench, high detail, scientific illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Graphical representation of seismic waves recorded by a sismometer, blue lines on dark background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Field installation of a seismometer in a remote mountain area, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
-    "motif": "chemistry",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "motif": "science",
+    "ctaText": "Abonne-toi !",
+    "ctaTextAudio": "Abonne-toi !",
     "uiScale": 0.85
   },
   {
-    "question": "Quelle est la formule chimique du dioxyde de carbone ?",
-    "questionAudio": "Quelle est la formule chimique du dioxyde de carbone",
+    "question": "Quel gaz est le principal contributeur à l'effet de serre naturel ?",
+    "questionAudio": "Quel gaz est le principal contributeur à l'effet de serre naturel",
     "options": [
-      "CO",
-      "CO2",
-      "O2"
+      "Dioxyde de carbone",
+      "Méthane",
+      "Vapeur d'eau"
     ],
-    "correct": 1,
-    "explanation": "La formule chimique du dioxyde de carbone est CO2, car il est composé d'un atome de carbone et de deux atomes d'oxygène.",
-    "explanationAudio": "La formule chimique du dioxyde de carbone est c o deux, car il est compose d un atome de carbone et de deux atomes d oxygène",
+    "correct": 2,
+    "explanation": "La vapeur d'eau absorbe le plus de chaleur dans l'atmosphère, constituant le principal facteur de l'effet de serre naturel.",
+    "explanationAudio": "La vapeur d'eau absorbe le plus de chaleur dans l'atmosphère, constituant le principal facteur de l'effet de serre naturel.",
     "emojis": [
       "🌫️",
-      "🌪️",
-      "💨",
-      "🔴",
-      "🛑️",
-      "🌎",
-      "👀"
+      "☁️",
+      "🔥"
     ],
     "imagePrompts": [
-      "A hyper-realistic 3D render of carbon dioxide molecule, cinematic lighting, 8k resolution, highly detailed, vivid colors",
-      "A hyper-realistic photorealistic 3D render of A detailed illustration of greenhouse effect, professional photography, volumetric light, dramatic composition, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A realistic image of a factory emitting CO2, ultra sharp focus, highly detailed, cinematic lighting, 8k resolution"
+      "A hyper-realistic photorealistic 3D render of Atmospheric diagram showing water vapor clouds trapping infrared radiation, scientific style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Illustration of greenhouse effect with emphasis on water vapor, clear labels, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Realistic rendering of humid air over the ocean with visible moisture, educational illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
-    "motif": "chemistry",
-    "ctaText": "Abonne-toi pour 1 quiz / jour !",
-    "ctaTextAudio": "Abonne-toi pour un quiz par jour !",
+    "motif": "science",
+    "ctaText": "Abonne-toi !",
+    "ctaTextAudio": "Abonne-toi !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel terme désigne la variété des espèces dans un écosystème ?",
+    "questionAudio": "Quel terme désigne la variété des espèces dans un écosystème",
+    "options": [
+      "Biodiversité",
+      "Écotone",
+      "Biomasse"
+    ],
+    "correct": 0,
+    "explanation": "La biodiversité représente la richesse et la variété des espèces vivantes au sein d'un habitat.",
+    "explanationAudio": "La biodiversité représente la richesse et la variété des espèces vivantes au sein d'un habitat.",
+    "emojis": [
+      "🦋",
+      "🌿",
+      "🐾"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of Lush rainforest scene showing many different animal and plant species, vibrant colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Infographic of biodiversity levels across different biomes, clean design, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Close‑up of diverse insects on a leaf, macro photography style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne-toi !",
+    "ctaTextAudio": "Abonne-toi !",
     "uiScale": 0.85
   }
 ]

@@ -45,7 +45,6 @@ jobs:
           pipx install edge-tts || pip3 install --break-system-packages edge-tts || pip3 install edge-tts
           edge-tts --version || true
 
-
       - name: Installer les dépendances
         run: npm install --no-audit --no-fund
 
@@ -62,6 +61,8 @@ jobs:
         if: ${{ inputs.mode != 'publish-only' }}
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          UNREAL_SPEECH_API_KEY: ${{ secrets.UNREAL_SPEECH_API_KEY }}
+          UNREAL_SPEECH_VOICE: ${{ vars.UNREAL_SPEECH_VOICE }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           ELEVENLABS_MODEL_ID: ${{ vars.ELEVENLABS_MODEL_ID }}
@@ -88,7 +89,6 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ inputs.chat_id }}
           GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
         run: npx tsx scripts/notify-telegram.ts
-
 
       # --- Persistance : sauvegarde du JSON IA + de la memoire des sujets ---
       - name: Commit & push (input/, history.json, quiz.json)

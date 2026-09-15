@@ -1,20 +1,94 @@
 /**
  * upload.ts — ÉTAPE 3 du pipeline.
  *
- * Héberge temporairement la vidéo rendue sur Litterbox puis crée le post
- * TikTok via l'API GraphQL de Buffer.
+ * Héberge temporairement la vidéo rendue avec un système de secours (fallback)
+ * puis crée le post TikTok via l'API GraphQL de Buffer.
  */
 import * as fs from "node:fs";
 import * as path from "node:path";
 
 const ROOT = path.resolve(__dirname, "..");
 
-/** Limite dure de Litterbox : 1 Go. */
-const LITTERBOX_MAX_BYTES = 1_000 * 1024 * 1024;
-/** Capacité minimale exigée par le pipeline (assertion de compatibilité). */
+/** Capacité minimale exigée par le pipeline (500 Mo). */
 const REQUIRED_MIN_CAPACITY_BYTES = 500 * 1024 * 1024;
+/** Limite haute de validation (1 Go). */
+const MAX_UPLOAD_BYTES = 1_000 * 1024 * 1024;
 
 const mb = (bytes: number) => (bytes / (1024 * 1024)).toFixed(2);
+
+/**
+ * Tente d'uploader la vidéo sur plusieurs services temporaires gratuits.
+ * Bascule automatiquement sur le suivant si le service plante (erreur 500, timeout, etc).
+ */
+async function uploadWithFallback(fileBuffer: Buffer): Promise<string> {
+  // 1ère tentative : Litterbox (1 Go, 72h)
+  try {
+    console.log("   Tentative 1 : Litterbox (Limite 1 Go, 72h)...");
+    const formData = new FormData();
+    formData.append("reqtype", "fileupload");
+    formData.append("time", "72h");
+    formData.append("fileToUpload", new Blob([fileBuffer]), "video.mp4");
+
+    const res = await fetch("https://litterbox.catbox.moe/resources/internals/api.php", {
+      method: "POST",
+      body: formData,
+      signal: AbortSignal.timeout(120_000), // Timeout après 2 minutes
+    });
+    
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const url = (await res.text()).trim();
+    if (!url.startsWith("http")) throw new Error(`Réponse inattendue : ${url.slice(0, 50)}`);
+    
+    console.log(`   ✅ Succès Litterbox`);
+    return url;
+  } catch (e) {
+    console.warn(`   ⚠️ Échec Litterbox (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 1...`);
+  }
+
+  // 2ème tentative : Tmpfiles.org (1 Go, 1 à 72h)
+  try {
+    console.log("   Tentative 2 : Tmpfiles.org (Limite 1 Go, Max 72h)...");
+    const formData = new FormData();
+    formData.append("file", new Blob([fileBuffer]), "video.mp4");
+
+    const res = await fetch("https://tmpfiles.org/api/v1/upload", {
+      method: "POST",
+      body: formData,
+      signal: AbortSignal.timeout(120_000),
+    });
+    
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json: any = await res.json();
+    
+    // tmpfiles.org renvoie un lien web, on injecte /dl/ pour le lien direct de la vidéo (obligatoire pour Buffer)
+    const url = json.data.url.replace("tmpfiles.org/", "tmpfiles.org/dl/");
+    console.log(`   ✅ Succès Tmpfiles`);
+    return url;
+  } catch (e) {
+    console.warn(`   ⚠️ Échec Tmpfiles (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 2...`);
+  }
+
+  // 3ème tentative (Dernier recours) : Pixeldrain (5 Go, 100 jours)
+  try {
+    console.log("   Tentative 3 : Pixeldrain (Limite 5 Go, Temporaire 100 jours)...");
+    const res = await fetch("https://pixeldrain.com/api/file", {
+      method: "POST",
+      body: new Blob([fileBuffer]),
+      headers: { "Content-Type": "video/mp4" },
+      signal: AbortSignal.timeout(120_000),
+    });
+    
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json: any = await res.json();
+    if (!json.success) throw new Error("Pixeldrain a refusé le fichier.");
+    
+    const url = `https://pixeldrain.com/api/file/${json.id}`;
+    console.log(`   ✅ Succès Pixeldrain`);
+    return url;
+  } catch (e) {
+    throw new Error(`❌ Tous les hébergeurs temporaires ont échoué. Dernier crash : ${e instanceof Error ? e.message : "Erreur inconnue"}`);
+  }
+}
 
 export async function uploadToBufferGraphQL(): Promise<void> {
   console.log("🚀 Étape 3/3 — Upload via Buffer GraphQL API...");
@@ -32,28 +106,22 @@ export async function uploadToBufferGraphQL(): Promise<void> {
   if (!fs.existsSync(videoPath)) throw new Error(`❌ Le fichier vidéo n'existe pas : ${videoPath}`);
   if (!fs.existsSync(metadataPath)) throw new Error(`❌ Metadata introuvable : ${metadataPath}`);
 
-  // --- FILET DE SÉCURITÉ : contrôle du poids avant tout transfert réseau ---
+  // Contrôle du poids
   const stats = fs.statSync(videoPath);
   console.log(`📦 Poids de la vidéo : ${mb(stats.size)} Mo`);
 
   if (stats.size === 0) throw new Error("❌ Vidéo vide (0 octet) — le rendu a probablement échoué.");
-  if (LITTERBOX_MAX_BYTES < REQUIRED_MIN_CAPACITY_BYTES) {
-    throw new Error("❌ L'hébergeur configuré n'atteint pas la capacité minimale requise de 500 Mo.");
+  if (stats.size > MAX_UPLOAD_BYTES) {
+    throw new Error(`❌ Vidéo trop lourde : ${mb(stats.size)} Mo > limite maximale de ${mb(MAX_UPLOAD_BYTES)} Mo (1 Go).`);
   }
-  if (stats.size > LITTERBOX_MAX_BYTES) {
-    throw new Error(
-      `❌ Vidéo trop lourde : ${mb(stats.size)} Mo > limite Litterbox de ${mb(LITTERBOX_MAX_BYTES)} Mo (1 Go).`,
-    );
-  }
-  console.log(`✅ Poids validé (limite hébergeur : 1 Go, minimum requis : 500 Mo).`);
+  console.log(`✅ Poids validé (limite hébergeurs : minimum 1 Go).`);
 
   const metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
 
-  // --- Assemblage structuré : Titre + Description + Hashtags ---
+  // Assemblage structuré : Titre + Description + Hashtags
   const titlePart = metadata.topic ? `${metadata.topic.trim()}\n\n` : "";
   const descPart = metadata.description ? `${metadata.description.trim()}\n\n` : "";
   const hashtagPart = Array.isArray(metadata.hashtags) ? metadata.hashtags.join(" ") : "";
-
   const captionText = `${titlePart}${descPart}${hashtagPart}`.trim();
 
   console.log("📝 Légende TikTok générée :");
@@ -61,24 +129,12 @@ export async function uploadToBufferGraphQL(): Promise<void> {
   console.log(captionText);
   console.log("----------------------------------------");
 
-  console.log("📤 Génération d'une URL publique via Litterbox...");
+  console.log("📤 Génération d'une URL publique temporaire...");
   const fileBuffer = fs.readFileSync(videoPath);
-  const formData = new FormData();
-  formData.append("reqtype", "fileupload");
-  formData.append("time", "72h"); // rétention maximale autorisée par Litterbox
-  formData.append("fileToUpload", new Blob([fileBuffer]), "video.mp4");
-
-  const uploadResponse = await fetch("https://litterbox.catbox.moe/resources/internals/api.php", {
-    method: "POST",
-    body: formData,
-  });
-  if (!uploadResponse.ok) throw new Error("❌ Échec de l'hébergement temporaire de la vidéo.");
-
-  const publicVideoUrl = (await uploadResponse.text()).trim();
-  if (!publicVideoUrl.startsWith("http")) {
-    throw new Error(`❌ Réponse Litterbox inattendue : ${publicVideoUrl.slice(0, 200)}`);
-  }
-  console.log(`🔗 URL vidéo directe : ${publicVideoUrl}`);
+  
+  // Appel du système de secours (fallback)
+  const publicVideoUrl = await uploadWithFallback(fileBuffer);
+  console.log(`🔗 URL vidéo finale utilisée par Buffer : ${publicVideoUrl}`);
 
   console.log("📲 Envoi de la publication à Buffer...");
   const query = `
@@ -137,4 +193,4 @@ if (require.main === module) {
     console.error(e);
     process.exit(1);
   });
-}
+      }

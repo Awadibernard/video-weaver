@@ -80,9 +80,19 @@ export function getTtsStatus(): TtsStatus {
 // ───────────────────────────── NIVEAU 1 : Unreal Speech ─────────────────────────
 
 let unrealDown = false;
+let unrealKeyMissingNotified = false;
 
 async function tryUnrealSpeech(text: string, outPath: string): Promise<boolean> {
-  if (unrealDown || !UNREAL_KEY) return false;
+  // 1. Log explicite si la clé est introuvable (affiché une seule fois pour ne pas spammer)
+  if (!UNREAL_KEY) {
+    if (!unrealKeyMissingNotified) {
+      console.warn("⚠️ Unreal Speech ignoré : La clé API (UNREAL_SPEECH_API_KEY) est vide ou manquante. Bascule immédiate sur Edge TTS.");
+      unrealKeyMissingNotified = true;
+    }
+    return false;
+  }
+
+  if (unrealDown) return false;
 
   try {
     const res = await fetch("https://api.v8.unrealspeech.com/stream", {
@@ -102,8 +112,10 @@ async function tryUnrealSpeech(text: string, outPath: string): Promise<boolean> 
       signal: AbortSignal.timeout(120_000),
     });
 
+    // 2. Extraction du message d'erreur exact renvoyé par l'API
     if (!res.ok) {
-      throw new Error(`HTTP ${res.status} - ${res.statusText}`);
+      const errorBody = await res.text().catch(() => "Impossible de lire le corps de l'erreur");
+      throw new Error(`HTTP ${res.status} - ${res.statusText} | Détails API : ${errorBody}`);
     }
 
     const buf = Buffer.from(await res.arrayBuffer());
@@ -115,10 +127,11 @@ async function tryUnrealSpeech(text: string, outPath: string): Promise<boolean> 
     return true;
   } catch (e) {
     const msg = e instanceof Error ? e.message : String(e);
-    console.warn(`  ↻ Unreal Speech : ${msg}`);
+    // 3. Affichage bien visible du crash dans les logs
+    console.warn(`❌ Erreur fatale Unreal Speech : ${msg}`);
     unrealDown = true;
     status.unrealSpeechAvailable = false;
-    await alertTelegram("⚠️ Unreal Speech indisponible. Bascule sur Edge TTS...");
+    await alertTelegram(`⚠️ Unreal Speech indisponible : ${msg}. Bascule sur Edge TTS...`);
     return false;
   }
 }
@@ -175,4 +188,4 @@ export async function synthesizeSpeech(textAudio: string, outPath: string): Prom
   writeTtsStatus();
   console.warn("⚠️  Aucun moteur TTS n'a pu générer :", text.slice(0, 60));
   return "none";
-}
+  }

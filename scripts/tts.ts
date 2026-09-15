@@ -18,7 +18,7 @@ const STATUS_FILE = path.join(ROOT, "public", "tts-status.json");
 
 // Configuration Unreal Speech (Niveau 1)
 const UNREAL_KEY = (process.env.UNREAL_SPEECH_API_KEY || "").trim();
-const UNREAL_VOICE = process.env.UNREAL_SPEECH_VOICE || "Scarlett";
+const UNREAL_VOICE = process.env.UNREAL_SPEECH_VOICE || "Élodie";
 
 // Configuration Edge TTS (Niveau 2)
 const EDGE_VOICE = process.env.EDGE_TTS_VOICE || "fr-FR-DeniseNeural";

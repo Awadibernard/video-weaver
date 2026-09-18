@@ -1,24 +1,28 @@
 [
   {
-    "question": "Quelle plaque tectonique forme la majeure partie du fond océanique du Pacifique ?",
-    "questionAudio": "Quelle plaque tectonique forme la majeure partie du fond océanique du Pacifique",
+    "question": "Qui a inventé le laser en 1960 ?",
+    "questionAudio": "Qui a inventé le laser en mille neuf cent soixante",
     "options": [
-      "Plaque Pacifique",
-      "Plaque Nord‑Américaine",
-      "Plaque Indo‑Australienne"
+      "Theodore Maiman",
+      "Albert Einstein",
+      "Niels Bohr"
     ],
     "correct": 0,
-    "explanation": "La plaque Pacifique couvre environ 103 millions de km², c’est la plus grande plaque océanique.",
-    "explanationAudio": "La plaque Pacifique couvre environ cent trois millions de kilomètres carrés, c’est la plus grande plaque océanique.",
+    "explanation": "Le laser a été créé par Theodore Maiman en 1960 au Hughes Research Laboratory.",
+    "explanationAudio": "Le laser a été créé par Theodore Maiman en mille neuf cent soixante au Hughes Research Laboratory",
     "emojis": [
-      "🌍",
+      "🔬",
       "⚡",
-      "🔬"
+      "🚀",
+      "✨",
+      "🧪",
+      "🧠",
+      "🌍"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed map of Earth's tectonic plates highlighting the Pacific Plate, high resolution, scientific illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Cross‑section view of the Pacific Ocean floor showing subduction zones, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Animated style diagram of plate movements with arrows, focusing on the Pacific Plate, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of high‑tech laboratory with laser apparatus, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of portrait of Theodore Maiman, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of early laser device schematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne-toi !",
@@ -26,51 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel processus transforme l'eau liquide en vapeur dans le cycle de l'eau ?",
-    "questionAudio": "Quel processus transforme l'eau liquide en vapeur dans le cycle de l'eau",
+    "question": "En quelle année le premier microprocesseur commercial, l'Intel 4004, a-t-il été lancé ?",
+    "questionAudio": "En quelle année le premier microprocesseur commercial, l'Intel quatre zéro zéro quatre, a t il été lancé",
     "options": [
-      "Évaporation",
-      "Condensation",
-      "Précipitation"
+      "1971",
+      "1974",
+      "1978"
     ],
     "correct": 0,
-    "explanation": "L'évaporation est le passage de l'eau de l'état liquide à l'état gazeux sous l'effet du soleil.",
-    "explanationAudio": "L'évaporation est le passage de l'eau de l'état liquide à l'état gazeux sous l'effet du soleil.",
+    "explanation": "L'Intel 4004, premier microprocesseur commercial, a été lancé en 1971.",
+    "explanationAudio": "L'Intel quatre zéro zéro quatre, premier microprocesseur commercial, a été lancé en mille neuf cent soixante‑et‑un",
     "emojis": [
-      "💧",
-      "☀️",
-      "🌈"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Sunlit ocean surface with water molecules turning into vapor, scientific style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Diagram of the water cycle emphasizing evaporation from lakes and seas, clear labels, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Illustration of water droplets rising from a river into the atmosphere, realistic colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne-toi !",
-    "ctaTextAudio": "Abonne-toi !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel instrument mesure la magnitude d'un séisme ?",
-    "questionAudio": "Quel instrument mesure la magnitude d'un séisme",
-    "options": [
-      "Sismomètre",
-      "Baromètre",
-      "Thermomètre"
-    ],
-    "correct": 0,
-    "explanation": "Le sismomètre enregistre les ondes sismiques et permet de calculer la magnitude d'un tremblement de terre.",
-    "explanationAudio": "Le sismomètre enregistre les ondes sismiques et permet de calculer la magnitude d'un tremblement de terre.",
-    "emojis": [
+      "🔬",
       "⚡",
-      "📊",
-      "🔬"
+      "🚀",
+      "✨",
+      "🧪",
+      "🧠",
+      "🌍"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Modern seismometer device on a lab bench, high detail, scientific illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Graphical representation of seismic waves recorded by a sismometer, blue lines on dark background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Field installation of a seismometer in a remote mountain area, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of vintage Intel 4004 chip, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of close‑up of early microprocessor, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of diagram of 4004 architecture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne-toi !",
@@ -78,51 +60,89 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel gaz est le principal contributeur à l'effet de serre naturel ?",
-    "questionAudio": "Quel gaz est le principal contributeur à l'effet de serre naturel",
+    "question": "Quel est le principe de base de la technologie CRISPR‑Cas9 ?",
+    "questionAudio": "Quel est le principe de base de la technologie CRISPR Cas neuf",
     "options": [
-      "Dioxyde de carbone",
-      "Méthane",
-      "Vapeur d'eau"
-    ],
-    "correct": 2,
-    "explanation": "La vapeur d'eau absorbe le plus de chaleur dans l'atmosphère, constituant le principal facteur de l'effet de serre naturel.",
-    "explanationAudio": "La vapeur d'eau absorbe le plus de chaleur dans l'atmosphère, constituant le principal facteur de l'effet de serre naturel.",
-    "emojis": [
-      "🌫️",
-      "☁️",
-      "🔥"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Atmospheric diagram showing water vapor clouds trapping infrared radiation, scientific style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Illustration of greenhouse effect with emphasis on water vapor, clear labels, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Realistic rendering of humid air over the ocean with visible moisture, educational illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne-toi !",
-    "ctaTextAudio": "Abonne-toi !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel terme désigne la variété des espèces dans un écosystème ?",
-    "questionAudio": "Quel terme désigne la variété des espèces dans un écosystème",
-    "options": [
-      "Biodiversité",
-      "Écotone",
-      "Biomasse"
+      "Coupe d'ADN guidée par ARN",
+      "Amplification d'ADN par PCR",
+      "Séquençage d'ADN par Sanger"
     ],
     "correct": 0,
-    "explanation": "La biodiversité représente la richesse et la variété des espèces vivantes au sein d'un habitat.",
-    "explanationAudio": "La biodiversité représente la richesse et la variété des espèces vivantes au sein d'un habitat.",
+    "explanation": "CRISPR‑Cas9 utilise une molécule d'ARN guide pour couper l'ADN à un site précis.",
+    "explanationAudio": "CRISPR Cas neuf utilise une molécule d'ARN guide pour couper l'ADN à un site précis",
     "emojis": [
-      "🦋",
-      "🌿",
-      "🐾"
+      "🔬",
+      "⚡",
+      "🚀",
+      "✨",
+      "🧪",
+      "🧠",
+      "🌍"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Lush rainforest scene showing many different animal and plant species, vibrant colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Infographic of biodiversity levels across different biomes, clean design, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Close‑up of diverse insects on a leaf, macro photography style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of CRISPR Cas9 molecular illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of DNA double helix being cut, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of lab scientist handling CRISPR tools, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne-toi !",
+    "ctaTextAudio": "Abonne-toi !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle énergie renouvelable utilise des cellules photovoltaïques pour produire de l'électricité ?",
+    "questionAudio": "Quelle énergie renouvelable utilise des cellules photovoltaïques pour produire de l'électricité",
+    "options": [
+      "Solaire",
+      "Éolienne",
+      "Hydraulique"
+    ],
+    "correct": 0,
+    "explanation": "Les panneaux solaires convertissent la lumière du soleil en électricité grâce aux cellules photovoltaïques.",
+    "explanationAudio": "Les panneaux solaires convertissent la lumière du soleil en électricité grâce aux cellules photovoltaïques",
+    "emojis": [
+      "🔬",
+      "⚡",
+      "🚀",
+      "✨",
+      "🧪",
+      "🧠",
+      "🌍"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of solar panel array on a field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of close‑up of photovoltaic cell, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of sunlight hitting solar panels, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne-toi !",
+    "ctaTextAudio": "Abonne-toi !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel dispositif a popularisé l'impression 3D par stéréolithographie en 1986 ?",
+    "questionAudio": "Quel dispositif a popularisé l'impression trois D par stéréolithographie en mille neuf cent quatre‑vingt‑six",
+    "options": [
+      "SLA (stéréolithographie)",
+      "FDM (dépôt de filament)",
+      "SLS (frittage laser)"
+    ],
+    "correct": 0,
+    "explanation": "En 1986, Charles Hull a breveté la stéréolithographie (SLA), première technologie d'impression 3D commercialisée.",
+    "explanationAudio": "En mille neuf cent quatre‑vingt‑six, Charles Hull a breveté la stéréolithographie SLA première technologie d'impression trois D commercialisée",
+    "emojis": [
+      "🔬",
+      "⚡",
+      "🚀",
+      "✨",
+      "🧪",
+      "🧠",
+      "🌍"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of early SLA 3D printer prototype, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of layer‑by‑layer resin curing process, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Charles Hull portrait with 3D model, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne-toi !",

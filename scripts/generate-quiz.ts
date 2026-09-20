@@ -71,10 +71,9 @@ const QUALITY_KEYS = [
   "volumetric",
 ];
 
-/** Normalise une question renvoyée par l'IA (garde-fous format + prompts). */
 function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): QuizItem {
   if (!Array.isArray(raw?.options) || raw.options.length !== 3) {
-    throw new Error("❌ JSON invalide : chaque question doit contenir exactement 3 'options'.");
+    throw new Error("Chaque question doit contenir un tableau 'options' avec EXACTEMENT 3 éléments.");
   }
   const options = raw.options.map((o: unknown) => String(o)) as [string, string, string];
   const foundIndex = options.findIndex((o) => o.trim() === String(raw.answer ?? "").trim());
@@ -209,39 +208,83 @@ SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
 2. "text_audio" → STRICTEMENT en toutes lettres (ex: "cent kilomètres par heure").
 `;
 
-  console.log("🤖 Envoi de la requête à l'API Groq...");
-  const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model: "openai/gpt-oss-120b",
-      messages: [
-        {
-          role: "system",
-          content:
-            "Tu es un générateur de JSON strict. Tu ne renvoies AUCUN texte hors du JSON. " +
-            "CRITIQUE : Il est VITAL que le tableau 'options' de chaque question contienne EXACTEMENT 3 éléments. " +
-            `Si tu génères 4 options, le système plantera. Le tableau 'questions' doit contenir EXACTEMENT ${questionCount} questions.`,
-        },
-        { role: "user", content: prompt },
-      ],
-      response_format: { type: "json_object" },
-      temperature: 0.7,
-    }),
-  });
+  const messages: Array<{ role: string; content: string }> = [
+    {
+      role: "system",
+      content:
+        "Tu es un générateur de JSON strict. Tu ne renvoies AUCUN texte hors du JSON. " +
+        "CRITIQUE : Il est VITAL que le tableau 'options' de chaque question contienne EXACTEMENT 3 éléments. " +
+        `Le tableau 'questions' doit contenir EXACTEMENT ${questionCount} questions.`,
+    },
+    { role: "user", content: prompt },
+  ];
 
-  if (!response.ok) throw new Error(`❌ Erreur API Groq: ${await response.text()}`);
+  const MAX_RETRIES = 3;
+  let data: any = null;
 
-  const result = (await response.json()) as any;
-  const data = JSON.parse(result.choices[0].message.content) as any;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    console.log(`🤖 Envoi de la requête à l'API Groq (Tentative ${attempt}/${MAX_RETRIES})...`);
 
-  const rawQuestions: any[] = Array.isArray(data.questions) ? data.questions : [];
-  if (!rawQuestions.length) throw new Error("❌ JSON invalide : aucun élément dans 'questions'.");
+    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: "openai/gpt-oss-120b",
+        messages,
+        response_format: { type: "json_object" },
+        temperature: 0.7,
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(`❌ Erreur API Groq: ${await response.text()}`);
+    }
+
+    const result = (await response.json()) as any;
+    const rawContent = result.choices?.[0]?.message?.content || "";
+
+    try {
+      data = JSON.parse(rawContent);
+      const rawQuestions: any[] = Array.isArray(data.questions) ? data.questions : [];
+      if (!rawQuestions.length) {
+        throw new Error("Le tableau 'questions' est vide ou absent du JSON.");
+      }
+
+      // Test de validation/normalisation immédiat
+      const globalEmojis = (Array.isArray(data.emojis) ? data.emojis : []).filter(
+        (e: unknown) => typeof e === "string" && e.trim().length > 0,
+      ) as string[];
+
+      rawQuestions
+        .slice(0, questionCount)
+        .map((raw: any) => normalizeItem(raw, globalEmojis.length ? globalEmojis : FALLBACK_EMOJIS));
+
+      // Si aucune exception n'a été levée, le JSON est valide
+      break;
+    } catch (err: any) {
+      console.warn(`⚠️ Échec de validation du JSON à la tentative ${attempt}: ${err.message}`);
+
+      if (attempt === MAX_RETRIES) {
+        throw new Error(`❌ Impossible d'obtenir un JSON valide de Groq après ${MAX_RETRIES} tentatives: ${err.message}`);
+      }
+
+      // Ajout du retour d'erreur à l'historique des messages pour relancer Groq avec le contexte
+      messages.push({ role: "assistant", content: rawContent });
+      messages.push({
+        role: "user",
+        content:
+          `❌ Le JSON généré est INVALIDE. Erreur rencontrée : "${err.message}".\n` +
+          `RAPPEL STRICT : Génère EXACTEMENT ${questionCount} questions, et assure-toi que le tableau 'options' ` +
+          "de CHAQUE question contient EXACTEMENT 3 choix. Renvoie UNIQUEMENT l'objet JSON corrigé.",
+      });
+    }
+  }
 
   const globalEmojis = (Array.isArray(data.emojis) ? data.emojis : []).filter(
     (e: unknown) => typeof e === "string" && e.trim().length > 0,
   ) as string[];
 
+  const rawQuestions: any[] = Array.isArray(data.questions) ? data.questions : [];
   const questions = rawQuestions
     .slice(0, questionCount)
     .map((raw: any) => normalizeItem(raw, globalEmojis.length ? globalEmojis : FALLBACK_EMOJIS));
@@ -257,7 +300,7 @@ SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
     .map((h) => String(h).trim().replaceAll(/\s+/g, ""))
     .filter(Boolean)
     .map((h) => (h.startsWith("#") ? h : `#${h}`))
-    .slice(0, 5); 
+    .slice(0, 5);
 
   const ctaRaw = data.cta;
   const ctaDisplay =
@@ -303,7 +346,7 @@ SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
   }));
 
   fs.writeFileSync(quizPath, JSON.stringify(videoQuestions, null, 2));
-  
+
   history.last_category_index = nextIndex;
   history.used_topics.push(metadata.topic);
   if (history.used_topics.length > 200) history.used_topics.shift();
@@ -317,4 +360,4 @@ if (require.main === module) {
     console.error(e);
     process.exit(1);
   });
-}
+    }

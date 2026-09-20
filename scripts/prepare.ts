@@ -1,14 +1,8 @@
 /**
  * prepare.ts
  *
- * Runs BEFORE `remotion render`. Reads quiz.json, calls ElevenLabs + Pollinations,
- * saves images/audio to public/generated/, computes per-question frame timing,
- * and writes public/props.json which the Remotion composition loads
- * through calculateMetadata().
- *
- * This mirrors the original index.html preload logic (fetchElevenLabsAsBuffer,
- * fetchImageFromPollinations, getAnimationIndices, transition selection) but
- * runs once, deterministically, in Node before rendering.
+ * Exécuté avant `remotion render`. Génère le son et les images,
+ * puis calcule la timeline et écrit public/props.json.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -25,7 +19,6 @@ import type {
 import { CONFIG } from "../src/config";
 import { synthesizeSpeech, writeTtsStatus } from "./tts";
 
-
 const ROOT = path.resolve(__dirname, "..");
 const PUBLIC = path.join(ROOT, "public");
 const GEN = path.join(PUBLIC, "generated");
@@ -33,9 +26,6 @@ const GEN = path.join(PUBLIC, "generated");
 const FPS = CONFIG.fps;
 const WIDTH = CONFIG.width;
 const HEIGHT = CONFIG.height;
-
-const VOICE_ID = process.env.ELEVENLABS_VOICE_ID || "pNInz6obpgDQGcFmaJgB";
-const MODEL_ID = process.env.ELEVENLABS_MODEL_ID || "eleven_multilingual_v2";
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -46,46 +36,135 @@ function pickRandomFile(dir: string, exts: string[]): string | null {
   return files[Math.floor(Math.random() * files.length)];
 }
 
-async function fetchImageFromPollinations(promptText: string, outPath: string): Promise<boolean> {
-  const prompt = encodeURIComponent(
-    `A crisp realistic studio photograph of ${promptText}, highly detailed 8k, isolated on a pure solid white background, single subject, centered`,
-  );
-  // 3 tentatives : le service renvoie régulièrement 502/timeout sous charge,
-  // ce qui expliquait les images manquantes dans les rendus.
-  for (let attempt = 1; attempt <= 3; attempt++) {
+/** 1. Génération d'image via Cloudflare Workers AI (FLUX.1-schnell) */
+async function fetchCloudflareImage(promptText: string, outPath: string): Promise<boolean> {
+  const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+  const apiToken = process.env.CLOUDFLARE_API_TOKEN;
+  const model = process.env.CLOUDFLARE_MODEL || "@cf/black-forest-labs/flux-1-schnell";
+
+  if (!accountId || !apiToken) return false;
+
+  for (let attempt = 1; attempt <= 2; attempt++) {
     try {
-      const res = await fetch(
-        `https://image.pollinations.ai/prompt/${prompt}?width=512&height=512&nologo=true&model=flux&seed=${attempt}`,
-        { signal: AbortSignal.timeout(90_000) },
-      );
+      const url = `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${model}`;
+      const res = await fetch(url, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${apiToken}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          prompt: `A crisp realistic studio photograph of ${promptText}, highly detailed 8k, isolated on a pure solid white background, single subject, centered`,
+          steps: 4,
+        }),
+      });
+
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const buf = Buffer.from(await res.arrayBuffer());
-      // Un fichier < 1 Ko est une page d'erreur, pas une image.
-      if (buf.length < 1024) throw new Error(`réponse trop petite (${buf.length} o)`);
-      fs.writeFileSync(outPath, buf);
-      return true;
+
+      const data = (await res.json()) as any;
+      if (data?.result?.image) {
+        const buf = Buffer.from(data.result.image, "base64");
+        if (buf.length < 1024) throw new Error("Image renvoyée invalide/trop petite");
+        fs.writeFileSync(outPath, buf);
+        return true;
+      }
     } catch (e) {
-      console.warn(`  ↻ image (essai ${attempt}/3) : ${e instanceof Error ? e.message : e}`);
-      await sleep(1500 * attempt);
+      console.warn(`  ↻ Cloudflare AI (essai ${attempt}/2) : ${e instanceof Error ? e.message : e}`);
+      await sleep(1000);
     }
   }
   return false;
 }
 
+/** 2. Recherche et récupération d'image via Wikimedia Commons API */
+async function fetchWikimediaImage(queryText: string, outPath: string): Promise<boolean> {
+  try {
+    const cleanQuery = queryText.replace(/[^\w\s\u00C0-\u024F]/gi, " ").trim();
+    const searchUrl = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrsearch=${encodeURIComponent(cleanQuery)}&gsrlimit=1&prop=imageinfo&iiprop=url&format=json`;
 
-/**
- * Génération de la voix off — pipeline 3 niveaux :
- *   ElevenLabs → Fish Audio (8 clés, rotation) → Edge TTS (gratuit).
- * Voir scripts/tts.ts. Le texte reçu ici est TOUJOURS le texte AUDIO
- * (`text_audio`, en toutes lettres), jamais le texte affiché.
- */
+    const res = await fetch(searchUrl, {
+      headers: { "User-Agent": "VideoWeaverQuiz/1.0 (https://github.com)" },
+    });
+    if (!res.ok) return false;
+
+    const data = (await res.json()) as any;
+    const pages = data?.query?.pages;
+    if (!pages) return false;
+
+    const pageKey = Object.keys(pages)[0];
+    const imageUrl = pages[pageKey]?.imageinfo?.[0]?.url;
+    if (!imageUrl) return false;
+
+    const imgRes = await fetch(imageUrl, {
+      headers: { "User-Agent": "VideoWeaverQuiz/1.0 (https://github.com)" },
+    });
+    if (!imgRes.ok) return false;
+
+    const buf = Buffer.from(await imgRes.arrayBuffer());
+    if (buf.length < 1024) return false;
+
+    fs.writeFileSync(outPath, buf);
+    return true;
+  } catch (e) {
+    console.warn(`  ↻ Wikimedia Commons fail : ${e instanceof Error ? e.message : e}`);
+    return false;
+  }
+}
+
+/** 3. Secours via Pollinations AI */
+async function fetchImageFromPollinations(promptText: string, outPath: string): Promise<boolean> {
+  const prompt = encodeURIComponent(
+    `A crisp realistic studio photograph of ${promptText}, highly detailed 8k, isolated on a pure solid white background, single subject, centered`,
+  );
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      const res = await fetch(
+        `https://image.pollinations.ai/prompt/${prompt}?width=512&height=512&nologo=true&model=flux&seed=${attempt}`,
+        { signal: AbortSignal.timeout(60_000) },
+      );
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const buf = Buffer.from(await res.arrayBuffer());
+      if (buf.length < 1024) throw new Error(`réponse trop petite (${buf.length} o)`);
+      fs.writeFileSync(outPath, buf);
+      return true;
+    } catch (e) {
+      console.warn(`  ↻ Pollinations (essai ${attempt}/2) : ${e instanceof Error ? e.message : e}`);
+      await sleep(1000);
+    }
+  }
+  return false;
+}
+
+/** Fonction unifiée de récupération d'image avec système de priorité */
+async function fetchBestImage(promptText: string, optionText: string, outPath: string): Promise<boolean> {
+  // 1. Tente Cloudflare Workers AI (FLUX)
+  if (await fetchCloudflareImage(promptText, outPath)) {
+    console.log(`  🖼️  image : ok (Cloudflare FLUX)`);
+    return true;
+  }
+
+  // 2. Tente Wikimedia Commons (idéal pour personnalités et objets réels)
+  if (await fetchWikimediaImage(optionText, outPath)) {
+    console.log(`  🖼️  image : ok (Wikimedia Commons)`);
+    return true;
+  }
+
+  // 3. Dernier recours : Pollinations AI
+  if (await fetchImageFromPollinations(promptText, outPath)) {
+    console.log(`  🖼️  image : ok (Pollinations AI)`);
+    return true;
+  }
+
+  console.log(`  🖼️  image : FAIL (Toutes les sources ont échoué)`);
+  return false;
+}
+
 async function generateVoice(textAudio: string, outPath: string): Promise<boolean> {
   const engine = await synthesizeSpeech(textAudio, outPath);
   if (engine === "none") return false;
   console.log(`  🗣️  ${path.basename(outPath)} ← ${engine}`);
   return true;
 }
-
 
 async function audioDurationSec(filePath: string): Promise<number> {
   try {
@@ -96,19 +175,6 @@ async function audioDurationSec(filePath: string): Promise<number> {
   }
 }
 
-/**
- * Décompose une animation en séquence PNG via ffmpeg.
- *
- * Pourquoi : rendus dans une balise <Img>, les GIF/WebP animés sont pilotés par
- * l'horloge murale du navigateur, pas par la timeline Remotion → animation
- * accélérée et bouclée à l'infini. En extrayant les frames, la composition
- * choisit elle-même l'image à afficher : vitesse 1x exacte, lecture unique.
- *
- * ⚠️ IMPORTANT (bug Linux/CI) : la plupart des builds ffmpeg NE SAVENT PAS
- * décoder le WebP *animé* (une seule frame extraite → overlay figé/invisible).
- * On essaie donc plusieurs sources (webm/mp4/gif/apng d'abord, webp en dernier)
- * et plusieurs jeux d'arguments, et on ne valide qu'un résultat > 1 frame.
- */
 const ANIM_SOURCE_PRIORITY = [".webm", ".mp4", ".mov", ".gif", ".apng", ".webp", ".png"];
 
 function probeFps(absFile: string): number {
@@ -133,13 +199,8 @@ function countPngs(dir: string): number {
   return fs.readdirSync(dir).filter((f) => f.endsWith(".png") && fs.statSync(path.join(dir, f)).size > 0).length;
 }
 
-/** Tente l'extraction d'UN fichier source. Renvoie le nombre de frames obtenues. */
 function tryExtract(absFile: string, outDir: string): number {
   const out = path.join(outDir, "%04d.png");
-  // ⚠️ TRANSPARENCE : sans décodeur explicite, ffmpeg aplatit le canal alpha
-  // des WebM VP8/VP9 (alpha stocké dans un plan secondaire) → gros pavé blanc
-  // opaque à l'écran. On force donc `libvpx-vp9`/`libvpx` en décodage et
-  // `-pix_fmt rgba` en sortie PNG pour conserver la transparence.
   const attempts: string[][] = [
     ["-y", "-v", "error", "-c:v", "libvpx-vp9", "-i", absFile, "-fps_mode", "passthrough", "-pix_fmt", "rgba", out],
     ["-y", "-v", "error", "-c:v", "libvpx", "-i", absFile, "-vsync", "0", "-pix_fmt", "rgba", out],
@@ -156,12 +217,11 @@ function tryExtract(absFile: string, outDir: string): number {
       execFileSync("ffmpeg", args, { stdio: ["ignore", "ignore", "pipe"] });
       const n = countPngs(outDir);
       if (n > 1) return n;
-      if (n === 1) continue; // probablement un WebP animé mal décodé → on tente mieux
+      if (n === 1) continue;
     } catch {
       continue;
     }
   }
-  // Dernier recours : accepter une image fixe si c'est tout ce qu'on a.
   try {
     return countPngs(outDir);
   } catch {
@@ -169,10 +229,6 @@ function tryExtract(absFile: string, outDir: string): number {
   }
 }
 
-/**
- * Cherche la meilleure source d'animation dans `dir` (toutes extensions
- * confondues) et l'extrait en séquence PNG dans public/generated/<outName>.
- */
 function extractAnimationFromDir(dir: string, outName: string): AnimSequence | null {
   if (!fs.existsSync(dir)) return null;
   const files = fs
@@ -194,7 +250,6 @@ function extractAnimationFromDir(dir: string, outName: string): AnimSequence | n
     const frameCount = tryExtract(absFile, outDir);
     if (frameCount > 1 || (frameCount === 1 && file === files[files.length - 1])) {
       const sourceFps = probeFps(absFile);
-      // Vérification finale : la première frame doit exister et ne pas être vide.
       const first = path.join(outDir, "0001.png");
       if (!fs.existsSync(first) || fs.statSync(first).size === 0) {
         console.warn(`⚠️  Frames illisibles pour ${file}, essai suivant...`);
@@ -226,7 +281,6 @@ function getAnimationIndices(total: number): number[] {
 }
 
 function pickTransition(): TransitionInfo | null {
-  // 40% cut simple (no transition), 60% animated
   if (Math.random() < 0.4) return null;
   const types: TransitionInfo["type"][] = ["fade", "fade", "swipe-left", "swipe-up"];
   const colors = ["#000000", "#ffffff", "#070a13"];
@@ -240,12 +294,8 @@ async function main() {
   fs.mkdirSync(GEN, { recursive: true });
 
   const quiz: QuizQuestion[] = JSON.parse(fs.readFileSync(path.join(ROOT, "quiz.json"), "utf8"));
-
   const bgFile = pickRandomFile(path.join(PUBLIC, "images/backgrounds"), [".jpg", ".jpeg", ".png"]);
 
-  // Tic-tac : WAV uniquement (le MP3 est volontairement ignoré : sa compression
-  // ajoute un micro-silence qui casse le loop). Priorité au fichier défini dans
-  // CONFIG, sinon premier .wav trouvé dans public/audio/ticks/.
   const TICK_DIR = path.join(PUBLIC, "audio/ticks");
   let tickRel: string | null = null;
   if (CONFIG.tickSound.toLowerCase().endsWith(".wav") && fs.existsSync(path.join(PUBLIC, CONFIG.tickSound))) {
@@ -260,16 +310,9 @@ async function main() {
     console.log(`🔊 Tic-tac: ${tickRel} (mode: ${CONFIG.tickAudioMode})`);
   }
 
-  // Animations : sélection automatique de la meilleure source disponible
-  // (webm/mp4/gif/apng avant webp — voir extractAnimationFromDir).
   const countdownAnim = extractAnimationFromDir(path.join(PUBLIC, "animations/countdown"), "anim-countdown");
   const ctaAnim = extractAnimationFromDir(path.join(PUBLIC, "animations/cta"), "anim-cta");
-  if (countdownAnim)
-    console.log(`🎞️  Countdown: ${countdownAnim.frameCount} frames @ ${countdownAnim.sourceFps.toFixed(2)}fps (${countdownAnim.durationSec.toFixed(2)}s)`);
-  if (ctaAnim)
-    console.log(`🎞️  CTA: ${ctaAnim.frameCount} frames @ ${ctaAnim.sourceFps.toFixed(2)}fps (${ctaAnim.durationSec.toFixed(2)}s)`);
 
-  // Musique de fond aléatoire (si activée dans CONFIG)
   const bgmFile = CONFIG.enableBGM
     ? pickRandomFile(path.join(PUBLIC, "audio/bgm"), [".mp3", ".wav", ".m4a", ".ogg"])
     : null;
@@ -284,11 +327,12 @@ async function main() {
     const images: (string | null)[] = [];
     for (let j = 0; j < 3; j++) {
       const prompt = q.imagePrompts?.[j] || q.options[j];
+      const optionText = q.options[j];
       const rel = `generated/q${i}_img${j}.jpg`;
       const abs = path.join(PUBLIC, rel);
-      const ok = await fetchImageFromPollinations(prompt, abs);
+
+      const ok = await fetchBestImage(prompt, optionText, abs);
       images.push(ok ? rel : null);
-      console.log(`  🖼️  image ${j + 1}: ${ok ? "ok" : "FAIL"}`);
       await sleep(200);
     }
 
@@ -296,7 +340,6 @@ async function main() {
     const relR = `generated/q${i}_reponse.mp3`;
     const relCta = q.ctaText ? `generated/q${i}_cta.mp3` : undefined;
 
-    // ⚠️ TTS = texte AUDIO uniquement (toutes lettres), jamais le texte affiché.
     const okQ = await generateVoice(q.questionAudio || q.question, path.join(PUBLIC, relQ));
     const okR = await generateVoice(
       `Bonne réponse ! C'était l'option ${["A", "B", "C"][q.correct]}. ${q.explanationAudio || q.explanation}`,
@@ -306,7 +349,6 @@ async function main() {
       q.ctaText && relCta
         ? await generateVoice(q.ctaTextAudio || q.ctaText, path.join(PUBLIC, relCta))
         : false;
-
 
     const durQ = okQ ? await audioDurationSec(path.join(PUBLIC, relQ)) : 4.5;
     const durR = okR ? await audioDurationSec(path.join(PUBLIC, relR)) : 4.0;
@@ -326,7 +368,6 @@ async function main() {
     });
   }
 
-  // --- Timeline (mirrors startAutomation in index.html) ---
   const introFrames = Math.round((CONFIG.introMs / 1000) * FPS);
   const outroFrames = Math.round((CONFIG.outroMs / 1000) * FPS);
   const transitionFrames = Math.round((CONFIG.transitionDurationMs / 1000) * FPS);
@@ -362,24 +403,18 @@ async function main() {
 
   const totalFrames = cursor + outroFrames;
 
-  // --- SFX (public/sfx/) : chaque fichier absent est simplement ignoré ---
   const sfxRel = (rel: string) => (fs.existsSync(path.join(PUBLIC, rel)) ? rel : null);
   const sfx = {
     whoosh: sfxRel(CONFIG.sfx.whoosh),
     timer: sfxRel(CONFIG.sfx.timer),
     correct: sfxRel(CONFIG.sfx.correct),
   };
-  Object.entries(sfx).forEach(([k, v]) =>
-    console.log(v ? `🔉 SFX ${k}: ${v}` : `➖ SFX ${k}: absent (ignoré)`),
-  );
 
-  // Échelle de l'UI : valeur du JSON IA si fournie, sinon CONFIG
   const uiScaleRaw = quiz[0]?.uiScale;
   const uiScale =
     typeof uiScaleRaw === "number" && uiScaleRaw > 0.3 && uiScaleRaw <= 1.2
       ? uiScaleRaw
       : CONFIG.uiScale;
-  console.log(`📐 uiScale: ${uiScale}`);
 
   const props: PreparedProps = {
     fps: FPS,
@@ -401,13 +436,11 @@ async function main() {
   };
 
   fs.writeFileSync(path.join(PUBLIC, "props.json"), JSON.stringify(props, null, 2));
-  // Bilan TTS (moteur final, clés Fish restantes) → rapport Telegram.
   writeTtsStatus();
   console.log(
     `\n✅ Préparation terminée — ${prepared.length} questions, ${totalFrames} frames @ ${FPS}fps ` +
       `(${(totalFrames / FPS).toFixed(1)}s).`,
   );
-
 }
 
 main().catch((e) => {

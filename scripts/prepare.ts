@@ -42,7 +42,10 @@ async function fetchCloudflareImage(promptText: string, outPath: string): Promis
   const apiToken = process.env.CLOUDFLARE_API_TOKEN;
   const model = process.env.CLOUDFLARE_MODEL || "@cf/black-forest-labs/flux-1-schnell";
 
-  if (!accountId || !apiToken) return false;
+  if (!accountId || !apiToken) {
+    console.warn("  ⚠️ Cloudflare AI ignoré : CLOUDFLARE_ACCOUNT_ID ou CLOUDFLARE_API_TOKEN non défini dans les secrets.");
+    return false;
+  }
 
   for (let attempt = 1; attempt <= 2; attempt++) {
     try {
@@ -54,17 +57,29 @@ async function fetchCloudflareImage(promptText: string, outPath: string): Promis
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          prompt: `A crisp realistic studio photograph of ${promptText}, highly detailed 8k, isolated on a pure solid white background, single subject, centered`,
+          prompt: promptText,
           steps: 4,
         }),
+        signal: AbortSignal.timeout(25_000),
       });
 
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
+      const contentType = res.headers.get("content-type") || "";
+
+      // Si Cloudflare renvoie directement le flux binaire d'image
+      if (contentType.includes("image/")) {
+        const buf = Buffer.from(await res.arrayBuffer());
+        if (buf.length < 1024) throw new Error("Image binaire reçue trop petite/invalide");
+        fs.writeFileSync(outPath, buf);
+        return true;
+      }
+
+      // Si Cloudflare renvoie un objet JSON avec base64
       const data = (await res.json()) as any;
       if (data?.result?.image) {
         const buf = Buffer.from(data.result.image, "base64");
-        if (buf.length < 1024) throw new Error("Image renvoyée invalide/trop petite");
+        if (buf.length < 1024) throw new Error("Image base64 reçue trop petite/invalide");
         fs.writeFileSync(outPath, buf);
         return true;
       }
@@ -76,51 +91,14 @@ async function fetchCloudflareImage(promptText: string, outPath: string): Promis
   return false;
 }
 
-/** 2. Recherche et récupération d'image via Wikimedia Commons API */
-async function fetchWikimediaImage(queryText: string, outPath: string): Promise<boolean> {
-  try {
-    const cleanQuery = queryText.replace(/[^\w\s\u00C0-\u024F]/gi, " ").trim();
-    const searchUrl = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrsearch=${encodeURIComponent(cleanQuery)}&gsrlimit=1&prop=imageinfo&iiprop=url&format=json`;
-
-    const res = await fetch(searchUrl, {
-      headers: { "User-Agent": "VideoWeaverQuiz/1.0 (https://github.com)" },
-    });
-    if (!res.ok) return false;
-
-    const data = (await res.json()) as any;
-    const pages = data?.query?.pages;
-    if (!pages) return false;
-
-    const pageKey = Object.keys(pages)[0];
-    const imageUrl = pages[pageKey]?.imageinfo?.[0]?.url;
-    if (!imageUrl) return false;
-
-    const imgRes = await fetch(imageUrl, {
-      headers: { "User-Agent": "VideoWeaverQuiz/1.0 (https://github.com)" },
-    });
-    if (!imgRes.ok) return false;
-
-    const buf = Buffer.from(await imgRes.arrayBuffer());
-    if (buf.length < 1024) return false;
-
-    fs.writeFileSync(outPath, buf);
-    return true;
-  } catch (e) {
-    console.warn(`  ↻ Wikimedia Commons fail : ${e instanceof Error ? e.message : e}`);
-    return false;
-  }
-}
-
-/** 3. Secours via Pollinations AI */
+/** 2. Secours via Pollinations AI */
 async function fetchImageFromPollinations(promptText: string, outPath: string): Promise<boolean> {
-  const prompt = encodeURIComponent(
-    `A crisp realistic studio photograph of ${promptText}, highly detailed 8k, isolated on a pure solid white background, single subject, centered`,
-  );
+  const encodedPrompt = encodeURIComponent(promptText);
   for (let attempt = 1; attempt <= 2; attempt++) {
     try {
       const res = await fetch(
-        `https://image.pollinations.ai/prompt/${prompt}?width=512&height=512&nologo=true&model=flux&seed=${attempt}`,
-        { signal: AbortSignal.timeout(60_000) },
+        `https://image.pollinations.ai/prompt/${encodedPrompt}?width=512&height=512&nologo=true&model=flux&seed=${attempt + Math.floor(Math.random() * 1000)}`,
+        { signal: AbortSignal.timeout(30_000) },
       );
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const buf = Buffer.from(await res.arrayBuffer());
@@ -135,27 +113,74 @@ async function fetchImageFromPollinations(promptText: string, outPath: string): 
   return false;
 }
 
-/** Fonction unifiée de récupération d'image avec système de priorité */
+/** 3. Dernier recours : recherche d'image via Wikimedia Commons API */
+async function fetchWikimediaImage(queryText: string, outPath: string): Promise<boolean> {
+  try {
+    const cleanQuery = queryText
+      .replace(/[^\w\s\u00C0-\u024F]/gi, " ")
+      .trim()
+      .split(" ")
+      .slice(0, 3)
+      .join(" "); // Recherche ciblée sur les 3 premiers mots max
+
+    if (!cleanQuery) return false;
+
+    const searchUrl = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrsearch=${encodeURIComponent(cleanQuery)}&gsrlimit=1&prop=imageinfo&iiprop=url&format=json`;
+
+    const res = await fetch(searchUrl, {
+      headers: { "User-Agent": "VideoWeaverQuiz/1.0 (https://github.com)" },
+      signal: AbortSignal.timeout(15_000),
+    });
+    if (!res.ok) return false;
+
+    const data = (await res.json()) as any;
+    const pages = data?.query?.pages;
+    if (!pages) return false;
+
+    const pageKey = Object.keys(pages)[0];
+    const imageUrl = pages[pageKey]?.imageinfo?.[0]?.url;
+    if (!imageUrl || (!imageUrl.endsWith(".jpg") && !imageUrl.endsWith(".png") && !imageUrl.endsWith(".jpeg"))) {
+      return false;
+    }
+
+    const imgRes = await fetch(imageUrl, {
+      headers: { "User-Agent": "VideoWeaverQuiz/1.0 (https://github.com)" },
+      signal: AbortSignal.timeout(15_000),
+    });
+    if (!imgRes.ok) return false;
+
+    const buf = Buffer.from(await imgRes.arrayBuffer());
+    if (buf.length < 1024) return false;
+
+    fs.writeFileSync(outPath, buf);
+    return true;
+  } catch (e) {
+    console.warn(`  ↻ Wikimedia Commons fail : ${e instanceof Error ? e.message : e}`);
+    return false;
+  }
+}
+
+/** Fonction unifiée de récupération d'image avec cascade stricte */
 async function fetchBestImage(promptText: string, optionText: string, outPath: string): Promise<boolean> {
-  // 1. Tente Cloudflare Workers AI (FLUX)
+  // 1. Priorité N°1 : Cloudflare Workers AI (FLUX)
   if (await fetchCloudflareImage(promptText, outPath)) {
     console.log(`  🖼️  image : ok (Cloudflare FLUX)`);
     return true;
   }
 
-  // 2. Tente Wikimedia Commons (idéal pour personnalités et objets réels)
-  if (await fetchWikimediaImage(optionText, outPath)) {
-    console.log(`  🖼️  image : ok (Wikimedia Commons)`);
-    return true;
-  }
-
-  // 3. Dernier recours : Pollinations AI
+  // 2. Priorité N°2 : Pollinations AI
   if (await fetchImageFromPollinations(promptText, outPath)) {
     console.log(`  🖼️  image : ok (Pollinations AI)`);
     return true;
   }
 
-  console.log(`  🖼️  image : FAIL (Toutes les sources ont échoué)`);
+  // 3. Priorité N°3 (Dernier recours) : Wikimedia Commons
+  if (await fetchWikimediaImage(optionText, outPath)) {
+    console.log(`  🖼️  image : ok (Wikimedia Commons)`);
+    return true;
+  }
+
+  console.log(`  ❌ image : ÉCHEC (Toutes les options d'hébergement/génération ont échoué)`);
   return false;
 }
 

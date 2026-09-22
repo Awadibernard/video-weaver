@@ -73,7 +73,7 @@ const QUALITY_KEYS = [
 
 function sanitizeText(str: string): string {
   return String(str || "")
-    .replace(/[→->]/g, " ")
+    .replace(/[→>\-]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -98,11 +98,8 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
     Array.isArray(raw.imagePrompts) && raw.imagePrompts.length === 3 ? raw.imagePrompts : options;
 
   const imagePrompts = rawPrompts.map((p) => {
-    let text = String(p || "")
-      .trim()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[→->]/g, " ");
+    // ✅ Remplacer aussi ici
+let text = String(p || "").trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[→>\-]/g, " ");
     const score = QUALITY_KEYS.filter((k) => text.toLowerCase().includes(k)).length;
     if (score < 3) {
       text = `A hyper-realistic photorealistic 3D render of ${text.replace(/[.,]+$/, "")}, ${QUALITY_TAIL}`;

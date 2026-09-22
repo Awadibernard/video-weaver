@@ -71,12 +71,23 @@ const QUALITY_KEYS = [
   "volumetric",
 ];
 
+function sanitizeText(str: string): string {
+  return String(str || "")
+    .replace(/[→->]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): QuizItem {
   if (!Array.isArray(raw?.options) || raw.options.length !== 3) {
     throw new Error("Chaque question doit contenir un tableau 'options' avec EXACTEMENT 3 éléments.");
   }
-  const options = raw.options.map((o: unknown) => String(o)) as [string, string, string];
-  const foundIndex = options.findIndex((o) => o.trim() === String(raw.answer ?? "").trim());
+
+  // Nettoyage strict des options (suppression des flèches et abréviations parasites)
+  const options = raw.options.map((o: unknown) => sanitizeText(String(o))) as [string, string, string];
+  
+  const cleanAnswer = sanitizeText(String(raw.answer ?? ""));
+  const foundIndex = options.findIndex((o) => o.toLowerCase() === cleanAnswer.toLowerCase());
   const correct = (typeof raw.correct === "number" && raw.correct >= 0 && raw.correct <= 2
     ? raw.correct
     : foundIndex >= 0
@@ -85,11 +96,13 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
 
   const rawPrompts: string[] =
     Array.isArray(raw.imagePrompts) && raw.imagePrompts.length === 3 ? raw.imagePrompts : options;
+
   const imagePrompts = rawPrompts.map((p) => {
     let text = String(p || "")
       .trim()
       .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "");
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[→->]/g, " ");
     const score = QUALITY_KEYS.filter((k) => text.toLowerCase().includes(k)).length;
     if (score < 3) {
       text = `A hyper-realistic photorealistic 3D render of ${text.replace(/[.,]+$/, "")}, ${QUALITY_TAIL}`;
@@ -108,19 +121,18 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
   const pair = (value: any, legacy: any): { display: string; audio: string } => {
     const src = value ?? legacy;
     if (src && typeof src === "object") {
-      const display = String(src.text_display ?? src.display ?? legacy ?? "").trim();
-      const audio = String(src.text_audio ?? src.audio ?? display).trim();
+      const display = sanitizeText(String(src.text_display ?? src.display ?? legacy ?? ""));
+      const audio = sanitizeText(String(src.text_audio ?? src.audio ?? display));
       return { display, audio: audio || display };
     }
-    const display = String(src ?? "").trim();
+    const display = sanitizeText(String(src ?? ""));
     return { display, audio: display };
   };
 
   const q = pair(raw.question, raw.text_display);
-  if (raw.text_audio && !q.audio) q.audio = String(raw.text_audio).trim();
-  const qAudio = String(raw.question_audio ?? raw.text_audio ?? q.audio ?? "").trim() || q.display;
+  const qAudio = sanitizeText(String(raw.question_audio ?? raw.text_audio ?? q.audio ?? "")) || q.display;
   const exp = pair(raw.explanation, null);
-  const expAudio = String(raw.explanation_audio ?? exp.audio ?? "").trim() || exp.display;
+  const expAudio = sanitizeText(String(raw.explanation_audio ?? exp.audio ?? "")) || exp.display;
 
   return {
     question: q.display,
@@ -157,55 +169,68 @@ export async function generateQuiz(): Promise<QuizMetadata> {
 
   const prompt = `
 Tu es un scientifique rigoureux et un expert en vulgarisation pour TikTok.
-Génère EXACTEMENT ${questionCount} questions au format JSON sur ce domaine : "${currentCategory}".
+Génère EXACTEMENT ${questionCount} questions au format JSON sur le domaine exact suivant : "${currentCategory}".
 
-CONTRAINTES DE FIABILITÉ STRICTES (FACT-CHECKING) :
-1. Chaque information, question et réponse doit être un FAIT SCIENTIFIQUE AVÉRÉ.
-2. Les ${questionCount} questions doivent être DIFFÉRENTES les unes des autres.
+REGLES DE COHÉRENCE ET DE SUJET STRICTES :
+1. Le "topic" DOIT être en lien direct et exclusif avec "${currentCategory}". Ne parle JAMAIS d'un autre domaine scientifique.
+2. Chaque information, question et réponse doit être un FAIT SCIENTIFIQUE AVÉRÉ.
+3. Les ${questionCount} questions doivent être DIFFÉRENTES les unes des autres.
 
-INTERDICTION STRICTE DE PARLER DE CES SUJETS :
+RÈGLES D'AFFICHAGE ET D'AUDIO (CRITIQUE) :
+1. INTERDICTION ABSOLUE d'utiliser des flèches ("→", "->"), des émojis dans le texte, des symboles mathématiques ou des abréviations télégraphiques.
+2. Le texte affiché ("text_display") et le texte lu ("text_audio") doivent raconter STRICTEMENT la même chose.
+   - "text_display" : Phrase complète, lisible et naturelle en français.
+   - "text_audio" : La MÊME phrase, mais avec TOUS les chiffres, symboles et unités rédigés INTÉGRALEMENT EN TOUTES LETTRES (ex: "100 km/h" devient "cent kilomètres par heure").
+3. Chaque option dans le tableau "options" doit être une phrase ou un terme clair rédigé normalement (ex: "La consolidation de la mémoire" et JAMAIS "Hippocampe -> mémoire").
+
+RÈGLES POUR LES PROMPTS D'IMAGES ("imagePrompts") :
+- Fournis EXACTEMENT 3 prompts d'images en ANGLAIS (un prompt détaillé pour chaque option du tableau "options").
+- Chaque prompt doit décrire une illustration 3D détaillée, cinématique et photoréaliste représentative du concept de l'option correspondante.
+
+INTERDICTION STRICTE DE PARLER DE CES SUJETS DÉJÀ TRAITÉS :
 ${JSON.stringify(history.used_topics.slice(-100))}
 
-Tu dois répondre UNIQUEMENT avec un objet JSON valide structuré EXACTEMENT comme ceci. 
-ATTENTION: Le tableau "options" DOIT contenir EXACTEMENT 3 éléments. AUCUNE 4ème OPTION N'EST TOLÉRÉE.
+Tu dois répondre UNIQUEMENT avec un objet JSON valide structuré EXACTEMENT comme ceci :
 
 {
-  "topic": "🧠 Test Tes Connaissances en Physique !",
-  "description": "Une phrase d'accroche très captivante pour inciter à regarder.",
+  "topic": "🧠 Quiz : ${currentCategory}",
+  "description": "Une phrase d'accroche captivante en lien avec ${currentCategory}.",
   "hashtags": ["#science", "#quiz", "#cultureg"],
   "motif": "science",
-  "cta": { "text_display": "Abonne-toi !", "text_audio": "Abonne-toi !" },
+  "cta": { "text_display": "Abonne-toi pour en apprendre plus !", "text_audio": "Abonne toi pour en apprendre plus !" },
   "emojis": ["🔬", "🧪", "✨", "🌍", "⚡", "🧠", "🚀"],
   "uiScale": 0.85,
   "questions": [
     {
       "question": {
-        "text_display": "La question posée ?",
-        "text_audio": "La même question, entièrement en toutes lettres"
+        "text_display": "Quelle est la fonction principale de l'hippocampe ?",
+        "text_audio": "Quelle est la fonction principale de l'hippocampe ?"
       },
-      "options": ["Choix 1", "Choix 2", "Choix 3"], 
-      "answer": "Le texte EXACT de la bonne réponse, recopié depuis options",
+      "options": [
+        "La consolidation de la mémoire",
+        "La régulation du rythme cardiaque",
+        "La production de dopamine"
+      ],
+      "answer": "La consolidation de la mémoire",
       "correct": 0,
       "explanation": {
-        "text_display": "Explication factuelle simple.",
-        "text_audio": "La même explication, entièrement en toutes lettres."
+        "text_display": "L'hippocampe joue un rôle central dans la mémoire et la navigation spatiale.",
+        "text_audio": "L'hippocampe joue un rôle central dans la mémoire et la navigation spatiale."
       },
-      "imagePrompts": ["english prompt 1", "english prompt 2", "english prompt 3"],
-      "emojis": ["🔬", "🌍", "⚡", "✨", "🚀", "🧠", "🧪"]
+      "imagePrompts": [
+        "A 3D glowing render of a human brain with the hippocampus highlighted in blue, cinematic lighting",
+        "A 3D anatomical model of a human heart beating rhythmically, highly detailed",
+        "A 3D abstract visualization of dopamine molecules floating in a neural network, glowing 8k"
+      ],
+      "emojis": ["🧠", "🔬", "✨"]
     }
   ]
 }
 
-RÈGLES DE FORMAT :
+RÈGLES DE FORMAT STRUCTURAL :
 - "questions" contient EXACTEMENT ${questionCount} éléments.
-- Chaque "options" contient EXACTEMENT 3 éléments. JAMAIS 4.
-- "correct" est l'index (0, 1 ou 2) de "answer" dans "options".
-
-═══════════════════════════════════════════════════════
-SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
-═══════════════════════════════════════════════════════
-1. "text_display" → avec chiffres et symboles (ex: "100 km/h", "H2O").
-2. "text_audio" → STRICTEMENT en toutes lettres (ex: "cent kilomètres par heure").
+- Chaque "options" contient EXACTEMENT 3 éléments. JAMAIS 2, JAMAIS 4.
+- "correct" est l'index (0, 1 ou 2) de la bonne réponse dans "options".
 `;
 
   const messages: Array<{ role: string; content: string }> = [
@@ -213,7 +238,7 @@ SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
       role: "system",
       content:
         "Tu es un générateur de JSON strict. Tu ne renvoies AUCUN texte hors du JSON. " +
-        "CRITIQUE : Il est VITAL que le tableau 'options' de chaque question contienne EXACTEMENT 3 éléments. " +
+        "CRITIQUE : Il est VITAL que le tableau 'options' de chaque question contienne EXACTEMENT 3 éléments sans flèches ni symboles. " +
         `Le tableau 'questions' doit contenir EXACTEMENT ${questionCount} questions.`,
     },
     { role: "user", content: prompt },
@@ -250,7 +275,6 @@ SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
         throw new Error("Le tableau 'questions' est vide ou absent du JSON.");
       }
 
-      // Test de validation/normalisation immédiat
       const globalEmojis = (Array.isArray(data.emojis) ? data.emojis : []).filter(
         (e: unknown) => typeof e === "string" && e.trim().length > 0,
       ) as string[];
@@ -259,7 +283,6 @@ SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
         .slice(0, questionCount)
         .map((raw: any) => normalizeItem(raw, globalEmojis.length ? globalEmojis : FALLBACK_EMOJIS));
 
-      // Si aucune exception n'a été levée, le JSON est valide
       break;
     } catch (err: any) {
       console.warn(`⚠️ Échec de validation du JSON à la tentative ${attempt}: ${err.message}`);
@@ -268,14 +291,13 @@ SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
         throw new Error(`❌ Impossible d'obtenir un JSON valide de Groq après ${MAX_RETRIES} tentatives: ${err.message}`);
       }
 
-      // Ajout du retour d'erreur à l'historique des messages pour relancer Groq avec le contexte
       messages.push({ role: "assistant", content: rawContent });
       messages.push({
         role: "user",
         content:
           `❌ Le JSON généré est INVALIDE. Erreur rencontrée : "${err.message}".\n` +
-          `RAPPEL STRICT : Génère EXACTEMENT ${questionCount} questions, et assure-toi que le tableau 'options' ` +
-          "de CHAQUE question contient EXACTEMENT 3 choix. Renvoie UNIQUEMENT l'objet JSON corrigé.",
+          `RAPPEL STRICT : Génère EXACTEMENT ${questionCount} questions. Assure-toi que le tableau 'options' ` +
+          "de CHAQUE question contient EXACTEMENT 3 choix rédigés clairement sans flèches ni symboles.",
       });
     }
   }
@@ -304,15 +326,16 @@ SÉPARATION OBLIGATOIRE : "text_display" vs "text_audio"
 
   const ctaRaw = data.cta;
   const ctaDisplay =
-    (ctaRaw && typeof ctaRaw === "object"
-      ? String(ctaRaw.text_display || ctaRaw.text_audio || "")
-      : String(ctaRaw || "")
-    ).trim() || "Abonne-toi pour un quiz par jour !";
+    sanitizeText(
+      ctaRaw && typeof ctaRaw === "object"
+        ? String(ctaRaw.text_display || ctaRaw.text_audio || "")
+        : String(ctaRaw || "")
+    ) || "Abonne-toi pour un quiz par jour !";
   const ctaAudio =
-    (ctaRaw && typeof ctaRaw === "object" ? String(ctaRaw.text_audio || "") : "").trim() || ctaDisplay;
+    sanitizeText(ctaRaw && typeof ctaRaw === "object" ? String(ctaRaw.text_audio || "") : "") || ctaDisplay;
 
   const metadata: QuizMetadata = {
-    topic: String(data.topic || currentCategory),
+    topic: sanitizeText(String(data.topic || `🧠 Quiz : ${currentCategory}`)),
     description: String(data.description || "Découvre les réponses à ce quiz scientifique !"),
     hashtags: cleanHashtags,
     motif: data.motif || "science",
@@ -360,4 +383,4 @@ if (require.main === module) {
     console.error(e);
     process.exit(1);
   });
-    }
+}

@@ -1,152 +1,236 @@
 [
   {
-    "question": "Qui a inventé le laser en 1960 ?",
-    "questionAudio": "Qui a inventé le laser en mille neuf cent soixante",
+    "question": "Quel processus permet aux synapses de se renforcer après une activité répétée ?",
+    "questionAudio": "Quel processus permet aux synapses de se renforcer après une activité répétée ?",
     "options": [
-      "Theodore Maiman",
-      "Albert Einstein",
-      "Niels Bohr"
+      "Potentialisation à long terme",
+      "Dépolarisation passive",
+      "Inhibition synaptique"
     ],
     "correct": 0,
-    "explanation": "Le laser a été créé par Theodore Maiman en 1960 au Hughes Research Laboratory.",
-    "explanationAudio": "Le laser a été créé par Theodore Maiman en mille neuf cent soixante au Hughes Research Laboratory",
+    "explanation": "La potentialisation à long terme renforce la transmission synaptique après une stimulation répétée.",
+    "explanationAudio": "La potentialisation à long terme renforce la transmission synaptique après une stimulation répétée.",
     "emojis": [
-      "🔬",
-      "⚡",
-      "🚀",
-      "✨",
-      "🧪",
       "🧠",
-      "🌍"
+      "🔬",
+      "⚡"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of high‑tech laboratory with laser apparatus, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of portrait of Theodore Maiman, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of early laser device schematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of neuronal synapses showing increased synaptic strength with glowing connections, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a neuron illustrating passive electrical flow as subtle currents, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an inhibitory synapse releasing GABA with muted colors, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
-    "ctaText": "Abonne-toi !",
-    "ctaTextAudio": "Abonne-toi !",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
     "uiScale": 0.85
   },
   {
-    "question": "En quelle année le premier microprocesseur commercial, l'Intel 4004, a-t-il été lancé ?",
-    "questionAudio": "En quelle année le premier microprocesseur commercial, l'Intel quatre zéro zéro quatre, a t il été lancé",
+    "question": "Quelle région cérébrale est principalement responsable de la réponse de peur ?",
+    "questionAudio": "Quelle région cérébrale est principalement responsable de la réponse de peur ?",
     "options": [
-      "1971",
-      "1974",
-      "1978"
+      "L'amygdale",
+      "Le cervelet",
+      "Le cortex visuel"
     ],
     "correct": 0,
-    "explanation": "L'Intel 4004, premier microprocesseur commercial, a été lancé en 1971.",
-    "explanationAudio": "L'Intel quatre zéro zéro quatre, premier microprocesseur commercial, a été lancé en mille neuf cent soixante‑et‑un",
+    "explanation": "L'amygdale joue un rôle central dans la détection et la réaction aux stimuli menaçants.",
+    "explanationAudio": "L'amygdale joue un rôle central dans la détection et la réaction aux stimuli menaçants.",
     "emojis": [
-      "🔬",
-      "⚡",
-      "🚀",
-      "✨",
-      "🧪",
       "🧠",
-      "🌍"
+      "🔬",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of vintage Intel 4004 chip, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of close‑up of early microprocessor, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of diagram of 4004 architecture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of the amygdala highlighted in red within a human brain, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the cerebellum with intricate folds, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of the visual cortex with layered gyri, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
-    "ctaText": "Abonne-toi !",
-    "ctaTextAudio": "Abonne-toi !",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le principe de base de la technologie CRISPR‑Cas9 ?",
-    "questionAudio": "Quel est le principe de base de la technologie CRISPR Cas neuf",
+    "question": "Quel neurotransmetteur est surtout associé à la régulation de l'humeur et du sommeil ?",
+    "questionAudio": "Quel neurotransmetteur est surtout associé à la régulation de l'humeur et du sommeil ?",
     "options": [
-      "Coupe d'ADN guidée par ARN",
-      "Amplification d'ADN par PCR",
-      "Séquençage d'ADN par Sanger"
+      "Sérotonine",
+      "Acétylcholine",
+      "Glutamate"
     ],
     "correct": 0,
-    "explanation": "CRISPR‑Cas9 utilise une molécule d'ARN guide pour couper l'ADN à un site précis.",
-    "explanationAudio": "CRISPR Cas neuf utilise une molécule d'ARN guide pour couper l'ADN à un site précis",
+    "explanation": "La sérotonine intervient dans la modulation de l'humeur, du sommeil et de l'appétit.",
+    "explanationAudio": "La sérotonine intervient dans la modulation de l'humeur, du sommeil et de l'appétit.",
     "emojis": [
-      "🔬",
-      "⚡",
-      "🚀",
-      "✨",
       "🧪",
-      "🧠",
-      "🌍"
+      "🔬",
+      "🧠"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of CRISPR Cas9 molecular illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of DNA double helix being cut, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of lab scientist handling CRISPR tools, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of serotonin molecules floating in a neural network, glowing blue, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of acetylcholine molecules interacting with receptors, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of glutamate release at a synapse, high detail and cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
-    "ctaText": "Abonne-toi !",
-    "ctaTextAudio": "Abonne-toi !",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
     "uiScale": 0.85
   },
   {
-    "question": "Quelle énergie renouvelable utilise des cellules photovoltaïques pour produire de l'électricité ?",
-    "questionAudio": "Quelle énergie renouvelable utilise des cellules photovoltaïques pour produire de l'électricité",
+    "question": "Quelle fonction exécutive est attribuée au cortex préfrontal dorsolatéral ?",
+    "questionAudio": "Quelle fonction exécutive est attribuée au cortex préfrontal dorsolatéral ?",
     "options": [
-      "Solaire",
-      "Éolienne",
-      "Hydraulique"
+      "Planification et prise de décision",
+      "Contrôle moteur fin",
+      "Traitement olfactif"
     ],
     "correct": 0,
-    "explanation": "Les panneaux solaires convertissent la lumière du soleil en électricité grâce aux cellules photovoltaïques.",
-    "explanationAudio": "Les panneaux solaires convertissent la lumière du soleil en électricité grâce aux cellules photovoltaïques",
+    "explanation": "Le cortex préfrontal dorsolatéral est essentiel pour la planification, le raisonnement et la prise de décision.",
+    "explanationAudio": "Le cortex préfrontal dorsolatéral est essentiel pour la planification, le raisonnement et la prise de décision.",
     "emojis": [
-      "🔬",
-      "⚡",
-      "🚀",
-      "✨",
-      "🧪",
       "🧠",
-      "🌍"
+      "⚡",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of solar panel array on a field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of close‑up of photovoltaic cell, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of sunlight hitting solar panels, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the dorsolateral prefrontal cortex highlighted in green within a brain, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the motor cortex with fine gyri, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the olfactory bulb with scent particles, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
-    "ctaText": "Abonne-toi !",
-    "ctaTextAudio": "Abonne-toi !",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
     "uiScale": 0.85
   },
   {
-    "question": "Quel dispositif a popularisé l'impression 3D par stéréolithographie en 1986 ?",
-    "questionAudio": "Quel dispositif a popularisé l'impression trois D par stéréolithographie en mille neuf cent quatre‑vingt‑six",
+    "question": "Quel phénomène augmente la vitesse de conduction nerveuse grâce à l'isolation des axones ?",
+    "questionAudio": "Quel phénomène augmente la vitesse de conduction nerveuse grâce à l'isolation des axones ?",
     "options": [
-      "SLA (stéréolithographie)",
-      "FDM (dépôt de filament)",
-      "SLS (frittage laser)"
+      "Myélinisation",
+      "Diffusion passive",
+      "Dépolarisation lente"
     ],
     "correct": 0,
-    "explanation": "En 1986, Charles Hull a breveté la stéréolithographie (SLA), première technologie d'impression 3D commercialisée.",
-    "explanationAudio": "En mille neuf cent quatre‑vingt‑six, Charles Hull a breveté la stéréolithographie SLA première technologie d'impression trois D commercialisée",
+    "explanation": "La myélinisation crée une gaine isolante autour des axones, accélérant le potentiel d'action.",
+    "explanationAudio": "La myélinisation crée une gaine isolante autour des axones, accélérant le potentiel d'action.",
     "emojis": [
-      "🔬",
       "⚡",
-      "🚀",
-      "✨",
-      "🧪",
       "🧠",
-      "🌍"
+      "🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of early SLA 3D printer prototype, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of layer‑by‑layer resin curing process, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Charles Hull portrait with 3D model, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D view of a myelinated axon with layered sheath, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of passive diffusion across a neuronal membrane, subtle glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of a slowly depolarizing neuron with gradual voltage change, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
-    "ctaText": "Abonne-toi !",
-    "ctaTextAudio": "Abonne-toi !",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Dans quel secteur du cerveau la neurogenèse adulte a t elle été démontrée ?",
+    "questionAudio": "Dans quel secteur du cerveau la neurogenèse adulte a t elle été démontrée ?",
+    "options": [
+      "Le gyrus denté de l'hippocampe",
+      "Le cortex moteur",
+      "Le tronc cérébral"
+    ],
+    "correct": 0,
+    "explanation": "Des études ont montré que de nouveaux neurones naissent dans le gyrus denté de l'hippocampe chez l'adulte.",
+    "explanationAudio": "Des études ont montré que de nouveaux neurones naissent dans le gyrus denté de l'hippocampe chez l'adulte.",
+    "emojis": [
+      "🧠",
+      "✨",
+      "🔬"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the dentate gyrus within the hippocampus, highlighted in teal, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the motor cortex with highlighted layers, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the brainstem with intricate nuclei, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de neurones est impliqué dans la compréhension des actions d'autrui ?",
+    "questionAudio": "Quel type de neurones est impliqué dans la compréhension des actions d'autrui ?",
+    "options": [
+      "Neurones miroirs",
+      "Neurones sensoriels",
+      "Neurones moteurs"
+    ],
+    "correct": 0,
+    "explanation": "Les neurones miroirs s'activent tant lors de l'exécution que de l'observation d'une action.",
+    "explanationAudio": "Les neurones miroirs s'activent tant lors de l'exécution que de l'observation d'une action.",
+    "emojis": [
+      "🧠",
+      "🔬",
+      "⚡"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of mirror neurons lighting up while observing a hand movement, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of sensory neurons with peripheral receptors, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of motor neurons transmitting signals to muscles, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel noyau cérébral régule le rythme circadien ?",
+    "questionAudio": "Quel noyau cérébral régule le rythme circadien ?",
+    "options": [
+      "Noyau suprachiasmatique",
+      "Noyau rouge",
+      "Noyau caudé"
+    ],
+    "correct": 0,
+    "explanation": "Le noyau suprachiasmatique du thalamus synchronise l'horloge interne avec la lumière ambiante.",
+    "explanationAudio": "Le noyau suprachiasmatique du thalamus synchronise l'horloge interne avec la lumière ambiante.",
+    "emojis": [
+      "🕒",
+      "🧠",
+      "🔬"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic view of the suprachiasmatic nucleus highlighted in gold within the hypothalamus, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the red nucleus with surrounding structures, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the caudate nucleus with textured surface, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel hormone du stress peut altérer la consolidation de la mémoire lorsqu'elle est élevée ?",
+    "questionAudio": "Quel hormone du stress peut altérer la consolidation de la mémoire lorsqu'elle est élevée ?",
+    "options": [
+      "Cortisol",
+      "Adrénaline",
+      "Thyroxine"
+    ],
+    "correct": 0,
+    "explanation": "Le cortisol, libéré lors du stress, peut perturber la consolidation mnésique si son niveau reste élevé.",
+    "explanationAudio": "Le cortisol, libéré lors du stress, peut perturber la consolidation mnésique si son niveau reste élevé.",
+    "emojis": [
+      "🧪",
+      "🧠",
+      "⚡"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of cortisol molecules interacting with hippocampal neurons, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of adrenaline molecules circulating in blood vessels, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of the thyroid gland producing thyroxine, high detail and cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
     "uiScale": 0.85
   }
 ]

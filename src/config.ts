@@ -5,7 +5,7 @@
  */
 export const CONFIG = {
   // --- Vidéo ---
-  fps: 60,
+  fps: 30, // 💡 Passage à 30 FPS pour un rendu fluide et rapide sans glitch
   width: 1080,
   height: 1920,
 

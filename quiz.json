@@ -1,24 +1,54 @@
 [
   {
-    "question": "Quel processus permet aux synapses de se renforcer après une activité répétée ?",
-    "questionAudio": "Quel processus permet aux synapses de se renforcer après une activité répétée ?",
+    "question": "Quel phénomène explique la dilatation du temps près d’un corps très massif ?",
+    "questionAudio": "Quel phénomène explique la dilatation du temps près d’un corps très massif ?",
     "options": [
-      "Potentialisation à long terme",
-      "Dépolarisation passive",
-      "Inhibition synaptique"
+      "La relativité générale",
+      "La mécanique quantique",
+      "L’effet Doppler"
     ],
     "correct": 0,
-    "explanation": "La potentialisation à long terme renforce la transmission synaptique après une stimulation répétée.",
-    "explanationAudio": "La potentialisation à long terme renforce la transmission synaptique après une stimulation répétée.",
+    "explanation": "La relativité générale décrit comment la gravité influence le temps et l’espace autour d’un objet massif.",
+    "explanationAudio": "La relativité générale décrit comment la gravité influence le temps et l’espace autour d’un objet massif.",
     "emojis": [
-      "🧠",
-      "🔬",
+      "🕰️",
+      "🌌",
+      "⚖️",
+      "🚀",
+      "🔭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a massive black hole warping spacetime, with visual distortion around it, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a quantum wavefunction cloud hovering over atoms, vibrant colors, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene showing a moving star with shifting color wavelengths, cinematic lighting, realistic space background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type d’étoile devient une supernova de type Ia ?",
+    "questionAudio": "Quel type d’étoile devient une supernova de type Ia ?",
+    "options": [
+      "Une naine blanche dans un système binaire",
+      "Une géante rouge isolée",
+      "Une étoile à neutrons"
+    ],
+    "correct": 0,
+    "explanation": "Une naine blanche qui accumule de la matière d’une compagne peut exploser en supernova de type Ia.",
+    "explanationAudio": "Une naine blanche qui accumule de la matière d’une compagne peut exploser en supernova de type Ia.",
+    "emojis": [
+      "💥",
+      "🌟",
+      "🔭",
+      "🪐",
       "⚡"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of neuronal synapses showing increased synaptic strength with glowing connections, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a neuron illustrating passive electrical flow as subtle currents, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of an inhibitory synapse releasing GABA with muted colors, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a white dwarf accreting material from a companion star, bright accretion disk, photorealistic space scene, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D detailed model of an isolated red giant with expanding outer layers, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of a neutron star with intense magnetic field lines, realistic surface texture, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -26,25 +56,55 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle région cérébrale est principalement responsable de la réponse de peur ?",
-    "questionAudio": "Quelle région cérébrale est principalement responsable de la réponse de peur ?",
+    "question": "Quelle est la particule responsable de la force nucléaire forte ?",
+    "questionAudio": "Quelle est la particule responsable de la force nucléaire forte ?",
     "options": [
-      "L'amygdale",
-      "Le cervelet",
-      "Le cortex visuel"
+      "Le gluon",
+      "Le photon",
+      "Le boson W"
     ],
     "correct": 0,
-    "explanation": "L'amygdale joue un rôle central dans la détection et la réaction aux stimuli menaçants.",
-    "explanationAudio": "L'amygdale joue un rôle central dans la détection et la réaction aux stimuli menaçants.",
+    "explanation": "Les gluons transportent la force qui lie les quarks à l’intérieur des protons et des neutrons.",
+    "explanationAudio": "Les gluons transportent la force qui lie les quarks à l’intérieur des protons et des neutrons.",
     "emojis": [
-      "🧠",
+      "🧬",
+      "⚛️",
       "🔬",
+      "💥",
+      "🪐"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic visualization of gluons exchanging between quarks inside a proton, vibrant colors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a photon traveling through space, bright beam, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a W boson particle with dynamic field lines, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le nom du phénomène qui rend les galaxies s’éloigner les unes des autres ?",
+    "questionAudio": "Quel est le nom du phénomène qui rend les galaxies s’éloigner les unes des autres ?",
+    "options": [
+      "L’expansion de l’univers",
+      "La contraction gravitationnelle",
+      "Le mouvement de rotation"
+    ],
+    "correct": 0,
+    "explanation": "L’expansion de l’univers, observée par le décalage vers le rouge des galaxies, indique que l’espace lui‑même s’étire.",
+    "explanationAudio": "L’expansion de l’univers, observée par le décalage vers le rouge des galaxies, indique que l’espace lui‑même s’étire.",
+    "emojis": [
+      "🌌",
+      "🚀",
+      "📡",
+      "🪐",
       "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of the amygdala highlighted in red within a human brain, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the cerebellum with intricate folds, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of the visual cortex with layered gyri, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic view of multiple galaxies moving apart in an expanding universe, colorful background, photorealistic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a massive gravitational collapse forming a dense cluster, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of a rotating galaxy with highlighted spiral arms, realistic star field, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -52,77 +112,55 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel neurotransmetteur est surtout associé à la régulation de l'humeur et du sommeil ?",
-    "questionAudio": "Quel neurotransmetteur est surtout associé à la régulation de l'humeur et du sommeil ?",
+    "question": "Quel instrument mesure la distance des étoiles via le parallaxe ?",
+    "questionAudio": "Quel instrument mesure la distance des étoiles via le parallaxe ?",
     "options": [
-      "Sérotonine",
-      "Acétylcholine",
-      "Glutamate"
+      "Le télescope",
+      "Le spectromètre",
+      "Le radiotélescope"
     ],
     "correct": 0,
-    "explanation": "La sérotonine intervient dans la modulation de l'humeur, du sommeil et de l'appétit.",
-    "explanationAudio": "La sérotonine intervient dans la modulation de l'humeur, du sommeil et de l'appétit.",
+    "explanation": "Le télescope permet d’observer le léger déplacement apparent d’une étoile proche lorsqu’on change de point de vue au cours de l’année.",
+    "explanationAudio": "Le télescope permet d’observer le léger déplacement apparent d’une étoile proche lorsqu’on change de point de vue au cours de l’année.",
     "emojis": [
+      "🔭",
+      "📏",
+      "🌠",
+      "🛰️",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of a modern optical telescope pointed at a star field, detailed lens reflections, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a spectrometer analyzing light from a star, colorful spectrum displayed, realistic materials, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a large radio telescope dish under a night sky, realistic metal texture, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le processus qui alimente le Soleil en énergie ?",
+    "questionAudio": "Quel est le processus qui alimente le Soleil en énergie ?",
+    "options": [
+      "La fusion nucléaire",
+      "La fission nucléaire",
+      "La combustion chimique"
+    ],
+    "correct": 0,
+    "explanation": "Dans le cœur du Soleil, les noyaux d’hydrogène fusionnent pour former de l’hélium, libérant une immense énergie.",
+    "explanationAudio": "Dans le cœur du Soleil, les noyaux d’hydrogène fusionnent pour former de l’hélium, libérant une immense énergie.",
+    "emojis": [
+      "☀️",
+      "⚛️",
+      "🔥",
       "🧪",
-      "🔬",
-      "🧠"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of serotonin molecules floating in a neural network, glowing blue, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of acetylcholine molecules interacting with receptors, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of glutamate release at a synapse, high detail and cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle fonction exécutive est attribuée au cortex préfrontal dorsolatéral ?",
-    "questionAudio": "Quelle fonction exécutive est attribuée au cortex préfrontal dorsolatéral ?",
-    "options": [
-      "Planification et prise de décision",
-      "Contrôle moteur fin",
-      "Traitement olfactif"
-    ],
-    "correct": 0,
-    "explanation": "Le cortex préfrontal dorsolatéral est essentiel pour la planification, le raisonnement et la prise de décision.",
-    "explanationAudio": "Le cortex préfrontal dorsolatéral est essentiel pour la planification, le raisonnement et la prise de décision.",
-    "emojis": [
-      "🧠",
-      "⚡",
-      "✨"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the dorsolateral prefrontal cortex highlighted in green within a brain, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the motor cortex with fine gyri, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the olfactory bulb with scent particles, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel phénomène augmente la vitesse de conduction nerveuse grâce à l'isolation des axones ?",
-    "questionAudio": "Quel phénomène augmente la vitesse de conduction nerveuse grâce à l'isolation des axones ?",
-    "options": [
-      "Myélinisation",
-      "Diffusion passive",
-      "Dépolarisation lente"
-    ],
-    "correct": 0,
-    "explanation": "La myélinisation crée une gaine isolante autour des axones, accélérant le potentiel d'action.",
-    "explanationAudio": "La myélinisation crée une gaine isolante autour des axones, accélérant le potentiel d'action.",
-    "emojis": [
-      "⚡",
-      "🧠",
       "🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D view of a myelinated axon with layered sheath, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of passive diffusion across a neuronal membrane, subtle glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a slowly depolarizing neuron with gradual voltage change, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of hydrogen nuclei fusing into helium inside the Sun’s core, bright plasma, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a nuclear fission reactor with splitting atoms, realistic metal components, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene of a chemical fire burning, flames and smoke, realistic textures, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -130,103 +168,27 @@
     "uiScale": 0.85
   },
   {
-    "question": "Dans quel secteur du cerveau la neurogenèse adulte a t elle été démontrée ?",
-    "questionAudio": "Dans quel secteur du cerveau la neurogenèse adulte a t elle été démontrée ?",
+    "question": "Quelle particule est émise lors de la désintégration bêta ?",
+    "questionAudio": "Quelle particule est émise lors de la désintégration bêta ?",
     "options": [
-      "Le gyrus denté de l'hippocampe",
-      "Le cortex moteur",
-      "Le tronc cérébral"
+      "L’électron",
+      "Le proton",
+      "Le neutron"
     ],
     "correct": 0,
-    "explanation": "Des études ont montré que de nouveaux neurones naissent dans le gyrus denté de l'hippocampe chez l'adulte.",
-    "explanationAudio": "Des études ont montré que de nouveaux neurones naissent dans le gyrus denté de l'hippocampe chez l'adulte.",
+    "explanation": "Lors d’une désintégration bêta, un neutron se transforme en proton et libère un électron et un antineutrino.",
+    "explanationAudio": "Lors d’une désintégration bêta, un neutron se transforme en proton et libère un électron et un antineutrino.",
     "emojis": [
-      "🧠",
+      "🔬",
+      "🧪",
       "✨",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the dentate gyrus within the hippocampus, highlighted in teal, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the motor cortex with highlighted layers, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the brainstem with intricate nuclei, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel type de neurones est impliqué dans la compréhension des actions d'autrui ?",
-    "questionAudio": "Quel type de neurones est impliqué dans la compréhension des actions d'autrui ?",
-    "options": [
-      "Neurones miroirs",
-      "Neurones sensoriels",
-      "Neurones moteurs"
-    ],
-    "correct": 0,
-    "explanation": "Les neurones miroirs s'activent tant lors de l'exécution que de l'observation d'une action.",
-    "explanationAudio": "Les neurones miroirs s'activent tant lors de l'exécution que de l'observation d'une action.",
-    "emojis": [
-      "🧠",
-      "🔬",
+      "🌍",
       "⚡"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of mirror neurons lighting up while observing a hand movement, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of sensory neurons with peripheral receptors, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of motor neurons transmitting signals to muscles, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel noyau cérébral régule le rythme circadien ?",
-    "questionAudio": "Quel noyau cérébral régule le rythme circadien ?",
-    "options": [
-      "Noyau suprachiasmatique",
-      "Noyau rouge",
-      "Noyau caudé"
-    ],
-    "correct": 0,
-    "explanation": "Le noyau suprachiasmatique du thalamus synchronise l'horloge interne avec la lumière ambiante.",
-    "explanationAudio": "Le noyau suprachiasmatique du thalamus synchronise l'horloge interne avec la lumière ambiante.",
-    "emojis": [
-      "🕒",
-      "🧠",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic view of the suprachiasmatic nucleus highlighted in gold within the hypothalamus, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the red nucleus with surrounding structures, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the caudate nucleus with textured surface, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel hormone du stress peut altérer la consolidation de la mémoire lorsqu'elle est élevée ?",
-    "questionAudio": "Quel hormone du stress peut altérer la consolidation de la mémoire lorsqu'elle est élevée ?",
-    "options": [
-      "Cortisol",
-      "Adrénaline",
-      "Thyroxine"
-    ],
-    "correct": 0,
-    "explanation": "Le cortisol, libéré lors du stress, peut perturber la consolidation mnésique si son niveau reste élevé.",
-    "explanationAudio": "Le cortisol, libéré lors du stress, peut perturber la consolidation mnésique si son niveau reste élevé.",
-    "emojis": [
-      "🧪",
-      "🧠",
-      "⚡"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of cortisol molecules interacting with hippocampal neurons, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of adrenaline molecules circulating in blood vessels, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of the thyroid gland producing thyroxine, high detail and cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of L’electron, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Le proton, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Le neutron, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

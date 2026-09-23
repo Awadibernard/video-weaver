@@ -1,7 +1,7 @@
 /**
  * upload.ts — ÉTAPE 3 du pipeline.
  *
- * Héberge temporairement la vidéo rendue avec un système de secours à 6 niveaux (fallback)
+ * Héberge temporairement la vidéo rendue avec un système de secours à 5 niveaux (fallback)
  * puis crée le post TikTok via l'API GraphQL de Buffer.
  */
 import * as fs from "node:fs";
@@ -17,7 +17,7 @@ const MAX_UPLOAD_BYTES = 1_000 * 1024 * 1024;
 const mb = (bytes: number) => (bytes / (1024 * 1024)).toFixed(2);
 
 /**
- * Tente d'uploader la vidéo sur 6 services temporaires gratuits en cascade.
+ * Tente d'uploader la vidéo sur 5 services temporaires gratuits en cascade.
  * Bascule automatiquement sur le suivant si le service plante (erreur 500, timeout, etc).
  */
 async function uploadWithFallback(fileBuffer: Buffer): Promise<string> {
@@ -45,32 +45,9 @@ async function uploadWithFallback(fileBuffer: Buffer): Promise<string> {
     console.warn(`   ⚠️ Échec Litterbox (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 1...`);
   }
 
-  // 2ème tentative : Tmpfiles.org (1 Go, Max 72h)
+  // 2ème tentative : Catbox.moe (200 Mo, Permanent)
   try {
-    console.log("   Tentative 2 : Tmpfiles.org (Limite 1 Go, Max 72h)...");
-    const formData = new FormData();
-    formData.append("file", new Blob([fileBuffer]), "video.mp4");
-
-    const res = await fetch("https://tmpfiles.org/api/v1/upload", {
-      method: "POST",
-      body: formData,
-      signal: AbortSignal.timeout(120_000),
-    });
-
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const json: any = await res.json();
-
-    // tmpfiles.org renvoie un lien web, on injecte /dl/ pour le lien direct (obligatoire pour Buffer)
-    const url = json.data.url.replace("tmpfiles.org/", "tmpfiles.org/dl/");
-    console.log(`   ✅ Succès Tmpfiles`);
-    return url;
-  } catch (e) {
-    console.warn(`   ⚠️ Échec Tmpfiles (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 2...`);
-  }
-
-  // 3ème tentative : Catbox.moe (200 Mo, Permanent)
-  try {
-    console.log("   Tentative 3 : Catbox.moe (Limite 200 Mo, Lien brut .mp4)...");
+    console.log("   Tentative 2 : Catbox.moe (Limite 200 Mo, Lien brut .mp4)...");
     const formData = new FormData();
     formData.append("reqtype", "fileupload");
     formData.append("fileToUpload", new Blob([fileBuffer]), "video.mp4");
@@ -88,12 +65,12 @@ async function uploadWithFallback(fileBuffer: Buffer): Promise<string> {
     console.log(`   ✅ Succès Catbox`);
     return url;
   } catch (e) {
-    console.warn(`   ⚠️ Échec Catbox (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 3...`);
+    console.warn(`   ⚠️ Échec Catbox (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 2...`);
   }
 
-  // 4ème tentative : Transfer.sh (10 Go, Éphémère 24h)
+  // 3ème tentative : Transfer.sh (10 Go, Éphémère 24h)
   try {
-    console.log("   Tentative 4 : Transfer.sh (Limite 10 Go, Expiration 24h)...");
+    console.log("   Tentative 3 : Transfer.sh (Limite 10 Go, Expiration 24h)...");
     const res = await fetch("https://transfer.sh/quiz.mp4", {
       method: "PUT",
       headers: { "Max-Days": "1" },
@@ -108,12 +85,12 @@ async function uploadWithFallback(fileBuffer: Buffer): Promise<string> {
     console.log(`   ✅ Succès Transfer.sh`);
     return url;
   } catch (e) {
-    console.warn(`   ⚠️ Échec Transfer.sh (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 4...`);
+    console.warn(`   ⚠️ Échec Transfer.sh (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 3...`);
   }
 
-  // 5ème tentative : Pixeldrain (5 Go, Temporaire 100 jours)
+  // 4ème tentative : Pixeldrain (5 Go, Temporaire 100 jours)
   try {
-    console.log("   Tentative 5 : Pixeldrain (Limite 5 Go, Temporaire 100 jours)...");
+    console.log("   Tentative 4 : Pixeldrain (Limite 5 Go, Temporaire 100 jours)...");
     const res = await fetch("https://pixeldrain.com/api/file", {
       method: "POST",
       body: new Blob([fileBuffer]),
@@ -129,12 +106,12 @@ async function uploadWithFallback(fileBuffer: Buffer): Promise<string> {
     console.log(`   ✅ Succès Pixeldrain`);
     return url;
   } catch (e) {
-    console.warn(`   ⚠️ Échec Pixeldrain (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 5...`);
+    console.warn(`   ⚠️ Échec Pixeldrain (${e instanceof Error ? e.message : "Erreur"}). Bascule sur l'alternative 4...`);
   }
 
-  // 6ème tentative (Ultime secours) : 0x0.st (512 Mo, Temporaire)
+  // 5ème tentative (Ultime secours) : 0x0.st (512 Mo, Temporaire)
   try {
-    console.log("   Tentative 6 : 0x0.st (Limite 512 Mo, Hébergement Nul-Pointer)...");
+    console.log("   Tentative 5 : 0x0.st (Limite 512 Mo, Hébergement Nul-Pointer)...");
     const formData = new FormData();
     formData.append("file", new Blob([fileBuffer]), "video.mp4");
 
@@ -151,7 +128,7 @@ async function uploadWithFallback(fileBuffer: Buffer): Promise<string> {
     console.log(`   ✅ Succès 0x0.st`);
     return url;
   } catch (e) {
-    throw new Error(`❌ Les 6 hébergeurs temporaires ont tous échoué. Dernier crash : ${e instanceof Error ? e.message : "Erreur inconnue"}`);
+    throw new Error(`❌ Les 5 hébergeurs temporaires ont tous échoué. Dernier crash : ${e instanceof Error ? e.message : "Erreur inconnue"}`);
   }
 }
 
@@ -197,7 +174,7 @@ export async function uploadToBufferGraphQL(): Promise<void> {
   console.log("📤 Génération d'une URL publique temporaire...");
   const fileBuffer = fs.readFileSync(videoPath);
 
-  // Appel du système de secours (fallback 6 niveaux)
+  // Appel du système de secours (fallback 5 niveaux)
   const publicVideoUrl = await uploadWithFallback(fileBuffer);
   console.log(`🔗 URL vidéo finale utilisée par Buffer : ${publicVideoUrl}`);
 
@@ -258,4 +235,4 @@ if (require.main === module) {
     console.error(e);
     process.exit(1);
   });
-                }
+}

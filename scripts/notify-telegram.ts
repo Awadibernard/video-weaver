@@ -111,7 +111,7 @@ function readTtsReport(): string[] {
   }
 }
 
-/** Quota GitHub Actions restant (nécessite GITHUB_PAT avec le scope `user`). */
+/** Quota GitHub Actions restant (nécessite GITHUB_PAT avec le scope \`user\`). */
 async function githubActionsMinutes(): Promise<string> {
   const pat = process.env.GITHUB_PAT;
   if (!pat) return "";
@@ -130,8 +130,7 @@ async function githubActionsMinutes(): Promise<string> {
   }
 }
 
-async function main() {
-
+export async function notifyTelegram(): Promise<void> {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
   if (!token || !chatId) {
@@ -164,7 +163,6 @@ async function main() {
   const minutesLine = await githubActionsMinutes();
   const healthBlock = [...ttsLines, minutesLine].filter(Boolean).join("\n");
 
-
   // <= 50 Mo : envoi direct jouable. Au-delà : lien uniquement (limite API Telegram).
   if (exists && size > 0 && size <= TELEGRAM_MAX_UPLOAD_BYTES) {
     const ok = await tgSendVideo(
@@ -189,12 +187,13 @@ async function main() {
       healthBlock,
       linkLine,
     ]
-
       .filter(Boolean)
       .join("\n"),
   );
 }
 
-main().catch((e) => {
-  console.warn("⚠️  Notification Telegram échouée:", e instanceof Error ? e.message : e);
-});
+if (require.main === module) {
+  notifyTelegram().catch((e) => {
+    console.warn("⚠️  Notification Telegram échouée:", e instanceof Error ? e.message : e);
+  });
+}

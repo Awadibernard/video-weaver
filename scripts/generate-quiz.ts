@@ -48,12 +48,25 @@ const quizPath = path.join(ROOT, "quiz.json");
 const defaultHistory: HistoryData = {
   last_category_index: -1,
   categories: [
+    // --- Sciences fondamentales & classiques ---
     "Physique & Astronomie",
     "Biologie & Corps Humain",
     "Chimie & Matière",
     "Sciences de la Terre & Nature",
     "Technologies & Inventions Scientifiques",
     "Neurosciences & Psychologie Scientifique",
+
+    // --- Sciences appliquées & Vie quotidienne ---
+    "Science du Quotidien & Idées Reçues",
+    "Science de la Cuisine & Alimentation",
+    "Médecine, Sommeil & Santé du Quotidien",
+    "Science du Sport & Biomécanique",
+
+    // --- Nouvelles branches & Exploration ---
+    "Paléontologie & Histoire de la Terre",
+    "Océans & Abysses",
+    "Mathématiques, Logique & Paradoxes",
+    "Histoire des Découvertes & Sérendipité",
   ],
   used_topics: [],
 };
@@ -137,7 +150,7 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
   return {
     question: q.display,
     questionAudio: qAudio,
-    emojis: finalEmojis, // Garantie stricte de 7 émojis
+    emojis: finalEmojis,
     options,
     correct,
     answer: options[correct],
@@ -155,7 +168,13 @@ export async function generateQuiz(): Promise<QuizMetadata> {
 
   let history: HistoryData = defaultHistory;
   if (fs.existsSync(historyPath)) {
-    history = JSON.parse(fs.readFileSync(historyPath, "utf8")) as HistoryData;
+    const loadedHistory = JSON.parse(fs.readFileSync(historyPath, "utf8")) as HistoryData;
+    // Mise à jour adaptative des catégories si de nouvelles ont été ajoutées dans le code
+    history = {
+      ...defaultHistory,
+      ...loadedHistory,
+      categories: defaultHistory.categories,
+    };
   }
 
   const nextIndex = (history.last_category_index + 1) % history.categories.length;

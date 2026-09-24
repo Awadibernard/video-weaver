@@ -106,17 +106,17 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
     return text;
   }) as [string, string, string];
 
-  // --- GESTION STRICTE DE STRICTEMENT 5 ÉMOJIS PAR QUESTION ---
+  // --- GESTION STRICTE DE STRICTEMENT 7 ÉMOJIS PAR QUESTION ---
   const emojis = (Array.isArray(raw.emojis) ? raw.emojis : [])
     .filter((e: unknown) => typeof e === "string" && e.trim().length > 0)
     .map((e: string) => e.trim()) as string[];
 
   for (const e of fallbackEmojis) {
-    if (emojis.length >= 5) break;
+    if (emojis.length >= 7) break;
     if (!emojis.includes(e)) emojis.push(e);
   }
 
-  const finalEmojis = emojis.slice(0, 5);
+  const finalEmojis = emojis.slice(0, 7);
 
   const pair = (value: any, legacy: any): { display: string; audio: string } => {
     const src = value ?? legacy;
@@ -137,7 +137,7 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
   return {
     question: q.display,
     questionAudio: qAudio,
-    emojis: finalEmojis, // Garantie stricte de 5 émojis
+    emojis: finalEmojis, // Garantie stricte de 7 émojis
     options,
     correct,
     answer: options[correct],
@@ -184,7 +184,7 @@ RÈGLES D'AFFICHAGE ET D'AUDIO (CRITIQUE) :
 3. Chaque option dans le tableau "options" doit être une phrase ou un terme clair rédigé normalement (ex: "La consolidation de la mémoire" et JAMAIS "Hippocampe -> mémoire").
 
 RÈGLES ÉMOJIS (CRITIQUE) :
-1. Chaque question DOIT avoir son propre tableau "emojis" contenant STRICTEMENT 5 émojis pertinents, variés et adaptés spécifiquement au sujet de la question. Ni plus, ni moins.
+1. Chaque question DOIT avoir son propre tableau "emojis" contenant STRICTEMENT 7 émojis pertinents, variés et adaptés spécifiquement au sujet de la question. Ni plus, ni moins.
 
 RÈGLES POUR LES PROMPTS D'IMAGES ("imagePrompts") :
 - Fournis EXACTEMENT 3 prompts d'images en ANGLAIS (un prompt détaillé pour chaque option du tableau "options").
@@ -201,7 +201,7 @@ Tu dois répondre UNIQUEMENT avec un objet JSON valide structuré EXACTEMENT com
   "hashtags": ["#science", "#quiz", "#cultureg"],
   "motif": "science",
   "cta": { "text_display": "Abonne-toi pour en apprendre plus !", "text_audio": "Abonne toi pour en apprendre plus !" },
-  "emojis": ["🔬", "🧪", "✨", "🌍", "⚡"],
+  "emojis": ["🔬", "🧪", "✨", "🌍", "⚡", "🧠", "🚀"],
   "uiScale": 0.85,
   "questions": [
     {
@@ -225,7 +225,7 @@ Tu dois répondre UNIQUEMENT avec un objet JSON valide structuré EXACTEMENT com
         "A 3D anatomical model of a human heart beating rhythmically, highly detailed",
         "A 3D abstract visualization of dopamine molecules floating in a neural network, glowing 8k"
       ],
-      "emojis": ["🧠", "🔬", "✨", "🧪", "⚡"]
+      "emojis": ["🧠", "🔬", "✨", "🧪", "⚡", "🌍", "🚀"]
     }
   ]
 }
@@ -233,7 +233,7 @@ Tu dois répondre UNIQUEMENT avec un objet JSON valide structuré EXACTEMENT com
 RÈGLES DE FORMAT STRUCTURAL :
 - "questions" contains EXACTEMENT ${questionCount} éléments.
 - Chaque "options" contient EXACTEMENT 3 éléments. JAMAIS 2, JAMAIS 4.
-- "emojis" pour chaque question contient EXACTEMENT 5 émojis.
+- "emojis" pour chaque question contient EXACTEMENT 7 émojis.
 - "correct" est l'index (0, 1 ou 2) de la bonne réponse dans "options".
 `;
 
@@ -243,7 +243,7 @@ RÈGLES DE FORMAT STRUCTURAL :
       content:
         "Tu es un générateur de JSON strict. Tu ne renvoies AUCUN texte hors du JSON. " +
         "CRITIQUE : Il est VITAL que le tableau 'options' de chaque question contienne EXACTEMENT 3 éléments sans flèches ni symboles. " +
-        "Chaque question doit contenir un tableau 'emojis' de STRICTEMENT 5 émojis pertinents. " +
+        "Chaque question doit contenir un tableau 'emojis' de STRICTEMENT 7 émojis pertinents. " +
         `Le tableau 'questions' doit contenir EXACTEMENT ${questionCount} questions.`,
     },
     { role: "user", content: prompt },
@@ -302,7 +302,7 @@ RÈGLES DE FORMAT STRUCTURAL :
         content:
           `❌ Le JSON généré est INVALIDE. Erreur rencontrée : "${err.message}".\n` +
           `RAPPEL STRICT : Génère EXACTEMENT ${questionCount} questions. Assure-toi que le tableau 'options' ` +
-          "de CHAQUE question contient EXACTEMENT 3 choix rédigés clairement et que le tableau 'emojis' de chaque question contienne STRICTEMENT 5 émojis.",
+          "de CHAQUE question contient EXACTEMENT 3 choix rédigés clairement et que le tableau 'emojis' de chaque question contienne STRICTEMENT 7 émojis.",
       });
     }
   }
@@ -318,7 +318,7 @@ RÈGLES DE FORMAT STRUCTURAL :
 
   const emojis = [...globalEmojis];
   for (const e of FALLBACK_EMOJIS) {
-    if (emojis.length >= 5) break;
+    if (emojis.length >= 7) break;
     if (!emojis.includes(e)) emojis.push(e);
   }
 
@@ -346,7 +346,7 @@ RÈGLES DE FORMAT STRUCTURAL :
     motif: data.motif || "science",
     cta: ctaDisplay,
     ctaAudio,
-    emojis: emojis.slice(0, 5),
+    emojis: emojis.slice(0, 7),
     uiScale:
       typeof data.uiScale === "number" && data.uiScale > 0.3 && data.uiScale <= 1.2 ? data.uiScale : 0.85,
     questionCount: questions.length,
@@ -365,7 +365,7 @@ RÈGLES DE FORMAT STRUCTURAL :
     correct: q.correct,
     explanation: q.explanation,
     explanationAudio: q.explanationAudio,
-    emojis: q.emojis && q.emojis.length === 5 ? q.emojis : metadata.emojis,
+    emojis: q.emojis && q.emojis.length === 7 ? q.emojis : metadata.emojis,
     imagePrompts: q.imagePrompts,
     motif: metadata.motif,
     ctaText: metadata.cta,

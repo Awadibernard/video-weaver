@@ -407,4 +407,4 @@ if (require.main === module) {
     console.error(e);
     process.exit(1);
   });
-}
+  }

@@ -1,6 +1,8 @@
 {
-  "enabled": false,
-  "times": [],
+  "enabled": true,
+  "times": [
+    "16:00"
+  ],
   "timezone": "GMT",
   "chat_id": "7499311186"
 }

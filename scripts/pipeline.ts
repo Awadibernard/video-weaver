@@ -4,16 +4,10 @@
  *   1. generate-quiz.ts  → input/metadata.json + quiz.json (IA Groq)
  *   2. prepare.ts + remotion render → out/quiz.mp4
  *   3. upload.ts         → Litterbox + Buffer → TikTok
- *
- * Exécution strictement séquentielle : chaque étape ne démarre que si la
- * précédente s'est terminée sans erreur (sinon `process.exit(1)` immédiat).
- *
- * Options CLI :
- *   --skip-upload   arrête le pipeline après le rendu (test local / CI dry-run)
- *   --skip-generate réutilise quiz.json / metadata.json existants
  */
 import { spawn } from "node:child_process";
 import * as path from "node:path";
+import { uploadToBufferGraphQL } from "./upload";
 
 const ROOT = path.resolve(__dirname, "..");
 const args = process.argv.slice(2);
@@ -58,7 +52,8 @@ async function main() {
   if (skipUpload) {
     console.log("\n⏭️  Étape 3 ignorée (--skip-upload). Vidéo disponible : out/quiz.mp4");
   } else {
-    await run("ÉTAPE 3/3 · Upload TikTok (Buffer)", "npx", ["tsx", "scripts/upload.ts"]);
+    console.log(`\n──────── ÉTAPE 3/3 · Upload TikTok (Buffer) ────────`);
+    await uploadToBufferGraphQL();
   }
 
   console.log(`\n✅ Pipeline terminé en ${((Date.now() - started) / 1000).toFixed(1)}s.`);
@@ -66,5 +61,28 @@ async function main() {
 
 main().catch((e) => {
   console.error(`\n❌ Pipeline interrompu : ${e instanceof Error ? e.message : e}`);
+  process.exit(1);
+});
+Solution 2 : Corriger le bas du fichier scripts/upload.ts
+Si vous souhaitez conserver l'exécution sous forme de script séparé via npx tsx scripts/upload.ts[cite: 11], modifiez le bas de scripts/upload.ts pour forcer l'exécution de la fonction sans la condition require.main[cite: 10] :
+
+Remplacer à la fin de scripts/upload.ts :
+
+TypeScript
+// ❌ À supprimer :
+if (require.main === module) {
+  uploadToBufferGraphQL().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}
+```[cite: 10]
+
+**Par :**
+
+```typescript
+// ✅ À mettre à la place :
+uploadToBufferGraphQL().catch((e) => {
+  console.error(e);
   process.exit(1);
 });

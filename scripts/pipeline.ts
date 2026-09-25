@@ -63,26 +63,3 @@ main().catch((e) => {
   console.error(`\n❌ Pipeline interrompu : ${e instanceof Error ? e.message : e}`);
   process.exit(1);
 });
-Solution 2 : Corriger le bas du fichier scripts/upload.ts
-Si vous souhaitez conserver l'exécution sous forme de script séparé via npx tsx scripts/upload.ts[cite: 11], modifiez le bas de scripts/upload.ts pour forcer l'exécution de la fonction sans la condition require.main[cite: 10] :
-
-Remplacer à la fin de scripts/upload.ts :
-
-TypeScript
-// ❌ À supprimer :
-if (require.main === module) {
-  uploadToBufferGraphQL().catch((e) => {
-    console.error(e);
-    process.exit(1);
-  });
-}
-```[cite: 10]
-
-**Par :**
-
-```typescript
-// ✅ À mettre à la place :
-uploadToBufferGraphQL().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});

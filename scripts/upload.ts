@@ -307,7 +307,11 @@ export async function uploadToBufferGraphQL(): Promise<void> {
   throw new Error("❌ Tous les serveurs d'hébergement et retries Buffer ont échoué. La vidéo a été transmise sur Telegram.");
 }
 
-uploadToBufferGraphQL().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+// Ne s'exécute automatiquement que si le fichier est lancé directement (ex: npx tsx scripts/upload.ts)
+// Si le fichier est importé par pipeline.ts, cette partie est ignorée.
+if (require.main === module) {
+  uploadToBufferGraphQL().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

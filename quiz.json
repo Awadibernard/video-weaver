@@ -1,58 +1,28 @@
 [
   {
-    "question": "Quel organe produit la majorité des protéines plasmatiques, notamment l'albumine ?",
-    "questionAudio": "Quel organe produit la majorité des protéines plasmatiques, notamment l'albumine ?",
+    "question": "Quel est l'élément le plus abondant dans l'atmosphère terrestre ?",
+    "questionAudio": "Quel est l'élément le plus abondant dans l'atmosphère terrestre ?",
     "options": [
-      "Le foie",
-      "Les reins",
-      "La rate"
+      "Azote",
+      "Oxygène",
+      "Argon"
     ],
     "correct": 0,
-    "explanation": "Le foie synthétise la plupart des protéines du plasma sanguin, dont l'albumine.",
-    "explanationAudio": "Le foie synthétise la plupart des protéines du plasma sanguin, dont l'albumine.",
+    "explanation": "L'azote représente environ quatre vingt dix neuf pour cent de l'air sec.",
+    "explanationAudio": "L'azote représente environ quatre vingt dix neuf pour cent de l'air sec.",
     "emojis": [
-      "🧬",
-      "🫀",
-      "🧪",
-      "🦠",
-      "🩺",
       "🔬",
-      "🧫"
-    ],
-    "imagePrompts": [
-      "A highly detailed 3D render of a human liver with glowing protein molecules, cinematic lighting, photorealistic",
-      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of human kidneys with transparent tissue, showing filtration, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a spleen with blood cells flowing, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle partie du système respiratoire est le principal site des échanges gazeux ?",
-    "questionAudio": "Quelle partie du système respiratoire est le principal site des échanges gazeux ?",
-    "options": [
-      "Les alvéoles pulmonaires",
-      "La trachée",
-      "Les bronches"
-    ],
-    "correct": 0,
-    "explanation": "Les alvéoles pulmonaires offrent une très grande surface pour l'oxygénation du sang et l'élimination du dioxyde de carbone.",
-    "explanationAudio": "Les alvéoles pulmonaires offrent une très grande surface pour l'oxygénation du sang et l'élimination du dioxyde de carbone.",
-    "emojis": [
-      "🫁",
+      "🧪",
+      "💨",
       "🌬️",
-      "🔬",
-      "🧬",
-      "🩺",
-      "🧪",
-      "💨"
+      "🧊",
+      "🌍",
+      "⚗️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of human alveoli filled with red blood cells, glowing oxygen particles, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of the human trachea with smooth interior, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of bronchial tubes with branching structure, realistic shading, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D realistic render of nitrogen gas molecules swirling in a clear atmospheric background, cinematic lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D detailed illustration of oxygen molecules forming a blue hue, high resolution, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of argon atoms glowing softly in a dark chamber, cinematic shadows, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de cellule sanguine est responsable de la coagulation ?",
-    "questionAudio": "Quel type de cellule sanguine est responsable de la coagulation ?",
+    "question": "Quel type de liaison lie les atomes dans le méthane ?",
+    "questionAudio": "Quel type de liaison lie les atomes dans le méthane ?",
     "options": [
-      "Les plaquettes",
-      "Les globules rouges",
-      "Les globules blancs"
+      "Liaison ionique",
+      "Liaison métallique",
+      "Liaison covalente"
     ],
-    "correct": 0,
-    "explanation": "Les plaquettes s'agrègent pour former un caillot et arrêter les saignements.",
-    "explanationAudio": "Les plaquettes s'agrègent pour former un caillot et arrêter les saignements.",
+    "correct": 2,
+    "explanation": "Le méthane possède quatre liaisons covalentes entre le carbone et les hydrogènes.",
+    "explanationAudio": "Le méthane possède quatre liaisons covalentes entre le carbone et les hydrogènes.",
     "emojis": [
-      "🩸",
-      "🩹",
-      "🧬",
       "🔬",
-      "🩺",
       "🧪",
-      "💉"
+      "⚛️",
+      "💎",
+      "🧊",
+      "🔥",
+      "📘"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D microscopic view of blood platelets clustering on a wound, glowing edges, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of red blood cells flowing in plasma, realistic shading, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of white blood cells attacking a pathogen, detailed texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an ionic compound with charged spheres, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D representation of metallic bonding with a sea of electrons surrounding metal atoms, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D molecular model of methane showing covalent bonds as bright rods between carbon and hydrogen atoms, cinematic glow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le principal neurotransmetteur inhibiteur du système nerveux central ?",
-    "questionAudio": "Quel est le principal neurotransmetteur inhibiteur du système nerveux central ?",
+    "question": "Quel est le point de fusion de l'eau pure exprimé en degrés Celsius ?",
+    "questionAudio": "Quel est le point de fusion de l'eau pure exprimé en degrés Celsius ?",
     "options": [
-      "Le GABA",
-      "L'acétylcholine",
-      "La sérotonine"
+      "Quatre vingt dix degrés Celsius",
+      "Cent degrés Celsius",
+      "Zéro degré Celsius"
     ],
-    "correct": 0,
-    "explanation": "Le GABA (acide gamma‑aminobutyrique) diminue l'activité neuronale et régule l'excitabilité du cerveau.",
-    "explanationAudio": "Le GABA (acide gamma‑aminobutyrique) diminue l'activité neuronale et régule l'excitabilité du cerveau.",
+    "correct": 2,
+    "explanation": "L'eau gèle à zéro degré Celsius sous pression atmosphérique normale.",
+    "explanationAudio": "L'eau gèle à zéro degré Celsius sous pression atmosphérique normale.",
     "emojis": [
-      "🧠",
-      "⚡",
-      "🧪",
+      "❄️",
+      "🌡️",
+      "🧊",
+      "💧",
+      "🔥",
       "🔬",
-      "🧬",
-      "🧭",
-      "🧑‍🔬"
+      "📏"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D molecular model of GABA binding to its receptor, glowing effect, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of acetylcholine molecules interacting with muscle receptors, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of serotonin pathways in the brain, vibrant colors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a thermometer reading ninety degrees Celsius with steam, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D icy scene of water crystals forming at zero degrees Celsius, cinematic lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a boiling pot at one hundred degrees Celsius, high detail, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,29 +90,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel muscle est le plus fort du corps humain proportionnellement à sa taille ?",
-    "questionAudio": "Quel muscle est le plus fort du corps humain proportionnellement à sa taille ?",
+    "question": "Quel est le nom du processus qui transforme un solide directement en gaz ?",
+    "questionAudio": "Quel est le nom du processus qui transforme un solide directement en gaz ?",
     "options": [
-      "Le masséter",
-      "Le quadriceps",
-      "Le grand dorsal"
+      "Condensation",
+      "Sublimation",
+      "Fusion"
     ],
-    "correct": 0,
-    "explanation": "Le masséter, situé dans la mâchoire, peut exercer une force de plusieurs dizaines de kilogrammes, le rendant le muscle le plus puissant proportionnellement à sa surface.",
-    "explanationAudio": "Le masséter, situé dans la mâchoire, peut exercer une force de plusieurs dizaines de kilogrammes, le rendant le muscle le plus puissant proportionnellement à sa surface.",
+    "correct": 1,
+    "explanation": "La sublimation se produit lorsque des molécules passent de l’état solide à l’état gazeux sans phase liquide intermédiaire.",
+    "explanationAudio": "La sublimation se produit lorsque des molécules passent de l’état solide à l’état gazeux sans phase liquide intermédiaire.",
     "emojis": [
-      "💪",
-      "🦷",
-      "🦴",
-      "🧠",
-      "🏋️",
+      "❄️",
+      "💨",
+      "🧊",
       "🔬",
-      "🧪"
+      "⚗️",
+      "🌡️",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A realistic 3D render of a human jaw showing the masseter muscle in detail, highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of the quadriceps muscle group on a human thigh, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the latissimus dorsi (grand dorsal) spanning the back, photorealistic shading, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D scene of water droplets condensing on a cold surface, high detail, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D animation of dry ice sublimating into carbon dioxide gas, cinematic lighting, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D melting block of ice turning into liquid water, cinematic glow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le pH d'une solution neutre à vingt cinq degrés Celsius ?",
+    "questionAudio": "Quel est le pH d'une solution neutre à vingt cinq degrés Celsius ?",
+    "options": [
+      "Sept",
+      "Huit",
+      "Six"
+    ],
+    "correct": 0,
+    "explanation": "À vingt cinq degrés Celsius, une solution neutre possède un pH égal à sept.",
+    "explanationAudio": "À vingt cinq degrés Celsius, une solution neutre possède un pH égal à sept.",
+    "emojis": [
+      "⚗️",
+      "🧪",
+      "📊",
+      "🔬",
+      "💧",
+      "🌡️",
+      "📈"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D color gradient chart showing pH scale with neutral point highlighted at seven, cinematic lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D depiction of a basic solution with pH eight, blue tint, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an acidic solution with pH six, bright red hue, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel gaz est produit lors de la combustion du méthane en présence d'oxygène ?",
+    "questionAudio": "Quel gaz est produit lors de la combustion du méthane en présence d'oxygène ?",
+    "options": [
+      "Monoxyde de carbone",
+      "Dioxyde de carbone",
+      "Hydrogène"
+    ],
+    "correct": 1,
+    "explanation": "La réaction complète du méthane avec l'oxygène libère du dioxyde de carbone et de l'eau.",
+    "explanationAudio": "La réaction complète du méthane avec l'oxygène libère du dioxyde de carbone et de l'eau.",
+    "emojis": [
+      "🔥",
+      "🧪",
+      "💨",
+      "🌍",
+      "🔬",
+      "⚗️",
+      "📘"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of carbon monoxide gas with toxic red tint, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D flame simulation showing methane burning and releasing carbon dioxide molecules, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of hydrogen gas bubbles rising from a reaction, cinematic glow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le symbole chimique du potassium ?",
+    "questionAudio": "Quel est le symbole chimique du potassium ?",
+    "options": [
+      "P",
+      "K",
+      "Na"
+    ],
+    "correct": 1,
+    "explanation": "Le potassium porte le symbole K dans le tableau périodique.",
+    "explanationAudio": "Le potassium porte le symbole K dans le tableau périodique.",
+    "emojis": [
+      "🧪",
+      "⚗️",
+      "🔬",
+      "📚",
+      "🧊",
+      "💡",
+      "🌟"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of a phosphorus atom with symbol P, detailed nucleus and electron shells, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D periodic table block highlighting potassium with the letter K in bright color, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a sodium atom labeled Na, high detail, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

@@ -101,7 +101,7 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
   
   const cleanAnswer = sanitizeText(String(raw.answer ?? ""));
   const foundIndex = options.findIndex((o) => o.toLowerCase() === cleanAnswer.toLowerCase());
-  const correct = (typeof raw.correct === "number" && raw.correct >= 0 && raw.correct <= 2
+  const initialCorrect = (typeof raw.correct === "number" && raw.correct >= 0 && raw.correct <= 2
     ? raw.correct
     : foundIndex >= 0
       ? foundIndex
@@ -118,6 +118,24 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
     }
     return text;
   }) as [string, string, string];
+
+  // 🎲 --- MÉLANGE ALÉATOIRE (SHUFFLE) GARANTI DE L'OPTION A, B ET C ---
+  const items = [0, 1, 2].map((i) => ({
+    option: options[i],
+    prompt: imagePrompts[i],
+    isCorrect: i === initialCorrect,
+  }));
+
+  // Algorithme de mélange de Fisher-Yates
+  for (let i = items.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [items[i], items[j]] = [items[j], items[i]];
+  }
+
+  // Reconstruction des données mélangées
+  const finalOptions = items.map((item) => item.option) as [string, string, string];
+  const finalPrompts = items.map((item) => item.prompt) as [string, string, string];
+  const finalCorrect = items.findIndex((item) => item.isCorrect) as 0 | 1 | 2;
 
   // --- GESTION STRICTE DE STRICTEMENT 7 ÉMOJIS PAR QUESTION ---
   const emojis = (Array.isArray(raw.emojis) ? raw.emojis : [])
@@ -151,12 +169,12 @@ function normalizeItem(raw: any, fallbackEmojis: string[] = FALLBACK_EMOJIS): Qu
     question: q.display,
     questionAudio: qAudio,
     emojis: finalEmojis,
-    options,
-    correct,
-    answer: options[correct],
+    options: finalOptions,
+    correct: finalCorrect,
+    answer: finalOptions[finalCorrect],
     explanation: exp.display,
     explanationAudio: expAudio,
-    imagePrompts,
+    imagePrompts: finalPrompts,
   };
 }
 
@@ -169,7 +187,6 @@ export async function generateQuiz(): Promise<QuizMetadata> {
   let history: HistoryData = defaultHistory;
   if (fs.existsSync(historyPath)) {
     const loadedHistory = JSON.parse(fs.readFileSync(historyPath, "utf8")) as HistoryData;
-    // Mise à jour adaptative des catégories si de nouvelles ont été ajoutées dans le code
     history = {
       ...defaultHistory,
       ...loadedHistory,
@@ -282,7 +299,7 @@ RÈGLES DE FORMAT STRUCTURAL :
         messages,
         response_format: { type: "json_object" },
         temperature: 0.7,
-        max_tokens: 4096, // 👈
+        max_tokens: 4096,
       }),
     });
 
@@ -408,4 +425,4 @@ if (require.main === module) {
     console.error(e);
     process.exit(1);
   });
-  }
+    }

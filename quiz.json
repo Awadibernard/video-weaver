@@ -1,166 +1,28 @@
 [
   {
-    "question": "Quel phénomène explique la dilatation du temps près d’un corps très massif ?",
-    "questionAudio": "Quel phénomène explique la dilatation du temps près d’un corps très massif ?",
+    "question": "Quel organe produit la majorité des protéines plasmatiques, notamment l'albumine ?",
+    "questionAudio": "Quel organe produit la majorité des protéines plasmatiques, notamment l'albumine ?",
     "options": [
-      "La relativité générale",
-      "La mécanique quantique",
-      "L’effet Doppler"
+      "Le foie",
+      "Les reins",
+      "La rate"
     ],
     "correct": 0,
-    "explanation": "La relativité générale décrit comment la gravité influence le temps et l’espace autour d’un objet massif.",
-    "explanationAudio": "La relativité générale décrit comment la gravité influence le temps et l’espace autour d’un objet massif.",
-    "emojis": [
-      "🕰️",
-      "🌌",
-      "⚖️",
-      "🚀",
-      "🔭"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a massive black hole warping spacetime, with visual distortion around it, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a quantum wavefunction cloud hovering over atoms, vibrant colors, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D scene showing a moving star with shifting color wavelengths, cinematic lighting, realistic space background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel type d’étoile devient une supernova de type Ia ?",
-    "questionAudio": "Quel type d’étoile devient une supernova de type Ia ?",
-    "options": [
-      "Une naine blanche dans un système binaire",
-      "Une géante rouge isolée",
-      "Une étoile à neutrons"
-    ],
-    "correct": 0,
-    "explanation": "Une naine blanche qui accumule de la matière d’une compagne peut exploser en supernova de type Ia.",
-    "explanationAudio": "Une naine blanche qui accumule de la matière d’une compagne peut exploser en supernova de type Ia.",
-    "emojis": [
-      "💥",
-      "🌟",
-      "🔭",
-      "🪐",
-      "⚡"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a white dwarf accreting material from a companion star, bright accretion disk, photorealistic space scene, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D detailed model of an isolated red giant with expanding outer layers, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a neutron star with intense magnetic field lines, realistic surface texture, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle est la particule responsable de la force nucléaire forte ?",
-    "questionAudio": "Quelle est la particule responsable de la force nucléaire forte ?",
-    "options": [
-      "Le gluon",
-      "Le photon",
-      "Le boson W"
-    ],
-    "correct": 0,
-    "explanation": "Les gluons transportent la force qui lie les quarks à l’intérieur des protons et des neutrons.",
-    "explanationAudio": "Les gluons transportent la force qui lie les quarks à l’intérieur des protons et des neutrons.",
+    "explanation": "Le foie synthétise la plupart des protéines du plasma sanguin, dont l'albumine.",
+    "explanationAudio": "Le foie synthétise la plupart des protéines du plasma sanguin, dont l'albumine.",
     "emojis": [
       "🧬",
-      "⚛️",
-      "🔬",
-      "💥",
-      "🪐"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic visualization of gluons exchanging between quarks inside a proton, vibrant colors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a photon traveling through space, bright beam, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a W boson particle with dynamic field lines, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le nom du phénomène qui rend les galaxies s’éloigner les unes des autres ?",
-    "questionAudio": "Quel est le nom du phénomène qui rend les galaxies s’éloigner les unes des autres ?",
-    "options": [
-      "L’expansion de l’univers",
-      "La contraction gravitationnelle",
-      "Le mouvement de rotation"
-    ],
-    "correct": 0,
-    "explanation": "L’expansion de l’univers, observée par le décalage vers le rouge des galaxies, indique que l’espace lui‑même s’étire.",
-    "explanationAudio": "L’expansion de l’univers, observée par le décalage vers le rouge des galaxies, indique que l’espace lui‑même s’étire.",
-    "emojis": [
-      "🌌",
-      "🚀",
-      "📡",
-      "🪐",
-      "✨"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic view of multiple galaxies moving apart in an expanding universe, colorful background, photorealistic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a massive gravitational collapse forming a dense cluster, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a rotating galaxy with highlighted spiral arms, realistic star field, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel instrument mesure la distance des étoiles via le parallaxe ?",
-    "questionAudio": "Quel instrument mesure la distance des étoiles via le parallaxe ?",
-    "options": [
-      "Le télescope",
-      "Le spectromètre",
-      "Le radiotélescope"
-    ],
-    "correct": 0,
-    "explanation": "Le télescope permet d’observer le léger déplacement apparent d’une étoile proche lorsqu’on change de point de vue au cours de l’année.",
-    "explanationAudio": "Le télescope permet d’observer le léger déplacement apparent d’une étoile proche lorsqu’on change de point de vue au cours de l’année.",
-    "emojis": [
-      "🔭",
-      "📏",
-      "🌠",
-      "🛰️",
-      "✨"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of a modern optical telescope pointed at a star field, detailed lens reflections, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a spectrometer analyzing light from a star, colorful spectrum displayed, realistic materials, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a large radio telescope dish under a night sky, realistic metal texture, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le processus qui alimente le Soleil en énergie ?",
-    "questionAudio": "Quel est le processus qui alimente le Soleil en énergie ?",
-    "options": [
-      "La fusion nucléaire",
-      "La fission nucléaire",
-      "La combustion chimique"
-    ],
-    "correct": 0,
-    "explanation": "Dans le cœur du Soleil, les noyaux d’hydrogène fusionnent pour former de l’hélium, libérant une immense énergie.",
-    "explanationAudio": "Dans le cœur du Soleil, les noyaux d’hydrogène fusionnent pour former de l’hélium, libérant une immense énergie.",
-    "emojis": [
-      "☀️",
-      "⚛️",
-      "🔥",
+      "🫀",
       "🧪",
-      "🔬"
+      "🦠",
+      "🩺",
+      "🔬",
+      "🧫"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of hydrogen nuclei fusing into helium inside the Sun’s core, bright plasma, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a nuclear fission reactor with splitting atoms, realistic metal components, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D scene of a chemical fire burning, flames and smoke, realistic textures, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A highly detailed 3D render of a human liver with glowing protein molecules, cinematic lighting, photorealistic",
+      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of human kidneys with transparent tissue, showing filtration, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a spleen with blood cells flowing, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -168,27 +30,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle particule est émise lors de la désintégration bêta ?",
-    "questionAudio": "Quelle particule est émise lors de la désintégration bêta ?",
+    "question": "Quelle partie du système respiratoire est le principal site des échanges gazeux ?",
+    "questionAudio": "Quelle partie du système respiratoire est le principal site des échanges gazeux ?",
     "options": [
-      "L’électron",
-      "Le proton",
-      "Le neutron"
+      "Les alvéoles pulmonaires",
+      "La trachée",
+      "Les bronches"
     ],
     "correct": 0,
-    "explanation": "Lors d’une désintégration bêta, un neutron se transforme en proton et libère un électron et un antineutrino.",
-    "explanationAudio": "Lors d’une désintégration bêta, un neutron se transforme en proton et libère un électron et un antineutrino.",
+    "explanation": "Les alvéoles pulmonaires offrent une très grande surface pour l'oxygénation du sang et l'élimination du dioxyde de carbone.",
+    "explanationAudio": "Les alvéoles pulmonaires offrent une très grande surface pour l'oxygénation du sang et l'élimination du dioxyde de carbone.",
     "emojis": [
+      "🫁",
+      "🌬️",
       "🔬",
+      "🧬",
+      "🩺",
       "🧪",
-      "✨",
-      "🌍",
-      "⚡"
+      "💨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of L’electron, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Le proton, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Le neutron, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of human alveoli filled with red blood cells, glowing oxygen particles, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of the human trachea with smooth interior, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of bronchial tubes with branching structure, realistic shading, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de cellule sanguine est responsable de la coagulation ?",
+    "questionAudio": "Quel type de cellule sanguine est responsable de la coagulation ?",
+    "options": [
+      "Les plaquettes",
+      "Les globules rouges",
+      "Les globules blancs"
+    ],
+    "correct": 0,
+    "explanation": "Les plaquettes s'agrègent pour former un caillot et arrêter les saignements.",
+    "explanationAudio": "Les plaquettes s'agrègent pour former un caillot et arrêter les saignements.",
+    "emojis": [
+      "🩸",
+      "🩹",
+      "🧬",
+      "🔬",
+      "🩺",
+      "🧪",
+      "💉"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D microscopic view of blood platelets clustering on a wound, glowing edges, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of red blood cells flowing in plasma, realistic shading, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of white blood cells attacking a pathogen, detailed texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le principal neurotransmetteur inhibiteur du système nerveux central ?",
+    "questionAudio": "Quel est le principal neurotransmetteur inhibiteur du système nerveux central ?",
+    "options": [
+      "Le GABA",
+      "L'acétylcholine",
+      "La sérotonine"
+    ],
+    "correct": 0,
+    "explanation": "Le GABA (acide gamma‑aminobutyrique) diminue l'activité neuronale et régule l'excitabilité du cerveau.",
+    "explanationAudio": "Le GABA (acide gamma‑aminobutyrique) diminue l'activité neuronale et régule l'excitabilité du cerveau.",
+    "emojis": [
+      "🧠",
+      "⚡",
+      "🧪",
+      "🔬",
+      "🧬",
+      "🧭",
+      "🧑‍🔬"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D molecular model of GABA binding to its receptor, glowing effect, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of acetylcholine molecules interacting with muscle receptors, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of serotonin pathways in the brain, vibrant colors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel muscle est le plus fort du corps humain proportionnellement à sa taille ?",
+    "questionAudio": "Quel muscle est le plus fort du corps humain proportionnellement à sa taille ?",
+    "options": [
+      "Le masséter",
+      "Le quadriceps",
+      "Le grand dorsal"
+    ],
+    "correct": 0,
+    "explanation": "Le masséter, situé dans la mâchoire, peut exercer une force de plusieurs dizaines de kilogrammes, le rendant le muscle le plus puissant proportionnellement à sa surface.",
+    "explanationAudio": "Le masséter, situé dans la mâchoire, peut exercer une force de plusieurs dizaines de kilogrammes, le rendant le muscle le plus puissant proportionnellement à sa surface.",
+    "emojis": [
+      "💪",
+      "🦷",
+      "🦴",
+      "🧠",
+      "🏋️",
+      "🔬",
+      "🧪"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A realistic 3D render of a human jaw showing the masseter muscle in detail, highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of the quadriceps muscle group on a human thigh, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the latissimus dorsi (grand dorsal) spanning the back, photorealistic shading, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

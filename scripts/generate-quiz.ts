@@ -282,6 +282,7 @@ RÈGLES DE FORMAT STRUCTURAL :
         messages,
         response_format: { type: "json_object" },
         temperature: 0.7,
+        max_tokens: 4096, // 👈
       }),
     });
 

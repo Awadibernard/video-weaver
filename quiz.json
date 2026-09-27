@@ -1,118 +1,28 @@
 [
   {
-    "question": "Quel est l'élément le plus abondant dans l'atmosphère terrestre ?",
-    "questionAudio": "Quel est l'élément le plus abondant dans l'atmosphère terrestre ?",
+    "question": "Quel est le principal gaz à effet de serre responsable du réchauffement climatique ?",
+    "questionAudio": "Quel est le principal gaz à effet de serre responsable du réchauffement climatique ?",
     "options": [
-      "Azote",
-      "Oxygène",
-      "Argon"
+      "Le dioxyde de carbone",
+      "L'ozone",
+      "Le méthane"
     ],
     "correct": 0,
-    "explanation": "L'azote représente environ quatre vingt dix neuf pour cent de l'air sec.",
-    "explanationAudio": "L'azote représente environ quatre vingt dix neuf pour cent de l'air sec.",
+    "explanation": "Le dioxyde de carbone retient la chaleur dans l'atmosphère et est le principal contributeur au réchauffement climatique.",
+    "explanationAudio": "Le dioxyde de carbone retient la chaleur dans l'atmosphère et est le principal contributeur au réchauffement climatique.",
     "emojis": [
-      "🔬",
-      "🧪",
-      "💨",
-      "🌬️",
-      "🧊",
+      "🌡️",
       "🌍",
-      "⚗️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D realistic render of nitrogen gas molecules swirling in a clear atmospheric background, cinematic lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D detailed illustration of oxygen molecules forming a blue hue, high resolution, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of argon atoms glowing softly in a dark chamber, cinematic shadows, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel type de liaison lie les atomes dans le méthane ?",
-    "questionAudio": "Quel type de liaison lie les atomes dans le méthane ?",
-    "options": [
-      "Liaison ionique",
-      "Liaison métallique",
-      "Liaison covalente"
-    ],
-    "correct": 2,
-    "explanation": "Le méthane possède quatre liaisons covalentes entre le carbone et les hydrogènes.",
-    "explanationAudio": "Le méthane possède quatre liaisons covalentes entre le carbone et les hydrogènes.",
-    "emojis": [
-      "🔬",
-      "🧪",
-      "⚛️",
-      "💎",
-      "🧊",
-      "🔥",
-      "📘"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of an ionic compound with charged spheres, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D representation of metallic bonding with a sea of electrons surrounding metal atoms, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D molecular model of methane showing covalent bonds as bright rods between carbon and hydrogen atoms, cinematic glow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le point de fusion de l'eau pure exprimé en degrés Celsius ?",
-    "questionAudio": "Quel est le point de fusion de l'eau pure exprimé en degrés Celsius ?",
-    "options": [
-      "Quatre vingt dix degrés Celsius",
-      "Cent degrés Celsius",
-      "Zéro degré Celsius"
-    ],
-    "correct": 2,
-    "explanation": "L'eau gèle à zéro degré Celsius sous pression atmosphérique normale.",
-    "explanationAudio": "L'eau gèle à zéro degré Celsius sous pression atmosphérique normale.",
-    "emojis": [
-      "❄️",
-      "🌡️",
-      "🧊",
-      "💧",
-      "🔥",
-      "🔬",
-      "📏"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a thermometer reading ninety degrees Celsius with steam, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D icy scene of water crystals forming at zero degrees Celsius, cinematic lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a boiling pot at one hundred degrees Celsius, high detail, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le nom du processus qui transforme un solide directement en gaz ?",
-    "questionAudio": "Quel est le nom du processus qui transforme un solide directement en gaz ?",
-    "options": [
-      "Condensation",
-      "Sublimation",
-      "Fusion"
-    ],
-    "correct": 1,
-    "explanation": "La sublimation se produit lorsque des molécules passent de l’état solide à l’état gazeux sans phase liquide intermédiaire.",
-    "explanationAudio": "La sublimation se produit lorsque des molécules passent de l’état solide à l’état gazeux sans phase liquide intermédiaire.",
-    "emojis": [
-      "❄️",
       "💨",
-      "🧊",
-      "🔬",
-      "⚗️",
-      "🌡️",
-      "✨"
+      "📈",
+      "🔥",
+      "🧪",
+      "🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D scene of water droplets condensing on a cold surface, high detail, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D animation of dry ice sublimating into carbon dioxide gas, cinematic lighting, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D melting block of ice turning into liquid water, cinematic glow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a CO2 molecule glowing against a blue sky, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D visualization of ozone layers around Earth, with atmospheric glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of methane gas bubbles rising from a wetland, detailed environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le pH d'une solution neutre à vingt cinq degrés Celsius ?",
-    "questionAudio": "Quel est le pH d'une solution neutre à vingt cinq degrés Celsius ?",
+    "question": "Quelle couche de la Terre est principalement composée de roches solides et de magma ?",
+    "questionAudio": "Quelle couche de la Terre est principalement composée de roches solides et de magma ?",
     "options": [
-      "Sept",
-      "Huit",
-      "Six"
+      "La croûte terrestre",
+      "Le noyau externe",
+      "Le manteau"
     ],
-    "correct": 0,
-    "explanation": "À vingt cinq degrés Celsius, une solution neutre possède un pH égal à sept.",
-    "explanationAudio": "À vingt cinq degrés Celsius, une solution neutre possède un pH égal à sept.",
+    "correct": 2,
+    "explanation": "Le manteau se situe entre la croûte et le noyau et contient des roches solides ainsi que du magma en mouvement.",
+    "explanationAudio": "Le manteau se situe entre la croûte et le noyau et contient des roches solides ainsi que du magma en mouvement.",
     "emojis": [
-      "⚗️",
-      "🧪",
+      "🗻",
+      "🌋",
+      "🪨",
+      "⚙️",
+      "🌐",
       "📊",
-      "🔬",
-      "💧",
-      "🌡️",
-      "📈"
+      "🔎"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D color gradient chart showing pH scale with neutral point highlighted at seven, cinematic lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D depiction of a basic solution with pH eight, blue tint, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of an acidic solution with pH six, bright red hue, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of Earth's crust with continents and ocean basins, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the outer core with liquid iron flow, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cross‑section of Earth showing the mantle in orange‑red tones, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -150,59 +60,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel gaz est produit lors de la combustion du méthane en présence d'oxygène ?",
-    "questionAudio": "Quel gaz est produit lors de la combustion du méthane en présence d'oxygène ?",
+    "question": "Quel phénomène explique le déplacement des continents au fil du temps ?",
+    "questionAudio": "Quel phénomène explique le déplacement des continents au fil du temps ?",
     "options": [
-      "Monoxyde de carbone",
-      "Dioxyde de carbone",
-      "Hydrogène"
+      "Le cycle de l'eau",
+      "L'érosion",
+      "La dérive des continents"
     ],
-    "correct": 1,
-    "explanation": "La réaction complète du méthane avec l'oxygène libère du dioxyde de carbone et de l'eau.",
-    "explanationAudio": "La réaction complète du méthane avec l'oxygène libère du dioxyde de carbone et de l'eau.",
+    "correct": 2,
+    "explanation": "La dérive des continents résulte du mouvement des plaques tectoniques sur le manteau terrestre.",
+    "explanationAudio": "La dérive des continents résulte du mouvement des plaques tectoniques sur le manteau terrestre.",
     "emojis": [
-      "🔥",
-      "🧪",
-      "💨",
-      "🌍",
-      "🔬",
-      "⚗️",
-      "📘"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of carbon monoxide gas with toxic red tint, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D flame simulation showing methane burning and releasing carbon dioxide molecules, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of hydrogen gas bubbles rising from a reaction, cinematic glow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le symbole chimique du potassium ?",
-    "questionAudio": "Quel est le symbole chimique du potassium ?",
-    "options": [
-      "P",
-      "K",
-      "Na"
-    ],
-    "correct": 1,
-    "explanation": "Le potassium porte le symbole K dans le tableau périodique.",
-    "explanationAudio": "Le potassium porte le symbole K dans le tableau périodique.",
-    "emojis": [
-      "🧪",
-      "⚗️",
-      "🔬",
+      "🗺️",
+      "🚢",
+      "🌊",
+      "⛰️",
+      "🔄",
       "📚",
-      "🧊",
-      "💡",
-      "🌟"
+      "🧭"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of a phosphorus atom with symbol P, detailed nucleus and electron shells, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D periodic table block highlighting potassium with the letter K in bright color, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a sodium atom labeled Na, high detail, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of the water cycle with clouds, precipitation and rivers, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of a mountain slope being eroded by rain and wind, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D animation of continental plates slowly moving over millions of years, photorealistic Earth globe, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel processus crée les montagnes par la collision de plaques tectoniques ?",
+    "questionAudio": "Quel processus crée les montagnes par la collision de plaques tectoniques ?",
+    "options": [
+      "La subduction",
+      "La sédimentation",
+      "L'orogenèse"
+    ],
+    "correct": 2,
+    "explanation": "L'orogenèse désigne la formation de chaînes de montagnes lors de la convergence des plaques.",
+    "explanationAudio": "L'orogenèse désigne la formation de chaînes de montagnes lors de la convergence des plaques.",
+    "emojis": [
+      "⛰️",
+      "🪨",
+      "🔀",
+      "⚒️",
+      "🌍",
+      "📐",
+      "🧭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a subducting oceanic plate descending beneath a continental plate, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D scene of sediment layers accumulating in a basin, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of mountain building during plate collision, detailed rock textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de roche se forme à partir du refroidissement du magma à la surface de la Terre ?",
+    "questionAudio": "Quel type de roche se forme à partir du refroidissement du magma à la surface de la Terre ?",
+    "options": [
+      "Roche ignée intrusive",
+      "Roche sédimentaire",
+      "Roche métamorphique"
+    ],
+    "correct": 0,
+    "explanation": "Les roches ignées intrusives se solidifient lentement sous la surface, formant des textures grenues.",
+    "explanationAudio": "Les roches ignées intrusives se solidifient lentement sous la surface, formant des textures grenues.",
+    "emojis": [
+      "🪨",
+      "🔥",
+      "⛏️",
+      "🌋",
+      "📚",
+      "🔬",
+      "🧱"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic model of intrusive igneous rock formation deep underground, glowing magma veins, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of layered sedimentary rocks with fossils, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D rendering of metamorphic rock textures after intense pressure, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel phénomène naturel est responsable de la formation des aurores polaires ?",
+    "questionAudio": "Quel phénomène naturel est responsable de la formation des aurores polaires ?",
+    "options": [
+      "L'interaction des particules solaires avec le champ magnétique terrestre",
+      "La réfraction de la lumière solaire",
+      "Les éclairs dans les nuages"
+    ],
+    "correct": 0,
+    "explanation": "Les particules du vent solaire sont guidées par le champ magnétique et excitent les molécules d'air, créant les aurores.",
+    "explanationAudio": "Les particules du vent solaire sont guidées par le champ magnétique et excitent les molécules d'air, créant les aurores.",
+    "emojis": [
+      "🌌",
+      "⚡",
+      "🛰️",
+      "🌍",
+      "❄️",
+      "🔭",
+      "💫"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of solar particles colliding with Earth's magnetic field, producing vibrant aurora, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D illustration of sunlight refracting through atmospheric layers at sunset, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a thunderstorm with detailed lightning bolts, realistic clouds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

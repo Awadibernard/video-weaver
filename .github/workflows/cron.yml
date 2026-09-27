@@ -26,22 +26,36 @@ jobs:
             echo "should_run=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          NOW=$(date -u +%H)
-          RESULT=$(node -e "
+
+          node -e "
+            const fs = require('fs');
             const c = require('./config/schedule.json');
+
+            // Vérification tolérante de 'enabled' (booléen ou chaîne 'true')
+            const enabled = c.enabled === true || String(c.enabled).toLowerCase() === 'true';
+
+            // Récupération et normalisation des heures (ex: '8' ou '08' -> '08')
             const times = Array.isArray(c.times) ? c.times.slice() : [];
             if (c.time) times.push(c.time);
-            const hours = times.map(t => String(t).split(':')[0].padStart(2,'0'));
-            const now = process.argv[1];
-            console.log(JSON.stringify({
-              run: c.enabled === true && hours.includes(now),
-              chat: String(c.chat_id || ''),
-              times: times.join(','),
-            }));
-          " "$NOW")
-          echo "Créneaux: $(node -p "JSON.parse(process.argv[1]).times" "$RESULT") — heure actuelle: ${NOW}h GMT"
-          echo "chat_id=$(node -p "JSON.parse(process.argv[1]).chat" "$RESULT")" >> "$GITHUB_OUTPUT"
-          echo "should_run=$(node -p "String(JSON.parse(process.argv[1]).run)" "$RESULT")" >> "$GITHUB_OUTPUT"
+            const hours = times.map(t => String(t).trim().split(':')[0].padStart(2, '0'));
+
+            // Heure actuelle UTC (format 24h sur 2 chiffres, ex: '08', '14')
+            const now = new Date().toISOString().substring(11, 13);
+
+            const shouldRun = enabled && hours.includes(now);
+            const chatId = String(c.chat_id || '');
+
+            console.log('📌 Config enabled:', c.enabled, '-> interprété:', enabled);
+            console.log('📌 Créneaux configurés (heures UTC):', hours.join(', '));
+            console.log('📌 Heure actuelle UTC:', now + 'h');
+            console.log('🚀 Lancement autorisé (should_run):', shouldRun);
+
+            const outputFile = process.env.GITHUB_OUTPUT;
+            if (outputFile) {
+              fs.appendFileSync(outputFile, \`should_run=\${shouldRun}\n\`);
+              fs.appendFileSync(outputFile, \`chat_id=\${chatId}\n\`);
+            }
+          "
 
   run-pipeline:
     needs: check-schedule

@@ -1,8 +1,6 @@
-name: Planificateur dynamique (config/schedule.json)
+name: Planificateur dynamique (API Externe + schedule.json)
 
 on:
-  schedule:
-    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - id: check
-        name: Comparer l'heure GMT à la planification
+        name: Vérifier la planification dynamique (schedule.json)
         run: |
           if [ ! -f config/schedule.json ]; then
             echo "Aucun config/schedule.json — rien à faire."
@@ -31,23 +29,25 @@ jobs:
             const fs = require('fs');
             const c = require('./config/schedule.json');
 
-            // Vérification tolérante de 'enabled' (booléen ou chaîne 'true')
+            // Vérification tolérante de 'enabled' (booléen ou chaîne)
             const enabled = c.enabled === true || String(c.enabled).toLowerCase() === 'true';
 
-            // Récupération et normalisation des heures (ex: '8' ou '08' -> '08')
+            // Extraire et normaliser les heures prévues par le bot Telegram
             const times = Array.isArray(c.times) ? c.times.slice() : [];
             if (c.time) times.push(c.time);
             const hours = times.map(t => String(t).trim().split(':')[0].padStart(2, '0'));
 
-            // Heure actuelle UTC (format 24h sur 2 chiffres, ex: '08', '14')
+            // Heure actuelle UTC (ex: '16')
             const now = new Date().toISOString().substring(11, 13);
 
+            // Doit tourner uniquement si l'heure actuelle correspond à un créneau dans schedule.json
             const shouldRun = enabled && hours.includes(now);
             const chatId = String(c.chat_id || '');
 
-            console.log('📌 Config enabled:', c.enabled, '-> interprété:', enabled);
-            console.log('📌 Créneaux configurés (heures UTC):', hours.join(', '));
-            console.log('📌 Heure actuelle UTC:', now + 'h');
+            console.log('📌 Fichier config/schedule.json lu avec succès');
+            console.log('📌 Actif (enabled):', enabled);
+            console.log('📌 Créneaux enregistrés par Telegram (UTC):', hours.join(', ') || 'aucun');
+            console.log('📌 Heure actuelle du déclenchement (UTC):', now + 'h');
             console.log('🚀 Lancement autorisé (should_run):', shouldRun);
 
             const outputFile = process.env.GITHUB_OUTPUT;

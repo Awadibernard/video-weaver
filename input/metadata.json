@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Sciences de la Terre & Nature",
-  "description": "Testez vos connaissances sur les phénomènes qui façonnent notre planète.",
+  "topic": "🧠 Quiz : Technologies & Inventions Scientifiques",
+  "description": "Explore les inventions qui ont transformé notre monde moderne",
   "hashtags": [
     "#science",
     "#quiz",
@@ -22,165 +22,165 @@
   "questionCount": 6,
   "questions": [
     {
-      "question": "Quel est le principal gaz à effet de serre responsable du réchauffement climatique ?",
-      "questionAudio": "Quel est le principal gaz à effet de serre responsable du réchauffement climatique ?",
+      "question": "Qui a inventé le transistor en mille neuf cent quarante‑sept ?",
+      "questionAudio": "Qui a inventé le transistor en mille neuf cent quarante‑sept ?",
       "emojis": [
-        "🌡️",
-        "🌍",
-        "💨",
-        "📈",
-        "🔥",
-        "🧪",
-        "🔬"
-      ],
-      "options": [
-        "Le dioxyde de carbone",
-        "L'ozone",
-        "Le méthane"
-      ],
-      "correct": 0,
-      "answer": "Le dioxyde de carbone",
-      "explanation": "Le dioxyde de carbone retient la chaleur dans l'atmosphère et est le principal contributeur au réchauffement climatique.",
-      "explanationAudio": "Le dioxyde de carbone retient la chaleur dans l'atmosphère et est le principal contributeur au réchauffement climatique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a CO2 molecule glowing against a blue sky, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D visualization of ozone layers around Earth, with atmospheric glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of methane gas bubbles rising from a wetland, detailed environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle couche de la Terre est principalement composée de roches solides et de magma ?",
-      "questionAudio": "Quelle couche de la Terre est principalement composée de roches solides et de magma ?",
-      "emojis": [
-        "🗻",
-        "🌋",
-        "🪨",
         "⚙️",
-        "🌐",
-        "📊",
-        "🔎"
+        "💡",
+        "🧑‍🔬",
+        "📡",
+        "🖥️",
+        "🔧",
+        "🚀"
       ],
       "options": [
-        "La croûte terrestre",
-        "Le noyau externe",
-        "Le manteau"
-      ],
-      "correct": 2,
-      "answer": "Le manteau",
-      "explanation": "Le manteau se situe entre la croûte et le noyau et contient des roches solides ainsi que du magma en mouvement.",
-      "explanationAudio": "Le manteau se situe entre la croûte et le noyau et contient des roches solides ainsi que du magma en mouvement.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of Earth's crust with continents and ocean basins, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the outer core with liquid iron flow, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cross‑section of Earth showing the mantle in orange‑red tones, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel phénomène explique le déplacement des continents au fil du temps ?",
-      "questionAudio": "Quel phénomène explique le déplacement des continents au fil du temps ?",
-      "emojis": [
-        "🗺️",
-        "🚢",
-        "🌊",
-        "⛰️",
-        "🔄",
-        "📚",
-        "🧭"
-      ],
-      "options": [
-        "Le cycle de l'eau",
-        "L'érosion",
-        "La dérive des continents"
-      ],
-      "correct": 2,
-      "answer": "La dérive des continents",
-      "explanation": "La dérive des continents résulte du mouvement des plaques tectoniques sur le manteau terrestre.",
-      "explanationAudio": "La dérive des continents résulte du mouvement des plaques tectoniques sur le manteau terrestre.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of the water cycle with clouds, precipitation and rivers, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of a mountain slope being eroded by rain and wind, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D animation of continental plates slowly moving over millions of years, photorealistic Earth globe, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel processus crée les montagnes par la collision de plaques tectoniques ?",
-      "questionAudio": "Quel processus crée les montagnes par la collision de plaques tectoniques ?",
-      "emojis": [
-        "⛰️",
-        "🪨",
-        "🔀",
-        "⚒️",
-        "🌍",
-        "📐",
-        "🧭"
-      ],
-      "options": [
-        "La subduction",
-        "La sédimentation",
-        "L'orogenèse"
-      ],
-      "correct": 2,
-      "answer": "L'orogenèse",
-      "explanation": "L'orogenèse désigne la formation de chaînes de montagnes lors de la convergence des plaques.",
-      "explanationAudio": "L'orogenèse désigne la formation de chaînes de montagnes lors de la convergence des plaques.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a subducting oceanic plate descending beneath a continental plate, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D scene of sediment layers accumulating in a basin, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of mountain building during plate collision, detailed rock textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel type de roche se forme à partir du refroidissement du magma à la surface de la Terre ?",
-      "questionAudio": "Quel type de roche se forme à partir du refroidissement du magma à la surface de la Terre ?",
-      "emojis": [
-        "🪨",
-        "🔥",
-        "⛏️",
-        "🌋",
-        "📚",
-        "🔬",
-        "🧱"
-      ],
-      "options": [
-        "Roche ignée intrusive",
-        "Roche sédimentaire",
-        "Roche métamorphique"
+        "John Bardeen, Walter Brattain et William Shockley",
+        "Nikola Tesla",
+        "Thomas Edison"
       ],
       "correct": 0,
-      "answer": "Roche ignée intrusive",
-      "explanation": "Les roches ignées intrusives se solidifient lentement sous la surface, formant des textures grenues.",
-      "explanationAudio": "Les roches ignées intrusives se solidifient lentement sous la surface, formant des textures grenues.",
+      "answer": "John Bardeen, Walter Brattain et William Shockley",
+      "explanation": "Le transistor a été créé par l’équipe de Bell Labs composée de Bardeen, Brattain et Shockley en mille neuf cent quarante‑sept.",
+      "explanationAudio": "Le transistor a été créé par l’équipe de Bell Labs composée de Bardeen, Brattain et Shockley en mille neuf cent quarante‑sept.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D photorealistic model of intrusive igneous rock formation deep underground, glowing magma veins, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of layered sedimentary rocks with fossils, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high‑resolution 3D rendering of metamorphic rock textures after intense pressure, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A highly detailed 3D render of three scientists in a 1940s laboratory, holding the first transistor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of Nikola Tesla with electric arcs, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a vintage light bulb glowing, representing Thomas Edison, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel phénomène naturel est responsable de la formation des aurores polaires ?",
-      "questionAudio": "Quel phénomène naturel est responsable de la formation des aurores polaires ?",
+      "question": "Quelle mission habitée a posé le premier pas sur la Lune ?",
+      "questionAudio": "Quelle mission habitée a posé le premier pas sur la Lune ?",
       "emojis": [
+        "🌕",
+        "🚀",
+        "👨‍🚀",
         "🌌",
-        "⚡",
         "🛰️",
-        "🌍",
-        "❄️",
-        "🔭",
-        "💫"
+        "🗺️",
+        "🔭"
       ],
       "options": [
-        "L'interaction des particules solaires avec le champ magnétique terrestre",
-        "La réfraction de la lumière solaire",
-        "Les éclairs dans les nuages"
+        "Vostok un",
+        "Apollo onze",
+        "Shenzhou cinq"
+      ],
+      "correct": 1,
+      "answer": "Apollo onze",
+      "explanation": "Apollo onze a été la première mission à poser des astronautes sur la Lune en mille neuf cent soixante‑neuf.",
+      "explanationAudio": "Apollo onze a été la première mission à poser des astronautes sur la Lune en mille neuf cent soixante‑neuf.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D model of a Soviet Vostok capsule orbiting Earth, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of the Apollo eleven lunar module on the Moon surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a Chinese Shenzhou spacecraft launching, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le principe de base du laser ?",
+      "questionAudio": "Quel est le principe de base du laser ?",
+      "emojis": [
+        "🔦",
+        "⚡",
+        "📡",
+        "🧪",
+        "💥",
+        "🔬",
+        "✨"
+      ],
+      "options": [
+        "Émission stimulée de photons",
+        "Réflexion totale interne",
+        "Diffusion Raman"
       ],
       "correct": 0,
-      "answer": "L'interaction des particules solaires avec le champ magnétique terrestre",
-      "explanation": "Les particules du vent solaire sont guidées par le champ magnétique et excitent les molécules d'air, créant les aurores.",
-      "explanationAudio": "Les particules du vent solaire sont guidées par le champ magnétique et excitent les molécules d'air, créant les aurores.",
+      "answer": "Émission stimulée de photons",
+      "explanation": "Le laser fonctionne grâce à l’émission stimulée de photons qui amplifient la lumière cohérente.",
+      "explanationAudio": "Le laser fonctionne grâce à l’émission stimulée de photons qui amplifient la lumière cohérente.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of solar particles colliding with Earth's magnetic field, producing vibrant aurora, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D illustration of sunlight refracting through atmospheric layers at sunset, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a thunderstorm with detailed lightning bolts, realistic clouds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a laser cavity with photons bouncing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of light undergoing total internal reflection inside a prism, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of Raman scattering in a molecular cloud, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "En quelle année le premier smartphone commercial a‑t‑il été lancé ?",
+      "questionAudio": "En quelle année le premier smartphone commercial a‑t‑il été lancé ?",
+      "emojis": [
+        "📱",
+        "🗓️",
+        "💡",
+        "⚙️",
+        "🖥️",
+        "🔋",
+        "🚀"
+      ],
+      "options": [
+        "deux mille",
+        "mil neuf cent quatre‑vingt‑quatorze",
+        "deux mille dix"
+      ],
+      "correct": 1,
+      "answer": "mil neuf cent quatre‑vingt‑quatorze",
+      "explanation": "Le premier smartphone, l’IBM Simon, a été commercialisé en mil neuf cent quatre‑vingt‑quatorze.",
+      "explanationAudio": "Le premier smartphone, l’IBM Simon, a été commercialisé en mil neuf cent quatre‑vingt‑quatorze.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D model of a generic 2000‑era mobile phone with keypad, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D photorealistic render of the IBM Simon smartphone on a desk, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a 2010 smartphone with touch screen, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel matériau est principalement utilisé dans les panneaux solaires photovoltaïques ?",
+      "questionAudio": "Quel matériau est principalement utilisé dans les panneaux solaires photovoltaïques ?",
+      "emojis": [
+        "☀️",
+        "🔋",
+        "🪙",
+        "🌞",
+        "🔧",
+        "⚡",
+        "🏭"
+      ],
+      "options": [
+        "Le silicium",
+        "Le germanium",
+        "Le cuivre"
+      ],
+      "correct": 0,
+      "answer": "Le silicium",
+      "explanation": "Le silicium est le semi‑conducteur dominant dans les cellules photovoltaïques modernes.",
+      "explanationAudio": "Le silicium est le semi‑conducteur dominant dans les cellules photovoltaïques modernes.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a silicon wafer with solar cells, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a germanium crystal lattice, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of copper wiring in an electrical panel, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle technologie permet de créer des objets en trois dimensions à partir d’un modèle numérique ?",
+      "questionAudio": "Quelle technologie permet de créer des objets en trois dimensions à partir d’un modèle numérique ?",
+      "emojis": [
+        "🖨️",
+        "🛠️",
+        "🔩",
+        "📐",
+        "🏭",
+        "⚙️",
+        "🚀"
+      ],
+      "options": [
+        "L’impression 3D",
+        "Le moulage injection",
+        "Le fraisage CNC"
+      ],
+      "correct": 0,
+      "answer": "L’impression 3D",
+      "explanation": "L’impression 3D construit couche par couche un objet selon un modèle numérique.",
+      "explanationAudio": "L’impression 3D construit couche par couche un objet selon un modèle numérique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a 3D printer extruding plastic, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of an injection molding machine filling a mold, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a CNC milling machine cutting metal, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

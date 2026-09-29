@@ -1,88 +1,28 @@
 [
   {
-    "question": "Qui a inventé le transistor en mille neuf cent quarante‑sept ?",
-    "questionAudio": "Qui a inventé le transistor en mille neuf cent quarante‑sept ?",
+    "question": "Quel phénomène décrit la capacité du cerveau à se réorganiser après une lésion ?",
+    "questionAudio": "Quel phénomène décrit la capacité du cerveau à se réorganiser après une lésion ?",
     "options": [
-      "John Bardeen, Walter Brattain et William Shockley",
-      "Nikola Tesla",
-      "Thomas Edison"
+      "Neuroplasticité",
+      "Neurogenèse",
+      "Synaptogenèse"
     ],
     "correct": 0,
-    "explanation": "Le transistor a été créé par l’équipe de Bell Labs composée de Bardeen, Brattain et Shockley en mille neuf cent quarante‑sept.",
-    "explanationAudio": "Le transistor a été créé par l’équipe de Bell Labs composée de Bardeen, Brattain et Shockley en mille neuf cent quarante‑sept.",
+    "explanation": "La neuroplasticité désigne la capacité du cerveau à former de nouvelles connexions après une blessure.",
+    "explanationAudio": "La neuroplasticité désigne la capacité du cerveau à former de nouvelles connexions après une blessure.",
     "emojis": [
-      "⚙️",
-      "💡",
-      "🧑‍🔬",
-      "📡",
-      "🖥️",
-      "🔧",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A highly detailed 3D render of three scientists in a 1940s laboratory, holding the first transistor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of Nikola Tesla with electric arcs, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a vintage light bulb glowing, representing Thomas Edison, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle mission habitée a posé le premier pas sur la Lune ?",
-    "questionAudio": "Quelle mission habitée a posé le premier pas sur la Lune ?",
-    "options": [
-      "Vostok un",
-      "Apollo onze",
-      "Shenzhou cinq"
-    ],
-    "correct": 1,
-    "explanation": "Apollo onze a été la première mission à poser des astronautes sur la Lune en mille neuf cent soixante‑neuf.",
-    "explanationAudio": "Apollo onze a été la première mission à poser des astronautes sur la Lune en mille neuf cent soixante‑neuf.",
-    "emojis": [
-      "🌕",
-      "🚀",
-      "👨‍🚀",
-      "🌌",
-      "🛰️",
-      "🗺️",
-      "🔭"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of a Soviet Vostok capsule orbiting Earth, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of the Apollo eleven lunar module on the Moon surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a Chinese Shenzhou spacecraft launching, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le principe de base du laser ?",
-    "questionAudio": "Quel est le principe de base du laser ?",
-    "options": [
-      "Émission stimulée de photons",
-      "Réflexion totale interne",
-      "Diffusion Raman"
-    ],
-    "correct": 0,
-    "explanation": "Le laser fonctionne grâce à l’émission stimulée de photons qui amplifient la lumière cohérente.",
-    "explanationAudio": "Le laser fonctionne grâce à l’émission stimulée de photons qui amplifient la lumière cohérente.",
-    "emojis": [
-      "🔦",
-      "⚡",
-      "📡",
-      "🧪",
-      "💥",
+      "🧠",
       "🔬",
-      "✨"
+      "✨",
+      "🧪",
+      "⚡",
+      "📊",
+      "🧭"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a laser cavity with photons bouncing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of light undergoing total internal reflection inside a prism, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of Raman scattering in a molecular cloud, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human brain with highlighted neural pathways showing plastic changes, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of newborn neurons sprouting in the adult brain, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A dynamic 3D visualization of synaptic connections forming, glowing particles, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,59 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "En quelle année le premier smartphone commercial a‑t‑il été lancé ?",
-    "questionAudio": "En quelle année le premier smartphone commercial a‑t‑il été lancé ?",
+    "question": "Quel neurotransmetteur est principalement associé à la régulation de l'humeur et de l'anxiété ?",
+    "questionAudio": "Quel neurotransmetteur est principalement associé à la régulation de l'humeur et de l'anxiété ?",
     "options": [
-      "deux mille",
-      "mil neuf cent quatre‑vingt‑quatorze",
-      "deux mille dix"
+      "Glutamate",
+      "Sérotonine",
+      "Acétylcholine"
     ],
     "correct": 1,
-    "explanation": "Le premier smartphone, l’IBM Simon, a été commercialisé en mil neuf cent quatre‑vingt‑quatorze.",
-    "explanationAudio": "Le premier smartphone, l’IBM Simon, a été commercialisé en mil neuf cent quatre‑vingt‑quatorze.",
+    "explanation": "La sérotonine joue un rôle clé dans la stabilisation de l'humeur et la gestion du stress.",
+    "explanationAudio": "La sérotonine joue un rôle clé dans la stabilisation de l'humeur et la gestion du stress.",
     "emojis": [
-      "📱",
-      "🗓️",
-      "💡",
-      "⚙️",
-      "🖥️",
-      "🔋",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of a generic 2000‑era mobile phone with keypad, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic render of the IBM Simon smartphone on a desk, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a 2010 smartphone with touch screen, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel matériau est principalement utilisé dans les panneaux solaires photovoltaïques ?",
-    "questionAudio": "Quel matériau est principalement utilisé dans les panneaux solaires photovoltaïques ?",
-    "options": [
-      "Le silicium",
-      "Le germanium",
-      "Le cuivre"
-    ],
-    "correct": 0,
-    "explanation": "Le silicium est le semi‑conducteur dominant dans les cellules photovoltaïques modernes.",
-    "explanationAudio": "Le silicium est le semi‑conducteur dominant dans les cellules photovoltaïques modernes.",
-    "emojis": [
-      "☀️",
-      "🔋",
-      "🪙",
-      "🌞",
-      "🔧",
+      "🧪",
+      "🧠",
+      "📈",
+      "🔬",
       "⚡",
-      "🏭"
+      "🧭",
+      "🌈"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of a silicon wafer with solar cells, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a germanium crystal lattice, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of copper wiring in an electrical panel, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of glutamate excitatory synapse activity, vibrant colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D molecular model of serotonin molecules floating above a brain synapse, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of acetylcholine release at a neuromuscular junction, detailed lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -150,29 +60,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle technologie permet de créer des objets en trois dimensions à partir d’un modèle numérique ?",
-    "questionAudio": "Quelle technologie permet de créer des objets en trois dimensions à partir d’un modèle numérique ?",
+    "question": "Quelle partie du cerveau est impliquée dans la prise de décision et le contrôle des impulsions ?",
+    "questionAudio": "Quelle partie du cerveau est impliquée dans la prise de décision et le contrôle des impulsions ?",
     "options": [
-      "L’impression 3D",
-      "Le moulage injection",
-      "Le fraisage CNC"
+      "Amygdale",
+      "Thalamus",
+      "Cortex préfrontal"
     ],
-    "correct": 0,
-    "explanation": "L’impression 3D construit couche par couche un objet selon un modèle numérique.",
-    "explanationAudio": "L’impression 3D construit couche par couche un objet selon un modèle numérique.",
+    "correct": 2,
+    "explanation": "Le cortex préfrontal régule les fonctions exécutives, la planification et l’inhibition des réponses impulsives.",
+    "explanationAudio": "Le cortex préfrontal régule les fonctions exécutives, la planification et l’inhibition des réponses impulsives.",
     "emojis": [
-      "🖨️",
-      "🛠️",
-      "🔩",
-      "📐",
-      "🏭",
-      "⚙️",
-      "🚀"
+      "🧠",
+      "📊",
+      "🔬",
+      "⚖️",
+      "🧭",
+      "✨",
+      "🧪"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a 3D printer extruding plastic, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of an injection molding machine filling a mold, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a CNC milling machine cutting metal, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the amygdala with surrounding structures, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D illustration of the thalamus as a relay station, glowing edges, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the human brain highlighting the prefrontal cortex in bright blue, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de mémoire est le plus affecté par le sommeil paradoxal ?",
+    "questionAudio": "Quel type de mémoire est le plus affecté par le sommeil paradoxal ?",
+    "options": [
+      "Mémoire de travail",
+      "Mémoire procédurale",
+      "Mémoire déclarative"
+    ],
+    "correct": 1,
+    "explanation": "Le sommeil paradoxal consolide particulièrement les compétences motrices et les souvenirs procéduraux.",
+    "explanationAudio": "Le sommeil paradoxal consolide particulièrement les compétences motrices et les souvenirs procéduraux.",
+    "emojis": [
+      "🌙",
+      "🧠",
+      "🛌",
+      "⚡",
+      "📚",
+      "🔬",
+      "🧪"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A realistic 3D model of working memory activation in the prefrontal cortex, dynamic colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a brain during REM sleep with highlighted procedural memory circuits, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of declarative memory networks in the hippocampus, soft glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel test psychologique mesure la capacité d'attention soutenue ?",
+    "questionAudio": "Quel test psychologique mesure la capacité d'attention soutenue ?",
+    "options": [
+      "Test de Stroop",
+      "Test de TOVA",
+      "Échelle de Beck"
+    ],
+    "correct": 1,
+    "explanation": "Le test TOVA (Test of Variables of Attention) évalue l’attention continue et la vigilance.",
+    "explanationAudio": "Le test TOVA (Test of Variables of Attention) évalue l’attention continue et la vigilance.",
+    "emojis": [
+      "🧪",
+      "📋",
+      "👁️",
+      "⚡",
+      "🧠",
+      "🔬",
+      "🧭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a Stroop test screen with colored words, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of a TOVA testing device showing stimulus presentation, high fidelity, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic depiction of the Beck Depression Inventory questionnaire, realistic paper texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle zone cérébrale est principalement activée lors de la reconnaissance des visages ?",
+    "questionAudio": "Quelle zone cérébrale est principalement activée lors de la reconnaissance des visages ?",
+    "options": [
+      "Cortex occipital",
+      "Fusiforme gyrus",
+      "Cortex somatosensoriel"
+    ],
+    "correct": 1,
+    "explanation": "Le gyrus fusiforme, situé dans le lobe temporal, est spécialisé dans le traitement des visages.",
+    "explanationAudio": "Le gyrus fusiforme, situé dans le lobe temporal, est spécialisé dans le traitement des visages.",
+    "emojis": [
+      "👤",
+      "🧠",
+      "🔬",
+      "📸",
+      "✨",
+      "⚡",
+      "🧭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the occipital cortex with visual processing pathways, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the human brain highlighting the fusiform gyrus with facial patterns, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D illustration of the somatosensory cortex with tactile maps, vibrant lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

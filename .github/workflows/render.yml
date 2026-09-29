@@ -24,6 +24,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   render:
@@ -54,6 +55,9 @@ jobs:
         env:
           BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
           BUFFER_TIKTOK_PROFILE_ID: ${{ secrets.BUFFER_TIKTOK_PROFILE_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: npx tsx scripts/upload.ts
 
       # --- Pipeline (IA -> rendu -> upload conditionnel) ---
@@ -66,6 +70,8 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           ELEVENLABS_MODEL_ID: ${{ vars.ELEVENLABS_MODEL_ID }}
+          CARTESIA_API_KEY: ${{ secrets.CARTESIA_API_KEY }}
+          CARTESIA_VOICE_ID: ${{ vars.CARTESIA_VOICE_ID }}
           FISH_AUDIO_API_KEYS: ${{ secrets.FISH_AUDIO_API_KEYS }}
           FISH_AUDIO_REFERENCE_ID: ${{ vars.FISH_AUDIO_REFERENCE_ID }}
           EDGE_TTS_VOICE: ${{ vars.EDGE_TTS_VOICE }}
@@ -76,6 +82,9 @@ jobs:
           FORCED_TOPIC: ${{ inputs.topic }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           FLAGS=""
           if [ "${{ inputs.mode }}" != "publish" ]; then FLAGS="$FLAGS --skip-upload"; fi
@@ -83,13 +92,15 @@ jobs:
           echo "Flags: $FLAGS"
           npx tsx scripts/pipeline.ts $FLAGS
 
-      # --- Notification Telegram (lien Litterbox + boutons Zoom/Publier) ---
+      # --- Notification Telegram ---
       - name: Notifier Telegram
         if: ${{ always() && inputs.chat_id != '' && inputs.mode != 'publish-only' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ inputs.chat_id }}
-          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: npx tsx scripts/notify-telegram.ts
 
       # --- Persistance : sauvegarde du JSON IA + de la memoire des sujets ---

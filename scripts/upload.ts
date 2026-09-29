@@ -1,8 +1,8 @@
 /**
  * upload.ts — ÉTAPE 3 du pipeline.
  *
- * Hébergement temporaire multi-hôtes avec retry intelligent vers Buffer GraphQL API
- * et fallback ultime via l'envoi direct de la vidéo sur Telegram.
+ * Hébergement automatique multi-hôtes (priorité à GitHub Releases)
+ * avec retry intelligent vers Buffer GraphQL API et fallback Telegram sécurisé.
  */
 import * as fs from "node:fs";
 import * as path from "node:path";
@@ -14,7 +14,82 @@ const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 const mb = (bytes: number) => (bytes / (1024 * 1024)).toFixed(2);
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-// --- 1. FONCTIONS D'HÉBERGEMENT TEMPORAIRE (6 PROVIDERS) ---
+// --- 1. FONCTIONS D'HÉBERGEMENT (GITHUB RELEASES + PROVIDERS SECONDAIRES) ---
+
+/**
+ * Hébergeur N°1 : GitHub Releases (Instantané, CDN mondial, zéro blocage Buffer)
+ */
+async function uploadGitHubRelease(fileBuffer: Buffer): Promise<string> {
+  const token = process.env.GITHUB_TOKEN || process.env.GH_PAT;
+  const repo = process.env.GITHUB_REPOSITORY;
+
+  if (!token || !repo) {
+    throw new Error("GITHUB_TOKEN / GH_PAT ou GITHUB_REPOSITORY non défini dans l'environnement.");
+  }
+
+  const [owner, repoName] = repo.split("/");
+  const headers = {
+    Authorization: `Bearer ${token}`,
+    Accept: "application/vnd.github+json",
+    "User-Agent": USER_AGENT,
+    "X-GitHub-Api-Version": "2022-11-28",
+  };
+
+  // 1. Obtenir ou créer la Release 'latest'
+  let release: any;
+  const getReleaseRes = await fetch(`https://api.github.com/repos/${owner}/${repoName}/releases/tags/latest`, { headers });
+
+  if (getReleaseRes.ok) {
+    release = await getReleaseRes.json();
+  } else if (getReleaseRes.status === 404) {
+    const createRes = await fetch(`https://api.github.com/repos/${owner}/${repoName}/releases`, {
+      method: "POST",
+      headers: { ...headers, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        tag_name: "latest",
+        name: "Dernière Vidéo Générée",
+        body: "Release automatique pour publication Buffer",
+        draft: false,
+        prerelease: false,
+      }),
+    });
+    if (!createRes.ok) throw new Error(`Création Release GitHub échouée : HTTP ${createRes.status}`);
+    release = await createRes.json();
+  } else {
+    throw new Error(`Recherche Release GitHub échouée : HTTP ${getReleaseRes.status}`);
+  }
+
+  // 2. Supprimer l'ancien fichier 'quiz.mp4' s'il existe déjà dans la Release
+  if (Array.isArray(release.assets)) {
+    const oldAsset = release.assets.find((a: any) => a.name === "quiz.mp4");
+    if (oldAsset) {
+      await fetch(`https://api.github.com/repos/${owner}/${repoName}/releases/assets/${oldAsset.id}`, {
+        method: "DELETE",
+        headers,
+      });
+    }
+  }
+
+  // 3. Televerser le nouveau fichier MP4
+  const uploadUrlBase = release.upload_url.split("{")[0];
+  const uploadRes = await fetch(`${uploadUrlBase}?name=quiz.mp4`, {
+    method: "POST",
+    headers: {
+      ...headers,
+      "Content-Type": "video/mp4",
+    },
+    body: fileBuffer,
+    signal: AbortSignal.timeout(180_000),
+  });
+
+  if (!uploadRes.ok) {
+    const errText = await uploadRes.text();
+    throw new Error(`Upload asset GitHub Release : HTTP ${uploadRes.status} - ${errText.slice(0, 100)}`);
+  }
+
+  const uploadedAsset: any = await uploadRes.json();
+  return uploadedAsset.browser_download_url;
+}
 
 async function uploadTmpfiles(fileBuffer: Buffer): Promise<string> {
   const formData = new FormData();
@@ -118,6 +193,7 @@ async function upload0x0(fileBuffer: Buffer): Promise<string> {
 }
 
 const PROVIDERS = [
+  { name: "GitHub Releases (Recommandé)", fn: uploadGitHubRelease },
   { name: "Tmpfiles.org", fn: uploadTmpfiles },
   { name: "Litterbox", fn: uploadLitterbox },
   { name: "Catbox.moe", fn: uploadCatbox },
@@ -183,9 +259,9 @@ async function postToBuffer(accessToken: string, profileId: string, captionText:
   return { success: false, error: errorMsg };
 }
 
-// --- 3. RECOURS ULTIME TELEGRAM (ENVOI DIRECT DU MP4) ---
+// --- 3. RECOURS ULTIME TELEGRAM (ENVOI DIRECT OU AVEC LINK SI > 49 MO) ---
 
-async function fallbackSendTelegram(videoPath: string, captionText: string, errorsLog: string[]) {
+async function fallbackSendTelegram(videoPath: string, captionText: string, errorsLog: string[], lastReleaseUrl?: string) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
@@ -194,31 +270,57 @@ async function fallbackSendTelegram(videoPath: string, captionText: string, erro
     return;
   }
 
-  console.log("\n📱 Échec total de l'upload automatisé. Transmission de secours de la vidéo sur Telegram...");
+  console.log("\n📱 Échec de la publication Buffer. Transmission de secours sur Telegram...");
 
   try {
-    const videoBuffer = fs.readFileSync(videoPath);
-    const summary = errorsLog.slice(-8).map((e) => `• ${e}`).join("\n");
-    
-    const telegramCaption = `🚨 **ÉCHEC DE PUBLICATION AUTOMATIQUE**\n\nToutes les tentatives vers Buffer et les hébergeurs ont échoué.\n\n**Rapport de crash :**\n${summary}\n\n📝 **Légende pré-rédigée :**\n${captionText}\n\n👉 *Téléchargez ce fichier et publiez-le manuellement.*`;
+    const stats = fs.statSync(videoPath);
+    const isTooBigForDirectUpload = stats.size > 49 * 1024 * 1024; // > 49 Mo (Limite de l'API Bot Telegram)
+    const summary = errorsLog.slice(-6).map((e) => `• ${e}`).join("\n");
 
-    const formData = new FormData();
-    formData.append("chat_id", chatId);
-    formData.append("caption", telegramCaption.slice(0, 1024)); // Limite Telegram
-    formData.append("video", new Blob([videoBuffer]), "quiz.mp4");
+    if (isTooBigForDirectUpload) {
+      console.log(`ℹ️ La vidéo fait ${mb(stats.size)} Mo (> 49 Mo). Envoi via message texte avec lien de téléchargement direct pour éviter le rejet HTTP 413.`);
+      
+      const linkText = lastReleaseUrl ? `\n\n📥 **Lien de téléchargement direct HD :**\n${lastReleaseUrl}` : "";
+      const telegramCaption = `🚨 **ÉCHEC PUBLICATION AUTOMATIQUE (BUFFER)**\n\n**Rapport d'erreurs :**\n${summary}${linkText}\n\n📝 **Légende pré-rédigée :**\n${captionText}\n\n👉 *Téléchargez la vidéo depuis le lien ci-dessus et publiez-la manuellement.*`;
 
-    const res = await fetch(`https://api.telegram.org/bot${token}/sendVideo`, {
-      method: "POST",
-      body: formData,
-    });
+      const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          chat_id: chatId,
+          text: telegramCaption,
+          parse_mode: "Markdown",
+        }),
+      });
 
-    if (res.ok) {
-      console.log("✅ Vidéo MP4 transmise avec succès sur Telegram pour publication manuelle !");
+      if (res.ok) {
+        console.log("✅ Message de secours envoyé avec succès sur Telegram !");
+      } else {
+        console.error("❌ Échec envoi message Telegram :", await res.text());
+      }
     } else {
-      console.error("❌ Échec de l'envoi de la vidéo sur Telegram :", await res.text());
+      // Envoi direct de la vidéo si <= 49 Mo
+      const videoBuffer = fs.readFileSync(videoPath);
+      const telegramCaption = `🚨 **ÉCHEC PUBLICATION AUTOMATIQUE**\n\n**Rapport d'erreurs :**\n${summary}\n\n📝 **Légende pré-rédigée :**\n${captionText}\n\n👉 *Téléchargez ce fichier et publiez-le manuellement.*`;
+
+      const formData = new FormData();
+      formData.append("chat_id", chatId);
+      formData.append("caption", telegramCaption.slice(0, 1024));
+      formData.append("video", new Blob([videoBuffer]), "quiz.mp4");
+
+      const res = await fetch(`https://api.telegram.org/bot${token}/sendVideo`, {
+        method: "POST",
+        body: formData,
+      });
+
+      if (res.ok) {
+        console.log("✅ Vidéo MP4 transmise avec succès sur Telegram !");
+      } else {
+        console.error("❌ Échec envoi vidéo Telegram :", await res.text());
+      }
     }
   } catch (err: any) {
-    console.error("❌ Erreur lors de l'envoi de la vidéo vers Telegram :", err.message);
+    console.error("❌ Erreur lors de l'envoi secours vers Telegram :", err.message);
   }
 }
 
@@ -252,11 +354,12 @@ export async function uploadToBufferGraphQL(): Promise<void> {
   const hashtagPart = Array.isArray(metadata.hashtags) ? metadata.hashtags.join(" ") : "";
   const captionText = `${titlePart}${descPart}${hashtagPart}`.trim();
 
-  const MAX_ROUNDS = 2;              // Maximum 2 tours de l'ensemble des serveurs
-  const RETRIES_PER_URL = 2;          // Maximum 2 essais Buffer par URL d'un hôte
-  const RETRY_WAIT_MS = 45_000;       // Pause de 45 secondes si Buffer temporise
+  const MAX_ROUNDS = 2;
+  const RETRIES_PER_URL = 2;
+  const RETRY_WAIT_MS = 30_000;
 
   const errorsLog: string[] = [];
+  let lastReleaseUrl = "";
 
   for (let round = 1; round <= MAX_ROUNDS; round++) {
     console.log(`\n🔄 --- TOUR D'HÉBERGEMENT ${round}/${MAX_ROUNDS} ---`);
@@ -265,18 +368,19 @@ export async function uploadToBufferGraphQL(): Promise<void> {
       console.log(`\n📡 Tentative avec ${provider.name}...`);
       let videoUrl = "";
 
-      // Étape A : Obtenir une URL temporaire de l'hôte
       try {
         videoUrl = await provider.fn(fs.readFileSync(videoPath));
         console.log(`   ✅ URL générée par ${provider.name} : ${videoUrl}`);
+        if (provider.name.includes("GitHub")) {
+          lastReleaseUrl = videoUrl;
+        }
       } catch (e: any) {
         const msg = `Hôte ${provider.name} indisponible : ${e.message}`;
         console.warn(`   ⚠️ ${msg}`);
         errorsLog.push(`[Tour ${round}] ${msg}`);
-        continue; // Passe directement à l'hébergeur suivant
+        continue;
       }
 
-      // Étape B : Transmettre à Buffer avec retries
       for (let attempt = 1; attempt <= RETRIES_PER_URL; attempt++) {
         console.log(`   📲 Envoi à Buffer (Tentative ${attempt}/${RETRIES_PER_URL})...`);
         
@@ -285,7 +389,7 @@ export async function uploadToBufferGraphQL(): Promise<void> {
         if (bResult.success) {
           console.log("\n🎉 VIDÉO ENVOYÉE AVEC SUCCÈS À BUFFER !");
           console.log("Détails du post :", JSON.stringify(bResult.post, null, 2));
-          return; // Succès total, fin du programme.
+          return;
         }
 
         const bErr = `Buffer a rejeté l'URL de ${provider.name} (T${attempt}) : ${bResult.error}`;
@@ -293,22 +397,20 @@ export async function uploadToBufferGraphQL(): Promise<void> {
         errorsLog.push(`[Tour ${round}] ${bErr}`);
 
         if (attempt < RETRIES_PER_URL) {
-          console.log(`   ⏳ Pause de ${RETRY_WAIT_MS / 1000}s avant de réessayer Buffer avec cette même URL...`);
+          console.log(`   ⏳ Pause de ${RETRY_WAIT_MS / 1000}s avant de réessayer Buffer...`);
           await delay(RETRY_WAIT_MS);
         }
       }
 
-      console.warn(`   ❌ Passage à l'hébergeur suivant suite aux réjections de Buffer pour ${provider.name}.`);
+      console.warn(`   ❌ Passage à l'hébergeur suivant suite aux réjections de Buffer.`);
     }
   }
 
-  // Si le code arrive ici, tout a échoué. Déclenchement du secours Telegram.
-  await fallbackSendTelegram(videoPath, captionText, errorsLog);
+  // Recours ultime Telegram
+  await fallbackSendTelegram(videoPath, captionText, errorsLog, lastReleaseUrl);
   throw new Error("❌ Tous les serveurs d'hébergement et retries Buffer ont échoué. La vidéo a été transmise sur Telegram.");
 }
 
-// Ne s'exécute automatiquement que si le fichier est lancé directement (ex: npx tsx scripts/upload.ts)
-// Si le fichier est importé par pipeline.ts, cette partie est ignorée.
 if (require.main === module) {
   uploadToBufferGraphQL().catch((e) => {
     console.error(e);

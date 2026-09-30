@@ -1,75 +1,88 @@
+import { CONFIG } from "./env";
+
+const USER_AGENT = "VideoWeaverBot/2.0";
+
 /**
- * github.ts — client minimal de l'API GitHub (REST v3) pour la tour de contrôle.
- *
- * Deux usages :
- *  - déclencher un workflow (`workflow_dispatch`) avec des inputs ;
- *  - lire / écrire un fichier du dépôt (commit direct via l'API Contents).
- *
- * Auth : GITHUB_PAT (fine-grained ou classic, scope `repo` + `workflow`).
+ * Déclenche un workflow GitHub Actions (render.yml ou cron.yml)
  */
+export async function triggerWorkflow(workflowFileName: string, inputs: Record<string, string> = {}): Promise<boolean> {
+  const url = `https://api.github.com/repos/${CONFIG.repoOwner}/${CONFIG.repoName}/actions/workflows/${workflowFileName}/dispatches`;
 
-const OWNER = () => process.env.GITHUB_OWNER!;
-const REPO = () => process.env.GITHUB_REPO!;
-const BRANCH = () => process.env.GITHUB_BRANCH || "main";
-
-function headers() {
-  const pat = process.env.GITHUB_PAT;
-  if (!pat) throw new Error("GITHUB_PAT manquant");
-  return {
-    Authorization: `Bearer ${pat}`,
-    Accept: "application/vnd.github+json",
-    "X-GitHub-Api-Version": "2022-11-28",
-    "Content-Type": "application/json",
-  };
-}
-
-const base = () => `https://api.github.com/repos/${OWNER()}/${REPO()}`;
-
-/** Déclenche un workflow (`workflow_dispatch`). */
-export async function dispatchWorkflow(
-  workflowFile: string,
-  inputs: Record<string, string>,
-): Promise<void> {
-  const res = await fetch(`${base()}/actions/workflows/${workflowFile}/dispatches`, {
+  const response = await fetch(url, {
     method: "POST",
-    headers: headers(),
-    body: JSON.stringify({ ref: BRANCH(), inputs }),
-  });
-  if (!res.ok) {
-    throw new Error(`GitHub dispatch ${workflowFile} → ${res.status}: ${(await res.text()).slice(0, 300)}`);
-  }
-}
-
-export type RepoFile = { content: string; sha: string };
-
-/** Lit un fichier texte du dépôt. Renvoie null si absent. */
-export async function getFile(pathInRepo: string): Promise<RepoFile | null> {
-  const res = await fetch(`${base()}/contents/${pathInRepo}?ref=${BRANCH()}`, { headers: headers() });
-  if (res.status === 404) return null;
-  if (!res.ok) throw new Error(`GitHub getFile ${pathInRepo} → ${res.status}`);
-  const json = (await res.json()) as any;
-  return { content: Buffer.from(json.content, "base64").toString("utf8"), sha: json.sha };
-}
-
-/** Écrit (crée ou écrase) un fichier texte du dépôt via un commit. */
-export async function putFile(pathInRepo: string, content: string, message: string): Promise<void> {
-  const existing = await getFile(pathInRepo);
-  const res = await fetch(`${base()}/contents/${pathInRepo}`, {
-    method: "PUT",
-    headers: headers(),
+    headers: {
+      Authorization: `Bearer ${CONFIG.ghPat}`,
+      Accept: "application/vnd.github+json",
+      "User-Agent": USER_AGENT,
+      "X-GitHub-Api-Version": "2022-11-28",
+      "Content-Type": "application/json",
+    },
     body: JSON.stringify({
-      message,
-      branch: BRANCH(),
-      content: Buffer.from(content, "utf8").toString("base64"),
-      ...(existing ? { sha: existing.sha } : {}),
+      ref: CONFIG.defaultBranch,
+      inputs,
     }),
   });
-  if (!res.ok) {
-    throw new Error(`GitHub putFile ${pathInRepo} → ${res.status}: ${(await res.text()).slice(0, 300)}`);
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    console.error(`❌ Erreur déclenchement workflow (${workflowFileName}): HTTP ${response.status} -${errorText}`);
+    return false;
   }
+
+  return true;
 }
 
-/** URL de la page Actions (pour donner un lien de suivi dans Telegram). */
-export function actionsUrl(): string {
-  return `https://github.com/${OWNER()}/${REPO()}/actions`;
-}
+/**
+ * Réinitialise la liste des thèmes utilisés dans history.json directement sur GitHub
+ */
+export async function resetHistoryTopicsOnGitHub(): Promise<{ success: boolean; message: string }> {
+  const filePath = "history.json";
+  const getUrl = `https://api.github.com/repos/${CONFIG.repoOwner}/${CONFIG.repoName}/contents/${filePath}?ref=${CONFIG.defaultBranch}`;
+
+  const headers = {
+    Authorization: `Bearer ${CONFIG.ghPat}`,
+    Accept: "application/vnd.github+json",
+    "User-Agent": USER_AGENT,
+    "X-GitHub-Api-Version": "2022-11-28",
+  };
+
+  try {
+    // 1. Récupérer le SHA actuel du fichier history.json
+    const getRes = await fetch(getUrl, { headers });
+    let sha: string | undefined;
+
+    if (getRes.ok) {
+      const fileData: any = await getRes.json();
+      sha = fileData.sha;
+    }
+
+    // 2. Préparer le nouveau contenu nettoyé
+    const cleanHistory = JSON.stringify({ used_topics: [] }, null, 2);
+    const encodedContent = Buffer.from(cleanHistory).toString("base64");
+
+    // 3. Mettre à jour le fichier via l'API REST
+    const putUrl = `https://api.github.com/repos/${CONFIG.repoOwner}/${CONFIG.repoName}/contents/${filePath}`;
+    const putRes = await fetch(putUrl, {
+      method: "PUT",
+      headers: {
+        ...headers,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        message: "chore(bot): réinitialisation des thèmes enregistrés [history.json]",
+        content: encodedContent,
+        branch: CONFIG.defaultBranch,
+        ...(sha ? { sha } : {}),
+      }),
+    });
+
+    if (putRes.ok) {
+      return { success: true, message: " La mémoire des thèmes a été réinitialisée avec succès !" };
+    } else {
+      const errText = await putRes.text();
+      return { success: false, message: `Échec de la mise à jour GitHub : HTTP ${putRes.status} (${errText.slice(0, 80)})` };
+    }
+  } catch (err: any) {
+    return { success: false, message: `Erreur réseau/API : ${err.message}` };
+  }
+                             }

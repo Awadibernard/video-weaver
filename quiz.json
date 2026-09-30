@@ -1,28 +1,58 @@
 [
   {
-    "question": "Le four à micro ondes rend il les aliments radioactifs ?",
-    "questionAudio": "Le four à micro ondes rend il les aliments radioactifs ?",
+    "question": "Quel processus chimique fait lever le pain ?",
+    "questionAudio": "Quel processus chimique fait lever le pain ?",
     "options": [
-      "Oui, il transforme l'eau en isotopes",
-      "Oui, il émet des rayons X",
-      "Non, il utilise des ondes électromagnétiques non ionisantes"
+      "Évaporation de l'eau",
+      "Fermentation par levure produisant du dioxyde de carbone",
+      "Fusion des protéines de gluten"
     ],
-    "correct": 2,
-    "explanation": "Les micro ondes sont des ondes non ionisantes qui chauffent les molécules d'eau sans rendre les aliments radioactifs.",
-    "explanationAudio": "Les micro ondes sont des ondes non ionisantes qui chauffent les molécules d'eau sans rendre les aliments radioactifs.",
+    "correct": 1,
+    "explanation": "La levure fermente les sucres du pâte et libère du dioxyde de carbone qui fait gonfler la pâte.",
+    "explanationAudio": "La levure fermente les sucres du pâte et libère du dioxyde de carbone qui fait gonfler la pâte.",
     "emojis": [
-      "⚡",
-      "🍽️",
-      "📡",
-      "🚫",
-      "🔬",
-      "💡",
+      "🍞",
+      "🥖",
+      "🧀",
+      "🧪",
+      "⚗️",
+      "🔥",
+      "🌾"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D scene of water vapor escaping from a pot, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic illustration of dough rising in a transparent bowl, with yeast cells releasing carbon dioxide bubbles, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D close up of gluten strands melting under heat, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle méthode de cuisson conserve le plus de vitamine C dans les légumes ?",
+    "questionAudio": "Quelle méthode de cuisson conserve le plus de vitamine C dans les légumes ?",
+    "options": [
+      "Ébullition",
+      "Cuisson à la vapeur",
+      "Grillage"
+    ],
+    "correct": 1,
+    "explanation": "La vapeur limite le contact avec l'eau chaude, préservant ainsi la vitamine C sensible à la chaleur et à l'oxydation.",
+    "explanationAudio": "La vapeur limite le contact avec l'eau chaude, préservant ainsi la vitamine C sensible à la chaleur et à l'oxydation.",
+    "emojis": [
+      "🥦",
+      "🥕",
+      "🌱",
+      "💧",
+      "🔥",
+      "🍲",
       "🧪"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D molecular scene of water molecules turning into radioactive isotopes, glowing green, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of X‑ray beams penetrating food, showing high contrast, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a kitchen microwave with electromagnetic waves visualized as blue ripples, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of vegetables boiling vigorously in water, bubbles, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D realistic rendering of vegetables being gently steamed in a glass basket, soft light, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene of vegetables on a grill with char marks, realistic smoke, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Un éclair frappe t il toujours le point le plus élevé d'un paysage ?",
-    "questionAudio": "Un éclair frappe t il toujours le point le plus élevé d'un paysage ?",
+    "question": "Qu’est‑ce que la réaction de Maillard ?",
+    "questionAudio": "Qu’est‑ce que la réaction de Maillard ?",
     "options": [
-      "Oui, il vise les objets métalliques uniquement",
-      "Oui, la hauteur détermine toujours la trajectoire",
-      "Non, il suit le chemin de moindre résistance électrique"
+      "Oxydation des graisses",
+      "Brunissement des aliments par réaction entre acides aminés et sucres réducteurs",
+      "Caramélisation du sucre"
     ],
-    "correct": 2,
-    "explanation": "L’éclair cherche le trajet avec la plus faible résistance, ce qui n’est pas forcément le point le plus haut.",
-    "explanationAudio": "L’éclair cherche le trajet avec la plus faible résistance, ce qui n’est pas forcément le point le plus haut.",
+    "correct": 1,
+    "explanation": "Cette réaction crée les arômes et la couleur brune caractéristique des viandes grillées et du pain doré.",
+    "explanationAudio": "Cette réaction crée les arômes et la couleur brune caractéristique des viandes grillées et du pain doré.",
     "emojis": [
-      "⛈️",
-      "🌩️",
-      "🏔️",
-      "🌲",
-      "⚡",
-      "🔎",
-      "🪄"
+      "🍖",
+      "🥩",
+      "🍞",
+      "🔥",
+      "⚗️",
+      "🧪",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of metallic objects attracting lightning, sparks, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a mountain peak with glowing outlines, showing no lightning, contrasted with a nearby tree struck, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D view of a stormy sky with a lightning bolt arcing toward a low hill, electric currents visualized, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of fat molecules oxidizing, with subtle color change, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a steak surface developing brown crust as amino acids react with sugars, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of sugar crystals caramelizing in a pan, glowing, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,59 +90,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Les humains n'utilisent réellement que dix pour cent de leur cerveau ?",
-    "questionAudio": "Les humains n'utilisent réellement que dix pour cent de leur cerveau ?",
+    "question": "Quel type de graisse est liquide à température ambiante et considéré comme plus sain ?",
+    "questionAudio": "Quel type de graisse est liquide à température ambiante et considéré comme plus sain ?",
     "options": [
-      "Non, toutes les régions cérébrales ont une activité mesurable",
-      "Oui, la majeure partie reste inactive",
-      "Oui, mais uniquement pendant le sommeil"
+      "Acides gras monoinsaturés",
+      "Acides gras trans",
+      "Acides gras saturés"
     ],
     "correct": 0,
-    "explanation": "L’imagerie cérébrale montre que chaque partie du cerveau participe à des fonctions, même au repos.",
-    "explanationAudio": "L’imagerie cérébrale montre que chaque partie du cerveau participe à des fonctions, même au repos.",
+    "explanation": "Les acides gras monoinsaturés, présents dans l’huile d’olive et les avocats, restent liquides à température ambiante et sont associés à une meilleure santé cardiovasculaire.",
+    "explanationAudio": "Les acides gras monoinsaturés, présents dans l’huile d’olive et les avocats, restent liquides à température ambiante et sont associés à une meilleure santé cardiovasculaire.",
     "emojis": [
-      "🧠",
-      "🔬",
-      "📊",
-      "💡",
-      "🛌",
-      "⚙️",
-      "🌙"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D brain scan with all lobes illuminated in different colors, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a dormant brain with dark areas, contrasted with active regions lighting up, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of neural activity during sleep, showing waves of activation, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Le sucre provoque t il une hyperactivité chez les enfants ?",
-    "questionAudio": "Le sucre provoque t il une hyperactivité chez les enfants ?",
-    "options": [
-      "Oui, il modifie le pH sanguin",
-      "Oui, il augmente la production d'adrénaline",
-      "Non, les études montrent aucun effet direct"
-    ],
-    "correct": 2,
-    "explanation": "Les recherches scientifiques n’ont trouvé aucune corrélation entre consommation de sucre et comportement hyperactif.",
-    "explanationAudio": "Les recherches scientifiques n’ont trouvé aucune corrélation entre consommation de sucre et comportement hyperactif.",
-    "emojis": [
-      "🍭",
-      "👦",
-      "📚",
-      "🔬",
+      "🥑",
+      "🥜",
+      "🫒",
+      "💧",
       "🧪",
       "⚖️",
-      "😊"
+      "❤️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of blood pH balance with sugar molecules, realistic textures, scientific lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of adrenal glands releasing hormones, exaggerated colors, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a child eating a candy bar, with calm expression, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic bottle of olive oil pouring a golden stream, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of trans‑fat molecules with distorted shape, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D close‑up of saturated fat crystals solidifying, realistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,29 +120,59 @@
     "uiScale": 0.85
   },
   {
-    "question": "Les vaccins sont ils responsables de l'autisme ?",
-    "questionAudio": "Les vaccins sont‑ils responsables de l'autisme ?",
+    "question": "Quel est le pH typique de la plupart des fruits ?",
+    "questionAudio": "Quel est le pH typique de la plupart des fruits ?",
     "options": [
-      "Oui, le thimérosal provoque des troubles du développement",
-      "Oui, l'ADN vaccinal s'intègre dans le génome",
-      "Non, aucune donnée scientifique ne le prouve"
+      "Acide, généralement entre trois et six",
+      "Neutre, autour de sept",
+      "Alcalin, au‑dessus de huit"
     ],
-    "correct": 2,
-    "explanation": "Des études à grande échelle n’ont trouvé aucun lien entre vaccination et trouble du spectre autistique.",
-    "explanationAudio": "Des études à grande échelle n’ont trouvé aucun lien entre vaccination et trouble du spectre autistique.",
+    "correct": 0,
+    "explanation": "La majorité des fruits contiennent des acides organiques qui donnent un pH compris entre trois et six, ce qui les rend acidulés.",
+    "explanationAudio": "La majorité des fruits contiennent des acides organiques qui donnent un pH compris entre trois et six, ce qui les rend acidulés.",
     "emojis": [
-      "💉",
-      "🧒",
-      "📊",
-      "🔬",
-      "🧬",
-      "❌",
-      "✅"
+      "🍎",
+      "🍋",
+      "🍊",
+      "📏",
+      "⚗️",
+      "🧪",
+      "🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of thimerosal molecules interacting with cells, highlighted in red, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of DNA strands with vaccine vectors, showing no integration, high detail, scientific atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of a vaccine vial beside a healthy child, soft focus, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D realistic pH meter dipping into a sliced apple, showing acidic reading, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a neutral pH solution with a clear liquid, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of an alkaline solution bubbling, bright colors, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment la cuisson sous‑vide influence la dénaturation des protéines ?",
+    "questionAudio": "Comment la cuisson sous‑vide influence la dénaturation des protéines ?",
+    "options": [
+      "Permet un contrôle précis de la température, limitant la dénaturation",
+      "L’immersion froide empêche toute dénaturation",
+      "Applique une chaleur élevée rapide qui dénature fortement les protéines"
+    ],
+    "correct": 0,
+    "explanation": "En maintenant une température basse et constante, la cuisson sous‑vide évite les pics thermiques qui provoquent une dénaturation excessive des protéines.",
+    "explanationAudio": "En maintenant une température basse et constante, la cuisson sous‑vide évite les pics thermiques qui provoquent une dénaturation excessive des protéines.",
+    "emojis": [
+      "🥩",
+      "🧊",
+      "💧",
+      "📦",
+      "🔥",
+      "🧪",
+      "⏱️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a vacuum‑sealed steak immersed in a water bath at a precise temperature, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of a cold water bath with a sealed bag, showing minimal protein change, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a steak exposed to high flame with rapid protein coagulation, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

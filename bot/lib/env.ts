@@ -1,33 +1,30 @@
-/**
- * env.ts — chargement minimal du fichier `.env` (aucune dépendance).
- * Cherche `.env` dans bot/ puis à la racine du dépôt.
- */
-import fs from "node:fs";
-import path from "node:path";
+import * as path from "node:path";
+import * as fs from "node:fs";
+import dotenv from "dotenv";
 
-export function loadEnv(): void {
-  const candidates = [
-    path.resolve(process.cwd(), ".env"),
-    path.resolve(__dirname, "../.env"),
-    path.resolve(__dirname, "../../.env"),
-  ];
-  for (const file of candidates) {
-    if (!fs.existsSync(file)) continue;
-    for (const rawLine of fs.readFileSync(file, "utf8").split(/\r?\n/)) {
-      const line = rawLine.trim();
-      if (!line || line.startsWith("#")) continue;
-      const eq = line.indexOf("=");
-      if (eq <= 0) continue;
-      const key = line.slice(0, eq).trim();
-      let value = line.slice(eq + 1).trim();
-      if (
-        (value.startsWith('"') && value.endsWith('"')) ||
-        (value.startsWith("'") && value.endsWith("'"))
-      ) {
-        value = value.slice(1, -1);
-      }
-      if (process.env[key] === undefined) process.env[key] = value;
-    }
-    return;
-  }
+// Résolution de la racine absolue du projet, peu importe d'où PM2 est exécuté
+export const ROOT_DIR = path.resolve(__dirname, "..");
+
+// Chargement sécurisé du fichier .env local s'il existe
+const envPath = path.join(ROOT_DIR, ".env");
+if (fs.existsSync(envPath)) {
+  dotenv.config({ path: envPath });
 }
+
+export const CONFIG = {
+  telegramToken: process.env.TELEGRAM_BOT_TOKEN || "",
+  telegramChatId: process.env.TELEGRAM_CHAT_ID || "",
+  ghPat: process.env.GH_PAT || process.env.GITHUB_TOKEN || "",
+  repoOwner: (process.env.GITHUB_REPOSITORY || "Awadibernard/video-weaver").split("/")[0],
+  repoName: (process.env.GITHUB_REPOSITORY || "Awadibernard/video-weaver").split("/")[1],
+  defaultBranch: process.env.GITHUB_REF_NAME || "main",
+};
+
+export function validateEnv() {
+  if (!CONFIG.telegramToken) {
+    throw new Error("❌ TELEGRAM_BOT_TOKEN manquant dans les variables d'environnement.");
+  }
+  if (!CONFIG.ghPat) {
+    throw new Error("❌ GH_PAT ou GITHUB_TOKEN manquant pour l'interaction GitHub API.");
+  }
+  }

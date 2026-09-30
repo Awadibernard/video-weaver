@@ -1,82 +1,79 @@
-/**
- * telegram.ts — mini client de l'API Bot Telegram (aucune dépendance).
- * Utilisé par la fonction serverless Vercel `bot/api/webhook.ts`.
- */
+import { CONFIG } from "./env";
 
-const TOKEN = () => {
-  const t = process.env.TELEGRAM_BOT_TOKEN;
-  if (!t) throw new Error("TELEGRAM_BOT_TOKEN manquant");
-  return t;
-};
+const BASE_URL = `https://api.telegram.org/bot${CONFIG.telegramToken}`;
 
-const API = (method: string) => `https://api.telegram.org/bot${TOKEN()}/${method}`;
-
-export type InlineButton = { text: string; callback_data: string };
-
-async function call<T = any>(method: string, payload: Record<string, unknown>): Promise<T> {
-  const res = await fetch(API(method), {
+export async function sendTelegramApi(method: string, body: Record<string, any>): Promise<any> {
+  const res = await fetch(`${BASE_URL}/${method}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
+    body: JSON.stringify(body),
   });
-  const json = (await res.json()) as any;
-  if (!json.ok) throw new Error(`Telegram ${method} a échoué: ${JSON.stringify(json).slice(0, 300)}`);
-  return json.result as T;
+  return res.json();
 }
 
-export function sendMessage(
-  chatId: number | string,
-  text: string,
-  buttons?: InlineButton[][],
-): Promise<any> {
-  return call("sendMessage", {
+export async function answerCallbackQuery(callbackQueryId: string, text?: string) {
+  return sendTelegramApi("answerCallbackQuery", {
+    callback_query_id: callbackQueryId,
+    text: text || "",
+    show_alert: false,
+  });
+}
+
+export async function sendMessage(chatId: string | number, text: string, replyMarkup?: any) {
+  return sendTelegramApi("sendMessage", {
     chat_id: chatId,
     text,
-    parse_mode: "HTML",
-    disable_web_page_preview: false,
-    ...(buttons ? { reply_markup: { inline_keyboard: buttons } } : {}),
+    parse_mode: "Markdown",
+    reply_markup: replyMarkup,
   });
 }
 
-export function answerCallbackQuery(id: string, text?: string): Promise<any> {
-  return call("answerCallbackQuery", { callback_query_id: id, ...(text ? { text } : {}) });
-}
-
-/** Long polling : récupère les updates en attente (timeout côté Telegram). */
-export function getUpdates(offset?: number, timeoutSec = 30): Promise<any[]> {
-  return call<any[]>("getUpdates", {
-    ...(offset !== undefined ? { offset } : {}),
-    timeout: timeoutSec,
-    allowed_updates: ["message", "channel_post", "callback_query"],
+export async function editMessage(chatId: string | number, messageId: number, text: string, replyMarkup?: any) {
+  return sendTelegramApi("editMessageText", {
+    chat_id: chatId,
+    message_id: messageId,
+    text,
+    parse_mode: "Markdown",
+    reply_markup: replyMarkup,
   });
 }
 
-/** Supprime un éventuel webhook actif (bloquant pour getUpdates). */
-export function deleteWebhook(): Promise<any> {
-  return call("deleteWebhook", { drop_pending_updates: false });
+/**
+ * Menu interactif principal à boutons Inline Keyboard
+ */
+export function getMainMenuInlineKeyboard() {
+  return {
+    inline_keyboard: [
+      [
+        { text: "🚀 Générer & Publier", callback_data: "action_publish" },
+        { text: "👁️ Mode Aperçu", callback_data: "action_preview" },
+      ],
+      [
+        { text: "🔄 Régénérer Quiz", callback_data: "action_regenerate" },
+        { text: "📅 Planification (Cron)", callback_data: "action_schedule_menu" },
+      ],
+      [
+        { text: "🧹 Réinitialiser les Thèmes", callback_data: "action_reset_topics_confirm" },
+      ],
+      [
+        { text: "ℹ️ Statut du Bot", callback_data: "action_status" },
+      ],
+    ],
+  };
 }
 
-
-/** Télécharge un fichier envoyé dans le chat (upload manuel de quiz.json). */
-export async function downloadFile(fileId: string): Promise<string> {
-  const file = await call<{ file_path: string }>("getFile", { file_id: fileId });
-  const res = await fetch(`https://api.telegram.org/file/bot${TOKEN()}/${file.file_path}`);
-  if (!res.ok) throw new Error("Téléchargement du fichier Telegram impossible");
-  return res.text();
-}
-
-/** Autorisation : seul le chat déclaré dans TELEGRAM_ALLOWED_CHAT_ID peut piloter le bot. */
-export function isAuthorized(chatId: number | string): boolean {
-  const allowed = (process.env.TELEGRAM_ALLOWED_CHAT_ID || "").split(",").map((s) => s.trim()).filter(Boolean);
-  if (!allowed.length) return true; // non restreint (déconseillé)
-  return allowed.includes(String(chatId));
-}
-
-/** Boutons affichés sous une vidéo générée. */
-export const VIDEO_BUTTONS: InlineButton[][] = [
-  [
-    { text: "🔍 + Zoom", callback_data: "zoom:in" },
-    { text: "🔍 - Dézoom", callback_data: "zoom:out" },
-  ],
-  [{ text: "🚀 Publier sur TikTok", callback_data: "publish" }],
-];
+/**
+ * Menu de confirmation pour la suppression des thèmes
+ */
+export function getResetConfirmInlineKeyboard() {
+  return {
+    inline_keyboard: [
+      [
+        { text: "⚠️ Oui, Vider history.json", callback_data: "action_reset_topics_do" },
+      ],
+      [
+        { text: "❌ Annuler", callback_data: "action_main_menu" },
+      ],
+    ],
+  };
+    }

@@ -1,88 +1,28 @@
 [
   {
-    "question": "Quel phénomène décrit la capacité du cerveau à se réorganiser après une lésion ?",
-    "questionAudio": "Quel phénomène décrit la capacité du cerveau à se réorganiser après une lésion ?",
+    "question": "Le four à micro ondes rend il les aliments radioactifs ?",
+    "questionAudio": "Le four à micro ondes rend il les aliments radioactifs ?",
     "options": [
-      "Neuroplasticité",
-      "Neurogenèse",
-      "Synaptogenèse"
-    ],
-    "correct": 0,
-    "explanation": "La neuroplasticité désigne la capacité du cerveau à former de nouvelles connexions après une blessure.",
-    "explanationAudio": "La neuroplasticité désigne la capacité du cerveau à former de nouvelles connexions après une blessure.",
-    "emojis": [
-      "🧠",
-      "🔬",
-      "✨",
-      "🧪",
-      "⚡",
-      "📊",
-      "🧭"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human brain with highlighted neural pathways showing plastic changes, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of newborn neurons sprouting in the adult brain, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A dynamic 3D visualization of synaptic connections forming, glowing particles, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel neurotransmetteur est principalement associé à la régulation de l'humeur et de l'anxiété ?",
-    "questionAudio": "Quel neurotransmetteur est principalement associé à la régulation de l'humeur et de l'anxiété ?",
-    "options": [
-      "Glutamate",
-      "Sérotonine",
-      "Acétylcholine"
-    ],
-    "correct": 1,
-    "explanation": "La sérotonine joue un rôle clé dans la stabilisation de l'humeur et la gestion du stress.",
-    "explanationAudio": "La sérotonine joue un rôle clé dans la stabilisation de l'humeur et la gestion du stress.",
-    "emojis": [
-      "🧪",
-      "🧠",
-      "📈",
-      "🔬",
-      "⚡",
-      "🧭",
-      "🌈"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of glutamate excitatory synapse activity, vibrant colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D molecular model of serotonin molecules floating above a brain synapse, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of acetylcholine release at a neuromuscular junction, detailed lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle partie du cerveau est impliquée dans la prise de décision et le contrôle des impulsions ?",
-    "questionAudio": "Quelle partie du cerveau est impliquée dans la prise de décision et le contrôle des impulsions ?",
-    "options": [
-      "Amygdale",
-      "Thalamus",
-      "Cortex préfrontal"
+      "Oui, il transforme l'eau en isotopes",
+      "Oui, il émet des rayons X",
+      "Non, il utilise des ondes électromagnétiques non ionisantes"
     ],
     "correct": 2,
-    "explanation": "Le cortex préfrontal régule les fonctions exécutives, la planification et l’inhibition des réponses impulsives.",
-    "explanationAudio": "Le cortex préfrontal régule les fonctions exécutives, la planification et l’inhibition des réponses impulsives.",
+    "explanation": "Les micro ondes sont des ondes non ionisantes qui chauffent les molécules d'eau sans rendre les aliments radioactifs.",
+    "explanationAudio": "Les micro ondes sont des ondes non ionisantes qui chauffent les molécules d'eau sans rendre les aliments radioactifs.",
     "emojis": [
-      "🧠",
-      "📊",
+      "⚡",
+      "🍽️",
+      "📡",
+      "🚫",
       "🔬",
-      "⚖️",
-      "🧭",
-      "✨",
+      "💡",
       "🧪"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the amygdala with surrounding structures, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D illustration of the thalamus as a relay station, glowing edges, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the human brain highlighting the prefrontal cortex in bright blue, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D molecular scene of water molecules turning into radioactive isotopes, glowing green, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of X‑ray beams penetrating food, showing high contrast, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a kitchen microwave with electromagnetic waves visualized as blue ripples, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,59 +30,89 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de mémoire est le plus affecté par le sommeil paradoxal ?",
-    "questionAudio": "Quel type de mémoire est le plus affecté par le sommeil paradoxal ?",
+    "question": "Un éclair frappe t il toujours le point le plus élevé d'un paysage ?",
+    "questionAudio": "Un éclair frappe t il toujours le point le plus élevé d'un paysage ?",
     "options": [
-      "Mémoire de travail",
-      "Mémoire procédurale",
-      "Mémoire déclarative"
+      "Oui, il vise les objets métalliques uniquement",
+      "Oui, la hauteur détermine toujours la trajectoire",
+      "Non, il suit le chemin de moindre résistance électrique"
     ],
-    "correct": 1,
-    "explanation": "Le sommeil paradoxal consolide particulièrement les compétences motrices et les souvenirs procéduraux.",
-    "explanationAudio": "Le sommeil paradoxal consolide particulièrement les compétences motrices et les souvenirs procéduraux.",
+    "correct": 2,
+    "explanation": "L’éclair cherche le trajet avec la plus faible résistance, ce qui n’est pas forcément le point le plus haut.",
+    "explanationAudio": "L’éclair cherche le trajet avec la plus faible résistance, ce qui n’est pas forcément le point le plus haut.",
     "emojis": [
-      "🌙",
-      "🧠",
-      "🛌",
+      "⛈️",
+      "🌩️",
+      "🏔️",
+      "🌲",
       "⚡",
+      "🔎",
+      "🪄"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of metallic objects attracting lightning, sparks, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a mountain peak with glowing outlines, showing no lightning, contrasted with a nearby tree struck, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D view of a stormy sky with a lightning bolt arcing toward a low hill, electric currents visualized, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Les humains n'utilisent réellement que dix pour cent de leur cerveau ?",
+    "questionAudio": "Les humains n'utilisent réellement que dix pour cent de leur cerveau ?",
+    "options": [
+      "Non, toutes les régions cérébrales ont une activité mesurable",
+      "Oui, la majeure partie reste inactive",
+      "Oui, mais uniquement pendant le sommeil"
+    ],
+    "correct": 0,
+    "explanation": "L’imagerie cérébrale montre que chaque partie du cerveau participe à des fonctions, même au repos.",
+    "explanationAudio": "L’imagerie cérébrale montre que chaque partie du cerveau participe à des fonctions, même au repos.",
+    "emojis": [
+      "🧠",
+      "🔬",
+      "📊",
+      "💡",
+      "🛌",
+      "⚙️",
+      "🌙"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D brain scan with all lobes illuminated in different colors, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a dormant brain with dark areas, contrasted with active regions lighting up, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of neural activity during sleep, showing waves of activation, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Le sucre provoque t il une hyperactivité chez les enfants ?",
+    "questionAudio": "Le sucre provoque t il une hyperactivité chez les enfants ?",
+    "options": [
+      "Oui, il modifie le pH sanguin",
+      "Oui, il augmente la production d'adrénaline",
+      "Non, les études montrent aucun effet direct"
+    ],
+    "correct": 2,
+    "explanation": "Les recherches scientifiques n’ont trouvé aucune corrélation entre consommation de sucre et comportement hyperactif.",
+    "explanationAudio": "Les recherches scientifiques n’ont trouvé aucune corrélation entre consommation de sucre et comportement hyperactif.",
+    "emojis": [
+      "🍭",
+      "👦",
       "📚",
       "🔬",
-      "🧪"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A realistic 3D model of working memory activation in the prefrontal cortex, dynamic colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a brain during REM sleep with highlighted procedural memory circuits, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of declarative memory networks in the hippocampus, soft glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel test psychologique mesure la capacité d'attention soutenue ?",
-    "questionAudio": "Quel test psychologique mesure la capacité d'attention soutenue ?",
-    "options": [
-      "Test de Stroop",
-      "Test de TOVA",
-      "Échelle de Beck"
-    ],
-    "correct": 1,
-    "explanation": "Le test TOVA (Test of Variables of Attention) évalue l’attention continue et la vigilance.",
-    "explanationAudio": "Le test TOVA (Test of Variables of Attention) évalue l’attention continue et la vigilance.",
-    "emojis": [
       "🧪",
-      "📋",
-      "👁️",
-      "⚡",
-      "🧠",
-      "🔬",
-      "🧭"
+      "⚖️",
+      "😊"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a Stroop test screen with colored words, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of a TOVA testing device showing stimulus presentation, high fidelity, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic depiction of the Beck Depression Inventory questionnaire, realistic paper texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of blood pH balance with sugar molecules, realistic textures, scientific lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of adrenal glands releasing hormones, exaggerated colors, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a child eating a candy bar, with calm expression, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -150,29 +120,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle zone cérébrale est principalement activée lors de la reconnaissance des visages ?",
-    "questionAudio": "Quelle zone cérébrale est principalement activée lors de la reconnaissance des visages ?",
+    "question": "Les vaccins sont ils responsables de l'autisme ?",
+    "questionAudio": "Les vaccins sont‑ils responsables de l'autisme ?",
     "options": [
-      "Cortex occipital",
-      "Fusiforme gyrus",
-      "Cortex somatosensoriel"
+      "Oui, le thimérosal provoque des troubles du développement",
+      "Oui, l'ADN vaccinal s'intègre dans le génome",
+      "Non, aucune donnée scientifique ne le prouve"
     ],
-    "correct": 1,
-    "explanation": "Le gyrus fusiforme, situé dans le lobe temporal, est spécialisé dans le traitement des visages.",
-    "explanationAudio": "Le gyrus fusiforme, situé dans le lobe temporal, est spécialisé dans le traitement des visages.",
+    "correct": 2,
+    "explanation": "Des études à grande échelle n’ont trouvé aucun lien entre vaccination et trouble du spectre autistique.",
+    "explanationAudio": "Des études à grande échelle n’ont trouvé aucun lien entre vaccination et trouble du spectre autistique.",
     "emojis": [
-      "👤",
-      "🧠",
+      "💉",
+      "🧒",
+      "📊",
       "🔬",
-      "📸",
-      "✨",
-      "⚡",
-      "🧭"
+      "🧬",
+      "❌",
+      "✅"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the occipital cortex with visual processing pathways, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the human brain highlighting the fusiform gyrus with facial patterns, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D illustration of the somatosensory cortex with tactile maps, vibrant lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of thimerosal molecules interacting with cells, highlighted in red, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of DNA strands with vaccine vectors, showing no integration, high detail, scientific atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of a vaccine vial beside a healthy child, soft focus, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

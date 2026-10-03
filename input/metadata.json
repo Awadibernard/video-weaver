@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Médecine, Sommeil & Santé du Quotidien",
-  "description": "Testez vos connaissances sur le sommeil, la santé quotidienne et la médecine moderne !",
+  "topic": "🧠 Quiz : Science du Sport & Biomécanique",
+  "description": "Explore les mécanismes qui transforment le corps en machine de performance.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,168 +19,141 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Quel rôle le sommeil paradoxal joue t il dans la consolidation de la mémoire ?",
-      "questionAudio": "Quel rôle le sommeil paradoxal joue t il dans la consolidation de la mémoire ?",
+      "question": "Comment la longueur du pas influence t elle la consommation d'oxygène lors de la course ?",
+      "questionAudio": "Comment la longueur du pas influence t elle la consommation d'oxygène lors de la course ?",
       "emojis": [
-        "🛌",
-        "🧠",
-        "💤",
-        "🔄",
-        "📚",
-        "🌙",
-        "🕰️"
-      ],
-      "options": [
-        "Stimulation de la digestion",
-        "Augmentation du métabolisme",
-        "Renforcement des souvenirs"
-      ],
-      "correct": 2,
-      "answer": "Renforcement des souvenirs",
-      "explanation": "Le sommeil paradoxal favorise le renforcement des souvenirs et l'intégration des informations apprises.",
-      "explanationAudio": "Le sommeil paradoxal favorise le renforcement des souvenirs et l'intégration des informations apprises.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a human digestive system with highlighted stomach activity, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of a human metabolism diagram with active enzymes, bright colors, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a sleeping brain with glowing neural pathways highlighting memory consolidation, cinematic lighting, ultra‑detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle quantité d'eau un adulte devrait il consommer chaque jour selon les recommandations internationales ?",
-      "questionAudio": "Quelle quantité d'eau un adulte devrait il consommer chaque jour selon les recommandations internationales ?",
-      "emojis": [
-        "💧",
-        "🚰",
-        "🧊",
-        "🥤",
-        "🌊",
-        "🗓️",
-        "👤"
-      ],
-      "options": [
-        "Environ un demi litre",
-        "Environ deux litres",
-        "Environ cinq litres"
-      ],
-      "correct": 1,
-      "answer": "Environ deux litres",
-      "explanation": "Les recommandations conseillent environ deux litres d'eau par jour pour un adulte moyen.",
-      "explanationAudio": "Les recommandations conseillent environ deux litres d'eau par jour pour un adulte moyen.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a tiny cup with half a liter of water, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D realistic illustration of a glass of water with measurement markings showing two liters, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of a large water container overflowing to represent five liters, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Comment l'exposition à la lumière bleue le soir affecte t elle la production de mélatonine ?",
-      "questionAudio": "Comment l'exposition à la lumière bleue le soir affecte t elle la production de mélatonine ?",
-      "emojis": [
-        "🔵",
-        "📱",
-        "💡",
-        "🌙",
-        "🧪",
-        "🛏️",
-        "📉"
-      ],
-      "options": [
-        "Elle n'a aucun effet",
-        "Elle l'augmente",
-        "Elle la diminue"
-      ],
-      "correct": 2,
-      "answer": "Elle la diminue",
-      "explanation": "La lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
-      "explanationAudio": "La lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D neutral scene showing no change in melatonin levels with blue light, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a glowing melatonin molecule increasing under blue light, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a smartphone emitting blue light onto a sleeping person, showing reduced melatonin levels, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle durée d'activité physique modérée est recommandée chaque semaine pour les adultes ?",
-      "questionAudio": "Quelle durée d'activité physique modérée est recommandée chaque semaine pour les adultes ?",
-      "emojis": [
-        "🏃‍♀️",
-        "🤸‍♂️",
-        "⏱️",
-        "💪",
-        "🗓️",
-        "🌟",
-        "🩺"
-      ],
-      "options": [
-        "Au moins deux cent minutes",
-        "Au moins cent vingt minutes",
-        "Au moins cinquante minutes"
-      ],
-      "correct": 1,
-      "answer": "Au moins cent vingt minutes",
-      "explanation": "Les directives internationales suggèrent au moins cent vingt minutes d'activité modérée par semaine.",
-      "explanationAudio": "Les directives internationales suggèrent au moins cent vingt minutes d'activité modérée par semaine.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a person lifting weights with a clock indicating two hundred minutes, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a person jogging with a timer showing one hundred twenty minutes total, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a person stretching with a small clock showing fifty minutes, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est l'effet principal du cortisol élevé pendant la nuit sur le sommeil ?",
-      "questionAudio": "Quel est l'effet principal du cortisol élevé pendant la nuit sur le sommeil ?",
-      "emojis": [
-        "🧬",
-        "🌙",
-        "⚙️",
-        "💤",
+        "🏃‍♂️",
+        "🦶",
+        "📏",
+        "💨",
         "🔬",
-        "📉",
-        "🧪"
+        "⚙️",
+        "🏅"
       ],
       "options": [
-        "Allongement du sommeil profond",
-        "Réduction du besoin de sommeil",
-        "Fragmentation du sommeil"
+        "Une plus grande longueur du pas diminue la consommation d'oxygène",
+        "Une plus grande longueur de pas augmente la consommation d'oxygène",
+        "La longueur du pas n’affecte pas la consommation d'oxygène"
       ],
-      "correct": 2,
-      "answer": "Fragmentation du sommeil",
-      "explanation": "Un excès de cortisol perturbe le sommeil, entraînant des réveils fréquents et une moindre qualité.",
-      "explanationAudio": "Un excès de cortisol perturbe le sommeil, entraînant des réveils fréquents et une moindre qualité.",
+      "correct": 1,
+      "answer": "Une plus grande longueur de pas augmente la consommation d'oxygène",
+      "explanation": "Une plus grande longueur de pas nécessite plus d’effort musculaire, ce qui élève la consommation d'oxygène.",
+      "explanationAudio": "Une plus grande longueur de pas nécessite plus d’effort musculaire, ce qui élève la consommation d'oxygène.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D scene showing deep sleep waves amplified by cortisol, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a person sleeping less due to cortisol, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a brain with cortisol molecules causing fragmented sleep patterns, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a runner with short stride, showing reduced muscular effort and calmer breathing, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a runner with exaggerated stride length, highlighted muscles and airflow, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D diagram comparing two runners, one with long stride and one with short stride, visualizing oxygen consumption clouds, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel impact la consommation de caféine en fin de journée a t elle sur le temps d'endormissement ?",
-      "questionAudio": "Quel impact la consommation de caféine en fin de journée a t elle sur le temps d'endormissement ?",
+      "question": "Quel rôle joue la chaîne musculaire postérieure dans le saut vertical ?",
+      "questionAudio": "Quel rôle joue la chaîne musculaire postérieure dans le saut vertical ?",
       "emojis": [
-        "☕",
-        "🕔",
-        "⏳",
-        "💤",
-        "🔋",
-        "🧠",
+        "🦵",
+        "🤾‍♀️",
+        "🏀",
+        "🔬",
+        "⚡",
+        "📈",
+        "🏆"
+      ],
+      "options": [
+        "Elle génère la majorité de la puissance propulsive",
+        "Elle stabilise uniquement le tronc sans produire de puissance",
+        "Elle ralentit le mouvement"
+      ],
+      "correct": 0,
+      "answer": "Elle génère la majorité de la puissance propulsive",
+      "explanation": "La chaîne postérieure, notamment les ischio‑jambiers et les fessiers, fournit l’essentiel de la force qui propulse le corps vers le haut.",
+      "explanationAudio": "La chaîne postérieure, notamment les ischio‑jambiers et les fessiers, fournit l’essentiel de la force qui propulse le corps vers le haut.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of an athlete performing a vertical jump, muscles of the posterior chain highlighted in bright red, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the human posterior chain showing tendon stretch during take‑off, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of force vectors emerging from the hips and hamstrings during a jump, high‑detail rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Comment la fréquence cardiaque maximale est‑elle estimée chez les athlètes ?",
+      "questionAudio": "Comment la fréquence cardiaque maximale est‑elle estimée chez les athlètes ?",
+      "emojis": [
+        "❤️",
+        "🏃‍♀️",
+        "📊",
+        "🧪",
+        "🏥",
+        "⏱️",
         "📈"
       ],
       "options": [
-        "N'affecte pas le temps d'endormissement",
-        "Raccourcit le temps d'endormissement",
-        "Allonge le temps d'endormissement"
+        "En mesurant directement lors d’un test d’effort maximal",
+        "En soustrayant dix fois l’âge de deux cent",
+        "En utilisant la formule de Karvonen"
       ],
-      "correct": 2,
-      "answer": "Allonge le temps d'endormissement",
-      "explanation": "La caféine stimule le système nerveux, retardant l'apparition du sommeil.",
-      "explanationAudio": "La caféine stimule le système nerveux, retardant l'apparition du sommeil.",
+      "correct": 0,
+      "answer": "En mesurant directement lors d’un test d’effort maximal",
+      "explanation": "Le moyen le plus fiable consiste à réaliser un test d’effort maximal où la fréquence cardiaque est enregistrée au point d’épuisement.",
+      "explanationAudio": "Le moyen le plus fiable consiste à réaliser un test d’effort maximal où la fréquence cardiaque est enregistrée au point d’épuisement.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D neutral illustration showing no change in sleep latency after coffee, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a coffee cup with a fast‑forward symbol indicating quicker sleep, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a coffee cup with an evening clock and a person taking longer to fall asleep, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a cardiopulmonary exercise test lab, equipment and athlete, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D scene of an athlete on a treadmill with a medical monitor displaying heart rate spikes, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of a heart model with animated beats, overlaid with data readouts from a maximal effort test, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel effet a l’entraînement en résistance sur la densité osseuse des sportifs ?",
+      "questionAudio": "Quel effet a l’entraînement en résistance sur la densité osseuse des sportifs ?",
+      "emojis": [
+        "🏋️‍♂️",
+        "🦴",
+        "📈",
+        "🔬",
+        "💪",
+        "🏅",
+        "🌟"
+      ],
+      "options": [
+        "Il augmente la densité osseuse",
+        "Il la diminue",
+        "Il n’a aucun effet"
+      ],
+      "correct": 0,
+      "answer": "Il augmente la densité osseuse",
+      "explanation": "Les charges mécaniques appliquées lors de l’entraînement en résistance stimulent la formation osseuse, augmentant ainsi la densité.",
+      "explanationAudio": "Les charges mécaniques appliquées lors de l’entraînement en résistance stimulent la formation osseuse, augmentant ainsi la densité.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a weightlifter lifting a barbell, bones shown with glowing density increase, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D cross‑section of human femur under load, showing micro‑architectural reinforcement, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration comparing a low‑density bone and a high‑density bone after resistance training, high‑detail rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel facteur biomécanique influence le risque de blessure du ligament croisé antérieur chez les coureurs ?",
+      "questionAudio": "Quel facteur biomécanique influence le risque de blessure du ligament croisé antérieur chez les coureurs ?",
+      "emojis": [
+        "🦵",
+        "🏃‍♂️",
+        "⚡",
+        "🩹",
+        "🔬",
+        "📉",
+        "🏥"
+      ],
+      "options": [
+        "Un poids corporel faible",
+        "Un angle excessif du genou à l’impact",
+        "Une cadence de foulée élevée"
+      ],
+      "correct": 1,
+      "answer": "Un angle excessif du genou à l’impact",
+      "explanation": "Un angle trop prononcé du genou lors de l’impact crée des contraintes élevées sur le ligament croisé antérieur, augmentant le risque de rupture.",
+      "explanationAudio": "Un angle trop prononcé du genou lors de l’impact crée des contraintes élevées sur le ligament croisé antérieur, augmentant le risque de rupture.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D comparison of normal versus excessive knee angle at impact, with highlighted risk zones on the ligament, high‑detail rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a runner’s knee at landing, showing exaggerated flexion angle with stress lines on the ACL, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the knee joint highlighting the ACL under load during foot strike, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

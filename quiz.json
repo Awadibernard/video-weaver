@@ -1,118 +1,28 @@
 [
   {
-    "question": "Comment la longueur du pas influence t elle la consommation d'oxygène lors de la course ?",
-    "questionAudio": "Comment la longueur du pas influence t elle la consommation d'oxygène lors de la course ?",
+    "question": "Quel est le plus ancien fossile connu d'un organisme multicellulaire ?",
+    "questionAudio": "Quel est le plus ancien fossile connu d'un organisme multicellulaire ?",
     "options": [
-      "Une plus grande longueur du pas diminue la consommation d'oxygène",
-      "Une plus grande longueur de pas augmente la consommation d'oxygène",
-      "La longueur du pas n’affecte pas la consommation d'oxygène"
+      "Dickinsonia",
+      "Trilobite",
+      "Grypania spiralis"
     ],
-    "correct": 1,
-    "explanation": "Une plus grande longueur de pas nécessite plus d’effort musculaire, ce qui élève la consommation d'oxygène.",
-    "explanationAudio": "Une plus grande longueur de pas nécessite plus d’effort musculaire, ce qui élève la consommation d'oxygène.",
+    "correct": 2,
+    "explanation": "Grypania spiralis, datant d'environ huit cent millions d’années, est le plus ancien fossile d'un organisme multicellulaire identifié.",
+    "explanationAudio": "Grypania spiralis, datant d'environ huit cent millions d’années, est le plus ancien fossile d'un organisme multicellulaire identifié.",
     "emojis": [
-      "🏃‍♂️",
-      "🦶",
-      "📏",
-      "💨",
+      "🦕",
+      "🪨",
+      "📚",
       "🔬",
-      "⚙️",
-      "🏅"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a runner with short stride, showing reduced muscular effort and calmer breathing, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a runner with exaggerated stride length, highlighted muscles and airflow, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D diagram comparing two runners, one with long stride and one with short stride, visualizing oxygen consumption clouds, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel rôle joue la chaîne musculaire postérieure dans le saut vertical ?",
-    "questionAudio": "Quel rôle joue la chaîne musculaire postérieure dans le saut vertical ?",
-    "options": [
-      "Elle génère la majorité de la puissance propulsive",
-      "Elle stabilise uniquement le tronc sans produire de puissance",
-      "Elle ralentit le mouvement"
-    ],
-    "correct": 0,
-    "explanation": "La chaîne postérieure, notamment les ischio‑jambiers et les fessiers, fournit l’essentiel de la force qui propulse le corps vers le haut.",
-    "explanationAudio": "La chaîne postérieure, notamment les ischio‑jambiers et les fessiers, fournit l’essentiel de la force qui propulse le corps vers le haut.",
-    "emojis": [
-      "🦵",
-      "🤾‍♀️",
-      "🏀",
-      "🔬",
-      "⚡",
-      "📈",
-      "🏆"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of an athlete performing a vertical jump, muscles of the posterior chain highlighted in bright red, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the human posterior chain showing tendon stretch during take‑off, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of force vectors emerging from the hips and hamstrings during a jump, high‑detail rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Comment la fréquence cardiaque maximale est‑elle estimée chez les athlètes ?",
-    "questionAudio": "Comment la fréquence cardiaque maximale est‑elle estimée chez les athlètes ?",
-    "options": [
-      "En mesurant directement lors d’un test d’effort maximal",
-      "En soustrayant dix fois l’âge de deux cent",
-      "En utilisant la formule de Karvonen"
-    ],
-    "correct": 0,
-    "explanation": "Le moyen le plus fiable consiste à réaliser un test d’effort maximal où la fréquence cardiaque est enregistrée au point d’épuisement.",
-    "explanationAudio": "Le moyen le plus fiable consiste à réaliser un test d’effort maximal où la fréquence cardiaque est enregistrée au point d’épuisement.",
-    "emojis": [
-      "❤️",
-      "🏃‍♀️",
-      "📊",
-      "🧪",
-      "🏥",
-      "⏱️",
-      "📈"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a cardiopulmonary exercise test lab, equipment and athlete, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of an athlete on a treadmill with a medical monitor displaying heart rate spikes, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a heart model with animated beats, overlaid with data readouts from a maximal effort test, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel effet a l’entraînement en résistance sur la densité osseuse des sportifs ?",
-    "questionAudio": "Quel effet a l’entraînement en résistance sur la densité osseuse des sportifs ?",
-    "options": [
-      "Il augmente la densité osseuse",
-      "Il la diminue",
-      "Il n’a aucun effet"
-    ],
-    "correct": 0,
-    "explanation": "Les charges mécaniques appliquées lors de l’entraînement en résistance stimulent la formation osseuse, augmentant ainsi la densité.",
-    "explanationAudio": "Les charges mécaniques appliquées lors de l’entraînement en résistance stimulent la formation osseuse, augmentant ainsi la densité.",
-    "emojis": [
-      "🏋️‍♂️",
+      "🌍",
       "🦴",
-      "📈",
-      "🔬",
-      "💪",
-      "🏅",
-      "🌟"
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a weightlifter lifting a barbell, bones shown with glowing density increase, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D cross‑section of human femur under load, showing micro‑architectural reinforcement, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration comparing a low‑density bone and a high‑density bone after resistance training, high‑detail rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a flat, oval shaped Dickinsonia fossil on a stone surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of a trilobite fossil embedded in shale, with high detail and dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an ancient spiral shaped fossil resembling Grypania spiralis, rendered with detailed textures and cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,29 +30,179 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel facteur biomécanique influence le risque de blessure du ligament croisé antérieur chez les coureurs ?",
-    "questionAudio": "Quel facteur biomécanique influence le risque de blessure du ligament croisé antérieur chez les coureurs ?",
+    "question": "Quel événement a provoqué la plus grande extinction de masse dans l’histoire de la Terre ?",
+    "questionAudio": "Quel événement a provoqué la plus grande extinction de masse dans l’histoire de la Terre ?",
     "options": [
-      "Un poids corporel faible",
-      "Un angle excessif du genou à l’impact",
-      "Une cadence de foulée élevée"
+      "L'extinction du Dévonien",
+      "L'extinction du Crétacé Paléogène",
+      "L'extinction du Permien Trias"
     ],
     "correct": 1,
-    "explanation": "Un angle trop prononcé du genou lors de l’impact crée des contraintes élevées sur le ligament croisé antérieur, augmentant le risque de rupture.",
-    "explanationAudio": "Un angle trop prononcé du genou lors de l’impact crée des contraintes élevées sur le ligament croisé antérieur, augmentant le risque de rupture.",
+    "explanation": "L'extinction du Crétacé Paléogène, il y a soixante six millions d’années, a éliminé environ dix pour cent des espèces, dont les dinosaures non aviens.",
+    "explanationAudio": "L'extinction du Crétacé Paléogène, il y a soixante six millions d’années, a éliminé environ dix pour cent des espèces, dont les dinosaures non aviens.",
     "emojis": [
-      "🦵",
-      "🏃‍♂️",
-      "⚡",
-      "🩹",
+      "🌍",
+      "💥",
+      "🦖",
+      "📚",
       "🔬",
-      "📉",
-      "🏥"
+      "🦕",
+      "⚡"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D comparison of normal versus excessive knee angle at impact, with highlighted risk zones on the ligament, high‑detail rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a runner’s knee at landing, showing exaggerated flexion angle with stress lines on the ACL, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the knee joint highlighting the ACL under load during foot strike, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D visualization of Devonian marine ecosystems collapsing, showing dying fish and coral reefs, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D scene depicting the impact crater and aftermath of the Cretaceous Paleogene extinction event, with dust clouds and dying dinosaurs, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A dramatic 3D illustration of volcanic eruptions during the Permian Triassic extinction, with lava flows and ash clouds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel groupe d’animaux a dominé les mers durant le Carbonifère ?",
+    "questionAudio": "Quel groupe d’animaux a dominé les mers durant le Carbonifère ?",
+    "options": [
+      "Crustacés",
+      "Brachiopodes",
+      "Ammonites"
+    ],
+    "correct": 1,
+    "explanation": "Les brachiopodes formaient d’immenses colonies et dominaient les fonds marins du Carbonifère.",
+    "explanationAudio": "Les brachiopodes formaient d’immenses colonies et dominaient les fonds marins du Carbonifère.",
+    "emojis": [
+      "🪨",
+      "🌊",
+      "🦪",
+      "📚",
+      "🔬",
+      "🦕",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of ancient crustaceans crawling over a reef, with dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a dense brachiopod reef on a Carboniferous sea floor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of an ammonite shell spiraling in a prehistoric ocean, with realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le nom du supercontinent qui existait il y a deux cent cinquante millions d’années ?",
+    "questionAudio": "Quel est le nom du supercontinent qui existait il y a deux cent cinquante millions d’années ?",
+    "options": [
+      "Pangaea",
+      "Laurasia",
+      "Rodinia"
+    ],
+    "correct": 0,
+    "explanation": "Pangaea était le supercontinent qui rassemblait presque toutes les terres émergées il y a deux cent cinquante millions d’années.",
+    "explanationAudio": "Pangaea était le supercontinent qui rassemblait presque toutes les terres émergées il y a deux cent cinquante millions d’années.",
+    "emojis": [
+      "🗺️",
+      "🌍",
+      "🪨",
+      "📚",
+      "🔬",
+      "🦕",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D map showing the assembled continents of Pangaea during the late Permian, with realistic coastlines, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Laurasia as a separate landmass, with mountain ranges and rivers, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of the ancient supercontinent Rodinia, highlighting its fragmented continents, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de roche contient généralement les fossiles de dinosaures ?",
+    "questionAudio": "Quel type de roche contient généralement les fossiles de dinosaures ?",
+    "options": [
+      "Roche métamorphique",
+      "Roche sédimentaire",
+      "Roche ignée"
+    ],
+    "correct": 1,
+    "explanation": "Les fossiles de dinosaures se conservent le plus souvent dans des roches sédimentaires déposées par des rivières ou des deltas.",
+    "explanationAudio": "Les fossiles de dinosaures se conservent le plus souvent dans des roches sédimentaires déposées par des rivières ou des deltas.",
+    "emojis": [
+      "🦴",
+      "🪨",
+      "📚",
+      "🔬",
+      "🌍",
+      "✨",
+      "🦕"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of metamorphic rock with folded strata, showing no fossils, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of sedimentary rock layers revealing a dinosaur bone fossil, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of igneous rock formation with magma chambers, no fossils present, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle est la méthode la plus précise pour dater les couches géologiques contenant des fossiles ?",
+    "questionAudio": "Quelle est la méthode la plus précise pour dater les couches géologiques contenant des fossiles ?",
+    "options": [
+      "Datation radiométrique",
+      "Datation par paléomagnétisme",
+      "Datation par corrélation biostratigraphique"
+    ],
+    "correct": 0,
+    "explanation": "La datation radiométrique utilise la décroissance des isotopes pour fournir des âges absolus très précis.",
+    "explanationAudio": "La datation radiométrique utilise la décroissance des isotopes pour fournir des âges absolus très précis.",
+    "emojis": [
+      "⏳",
+      "🧪",
+      "📚",
+      "🔬",
+      "🪨",
+      "🌍",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of a laboratory setup performing radiometric dating on a rock sample, with glowing isotopes, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of Earth's magnetic field recorded in rock strata for paleomagnetism dating, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model showing biostratigraphic layers with index fossils aligned, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel dinosaure est considéré comme le plus grand carnivore terrestre connu ?",
+    "questionAudio": "Quel dinosaure est considéré comme le plus grand carnivore terrestre connu ?",
+    "options": [
+      "Giganotosaurus",
+      "Tyrannosaurus rex",
+      "Spinosaurus"
+    ],
+    "correct": 2,
+    "explanation": "Le Spinosaurus, avec une longueur dépassant douze mètres, est le plus grand carnivore terrestre découvert à ce jour.",
+    "explanationAudio": "Le Spinosaurus, avec une longueur dépassant douze mètres, est le plus grand carnivore terrestre découvert à ce jour.",
+    "emojis": [
+      "🦖",
+      "🦕",
+      "🦴",
+      "🌊",
+      "📚",
+      "🔬",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a Giganotosaurus hunting a herd of sauropods, with dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a Tyrannosaurus rex roaring in a forest, with realistic anatomy, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a massive Spinosaurus walking on a riverbank, with detailed skin texture and cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

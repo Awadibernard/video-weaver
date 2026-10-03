@@ -1,28 +1,28 @@
 [
   {
-    "question": "Quel processus chimique fait lever le pain ?",
-    "questionAudio": "Quel processus chimique fait lever le pain ?",
+    "question": "Quel rôle le sommeil paradoxal joue t il dans la consolidation de la mémoire ?",
+    "questionAudio": "Quel rôle le sommeil paradoxal joue t il dans la consolidation de la mémoire ?",
     "options": [
-      "Évaporation de l'eau",
-      "Fermentation par levure produisant du dioxyde de carbone",
-      "Fusion des protéines de gluten"
+      "Stimulation de la digestion",
+      "Augmentation du métabolisme",
+      "Renforcement des souvenirs"
     ],
-    "correct": 1,
-    "explanation": "La levure fermente les sucres du pâte et libère du dioxyde de carbone qui fait gonfler la pâte.",
-    "explanationAudio": "La levure fermente les sucres du pâte et libère du dioxyde de carbone qui fait gonfler la pâte.",
+    "correct": 2,
+    "explanation": "Le sommeil paradoxal favorise le renforcement des souvenirs et l'intégration des informations apprises.",
+    "explanationAudio": "Le sommeil paradoxal favorise le renforcement des souvenirs et l'intégration des informations apprises.",
     "emojis": [
-      "🍞",
-      "🥖",
-      "🧀",
-      "🧪",
-      "⚗️",
-      "🔥",
-      "🌾"
+      "🛌",
+      "🧠",
+      "💤",
+      "🔄",
+      "📚",
+      "🌙",
+      "🕰️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D scene of water vapor escaping from a pot, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic illustration of dough rising in a transparent bowl, with yeast cells releasing carbon dioxide bubbles, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close up of gluten strands melting under heat, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a human digestive system with highlighted stomach activity, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a human metabolism diagram with active enzymes, bright colors, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a sleeping brain with glowing neural pathways highlighting memory consolidation, cinematic lighting, ultra‑detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,29 +30,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle méthode de cuisson conserve le plus de vitamine C dans les légumes ?",
-    "questionAudio": "Quelle méthode de cuisson conserve le plus de vitamine C dans les légumes ?",
+    "question": "Quelle quantité d'eau un adulte devrait il consommer chaque jour selon les recommandations internationales ?",
+    "questionAudio": "Quelle quantité d'eau un adulte devrait il consommer chaque jour selon les recommandations internationales ?",
     "options": [
-      "Ébullition",
-      "Cuisson à la vapeur",
-      "Grillage"
+      "Environ un demi litre",
+      "Environ deux litres",
+      "Environ cinq litres"
     ],
     "correct": 1,
-    "explanation": "La vapeur limite le contact avec l'eau chaude, préservant ainsi la vitamine C sensible à la chaleur et à l'oxydation.",
-    "explanationAudio": "La vapeur limite le contact avec l'eau chaude, préservant ainsi la vitamine C sensible à la chaleur et à l'oxydation.",
+    "explanation": "Les recommandations conseillent environ deux litres d'eau par jour pour un adulte moyen.",
+    "explanationAudio": "Les recommandations conseillent environ deux litres d'eau par jour pour un adulte moyen.",
     "emojis": [
-      "🥦",
-      "🥕",
-      "🌱",
       "💧",
-      "🔥",
-      "🍲",
+      "🚰",
+      "🧊",
+      "🥤",
+      "🌊",
+      "🗓️",
+      "👤"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a tiny cup with half a liter of water, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D realistic illustration of a glass of water with measurement markings showing two liters, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a large water container overflowing to represent five liters, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment l'exposition à la lumière bleue le soir affecte t elle la production de mélatonine ?",
+    "questionAudio": "Comment l'exposition à la lumière bleue le soir affecte t elle la production de mélatonine ?",
+    "options": [
+      "Elle n'a aucun effet",
+      "Elle l'augmente",
+      "Elle la diminue"
+    ],
+    "correct": 2,
+    "explanation": "La lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
+    "explanationAudio": "La lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
+    "emojis": [
+      "🔵",
+      "📱",
+      "💡",
+      "🌙",
+      "🧪",
+      "🛏️",
+      "📉"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D neutral scene showing no change in melatonin levels with blue light, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a glowing melatonin molecule increasing under blue light, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene of a smartphone emitting blue light onto a sleeping person, showing reduced melatonin levels, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle durée d'activité physique modérée est recommandée chaque semaine pour les adultes ?",
+    "questionAudio": "Quelle durée d'activité physique modérée est recommandée chaque semaine pour les adultes ?",
+    "options": [
+      "Au moins deux cent minutes",
+      "Au moins cent vingt minutes",
+      "Au moins cinquante minutes"
+    ],
+    "correct": 1,
+    "explanation": "Les directives internationales suggèrent au moins cent vingt minutes d'activité modérée par semaine.",
+    "explanationAudio": "Les directives internationales suggèrent au moins cent vingt minutes d'activité modérée par semaine.",
+    "emojis": [
+      "🏃‍♀️",
+      "🤸‍♂️",
+      "⏱️",
+      "💪",
+      "🗓️",
+      "🌟",
+      "🩺"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D scene of a person lifting weights with a clock indicating two hundred minutes, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a person jogging with a timer showing one hundred twenty minutes total, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a person stretching with a small clock showing fifty minutes, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est l'effet principal du cortisol élevé pendant la nuit sur le sommeil ?",
+    "questionAudio": "Quel est l'effet principal du cortisol élevé pendant la nuit sur le sommeil ?",
+    "options": [
+      "Allongement du sommeil profond",
+      "Réduction du besoin de sommeil",
+      "Fragmentation du sommeil"
+    ],
+    "correct": 2,
+    "explanation": "Un excès de cortisol perturbe le sommeil, entraînant des réveils fréquents et une moindre qualité.",
+    "explanationAudio": "Un excès de cortisol perturbe le sommeil, entraînant des réveils fréquents et une moindre qualité.",
+    "emojis": [
+      "🧬",
+      "🌙",
+      "⚙️",
+      "💤",
+      "🔬",
+      "📉",
       "🧪"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of vegetables boiling vigorously in water, bubbles, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D realistic rendering of vegetables being gently steamed in a glass basket, soft light, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D scene of vegetables on a grill with char marks, realistic smoke, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D scene showing deep sleep waves amplified by cortisol, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a person sleeping less due to cortisol, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a brain with cortisol molecules causing fragmented sleep patterns, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,119 +150,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Qu’est‑ce que la réaction de Maillard ?",
-    "questionAudio": "Qu’est‑ce que la réaction de Maillard ?",
+    "question": "Quel impact la consommation de caféine en fin de journée a t elle sur le temps d'endormissement ?",
+    "questionAudio": "Quel impact la consommation de caféine en fin de journée a t elle sur le temps d'endormissement ?",
     "options": [
-      "Oxydation des graisses",
-      "Brunissement des aliments par réaction entre acides aminés et sucres réducteurs",
-      "Caramélisation du sucre"
+      "N'affecte pas le temps d'endormissement",
+      "Raccourcit le temps d'endormissement",
+      "Allonge le temps d'endormissement"
     ],
-    "correct": 1,
-    "explanation": "Cette réaction crée les arômes et la couleur brune caractéristique des viandes grillées et du pain doré.",
-    "explanationAudio": "Cette réaction crée les arômes et la couleur brune caractéristique des viandes grillées et du pain doré.",
+    "correct": 2,
+    "explanation": "La caféine stimule le système nerveux, retardant l'apparition du sommeil.",
+    "explanationAudio": "La caféine stimule le système nerveux, retardant l'apparition du sommeil.",
     "emojis": [
-      "🍖",
-      "🥩",
-      "🍞",
-      "🔥",
-      "⚗️",
-      "🧪",
-      "✨"
+      "☕",
+      "🕔",
+      "⏳",
+      "💤",
+      "🔋",
+      "🧠",
+      "📈"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of fat molecules oxidizing, with subtle color change, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a steak surface developing brown crust as amino acids react with sugars, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of sugar crystals caramelizing in a pan, glowing, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel type de graisse est liquide à température ambiante et considéré comme plus sain ?",
-    "questionAudio": "Quel type de graisse est liquide à température ambiante et considéré comme plus sain ?",
-    "options": [
-      "Acides gras monoinsaturés",
-      "Acides gras trans",
-      "Acides gras saturés"
-    ],
-    "correct": 0,
-    "explanation": "Les acides gras monoinsaturés, présents dans l’huile d’olive et les avocats, restent liquides à température ambiante et sont associés à une meilleure santé cardiovasculaire.",
-    "explanationAudio": "Les acides gras monoinsaturés, présents dans l’huile d’olive et les avocats, restent liquides à température ambiante et sont associés à une meilleure santé cardiovasculaire.",
-    "emojis": [
-      "🥑",
-      "🥜",
-      "🫒",
-      "💧",
-      "🧪",
-      "⚖️",
-      "❤️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic bottle of olive oil pouring a golden stream, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of trans‑fat molecules with distorted shape, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of saturated fat crystals solidifying, realistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le pH typique de la plupart des fruits ?",
-    "questionAudio": "Quel est le pH typique de la plupart des fruits ?",
-    "options": [
-      "Acide, généralement entre trois et six",
-      "Neutre, autour de sept",
-      "Alcalin, au‑dessus de huit"
-    ],
-    "correct": 0,
-    "explanation": "La majorité des fruits contiennent des acides organiques qui donnent un pH compris entre trois et six, ce qui les rend acidulés.",
-    "explanationAudio": "La majorité des fruits contiennent des acides organiques qui donnent un pH compris entre trois et six, ce qui les rend acidulés.",
-    "emojis": [
-      "🍎",
-      "🍋",
-      "🍊",
-      "📏",
-      "⚗️",
-      "🧪",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D realistic pH meter dipping into a sliced apple, showing acidic reading, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a neutral pH solution with a clear liquid, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of an alkaline solution bubbling, bright colors, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Comment la cuisson sous‑vide influence la dénaturation des protéines ?",
-    "questionAudio": "Comment la cuisson sous‑vide influence la dénaturation des protéines ?",
-    "options": [
-      "Permet un contrôle précis de la température, limitant la dénaturation",
-      "L’immersion froide empêche toute dénaturation",
-      "Applique une chaleur élevée rapide qui dénature fortement les protéines"
-    ],
-    "correct": 0,
-    "explanation": "En maintenant une température basse et constante, la cuisson sous‑vide évite les pics thermiques qui provoquent une dénaturation excessive des protéines.",
-    "explanationAudio": "En maintenant une température basse et constante, la cuisson sous‑vide évite les pics thermiques qui provoquent une dénaturation excessive des protéines.",
-    "emojis": [
-      "🥩",
-      "🧊",
-      "💧",
-      "📦",
-      "🔥",
-      "🧪",
-      "⏱️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a vacuum‑sealed steak immersed in a water bath at a precise temperature, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a cold water bath with a sealed bag, showing minimal protein change, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a steak exposed to high flame with rapid protein coagulation, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D neutral illustration showing no change in sleep latency after coffee, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene of a coffee cup with a fast‑forward symbol indicating quicker sleep, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a coffee cup with an evening clock and a person taking longer to fall asleep, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Mathématiques, Logique & Paradoxes",
-  "description": "Testez vos connaissances en logique, mathématiques et paradoxes célèbres.",
+  "topic": "🧠 Quiz : Histoire des Découvertes & Sérendipité",
+  "description": "Explore les moments où le hasard a changé le cours de la science.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,168 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Quel paradoxe illustre le fait qu’une phrase puisse se contredire en affirmant sa propre fausseté ?",
-      "questionAudio": "Quel paradoxe illustre le fait qu’une phrase puisse se contredire en affirmant sa propre fausseté ?",
+      "question": "Quel phénomène a observé Alexander Fleming qui a conduit à la découverte de la pénicilline ?",
+      "questionAudio": "Quel phénomène a observé Alexander Fleming qui a conduit à la découverte de la pénicilline ?",
       "emojis": [
-        "🧠",
-        "🤔",
-        "📜",
-        "🔍",
-        "🗣️",
-        "⚖️",
-        "💭"
-      ],
-      "options": [
-        "Le paradoxe de Zénon",
-        "Le paradoxe du menteur",
-        "Le paradoxe du chat de Schrödinger"
-      ],
-      "correct": 1,
-      "answer": "Le paradoxe du menteur",
-      "explanation": "Ce paradoxe montre qu’une affirmation qui se déclare fausse conduit à une contradiction logique.",
-      "explanationAudio": "Ce paradoxe montre qu’une affirmation qui se déclare fausse conduit à une contradiction logique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Zeno standing in a classical Greek arena, dramatic shadows, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of an ancient parchment with a self referential sentence, glowing letters, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a cat inside a transparent box with quantum wave patterns, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel problème montre qu’il n’existe aucune méthode générale pour déterminer si un programme informatique s’arrête toujours ?",
-      "questionAudio": "Quel problème montre qu’il n’existe aucune méthode générale pour déterminer si un programme informatique s’arrête toujours ?",
-      "emojis": [
-        "🖥️",
-        "📟",
-        "🤖",
-        "📚",
-        "🧩",
-        "❓",
-        "🧠"
-      ],
-      "options": [
-        "Le problème de l’arrêt",
-        "Le problème de la factorisation",
-        "Le problème du voyageur de commerce"
-      ],
-      "correct": 0,
-      "answer": "Le problème de l’arrêt",
-      "explanation": "Alan Turing a démontré que le problème de l’arrêt est indécidable.",
-      "explanationAudio": "Alan Turing a démontré que le problème de l’arrêt est indécidable.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of a vintage computer with code scrolling, showing a halting symbol, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of prime numbers on a chalkboard, bright colors, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a traveling salesman map with routes, detailed textures, cinematic view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel principe logique stipule qu’une proposition est soit vraie, soit fausse, sans autre possibilité ?",
-      "questionAudio": "Quel principe logique stipule qu’une proposition est soit vraie, soit fausse, sans autre possibilité ?",
-      "emojis": [
-        "📚",
-        "⚖️",
-        "🧠",
-        "✅",
-        "❌",
-        "🤔",
+        "🧫",
+        "🔬",
+        "🦠",
+        "💊",
+        "🍞",
+        "🧪",
         "🔎"
       ],
       "options": [
-        "Le principe du tiers exclu",
-        "Le principe de non contradiction",
-        "Le principe de causalité"
-      ],
-      "correct": 0,
-      "answer": "Le principe du tiers exclu",
-      "explanation": "Ce principe, appelé le tiers exclu, est fondamental en logique classique.",
-      "explanationAudio": "Ce principe, appelé le tiers exclu, est fondamental en logique classique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D scene showing a balanced scale with a true statement on one side and a false statement on the other, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a paradoxical loop with contradictory symbols, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D depiction of a chain reaction illustrating cause and effect, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel paradoxe de Zénon montre que le mouvement semble impossible en divisant le trajet en une infinité de parties ?",
-      "questionAudio": "Quel paradoxe de Zénon montre que le mouvement semble impossible en divisant le trajet en une infinité de parties ?",
-      "emojis": [
-        "🐢",
-        "🏃‍♂️",
-        "⏳",
-        "📏",
-        "🤔",
-        "🧠",
-        "🔁"
-      ],
-      "options": [
-        "Le paradoxe du chat de Schrödinger",
-        "Le paradoxe du menteur",
-        "Le paradoxe d’Achille et la tortue"
-      ],
-      "correct": 2,
-      "answer": "Le paradoxe d’Achille et la tortue",
-      "explanation": "Dans ce paradoxe, Achille ne peut jamais rattraper la tortue malgré sa vitesse supérieure.",
-      "explanationAudio": "Dans ce paradoxe, Achille ne peut jamais rattraper la tortue malgré sa vitesse supérieure.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of Schrodinger's cat inside a box with quantum particles, detailed lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D representation of a liar paradox text floating in space, glowing, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of Achilles chasing a turtle on an ancient track, with motion blur, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel concept mathématique décrit une courbe qui se rapproche indéfiniment d’une droite sans jamais la toucher ?",
-      "questionAudio": "Quel concept mathématique décrit une courbe qui se rapproche indéfiniment d’une droite sans jamais la toucher ?",
-      "emojis": [
-        "📈",
-        "📊",
-        "🧮",
-        "🔢",
-        "🧠",
-        "🤓",
-        "🌐"
-      ],
-      "options": [
-        "Un point fixe",
-        "Une asymptote",
-        "Un nombre premier"
+        "L’apparition de bulles dans un liquide chauffé",
+        "La croissance inhibée des bactéries autour d’une moisissure",
+        "La formation de cristaux dans une solution saline"
       ],
       "correct": 1,
-      "answer": "Une asymptote",
-      "explanation": "Une asymptote représente la limite d’une fonction quand la variable tend vers l’infini.",
-      "explanationAudio": "Une asymptote représente la limite d’une fonction quand la variable tend vers l’infini.",
+      "answer": "La croissance inhibée des bactéries autour d’une moisissure",
+      "explanation": "Fleming a remarqué que les colonies bactériennes ne se développaient pas près d’une moisissure, révélant l’action antibactérienne de la pénicilline.",
+      "explanationAudio": "Fleming a remarqué que les colonies bactériennes ne se développaient pas près d’une moisissure, révélant l’action antibactérienne de la pénicilline.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a fixed point on a graph, highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of a curve approaching a straight line asymptotically, with gradient shading, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of prime numbers displayed as glowing spheres, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D scene of a heated liquid in a flask with rising bubbles, realistic lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a petri dish showing bacterial colonies being inhibited by a blue‑green mold, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a laboratory beaker with crystal formation, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel objet a inspiré Isaac Newton à formuler la loi de la gravité ?",
+      "questionAudio": "Quel objet a inspiré Isaac Newton à formuler la loi de la gravité ?",
+      "emojis": [
+        "🍎",
+        "🌳",
+        "📜",
+        "⚖️",
+        "🪐",
+        "🧠",
+        "🔭"
+      ],
+      "options": [
+        "Une pomme",
+        "Une pierre",
+        "Un ballon de cuir"
+      ],
+      "correct": 0,
+      "answer": "Une pomme",
+      "explanation": "La chute d’une pomme du pommier a conduit Newton à réfléchir sur la force qui attire les corps vers le centre de la Terre.",
+      "explanationAudio": "La chute d’une pomme du pommier a conduit Newton à réfléchir sur la force qui attire les corps vers le centre de la Terre.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a ripe red apple falling from a tree branch, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a smooth stone resting on a wooden surface, realistic shading, cinematic view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of an old leather ball suspended in mid‑air, detailed texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel dispositif a permis à Wilhelm Röntgen de détecter les rayons X pour la première fois ?",
+      "questionAudio": "Quel dispositif a permis à Wilhelm Röntgen de détecter les rayons X pour la première fois ?",
+      "emojis": [
+        "⚡",
+        "📡",
+        "🔬",
+        "🧪",
+        "💡",
+        "🖼️",
+        "🧑‍🔬"
+      ],
+      "options": [
+        "Un microscope électronique",
+        "Un tube à vide",
+        "Un spectromètre d’absorption"
+      ],
+      "correct": 1,
+      "answer": "Un tube à vide",
+      "explanation": "En utilisant un tube à vide, Röntgen a observé la fluorescence d’un écran recouvert de phosphore lorsqu’il était exposé à une nouvelle forme de rayonnement.",
+      "explanationAudio": "En utilisant un tube à vide, Röntgen a observé la fluorescence d’un écran recouvert de phosphore lorsqu’il était exposé à une nouvelle forme de rayonnement.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D model of a modern electron microscope with glowing lenses, realistic shading, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of an early vacuum tube emitting invisible rays, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a spectrometer with colorful absorption lines on a screen, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle technique a fourni les images décisives utilisées par Watson et Crick pour modéliser l’ADN ?",
+      "questionAudio": "Quelle technique a fourni les images décisives utilisées par Watson et Crick pour modéliser l’ADN ?",
+      "emojis": [
+        "🧬",
+        "🔬",
+        "📐",
+        "🧪",
+        "💡",
+        "🧑‍🔬",
+        "📊"
+      ],
+      "options": [
+        "La diffraction des rayons X",
+        "La microscopie à force atomique",
+        "La spectroscopie infrarouge"
+      ],
+      "correct": 0,
+      "answer": "La diffraction des rayons X",
+      "explanation": "Les photographies de diffraction obtenues par Rosalind Franklin ont révélé la structure hélicoïdale de l’ADN, guidant Watson et Crick.",
+      "explanationAudio": "Les photographies de diffraction obtenues par Rosalind Franklin ont révélé la structure hélicoïdale de l’ADN, guidant Watson et Crick.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D visualization of X‑ray diffraction patterns on a photographic film, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of an atomic force microscope tip scanning a surface, realistic textures, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of an infrared spectrometer with glowing spectra on a monitor, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel phénomène naturel a observé Henri Becquerel qui a conduit à la découverte de la radioactivité ?",
+      "questionAudio": "Quel phénomène naturel a observé Henri Becquerel qui a conduit à la découverte de la radioactivité ?",
+      "emojis": [
+        "☢️",
+        "🔭",
+        "📸",
+        "🧪",
+        "💡",
+        "🌧️",
+        "🧑‍🔬"
+      ],
+      "options": [
+        "Le scintillement d’un feu de camp sous la pluie",
+        "La condensation de vapeur d’eau sur du verre froid",
+        "L’illumination spontanée de sels d’uranium"
+      ],
+      "correct": 2,
+      "answer": "L’illumination spontanée de sels d’uranium",
+      "explanation": "Becquerel a remarqué que des plaques contenant des sels d’uranium éclairaient du papier photographique sans exposition à la lumière du soleil.",
+      "explanationAudio": "Becquerel a remarqué que des plaques contenant des sels d’uranium éclairaient du papier photographique sans exposition à la lumière du soleil.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a campfire flickering in rain, detailed sparks, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of water vapor condensing on a cold glass pane, realistic droplets, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of uranium salts glowing faintly on a dark table, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel instrument a permis à William Herschel de découvrir la planète Uranus ?",
+      "questionAudio": "Quel instrument a permis à William Herschel de découvrir la planète Uranus ?",
+      "emojis": [
+        "🔭",
+        "🌌",
+        "⭐",
+        "🪐",
+        "🧭",
+        "📡",
+        "🧑‍🚀"
+      ],
+      "options": [
+        "Un télescope réflecteur",
+        "Un sextant nautique",
+        "Un astrolabe antique"
+      ],
+      "correct": 0,
+      "answer": "Un télescope réflecteur",
+      "explanation": "En utilisant son télescope à miroir, Herschel a repéré un corps céleste qui s’est avéré être la septième planète du système solaire.",
+      "explanationAudio": "En utilisant son télescope à miroir, Herschel a repéré un corps céleste qui s’est avéré être la septième planète du système solaire.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a large reflecting telescope with polished mirrors, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a classic nautical sextant with brass arms, realistic shading, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of an ancient astrolabe with engraved markings, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

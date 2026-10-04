@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Physique & Astronomie",
-  "description": "Explore les mystères du cosmos et les lois qui régissent l'univers.",
+  "topic": "🧠 Quiz : Biologie & Corps Humain",
+  "description": "Testez vos connaissances sur le corps humain avec ces questions fascinantes.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Quelle est la source principale d'énergie du Soleil ?",
-      "questionAudio": "Quelle est la source principale d'énergie du Soleil ?",
+      "question": "Quelle est la fonction principale du pancréas ?",
+      "questionAudio": "Quelle est la fonction principale du pancréas ?",
       "emojis": [
-        "☀️",
-        "🔆",
-        "🌞",
-        "⚡",
-        "🚀",
-        "🌌",
-        "🪐"
-      ],
-      "options": [
-        "La fusion nucléaire de l'hydrogène en hélium",
-        "La contraction gravitationnelle",
-        "La combustion chimique"
-      ],
-      "correct": 0,
-      "answer": "La fusion nucléaire de l'hydrogène en hélium",
-      "explanation": "Le Soleil génère son énergie grâce à la fusion nucléaire qui transforme l'hydrogène en hélium.",
-      "explanationAudio": "Le Soleil génère son énergie grâce à la fusion nucléaire qui transforme l'hydrogène en hélium.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A highly detailed 3D render of the Sun’s core showing nuclear fusion reactions, glowing plasma, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a massive star contracting under gravity, dramatic shadows, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a chemical flame burning in a laboratory, realistic fire, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel phénomène provoque le déplacement apparent d’une étoile dû à l’orbite de la Terre ?",
-      "questionAudio": "Quel phénomène provoque le déplacement apparent d’une étoile dû à l’orbite de la Terre ?",
-      "emojis": [
-        "🔭",
-        "🌠",
-        "🪐",
-        "📏",
-        "✨",
-        "🚀",
-        "🔭"
-      ],
-      "options": [
-        "L’effet Doppler",
-        "Le décalage vers le rouge",
-        "Le parallaxe stellaire"
-      ],
-      "correct": 2,
-      "answer": "Le parallaxe stellaire",
-      "explanation": "Le parallaxe stellaire est la petite variation de position d’une étoile observée depuis deux points opposés de l’orbite terrestre.",
-      "explanationAudio": "Le parallaxe stellaire est la petite variation de position d’une étoile observée depuis deux points opposés de l’orbite terrestre.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render showing the Doppler effect on light waves, colorful shift, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of redshift of distant galaxies, deep space background, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of Earth’s orbit with two observation points and a distant star, cinematic perspective, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle loi relie la période d’une planète à la taille de son orbite ?",
-      "questionAudio": "Quelle loi relie la période d’une planète à la taille de son orbite ?",
-      "emojis": [
-        "🪐",
-        "📐",
-        "🔭",
-        "⚙️",
-        "📊",
-        "🚀",
-        "🌌"
-      ],
-      "options": [
-        "La troisième loi de Kepler",
-        "La loi d’Ohm",
-        "La seconde loi de Newton"
-      ],
-      "correct": 0,
-      "answer": "La troisième loi de Kepler",
-      "explanation": "La troisième loi de Kepler indique que le carré de la période orbital est proportionnel au cube du demi‑grand axe de l’orbite.",
-      "explanationAudio": "La troisième loi de Kepler indique que le carré de la période orbital est proportionnel au cube du demi‑grand axe de l’orbite.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of planetary orbits with Kepler’s third law diagram, accurate scaling, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an electrical circuit demonstrating Ohm’s law, glowing resistors, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D depiction of Newton’s second law applied to a moving object, dynamic motion blur, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel type de rayonnement électromagnétique possède la longueur d’onde la plus courte ?",
-      "questionAudio": "Quel type de rayonnement électromagnétique possède la longueur d’onde la plus courte ?",
-      "emojis": [
-        "⚛️",
-        "💥",
-        "🔬",
-        "🌟",
+        "🏥",
+        "🧬",
+        "🍎",
+        "🩺",
         "🧪",
-        "🚀",
-        "✨"
+        "🧠",
+        "🔬"
       ],
       "options": [
-        "La lumière ultraviolette",
-        "Les rayons X",
-        "Les rayons gamma"
+        "Production d'insuline",
+        "Digestion des graisses",
+        "Filtration du sang"
       ],
-      "correct": 2,
-      "answer": "Les rayons gamma",
-      "explanation": "Les rayons gamma ont les longueurs d’onde les plus courtes et l’énergie la plus élevée du spectre électromagnétique.",
-      "explanationAudio": "Les rayons gamma ont les longueurs d’onde les plus courtes et l’énergie la plus élevée du spectre électromagnétique.",
+      "correct": 0,
+      "answer": "Production d'insuline",
+      "explanation": "Le pancréas sécrète l'insuline qui régule le taux de sucre dans le sang.",
+      "explanationAudio": "Le pancréas sécrète l'insuline qui régule le taux de sucre dans le sang.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of ultraviolet light interacting with atmospheric particles, vibrant colors, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of X‑ray beams passing through a material, realistic scattering, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of gamma rays emitted from a radioactive source, bright blue white glow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A highly detailed 3D render of the human pancreas secreting insulin, cinematic lighting, photorealistic",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the small intestine absorbing fats, cinematic detail, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D anatomical model of human kidneys filtering blood, realistic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Comment s’appelle la frontière théorique d’un trou noir au delà de laquelle rien ne peut s’échapper ?",
-      "questionAudio": "Comment s’appelle la frontière théorique d’un trou noir au delà de laquelle rien ne peut s’échapper ?",
+      "question": "Combien d'os possède le corps humain adulte ?",
+      "questionAudio": "Combien d'os possède le corps humain adulte ?",
       "emojis": [
-        "🕳️",
-        "🌌",
-        "🚀",
-        "🔭",
-        "⚫",
-        "✨",
-        "🪐"
+        "🦴",
+        "💀",
+        "📏",
+        "🧍",
+        "🦾",
+        "🦿",
+        "🔬"
       ],
       "options": [
-        "La sphère de photons",
-        "Le disque d’accrétion",
-        "L’horizon des événements"
+        "deux cent six",
+        "cent cinquante",
+        "trois cent"
+      ],
+      "correct": 0,
+      "answer": "deux cent six",
+      "explanation": "Un adulte possède deux cent six os répartis dans tout le corps.",
+      "explanationAudio": "Un adulte possède deux cent six os répartis dans tout le corps.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D skeletal model showing all two hundred six bones, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a skeleton with one hundred fifty bones, artistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a skeleton with three hundred bones, stylized rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel gaz est principalement échangé dans les poumons ?",
+      "questionAudio": "Quel gaz est principalement échangé dans les poumons ?",
+      "emojis": [
+        "🫁",
+        "🌬️",
+        "🔬",
+        "🧬",
+        "💨",
+        "🌡️",
+        "🧪"
+      ],
+      "options": [
+        "Dioxyde de carbone",
+        "Oxygène",
+        "Azote"
+      ],
+      "correct": 1,
+      "answer": "Oxygène",
+      "explanation": "Les poumons permettent l'absorption d'oxygène et l'expulsion du dioxyde de carbone.",
+      "explanationAudio": "Les poumons permettent l'absorption d'oxygène et l'expulsion du dioxyde de carbone.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of lungs exhaling carbon dioxide, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of human lungs inhaling oxygen molecules, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model showing nitrogen presence in the atmosphere around lungs, artistic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle hormone régule le taux de sucre dans le sang ?",
+      "questionAudio": "Quelle hormone régule le taux de sucre dans le sang ?",
+      "emojis": [
+        "🩸",
+        "🍭",
+        "🧬",
+        "🧪",
+        "🩺",
+        "💉",
+        "🔬"
+      ],
+      "options": [
+        "Adrénaline",
+        "Cortisol",
+        "Insuline"
       ],
       "correct": 2,
-      "answer": "L’horizon des événements",
-      "explanation": "L’horizon des événements marque la limite où la gravité du trou noir empêche toute fuite, même de la lumière.",
-      "explanationAudio": "L’horizon des événements marque la limite où la gravité du trou noir empêche toute fuite, même de la lumière.",
+      "answer": "Insuline",
+      "explanation": "L'insuline est sécrétée par le pancréas pour diminuer le taux de glucose sanguin.",
+      "explanationAudio": "L'insuline est sécrétée par le pancréas pour diminuer le taux de glucose sanguin.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a photon sphere around a black hole, light paths bending, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of an accretion disk swirling around a black hole, detailed particles, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of a black hole with a glowing event horizon, surrounding accretion disk, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of adrenal glands releasing adrenaline, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of cortisol molecules in the bloodstream, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of insulin molecules interacting with cell receptors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel organe assure la détoxification du sang ?",
+      "questionAudio": "Quel organe assure la détoxification du sang ?",
+      "emojis": [
+        "🏥",
+        "🧬",
+        "🧪",
+        "🔬",
+        "🍃",
+        "🩺",
+        "🫀"
+      ],
+      "options": [
+        "Foie",
+        "Pancréas",
+        "Rate"
+      ],
+      "correct": 0,
+      "answer": "Foie",
+      "explanation": "Le foie filtre les substances toxiques et les élimine du corps.",
+      "explanationAudio": "Le foie filtre les substances toxiques et les élimine du corps.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of the human liver processing toxins, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of the pancreas with detailed ducts, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the spleen filtering blood cells, artistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type de muscle est involontaire et se trouve dans les parois des organes creux ?",
+      "questionAudio": "Quel type de muscle est involontaire et se trouve dans les parois des organes creux ?",
+      "emojis": [
+        "💪",
+        "🫀",
+        "🏃",
+        "🧬",
+        "🔬",
+        "🩺",
+        "🧪"
+      ],
+      "options": [
+        "Muscle cardiaque",
+        "Muscle lisse",
+        "Muscle squelettique"
+      ],
+      "correct": 1,
+      "answer": "Muscle lisse",
+      "explanation": "Le muscle lisse fonctionne sans contrôle conscient et tapisse les intestins, les vaisseaux sanguins, etc.",
+      "explanationAudio": "Le muscle lisse fonctionne sans contrôle conscient et tapisse les intestins, les vaisseaux sanguins, etc.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of cardiac muscle tissue beating, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of smooth muscle fibers contracting in a blood vessel, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of skeletal muscle attached to bone, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel organe est le principal responsable de l'équilibre vestibulaire ?",
+      "questionAudio": "Quel organe est le principal responsable de l'équilibre vestibulaire ?",
+      "emojis": [
+        "👂",
+        "🎧",
+        "🧠",
+        "🔬",
+        "🧬",
+        "🌪️",
+        "🩺"
+      ],
+      "options": [
+        "La rétine",
+        "La peau",
+        "L'oreille interne"
+      ],
+      "correct": 2,
+      "answer": "L'oreille interne",
+      "explanation": "L'oreille interne contient le système vestibulaire qui maintient l'équilibre du corps.",
+      "explanationAudio": "L'oreille interne contient le système vestibulaire qui maintient l'équilibre du corps.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the human retina with photoreceptor cells, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of skin layers with sensory nerve endings, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of the inner ear showing the vestibular apparatus, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

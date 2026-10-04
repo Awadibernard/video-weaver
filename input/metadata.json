@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Histoire des Découvertes & Sérendipité",
-  "description": "Explore les moments où le hasard a changé le cours de la science.",
+  "topic": "🧠 Quiz : Physique & Astronomie",
+  "description": "Explore les mystères du cosmos et les lois qui régissent l'univers.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,168 +19,141 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Quel phénomène a observé Alexander Fleming qui a conduit à la découverte de la pénicilline ?",
-      "questionAudio": "Quel phénomène a observé Alexander Fleming qui a conduit à la découverte de la pénicilline ?",
+      "question": "Quelle est la source principale d'énergie du Soleil ?",
+      "questionAudio": "Quelle est la source principale d'énergie du Soleil ?",
       "emojis": [
-        "🧫",
-        "🔬",
-        "🦠",
-        "💊",
-        "🍞",
-        "🧪",
-        "🔎"
+        "☀️",
+        "🔆",
+        "🌞",
+        "⚡",
+        "🚀",
+        "🌌",
+        "🪐"
       ],
       "options": [
-        "L’apparition de bulles dans un liquide chauffé",
-        "La croissance inhibée des bactéries autour d’une moisissure",
-        "La formation de cristaux dans une solution saline"
+        "La fusion nucléaire de l'hydrogène en hélium",
+        "La contraction gravitationnelle",
+        "La combustion chimique"
       ],
-      "correct": 1,
-      "answer": "La croissance inhibée des bactéries autour d’une moisissure",
-      "explanation": "Fleming a remarqué que les colonies bactériennes ne se développaient pas près d’une moisissure, révélant l’action antibactérienne de la pénicilline.",
-      "explanationAudio": "Fleming a remarqué que les colonies bactériennes ne se développaient pas près d’une moisissure, révélant l’action antibactérienne de la pénicilline.",
+      "correct": 0,
+      "answer": "La fusion nucléaire de l'hydrogène en hélium",
+      "explanation": "Le Soleil génère son énergie grâce à la fusion nucléaire qui transforme l'hydrogène en hélium.",
+      "explanationAudio": "Le Soleil génère son énergie grâce à la fusion nucléaire qui transforme l'hydrogène en hélium.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a heated liquid in a flask with rising bubbles, realistic lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a petri dish showing bacterial colonies being inhibited by a blue‑green mold, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a laboratory beaker with crystal formation, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A highly detailed 3D render of the Sun’s core showing nuclear fusion reactions, glowing plasma, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a massive star contracting under gravity, dramatic shadows, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene of a chemical flame burning in a laboratory, realistic fire, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel objet a inspiré Isaac Newton à formuler la loi de la gravité ?",
-      "questionAudio": "Quel objet a inspiré Isaac Newton à formuler la loi de la gravité ?",
+      "question": "Quel phénomène provoque le déplacement apparent d’une étoile dû à l’orbite de la Terre ?",
+      "questionAudio": "Quel phénomène provoque le déplacement apparent d’une étoile dû à l’orbite de la Terre ?",
       "emojis": [
-        "🍎",
-        "🌳",
-        "📜",
-        "⚖️",
+        "🔭",
+        "🌠",
         "🪐",
-        "🧠",
+        "📏",
+        "✨",
+        "🚀",
         "🔭"
       ],
       "options": [
-        "Une pomme",
-        "Une pierre",
-        "Un ballon de cuir"
-      ],
-      "correct": 0,
-      "answer": "Une pomme",
-      "explanation": "La chute d’une pomme du pommier a conduit Newton à réfléchir sur la force qui attire les corps vers le centre de la Terre.",
-      "explanationAudio": "La chute d’une pomme du pommier a conduit Newton à réfléchir sur la force qui attire les corps vers le centre de la Terre.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a ripe red apple falling from a tree branch, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a smooth stone resting on a wooden surface, realistic shading, cinematic view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an old leather ball suspended in mid‑air, detailed texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel dispositif a permis à Wilhelm Röntgen de détecter les rayons X pour la première fois ?",
-      "questionAudio": "Quel dispositif a permis à Wilhelm Röntgen de détecter les rayons X pour la première fois ?",
-      "emojis": [
-        "⚡",
-        "📡",
-        "🔬",
-        "🧪",
-        "💡",
-        "🖼️",
-        "🧑‍🔬"
-      ],
-      "options": [
-        "Un microscope électronique",
-        "Un tube à vide",
-        "Un spectromètre d’absorption"
-      ],
-      "correct": 1,
-      "answer": "Un tube à vide",
-      "explanation": "En utilisant un tube à vide, Röntgen a observé la fluorescence d’un écran recouvert de phosphore lorsqu’il était exposé à une nouvelle forme de rayonnement.",
-      "explanationAudio": "En utilisant un tube à vide, Röntgen a observé la fluorescence d’un écran recouvert de phosphore lorsqu’il était exposé à une nouvelle forme de rayonnement.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of a modern electron microscope with glowing lenses, realistic shading, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of an early vacuum tube emitting invisible rays, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a spectrometer with colorful absorption lines on a screen, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle technique a fourni les images décisives utilisées par Watson et Crick pour modéliser l’ADN ?",
-      "questionAudio": "Quelle technique a fourni les images décisives utilisées par Watson et Crick pour modéliser l’ADN ?",
-      "emojis": [
-        "🧬",
-        "🔬",
-        "📐",
-        "🧪",
-        "💡",
-        "🧑‍🔬",
-        "📊"
-      ],
-      "options": [
-        "La diffraction des rayons X",
-        "La microscopie à force atomique",
-        "La spectroscopie infrarouge"
-      ],
-      "correct": 0,
-      "answer": "La diffraction des rayons X",
-      "explanation": "Les photographies de diffraction obtenues par Rosalind Franklin ont révélé la structure hélicoïdale de l’ADN, guidant Watson et Crick.",
-      "explanationAudio": "Les photographies de diffraction obtenues par Rosalind Franklin ont révélé la structure hélicoïdale de l’ADN, guidant Watson et Crick.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D visualization of X‑ray diffraction patterns on a photographic film, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of an atomic force microscope tip scanning a surface, realistic textures, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an infrared spectrometer with glowing spectra on a monitor, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel phénomène naturel a observé Henri Becquerel qui a conduit à la découverte de la radioactivité ?",
-      "questionAudio": "Quel phénomène naturel a observé Henri Becquerel qui a conduit à la découverte de la radioactivité ?",
-      "emojis": [
-        "☢️",
-        "🔭",
-        "📸",
-        "🧪",
-        "💡",
-        "🌧️",
-        "🧑‍🔬"
-      ],
-      "options": [
-        "Le scintillement d’un feu de camp sous la pluie",
-        "La condensation de vapeur d’eau sur du verre froid",
-        "L’illumination spontanée de sels d’uranium"
+        "L’effet Doppler",
+        "Le décalage vers le rouge",
+        "Le parallaxe stellaire"
       ],
       "correct": 2,
-      "answer": "L’illumination spontanée de sels d’uranium",
-      "explanation": "Becquerel a remarqué que des plaques contenant des sels d’uranium éclairaient du papier photographique sans exposition à la lumière du soleil.",
-      "explanationAudio": "Becquerel a remarqué que des plaques contenant des sels d’uranium éclairaient du papier photographique sans exposition à la lumière du soleil.",
+      "answer": "Le parallaxe stellaire",
+      "explanation": "Le parallaxe stellaire est la petite variation de position d’une étoile observée depuis deux points opposés de l’orbite terrestre.",
+      "explanationAudio": "Le parallaxe stellaire est la petite variation de position d’une étoile observée depuis deux points opposés de l’orbite terrestre.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a campfire flickering in rain, detailed sparks, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of water vapor condensing on a cold glass pane, realistic droplets, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of uranium salts glowing faintly on a dark table, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D render showing the Doppler effect on light waves, colorful shift, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of redshift of distant galaxies, deep space background, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of Earth’s orbit with two observation points and a distant star, cinematic perspective, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel instrument a permis à William Herschel de découvrir la planète Uranus ?",
-      "questionAudio": "Quel instrument a permis à William Herschel de découvrir la planète Uranus ?",
+      "question": "Quelle loi relie la période d’une planète à la taille de son orbite ?",
+      "questionAudio": "Quelle loi relie la période d’une planète à la taille de son orbite ?",
       "emojis": [
-        "🔭",
-        "🌌",
-        "⭐",
         "🪐",
-        "🧭",
-        "📡",
-        "🧑‍🚀"
+        "📐",
+        "🔭",
+        "⚙️",
+        "📊",
+        "🚀",
+        "🌌"
       ],
       "options": [
-        "Un télescope réflecteur",
-        "Un sextant nautique",
-        "Un astrolabe antique"
+        "La troisième loi de Kepler",
+        "La loi d’Ohm",
+        "La seconde loi de Newton"
       ],
       "correct": 0,
-      "answer": "Un télescope réflecteur",
-      "explanation": "En utilisant son télescope à miroir, Herschel a repéré un corps céleste qui s’est avéré être la septième planète du système solaire.",
-      "explanationAudio": "En utilisant son télescope à miroir, Herschel a repéré un corps céleste qui s’est avéré être la septième planète du système solaire.",
+      "answer": "La troisième loi de Kepler",
+      "explanation": "La troisième loi de Kepler indique que le carré de la période orbital est proportionnel au cube du demi‑grand axe de l’orbite.",
+      "explanationAudio": "La troisième loi de Kepler indique que le carré de la période orbital est proportionnel au cube du demi‑grand axe de l’orbite.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a large reflecting telescope with polished mirrors, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a classic nautical sextant with brass arms, realistic shading, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an ancient astrolabe with engraved markings, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D model of planetary orbits with Kepler’s third law diagram, accurate scaling, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of an electrical circuit demonstrating Ohm’s law, glowing resistors, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D depiction of Newton’s second law applied to a moving object, dynamic motion blur, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type de rayonnement électromagnétique possède la longueur d’onde la plus courte ?",
+      "questionAudio": "Quel type de rayonnement électromagnétique possède la longueur d’onde la plus courte ?",
+      "emojis": [
+        "⚛️",
+        "💥",
+        "🔬",
+        "🌟",
+        "🧪",
+        "🚀",
+        "✨"
+      ],
+      "options": [
+        "La lumière ultraviolette",
+        "Les rayons X",
+        "Les rayons gamma"
+      ],
+      "correct": 2,
+      "answer": "Les rayons gamma",
+      "explanation": "Les rayons gamma ont les longueurs d’onde les plus courtes et l’énergie la plus élevée du spectre électromagnétique.",
+      "explanationAudio": "Les rayons gamma ont les longueurs d’onde les plus courtes et l’énergie la plus élevée du spectre électromagnétique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of ultraviolet light interacting with atmospheric particles, vibrant colors, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of X‑ray beams passing through a material, realistic scattering, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of gamma rays emitted from a radioactive source, bright blue white glow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Comment s’appelle la frontière théorique d’un trou noir au delà de laquelle rien ne peut s’échapper ?",
+      "questionAudio": "Comment s’appelle la frontière théorique d’un trou noir au delà de laquelle rien ne peut s’échapper ?",
+      "emojis": [
+        "🕳️",
+        "🌌",
+        "🚀",
+        "🔭",
+        "⚫",
+        "✨",
+        "🪐"
+      ],
+      "options": [
+        "La sphère de photons",
+        "Le disque d’accrétion",
+        "L’horizon des événements"
+      ],
+      "correct": 2,
+      "answer": "L’horizon des événements",
+      "explanation": "L’horizon des événements marque la limite où la gravité du trou noir empêche toute fuite, même de la lumière.",
+      "explanationAudio": "L’horizon des événements marque la limite où la gravité du trou noir empêche toute fuite, même de la lumière.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a photon sphere around a black hole, light paths bending, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of an accretion disk swirling around a black hole, detailed particles, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of a black hole with a glowing event horizon, surrounding accretion disk, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

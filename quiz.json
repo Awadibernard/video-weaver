@@ -1,118 +1,28 @@
 [
   {
-    "question": "Quelle est la profondeur maximale mesurée dans la fosse de Mariana ? 11 034 mètres",
-    "questionAudio": "Quelle est la profondeur maximale mesurée dans la fosse de Mariana ? onze mille trente‑quatre mètres",
+    "question": "Quel paradoxe illustre le fait qu’une phrase puisse se contredire en affirmant sa propre fausseté ?",
+    "questionAudio": "Quel paradoxe illustre le fait qu’une phrase puisse se contredire en affirmant sa propre fausseté ?",
     "options": [
-      "12 100 mètres",
-      "10 994 mètres",
-      "11 034 mètres"
-    ],
-    "correct": 2,
-    "explanation": "La fosse de Mariana atteint environ 11 034 mètres, ce qui en fait le point le plus profond connu.",
-    "explanationAudio": "La fosse de Mariana atteint environ onze mille trente‑quatre mètres, ce qui en fait le point le plus profond connu.",
-    "emojis": [
-      "🌊",
-      "🗺️",
-      "📏",
-      "🐚",
-      "🔎",
-      "⚓",
-      "🌍"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of an imagined trench at twelve thousand one hundred meters depth, with dark water and faint glows, hyper‑detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of an underwater trench at ten thousand nine hundred ninety‑four meters depth, with bioluminescent organisms, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of the Mariana Trench at eleven thousand thirty‑four meters depth, showing a deep‑sea submersible and surrounding abyssal fauna, ultra‑realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le niveau de pression approximatif à 10 000 mètres de profondeur marine ? 1 250 000 fois la pression atmosphérique",
-    "questionAudio": "Quel est le niveau de pression approximatif à dix mille mètres de profondeur marine ? un million deux cent cinquante mille fois la pression atmosphérique",
-    "options": [
-      "1 250 000 fois la pression atmosphérique",
-      "1 500 000 fois la pression atmosphérique",
-      "1 000 000 fois la pression atmosphérique"
-    ],
-    "correct": 0,
-    "explanation": "À 10 000 mètres, la pression atteint environ 1 250 000 fois la pression atmosphérique au niveau de la mer.",
-    "explanationAudio": "À dix mille mètres, la pression atteint environ un million deux cent cinquante mille fois la pression atmosphérique au niveau de la mer.",
-    "emojis": [
-      "⚖️",
-      "🌊",
-      "💧",
-      "🔬",
-      "🧭",
-      "📊",
-      "🚢"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a deep‑sea submersible surrounded by water at one million two hundred fifty thousand atmospheres, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a hypothetical ocean trench with a pressure readout of one million five hundred thousand atmospheres, ultra‑detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a pressure gauge showing one million atmospheres at the ocean floor, with realistic metal textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel groupe d'animaux marins est le plus connu pour la bioluminescence dans les abysses ?",
-    "questionAudio": "Quel groupe d'animaux marins est le plus connu pour la bioluminescence dans les abysses ?",
-    "options": [
-      "Les crabes géants",
-      "Les méduses",
-      "Les poissons lanterne"
-    ],
-    "correct": 2,
-    "explanation": "Les poissons lanterne, ou lanternfish, sont responsables d'une grande partie de la bioluminescence dans les zones profondes.",
-    "explanationAudio": "Les poissons lanterne, ou lanternfish, sont responsables d'une grande partie de la bioluminescence dans les zones profondes.",
-    "emojis": [
-      "✨",
-      "🐟",
-      "🔦",
-      "🌌",
-      "🦑",
-      "🌊",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic render of a giant deep‑sea crab with bioluminescent spots on its claws, illuminated by ambient light, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic render of a moon jelly drifting in deep water, emitting soft blue light, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic render of a lanternfish with rows of glowing photophores, swimming in the abyss, ultra‑detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel processus océanique absorbe le plus de dioxyde de carbone de l'atmosphère ?",
-    "questionAudio": "Quel processus océanique absorbe le plus de dioxyde de carbone de l'atmosphère ?",
-    "options": [
-      "La formation de carbonates dans les sédiments",
-      "La photosynthèse des phytoplanctons",
-      "La dissolution du CO₂ dans les eaux de surface"
+      "Le paradoxe de Zénon",
+      "Le paradoxe du menteur",
+      "Le paradoxe du chat de Schrödinger"
     ],
     "correct": 1,
-    "explanation": "Les phytoplanctons utilisent la photosynthèse pour convertir le CO₂ en matière organique, représentant le principal puits de carbone océanique.",
-    "explanationAudio": "Les phytoplanctons utilisent la photosynthèse pour convertir le CO₂ en matière organique, représentant le principal puits de carbone océanique.",
+    "explanation": "Ce paradoxe montre qu’une affirmation qui se déclare fausse conduit à une contradiction logique.",
+    "explanationAudio": "Ce paradoxe montre qu’une affirmation qui se déclare fausse conduit à une contradiction logique.",
     "emojis": [
-      "🌿",
-      "🌊",
-      "🧪",
-      "☁️",
-      "📈",
-      "🐠",
-      "⚗️"
+      "🧠",
+      "🤔",
+      "📜",
+      "🔍",
+      "🗣️",
+      "⚖️",
+      "💭"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of sediment layers forming calcium carbonate shells on the ocean floor, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a dense bloom of phytoplankton in sunlit surface water, glowing green, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of CO₂ bubbles dissolving into surface ocean water, with realistic diffusion effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of Zeno standing in a classical Greek arena, dramatic shadows, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of an ancient parchment with a self referential sentence, glowing letters, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a cat inside a transparent box with quantum wave patterns, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,29 +30,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le principal type de chimie qui soutient les écosystèmes autour des cheminées hydrothermales ?",
-    "questionAudio": "Quel est le principal type de chimie qui soutient les écosystèmes autour des cheminées hydrothermales ?",
+    "question": "Quel problème montre qu’il n’existe aucune méthode générale pour déterminer si un programme informatique s’arrête toujours ?",
+    "questionAudio": "Quel problème montre qu’il n’existe aucune méthode générale pour déterminer si un programme informatique s’arrête toujours ?",
     "options": [
-      "Chimie organique",
-      "Chimie photosynthétique",
-      "Chimie inorganique basée sur le sulfure d'hydrogène"
+      "Le problème de l’arrêt",
+      "Le problème de la factorisation",
+      "Le problème du voyageur de commerce"
     ],
-    "correct": 2,
-    "explanation": "Les bactéries chimiosynthétiques oxydent le sulfure d'hydrogène pour produire de l'énergie, alimentant la chaîne alimentaire.",
-    "explanationAudio": "Les bactéries chimiosynthétiques oxydent le sulfure d'hydrogène pour produire de l'énergie, alimentant la chaîne alimentaire.",
+    "correct": 0,
+    "explanation": "Alan Turing a démontré que le problème de l’arrêt est indécidable.",
+    "explanationAudio": "Alan Turing a démontré que le problème de l’arrêt est indécidable.",
     "emojis": [
-      "🌊",
-      "🐙",
-      "🔱",
-      "🧭",
-      "🌐",
-      "⚓",
-      "🦈"
+      "🖥️",
+      "📟",
+      "🤖",
+      "📚",
+      "🧩",
+      "❓",
+      "🧠"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of Chimie organique, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Chimie photosynthetique, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of Chimie inorganique basee sur le sulfure d'hydrogene, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D render of a vintage computer with code scrolling, showing a halting symbol, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of prime numbers on a chalkboard, bright colors, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a traveling salesman map with routes, detailed textures, cinematic view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel principe logique stipule qu’une proposition est soit vraie, soit fausse, sans autre possibilité ?",
+    "questionAudio": "Quel principe logique stipule qu’une proposition est soit vraie, soit fausse, sans autre possibilité ?",
+    "options": [
+      "Le principe du tiers exclu",
+      "Le principe de non contradiction",
+      "Le principe de causalité"
+    ],
+    "correct": 0,
+    "explanation": "Ce principe, appelé le tiers exclu, est fondamental en logique classique.",
+    "explanationAudio": "Ce principe, appelé le tiers exclu, est fondamental en logique classique.",
+    "emojis": [
+      "📚",
+      "⚖️",
+      "🧠",
+      "✅",
+      "❌",
+      "🤔",
+      "🔎"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D scene showing a balanced scale with a true statement on one side and a false statement on the other, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a paradoxical loop with contradictory symbols, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D depiction of a chain reaction illustrating cause and effect, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel paradoxe de Zénon montre que le mouvement semble impossible en divisant le trajet en une infinité de parties ?",
+    "questionAudio": "Quel paradoxe de Zénon montre que le mouvement semble impossible en divisant le trajet en une infinité de parties ?",
+    "options": [
+      "Le paradoxe du chat de Schrödinger",
+      "Le paradoxe du menteur",
+      "Le paradoxe d’Achille et la tortue"
+    ],
+    "correct": 2,
+    "explanation": "Dans ce paradoxe, Achille ne peut jamais rattraper la tortue malgré sa vitesse supérieure.",
+    "explanationAudio": "Dans ce paradoxe, Achille ne peut jamais rattraper la tortue malgré sa vitesse supérieure.",
+    "emojis": [
+      "🐢",
+      "🏃‍♂️",
+      "⏳",
+      "📏",
+      "🤔",
+      "🧠",
+      "🔁"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D render of Schrodinger's cat inside a box with quantum particles, detailed lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D representation of a liar paradox text floating in space, glowing, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of Achilles chasing a turtle on an ancient track, with motion blur, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel concept mathématique décrit une courbe qui se rapproche indéfiniment d’une droite sans jamais la toucher ?",
+    "questionAudio": "Quel concept mathématique décrit une courbe qui se rapproche indéfiniment d’une droite sans jamais la toucher ?",
+    "options": [
+      "Un point fixe",
+      "Une asymptote",
+      "Un nombre premier"
+    ],
+    "correct": 1,
+    "explanation": "Une asymptote représente la limite d’une fonction quand la variable tend vers l’infini.",
+    "explanationAudio": "Une asymptote représente la limite d’une fonction quand la variable tend vers l’infini.",
+    "emojis": [
+      "📈",
+      "📊",
+      "🧮",
+      "🔢",
+      "🧠",
+      "🤓",
+      "🌐"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a fixed point on a graph, highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a curve approaching a straight line asymptotically, with gradient shading, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of prime numbers displayed as glowing spheres, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

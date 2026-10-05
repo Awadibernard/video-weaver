@@ -1,28 +1,148 @@
 [
   {
-    "question": "Quel gaz constitue la plus grande partie de l'atmosphère terrestre ?",
-    "questionAudio": "Quel gaz constitue la plus grande partie de l'atmosphère terrestre ?",
+    "question": "Quelle force principale génère les marées sur Terre ?",
+    "questionAudio": "Quelle force principale génère les marées sur Terre ?",
+    "options": [
+      "Le déplacement des continents",
+      "L'attraction gravitationnelle de la Lune",
+      "Le vent solaire"
+    ],
+    "correct": 1,
+    "explanation": "L'attraction gravitationnelle de la Lune crée des variations du niveau de la mer appelées marées.",
+    "explanationAudio": "L'attraction gravitationnelle de la Lune crée des variations du niveau de la mer appelées marées.",
+    "emojis": [
+      "🌊",
+      "🌙",
+      "🌍",
+      "📅",
+      "🌐",
+      "🌀",
+      "⏳"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of tectonic plates shifting over time, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of Earth’s oceans with lunar gravity vectors visualized, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of solar wind streams interacting with Earth’s magnetosphere, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle couche interne de la Terre est liquide ?",
+    "questionAudio": "Quelle couche interne de la Terre est liquide ?",
+    "options": [
+      "Le manteau",
+      "Le noyau externe",
+      "La croûte terrestre"
+    ],
+    "correct": 1,
+    "explanation": "Le noyau externe est composé de fer et de nickel en état liquide, générant le champ magnétique terrestre.",
+    "explanationAudio": "Le noyau externe est composé de fer et de nickel en état liquide, générant le champ magnétique terrestre.",
+    "emojis": [
+      "🪨",
+      "🔥",
+      "🌍",
+      "⚙️",
+      "🔎",
+      "💎",
+      "🌡️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of the mantle’s solid rock layers, textured and lit, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D cross‑section of Earth showing the liquid outer core glowing orange, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D surface view of Earth’s crust with continents and oceans, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de roche se forme lorsque le magma refroidit rapidement à la surface ?",
+    "questionAudio": "Quel type de roche se forme lorsque le magma refroidit rapidement à la surface ?",
+    "options": [
+      "Roche ignée",
+      "Roche métamorphique",
+      "Roche sédimentaire"
+    ],
+    "correct": 0,
+    "explanation": "Les roches ignées se cristallisent rapidement à la surface, donnant des textures fines comme le basalte.",
+    "explanationAudio": "Les roches ignées se cristallisent rapidement à la surface, donnant des textures fines comme le basalte.",
+    "emojis": [
+      "🪨",
+      "🌋",
+      "🔥",
+      "🔬",
+      "📐",
+      "🖼️",
+      "🧭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of basaltic lava flow solidifying into igneous rock, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of metamorphic rock formation under pressure, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of layered sedimentary rock cliffs, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel phénomène crée les aurores boréales dans les régions polaires ?",
+    "questionAudio": "Quel phénomène crée les aurores boréales dans les régions polaires ?",
+    "options": [
+      "Les éruptions volcaniques sous‑marines",
+      "L'interaction des particules solaires avec la magnétosphère terrestre",
+      "La réflexion de la lumière de la Lune sur la neige"
+    ],
+    "correct": 1,
+    "explanation": "Les particules chargées du Soleil entrent en contact avec la magnétosphère et excitent les molécules d'air, produisant des lumières colorées.",
+    "explanationAudio": "Les particules chargées du Soleil entrent en contact avec la magnétosphère et excitent les molécules d'air, produisant des lumières colorées.",
+    "emojis": [
+      "🌌",
+      "❄️",
+      "🧲",
+      "⚡",
+      "🌟",
+      "🛰️",
+      "📡"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D underwater scene of a submarine volcanic eruption, glowing particles, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D night sky over the Arctic with vibrant aurora borealis, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of moonlight reflecting off snowy terrain, soft glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel gaz constitue la majorité de l'atmosphère terrestre ?",
+    "questionAudio": "Quel gaz constitue la majorité de l'atmosphère terrestre ?",
     "options": [
       "Oxygène",
       "Dioxyde de carbone",
       "Azote"
     ],
     "correct": 2,
-    "explanation": "L'azote représente environ sept cents pour cent de l'atmosphère, ce qui en fait le gaz dominant.",
-    "explanationAudio": "L'azote représente environ sept cents pour cent de l'atmosphère, ce qui en fait le gaz dominant.",
+    "explanation": "L'azote représente environ quatre‑vingt‑cinq pour cent de l'air que nous respirons.",
+    "explanationAudio": "L'azote représente environ quatre‑vingt‑cinq pour cent de l'air que nous respirons.",
     "emojis": [
       "🌬️",
       "🧪",
+      "📊",
       "🔬",
-      "⚗️",
-      "💨",
-      "🌍",
-      "📘"
+      "🌿",
+      "🏞️",
+      "🧭"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of oxygen molecules glowing blue inside a transparent sphere, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of carbon dioxide molecules drifting above a volcanic landscape, realistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of nitrogen gas molecules swirling in a clear atmosphere, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of oxygen molecules in a forest environment, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D illustration of carbon dioxide concentration over urban areas, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D visualization of Earth's atmosphere layers highlighting nitrogen molecules, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,149 +150,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de liaison chimique implique le partage d'une paire d'électrons entre atomes ?",
-    "questionAudio": "Quel type de liaison chimique implique le partage d'une paire d'électrons entre atomes ?",
+    "question": "Quel processus permet aux forêts de capturer le carbone de l'atmosphère ?",
+    "questionAudio": "Quel processus permet aux forêts de capturer le carbone de l'atmosphère ?",
     "options": [
-      "Liaison métallique",
-      "Liaison ionique",
-      "Liaison covalente"
+      "L'érosion du sol",
+      "La respiration cellulaire",
+      "La photosynthèse"
     ],
     "correct": 2,
-    "explanation": "Dans une liaison covalente, deux atomes partagent une paire d'électrons pour atteindre une configuration stable.",
-    "explanationAudio": "Dans une liaison covalente, deux atomes partagent une paire d'électrons pour atteindre une configuration stable.",
+    "explanation": "La photosynthèse utilise le dioxyde de carbone et la lumière pour créer des sucres, stockant ainsi le carbone dans la biomasse végétale.",
+    "explanationAudio": "La photosynthèse utilise le dioxyde de carbone et la lumière pour créer des sucres, stockant ainsi le carbone dans la biomasse végétale.",
     "emojis": [
-      "🔗",
-      "🧪",
-      "⚛️",
-      "💎",
+      "🌳",
+      "☀️",
+      "🍃",
       "🔬",
-      "✨",
-      "📚"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a metallic lattice with delocalized electrons shimmering, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of sodium and chlorine ions separating, showing charge transfer, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of two hydrogen atoms sharing electrons, with glowing electron cloud, photorealistic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le pH de l'eau pure à vingt‑cinq degrés Celsius ?",
-    "questionAudio": "Quel est le pH de l'eau pure à vingt‑cinq degrés Celsius ?",
-    "options": [
-      "Six",
-      "Sept",
-      "Eight"
-    ],
-    "correct": 1,
-    "explanation": "L'eau pure est neutre et possède un pH de sept à cette température.",
-    "explanationAudio": "L'eau pure est neutre et possède un pH de sept à cette température.",
-    "emojis": [
+      "📚",
       "💧",
-      "📏",
-      "⚗️",
-      "🔬",
-      "🧪",
-      "🧊",
-      "📊"
+      "🌎"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of an acidic solution with a pH meter showing six, detailed liquid textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a drop of pure water on a glass surface, with a floating pH meter reading seven, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a basic solution with a pH meter indicating eight, realistic lighting and reflections, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel élément possède l'électronégativité la plus élevée ?",
-    "questionAudio": "Quel élément possède l'électronégativité la plus élevée ?",
-    "options": [
-      "Oxygène",
-      "Fluor",
-      "Chlore"
-    ],
-    "correct": 1,
-    "explanation": "Le fluor a l'électronégativité la plus forte, ce qui le rend très attirant pour les électrons partagés.",
-    "explanationAudio": "Le fluor a l'électronégativité la plus forte, ce qui le rend très attirant pour les électrons partagés.",
-    "emojis": [
-      "⚛️",
-      "🧪",
-      "🔬",
-      "💎",
-      "📈",
-      "✨",
-      "📚"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of an oxygen atom with subtle glow, realistic shading and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑detail 3D model of a fluorine atom with glowing electron cloud, cinematic background, photorealistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a chlorine atom with detailed electron shells, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Comment appelle‑t‑on le passage direct d’un solide à l’état gazeux ?",
-    "questionAudio": "Comment appelle‑t‑on le passage direct d’un solide à l’état gazeux ?",
-    "options": [
-      "Condensation",
-      "Sublimation",
-      "Fusion"
-    ],
-    "correct": 1,
-    "explanation": "La sublimation décrit la transition d’un solide qui devient directement un gaz sans passer par la phase liquide.",
-    "explanationAudio": "La sublimation décrit la transition d’un solide qui devient directement un gaz sans passer par la phase liquide.",
-    "emojis": [
-      "❄️",
-      "🔥",
-      "💨",
-      "🧊",
-      "⚗️",
-      "🔬",
-      "📘"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D scene of water vapor condensing into droplets on a cold surface, photorealistic effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of dry ice sublimating into carbon dioxide vapor, realistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of ice melting into water, detailed surface tension and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel acide est présent dans le suc gastrique humain ?",
-    "questionAudio": "Quel acide est présent dans le suc gastrique humain ?",
-    "options": [
-      "Acide acétique",
-      "Acide chlorhydrique",
-      "Acide citrique"
-    ],
-    "correct": 1,
-    "explanation": "L'acide chlorhydrique est sécrété par l'estomac pour aider à la digestion des protéines.",
-    "explanationAudio": "L'acide chlorhydrique est sécrété par l'estomac pour aider à la digestion des protéines.",
-    "emojis": [
-      "🍋",
-      "🧪",
-      "⚗️",
-      "🔬",
-      "💊",
-      "🧬",
-      "📚"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of vinegar pouring, showing acetic acid molecules, realistic shading and depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a stomach interior with swirling hydrochloric acid, cinematic lighting and texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of lemon slices releasing citric acid droplets, detailed surface and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of soil erosion on a hillside, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of cellular respiration in plant roots, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D forest scene showing sunlight driving photosynthesis in leaves, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

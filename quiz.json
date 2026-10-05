@@ -1,88 +1,28 @@
 [
   {
-    "question": "Quelle est la fonction principale du pancréas ?",
-    "questionAudio": "Quelle est la fonction principale du pancréas ?",
+    "question": "Quel gaz constitue la plus grande partie de l'atmosphère terrestre ?",
+    "questionAudio": "Quel gaz constitue la plus grande partie de l'atmosphère terrestre ?",
     "options": [
-      "Production d'insuline",
-      "Digestion des graisses",
-      "Filtration du sang"
-    ],
-    "correct": 0,
-    "explanation": "Le pancréas sécrète l'insuline qui régule le taux de sucre dans le sang.",
-    "explanationAudio": "Le pancréas sécrète l'insuline qui régule le taux de sucre dans le sang.",
-    "emojis": [
-      "🏥",
-      "🧬",
-      "🍎",
-      "🩺",
-      "🧪",
-      "🧠",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A highly detailed 3D render of the human pancreas secreting insulin, cinematic lighting, photorealistic",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the small intestine absorbing fats, cinematic detail, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of human kidneys filtering blood, realistic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Combien d'os possède le corps humain adulte ?",
-    "questionAudio": "Combien d'os possède le corps humain adulte ?",
-    "options": [
-      "deux cent six",
-      "cent cinquante",
-      "trois cent"
-    ],
-    "correct": 0,
-    "explanation": "Un adulte possède deux cent six os répartis dans tout le corps.",
-    "explanationAudio": "Un adulte possède deux cent six os répartis dans tout le corps.",
-    "emojis": [
-      "🦴",
-      "💀",
-      "📏",
-      "🧍",
-      "🦾",
-      "🦿",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D skeletal model showing all two hundred six bones, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a skeleton with one hundred fifty bones, artistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a skeleton with three hundred bones, stylized rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel gaz est principalement échangé dans les poumons ?",
-    "questionAudio": "Quel gaz est principalement échangé dans les poumons ?",
-    "options": [
-      "Dioxyde de carbone",
       "Oxygène",
+      "Dioxyde de carbone",
       "Azote"
     ],
-    "correct": 1,
-    "explanation": "Les poumons permettent l'absorption d'oxygène et l'expulsion du dioxyde de carbone.",
-    "explanationAudio": "Les poumons permettent l'absorption d'oxygène et l'expulsion du dioxyde de carbone.",
+    "correct": 2,
+    "explanation": "L'azote représente environ sept cents pour cent de l'atmosphère, ce qui en fait le gaz dominant.",
+    "explanationAudio": "L'azote représente environ sept cents pour cent de l'atmosphère, ce qui en fait le gaz dominant.",
     "emojis": [
-      "🫁",
       "🌬️",
+      "🧪",
       "🔬",
-      "🧬",
+      "⚗️",
       "💨",
-      "🌡️",
-      "🧪"
+      "🌍",
+      "📘"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of lungs exhaling carbon dioxide, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of human lungs inhaling oxygen molecules, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model showing nitrogen presence in the atmosphere around lungs, artistic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of oxygen molecules glowing blue inside a transparent sphere, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of carbon dioxide molecules drifting above a volcanic landscape, realistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of nitrogen gas molecules swirling in a clear atmosphere, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,59 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle hormone régule le taux de sucre dans le sang ?",
-    "questionAudio": "Quelle hormone régule le taux de sucre dans le sang ?",
+    "question": "Quel type de liaison chimique implique le partage d'une paire d'électrons entre atomes ?",
+    "questionAudio": "Quel type de liaison chimique implique le partage d'une paire d'électrons entre atomes ?",
     "options": [
-      "Adrénaline",
-      "Cortisol",
-      "Insuline"
+      "Liaison métallique",
+      "Liaison ionique",
+      "Liaison covalente"
     ],
     "correct": 2,
-    "explanation": "L'insuline est sécrétée par le pancréas pour diminuer le taux de glucose sanguin.",
-    "explanationAudio": "L'insuline est sécrétée par le pancréas pour diminuer le taux de glucose sanguin.",
+    "explanation": "Dans une liaison covalente, deux atomes partagent une paire d'électrons pour atteindre une configuration stable.",
+    "explanationAudio": "Dans une liaison covalente, deux atomes partagent une paire d'électrons pour atteindre une configuration stable.",
     "emojis": [
-      "🩸",
-      "🍭",
-      "🧬",
+      "🔗",
       "🧪",
-      "🩺",
-      "💉",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of adrenal glands releasing adrenaline, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of cortisol molecules in the bloodstream, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of insulin molecules interacting with cell receptors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel organe assure la détoxification du sang ?",
-    "questionAudio": "Quel organe assure la détoxification du sang ?",
-    "options": [
-      "Foie",
-      "Pancréas",
-      "Rate"
-    ],
-    "correct": 0,
-    "explanation": "Le foie filtre les substances toxiques et les élimine du corps.",
-    "explanationAudio": "Le foie filtre les substances toxiques et les élimine du corps.",
-    "emojis": [
-      "🏥",
-      "🧬",
-      "🧪",
+      "⚛️",
+      "💎",
       "🔬",
-      "🍃",
-      "🩺",
-      "🫀"
+      "✨",
+      "📚"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of the human liver processing toxins, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of the pancreas with detailed ducts, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the spleen filtering blood cells, artistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a metallic lattice with delocalized electrons shimmering, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of sodium and chlorine ions separating, showing charge transfer, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of two hydrogen atoms sharing electrons, with glowing electron cloud, photorealistic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -150,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de muscle est involontaire et se trouve dans les parois des organes creux ?",
-    "questionAudio": "Quel type de muscle est involontaire et se trouve dans les parois des organes creux ?",
+    "question": "Quel est le pH de l'eau pure à vingt‑cinq degrés Celsius ?",
+    "questionAudio": "Quel est le pH de l'eau pure à vingt‑cinq degrés Celsius ?",
     "options": [
-      "Muscle cardiaque",
-      "Muscle lisse",
-      "Muscle squelettique"
+      "Six",
+      "Sept",
+      "Eight"
     ],
     "correct": 1,
-    "explanation": "Le muscle lisse fonctionne sans contrôle conscient et tapisse les intestins, les vaisseaux sanguins, etc.",
-    "explanationAudio": "Le muscle lisse fonctionne sans contrôle conscient et tapisse les intestins, les vaisseaux sanguins, etc.",
+    "explanation": "L'eau pure est neutre et possède un pH de sept à cette température.",
+    "explanationAudio": "L'eau pure est neutre et possède un pH de sept à cette température.",
     "emojis": [
-      "💪",
-      "🫀",
-      "🏃",
-      "🧬",
+      "💧",
+      "📏",
+      "⚗️",
       "🔬",
-      "🩺",
-      "🧪"
+      "🧪",
+      "🧊",
+      "📊"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of cardiac muscle tissue beating, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of smooth muscle fibers contracting in a blood vessel, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of skeletal muscle attached to bone, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an acidic solution with a pH meter showing six, detailed liquid textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a drop of pure water on a glass surface, with a floating pH meter reading seven, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a basic solution with a pH meter indicating eight, realistic lighting and reflections, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -180,29 +90,89 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel organe est le principal responsable de l'équilibre vestibulaire ?",
-    "questionAudio": "Quel organe est le principal responsable de l'équilibre vestibulaire ?",
+    "question": "Quel élément possède l'électronégativité la plus élevée ?",
+    "questionAudio": "Quel élément possède l'électronégativité la plus élevée ?",
     "options": [
-      "La rétine",
-      "La peau",
-      "L'oreille interne"
+      "Oxygène",
+      "Fluor",
+      "Chlore"
     ],
-    "correct": 2,
-    "explanation": "L'oreille interne contient le système vestibulaire qui maintient l'équilibre du corps.",
-    "explanationAudio": "L'oreille interne contient le système vestibulaire qui maintient l'équilibre du corps.",
+    "correct": 1,
+    "explanation": "Le fluor a l'électronégativité la plus forte, ce qui le rend très attirant pour les électrons partagés.",
+    "explanationAudio": "Le fluor a l'électronégativité la plus forte, ce qui le rend très attirant pour les électrons partagés.",
     "emojis": [
-      "👂",
-      "🎧",
-      "🧠",
+      "⚛️",
+      "🧪",
       "🔬",
-      "🧬",
-      "🌪️",
-      "🩺"
+      "💎",
+      "📈",
+      "✨",
+      "📚"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the human retina with photoreceptor cells, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of skin layers with sensory nerve endings, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D render of the inner ear showing the vestibular apparatus, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an oxygen atom with subtle glow, realistic shading and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D model of a fluorine atom with glowing electron cloud, cinematic background, photorealistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a chlorine atom with detailed electron shells, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment appelle‑t‑on le passage direct d’un solide à l’état gazeux ?",
+    "questionAudio": "Comment appelle‑t‑on le passage direct d’un solide à l’état gazeux ?",
+    "options": [
+      "Condensation",
+      "Sublimation",
+      "Fusion"
+    ],
+    "correct": 1,
+    "explanation": "La sublimation décrit la transition d’un solide qui devient directement un gaz sans passer par la phase liquide.",
+    "explanationAudio": "La sublimation décrit la transition d’un solide qui devient directement un gaz sans passer par la phase liquide.",
+    "emojis": [
+      "❄️",
+      "🔥",
+      "💨",
+      "🧊",
+      "⚗️",
+      "🔬",
+      "📘"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D scene of water vapor condensing into droplets on a cold surface, photorealistic effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of dry ice sublimating into carbon dioxide vapor, realistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of ice melting into water, detailed surface tension and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel acide est présent dans le suc gastrique humain ?",
+    "questionAudio": "Quel acide est présent dans le suc gastrique humain ?",
+    "options": [
+      "Acide acétique",
+      "Acide chlorhydrique",
+      "Acide citrique"
+    ],
+    "correct": 1,
+    "explanation": "L'acide chlorhydrique est sécrété par l'estomac pour aider à la digestion des protéines.",
+    "explanationAudio": "L'acide chlorhydrique est sécrété par l'estomac pour aider à la digestion des protéines.",
+    "emojis": [
+      "🍋",
+      "🧪",
+      "⚗️",
+      "🔬",
+      "💊",
+      "🧬",
+      "📚"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of vinegar pouring, showing acetic acid molecules, realistic shading and depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a stomach interior with swirling hydrochloric acid, cinematic lighting and texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of lemon slices releasing citric acid droplets, detailed surface and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

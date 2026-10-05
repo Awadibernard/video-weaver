@@ -1,28 +1,28 @@
 [
   {
-    "question": "Quelle est la fonction principale de l'hippocampe ?",
-    "questionAudio": "Quelle est la fonction principale de l'hippocampe ?",
+    "question": "Les micro ondes rendent les aliments radioactifs ?",
+    "questionAudio": "Les micro ondes rendent les aliments radioactifs ?",
     "options": [
-      "La régulation du rythme cardiaque",
-      "La consolidation de la mémoire",
-      "La production de dopamine"
+      "Oui, elles transforment les aliments en source de rayonnement",
+      "Non, les micro ondes chauffent les molécules d’eau",
+      "Oui, elles augmentent le niveau de radioactivité du plat"
     ],
     "correct": 1,
-    "explanation": "L'hippocampe joue un rôle central dans la mémoire et la navigation spatiale.",
-    "explanationAudio": "L'hippocampe joue un rôle central dans la mémoire et la navigation spatiale.",
+    "explanation": "Les micro ondes utilisent des ondes électromagnétiques qui excitent les molécules d’eau, sans créer de radioactivité.",
+    "explanationAudio": "Les micro ondes utilisent des ondes électromagnétiques qui excitent les molécules d’eau, sans créer de radioactivité.",
     "emojis": [
-      "🧠",
+      "📡",
+      "🍲",
+      "⚡",
       "🔬",
-      "✨",
-      "🧩",
-      "🕰️",
-      "🌐",
-      "🚀"
+      "🧪",
+      "💡",
+      "❓"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a human heart beating, ultra realistic, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human brain highlighting the hippocampus in blue with glowing connections, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of dopamine molecules swirling around neural synapses, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a glowing radioactive food item emitting green radiation, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D kitchen scene with a microwave oven emitting blue waves that heat a bowl of water, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visual of a dish surrounded by hazardous radiation symbols and a glowing aura, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel neurotransmetteur est principalement libéré lors de la réponse de lutte ou fuite ?",
-    "questionAudio": "Quel neurotransmetteur est principalement libéré lors de la réponse de lutte ou fuite ?",
+    "question": "Se brosser les cheveux accélère t il leur croissance ?",
+    "questionAudio": "Se brosser les cheveux accélère t il leur croissance ?",
     "options": [
-      "La noradrénaline",
-      "L'acétylcholine",
-      "La sérotonine"
+      "Non, le brossage n’influence pas la vitesse de croissance",
+      "Oui, il stimule le cuir chevelu",
+      "Oui, il augmente le flux sanguin et accélère la pousse"
     ],
     "correct": 0,
-    "explanation": "La noradrénaline prépare le corps à réagir rapidement en augmentant le rythme cardiaque et la vigilance.",
-    "explanationAudio": "La noradrénaline prépare le corps à réagir rapidement en augmentant le rythme cardiaque et la vigilance.",
+    "explanation": "Le brossage peut répartir les huiles mais ne modifie pas le taux de division cellulaire des follicules.",
+    "explanationAudio": "Le brossage peut répartir les huiles mais ne modifie pas le taux de division cellulaire des follicules.",
     "emojis": [
-      "⚡",
-      "🧠",
-      "🏃",
+      "💇‍♀️",
+      "🪮",
       "🔬",
-      "💥",
-      "🧪",
-      "🚀"
+      "🧬",
+      "✨",
+      "❓",
+      "📏"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of norepinephrine molecules released in a neural network, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of acetylcholine interacting with a synapse, ultra realistic, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of serotonin molecules diffusing in the brain, detailed, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D close‑up of a human scalp with a brush gently moving through hair, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of hair follicles glowing with accelerated growth, stylized, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene showing a hairbrush emitting magical energy that speeds up hair strands, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle région du cerveau est responsable de la régulation des émotions de peur ?",
-    "questionAudio": "Quelle région du cerveau est responsable de la régulation des émotions de peur ?",
+    "question": "Le lait augmente il réellement la production de mucus ?",
+    "questionAudio": "Le lait augmente il réellement la production de mucus ?",
     "options": [
-      "Le cervelet",
-      "Le thalamus",
-      "L'amygdale"
+      "Oui, il stimule les glandes respiratoires",
+      "Oui, il épaissit le mucus",
+      "Non, il n’y a pas d’effet prouvé"
     ],
     "correct": 2,
-    "explanation": "L'amygdale détecte les menaces et déclenche les réponses émotionnelles liées à la peur.",
-    "explanationAudio": "L'amygdale détecte les menaces et déclenche les réponses émotionnelles liées à la peur.",
+    "explanation": "Des études montrent que le lait n’affecte pas la quantité de mucus, la sensation de gêne vient d’une texture plus épaisse.",
+    "explanationAudio": "Des études montrent que le lait n’affecte pas la quantité de mucus, la sensation de gêne vient d’une texture plus épaisse.",
     "emojis": [
-      "😱",
-      "🧠",
+      "🥛",
+      "🫁",
       "🔬",
-      "💡",
-      "⚡",
-      "🧩",
-      "🚀"
+      "💧",
+      "❓",
+      "📚",
+      "⚖️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of the cerebellum with fine texture, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the thalamus in a brain, high realism, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the amygdala highlighted in red within a brain, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D visual of respiratory glands with milk pouring over, stylized, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of thick mucus coating a throat with milk droplets, dramatic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D glass of milk beside a clear airway model, neutral lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,29 +90,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Le phénomène où le cerveau renforce les connexions synaptiques après un apprentissage répété s'appelle ?",
-    "questionAudio": "Le phénomène où le cerveau renforce les connexions synaptiques après un apprentissage répété s'appelle ?",
+    "question": "Les éclairs peuvent ils frapper le même point plusieurs fois ?",
+    "questionAudio": "Les éclairs peuvent ils frapper le même point plusieurs fois ?",
     "options": [
-      "La dépression synaptique",
-      "La potentialisation à long terme",
-      "La neurogenèse"
+      "Non, chaque point ne peut être frappé qu’une fois",
+      "Oui, surtout les structures élevées",
+      "Oui, mais seulement sur le sol"
     ],
     "correct": 1,
-    "explanation": "La potentialisation à long terme augmente l'efficacité des synapses après une stimulation répétée.",
-    "explanationAudio": "La potentialisation à long terme augmente l'efficacité des synapses après une stimulation répétée.",
+    "explanation": "Les conducteurs élevés comme les gratte‑ciel attirent de multiples décharges lors d’une même tempête.",
+    "explanationAudio": "Les conducteurs élevés comme les gratte‑ciel attirent de multiples décharges lors d’une même tempête.",
     "emojis": [
-      "📈",
-      "🧠",
-      "🔬",
-      "💡",
       "⚡",
-      "🧩",
-      "🚀"
+      "🏙️",
+      "🌩️",
+      "🔬",
+      "📡",
+      "❓",
+      "🗼"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D render showing synaptic weakening, detailed, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D visualization of synapses strengthening with bright glowing connections, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of new neurons forming in the hippocampus, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a single lightning strike on a tree, isolated, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D ultra‑realistic skyscraper being struck by multiple lightning bolts, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene showing ground with a single bolt hitting, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,89 +120,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de cellules gliales assure la myélinisation du système nerveux central ?",
-    "questionAudio": "Quel type de cellules gliales assure la myélinisation du système nerveux central ?",
+    "question": "Le sel fait fondre la glace immédiatement ?",
+    "questionAudio": "Le sel fait fondre la glace immédiatement ?",
     "options": [
-      "Les oligodendrocytes",
-      "Les astrocytes",
-      "Les cellules de Schwann"
+      "Non, il abaisse le point de congélation progressivement",
+      "Oui, il provoque une fusion instantanée",
+      "Non, il n’a aucun effet sur la glace"
     ],
     "correct": 0,
-    "explanation": "Les oligodendrocytes enroulent les axones du cerveau de gaines myéliniques pour accélérer la transmission nerveuse.",
-    "explanationAudio": "Les oligodendrocytes enroulent les axones du cerveau de gaines myéliniques pour accélérer la transmission nerveuse.",
+    "explanation": "Le sel diminue le point de congélation, ce qui fait fondre la glace quand la température est au‑dessus du nouveau point, mais ce n’est pas instantané.",
+    "explanationAudio": "Le sel diminue le point de congélation, ce qui fait fondre la glace quand la température est au‑dessus du nouveau point, mais ce n’est pas instantané.",
     "emojis": [
-      "🧬",
-      "🧠",
+      "🧂",
+      "❄️",
+      "🚗",
       "🔬",
-      "⚡",
-      "💡",
-      "🧩",
-      "🚀"
+      "🧊",
+      "⚙️",
+      "❓"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of oligodendrocytes wrapping axons with myelin sheath, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of astrocytes supporting neuronal networks, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Schwann cells myelinating peripheral nerves, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Le test psychologique qui mesure la capacité de mémoire de travail est le ?",
-    "questionAudio": "Le test psychologique qui mesure la capacité de mémoire de travail est le ?",
-    "options": [
-      "Le test n back",
-      "Le test de Stroop",
-      "Le test de Rorschach"
-    ],
-    "correct": 0,
-    "explanation": "Le test n back présente des stimuli à retenir et à reconnaître, évaluant la mémoire de travail active.",
-    "explanationAudio": "Le test n back présente des stimuli à retenir et à reconnaître, évaluant la mémoire de travail active.",
-    "emojis": [
-      "🧠",
-      "🖥️",
-      "🔬",
-      "💭",
-      "⚡",
-      "🧩",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of a computer screen showing an n back task with glowing letters, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D render of a Stroop test with colored words, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D depiction of an inkblot test (Rorschach) on a table, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Le phénomène où les souvenirs deviennent moins détaillés avec le temps s'appelle ?",
-    "questionAudio": "Le phénomène où les souvenirs deviennent moins détaillés avec le temps s'appelle ?",
-    "options": [
-      "L'effet de récence",
-      "L'oubli rétroactif",
-      "L'effet de primauté"
-    ],
-    "correct": 1,
-    "explanation": "L'oubli rétroactif désigne la perte de souvenirs anciens lorsqu'ils sont remplacés par de nouvelles informations.",
-    "explanationAudio": "L'oubli rétroactif désigne la perte de souvenirs anciens lorsqu'ils sont remplacés par de nouvelles informations.",
-    "emojis": [
-      "🕰️",
-      "🧠",
-      "🔬",
-      "💭",
-      "⚡",
-      "🧩",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene showing recent items standing out at the end of a list, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D visualization of fading memory icons drifting away from a brain, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D render illustrating the primacy effect with items at the beginning highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D close‑up of icy road surface with salt crystals dissolving ice, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of ice instantly vaporizing under a magic effect, stylized, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene of a road with sand covering ice, showing no melting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

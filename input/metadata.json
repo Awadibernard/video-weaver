@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Technologies & Inventions Scientifiques",
-  "description": "Testez vos connaissances sur les inventions qui ont changé le monde moderne.",
+  "topic": "🧠 Quiz : Neurosciences & Psychologie Scientifique",
+  "description": "Explore les mystères du cerveau et du comportement humain avec des questions scientifiques précises.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -11,203 +11,203 @@
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
     "🔬",
-    "🤖",
-    "🚀",
-    "💡",
-    "📡",
-    "🛰️",
-    "🧪"
+    "🧪",
+    "✨",
+    "🌍",
+    "⚡",
+    "🧠",
+    "🚀"
   ],
   "uiScale": 0.85,
   "questionCount": 7,
   "questions": [
     {
-      "question": "Quel scientifique a inventé le premier transistor ?",
-      "questionAudio": "Quel scientifique a inventé le premier transistor ?",
+      "question": "Quelle est la fonction principale de l'hippocampe ?",
+      "questionAudio": "Quelle est la fonction principale de l'hippocampe ?",
       "emojis": [
         "🧠",
         "🔬",
-        "⚡",
-        "🤖",
-        "💡",
-        "📡",
+        "✨",
+        "🧩",
+        "🕰️",
+        "🌐",
         "🚀"
       ],
       "options": [
-        "Walter Brattain",
-        "John Bardeen",
-        "William Shockley"
+        "La régulation du rythme cardiaque",
+        "La consolidation de la mémoire",
+        "La production de dopamine"
       ],
       "correct": 1,
-      "answer": "John Bardeen",
-      "explanation": "John Bardeen, avec ses collègues, a créé le premier transistor qui a lancé l’ère des semi conducteurs.",
-      "explanationAudio": "John Bardeen, avec ses collègues, a créé le premier transistor qui a lancé l’ère des semi conducteurs.",
+      "answer": "La consolidation de la mémoire",
+      "explanation": "L'hippocampe joue un rôle central dans la mémoire et la navigation spatiale.",
+      "explanationAudio": "L'hippocampe joue un rôle central dans la mémoire et la navigation spatiale.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A close‑up 3D model of a silicon transistor chip with light reflecting off its surfaces, photorealistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A highly detailed 3D render of John Bardeen standing beside an early transistor, cinematic lighting, photorealistic",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a laboratory bench with a vintage transistor glowing, cinematic shadows, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a human heart beating, ultra realistic, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human brain highlighting the hippocampus in blue with glowing connections, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of dopamine molecules swirling around neural synapses, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quelle invention a rendu possible le premier atterrissage sur la Lune ?",
-      "questionAudio": "Quelle invention a rendu possible le premier atterrissage sur la Lune ?",
+      "question": "Quel neurotransmetteur est principalement libéré lors de la réponse de lutte ou fuite ?",
+      "questionAudio": "Quel neurotransmetteur est principalement libéré lors de la réponse de lutte ou fuite ?",
       "emojis": [
-        "🚀",
-        "🌕",
-        "🔧",
-        "⚙️",
-        "🛰️",
+        "⚡",
+        "🧠",
+        "🏃",
+        "🔬",
         "💥",
-        "🧭"
-      ],
-      "options": [
-        "Le moteur fusée",
-        "Le module de communication",
-        "Le système de navigation inertielle"
-      ],
-      "correct": 0,
-      "answer": "Le moteur fusée",
-      "explanation": "Le moteur fusée a fourni la poussée nécessaire pour quitter la Terre et atteindre la Lune.",
-      "explanationAudio": "Le moteur fusée a fourni la poussée nécessaire pour quitter la Terre et atteindre la Lune.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a powerful rocket engine igniting, cinematic fire and smoke, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D cutaway of a rocket engine showing fuel chambers and exhaust plume, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of a lunar lander descending with thrusters firing, realistic lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel dispositif a révolutionné le stockage de données dans les années quatre‑vingt ?",
-      "questionAudio": "Quel dispositif a révolutionné le stockage de données dans les années quatre‑vingt ?",
-      "emojis": [
-        "💾",
-        "📁",
-        "🔧",
-        "⚙️",
-        "🖥️",
-        "🗄️",
-        "🚀"
-      ],
-      "options": [
-        "Le lecteur de bandes magnétiques",
-        "Le disque optique",
-        "Le disque dur"
-      ],
-      "correct": 2,
-      "answer": "Le disque dur",
-      "explanation": "Le disque dur a permis d’augmenter la capacité et la rapidité d’accès aux données numériques.",
-      "explanationAudio": "Le disque dur a permis d’augmenter la capacité et la rapidité d’accès aux données numériques.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of an open hard drive showing magnetic heads hovering over platters, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A futuristic 3D illustration of a data center rack filled with sleek hard drives, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a modern hard drive platter spinning, cinematic lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle technologie utilise des photons pour transmettre des données à très haut débit ?",
-      "questionAudio": "Quelle technologie utilise des photons pour transmettre des données à très haut débit ?",
-      "emojis": [
-        "💡",
-        "🔦",
-        "📡",
-        "⚡",
-        "🌐",
-        "🧬",
-        "🚀"
-      ],
-      "options": [
-        "Le câble coaxial",
-        "La fibre optique",
-        "Le satellite de communication"
-      ],
-      "correct": 1,
-      "answer": "La fibre optique",
-      "explanation": "La fibre optique transporte la lumière à travers du verre ou du plastique, offrant des vitesses de transmission très élevées.",
-      "explanationAudio": "La fibre optique transporte la lumière à travers du verre ou du plastique, offrant des vitesses de transmission très élevées.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of a city network with glowing fiber optic lines connecting data centers, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of a fiber optic cable with light pulses traveling inside, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a fiber optic connector being plugged into a port, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel matériau a été développé pour les panneaux solaires à haute efficacité ?",
-      "questionAudio": "Quel matériau a été développé pour les panneaux solaires à haute efficacité ?",
-      "emojis": [
-        "☀️",
-        "🔋",
-        "🌞",
-        "⚡",
         "🧪",
-        "🔬",
-        "💡"
-      ],
-      "options": [
-        "Le silicium cristallin",
-        "Le pérovskite",
-        "Le cadmium tellurure"
-      ],
-      "correct": 1,
-      "answer": "Le pérovskite",
-      "explanation": "Le pérovskite possède des propriétés optiques qui permettent de convertir la lumière en électricité avec un rendement supérieur.",
-      "explanationAudio": "Le pérovskite possède des propriétés optiques qui permettent de convertir la lumière en électricité avec un rendement supérieur.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a solar panel array with perovskite coating, realistic reflections, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D photorealistic illustration of a perovskite solar cell layer shimmering under sunlight, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A close‑up 3D rendering of perovskite crystal structure glowing, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel algorithme a permis la reconnaissance d’images par les ordinateurs ?",
-      "questionAudio": "Quel algorithme a permis la reconnaissance d’images par les ordinateurs ?",
-      "emojis": [
-        "🖼️",
-        "🤖",
-        "🧠",
-        "📊",
-        "💻",
-        "🔬",
-        "⚙️"
-      ],
-      "options": [
-        "Le tri rapide",
-        "L’algorithme génétique",
-        "Le réseau de neurones convolutifs"
-      ],
-      "correct": 2,
-      "answer": "Le réseau de neurones convolutifs",
-      "explanation": "Les réseaux de neurones convolutifs analysent les pixels en profondeur, permettant aux machines d’interpréter les images.",
-      "explanationAudio": "Les réseaux de neurones convolutifs analysent les pixels en profondeur, permettant aux machines d’interpréter les images.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of abstract neural nodes connecting over a digital landscape, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a computer screen displaying image classification results, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualisation of a convolutional neural network layers with data flowing through, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle invention a introduit le concept de réalité augmentée dans les smartphones ?",
-      "questionAudio": "Quelle invention a introduit le concept de réalité augmentée dans les smartphones ?",
-      "emojis": [
-        "📱",
-        "🕶️",
-        "🔍",
-        "🌐",
-        "💡",
-        "🤳",
         "🚀"
       ],
       "options": [
-        "Le capteur de profondeur",
-        "Le GPS avancé",
-        "Le gyroscope"
+        "La noradrénaline",
+        "L'acétylcholine",
+        "La sérotonine"
       ],
       "correct": 0,
-      "answer": "Le capteur de profondeur",
-      "explanation": "Le capteur de profondeur mesure la distance des objets, permettant de superposer des éléments virtuels sur le réel.",
-      "explanationAudio": "Le capteur de profondeur mesure la distance des objets, permettant de superposer des éléments virtuels sur le réel.",
+      "answer": "La noradrénaline",
+      "explanation": "La noradrénaline prépare le corps à réagir rapidement en augmentant le rythme cardiaque et la vigilance.",
+      "explanationAudio": "La noradrénaline prépare le corps à réagir rapidement en augmentant le rythme cardiaque et la vigilance.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a smartphone with a depth sensor emitting infrared pattern, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A close‑up 3D model of a depth sensor module inside a sleek smartphone, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an augmented reality scene where virtual objects interact with real world captured by a phone, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of norepinephrine molecules released in a neural network, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of acetylcholine interacting with a synapse, ultra realistic, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of serotonin molecules diffusing in the brain, detailed, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle région du cerveau est responsable de la régulation des émotions de peur ?",
+      "questionAudio": "Quelle région du cerveau est responsable de la régulation des émotions de peur ?",
+      "emojis": [
+        "😱",
+        "🧠",
+        "🔬",
+        "💡",
+        "⚡",
+        "🧩",
+        "🚀"
+      ],
+      "options": [
+        "Le cervelet",
+        "Le thalamus",
+        "L'amygdale"
+      ],
+      "correct": 2,
+      "answer": "L'amygdale",
+      "explanation": "L'amygdale détecte les menaces et déclenche les réponses émotionnelles liées à la peur.",
+      "explanationAudio": "L'amygdale détecte les menaces et déclenche les réponses émotionnelles liées à la peur.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of the cerebellum with fine texture, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the thalamus in a brain, high realism, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of the amygdala highlighted in red within a brain, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Le phénomène où le cerveau renforce les connexions synaptiques après un apprentissage répété s'appelle ?",
+      "questionAudio": "Le phénomène où le cerveau renforce les connexions synaptiques après un apprentissage répété s'appelle ?",
+      "emojis": [
+        "📈",
+        "🧠",
+        "🔬",
+        "💡",
+        "⚡",
+        "🧩",
+        "🚀"
+      ],
+      "options": [
+        "La dépression synaptique",
+        "La potentialisation à long terme",
+        "La neurogenèse"
+      ],
+      "correct": 1,
+      "answer": "La potentialisation à long terme",
+      "explanation": "La potentialisation à long terme augmente l'efficacité des synapses après une stimulation répétée.",
+      "explanationAudio": "La potentialisation à long terme augmente l'efficacité des synapses après une stimulation répétée.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D render showing synaptic weakening, detailed, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D visualization of synapses strengthening with bright glowing connections, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of new neurons forming in the hippocampus, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type de cellules gliales assure la myélinisation du système nerveux central ?",
+      "questionAudio": "Quel type de cellules gliales assure la myélinisation du système nerveux central ?",
+      "emojis": [
+        "🧬",
+        "🧠",
+        "🔬",
+        "⚡",
+        "💡",
+        "🧩",
+        "🚀"
+      ],
+      "options": [
+        "Les oligodendrocytes",
+        "Les astrocytes",
+        "Les cellules de Schwann"
+      ],
+      "correct": 0,
+      "answer": "Les oligodendrocytes",
+      "explanation": "Les oligodendrocytes enroulent les axones du cerveau de gaines myéliniques pour accélérer la transmission nerveuse.",
+      "explanationAudio": "Les oligodendrocytes enroulent les axones du cerveau de gaines myéliniques pour accélérer la transmission nerveuse.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of oligodendrocytes wrapping axons with myelin sheath, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of astrocytes supporting neuronal networks, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Schwann cells myelinating peripheral nerves, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Le test psychologique qui mesure la capacité de mémoire de travail est le ?",
+      "questionAudio": "Le test psychologique qui mesure la capacité de mémoire de travail est le ?",
+      "emojis": [
+        "🧠",
+        "🖥️",
+        "🔬",
+        "💭",
+        "⚡",
+        "🧩",
+        "🚀"
+      ],
+      "options": [
+        "Le test n back",
+        "Le test de Stroop",
+        "Le test de Rorschach"
+      ],
+      "correct": 0,
+      "answer": "Le test n back",
+      "explanation": "Le test n back présente des stimuli à retenir et à reconnaître, évaluant la mémoire de travail active.",
+      "explanationAudio": "Le test n back présente des stimuli à retenir et à reconnaître, évaluant la mémoire de travail active.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of a computer screen showing an n back task with glowing letters, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a Stroop test with colored words, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D depiction of an inkblot test (Rorschach) on a table, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Le phénomène où les souvenirs deviennent moins détaillés avec le temps s'appelle ?",
+      "questionAudio": "Le phénomène où les souvenirs deviennent moins détaillés avec le temps s'appelle ?",
+      "emojis": [
+        "🕰️",
+        "🧠",
+        "🔬",
+        "💭",
+        "⚡",
+        "🧩",
+        "🚀"
+      ],
+      "options": [
+        "L'effet de récence",
+        "L'oubli rétroactif",
+        "L'effet de primauté"
+      ],
+      "correct": 1,
+      "answer": "L'oubli rétroactif",
+      "explanation": "L'oubli rétroactif désigne la perte de souvenirs anciens lorsqu'ils sont remplacés par de nouvelles informations.",
+      "explanationAudio": "L'oubli rétroactif désigne la perte de souvenirs anciens lorsqu'ils sont remplacés par de nouvelles informations.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene showing recent items standing out at the end of a list, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D visualization of fading memory icons drifting away from a brain, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render illustrating the primacy effect with items at the beginning highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

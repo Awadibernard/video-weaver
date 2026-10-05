@@ -1,28 +1,28 @@
 [
   {
-    "question": "Quelle force principale génère les marées sur Terre ?",
-    "questionAudio": "Quelle force principale génère les marées sur Terre ?",
+    "question": "Quel scientifique a inventé le premier transistor ?",
+    "questionAudio": "Quel scientifique a inventé le premier transistor ?",
     "options": [
-      "Le déplacement des continents",
-      "L'attraction gravitationnelle de la Lune",
-      "Le vent solaire"
+      "Walter Brattain",
+      "John Bardeen",
+      "William Shockley"
     ],
     "correct": 1,
-    "explanation": "L'attraction gravitationnelle de la Lune crée des variations du niveau de la mer appelées marées.",
-    "explanationAudio": "L'attraction gravitationnelle de la Lune crée des variations du niveau de la mer appelées marées.",
+    "explanation": "John Bardeen, avec ses collègues, a créé le premier transistor qui a lancé l’ère des semi conducteurs.",
+    "explanationAudio": "John Bardeen, avec ses collègues, a créé le premier transistor qui a lancé l’ère des semi conducteurs.",
     "emojis": [
-      "🌊",
-      "🌙",
-      "🌍",
-      "📅",
-      "🌐",
-      "🌀",
-      "⏳"
+      "🧠",
+      "🔬",
+      "⚡",
+      "🤖",
+      "💡",
+      "📡",
+      "🚀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of tectonic plates shifting over time, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of Earth’s oceans with lunar gravity vectors visualized, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of solar wind streams interacting with Earth’s magnetosphere, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A close‑up 3D model of a silicon transistor chip with light reflecting off its surfaces, photorealistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A highly detailed 3D render of John Bardeen standing beside an early transistor, cinematic lighting, photorealistic",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a laboratory bench with a vintage transistor glowing, cinematic shadows, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,59 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle couche interne de la Terre est liquide ?",
-    "questionAudio": "Quelle couche interne de la Terre est liquide ?",
+    "question": "Quelle invention a rendu possible le premier atterrissage sur la Lune ?",
+    "questionAudio": "Quelle invention a rendu possible le premier atterrissage sur la Lune ?",
     "options": [
-      "Le manteau",
-      "Le noyau externe",
-      "La croûte terrestre"
-    ],
-    "correct": 1,
-    "explanation": "Le noyau externe est composé de fer et de nickel en état liquide, générant le champ magnétique terrestre.",
-    "explanationAudio": "Le noyau externe est composé de fer et de nickel en état liquide, générant le champ magnétique terrestre.",
-    "emojis": [
-      "🪨",
-      "🔥",
-      "🌍",
-      "⚙️",
-      "🔎",
-      "💎",
-      "🌡️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of the mantle’s solid rock layers, textured and lit, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑detail 3D cross‑section of Earth showing the liquid outer core glowing orange, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D surface view of Earth’s crust with continents and oceans, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel type de roche se forme lorsque le magma refroidit rapidement à la surface ?",
-    "questionAudio": "Quel type de roche se forme lorsque le magma refroidit rapidement à la surface ?",
-    "options": [
-      "Roche ignée",
-      "Roche métamorphique",
-      "Roche sédimentaire"
+      "Le moteur fusée",
+      "Le module de communication",
+      "Le système de navigation inertielle"
     ],
     "correct": 0,
-    "explanation": "Les roches ignées se cristallisent rapidement à la surface, donnant des textures fines comme le basalte.",
-    "explanationAudio": "Les roches ignées se cristallisent rapidement à la surface, donnant des textures fines comme le basalte.",
+    "explanation": "Le moteur fusée a fourni la poussée nécessaire pour quitter la Terre et atteindre la Lune.",
+    "explanationAudio": "Le moteur fusée a fourni la poussée nécessaire pour quitter la Terre et atteindre la Lune.",
     "emojis": [
-      "🪨",
-      "🌋",
-      "🔥",
-      "🔬",
-      "📐",
-      "🖼️",
+      "🚀",
+      "🌕",
+      "🔧",
+      "⚙️",
+      "🛰️",
+      "💥",
       "🧭"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of basaltic lava flow solidifying into igneous rock, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of metamorphic rock formation under pressure, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of layered sedimentary rock cliffs, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a powerful rocket engine igniting, cinematic fire and smoke, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D cutaway of a rocket engine showing fuel chambers and exhaust plume, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of a lunar lander descending with thrusters firing, realistic lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,29 +60,59 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel phénomène crée les aurores boréales dans les régions polaires ?",
-    "questionAudio": "Quel phénomène crée les aurores boréales dans les régions polaires ?",
+    "question": "Quel dispositif a révolutionné le stockage de données dans les années quatre‑vingt ?",
+    "questionAudio": "Quel dispositif a révolutionné le stockage de données dans les années quatre‑vingt ?",
     "options": [
-      "Les éruptions volcaniques sous‑marines",
-      "L'interaction des particules solaires avec la magnétosphère terrestre",
-      "La réflexion de la lumière de la Lune sur la neige"
+      "Le lecteur de bandes magnétiques",
+      "Le disque optique",
+      "Le disque dur"
+    ],
+    "correct": 2,
+    "explanation": "Le disque dur a permis d’augmenter la capacité et la rapidité d’accès aux données numériques.",
+    "explanationAudio": "Le disque dur a permis d’augmenter la capacité et la rapidité d’accès aux données numériques.",
+    "emojis": [
+      "💾",
+      "📁",
+      "🔧",
+      "⚙️",
+      "🖥️",
+      "🗄️",
+      "🚀"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D render of an open hard drive showing magnetic heads hovering over platters, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A futuristic 3D illustration of a data center rack filled with sleek hard drives, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D close‑up of a modern hard drive platter spinning, cinematic lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle technologie utilise des photons pour transmettre des données à très haut débit ?",
+    "questionAudio": "Quelle technologie utilise des photons pour transmettre des données à très haut débit ?",
+    "options": [
+      "Le câble coaxial",
+      "La fibre optique",
+      "Le satellite de communication"
     ],
     "correct": 1,
-    "explanation": "Les particules chargées du Soleil entrent en contact avec la magnétosphère et excitent les molécules d'air, produisant des lumières colorées.",
-    "explanationAudio": "Les particules chargées du Soleil entrent en contact avec la magnétosphère et excitent les molécules d'air, produisant des lumières colorées.",
+    "explanation": "La fibre optique transporte la lumière à travers du verre ou du plastique, offrant des vitesses de transmission très élevées.",
+    "explanationAudio": "La fibre optique transporte la lumière à travers du verre ou du plastique, offrant des vitesses de transmission très élevées.",
     "emojis": [
-      "🌌",
-      "❄️",
-      "🧲",
+      "💡",
+      "🔦",
+      "📡",
       "⚡",
-      "🌟",
-      "🛰️",
-      "📡"
+      "🌐",
+      "🧬",
+      "🚀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D underwater scene of a submarine volcanic eruption, glowing particles, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D night sky over the Arctic with vibrant aurora borealis, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of moonlight reflecting off snowy terrain, soft glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of a city network with glowing fiber optic lines connecting data centers, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of a fiber optic cable with light pulses traveling inside, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a fiber optic connector being plugged into a port, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,59 +120,89 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel gaz constitue la majorité de l'atmosphère terrestre ?",
-    "questionAudio": "Quel gaz constitue la majorité de l'atmosphère terrestre ?",
+    "question": "Quel matériau a été développé pour les panneaux solaires à haute efficacité ?",
+    "questionAudio": "Quel matériau a été développé pour les panneaux solaires à haute efficacité ?",
     "options": [
-      "Oxygène",
-      "Dioxyde de carbone",
-      "Azote"
+      "Le silicium cristallin",
+      "Le pérovskite",
+      "Le cadmium tellurure"
     ],
-    "correct": 2,
-    "explanation": "L'azote représente environ quatre‑vingt‑cinq pour cent de l'air que nous respirons.",
-    "explanationAudio": "L'azote représente environ quatre‑vingt‑cinq pour cent de l'air que nous respirons.",
+    "correct": 1,
+    "explanation": "Le pérovskite possède des propriétés optiques qui permettent de convertir la lumière en électricité avec un rendement supérieur.",
+    "explanationAudio": "Le pérovskite possède des propriétés optiques qui permettent de convertir la lumière en électricité avec un rendement supérieur.",
     "emojis": [
-      "🌬️",
-      "🧪",
-      "📊",
-      "🔬",
-      "🌿",
-      "🏞️",
-      "🧭"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of oxygen molecules in a forest environment, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑detail 3D illustration of carbon dioxide concentration over urban areas, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D visualization of Earth's atmosphere layers highlighting nitrogen molecules, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel processus permet aux forêts de capturer le carbone de l'atmosphère ?",
-    "questionAudio": "Quel processus permet aux forêts de capturer le carbone de l'atmosphère ?",
-    "options": [
-      "L'érosion du sol",
-      "La respiration cellulaire",
-      "La photosynthèse"
-    ],
-    "correct": 2,
-    "explanation": "La photosynthèse utilise le dioxyde de carbone et la lumière pour créer des sucres, stockant ainsi le carbone dans la biomasse végétale.",
-    "explanationAudio": "La photosynthèse utilise le dioxyde de carbone et la lumière pour créer des sucres, stockant ainsi le carbone dans la biomasse végétale.",
-    "emojis": [
-      "🌳",
       "☀️",
-      "🍃",
+      "🔋",
+      "🌞",
+      "⚡",
+      "🧪",
       "🔬",
-      "📚",
-      "💧",
-      "🌎"
+      "💡"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of soil erosion on a hillside, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of cellular respiration in plant roots, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D forest scene showing sunlight driving photosynthesis in leaves, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a solar panel array with perovskite coating, realistic reflections, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic illustration of a perovskite solar cell layer shimmering under sunlight, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A close‑up 3D rendering of perovskite crystal structure glowing, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel algorithme a permis la reconnaissance d’images par les ordinateurs ?",
+    "questionAudio": "Quel algorithme a permis la reconnaissance d’images par les ordinateurs ?",
+    "options": [
+      "Le tri rapide",
+      "L’algorithme génétique",
+      "Le réseau de neurones convolutifs"
+    ],
+    "correct": 2,
+    "explanation": "Les réseaux de neurones convolutifs analysent les pixels en profondeur, permettant aux machines d’interpréter les images.",
+    "explanationAudio": "Les réseaux de neurones convolutifs analysent les pixels en profondeur, permettant aux machines d’interpréter les images.",
+    "emojis": [
+      "🖼️",
+      "🤖",
+      "🧠",
+      "📊",
+      "💻",
+      "🔬",
+      "⚙️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of abstract neural nodes connecting over a digital landscape, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a computer screen displaying image classification results, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualisation of a convolutional neural network layers with data flowing through, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle invention a introduit le concept de réalité augmentée dans les smartphones ?",
+    "questionAudio": "Quelle invention a introduit le concept de réalité augmentée dans les smartphones ?",
+    "options": [
+      "Le capteur de profondeur",
+      "Le GPS avancé",
+      "Le gyroscope"
+    ],
+    "correct": 0,
+    "explanation": "Le capteur de profondeur mesure la distance des objets, permettant de superposer des éléments virtuels sur le réel.",
+    "explanationAudio": "Le capteur de profondeur mesure la distance des objets, permettant de superposer des éléments virtuels sur le réel.",
+    "emojis": [
+      "📱",
+      "🕶️",
+      "🔍",
+      "🌐",
+      "💡",
+      "🤳",
+      "🚀"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a smartphone with a depth sensor emitting infrared pattern, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A close‑up 3D model of a depth sensor module inside a sleek smartphone, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an augmented reality scene where virtual objects interact with real world captured by a phone, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

@@ -1,159 +1,186 @@
 {
-  "topic": "🧠 Quiz : Science du Quotidien & Idées Reçues",
-  "description": "Démêle les mythes du quotidien avec la science.",
+  "topic": "🧠 Quiz : Science de la Cuisine & Alimentation",
+  "description": "Découvrez les secrets scientifiques qui transforment votre cuisine quotidienne.",
   "hashtags": [
     "#science",
     "#quiz",
-    "#cultureg"
+    "#cuisine"
   ],
   "motif": "science",
   "cta": "Abonne toi pour en apprendre plus !",
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
     "🔬",
+    "🍳",
+    "🥼",
+    "📚",
     "🧪",
-    "✨",
-    "🌍",
-    "⚡",
-    "🧠",
-    "🚀"
+    "⚗️",
+    "🌡️"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Les micro ondes rendent les aliments radioactifs ?",
-      "questionAudio": "Les micro ondes rendent les aliments radioactifs ?",
+      "question": "Quel processus chimique fait lever le pain grâce à la production de dioxyde de carbone par les levures ?",
+      "questionAudio": "Quel processus chimique fait lever le pain grâce à la production de dioxyde de carbone par les levures ?",
       "emojis": [
-        "📡",
-        "🍲",
-        "⚡",
-        "🔬",
-        "🧪",
-        "💡",
-        "❓"
+        "🍞",
+        "🧫",
+        "🌾",
+        "🦠",
+        "💨",
+        "🔥",
+        "🥖"
       ],
       "options": [
-        "Oui, elles transforment les aliments en source de rayonnement",
-        "Non, les micro ondes chauffent les molécules d’eau",
-        "Oui, elles augmentent le niveau de radioactivité du plat"
-      ],
-      "correct": 1,
-      "answer": "Non, les micro ondes chauffent les molécules d’eau",
-      "explanation": "Les micro ondes utilisent des ondes électromagnétiques qui excitent les molécules d’eau, sans créer de radioactivité.",
-      "explanationAudio": "Les micro ondes utilisent des ondes électromagnétiques qui excitent les molécules d’eau, sans créer de radioactivité.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a glowing radioactive food item emitting green radiation, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D kitchen scene with a microwave oven emitting blue waves that heat a bowl of water, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visual of a dish surrounded by hazardous radiation symbols and a glowing aura, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Se brosser les cheveux accélère t il leur croissance ?",
-      "questionAudio": "Se brosser les cheveux accélère t il leur croissance ?",
-      "emojis": [
-        "💇‍♀️",
-        "🪮",
-        "🔬",
-        "🧬",
-        "✨",
-        "❓",
-        "📏"
-      ],
-      "options": [
-        "Non, le brossage n’influence pas la vitesse de croissance",
-        "Oui, il stimule le cuir chevelu",
-        "Oui, il augmente le flux sanguin et accélère la pousse"
+        "Fermentation des levures produisant du dioxyde de carbone",
+        "Caramélisation des sucres",
+        "Oxydation des graisses"
       ],
       "correct": 0,
-      "answer": "Non, le brossage n’influence pas la vitesse de croissance",
-      "explanation": "Le brossage peut répartir les huiles mais ne modifie pas le taux de division cellulaire des follicules.",
-      "explanationAudio": "Le brossage peut répartir les huiles mais ne modifie pas le taux de division cellulaire des follicules.",
+      "answer": "Fermentation des levures produisant du dioxyde de carbone",
+      "explanation": "La fermentation des levures transforme les sucres en dioxyde de carbone, ce qui crée des bulles et fait lever la pâte.",
+      "explanationAudio": "La fermentation des levures transforme les sucres en dioxyde de carbone, ce qui crée des bulles et fait lever la pâte.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a human scalp with a brush gently moving through hair, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of hair follicles glowing with accelerated growth, stylized, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene showing a hairbrush emitting magical energy that speeds up hair strands, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a dough rising in a glass bowl, yeast cells glowing, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of caramelized sugar crystals on a pan, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of oxidized fat droplets in a pan, realistic shading, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Le lait augmente il réellement la production de mucus ?",
-      "questionAudio": "Le lait augmente il réellement la production de mucus ?",
+      "question": "Quelle protéine principale des blancs d’œuf coagule lors de la cuisson ?",
+      "questionAudio": "Quelle protéine principale des blancs d’œuf coagule lors de la cuisson ?",
       "emojis": [
-        "🥛",
-        "🫁",
+        "🥚",
         "🔬",
-        "💧",
-        "❓",
-        "📚",
-        "⚖️"
+        "⚛️",
+        "🔥",
+        "🧪",
+        "📊",
+        "🍳"
       ],
       "options": [
-        "Oui, il stimule les glandes respiratoires",
-        "Oui, il épaissit le mucus",
-        "Non, il n’y a pas d’effet prouvé"
+        "Lactalbumine",
+        "Ovalbumine",
+        "Collagène"
+      ],
+      "correct": 1,
+      "answer": "Ovalbumine",
+      "explanation": "L'ovalbumine représente plus de la moitié des protéines du blanc d’œuf et forme un réseau solide quand elle est chauffée.",
+      "explanationAudio": "L'ovalbumine représente plus de la moitié des protéines du blanc d’œuf et forme un réseau solide quand elle est chauffée.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D render of lactalbumin structure in a liquid, realistic texture, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of an egg white being heated, ovalbumin molecules highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of collagen fibers in a broth, photorealistic, cinematic ambiance, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel composé responsable de l’amertume apparaît lorsque le brocoli est trop cuit ?",
+      "questionAudio": "Quel composé responsable de l’amertume apparaît lorsque le brocoli est trop cuit ?",
+      "emojis": [
+        "🥦",
+        "🧪",
+        "⚗️",
+        "🔥",
+        "🧬",
+        "👃",
+        "💧"
+      ],
+      "options": [
+        "Composés de glucosinolates décomposés",
+        "Caramélisation des sucres",
+        "Oxydation des chlorophylles"
+      ],
+      "correct": 0,
+      "answer": "Composés de glucosinolates décomposés",
+      "explanation": "La décomposition des glucosinolates libère des substances amères qui se développent lors d’une cuisson excessive du brocoli.",
+      "explanationAudio": "La décomposition des glucosinolates libère des substances amères qui se développent lors d’une cuisson excessive du brocoli.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of broccoli florets with broken glucosinolate molecules releasing bitter compounds, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of sugar crystals caramelizing on a vegetable surface, photorealistic, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of chlorophyll molecules oxidizing in green vegetables, realistic shading, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle méthode de cuisson conserve le plus la vitamine C des légumes ?",
+      "questionAudio": "Quelle méthode de cuisson conserve le plus la vitamine C des légumes ?",
+      "emojis": [
+        "🥕",
+        "🫑",
+        "💧",
+        "🔥",
+        "🌬️",
+        "🥦",
+        "🍲"
+      ],
+      "options": [
+        "Friture",
+        "Grillage",
+        "Cuisson à la vapeur"
       ],
       "correct": 2,
-      "answer": "Non, il n’y a pas d’effet prouvé",
-      "explanation": "Des études montrent que le lait n’affecte pas la quantité de mucus, la sensation de gêne vient d’une texture plus épaisse.",
-      "explanationAudio": "Des études montrent que le lait n’affecte pas la quantité de mucus, la sensation de gêne vient d’une texture plus épaisse.",
+      "answer": "Cuisson à la vapeur",
+      "explanation": "La cuisson à la vapeur expose les légumes à la chaleur sans les immerger dans l’eau, limitant la perte de vitamine C.",
+      "explanationAudio": "La cuisson à la vapeur expose les légumes à la chaleur sans les immerger dans l’eau, limitant la perte de vitamine C.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D visual of respiratory glands with milk pouring over, stylized, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of thick mucus coating a throat with milk droplets, dramatic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D glass of milk beside a clear airway model, neutral lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D render of vegetables being deep‑fried in bubbling oil, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of vegetables on a grill with char marks, photorealistic, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D scene of vegetables inside a steam basket, gentle vapor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Les éclairs peuvent ils frapper le même point plusieurs fois ?",
-      "questionAudio": "Les éclairs peuvent ils frapper le même point plusieurs fois ?",
-      "emojis": [
-        "⚡",
-        "🏙️",
-        "🌩️",
-        "🔬",
-        "📡",
-        "❓",
-        "🗼"
-      ],
-      "options": [
-        "Non, chaque point ne peut être frappé qu’une fois",
-        "Oui, surtout les structures élevées",
-        "Oui, mais seulement sur le sol"
-      ],
-      "correct": 1,
-      "answer": "Oui, surtout les structures élevées",
-      "explanation": "Les conducteurs élevés comme les gratte‑ciel attirent de multiples décharges lors d’une même tempête.",
-      "explanationAudio": "Les conducteurs élevés comme les gratte‑ciel attirent de multiples décharges lors d’une même tempête.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a single lightning strike on a tree, isolated, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D ultra‑realistic skyscraper being struck by multiple lightning bolts, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene showing ground with a single bolt hitting, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Le sel fait fondre la glace immédiatement ?",
-      "questionAudio": "Le sel fait fondre la glace immédiatement ?",
+      "question": "Pourquoi l’ajout de sel à l’eau augmente son point d’ébullition ?",
+      "questionAudio": "Pourquoi l’ajout de sel à l’eau augmente son point d’ébullition ?",
       "emojis": [
         "🧂",
-        "❄️",
-        "🚗",
+        "💧",
+        "📈",
+        "⚗️",
+        "🌡️",
         "🔬",
-        "🧊",
-        "⚙️",
-        "❓"
+        "💭"
       ],
       "options": [
-        "Non, il abaisse le point de congélation progressivement",
-        "Oui, il provoque une fusion instantanée",
-        "Non, il n’a aucun effet sur la glace"
+        "Réaction chimique avec l’eau",
+        "Propriété colligative",
+        "Augmentation de la pression atmosphérique"
       ],
-      "correct": 0,
-      "answer": "Non, il abaisse le point de congélation progressivement",
-      "explanation": "Le sel diminue le point de congélation, ce qui fait fondre la glace quand la température est au‑dessus du nouveau point, mais ce n’est pas instantané.",
-      "explanationAudio": "Le sel diminue le point de congélation, ce qui fait fondre la glace quand la température est au‑dessus du nouveau point, mais ce n’est pas instantané.",
+      "correct": 1,
+      "answer": "Propriété colligative",
+      "explanation": "Le sel dissous crée une solution qui élève le point d’ébullition grâce à une propriété colligative liée au nombre de particules en solution.",
+      "explanationAudio": "Le sel dissous crée une solution qui élève le point d’ébullition grâce à une propriété colligative liée au nombre de particules en solution.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of icy road surface with salt crystals dissolving ice, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of ice instantly vaporizing under a magic effect, stylized, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a road with sand covering ice, showing no melting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a chemical reaction between sodium chloride and water, photorealistic, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of salt crystals dissolving in water, showing particle distribution, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of atmospheric pressure gauge rising, realistic textures, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel pigment donne la couleur rouge à la viande cuite ?",
+      "questionAudio": "Quel pigment donne la couleur rouge à la viande cuite ?",
+      "emojis": [
+        "🥩",
+        "🔬",
+        "🩸",
+        "🔥",
+        "🧬",
+        "🍖",
+        "📊"
+      ],
+      "options": [
+        "Hémoglobine",
+        "Myoglobine",
+        "Collagène"
+      ],
+      "correct": 1,
+      "answer": "Myoglobine",
+      "explanation": "La myoglobine, présente dans les fibres musculaires, est responsable de la teinte rouge lorsqu’elle est chauffée.",
+      "explanationAudio": "La myoglobine, présente dans les fibres musculaires, est responsable de la teinte rouge lorsqu’elle est chauffée.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D model of hemoglobin inside red blood cells, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of myoglobin molecules in muscle tissue, glowing red, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of collagen fibers in a steak, photorealistic, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

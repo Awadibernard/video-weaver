@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Science du Sport & Biomécanique",
-  "description": "Découvrez les secrets du corps en mouvement grâce à la biomécanique et à la science du sport.",
+  "topic": "🧠 Quiz : Paléontologie & Histoire de la Terre",
+  "description": "Teste tes connaissances sur les fossiles, les ères géologiques et les créatures disparues qui ont façonné notre planète.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,195 +19,168 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 7,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Quel type de fibre musculaire est le plus sollicité lors d'un sprint de courte durée ?",
-      "questionAudio": "Quel type de fibre musculaire est le plus sollicité lors d'un sprint de courte durée ?",
+      "question": "Quel groupe de dinosaures dominait les continents durant le Jurassique supérieur ?",
+      "questionAudio": "Quel groupe de dinosaures dominait les continents durant le Jurassique supérieur ?",
       "emojis": [
-        "🏃‍♂️",
-        "⚡",
-        "💨",
-        "🏅",
-        "🦵",
+        "🦕",
+        "🌍",
+        "🦖",
+        "📅",
+        "🪨",
         "🔬",
-        "📊"
+        "🌋"
       ],
       "options": [
-        "Fibres de type IIx",
-        "Fibres de type IIa",
-        "Fibres de type I"
+        "Les sauropodes",
+        "Les ornithischiens",
+        "Les théropodes"
       ],
       "correct": 0,
-      "answer": "Fibres de type IIx",
-      "explanation": "Les fibres de type IIx sont les plus rapides et sont recrutées pour les efforts explosifs comme le sprint.",
-      "explanationAudio": "Les fibres de type IIx sont les plus rapides et sont recrutées pour les efforts explosifs comme le sprint.",
+      "answer": "Les sauropodes",
+      "explanation": "Les sauropodes, avec leurs tailles gigantesques, étaient les herbivores les plus répandus au Jurassique supérieur.",
+      "explanationAudio": "Les sauropodes, avec leurs tailles gigantesques, étaient les herbivores les plus répandus au Jurassique supérieur.",
       "imagePrompts": [
-        "A highly detailed 3D render of fast glycolytic muscle fibers highlighted in red, cinematic lighting, photorealistic",
-        "A hyper-realistic photorealistic 3D render of A 3D model showing intermediate muscle fibers with mixed coloration, high resolution, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of slow oxidative muscle fibers in blue, realistic texture, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A massive 3D sauropod walking across a floodplain, realistic textures, dramatic sunrise, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D ornithischian herbivore grazing near a riverbank, high‑resolution, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a theropod dinosaur hunting in a dense Jurassic forest, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel phénomène décrit la force exercée par le sol sur le pied lors de la phase d'appui en course ?",
-      "questionAudio": "Quel phénomène décrit la force exercée par le sol sur le pied lors de la phase d'appui en course ?",
+      "question": "Quel événement a marqué la fin du Permien il y a environ deux cent cinquante millions d'années ?",
+      "questionAudio": "Quel événement a marqué la fin du Permien il y a environ deux cent cinquante millions d'années ?",
       "emojis": [
-        "👟",
-        "🏃‍♀️",
-        "🟢",
-        "📐",
-        "🔎",
-        "⚙️",
-        "🧭"
+        "🌋",
+        "🪨",
+        "📆",
+        "🦖",
+        "🌍",
+        "🔥",
+        "🧪"
       ],
       "options": [
-        "Force de réaction du sol",
-        "Force d'inertie",
-        "Force de gravité"
+        "Le premier vol des ptérosaures",
+        "L'extinction massive du Permien",
+        "L'apparition des premiers mammifères"
       ],
-      "correct": 0,
-      "answer": "Force de réaction du sol",
-      "explanation": "La force de réaction du sol est la réponse du sol à la pression exercée par le pied, essentielle pour la propulsion.",
-      "explanationAudio": "La force de réaction du sol est la réponse du sol à la pression exercée par le pied, essentielle pour la propulsion.",
+      "correct": 1,
+      "answer": "L'extinction massive du Permien",
+      "explanation": "L'extinction du Permien a éliminé plus de soixante‑dix pour cent des espèces marines et terrestres.",
+      "explanationAudio": "L'extinction du Permien a éliminé plus de soixante‑dix pour cent des espèces marines et terrestres.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of a foot striking a track surface, showing ground reaction force vectors in bright colors, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a runner illustrating inertial forces, abstract representation, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene depicting gravitational pull on a runner, realistic lighting, scientific illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of early pterosaur gliding over a Permian coastline, realistic textures, cinematic view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A dramatic 3D visualization of volcanic eruptions and toxic gases covering the Permian landscape, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D scene of the first small mammal emerging from a burrow in a Permian forest, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Comment appelle‑t‑on la capacité maximale d'oxygène que le corps peut consommer pendant un effort intense ?",
-      "questionAudio": "Comment appelle‑t‑on la capacité maximale d'oxygène que le corps peut consommer pendant un effort intense ?",
+      "question": "Quel type de roche contient généralement les fossiles de trilobites ?",
+      "questionAudio": "Quel type de roche contient généralement les fossiles de trilobites ?",
       "emojis": [
-        "🫁",
-        "❤️",
-        "📈",
-        "⚡",
-        "🏃‍♂️",
+        "🪨",
+        "🦐",
+        "📚",
+        "🌊",
         "🔬",
-        "📊"
+        "🌍",
+        "🏞️"
       ],
       "options": [
-        "VO2 max",
-        "Fréquence cardiaque maximale",
-        "Seuil lactique"
+        "Roche métamorphique",
+        "Roche ignée",
+        "Roche sédimentaire"
       ],
-      "correct": 0,
-      "answer": "VO2 max",
-      "explanation": "Le VO2 max mesure la quantité maximale d'oxygène que le corps peut absorber et utiliser lors d'un exercice maximal.",
-      "explanationAudio": "Le VO2 max mesure la quantité maximale d'oxygène que le corps peut absorber et utiliser lors d'un exercice maximal.",
+      "correct": 2,
+      "answer": "Roche sédimentaire",
+      "explanation": "Les trilobites se fossilisent le plus souvent dans des sédiments marins qui se transforment en roche sédimentaire.",
+      "explanationAudio": "Les trilobites se fossilisent le plus souvent dans des sédiments marins qui se transforment en roche sédimentaire.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D photorealistic illustration of lungs and blood vessels with oxygen flow highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a heart with maximal heart rate indicators, realistic textures, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D graphic showing lactate threshold curves, scientific style, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of metamorphic rock with folded textures, realistic shading, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of igneous rock formation with glowing magma, high detail, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cross‑section of sedimentary rock layers revealing a trilobite fossil, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel type de levier représente le genou lors de l'extension du tibia ?",
-      "questionAudio": "Quel type de levier représente le genou lors de l'extension du tibia ?",
+      "question": "Quelle période géologique a vu l'apparition des premiers arbres à graines ?",
+      "questionAudio": "Quelle période géologique a vu l'apparition des premiers arbres à graines ?",
       "emojis": [
-        "🦵",
-        "⚙️",
-        "📐",
-        "🔧",
-        "🏋️‍♀️",
-        "🧬",
+        "🌳",
+        "📅",
+        "🦕",
+        "🪨",
+        "🌍",
+        "🔬",
+        "🍃"
+      ],
+      "options": [
+        "Le Carbonifère",
+        "Le Trias",
+        "Le Dévonien"
+      ],
+      "correct": 2,
+      "answer": "Le Dévonien",
+      "explanation": "Les premiers progymnospermes, ancêtres des arbres à graines, sont apparus au Dévonien tardif.",
+      "explanationAudio": "Les premiers progymnospermes, ancêtres des arbres à graines, sont apparus au Dévonien tardif.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A dense 3D Carboniferous swamp with giant lycopsids, photorealistic, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D early Triassic landscape with primitive conifers, realistic textures, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A lush 3D Devonian forest with early seed plants, cinematic lighting, ultra‑realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel phénomène explique la formation des couches de charbon ?",
+      "questionAudio": "Quel phénomène explique la formation des couches de charbon ?",
+      "emojis": [
+        "🌿",
+        "🪨",
+        "🔥",
+        "📚",
+        "🌍",
+        "🏞️",
         "🔬"
       ],
       "options": [
-        "Levier de première classe",
-        "Levier de deuxième classe",
-        "Levier de troisième classe"
-      ],
-      "correct": 2,
-      "answer": "Levier de troisième classe",
-      "explanation": "Le genou agit comme un levier de troisième classe, où la force appliquée se trouve entre le point d'appui et la charge.",
-      "explanationAudio": "Le genou agit comme un levier de troisième classe, où la force appliquée se trouve entre le point d'appui et la charge.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of a first class lever like a seesaw, detailed textures, scientific visualization, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a second class lever using a wheelbarrow analogy, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a human knee joint showing lever mechanics in third class, realistic anatomy, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel métabolite s'accumule principalement dans les muscles pendant un effort anaérobie prolongé ?",
-      "questionAudio": "Quel métabolite s'accumule principalement dans les muscles pendant un effort anaérobie prolongé ?",
-      "emojis": [
-        "🧪",
-        "💪",
-        "⚡",
-        "🔬",
-        "📊",
-        "🦾",
-        "🔎"
-      ],
-      "options": [
-        "Acide lactique",
-        "Créatine phosphate",
-        "ATP"
-      ],
-      "correct": 0,
-      "answer": "Acide lactique",
-      "explanation": "L'acide lactique s'accumule lorsque les muscles produisent de l'énergie sans oxygène suffisant.",
-      "explanationAudio": "L'acide lactique s'accumule lorsque les muscles produisent de l'énergie sans oxygène suffisant.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D detailed visualization of lactate molecules building up inside muscle fibers, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of creatine phosphate stores in muscle, realistic texture, scientific illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D representation of ATP molecules being hydrolyzed in a cell, high resolution, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle cadence de pédalage est généralement recommandée pour les cyclistes de fond afin d'optimiser l'efficacité ?",
-      "questionAudio": "Quelle cadence de pédalage est généralement recommandée pour les cyclistes de fond afin d'optimiser l'efficacité ?",
-      "emojis": [
-        "🚴‍♂️",
-        "🔄",
-        "⚙️",
-        "📈",
-        "💨",
-        "🧭",
-        "🟢"
-      ],
-      "options": [
-        "Cinquante tours par minute",
-        "Soixante‑dix tours par minute",
-        "Quatre‑vingt‑dix tours par minute"
-      ],
-      "correct": 2,
-      "answer": "Quatre‑vingt‑dix tours par minute",
-      "explanation": "Une cadence élevée autour de quatre‑vingt à quatre‑vingt‑dix tours par minute permet de réduire la force appliquée sur chaque coup de pédale et d'améliorer l'endurance.",
-      "explanationAudio": "Une cadence élevée autour de quatre‑vingt à quatre‑vingt‑dix tours par minute permet de réduire la force appliquée sur chaque coup de pédale et d'améliorer l'endurance.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of a cyclist maintaining fifty revolutions per minute, scientific visualization, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a cyclist at seventy revolutions per minute, realistic environment, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D photorealistic scene of a cyclist pedaling at ninety revolutions per minute, detailed bike mechanics, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel effet a la réduction de la gravité effective grâce à une plateforme de saut assistée par air sur la hauteur du saut ?",
-      "questionAudio": "Quel effet a la réduction de la gravité effective grâce à une plateforme de saut assistée par air sur la hauteur du saut ?",
-      "emojis": [
-        "🤾‍♀️",
-        "🌬️",
-        "⬆️",
-        "📏",
-        "⚖️",
-        "🔬",
-        "🧭"
-      ],
-      "options": [
-        "Diminue la hauteur du saut",
-        "Augmente la hauteur du saut",
-        "N'affecte pas la hauteur du saut"
+        "Solidification de lave volcanique",
+        "Accumulation de végétation dans les marais",
+        "Compression de sédiments marins"
       ],
       "correct": 1,
-      "answer": "Augmente la hauteur du saut",
-      "explanation": "Réduire la gravité effective diminue la charge à surmonter, ce qui permet au sauteur d'atteindre une plus grande hauteur.",
-      "explanationAudio": "Réduire la gravité effective diminue la charge à surmonter, ce qui permet au sauteur d'atteindre une plus grande hauteur.",
+      "answer": "Accumulation de végétation dans les marais",
+      "explanation": "Les plantes mortes dans les marais se transforment sous pression et chaleur en charbon au fil des millions d'années.",
+      "explanationAudio": "Les plantes mortes dans les marais se transforment sous pression et chaleur en charbon au fil des millions d'années.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an athlete on a standard platform with normal gravity, realistic textures, scientific lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of an athlete jumping on an air‑assisted platform, showing reduced gravity effect, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model comparing jump heights with and without air assistance, detailed environment, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D scene of flowing lava solidifying into basaltic rock, high detail, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D ancient swamp with dense vegetation, layers of peat forming, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D underwater sedimentary basin with marine particles compacting, realistic textures, cinematic view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel animal préhistorique est considéré comme le plus grand prédateur marin jamais connu ?",
+      "questionAudio": "Quel animal préhistorique est considéré comme le plus grand prédateur marin jamais connu ?",
+      "emojis": [
+        "🦈",
+        "🌊",
+        "🐟",
+        "📏",
+        "🌍",
+        "🪨",
+        "🔬"
+      ],
+      "options": [
+        "Mosasaurus",
+        "Megalodon",
+        "Ichthyosaurus"
+      ],
+      "correct": 1,
+      "answer": "Megalodon",
+      "explanation": "Le mégalodon, requin géant de l'époque néogène, pouvait dépasser cinq mètres de longueur et était au sommet de la chaîne alimentaire marine.",
+      "explanationAudio": "Le mégalodon, requin géant de l'époque néogène, pouvait dépasser cinq mètres de longueur et était au sommet de la chaîne alimentaire marine.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A massive 3D Mosasaurus swimming in a Cretaceous ocean, cinematic lighting, ultra‑realistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A gigantic 3D Megalodon with open jaws, photorealistic water effects, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A sleek 3D Ichthyosaurus gliding near the surface, realistic textures, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

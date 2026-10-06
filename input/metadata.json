@@ -1,186 +1,213 @@
 {
-  "topic": "🧠 Quiz : Science de la Cuisine & Alimentation",
-  "description": "Découvrez les secrets scientifiques qui transforment votre cuisine quotidienne.",
+  "topic": "🧠 Quiz : Médecine, Sommeil & Santé du Quotidien",
+  "description": "Testez vos connaissances sur le sommeil, la santé quotidienne et la médecine moderne.",
   "hashtags": [
     "#science",
     "#quiz",
-    "#cuisine"
+    "#cultureg"
   ],
   "motif": "science",
   "cta": "Abonne toi pour en apprendre plus !",
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
     "🔬",
-    "🍳",
-    "🥼",
-    "📚",
     "🧪",
-    "⚗️",
-    "🌡️"
+    "✨",
+    "🌍",
+    "⚡",
+    "🧠",
+    "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Quel processus chimique fait lever le pain grâce à la production de dioxyde de carbone par les levures ?",
-      "questionAudio": "Quel processus chimique fait lever le pain grâce à la production de dioxyde de carbone par les levures ?",
+      "question": "Quel rôle joue la mélatonine dans l’endormissement ?",
+      "questionAudio": "Quel rôle joue la mélatonine dans l’endormissement ?",
       "emojis": [
-        "🍞",
-        "🧫",
-        "🌾",
-        "🦠",
-        "💨",
-        "🔥",
-        "🥖"
-      ],
-      "options": [
-        "Fermentation des levures produisant du dioxyde de carbone",
-        "Caramélisation des sucres",
-        "Oxydation des graisses"
-      ],
-      "correct": 0,
-      "answer": "Fermentation des levures produisant du dioxyde de carbone",
-      "explanation": "La fermentation des levures transforme les sucres en dioxyde de carbone, ce qui crée des bulles et fait lever la pâte.",
-      "explanationAudio": "La fermentation des levures transforme les sucres en dioxyde de carbone, ce qui crée des bulles et fait lever la pâte.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a dough rising in a glass bowl, yeast cells glowing, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of caramelized sugar crystals on a pan, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of oxidized fat droplets in a pan, realistic shading, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle protéine principale des blancs d’œuf coagule lors de la cuisson ?",
-      "questionAudio": "Quelle protéine principale des blancs d’œuf coagule lors de la cuisson ?",
-      "emojis": [
-        "🥚",
-        "🔬",
-        "⚛️",
-        "🔥",
-        "🧪",
-        "📊",
-        "🍳"
-      ],
-      "options": [
-        "Lactalbumine",
-        "Ovalbumine",
-        "Collagène"
-      ],
-      "correct": 1,
-      "answer": "Ovalbumine",
-      "explanation": "L'ovalbumine représente plus de la moitié des protéines du blanc d’œuf et forme un réseau solide quand elle est chauffée.",
-      "explanationAudio": "L'ovalbumine représente plus de la moitié des protéines du blanc d’œuf et forme un réseau solide quand elle est chauffée.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of lactalbumin structure in a liquid, realistic texture, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of an egg white being heated, ovalbumin molecules highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of collagen fibers in a broth, photorealistic, cinematic ambiance, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel composé responsable de l’amertume apparaît lorsque le brocoli est trop cuit ?",
-      "questionAudio": "Quel composé responsable de l’amertume apparaît lorsque le brocoli est trop cuit ?",
-      "emojis": [
-        "🥦",
-        "🧪",
-        "⚗️",
-        "🔥",
+        "🛌",
+        "🌙",
         "🧬",
-        "👃",
-        "💧"
+        "🔬",
+        "🧪",
+        "💤",
+        "🧠"
       ],
       "options": [
-        "Composés de glucosinolates décomposés",
-        "Caramélisation des sucres",
-        "Oxydation des chlorophylles"
-      ],
-      "correct": 0,
-      "answer": "Composés de glucosinolates décomposés",
-      "explanation": "La décomposition des glucosinolates libère des substances amères qui se développent lors d’une cuisson excessive du brocoli.",
-      "explanationAudio": "La décomposition des glucosinolates libère des substances amères qui se développent lors d’une cuisson excessive du brocoli.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of broccoli florets with broken glucosinolate molecules releasing bitter compounds, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of sugar crystals caramelizing on a vegetable surface, photorealistic, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of chlorophyll molecules oxidizing in green vegetables, realistic shading, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle méthode de cuisson conserve le plus la vitamine C des légumes ?",
-      "questionAudio": "Quelle méthode de cuisson conserve le plus la vitamine C des légumes ?",
-      "emojis": [
-        "🥕",
-        "🫑",
-        "💧",
-        "🔥",
-        "🌬️",
-        "🥦",
-        "🍲"
-      ],
-      "options": [
-        "Friture",
-        "Grillage",
-        "Cuisson à la vapeur"
+        "Elle stimule la production d’insuline",
+        "Elle augmente la vigilance",
+        "Elle favorise le début du sommeil"
       ],
       "correct": 2,
-      "answer": "Cuisson à la vapeur",
-      "explanation": "La cuisson à la vapeur expose les légumes à la chaleur sans les immerger dans l’eau, limitant la perte de vitamine C.",
-      "explanationAudio": "La cuisson à la vapeur expose les légumes à la chaleur sans les immerger dans l’eau, limitant la perte de vitamine C.",
+      "answer": "Elle favorise le début du sommeil",
+      "explanation": "La mélatonine, sécrétée par la glande pinéale, signale au corps qu’il est temps de dormir.",
+      "explanationAudio": "La mélatonine, sécrétée par la glande pinéale, signale au corps qu’il est temps de dormir.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of vegetables being deep‑fried in bubbling oil, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of vegetables on a grill with char marks, photorealistic, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D scene of vegetables inside a steam basket, gentle vapor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D artistic rendering of pancreas releasing insulin, with melatonin symbols, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D detailed scene of a brain with bright alert signals, representing increased vigilance, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D realistic illustration of a pineal gland releasing melatonin molecules into the bloodstream at night, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Pourquoi l’ajout de sel à l’eau augmente son point d’ébullition ?",
-      "questionAudio": "Pourquoi l’ajout de sel à l’eau augmente son point d’ébullition ?",
+      "question": "Quelle est la durée de sommeil recommandée pour un adulte en bonne santé ?",
+      "questionAudio": "Quelle est la durée de sommeil recommandée pour un adulte en bonne santé ?",
       "emojis": [
-        "🧂",
-        "💧",
-        "📈",
-        "⚗️",
-        "🌡️",
-        "🔬",
-        "💭"
+        "⏰",
+        "🛏️",
+        "🌙",
+        "📊",
+        "💤",
+        "🧑‍🦰",
+        "🧑‍🦱"
       ],
       "options": [
-        "Réaction chimique avec l’eau",
-        "Propriété colligative",
-        "Augmentation de la pression atmosphérique"
+        "Sept à neuf heures",
+        "Cinq à six heures",
+        "Onze à douze heures"
       ],
-      "correct": 1,
-      "answer": "Propriété colligative",
-      "explanation": "Le sel dissous crée une solution qui élève le point d’ébullition grâce à une propriété colligative liée au nombre de particules en solution.",
-      "explanationAudio": "Le sel dissous crée une solution qui élève le point d’ébullition grâce à une propriété colligative liée au nombre de particules en solution.",
+      "correct": 0,
+      "answer": "Sept à neuf heures",
+      "explanation": "Les experts conseillent généralement entre sept et neuf heures de sommeil chaque nuit pour les adultes.",
+      "explanationAudio": "Les experts conseillent généralement entre sept et neuf heures de sommeil chaque nuit pour les adultes.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a chemical reaction between sodium chloride and water, photorealistic, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of salt crystals dissolving in water, showing particle distribution, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of atmospheric pressure gauge rising, realistic textures, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a comfortable adult bedroom with a clock showing seven to nine hours, soft lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene showing a tired adult with a clock at five hours, dim lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D depiction of an elderly person sleeping ten hours, bright morning light, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel pigment donne la couleur rouge à la viande cuite ?",
-      "questionAudio": "Quel pigment donne la couleur rouge à la viande cuite ?",
+      "question": "Quel est le rôle principal du sommeil paradoxal (REM) dans la mémoire ?",
+      "questionAudio": "Quel est le rôle principal du sommeil paradoxal REM dans la mémoire ?",
       "emojis": [
-        "🥩",
+        "🧠",
+        "💭",
+        "🌙",
+        "🌀",
+        "📚",
         "🔬",
-        "🩸",
-        "🔥",
+        "✨"
+      ],
+      "options": [
+        "Réguler la température corporelle",
+        "Éliminer les toxines cérébrales",
+        "Consolider les souvenirs déclaratifs"
+      ],
+      "correct": 2,
+      "answer": "Consolider les souvenirs déclaratifs",
+      "explanation": "Le sommeil paradoxal favorise la consolidation des souvenirs déclaratifs et procéduraux.",
+      "explanationAudio": "Le sommeil paradoxal favorise la consolidation des souvenirs déclaratifs et procéduraux.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D depiction of a thermostat like mechanism regulating body temperature during sleep, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of glymphatic clearance in the brain, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visual of a brain during REM sleep with glowing memory pathways, cinematic, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Comment l’exposition à la lumière bleue le soir influence le rythme circadien ?",
+      "questionAudio": "Comment l’exposition à la lumière bleue le soir influence le rythme circadien ?",
+      "emojis": [
+        "📱",
+        "🔵",
+        "🌙",
+        "⏳",
         "🧬",
-        "🍖",
-        "📊"
+        "🛌",
+        "⚙️"
       ],
       "options": [
-        "Hémoglobine",
-        "Myoglobine",
-        "Collagène"
+        "Elle augmente la sécrétion de cortisol",
+        "Elle accélère l’endormissement",
+        "Elle retarde la production de mélatonine"
       ],
-      "correct": 1,
-      "answer": "Myoglobine",
-      "explanation": "La myoglobine, présente dans les fibres musculaires, est responsable de la teinte rouge lorsqu’elle est chauffée.",
-      "explanationAudio": "La myoglobine, présente dans les fibres musculaires, est responsable de la teinte rouge lorsqu’elle est chauffée.",
+      "correct": 2,
+      "answer": "Elle retarde la production de mélatonine",
+      "explanation": "La lumière bleue inhibe la sécrétion de mélatonine, décalant ainsi le rythme circadien.",
+      "explanationAudio": "La lumière bleue inhibe la sécrétion de mélatonine, décalant ainsi le rythme circadien.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of hemoglobin inside red blood cells, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of myoglobin molecules in muscle tissue, glowing red, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of collagen fibers in a steak, photorealistic, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of adrenal glands releasing cortisol under blue light exposure, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene of a person falling asleep quickly under blue light, unrealistic bright, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a smartphone screen emitting blue light onto a face, with melatonin symbols dimming, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel bénéfice l’activité physique régulière apporte t elle à la santé cardiovasculaire ?",
+      "questionAudio": "Quel bénéfice l’activité physique régulière apporte t elle à la santé cardiovasculaire ?",
+      "emojis": [
+        "🏃",
+        "❤️",
+        "💪",
+        "🩸",
+        "🧬",
+        "⚕️",
+        "🌟"
+      ],
+      "options": [
+        "Diminue la production d’hémoglobine",
+        "Réduit la densité osseuse",
+        "Améliore la fonction endothéliale"
+      ],
+      "correct": 2,
+      "answer": "Améliore la fonction endothéliale",
+      "explanation": "L’exercice améliore la fonction de l’endothélium, favorisant la vasodilatation et la santé des vaisseaux.",
+      "explanationAudio": "L’exercice améliore la fonction de l’endothélium, favorisant la vasodilatation et la santé des vaisseaux.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D depiction of blood cells with low hemoglobin levels, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model showing bone density decreasing, with a runner, unrealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of blood vessels with smooth endothelium expanding during exercise, vibrant, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "De quelle façon la caféine agit elle sur les récepteurs d’adénosine ?",
+      "questionAudio": "De quelle façon la caféine agit elle sur les récepteurs d’adénosine ?",
+      "emojis": [
+        "☕",
+        "🧪",
+        "🧠",
+        "⚡",
+        "🔬",
+        "💡",
+        "🛌"
+      ],
+      "options": [
+        "Elle les bloque, augmentant la vigilance",
+        "Elle les active, favorisant le sommeil",
+        "Elle les dégrade, réduisant leur nombre"
+      ],
+      "correct": 0,
+      "answer": "Elle les bloque, augmentant la vigilance",
+      "explanation": "La caféine se lie aux récepteurs d’adénosine, les empêchant d’induire la somnolence.",
+      "explanationAudio": "La caféine se lie aux récepteurs d’adénosine, les empêchant d’induire la somnolence.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D close up of caffeine molecules occupying adenosine receptors in the brain, bright, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of adenosine receptors being activated, causing drowsiness, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D depiction of receptors being degraded by enzymes, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Pourquoi une hydratation adéquate est‑elle cruciale pour les performances cognitives ?",
+      "questionAudio": "Pourquoi une hydratation adéquate est‑elle cruciale pour les performances cognitives ?",
+      "emojis": [
+        "💧",
+        "🧠",
+        "🩸",
+        "🚰",
+        "📈",
+        "🔬",
+        "⚙️"
+      ],
+      "options": [
+        "Elle diminue la fréquence cardiaque au repos",
+        "Elle augmente la production de mélatonine",
+        "Elle maintient le volume sanguin nécessaire au transport de l’oxygène"
+      ],
+      "correct": 2,
+      "answer": "Elle maintient le volume sanguin nécessaire au transport de l’oxygène",
+      "explanation": "Un bon niveau d’hydratation assure un flux sanguin optimal vers le cerveau, soutenant la fonction cognitive.",
+      "explanationAudio": "Un bon niveau d’hydratation assure un flux sanguin optimal vers le cerveau, soutenant la fonction cognitive.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a heart rate monitor showing lowered resting heart rate due to hydration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene of pineal gland producing melatonin enhanced by water, artistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of blood vessels delivering oxygen to the brain with water droplets, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

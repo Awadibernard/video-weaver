@@ -1,118 +1,28 @@
 [
   {
-    "question": "Quelle est la profondeur moyenne de la fosse des Mariannes ?",
-    "questionAudio": "Quelle est la profondeur moyenne de la fosse des Mariannes ?",
+    "question": "Quel est le problème principal du paradoxe de Russell ?",
+    "questionAudio": "Quel est le problème principal du paradoxe de Russell ?",
     "options": [
-      "Environ six mille mètres",
-      "Environ onze mille mètres",
-      "Environ quinze mille mètres"
+      "Une suite infinie",
+      "Une classe qui ne peut pas appartenir à elle‑même",
+      "Une équation sans solution"
     ],
     "correct": 1,
-    "explanation": "La fosse des Mariannes atteint une profondeur moyenne d'environ onze mille mètres, la plus profonde connue.",
-    "explanationAudio": "La fosse des Mariannes atteint une profondeur moyenne d'environ onze mille mètres, la plus profonde connue.",
+    "explanation": "Le paradoxe montre qu’une collection ne peut pas se contenir elle‑même sans créer une contradiction.",
+    "explanationAudio": "Le paradoxe montre qu’une collection ne peut pas se contenir elle‑même sans créer une contradiction.",
     "emojis": [
-      "🌊",
-      "🕳️",
-      "📏",
-      "🔎",
-      "🐙",
-      "🚢",
-      "🌍"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a submersible descending into the trench, realistic water effects, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A highly detailed 3D render of the Mariana Trench showing the deep ocean floor at eleven thousand meters depth, cinematic lighting, photorealistic",
-      "A hyper-realistic photorealistic 3D render of A 3D cross‑section of the trench with labeled depth markers at eleven thousand meters, photorealistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel organisme produit la plus grande biomasse dans les abysses ?",
-    "questionAudio": "Quel organisme produit la plus grande biomasse dans les abysses ?",
-    "options": [
-      "Le calmar géant",
-      "Le poisson abyssal",
-      "Le krill antarctique"
-    ],
-    "correct": 2,
-    "explanation": "Le krill antarctique constitue la plus grande partie de la biomasse marine, même dans les profondeurs froides.",
-    "explanationAudio": "Le krill antarctique constitue la plus grande partie de la biomasse marine, même dans les profondeurs froides.",
-    "emojis": [
-      "🦐",
-      "🐟",
-      "🌊",
-      "❄️",
-      "🔬",
-      "📊",
-      "🧭"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D render of a giant squid in the abyss, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of an abyssal fish swimming near the seafloor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of Antarctic krill swarming in deep water, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel pourcentage de la surface de la Terre est recouvert par les océans ?",
-    "questionAudio": "Quel pourcentage de la surface de la Terre est recouvert par les océans ?",
-    "options": [
-      "Environ quatre‑vingt pour cent",
-      "Environ cinquante pour cent",
-      "Environ soixante‑dix pour cent"
-    ],
-    "correct": 2,
-    "explanation": "Environ soixante‑dix pour cent de la surface terrestre est recouvert d’eau océanique.",
-    "explanationAudio": "Environ soixante‑dix pour cent de la surface terrestre est recouvert d’eau océanique.",
-    "emojis": [
-      "🌍",
-      "💧",
-      "📈",
-      "🔭",
-      "🗺️",
-      "🌐",
-      "📊"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of Earth with eighty percent water coverage, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D split view of Earth showing land and water distribution with fifty percent water, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D globe highlighting oceans covering seventy percent of the surface, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle zone océanique ne reçoit aucune lumière solaire ?",
-    "questionAudio": "Quelle zone océanique ne reçoit aucune lumière solaire ?",
-    "options": [
-      "La zone aphotique",
-      "La zone épipélagique",
-      "La zone mésopélagique"
-    ],
-    "correct": 0,
-    "explanation": "La zone aphotique, située en dessous de deux cent mètres, est dépourvue de lumière solaire.",
-    "explanationAudio": "La zone aphotique, située en dessous de deux cent mètres, est dépourvue de lumière solaire.",
-    "emojis": [
-      "🌑",
-      "🔦",
-      "🌊",
-      "🕶️",
+      "🧩",
       "📚",
-      "🔬",
-      "🧭"
+      "⚖️",
+      "🌀",
+      "🤔",
+      "🔍",
+      "💡"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cross‑section of the ocean showing the aphotic zone in darkness, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of the epipelagic zone with bright sunlight penetrating, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the mesopelagic zone with faint light, realistic water colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D visual of an endless staircase spiraling upward, representing an infinite sequence, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a library with a glowing folder labeled Russell paradox, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a tangled loop of ribbons representing an unsolvable equation, high resolution, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,89 +30,179 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le principal composant du sel marin ?",
-    "questionAudio": "Quel est le principal composant du sel marin ?",
+    "question": "Quel est le cœur du paradoxe du menteur ?",
+    "questionAudio": "Quel est le cœur du paradoxe du menteur ?",
     "options": [
-      "Le sulfate de magnésium",
-      "Le carbonate de calcium",
-      "Le chlorure de sodium"
-    ],
-    "correct": 2,
-    "explanation": "Le chlorure de sodium représente la majorité du sel présent dans l’eau de mer.",
-    "explanationAudio": "Le chlorure de sodium représente la majorité du sel présent dans l’eau de mer.",
-    "emojis": [
-      "🧂",
-      "💧",
-      "⚗️",
-      "🔬",
-      "🌊",
-      "🪨",
-      "📚"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of magnesium sulfate particles in water, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of calcium carbonate sediments on the ocean floor, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of sodium chloride crystals dissolving in seawater, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel phénomène tectonique crée la plupart des dorsales médio‑océaniques ?",
-    "questionAudio": "Quel phénomène tectonique crée la plupart des dorsales médio‑océaniques ?",
-    "options": [
-      "La collision des plaques",
-      "La subduction des plaques",
-      "La divergence des plaques"
-    ],
-    "correct": 2,
-    "explanation": "La divergence des plaques tectoniques forme les dorsales où la croûte océanique se crée.",
-    "explanationAudio": "La divergence des plaques tectoniques forme les dorsales où la croûte océanique se crée.",
-    "emojis": [
-      "🗻",
-      "⚙️",
-      "🌊",
-      "🪨",
-      "📏",
-      "🔭",
-      "🌍"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of colliding plates forming a mountain range, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a subduction zone with one plate sliding under another, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D animation of diverging tectonic plates forming a mid‑ocean ridge, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel mécanisme génère la bioluminescence chez de nombreux organismes des abysses ?",
-    "questionAudio": "Quel mécanisme génère la bioluminescence chez de nombreux organismes des abysses ?",
-    "options": [
-      "La production de luciférine",
-      "La phosphorescence des minéraux",
-      "La réflexion de la lumière solaire"
+      "Une phrase qui se contredit",
+      "Un problème de calcul différentiel",
+      "Un théorème de géométrie"
     ],
     "correct": 0,
-    "explanation": "De nombreux animaux abyssaux produisent de la luciférine qui, en présence d’oxygène, émet de la lumière.",
-    "explanationAudio": "De nombreux animaux abyssaux produisent de la luciférine qui, en présence d’oxygène, émet de la lumière.",
+    "explanation": "Le menteur affirme qu’il ment, ce qui crée une contradiction logique.",
+    "explanationAudio": "Le menteur affirme qu’il ment, ce qui crée une contradiction logique.",
     "emojis": [
-      "✨",
-      "🐙",
-      "🌌",
-      "🔬",
-      "💡",
-      "🧪",
-      "🌊"
+      "🗣️",
+      "🔄",
+      "🤯",
+      "📜",
+      "💭",
+      "🔎",
+      "🧠"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a deep‑sea creature emitting light from luciferin, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of mineral phosphorescence in seabed rocks, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of sunlight reflecting off water surface, realistic effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a talking mirror saying \"I am lying\", with reflective surfaces and dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a complex differential equation floating in a lab, photorealistic, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a geometric theorem written on a blackboard, realistic chalk texture, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel principe affirme que chaque proposition est vraie ou fausse ?",
+    "questionAudio": "Quel principe affirme que chaque proposition est vraie ou fausse ?",
+    "options": [
+      "Les nombres premiers sont infinis",
+      "Chaque proposition est vraie ou fausse",
+      "Les angles d’un triangle totalisent cent quatre‑vingt‑cinq degrés"
+    ],
+    "correct": 1,
+    "explanation": "C’est le principe du tiers exclu, fondamental en logique classique.",
+    "explanationAudio": "C’est le principe du tiers exclu, fondamental en logique classique.",
+    "emojis": [
+      "⚖️",
+      "✅",
+      "❌",
+      "🔢",
+      "📐",
+      "🧮",
+      "💡"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D visual of an endless line of prime numbers glowing in space, photorealistic, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of a balanced scale with one side labeled true and the other false, cinematic lighting, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a triangle with angle markers adding up to one hundred eighty‑five degrees, realistic shading, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Dans le problème de Monty Hall, que se passe‑t‑il si l’on change de porte ?",
+    "questionAudio": "Dans le problème de Monty Hall, que se passe‑t‑il si l’on change de porte ?",
+    "options": [
+      "Toutes les portes ont la même probabilité",
+      "Changer de porte augmente les chances de gagner",
+      "Il faut toujours rester sur la porte initiale"
+    ],
+    "correct": 1,
+    "explanation": "En changeant, la probabilité de succès passe à deux tiers, contre un tiers en restant.",
+    "explanationAudio": "En changeant, la probabilité de succès passe à deux tiers, contre un tiers en restant.",
+    "emojis": [
+      "🚪",
+      "🎲",
+      "📊",
+      "🤔",
+      "🔀",
+      "🏆",
+      "💡"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D render of equal probability bars for three options, realistic textures, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of three colorful doors, one highlighted, with a spotlight showing increased odds, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a contestant staying behind the first door, with a neutral expression, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le résultat principal du premier théorème d’incomplétude de Gödel ?",
+    "questionAudio": "Quel est le résultat principal du premier théorème d’incomplétude de Gödel ?",
+    "options": [
+      "Tous les nombres sont rationnels",
+      "Il existe des énoncés vrais mais non démontrables",
+      "La somme des angles d’un triangle est constante"
+    ],
+    "correct": 1,
+    "explanation": "Gödel montre que toute théorie cohérente suffisamment puissante contient des vérités indémontrables.",
+    "explanationAudio": "Gödel montre que toute théorie cohérente suffisamment puissante contient des vérités indémontrables.",
+    "emojis": [
+      "📘",
+      "🔐",
+      "🧩",
+      "🧠",
+      "⚖️",
+      "💭",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of a number line filled with rational numbers, realistic textures, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic depiction of a locked book titled Godel’s incompleteness, with a glowing truth symbol, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a triangle with a constant angle sum banner, photorealistic, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel dilemme soulève le paradoxe de l’omnipotence ?",
+    "questionAudio": "Quel dilemme soulève le paradoxe de l’omnipotence ?",
+    "options": [
+      "Un être tout‑puissant ne peut pas créer une pierre qu’il ne peut soulever",
+      "Un nombre pair peut être premier",
+      "Un cercle peut être carré"
+    ],
+    "correct": 0,
+    "explanation": "Le paradoxe interroge la cohérence de la notion de pouvoir absolu.",
+    "explanationAudio": "Le paradoxe interroge la cohérence de la notion de pouvoir absolu.",
+    "emojis": [
+      "🪨",
+      "💪",
+      "🤔",
+      "⚡",
+      "🌀",
+      "🔮",
+      "🧠"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a massive hand trying to lift a glowing stone, ultra detailed, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an even number wearing a crown labeled prime, realistic textures, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a perfect circle morphing into a square, photorealistic, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel phénomène décrit le paradoxe de Banach‑Tarski ?",
+    "questionAudio": "Quel phénomène décrit le paradoxe de Banach‑Tarski ?",
+    "options": [
+      "Un nombre peut être à la fois pair et impair",
+      "Un triangle peut être à la fois aigu et obtus",
+      "Un solide peut être découpé et recomposé en deux copies identiques"
+    ],
+    "correct": 2,
+    "explanation": "En utilisant l’axiome du choix, on peut créer deux copies d’un même objet à partir d’un seul.",
+    "explanationAudio": "En utilisant l’axiome du choix, on peut créer deux copies d’un même objet à partir d’un seul.",
+    "emojis": [
+      "⚪",
+      "✂️",
+      "🔁",
+      "🧩",
+      "🤯",
+      "📐",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a number split into two contradictory halves, realistic textures, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a triangle with dual angle labels, one acute and one obtuse, ultra detailed, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a sphere being sliced into intricate pieces that reassemble into two identical spheres, photorealistic, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

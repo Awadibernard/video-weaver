@@ -1,148 +1,148 @@
 [
   {
-    "question": "Qui a découvert la pénicilline par hasard ?",
-    "questionAudio": "Qui a découvert la pénicilline par hasard ?",
+    "question": "Quel est le processus qui alimente le Soleil ?",
+    "questionAudio": "Quel est le processus qui alimente le Soleil ?",
     "options": [
-      "Louis Pasteur",
-      "Alexander Fleming",
-      "Robert Koch"
-    ],
-    "correct": 1,
-    "explanation": "Alexander Fleming a observé que la moisissure du Penicillium inhibait la croissance bactérienne, menant à la découverte de la pénicilline.",
-    "explanationAudio": "Alexander Fleming a observé que la moisissure du Penicillium inhibait la croissance bactérienne, menant à la découverte de la pénicilline.",
-    "emojis": [
-      "🧪",
-      "🔬",
-      "🧬",
-      "💊",
-      "📜",
-      "🦠",
-      "🏥"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of Louis Pasteur examining a fermentation flask, realistic textures, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D cinematic render of Alexander Fleming in a 1920s laboratory, microscope and petri dishes, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D scene showing Robert Koch with a stained glass slide of bacteria, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle civilisation ancienne a été la première à utiliser la boussole magnétique pour la navigation ?",
-    "questionAudio": "Quelle civilisation ancienne a été la première à utiliser la boussole magnétique pour la navigation ?",
-    "options": [
-      "Grèce",
-      "Chine",
-      "Rome"
-    ],
-    "correct": 1,
-    "explanation": "Les premiers compas magnétiques ont été développés en Chine durant la dynastie Han pour l'orientation.",
-    "explanationAudio": "Les premiers compas magnétiques ont été développés en Chine durant la dynastie Han pour l'orientation.",
-    "emojis": [
-      "🧭",
-      "🌏",
-      "🏯",
-      "⚓",
-      "📜",
-      "🗺️",
-      "⛵"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of an ancient Greek philosopher with an astrolabe, detailed marble columns, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of an ancient Chinese navigator holding a magnetic compass on a wooden ship, photorealistic sea background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a Roman legionary using a sundial on a battlefield, realistic armor and terrain, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel chimiste a découvert le phosphore en distillant de l'urine, une découverte fortuite ?",
-    "questionAudio": "Quel chimiste a découvert le phosphore en distillant de l'urine, une découverte fortuite ?",
-    "options": [
-      "Dmitri Mendeleev",
-      "Hennig Brand",
-      "Antoine Lavoisier"
-    ],
-    "correct": 1,
-    "explanation": "En 1669 Hennig Brand a distillé de l'urine et a obtenu une substance phosphorescente qu'il a nommée phosphore.",
-    "explanationAudio": "En mille six cent soixante neuf Hennig Brand a distillé de l'urine et a obtenu une substance phosphorescente qu'il a nommée phosphore.",
-    "emojis": [
-      "⚗️",
-      "🧪",
-      "💡",
-      "📜",
-      "🪔",
-      "🔬",
-      "🧫"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D render of Dmitri Mendeleev arranging elements on a periodic table, photorealistic, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Hennig Brand in a 17th century alchemy lab, large alembic boiling, glowing phosphorus crystals, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of Antoine Lavoisier conducting a combustion experiment, detailed laboratory, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel inventeur a créé l'adhésif qui a conduit à la naissance des Post it grâce à une tentative d'améliorer les colles fortes ?",
-    "questionAudio": "Quel inventeur a créé l'adhésif qui a conduit à la naissance des Post it grâce à une tentative d'améliorer les colles fortes ?",
-    "options": [
-      "Thomas Edison",
-      "Nikola Tesla",
-      "Spencer Silver"
-    ],
-    "correct": 2,
-    "explanation": "Spencer Silver a développé en 1968 un adhésif faible qui a été utilisé par 3M pour créer les Post it.",
-    "explanationAudio": "Spencer Silver a développé en mille neuf cent soixante huit un adhésif faible qui a été utilisé par trois M pour créer les Post it.",
-    "emojis": [
-      "📝",
-      "📎",
-      "💡",
-      "🔧",
-      "🧴",
-      "🏢",
-      "🖇️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of Thomas Edison in his workshop surrounded by light bulbs and coils, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of Nikola Tesla with electric arcs and a laboratory, dramatic lighting, realistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Spencer Silver in a modern lab, testing a clear adhesive on a whiteboard, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel ingénieur a découvert le principe de la cuisson par micro ondes après qu'une barre de chocolat a fondu dans sa poche ?",
-    "questionAudio": "Quel ingénieur a découvert le principe de la cuisson par micro ondes après qu'une barre de chocolat a fondu dans sa poche ?",
-    "options": [
-      "Percy Spencer",
-      "Heinrich Hertz",
-      "James Clerk Maxwell"
+      "Fusion nucléaire de l’hydrogène en hélium",
+      "Combustion du carbone",
+      "Réaction chimique entre le fer et l’oxygène"
     ],
     "correct": 0,
-    "explanation": "En 1945 Percy Spencer a remarqué que la chaleur d'un magnétron faisait fondre du chocolat, menant à l'invention du four à micro ondes.",
-    "explanationAudio": "En mille neuf cent quarante cinq Percy Spencer a remarqué que la chaleur d'un magnétron faisait fondre du chocolat, menant à l'invention du four à micro ondes.",
+    "explanation": "Le Soleil tire son énergie de la fusion nucléaire qui transforme l’hydrogène en hélium au cœur du noyau.",
+    "explanationAudio": "Le Soleil tire son énergie de la fusion nucléaire qui transforme l’hydrogène en hélium au cœur du noyau.",
     "emojis": [
-      "📡",
-      "🍫",
-      "⚡",
-      "🚀",
-      "🛠️",
-      "🔬",
-      "🏭"
+      "☀️",
+      "🔭",
+      "⚛️",
+      "🔥",
+      "🧪",
+      "🌞",
+      "🚀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Percy Spencer standing next to an early radar magnetron, a melted chocolate bar in his hand, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of Heinrich Hertz with a spark gap apparatus, realistic laboratory, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of James Clerk Maxwell writing equations on a chalkboard, detailed Victorian study, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of the Sun’s core showing swirling plasma and nuclear fusion reactions, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a burning coal fire with orange flames, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of iron rusting on a metal surface, close‑up, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Qu’est‑ce qui cause les phases de la Lune ?",
+    "questionAudio": "Qu’est‑ce qui cause les phases de la Lune ?",
+    "options": [
+      "L’orientation du Soleil, de la Terre et de la Lune",
+      "Les nuages qui passent devant la Lune",
+      "La rotation de la Lune autour de son axe"
+    ],
+    "correct": 0,
+    "explanation": "Les phases résultent de la façon dont le Soleil éclaire la moitié visible de la Lune selon leur alignement.",
+    "explanationAudio": "Les phases résultent de la façon dont le Soleil éclaire la moitié visible de la Lune selon leur alignement.",
+    "emojis": [
+      "🌙",
+      "🌞",
+      "🌓",
+      "🌏",
+      "🔭",
+      "✨",
+      "🚀"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of Earth, Moon and Sun alignment showing illuminated portion of the Moon, photorealistic space background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene of fluffy clouds drifting across a night sky, moon partially hidden, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of the Moon rotating on its axis with motion blur, detailed surface texture, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de galaxie est la Voie lactée ?",
+    "questionAudio": "Quel type de galaxie est la Voie lactée ?",
+    "options": [
+      "Galaxie spirale barrée",
+      "Galaxie irrégulière",
+      "Galaxie elliptique"
+    ],
+    "correct": 0,
+    "explanation": "La Voie lactée possède un bras central en forme de barre d’où partent les bras spiraux.",
+    "explanationAudio": "La Voie lactée possède un bras central en forme de barre d’où partent les bras spiraux.",
+    "emojis": [
+      "🌌",
+      "🌀",
+      "⭐",
+      "🔭",
+      "🚀",
+      "✨",
+      "🧭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D render of a barred spiral galaxy with bright core and swirling arms, space background, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an irregular galaxy with chaotic star clusters, high detail, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of an elliptical galaxy, smooth oval shape, realistic star field, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle force maintient les planètes en orbite autour du Soleil ?",
+    "questionAudio": "Quelle force maintient les planètes en orbite autour du Soleil ?",
+    "options": [
+      "Pression atmosphérique",
+      "Gravité",
+      "Magnétisme"
+    ],
+    "correct": 1,
+    "explanation": "La gravité attire les planètes vers le Soleil et les fait suivre des trajectoires elliptiques.",
+    "explanationAudio": "La gravité attire les planètes vers le Soleil et les fait suivre des trajectoires elliptiques.",
+    "emojis": [
+      "🪐",
+      "🌞",
+      "⚖️",
+      "🔭",
+      "🚀",
+      "🌍",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of atmospheric pressure waves on a planetary surface, detailed clouds, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of the Sun’s gravitational field pulling planets along orbital paths, realistic textures, space backdrop, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene showing magnetic field lines around a planet, glowing auroras, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le nom d’une étoile qui a épuisé l’hydrogène de son cœur et s’est dilatée ?",
+    "questionAudio": "Quel est le nom d’une étoile qui a épuisé l’hydrogène de son cœur et s’est dilatée ?",
+    "options": [
+      "Supernova",
+      "Naine blanche",
+      "Géante rouge"
+    ],
+    "correct": 2,
+    "explanation": "Après la phase principale, l’étoile devient une géante rouge en gonflant et en refroidissant sa surface.",
+    "explanationAudio": "Après la phase principale, l’étoile devient une géante rouge en gonflant et en refroidissant sa surface.",
+    "emojis": [
+      "🔴",
+      "⭐",
+      "🌟",
+      "🧪",
+      "🚀",
+      "✨",
+      "🔭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a supernova explosion with bright ejecta, detailed particles, space scenery, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a small white dwarf star, bright and dense, realistic lighting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a red giant star with expanded outer layers, glowing surface, space background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

@@ -1,58 +1,28 @@
 [
   {
-    "question": "Quel est le problème principal du paradoxe de Russell ?",
-    "questionAudio": "Quel est le problème principal du paradoxe de Russell ?",
+    "question": "Qui a découvert la pénicilline par hasard ?",
+    "questionAudio": "Qui a découvert la pénicilline par hasard ?",
     "options": [
-      "Une suite infinie",
-      "Une classe qui ne peut pas appartenir à elle‑même",
-      "Une équation sans solution"
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Robert Koch"
     ],
     "correct": 1,
-    "explanation": "Le paradoxe montre qu’une collection ne peut pas se contenir elle‑même sans créer une contradiction.",
-    "explanationAudio": "Le paradoxe montre qu’une collection ne peut pas se contenir elle‑même sans créer une contradiction.",
+    "explanation": "Alexander Fleming a observé que la moisissure du Penicillium inhibait la croissance bactérienne, menant à la découverte de la pénicilline.",
+    "explanationAudio": "Alexander Fleming a observé que la moisissure du Penicillium inhibait la croissance bactérienne, menant à la découverte de la pénicilline.",
     "emojis": [
-      "🧩",
-      "📚",
-      "⚖️",
-      "🌀",
-      "🤔",
-      "🔍",
-      "💡"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D visual of an endless staircase spiraling upward, representing an infinite sequence, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a library with a glowing folder labeled Russell paradox, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a tangled loop of ribbons representing an unsolvable equation, high resolution, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le cœur du paradoxe du menteur ?",
-    "questionAudio": "Quel est le cœur du paradoxe du menteur ?",
-    "options": [
-      "Une phrase qui se contredit",
-      "Un problème de calcul différentiel",
-      "Un théorème de géométrie"
-    ],
-    "correct": 0,
-    "explanation": "Le menteur affirme qu’il ment, ce qui crée une contradiction logique.",
-    "explanationAudio": "Le menteur affirme qu’il ment, ce qui crée une contradiction logique.",
-    "emojis": [
-      "🗣️",
-      "🔄",
-      "🤯",
+      "🧪",
+      "🔬",
+      "🧬",
+      "💊",
       "📜",
-      "💭",
-      "🔎",
-      "🧠"
+      "🦠",
+      "🏥"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a talking mirror saying \"I am lying\", with reflective surfaces and dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a complex differential equation floating in a lab, photorealistic, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a geometric theorem written on a blackboard, realistic chalk texture, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of Louis Pasteur examining a fermentation flask, realistic textures, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D cinematic render of Alexander Fleming in a 1920s laboratory, microscope and petri dishes, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene showing Robert Koch with a stained glass slide of bacteria, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel principe affirme que chaque proposition est vraie ou fausse ?",
-    "questionAudio": "Quel principe affirme que chaque proposition est vraie ou fausse ?",
+    "question": "Quelle civilisation ancienne a été la première à utiliser la boussole magnétique pour la navigation ?",
+    "questionAudio": "Quelle civilisation ancienne a été la première à utiliser la boussole magnétique pour la navigation ?",
     "options": [
-      "Les nombres premiers sont infinis",
-      "Chaque proposition est vraie ou fausse",
-      "Les angles d’un triangle totalisent cent quatre‑vingt‑cinq degrés"
+      "Grèce",
+      "Chine",
+      "Rome"
     ],
     "correct": 1,
-    "explanation": "C’est le principe du tiers exclu, fondamental en logique classique.",
-    "explanationAudio": "C’est le principe du tiers exclu, fondamental en logique classique.",
+    "explanation": "Les premiers compas magnétiques ont été développés en Chine durant la dynastie Han pour l'orientation.",
+    "explanationAudio": "Les premiers compas magnétiques ont été développés en Chine durant la dynastie Han pour l'orientation.",
     "emojis": [
-      "⚖️",
-      "✅",
-      "❌",
-      "🔢",
-      "📐",
-      "🧮",
-      "💡"
+      "🧭",
+      "🌏",
+      "🏯",
+      "⚓",
+      "📜",
+      "🗺️",
+      "⛵"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D visual of an endless line of prime numbers glowing in space, photorealistic, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a balanced scale with one side labeled true and the other false, cinematic lighting, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a triangle with angle markers adding up to one hundred eighty‑five degrees, realistic shading, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an ancient Greek philosopher with an astrolabe, detailed marble columns, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of an ancient Chinese navigator holding a magnetic compass on a wooden ship, photorealistic sea background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a Roman legionary using a sundial on a battlefield, realistic armor and terrain, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Dans le problème de Monty Hall, que se passe‑t‑il si l’on change de porte ?",
-    "questionAudio": "Dans le problème de Monty Hall, que se passe‑t‑il si l’on change de porte ?",
+    "question": "Quel chimiste a découvert le phosphore en distillant de l'urine, une découverte fortuite ?",
+    "questionAudio": "Quel chimiste a découvert le phosphore en distillant de l'urine, une découverte fortuite ?",
     "options": [
-      "Toutes les portes ont la même probabilité",
-      "Changer de porte augmente les chances de gagner",
-      "Il faut toujours rester sur la porte initiale"
+      "Dmitri Mendeleev",
+      "Hennig Brand",
+      "Antoine Lavoisier"
     ],
     "correct": 1,
-    "explanation": "En changeant, la probabilité de succès passe à deux tiers, contre un tiers en restant.",
-    "explanationAudio": "En changeant, la probabilité de succès passe à deux tiers, contre un tiers en restant.",
+    "explanation": "En 1669 Hennig Brand a distillé de l'urine et a obtenu une substance phosphorescente qu'il a nommée phosphore.",
+    "explanationAudio": "En mille six cent soixante neuf Hennig Brand a distillé de l'urine et a obtenu une substance phosphorescente qu'il a nommée phosphore.",
     "emojis": [
-      "🚪",
-      "🎲",
-      "📊",
-      "🤔",
-      "🔀",
-      "🏆",
-      "💡"
+      "⚗️",
+      "🧪",
+      "💡",
+      "📜",
+      "🪔",
+      "🔬",
+      "🧫"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D render of equal probability bars for three options, realistic textures, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of three colorful doors, one highlighted, with a spotlight showing increased odds, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a contestant staying behind the first door, with a neutral expression, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D render of Dmitri Mendeleev arranging elements on a periodic table, photorealistic, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Hennig Brand in a 17th century alchemy lab, large alembic boiling, glowing phosphorus crystals, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of Antoine Lavoisier conducting a combustion experiment, detailed laboratory, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,89 +90,59 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le résultat principal du premier théorème d’incomplétude de Gödel ?",
-    "questionAudio": "Quel est le résultat principal du premier théorème d’incomplétude de Gödel ?",
+    "question": "Quel inventeur a créé l'adhésif qui a conduit à la naissance des Post it grâce à une tentative d'améliorer les colles fortes ?",
+    "questionAudio": "Quel inventeur a créé l'adhésif qui a conduit à la naissance des Post it grâce à une tentative d'améliorer les colles fortes ?",
     "options": [
-      "Tous les nombres sont rationnels",
-      "Il existe des énoncés vrais mais non démontrables",
-      "La somme des angles d’un triangle est constante"
-    ],
-    "correct": 1,
-    "explanation": "Gödel montre que toute théorie cohérente suffisamment puissante contient des vérités indémontrables.",
-    "explanationAudio": "Gödel montre que toute théorie cohérente suffisamment puissante contient des vérités indémontrables.",
-    "emojis": [
-      "📘",
-      "🔐",
-      "🧩",
-      "🧠",
-      "⚖️",
-      "💭",
-      "✨"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of a number line filled with rational numbers, realistic textures, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic depiction of a locked book titled Godel’s incompleteness, with a glowing truth symbol, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a triangle with a constant angle sum banner, photorealistic, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel dilemme soulève le paradoxe de l’omnipotence ?",
-    "questionAudio": "Quel dilemme soulève le paradoxe de l’omnipotence ?",
-    "options": [
-      "Un être tout‑puissant ne peut pas créer une pierre qu’il ne peut soulever",
-      "Un nombre pair peut être premier",
-      "Un cercle peut être carré"
-    ],
-    "correct": 0,
-    "explanation": "Le paradoxe interroge la cohérence de la notion de pouvoir absolu.",
-    "explanationAudio": "Le paradoxe interroge la cohérence de la notion de pouvoir absolu.",
-    "emojis": [
-      "🪨",
-      "💪",
-      "🤔",
-      "⚡",
-      "🌀",
-      "🔮",
-      "🧠"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a massive hand trying to lift a glowing stone, ultra detailed, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of an even number wearing a crown labeled prime, realistic textures, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a perfect circle morphing into a square, photorealistic, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel phénomène décrit le paradoxe de Banach‑Tarski ?",
-    "questionAudio": "Quel phénomène décrit le paradoxe de Banach‑Tarski ?",
-    "options": [
-      "Un nombre peut être à la fois pair et impair",
-      "Un triangle peut être à la fois aigu et obtus",
-      "Un solide peut être découpé et recomposé en deux copies identiques"
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Spencer Silver"
     ],
     "correct": 2,
-    "explanation": "En utilisant l’axiome du choix, on peut créer deux copies d’un même objet à partir d’un seul.",
-    "explanationAudio": "En utilisant l’axiome du choix, on peut créer deux copies d’un même objet à partir d’un seul.",
+    "explanation": "Spencer Silver a développé en 1968 un adhésif faible qui a été utilisé par 3M pour créer les Post it.",
+    "explanationAudio": "Spencer Silver a développé en mille neuf cent soixante huit un adhésif faible qui a été utilisé par trois M pour créer les Post it.",
     "emojis": [
-      "⚪",
-      "✂️",
-      "🔁",
-      "🧩",
-      "🤯",
-      "📐",
-      "✨"
+      "📝",
+      "📎",
+      "💡",
+      "🔧",
+      "🧴",
+      "🏢",
+      "🖇️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a number split into two contradictory halves, realistic textures, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a triangle with dual angle labels, one acute and one obtuse, ultra detailed, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a sphere being sliced into intricate pieces that reassemble into two identical spheres, photorealistic, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of Thomas Edison in his workshop surrounded by light bulbs and coils, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of Nikola Tesla with electric arcs and a laboratory, dramatic lighting, realistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Spencer Silver in a modern lab, testing a clear adhesive on a whiteboard, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel ingénieur a découvert le principe de la cuisson par micro ondes après qu'une barre de chocolat a fondu dans sa poche ?",
+    "questionAudio": "Quel ingénieur a découvert le principe de la cuisson par micro ondes après qu'une barre de chocolat a fondu dans sa poche ?",
+    "options": [
+      "Percy Spencer",
+      "Heinrich Hertz",
+      "James Clerk Maxwell"
+    ],
+    "correct": 0,
+    "explanation": "En 1945 Percy Spencer a remarqué que la chaleur d'un magnétron faisait fondre du chocolat, menant à l'invention du four à micro ondes.",
+    "explanationAudio": "En mille neuf cent quarante cinq Percy Spencer a remarqué que la chaleur d'un magnétron faisait fondre du chocolat, menant à l'invention du four à micro ondes.",
+    "emojis": [
+      "📡",
+      "🍫",
+      "⚡",
+      "🚀",
+      "🛠️",
+      "🔬",
+      "🏭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Percy Spencer standing next to an early radar magnetron, a melted chocolate bar in his hand, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of Heinrich Hertz with a spark gap apparatus, realistic laboratory, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of James Clerk Maxwell writing equations on a chalkboard, detailed Victorian study, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

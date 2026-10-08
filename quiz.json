@@ -1,208 +1,178 @@
 [
   {
-    "question": "Quelle est la fonction principale du foie dans le corps humain ?",
-    "questionAudio": "Quelle est la fonction principale du foie dans le corps humain ?",
+    "question": "Quel est l'élément le plus abondant dans la croûte terrestre ?",
+    "questionAudio": "Quel est l'élément le plus abondant dans la croûte terrestre ?",
     "options": [
-      "Détoxification du sang",
-      "Transport d'oxygène",
-      "Production d'insuline"
-    ],
-    "correct": 0,
-    "explanation": "Le foie filtre les substances toxiques et les élimine du sang.",
-    "explanationAudio": "Le foie filtre les substances toxiques et les élimine du sang.",
-    "emojis": [
-      "🧬",
-      "🫁",
-      "🩸",
-      "⚗️",
-      "🧪",
-      "💧",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human liver highlighting detoxification pathways, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of red blood cells transporting oxygen in blood vessels, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a pancreas releasing insulin, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel groupe sanguin est le donneur universel ?",
-    "questionAudio": "Quel groupe sanguin est le donneur universel ?",
-    "options": [
-      "A positif",
-      "AB positif",
-      "O négatif"
-    ],
-    "correct": 2,
-    "explanation": "Le groupe O négatif peut être donné à tous les autres groupes sanguins.",
-    "explanationAudio": "Le groupe O négatif peut être donné à tous les autres groupes sanguins.",
-    "emojis": [
-      "🩸",
-      "🧪",
-      "🩹",
-      "⚕️",
-      "🔬",
-      "💉",
-      "🩺"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D render of A positive blood cells with glowing markers, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of AB positive blood cells flowing in a vein, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of a red blood cell labeled O negative, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel muscle est principalement responsable de la respiration diaphragmatique ?",
-    "questionAudio": "Quel muscle est principalement responsable de la respiration diaphragmatique ?",
-    "options": [
-      "Diaphragme",
-      "Quadriceps fémoral",
-      "Biceps brachial"
-    ],
-    "correct": 0,
-    "explanation": "Le diaphragme se contracte pour augmenter le volume thoracique et permettre l'inspiration.",
-    "explanationAudio": "Le diaphragme se contracte pour augmenter le volume thoracique et permettre l'inspiration.",
-    "emojis": [
-      "🫁",
-      "💪",
-      "🫂",
-      "⚙️",
-      "🔬",
-      "🩺",
-      "🧬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of the human torso showing the diaphragm in motion, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of the quadriceps muscle group during a squat, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a human biceps flexing, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Combien de vertèbres composent la colonne vertébrale humaine ?",
-    "questionAudio": "Combien de vertèbres composent la colonne vertébrale humaine ?",
-    "options": [
-      "Trente deux",
-      "Trente",
-      "Trente trois"
-    ],
-    "correct": 0,
-    "explanation": "La colonne vertébrale humaine comprend trente‑deux vertèbres, dont sept cervicales, douze thoraciques, cinq lombaires, le sacrum et le coccyx.",
-    "explanationAudio": "La colonne vertébrale humaine comprend trente‑deux vertèbres, dont sept cervicales, douze thoraciques, cinq lombaires, le sacrum et le coccyx.",
-    "emojis": [
-      "🦴",
-      "🔬",
-      "📏",
-      "⚙️",
-      "🧬",
-      "🩺",
-      "🧠"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the human spine showing thirty‑two vertebrae, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a spine with thirty vertebrae highlighted, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a spine with thirty‑three vertebrae, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel pigment détermine la couleur de la peau humaine ?",
-    "questionAudio": "Quel pigment détermine la couleur de la peau humaine ?",
-    "options": [
-      "Hémoglobine",
-      "Collagène",
-      "Mélanine"
-    ],
-    "correct": 2,
-    "explanation": "La mélanine absorbe les rayons UV et donne les différentes teintes de la peau.",
-    "explanationAudio": "La mélanine absorbe les rayons UV et donne les différentes teintes de la peau.",
-    "emojis": [
-      "🖤",
-      "☀️",
-      "🧪",
-      "🔬",
-      "🧬",
-      "🌡️",
-      "🩸"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of blood cells highlighting hemoglobin, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of connective tissue emphasizing collagen fibers, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of skin cells showing melanin granules, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel organe produit la bile nécessaire à la digestion des graisses ?",
-    "questionAudio": "Quel organe produit la bile nécessaire à la digestion des graisses ?",
-    "options": [
-      "Pancréas",
-      "Rate",
-      "Foie"
-    ],
-    "correct": 2,
-    "explanation": "Le foie sécrète la bile qui émulsifie les graisses dans l'intestin grêle.",
-    "explanationAudio": "Le foie sécrète la bile qui émulsifie les graisses dans l'intestin grêle.",
-    "emojis": [
-      "🧪",
-      "💧",
-      "⚗️",
-      "🔬",
-      "🧬",
-      "🍽️",
-      "🩺"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the pancreas with digestive enzymes, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the spleen with immune cells, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of the human liver releasing bile into the gallbladder, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le plus petit os du corps humain ?",
-    "questionAudio": "Quel est le plus petit os du corps humain ?",
-    "options": [
-      "Scapula",
-      "Étrier",
-      "Patella"
+      "Aluminium",
+      "Oxygène",
+      "Silicium"
     ],
     "correct": 1,
-    "explanation": "L'étrier, situé dans l'oreille moyenne, est le plus petit os du corps humain.",
-    "explanationAudio": "L'étrier, situé dans l'oreille moyenne, est le plus petit os du corps humain.",
+    "explanation": "L'oxygène représente près de quarante‑cinq pour cent de la croûte terrestre.",
+    "explanationAudio": "L'oxygène représente près de quarante‑cinq pour cent de la croûte terrestre.",
     "emojis": [
-      "👂",
-      "🦴",
+      "⚗️",
+      "🧪",
       "🔬",
-      "🧠",
-      "⚙️",
+      "💧",
+      "🌡️",
       "🧬",
+      "📊"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of aluminum metal ingots on a laboratory bench, soft lighting, depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of the Earth crust layers highlighting oxygen atoms in bright blue, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of silicon crystal structures with reflective surfaces, high‑resolution, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
+    "questionAudio": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
+    "options": [
+      "Liaison ionique",
+      "Liaison métallique",
+      "Liaison covalente"
+    ],
+    "correct": 2,
+    "explanation": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre la stabilité.",
+    "explanationAudio": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre la stabilité.",
+    "emojis": [
+      "⚗️",
+      "🧪",
+      "🔬",
+      "💥",
+      "🔗",
+      "🧲",
       "📐"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D render of the shoulder blade (scapula) with muscular attachments, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of the human middle ear highlighting the stapes bone, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the kneecap (patella) with surrounding tissue, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D model of sodium and chlorine ions forming an ionic lattice, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of a metal lattice with delocalized electrons, reflective surfaces, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of two hydrogen atoms sharing electrons, glowing orbital paths, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le niveau d'acidité de l'eau pure à vingt‑cinq degrés Celsius ?",
+    "questionAudio": "Quel est le niveau d'acidité de l'eau pure à vingt‑cinq degrés Celsius ?",
+    "options": [
+      "Sept",
+      "Neuf",
+      "Quatre"
+    ],
+    "correct": 0,
+    "explanation": "L'eau pure possède un niveau d'acidité neutre, soit sept, à vingt‑cinq degrés Celsius.",
+    "explanationAudio": "L'eau pure possède un niveau d'acidité neutre, soit sept, à vingt‑cinq degrés Celsius.",
+    "emojis": [
+      "💧",
+      "⚗️",
+      "🧪",
+      "📊",
+      "🔬",
+      "🌡️",
+      "🧪"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D drop of pure water with a glowing pH meter reading seven, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A vivid 3D render of a chemical indicator turning deep orange at nine, high‑resolution, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a laboratory beaker showing a pH scale at four, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel gaz est produit lorsque les acides réagissent avec les métaux ?",
+    "questionAudio": "Quel gaz est produit lorsque les acides réagissent avec les métaux ?",
+    "options": [
+      "Dioxyde de carbone",
+      "Oxygène",
+      "Hydrogène"
+    ],
+    "correct": 2,
+    "explanation": "La réaction entre un acide et un métal libère du gaz hydrogène.",
+    "explanationAudio": "La réaction entre un acide et un métal libère du gaz hydrogène.",
+    "emojis": [
+      "⚗️",
+      "🧪",
+      "💨",
+      "🔥",
+      "🔬",
+      "📚",
+      "🧑‍🔬"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D render of carbon dioxide gas escaping from a reaction flask, atmospheric effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of oxygen molecules forming a cloud, soft lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D scene of a metal piece immersed in acid, bubbles of hydrogen rising, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment s'appelle le passage direct d'un solide à l'état gazeux ?",
+    "questionAudio": "Comment s'appelle le passage direct d'un solide à l'état gazeux ?",
+    "options": [
+      "Sublimation",
+      "Déposition",
+      "Condensation"
+    ],
+    "correct": 0,
+    "explanation": "La sublimation décrit la transition d'un solide directement en vapeur sans phase liquide intermédiaire.",
+    "explanationAudio": "La sublimation décrit la transition d'un solide directement en vapeur sans phase liquide intermédiaire.",
+    "emojis": [
+      "❄️",
+      "💨",
+      "⚗️",
+      "🧊",
+      "🔬",
+      "📸",
+      "🌫️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of dry ice sublimating into carbon dioxide vapor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of frost crystals depositing onto a cold surface, soft glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of water droplets condensing on a glass surface, high‑resolution textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel élément possède l'électronégativité la plus élevée ?",
+    "questionAudio": "Quel élément possède l'électronégativité la plus élevée ?",
+    "options": [
+      "Chlore",
+      "Oxygène",
+      "Fluor"
+    ],
+    "correct": 2,
+    "explanation": "Le fluor a l'électronégativité la plus forte parmi tous les éléments chimiques.",
+    "explanationAudio": "Le fluor a l'électronégativité la plus forte parmi tous les éléments chimiques.",
+    "emojis": [
+      "⚛️",
+      "🧪",
+      "🔬",
+      "💡",
+      "📊",
+      "🧑‍🔬",
+      "🌈"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D render of a chlorine gas cloud in a laboratory setting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of an oxygen molecule with vibrant colors, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D model of a fluorine atom with glowing electrons, ultra‑detail, scientific lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

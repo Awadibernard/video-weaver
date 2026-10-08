@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Sciences de la Terre & Nature",
-  "description": "Explore les mystères de notre planète à travers des questions captivantes !",
+  "topic": "🧠 Quiz : Technologies & Inventions Scientifiques",
+  "description": "Découvrez les grandes inventions qui ont transformé notre monde moderne !",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Quel phénomène explique la formation des dunes de sable dans les déserts ?",
-      "questionAudio": "Quel phénomène explique la formation des dunes de sable dans les déserts ?",
+      "question": "Quel scientifique a inventé le premier moteur à combustion interne fonctionnel ?",
+      "questionAudio": "Quel scientifique a inventé le premier moteur à combustion interne fonctionnel ?",
       "emojis": [
-        "🌵",
-        "🏜️",
-        "💨",
-        "🟫",
-        "🌞",
-        "🌾",
-        "🌀"
+        "⚙️",
+        "🚗",
+        "🔧",
+        "🛠️",
+        "💡",
+        "🧪",
+        "📡"
       ],
       "options": [
-        "La sédimentation marine",
-        "L'érosion fluviale",
-        "Le transport éolien de sable"
-      ],
-      "correct": 2,
-      "answer": "Le transport éolien de sable",
-      "explanation": "Le vent déplace les grains de sable et les accumule en formes ondulées appelées dunes.",
-      "explanationAudio": "Le vent déplace les grains de sable et les accumule en formes ondulées appelées dunes.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a marine shoreline with sediment deposition, detailed water and sand, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a river carving a canyon with sediment transport, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a desert landscape with wind blown sand forming dunes, high detail, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel gaz contribue le plus à l'effet de serre naturel sur Terre ?",
-      "questionAudio": "Quel gaz contribue le plus à l'effet de serre naturel sur Terre ?",
-      "emojis": [
-        "🌡️",
-        "💧",
-        "🌍",
-        "☁️",
-        "🔥",
-        "🌿",
-        "💨"
-      ],
-      "options": [
-        "Le méthane",
-        "Le dioxyde de carbone",
-        "La vapeur d'eau"
-      ],
-      "correct": 2,
-      "answer": "La vapeur d'eau",
-      "explanation": "La vapeur d'eau absorbe une grande partie du rayonnement infrarouge, renforçant l'effet de serre.",
-      "explanationAudio": "La vapeur d'eau absorbe une grande partie du rayonnement infrarouge, renforçant l'effet de serre.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of methane gas plumes rising from wetlands, detailed environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of carbon dioxide gas molecules in the lower atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D atmospheric visualization showing water vapor molecules absorbing infrared radiation, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle couche de la Terre est principalement composée de roches solides et forme le manteau supérieur ?",
-      "questionAudio": "Quelle couche de la Terre est principalement composée de roches solides et forme le manteau supérieur ?",
-      "emojis": [
-        "🌍",
-        "🪨",
-        "⛏️",
-        "🏔️",
-        "🔍",
-        "🧭",
-        "🌋"
-      ],
-      "options": [
-        "L'asthénosphère",
-        "Le noyau externe",
-        "La lithosphère"
-      ],
-      "correct": 2,
-      "answer": "La lithosphère",
-      "explanation": "La lithosphère regroupe la croûte terrestre et la partie supérieure du manteau, toutes deux rigides.",
-      "explanationAudio": "La lithosphère regroupe la croûte terrestre et la partie supérieure du manteau, toutes deux rigides.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of the ductile asthenosphere beneath the lithosphere, glowing with heat, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of Earth's outer core with swirling liquid iron, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cross section of Earth showing the rigid lithosphere crust and upper mantle, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
-      "questionAudio": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
-      "emojis": [
-        "🌋",
-        "🔥",
-        "💥",
-        "🪨",
-        "⏳",
-        "🌑",
-        "🗻"
-      ],
-      "options": [
-        "Volcan caldeira",
-        "Volcan stratifié",
-        "Volcan bouclier"
+        "Thomas Edison",
+        "Nikolaus Otto",
+        "Alexander Graham Bell"
       ],
       "correct": 1,
-      "answer": "Volcan stratifié",
-      "explanation": "Les volcans stratifiés produisent des explosions violentes et peuvent former des dômes de lave visqueuse.",
-      "explanationAudio": "Les volcans stratifiés produisent des explosions violentes et peuvent former des dômes de lave visqueuse.",
+      "answer": "Nikolaus Otto",
+      "explanation": "Nikolaus Otto a développé le moteur à combustion interne en 1876, ouvrant la voie à l’automobile moderne.",
+      "explanationAudio": "Nikolaus Otto a développé le moteur à combustion interne en 1876, ouvrant la voie à l’automobile moderne.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a volcanic caldera with crater lake and surrounding cliffs, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of a stratovolcano erupting explosively, with ash plume and lava dome, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D wide angle view of a broad shield volcano with fluid lava flows, bright colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of Thomas Edison in his laboratory with early electric light bulbs, photorealistic, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of Nikolaus Otto's 1876 internal combustion engine, cinematic lighting, detailed metal textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene showing Alexander Graham Bell with the first telephone prototype, detailed, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel phénomène océanique influence les climats côtiers en apportant de l'eau chaude vers les latitudes élevées ?",
-      "questionAudio": "Quel phénomène océanique influence les climats côtiers en apportant de l'eau chaude vers les latitudes élevées ?",
+      "question": "Quelle invention a permis la première transmission d'images télévisées en couleur ?",
+      "questionAudio": "Quelle invention a permis la première transmission d'images télévisées en couleur ?",
       "emojis": [
-        "🌊",
-        "🌡️",
-        "🧭",
-        "🚢",
-        "🏝️",
-        "❄️",
-        "🌍"
+        "📺",
+        "🎨",
+        "🔴",
+        "🟢",
+        "🔵",
+        "📡",
+        "🖥️"
       ],
       "options": [
-        "Le courant de Kuroshio",
-        "Le courant de la Gulf Stream",
-        "Le courant de Humboldt"
+        "Le système PAL",
+        "Le système SECAM",
+        "Le système NTSC"
+      ],
+      "correct": 2,
+      "answer": "Le système NTSC",
+      "explanation": "Le système NTSC, introduit aux États‑Unis en 1953, a été la première norme à diffuser la télévision en couleur.",
+      "explanationAudio": "Le système NTSC, introduit aux États‑Unis en 1953, a été la première norme à diffuser la télévision en couleur.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a PAL television studio with color test patterns, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a SECAM broadcast tower emitting color signals, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of an early NTSC color television set broadcasting vivid images, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le principe de fonctionnement du laser à semi‑conducteur utilisé dans les lecteurs de CD ?",
+      "questionAudio": "Quel est le principe de fonctionnement du laser à semi‑conducteur utilisé dans les lecteurs de CD ?",
+      "emojis": [
+        "💿",
+        "🔊",
+        "📀",
+        "⚡",
+        "🔬",
+        "🧊",
+        "🖱️"
+      ],
+      "options": [
+        "Le pompage optique d'un cristal de rubis",
+        "La fluorescence d'un gaz néon",
+        "L'émission stimulée de photons dans un cristal de silicium"
+      ],
+      "correct": 2,
+      "answer": "L'émission stimulée de photons dans un cristal de silicium",
+      "explanation": "Le laser à semi‑conducteur du CD repose sur l’émission stimulée de photons dans un matériau de silicium dopé.",
+      "explanationAudio": "Le laser à semi‑conducteur du CD repose sur l’émission stimulée de photons dans un matériau de silicium dopé.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a ruby crystal laser with optical components, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a neon gas tube glowing, cinematic atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of a semiconductor laser diode made of silicon, cinematic lighting, detailed optics, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle technologie a été introduite par le projet ARPANET en mille neuf cent soixante‑neuf ?",
+      "questionAudio": "Quelle technologie a été introduite par le projet ARPANET en mille neuf cent soixante‑neuf ?",
+      "emojis": [
+        "🌐",
+        "🖧",
+        "📡",
+        "🔗",
+        "💻",
+        "🛰️",
+        "📶"
+      ],
+      "options": [
+        "Le protocole TCP/IP",
+        "Le système de commutation de paquets",
+        "Le réseau Ethernet"
       ],
       "correct": 1,
-      "answer": "Le courant de la Gulf Stream",
-      "explanation": "Le Gulf Stream transporte de l'eau chaude depuis les tropiques vers l'Atlantique Nord, modérant les températures.",
-      "explanationAudio": "Le Gulf Stream transporte de l'eau chaude depuis les tropiques vers l'Atlantique Nord, modérant les températures.",
+      "answer": "Le système de commutation de paquets",
+      "explanation": "ARPANET a mis en œuvre la commutation de paquets, une méthode essentielle pour le transfert de données sur les réseaux modernes.",
+      "explanationAudio": "ARPANET a mis en œuvre la commutation de paquets, une méthode essentielle pour le transfert de données sur les réseaux modernes.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D depiction of the warm Kuroshio current off Japan, detailed surface currents, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D oceanic visualization of the Gulf Stream current flowing northward along the Atlantic coast, realistic water surface, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of the cold Humboldt current along South America, with upwelling effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D visualization of the TCP/IP protocol stack, abstract data flow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of packet switching nodes routing data across a network, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of an Ethernet cable and switch, cinematic lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel matériau a révolutionné la fabrication des panneaux solaires en mille neuf cent cinquante‑quatre ?",
+      "questionAudio": "Quel matériau a révolutionné la fabrication des panneaux solaires en mille neuf cent cinquante‑quatre ?",
+      "emojis": [
+        "☀️",
+        "🔋",
+        "🪙",
+        "🧱",
+        "🔧",
+        "⚙️",
+        "🌞"
+      ],
+      "options": [
+        "Le cuivre indium gallium sélénium",
+        "Le silicium cristallin",
+        "Le phosphore"
+      ],
+      "correct": 1,
+      "answer": "Le silicium cristallin",
+      "explanation": "En 1954, le silicium cristallin a été utilisé pour créer les premières cellules photovoltaïques efficaces.",
+      "explanationAudio": "En 1954, le silicium cristallin a été utilisé pour créer les premières cellules photovoltaïques efficaces.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a CIGS thin‑film solar module, cinematic atmosphere, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of crystalline silicon solar cells on a panel, cinematic lighting, detailed crystal structure, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of phosphorus doped semiconductor material, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle invention de mille neuf cent soixante‑trois a permis la première communication par satellite entre deux continents ?",
+      "questionAudio": "Quelle invention de mille neuf cent soixante‑trois a permis la première communication par satellite entre deux continents ?",
+      "emojis": [
+        "🛰️",
+        "🌍",
+        "📞",
+        "🚀",
+        "📡",
+        "💬",
+        "🌐"
+      ],
+      "options": [
+        "Le satellite de télécommunication Intelsat III",
+        "Le satellite de navigation GPS",
+        "Le satellite d'observation Landsat"
+      ],
+      "correct": 0,
+      "answer": "Le satellite de télécommunication Intelsat III",
+      "explanation": "Intelsat III, lancé en 1969, a réalisé la première liaison téléphonique transcontinentale via satellite.",
+      "explanationAudio": "Intelsat III, lancé en 1969, a réalisé la première liaison téléphonique transcontinentale via satellite.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D rendering of the Intelsat III communication satellite in orbit, detailed antennas, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a GPS navigation satellite constellation, cinematic lighting, realistic Earth view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a Landsat Earth‑observation satellite with high‑resolution sensors, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel dispositif a été introduit en mille neuf cent quatre‑vingt‑dix pour permettre le stockage de données magnétiques à haute densité ?",
+      "questionAudio": "Quel dispositif a été introduit en mille neuf cent quatre‑vingt‑dix pour permettre le stockage de données magnétiques à haute densité ?",
+      "emojis": [
+        "💾",
+        "📀",
+        "🗂️",
+        "⚡",
+        "🖥️",
+        "🔧",
+        "🔐"
+      ],
+      "options": [
+        "Le disque Blu‑ray",
+        "Le disque SSD (Solid State Drive)",
+        "Le disque dur à plateau en aluminium"
+      ],
+      "correct": 1,
+      "answer": "Le disque SSD (Solid State Drive)",
+      "explanation": "Le SSD, commercialisé en 1991, a offert un stockage magnétique sans pièces mobiles et une densité de données supérieure aux disques durs classiques.",
+      "explanationAudio": "Le SSD, commercialisé en 1991, a offert un stockage magnétique sans pièces mobiles et une densité de données supérieure aux disques durs classiques.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a Blu‑ray disc spinning, reflective surface, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a modern SSD with circuit boards and flash memory chips, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of an aluminium platter hard drive with read/write heads, cinematic lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Physique & Astronomie",
-  "description": "Explore les mystères de l'univers et les lois qui régissent la matière.",
+  "topic": "🧠 Quiz : Biologie & Corps Humain",
+  "description": "Découvre les secrets fascinants du corps humain en un clin d’œil.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Quel est le processus qui alimente le Soleil ?",
-      "questionAudio": "Quel est le processus qui alimente le Soleil ?",
+      "question": "Quelle est la fonction principale du foie dans le corps humain ?",
+      "questionAudio": "Quelle est la fonction principale du foie dans le corps humain ?",
       "emojis": [
-        "☀️",
-        "🔭",
-        "⚛️",
-        "🔥",
+        "🧬",
+        "🫁",
+        "🩸",
+        "⚗️",
         "🧪",
-        "🌞",
-        "🚀"
+        "💧",
+        "🔬"
       ],
       "options": [
-        "Fusion nucléaire de l’hydrogène en hélium",
-        "Combustion du carbone",
-        "Réaction chimique entre le fer et l’oxygène"
+        "Détoxification du sang",
+        "Transport d'oxygène",
+        "Production d'insuline"
       ],
       "correct": 0,
-      "answer": "Fusion nucléaire de l’hydrogène en hélium",
-      "explanation": "Le Soleil tire son énergie de la fusion nucléaire qui transforme l’hydrogène en hélium au cœur du noyau.",
-      "explanationAudio": "Le Soleil tire son énergie de la fusion nucléaire qui transforme l’hydrogène en hélium au cœur du noyau.",
+      "answer": "Détoxification du sang",
+      "explanation": "Le foie filtre les substances toxiques et les élimine du sang.",
+      "explanationAudio": "Le foie filtre les substances toxiques et les élimine du sang.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of the Sun’s core showing swirling plasma and nuclear fusion reactions, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a burning coal fire with orange flames, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of iron rusting on a metal surface, close‑up, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human liver highlighting detoxification pathways, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of red blood cells transporting oxygen in blood vessels, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a pancreas releasing insulin, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Qu’est‑ce qui cause les phases de la Lune ?",
-      "questionAudio": "Qu’est‑ce qui cause les phases de la Lune ?",
+      "question": "Quel groupe sanguin est le donneur universel ?",
+      "questionAudio": "Quel groupe sanguin est le donneur universel ?",
       "emojis": [
-        "🌙",
-        "🌞",
-        "🌓",
-        "🌏",
-        "🔭",
-        "✨",
-        "🚀"
-      ],
-      "options": [
-        "L’orientation du Soleil, de la Terre et de la Lune",
-        "Les nuages qui passent devant la Lune",
-        "La rotation de la Lune autour de son axe"
-      ],
-      "correct": 0,
-      "answer": "L’orientation du Soleil, de la Terre et de la Lune",
-      "explanation": "Les phases résultent de la façon dont le Soleil éclaire la moitié visible de la Lune selon leur alignement.",
-      "explanationAudio": "Les phases résultent de la façon dont le Soleil éclaire la moitié visible de la Lune selon leur alignement.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of Earth, Moon and Sun alignment showing illuminated portion of the Moon, photorealistic space background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of fluffy clouds drifting across a night sky, moon partially hidden, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of the Moon rotating on its axis with motion blur, detailed surface texture, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel type de galaxie est la Voie lactée ?",
-      "questionAudio": "Quel type de galaxie est la Voie lactée ?",
-      "emojis": [
-        "🌌",
-        "🌀",
-        "⭐",
-        "🔭",
-        "🚀",
-        "✨",
-        "🧭"
-      ],
-      "options": [
-        "Galaxie spirale barrée",
-        "Galaxie irrégulière",
-        "Galaxie elliptique"
-      ],
-      "correct": 0,
-      "answer": "Galaxie spirale barrée",
-      "explanation": "La Voie lactée possède un bras central en forme de barre d’où partent les bras spiraux.",
-      "explanationAudio": "La Voie lactée possède un bras central en forme de barre d’où partent les bras spiraux.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a barred spiral galaxy with bright core and swirling arms, space background, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an irregular galaxy with chaotic star clusters, high detail, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of an elliptical galaxy, smooth oval shape, realistic star field, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle force maintient les planètes en orbite autour du Soleil ?",
-      "questionAudio": "Quelle force maintient les planètes en orbite autour du Soleil ?",
-      "emojis": [
-        "🪐",
-        "🌞",
-        "⚖️",
-        "🔭",
-        "🚀",
-        "🌍",
-        "✨"
-      ],
-      "options": [
-        "Pression atmosphérique",
-        "Gravité",
-        "Magnétisme"
-      ],
-      "correct": 1,
-      "answer": "Gravité",
-      "explanation": "La gravité attire les planètes vers le Soleil et les fait suivre des trajectoires elliptiques.",
-      "explanationAudio": "La gravité attire les planètes vers le Soleil et les fait suivre des trajectoires elliptiques.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of atmospheric pressure waves on a planetary surface, detailed clouds, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of the Sun’s gravitational field pulling planets along orbital paths, realistic textures, space backdrop, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene showing magnetic field lines around a planet, glowing auroras, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est le nom d’une étoile qui a épuisé l’hydrogène de son cœur et s’est dilatée ?",
-      "questionAudio": "Quel est le nom d’une étoile qui a épuisé l’hydrogène de son cœur et s’est dilatée ?",
-      "emojis": [
-        "🔴",
-        "⭐",
-        "🌟",
+        "🩸",
         "🧪",
-        "🚀",
-        "✨",
-        "🔭"
+        "🩹",
+        "⚕️",
+        "🔬",
+        "💉",
+        "🩺"
       ],
       "options": [
-        "Supernova",
-        "Naine blanche",
-        "Géante rouge"
+        "A positif",
+        "AB positif",
+        "O négatif"
       ],
       "correct": 2,
-      "answer": "Géante rouge",
-      "explanation": "Après la phase principale, l’étoile devient une géante rouge en gonflant et en refroidissant sa surface.",
-      "explanationAudio": "Après la phase principale, l’étoile devient une géante rouge en gonflant et en refroidissant sa surface.",
+      "answer": "O négatif",
+      "explanation": "Le groupe O négatif peut être donné à tous les autres groupes sanguins.",
+      "explanationAudio": "Le groupe O négatif peut être donné à tous les autres groupes sanguins.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a supernova explosion with bright ejecta, detailed particles, space scenery, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a small white dwarf star, bright and dense, realistic lighting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a red giant star with expanded outer layers, glowing surface, space background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D render of A positive blood cells with glowing markers, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of AB positive blood cells flowing in a vein, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a red blood cell labeled O negative, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel muscle est principalement responsable de la respiration diaphragmatique ?",
+      "questionAudio": "Quel muscle est principalement responsable de la respiration diaphragmatique ?",
+      "emojis": [
+        "🫁",
+        "💪",
+        "🫂",
+        "⚙️",
+        "🔬",
+        "🩺",
+        "🧬"
+      ],
+      "options": [
+        "Diaphragme",
+        "Quadriceps fémoral",
+        "Biceps brachial"
+      ],
+      "correct": 0,
+      "answer": "Diaphragme",
+      "explanation": "Le diaphragme se contracte pour augmenter le volume thoracique et permettre l'inspiration.",
+      "explanationAudio": "Le diaphragme se contracte pour augmenter le volume thoracique et permettre l'inspiration.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of the human torso showing the diaphragm in motion, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of the quadriceps muscle group during a squat, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a human biceps flexing, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Combien de vertèbres composent la colonne vertébrale humaine ?",
+      "questionAudio": "Combien de vertèbres composent la colonne vertébrale humaine ?",
+      "emojis": [
+        "🦴",
+        "🔬",
+        "📏",
+        "⚙️",
+        "🧬",
+        "🩺",
+        "🧠"
+      ],
+      "options": [
+        "Trente deux",
+        "Trente",
+        "Trente trois"
+      ],
+      "correct": 0,
+      "answer": "Trente deux",
+      "explanation": "La colonne vertébrale humaine comprend trente‑deux vertèbres, dont sept cervicales, douze thoraciques, cinq lombaires, le sacrum et le coccyx.",
+      "explanationAudio": "La colonne vertébrale humaine comprend trente‑deux vertèbres, dont sept cervicales, douze thoraciques, cinq lombaires, le sacrum et le coccyx.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the human spine showing thirty‑two vertebrae, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a spine with thirty vertebrae highlighted, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a spine with thirty‑three vertebrae, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel pigment détermine la couleur de la peau humaine ?",
+      "questionAudio": "Quel pigment détermine la couleur de la peau humaine ?",
+      "emojis": [
+        "🖤",
+        "☀️",
+        "🧪",
+        "🔬",
+        "🧬",
+        "🌡️",
+        "🩸"
+      ],
+      "options": [
+        "Hémoglobine",
+        "Collagène",
+        "Mélanine"
+      ],
+      "correct": 2,
+      "answer": "Mélanine",
+      "explanation": "La mélanine absorbe les rayons UV et donne les différentes teintes de la peau.",
+      "explanationAudio": "La mélanine absorbe les rayons UV et donne les différentes teintes de la peau.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of blood cells highlighting hemoglobin, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of connective tissue emphasizing collagen fibers, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of skin cells showing melanin granules, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel organe produit la bile nécessaire à la digestion des graisses ?",
+      "questionAudio": "Quel organe produit la bile nécessaire à la digestion des graisses ?",
+      "emojis": [
+        "🧪",
+        "💧",
+        "⚗️",
+        "🔬",
+        "🧬",
+        "🍽️",
+        "🩺"
+      ],
+      "options": [
+        "Pancréas",
+        "Rate",
+        "Foie"
+      ],
+      "correct": 2,
+      "answer": "Foie",
+      "explanation": "Le foie sécrète la bile qui émulsifie les graisses dans l'intestin grêle.",
+      "explanationAudio": "Le foie sécrète la bile qui émulsifie les graisses dans l'intestin grêle.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the pancreas with digestive enzymes, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the spleen with immune cells, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of the human liver releasing bile into the gallbladder, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le plus petit os du corps humain ?",
+      "questionAudio": "Quel est le plus petit os du corps humain ?",
+      "emojis": [
+        "👂",
+        "🦴",
+        "🔬",
+        "🧠",
+        "⚙️",
+        "🧬",
+        "📐"
+      ],
+      "options": [
+        "Scapula",
+        "Étrier",
+        "Patella"
+      ],
+      "correct": 1,
+      "answer": "Étrier",
+      "explanation": "L'étrier, situé dans l'oreille moyenne, est le plus petit os du corps humain.",
+      "explanationAudio": "L'étrier, situé dans l'oreille moyenne, est le plus petit os du corps humain.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D render of the shoulder blade (scapula) with muscular attachments, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of the human middle ear highlighting the stapes bone, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the kneecap (patella) with surrounding tissue, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Chimine & Matière",
-  "description": "Teste tes connaissances sur les mystères de la matière et les réactions chimiques qui façonnent notre monde.",
+  "topic": "🧠 Quiz : Sciences de la Terre & Nature",
+  "description": "Explore les mystères de notre planète à travers des questions captivantes !",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,168 +19,141 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Quel est l'élément le plus abondant dans la croûte terrestre ?",
-      "questionAudio": "Quel est l'élément le plus abondant dans la croûte terrestre ?",
+      "question": "Quel phénomène explique la formation des dunes de sable dans les déserts ?",
+      "questionAudio": "Quel phénomène explique la formation des dunes de sable dans les déserts ?",
       "emojis": [
-        "⚗️",
-        "🧪",
-        "🔬",
-        "💧",
-        "🌡️",
-        "🧬",
-        "📊"
+        "🌵",
+        "🏜️",
+        "💨",
+        "🟫",
+        "🌞",
+        "🌾",
+        "🌀"
       ],
       "options": [
-        "Aluminium",
-        "Oxygène",
-        "Silicium"
+        "La sédimentation marine",
+        "L'érosion fluviale",
+        "Le transport éolien de sable"
+      ],
+      "correct": 2,
+      "answer": "Le transport éolien de sable",
+      "explanation": "Le vent déplace les grains de sable et les accumule en formes ondulées appelées dunes.",
+      "explanationAudio": "Le vent déplace les grains de sable et les accumule en formes ondulées appelées dunes.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D scene of a marine shoreline with sediment deposition, detailed water and sand, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a river carving a canyon with sediment transport, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a desert landscape with wind blown sand forming dunes, high detail, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel gaz contribue le plus à l'effet de serre naturel sur Terre ?",
+      "questionAudio": "Quel gaz contribue le plus à l'effet de serre naturel sur Terre ?",
+      "emojis": [
+        "🌡️",
+        "💧",
+        "🌍",
+        "☁️",
+        "🔥",
+        "🌿",
+        "💨"
+      ],
+      "options": [
+        "Le méthane",
+        "Le dioxyde de carbone",
+        "La vapeur d'eau"
+      ],
+      "correct": 2,
+      "answer": "La vapeur d'eau",
+      "explanation": "La vapeur d'eau absorbe une grande partie du rayonnement infrarouge, renforçant l'effet de serre.",
+      "explanationAudio": "La vapeur d'eau absorbe une grande partie du rayonnement infrarouge, renforçant l'effet de serre.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of methane gas plumes rising from wetlands, detailed environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of carbon dioxide gas molecules in the lower atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D atmospheric visualization showing water vapor molecules absorbing infrared radiation, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle couche de la Terre est principalement composée de roches solides et forme le manteau supérieur ?",
+      "questionAudio": "Quelle couche de la Terre est principalement composée de roches solides et forme le manteau supérieur ?",
+      "emojis": [
+        "🌍",
+        "🪨",
+        "⛏️",
+        "🏔️",
+        "🔍",
+        "🧭",
+        "🌋"
+      ],
+      "options": [
+        "L'asthénosphère",
+        "Le noyau externe",
+        "La lithosphère"
+      ],
+      "correct": 2,
+      "answer": "La lithosphère",
+      "explanation": "La lithosphère regroupe la croûte terrestre et la partie supérieure du manteau, toutes deux rigides.",
+      "explanationAudio": "La lithosphère regroupe la croûte terrestre et la partie supérieure du manteau, toutes deux rigides.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D render of the ductile asthenosphere beneath the lithosphere, glowing with heat, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of Earth's outer core with swirling liquid iron, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cross section of Earth showing the rigid lithosphere crust and upper mantle, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
+      "questionAudio": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
+      "emojis": [
+        "🌋",
+        "🔥",
+        "💥",
+        "🪨",
+        "⏳",
+        "🌑",
+        "🗻"
+      ],
+      "options": [
+        "Volcan caldeira",
+        "Volcan stratifié",
+        "Volcan bouclier"
       ],
       "correct": 1,
-      "answer": "Oxygène",
-      "explanation": "L'oxygène représente près de quarante‑cinq pour cent de la croûte terrestre.",
-      "explanationAudio": "L'oxygène représente près de quarante‑cinq pour cent de la croûte terrestre.",
+      "answer": "Volcan stratifié",
+      "explanation": "Les volcans stratifiés produisent des explosions violentes et peuvent former des dômes de lave visqueuse.",
+      "explanationAudio": "Les volcans stratifiés produisent des explosions violentes et peuvent former des dômes de lave visqueuse.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of aluminum metal ingots on a laboratory bench, soft lighting, depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of the Earth crust layers highlighting oxygen atoms in bright blue, cinematic lighting, ultra‑detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of silicon crystal structures with reflective surfaces, high‑resolution, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D scene of a volcanic caldera with crater lake and surrounding cliffs, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D photorealistic rendering of a stratovolcano erupting explosively, with ash plume and lava dome, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D wide angle view of a broad shield volcano with fluid lava flows, bright colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
-      "questionAudio": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
+      "question": "Quel phénomène océanique influence les climats côtiers en apportant de l'eau chaude vers les latitudes élevées ?",
+      "questionAudio": "Quel phénomène océanique influence les climats côtiers en apportant de l'eau chaude vers les latitudes élevées ?",
       "emojis": [
-        "⚗️",
-        "🧪",
-        "🔬",
-        "💥",
-        "🔗",
-        "🧲",
-        "📐"
-      ],
-      "options": [
-        "Liaison ionique",
-        "Liaison métallique",
-        "Liaison covalente"
-      ],
-      "correct": 2,
-      "answer": "Liaison covalente",
-      "explanation": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre la stabilité.",
-      "explanationAudio": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre la stabilité.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D model of sodium and chlorine ions forming an ionic lattice, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of a metal lattice with delocalized electrons, reflective surfaces, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of two hydrogen atoms sharing electrons, glowing orbital paths, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est le niveau d'acidité de l'eau pure à vingt‑cinq degrés Celsius ?",
-      "questionAudio": "Quel est le niveau d'acidité de l'eau pure à vingt‑cinq degrés Celsius ?",
-      "emojis": [
-        "💧",
-        "⚗️",
-        "🧪",
-        "📊",
-        "🔬",
+        "🌊",
         "🌡️",
-        "🧪"
-      ],
-      "options": [
-        "Sept",
-        "Neuf",
-        "Quatre"
-      ],
-      "correct": 0,
-      "answer": "Sept",
-      "explanation": "L'eau pure possède un niveau d'acidité neutre, soit sept, à vingt‑cinq degrés Celsius.",
-      "explanationAudio": "L'eau pure possède un niveau d'acidité neutre, soit sept, à vingt‑cinq degrés Celsius.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D drop of pure water with a glowing pH meter reading seven, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A vivid 3D render of a chemical indicator turning deep orange at nine, high‑resolution, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a laboratory beaker showing a pH scale at four, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel gaz est produit lorsque les acides réagissent avec les métaux ?",
-      "questionAudio": "Quel gaz est produit lorsque les acides réagissent avec les métaux ?",
-      "emojis": [
-        "⚗️",
-        "🧪",
-        "💨",
-        "🔥",
-        "🔬",
-        "📚",
-        "🧑‍🔬"
-      ],
-      "options": [
-        "Dioxyde de carbone",
-        "Oxygène",
-        "Hydrogène"
-      ],
-      "correct": 2,
-      "answer": "Hydrogène",
-      "explanation": "La réaction entre un acide et un métal libère du gaz hydrogène.",
-      "explanationAudio": "La réaction entre un acide et un métal libère du gaz hydrogène.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of carbon dioxide gas escaping from a reaction flask, atmospheric effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of oxygen molecules forming a cloud, soft lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D scene of a metal piece immersed in acid, bubbles of hydrogen rising, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Comment s'appelle le passage direct d'un solide à l'état gazeux ?",
-      "questionAudio": "Comment s'appelle le passage direct d'un solide à l'état gazeux ?",
-      "emojis": [
+        "🧭",
+        "🚢",
+        "🏝️",
         "❄️",
-        "💨",
-        "⚗️",
-        "🧊",
-        "🔬",
-        "📸",
-        "🌫️"
+        "🌍"
       ],
       "options": [
-        "Sublimation",
-        "Déposition",
-        "Condensation"
+        "Le courant de Kuroshio",
+        "Le courant de la Gulf Stream",
+        "Le courant de Humboldt"
       ],
-      "correct": 0,
-      "answer": "Sublimation",
-      "explanation": "La sublimation décrit la transition d'un solide directement en vapeur sans phase liquide intermédiaire.",
-      "explanationAudio": "La sublimation décrit la transition d'un solide directement en vapeur sans phase liquide intermédiaire.",
+      "correct": 1,
+      "answer": "Le courant de la Gulf Stream",
+      "explanation": "Le Gulf Stream transporte de l'eau chaude depuis les tropiques vers l'Atlantique Nord, modérant les températures.",
+      "explanationAudio": "Le Gulf Stream transporte de l'eau chaude depuis les tropiques vers l'Atlantique Nord, modérant les températures.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of dry ice sublimating into carbon dioxide vapor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of frost crystals depositing onto a cold surface, soft glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D scene of water droplets condensing on a glass surface, high‑resolution textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel élément possède l'électronégativité la plus élevée ?",
-      "questionAudio": "Quel élément possède l'électronégativité la plus élevée ?",
-      "emojis": [
-        "⚛️",
-        "🧪",
-        "🔬",
-        "💡",
-        "📊",
-        "🧑‍🔬",
-        "🌈"
-      ],
-      "options": [
-        "Chlore",
-        "Oxygène",
-        "Fluor"
-      ],
-      "correct": 2,
-      "answer": "Fluor",
-      "explanation": "Le fluor a l'électronégativité la plus forte parmi tous les éléments chimiques.",
-      "explanationAudio": "Le fluor a l'électronégativité la plus forte parmi tous les éléments chimiques.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a chlorine gas cloud in a laboratory setting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of an oxygen molecule with vibrant colors, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D model of a fluorine atom with glowing electrons, ultra‑detail, scientific lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D depiction of the warm Kuroshio current off Japan, detailed surface currents, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D oceanic visualization of the Gulf Stream current flowing northward along the Atlantic coast, realistic water surface, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of the cold Humboldt current along South America, with upwelling effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

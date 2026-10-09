@@ -1,148 +1,28 @@
 [
   {
-    "question": "Quel rôle joue le cortex préfrontal dans la prise de décision ?",
-    "questionAudio": "Quel rôle joue le cortex préfrontal dans la prise de décision ?",
+    "question": "Quel est le véritable effet des micro ondes sur les aliments ?",
+    "questionAudio": "Quel est le véritable effet des micro ondes sur les aliments ?",
     "options": [
-      "Production d'insuline",
-      "Contrôle de la respiration",
-      "Évaluation des conséquences à long terme"
+      "Ils réchauffent les molécules d'eau sans rendre les aliments radioactifs",
+      "Ils transforment les aliments en matière radioactive",
+      "Ils détruisent toutes les vitamines"
     ],
-    "correct": 2,
-    "explanation": "Le cortex préfrontal intègre les informations pour anticiper les résultats et guider les choix.",
-    "explanationAudio": "Le cortex préfrontal intègre les informations pour anticiper les résultats et guider les choix.",
+    "correct": 0,
+    "explanation": "Les micro ondes excitent les molécules d'eau, ce qui chauffe les aliments sans aucune radioactivité.",
+    "explanationAudio": "Les micro ondes excitent les molécules d'eau, ce qui chauffe les aliments sans aucune radioactivité.",
     "emojis": [
-      "🧠",
-      "🤔",
-      "📊",
-      "💭",
-      "🔍",
-      "⚖️",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D molecular model of insulin molecules in a bloodstream, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of human lungs with airflow visualization, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A highly detailed 3D render of a human brain highlighting the prefrontal cortex with glowing overlays, cinematic lighting, photorealistic"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel effet principal a la sérotonine sur l'humeur ?",
-    "questionAudio": "Quel effet principal a la sérotonine sur l'humeur ?",
-    "options": [
-      "Réduit la densité osseuse",
-      "Stabilise l'humeur",
-      "Augmente la fréquence cardiaque"
-    ],
-    "correct": 1,
-    "explanation": "La sérotonine agit comme un régulateur de l'humeur en favorisant la stabilité émotionnelle.",
-    "explanationAudio": "La sérotonine agit comme un régulateur de l'humeur en favorisant la stabilité émotionnelle.",
-    "emojis": [
-      "🧠",
-      "😊",
-      "💊",
-      "🌈",
-      "🔬",
-      "🧪",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of 3D render of bone tissue showing calcium loss, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D cinematic illustration of serotonin molecules binding to brain receptors, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D model of a human heart with pulsating rhythm, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle est la fonction principale de la gaine de myéline ?",
-    "questionAudio": "Quelle est la fonction principale de la gaine de myéline ?",
-    "options": [
-      "Produit des hormones",
-      "Filtre les sons",
-      "Accélère la conduction nerveuse"
-    ],
-    "correct": 2,
-    "explanation": "La myéline isole les axones et permet aux impulsions électriques de voyager plus rapidement.",
-    "explanationAudio": "La myéline isole les axones et permet aux impulsions électriques de voyager plus rapidement.",
-    "emojis": [
-      "🧠",
       "⚡",
-      "🧬",
-      "🚀",
+      "🍲",
       "🔬",
-      "🦾",
-      "💡"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of 3D model of endocrine glands secreting hormones, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D illustration of an ear with sound waves being filtered, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D close up of an axon wrapped in myelin sheath, bright highlights, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Comment l'amygdale participe‑t‑elle à la réponse de peur ?",
-    "questionAudio": "Comment l'amygdale participe‑t‑elle à la réponse de peur ?",
-    "options": [
-      "Régule la digestion",
-      "Contrôle la température corporelle",
-      "Déclenche la réponse de peur"
-    ],
-    "correct": 2,
-    "explanation": "L'amygdale détecte les menaces et active les circuits de peur dans le cerveau.",
-    "explanationAudio": "L'amygdale détecte les menaces et active les circuits de peur dans le cerveau.",
-    "emojis": [
-      "🧠",
-      "😱",
-      "🔥",
-      "🔬",
-      "⚡",
-      "🧪",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of 3D model of digestive system with peristalsis, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D illustration of human body with temperature regulation mechanisms, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D render of an amygdala lighting up in a brain scan during fear stimulus, cinematic, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel phénomène décrit la neuroplasticité après l'apprentissage ?",
-    "questionAudio": "Quel phénomène décrit la neuroplasticité après l'apprentissage ?",
-    "options": [
-      "Bloque la formation de nouvelles cellules",
-      "Renforce les connexions synaptiques",
-      "Diminue le volume cérébral"
-    ],
-    "correct": 1,
-    "explanation": "L'apprentissage crée de nouvelles connexions et renforce celles existantes entre les neurones.",
-    "explanationAudio": "L'apprentissage crée de nouvelles connexions et renforce celles existantes entre les neurones.",
-    "emojis": [
-      "🧠",
-      "🔗",
-      "📚",
-      "🧪",
+      "📡",
+      "🌀",
       "💡",
-      "🚀",
-      "⚡"
+      "🚀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of 3D illustration of neural stem cells being inhibited, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D visualization of synaptic connections strengthening with glowing synapses, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D model of a brain with shrinking volume, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A hyper‑realistic 3D render of a microwave interior showing water molecules vibrating, soft glow, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a microwave turning food into glowing radioactive material, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a microwave with vitamin icons disintegrating, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -150,29 +30,179 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel rôle le sommeil joue‑t‑il dans la consolidation de la mémoire ?",
-    "questionAudio": "Quel rôle le sommeil joue‑t‑il dans la consolidation de la mémoire ?",
+    "question": "Quelle quantité d'eau est généralement recommandée pour un adulte en bonne santé ?",
+    "questionAudio": "Quelle quantité d'eau est généralement recommandée pour un adulte en bonne santé ?",
     "options": [
-      "Réduit la vigilance",
-      "Facilite la consolidation de la mémoire",
-      "Augmente la production de cortisol"
+      "Environ deux litres par jour",
+      "Huit verres exactement",
+      "Dix litres par jour"
     ],
-    "correct": 1,
-    "explanation": "Pendant le sommeil, en particulier le stade REM, le cerveau réactive et stabilise les traces mémorielles.",
-    "explanationAudio": "Pendant le sommeil, en particulier le stade REM, le cerveau réactive et stabilise les traces mémorielles.",
+    "correct": 0,
+    "explanation": "Les besoins varient, mais environ deux litres d’eau quotidiennement conviennent à la plupart des adultes.",
+    "explanationAudio": "Les besoins varient, mais environ deux litres d’eau quotidiennement conviennent à la plupart des adultes.",
     "emojis": [
-      "🧠",
-      "🌙",
-      "🛌",
-      "🔬",
-      "💤",
-      "🧪",
-      "🚀"
+      "💧",
+      "🚰",
+      "📏",
+      "🧊",
+      "🏃",
+      "⚖️",
+      "🌿"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of 3D render of a person with reduced alertness, dim lighting, photorealistic, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D night‑time brain scan showing memory traces being consolidated during REM sleep, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of 3D illustration of adrenal glands releasing cortisol, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of a clear glass pitcher filled with two litres of water, cinematic lighting, photorealistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of eight identical glasses lined up, each half full, bright studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A dramatic 3D scene showing a person attempting to drink ten litres of water, exaggerated scale, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est l'impact réel du sucre sur le comportement des enfants ?",
+    "questionAudio": "Quel est l'impact réel du sucre sur le comportement des enfants ?",
+    "options": [
+      "Il diminue l'attention mais augmente l'énergie",
+      "Aucun effet direct sur l'hyperactivité",
+      "Il provoque une hyperactivité marquée"
+    ],
+    "correct": 1,
+    "explanation": "Les études montrent que le sucre ne cause pas d'hyperactivité mesurable chez les enfants.",
+    "explanationAudio": "Les études montrent que le sucre ne cause pas d'hyperactivité mesurable chez les enfants.",
+    "emojis": [
+      "🍭",
+      "👦",
+      "🧠",
+      "📚",
+      "⚡",
+      "🛑",
+      "🔬"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D render of a child with a split screen showing attention fading while energy spikes, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a child calmly eating a candy bar, soft lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A dynamic 3D illustration of a child bouncing wildly after consuming sugar, exaggerated motion blur, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Le craquement des articulations entraîne t il l'arthrite ?",
+    "questionAudio": "Le craquement des articulations entraîne t il l'arthrite ?",
+    "options": [
+      "Oui, il cause l'arthrite",
+      "Non, il n'entraîne pas d'arthrite",
+      "Il accélère le vieillissement des os"
+    ],
+    "correct": 1,
+    "explanation": "Le bruit provient de bulles de gaz dans le liquide synovial et n'endommage pas les articulations.",
+    "explanationAudio": "Le bruit provient de bulles de gaz dans le liquide synovial et n'endommage pas les articulations.",
+    "emojis": [
+      "🤲",
+      "🔊",
+      "🦴",
+      "💥",
+      "⚖️",
+      "🧪",
+      "📉"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A stylized 3D illustration of inflamed joints labeled arthritic, dramatic red glow, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A close‑up 3D render of a human finger joint cracking, visible gas bubbles, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of aging bones with subtle wear, soft shadows, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Est il vrai que la foudre ne frappe jamais deux fois le même point ?",
+    "questionAudio": "Est il vrai que la foudre ne frappe jamais deux fois le même point ?",
+    "options": [
+      "Non, elle peut frapper plusieurs fois le même point",
+      "Elle ne frappe que les objets métalliques",
+      "Oui, elle ne frappe qu'une fois"
+    ],
+    "correct": 0,
+    "explanation": "Les structures élevées attirent la foudre de façon récurrente, comme le même gratte‑ciel.",
+    "explanationAudio": "Les structures élevées attirent la foudre de façon récurrente, comme le même gratte‑ciel.",
+    "emojis": [
+      "⚡",
+      "🏙️",
+      "🌩️",
+      "🔩",
+      "📍",
+      "🪁",
+      "🔭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A dramatic 3D rendering of a lightning bolt striking the same skyscraper twice, cinematic clouds, photorealistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of a landscape with multiple lightning strikes on various points, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A stylized 3D illustration of a single lightning strike on a metal pole, bright electric arcs, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle proportion du cerveau humain est réellement utilisée ?",
+    "questionAudio": "Quelle proportion du cerveau humain est réellement utilisée ?",
+    "options": [
+      "Pratiquement tout le cerveau est actif",
+      "Seulement dix pour cent",
+      "Moitié seulement"
+    ],
+    "correct": 0,
+    "explanation": "Les imageries cérébrales montrent une activité diffuse dans presque toutes les régions, même au repos.",
+    "explanationAudio": "Les imageries cérébrales montrent une activité diffuse dans presque toutes les régions, même au repos.",
+    "emojis": [
+      "🧠",
+      "🔍",
+      "💡",
+      "📊",
+      "🧩",
+      "⚙️",
+      "🌐"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D brain model with all regions illuminated, cinematic lighting, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A stylized 3D illustration highlighting only ten percent of a brain in bright color, dark background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D split view of a brain with half illuminated, subtle shading, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le rôle réel de la vitamine C dans la prévention du rhume ?",
+    "questionAudio": "Quel est le rôle réel de la vitamine C dans la prévention du rhume ?",
+    "options": [
+      "Elle ne prévient pas le rhume mais peut réduire sa durée",
+      "Elle empêche totalement le rhume",
+      "Elle augmente le risque de rhume"
+    ],
+    "correct": 0,
+    "explanation": "Les études montrent que la vitamine C n’empêche pas l’infection mais peut légèrement raccourcir la maladie.",
+    "explanationAudio": "Les études montrent que la vitamine C n’empêche pas l’infection mais peut légèrement raccourcir la maladie.",
+    "emojis": [
+      "🍊",
+      "💊",
+      "🤧",
+      "🛡️",
+      "📉",
+      "🔬",
+      "🧪"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of an orange sliced, with vitamin C molecules highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A stylized 3D illustration of a shield labeled 'rhume' being repelled by a vitamin C capsule, bright colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of a person sneezing while holding a vitamin C tablet, soft focus, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

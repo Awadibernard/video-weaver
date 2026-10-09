@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Technologies & Inventions Scientifiques",
-  "description": "Découvrez les grandes inventions qui ont transformé notre monde moderne !",
+  "topic": "🧠 Quiz : Neurosciences & Psychologie Scientifique",
+  "description": "Testez vos connaissances en neurosciences et psychologie scientifique avec ces questions surprenantes.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -10,204 +10,177 @@
   "cta": "Abonne toi pour en apprendre plus !",
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
-    "🔬",
-    "🧪",
-    "✨",
-    "🌍",
-    "⚡",
     "🧠",
+    "🔬",
+    "📚",
+    "💡",
+    "🧪",
+    "⚡",
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 7,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Quel scientifique a inventé le premier moteur à combustion interne fonctionnel ?",
-      "questionAudio": "Quel scientifique a inventé le premier moteur à combustion interne fonctionnel ?",
+      "question": "Quel rôle joue le cortex préfrontal dans la prise de décision ?",
+      "questionAudio": "Quel rôle joue le cortex préfrontal dans la prise de décision ?",
       "emojis": [
-        "⚙️",
-        "🚗",
-        "🔧",
-        "🛠️",
-        "💡",
-        "🧪",
-        "📡"
+        "🧠",
+        "🤔",
+        "📊",
+        "💭",
+        "🔍",
+        "⚖️",
+        "🚀"
       ],
       "options": [
-        "Thomas Edison",
-        "Nikolaus Otto",
-        "Alexander Graham Bell"
-      ],
-      "correct": 1,
-      "answer": "Nikolaus Otto",
-      "explanation": "Nikolaus Otto a développé le moteur à combustion interne en 1876, ouvrant la voie à l’automobile moderne.",
-      "explanationAudio": "Nikolaus Otto a développé le moteur à combustion interne en 1876, ouvrant la voie à l’automobile moderne.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of Thomas Edison in his laboratory with early electric light bulbs, photorealistic, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of Nikolaus Otto's 1876 internal combustion engine, cinematic lighting, detailed metal textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene showing Alexander Graham Bell with the first telephone prototype, detailed, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle invention a permis la première transmission d'images télévisées en couleur ?",
-      "questionAudio": "Quelle invention a permis la première transmission d'images télévisées en couleur ?",
-      "emojis": [
-        "📺",
-        "🎨",
-        "🔴",
-        "🟢",
-        "🔵",
-        "📡",
-        "🖥️"
-      ],
-      "options": [
-        "Le système PAL",
-        "Le système SECAM",
-        "Le système NTSC"
+        "Production d'insuline",
+        "Contrôle de la respiration",
+        "Évaluation des conséquences à long terme"
       ],
       "correct": 2,
-      "answer": "Le système NTSC",
-      "explanation": "Le système NTSC, introduit aux États‑Unis en 1953, a été la première norme à diffuser la télévision en couleur.",
-      "explanationAudio": "Le système NTSC, introduit aux États‑Unis en 1953, a été la première norme à diffuser la télévision en couleur.",
+      "answer": "Évaluation des conséquences à long terme",
+      "explanation": "Le cortex préfrontal intègre les informations pour anticiper les résultats et guider les choix.",
+      "explanationAudio": "Le cortex préfrontal intègre les informations pour anticiper les résultats et guider les choix.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a PAL television studio with color test patterns, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a SECAM broadcast tower emitting color signals, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of an early NTSC color television set broadcasting vivid images, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D molecular model of insulin molecules in a bloodstream, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of human lungs with airflow visualization, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A highly detailed 3D render of a human brain highlighting the prefrontal cortex with glowing overlays, cinematic lighting, photorealistic"
       ]
     },
     {
-      "question": "Quel est le principe de fonctionnement du laser à semi‑conducteur utilisé dans les lecteurs de CD ?",
-      "questionAudio": "Quel est le principe de fonctionnement du laser à semi‑conducteur utilisé dans les lecteurs de CD ?",
+      "question": "Quel effet principal a la sérotonine sur l'humeur ?",
+      "questionAudio": "Quel effet principal a la sérotonine sur l'humeur ?",
       "emojis": [
-        "💿",
-        "🔊",
-        "📀",
-        "⚡",
+        "🧠",
+        "😊",
+        "💊",
+        "🌈",
         "🔬",
-        "🧊",
-        "🖱️"
+        "🧪",
+        "🚀"
       ],
       "options": [
-        "Le pompage optique d'un cristal de rubis",
-        "La fluorescence d'un gaz néon",
-        "L'émission stimulée de photons dans un cristal de silicium"
+        "Réduit la densité osseuse",
+        "Stabilise l'humeur",
+        "Augmente la fréquence cardiaque"
+      ],
+      "correct": 1,
+      "answer": "Stabilise l'humeur",
+      "explanation": "La sérotonine agit comme un régulateur de l'humeur en favorisant la stabilité émotionnelle.",
+      "explanationAudio": "La sérotonine agit comme un régulateur de l'humeur en favorisant la stabilité émotionnelle.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of 3D render of bone tissue showing calcium loss, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D cinematic illustration of serotonin molecules binding to brain receptors, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D model of a human heart with pulsating rhythm, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle est la fonction principale de la gaine de myéline ?",
+      "questionAudio": "Quelle est la fonction principale de la gaine de myéline ?",
+      "emojis": [
+        "🧠",
+        "⚡",
+        "🧬",
+        "🚀",
+        "🔬",
+        "🦾",
+        "💡"
+      ],
+      "options": [
+        "Produit des hormones",
+        "Filtre les sons",
+        "Accélère la conduction nerveuse"
       ],
       "correct": 2,
-      "answer": "L'émission stimulée de photons dans un cristal de silicium",
-      "explanation": "Le laser à semi‑conducteur du CD repose sur l’émission stimulée de photons dans un matériau de silicium dopé.",
-      "explanationAudio": "Le laser à semi‑conducteur du CD repose sur l’émission stimulée de photons dans un matériau de silicium dopé.",
+      "answer": "Accélère la conduction nerveuse",
+      "explanation": "La myéline isole les axones et permet aux impulsions électriques de voyager plus rapidement.",
+      "explanationAudio": "La myéline isole les axones et permet aux impulsions électriques de voyager plus rapidement.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a ruby crystal laser with optical components, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a neon gas tube glowing, cinematic atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of a semiconductor laser diode made of silicon, cinematic lighting, detailed optics, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of 3D model of endocrine glands secreting hormones, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D illustration of an ear with sound waves being filtered, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D close up of an axon wrapped in myelin sheath, bright highlights, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quelle technologie a été introduite par le projet ARPANET en mille neuf cent soixante‑neuf ?",
-      "questionAudio": "Quelle technologie a été introduite par le projet ARPANET en mille neuf cent soixante‑neuf ?",
+      "question": "Comment l'amygdale participe‑t‑elle à la réponse de peur ?",
+      "questionAudio": "Comment l'amygdale participe‑t‑elle à la réponse de peur ?",
       "emojis": [
-        "🌐",
-        "🖧",
-        "📡",
-        "🔗",
-        "💻",
-        "🛰️",
-        "📶"
-      ],
-      "options": [
-        "Le protocole TCP/IP",
-        "Le système de commutation de paquets",
-        "Le réseau Ethernet"
-      ],
-      "correct": 1,
-      "answer": "Le système de commutation de paquets",
-      "explanation": "ARPANET a mis en œuvre la commutation de paquets, une méthode essentielle pour le transfert de données sur les réseaux modernes.",
-      "explanationAudio": "ARPANET a mis en œuvre la commutation de paquets, une méthode essentielle pour le transfert de données sur les réseaux modernes.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D visualization of the TCP/IP protocol stack, abstract data flow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of packet switching nodes routing data across a network, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of an Ethernet cable and switch, cinematic lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel matériau a révolutionné la fabrication des panneaux solaires en mille neuf cent cinquante‑quatre ?",
-      "questionAudio": "Quel matériau a révolutionné la fabrication des panneaux solaires en mille neuf cent cinquante‑quatre ?",
-      "emojis": [
-        "☀️",
-        "🔋",
-        "🪙",
-        "🧱",
-        "🔧",
-        "⚙️",
-        "🌞"
-      ],
-      "options": [
-        "Le cuivre indium gallium sélénium",
-        "Le silicium cristallin",
-        "Le phosphore"
-      ],
-      "correct": 1,
-      "answer": "Le silicium cristallin",
-      "explanation": "En 1954, le silicium cristallin a été utilisé pour créer les premières cellules photovoltaïques efficaces.",
-      "explanationAudio": "En 1954, le silicium cristallin a été utilisé pour créer les premières cellules photovoltaïques efficaces.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a CIGS thin‑film solar module, cinematic atmosphere, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of crystalline silicon solar cells on a panel, cinematic lighting, detailed crystal structure, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of phosphorus doped semiconductor material, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle invention de mille neuf cent soixante‑trois a permis la première communication par satellite entre deux continents ?",
-      "questionAudio": "Quelle invention de mille neuf cent soixante‑trois a permis la première communication par satellite entre deux continents ?",
-      "emojis": [
-        "🛰️",
-        "🌍",
-        "📞",
-        "🚀",
-        "📡",
-        "💬",
-        "🌐"
-      ],
-      "options": [
-        "Le satellite de télécommunication Intelsat III",
-        "Le satellite de navigation GPS",
-        "Le satellite d'observation Landsat"
-      ],
-      "correct": 0,
-      "answer": "Le satellite de télécommunication Intelsat III",
-      "explanation": "Intelsat III, lancé en 1969, a réalisé la première liaison téléphonique transcontinentale via satellite.",
-      "explanationAudio": "Intelsat III, lancé en 1969, a réalisé la première liaison téléphonique transcontinentale via satellite.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D rendering of the Intelsat III communication satellite in orbit, detailed antennas, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a GPS navigation satellite constellation, cinematic lighting, realistic Earth view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a Landsat Earth‑observation satellite with high‑resolution sensors, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel dispositif a été introduit en mille neuf cent quatre‑vingt‑dix pour permettre le stockage de données magnétiques à haute densité ?",
-      "questionAudio": "Quel dispositif a été introduit en mille neuf cent quatre‑vingt‑dix pour permettre le stockage de données magnétiques à haute densité ?",
-      "emojis": [
-        "💾",
-        "📀",
-        "🗂️",
+        "🧠",
+        "😱",
+        "🔥",
+        "🔬",
         "⚡",
-        "🖥️",
-        "🔧",
-        "🔐"
+        "🧪",
+        "🚀"
       ],
       "options": [
-        "Le disque Blu‑ray",
-        "Le disque SSD (Solid State Drive)",
-        "Le disque dur à plateau en aluminium"
+        "Régule la digestion",
+        "Contrôle la température corporelle",
+        "Déclenche la réponse de peur"
+      ],
+      "correct": 2,
+      "answer": "Déclenche la réponse de peur",
+      "explanation": "L'amygdale détecte les menaces et active les circuits de peur dans le cerveau.",
+      "explanationAudio": "L'amygdale détecte les menaces et active les circuits de peur dans le cerveau.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of 3D model of digestive system with peristalsis, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D illustration of human body with temperature regulation mechanisms, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D render of an amygdala lighting up in a brain scan during fear stimulus, cinematic, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel phénomène décrit la neuroplasticité après l'apprentissage ?",
+      "questionAudio": "Quel phénomène décrit la neuroplasticité après l'apprentissage ?",
+      "emojis": [
+        "🧠",
+        "🔗",
+        "📚",
+        "🧪",
+        "💡",
+        "🚀",
+        "⚡"
+      ],
+      "options": [
+        "Bloque la formation de nouvelles cellules",
+        "Renforce les connexions synaptiques",
+        "Diminue le volume cérébral"
       ],
       "correct": 1,
-      "answer": "Le disque SSD (Solid State Drive)",
-      "explanation": "Le SSD, commercialisé en 1991, a offert un stockage magnétique sans pièces mobiles et une densité de données supérieure aux disques durs classiques.",
-      "explanationAudio": "Le SSD, commercialisé en 1991, a offert un stockage magnétique sans pièces mobiles et une densité de données supérieure aux disques durs classiques.",
+      "answer": "Renforce les connexions synaptiques",
+      "explanation": "L'apprentissage crée de nouvelles connexions et renforce celles existantes entre les neurones.",
+      "explanationAudio": "L'apprentissage crée de nouvelles connexions et renforce celles existantes entre les neurones.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a Blu‑ray disc spinning, reflective surface, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a modern SSD with circuit boards and flash memory chips, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of an aluminium platter hard drive with read/write heads, cinematic lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of 3D illustration of neural stem cells being inhibited, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D visualization of synaptic connections strengthening with glowing synapses, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D model of a brain with shrinking volume, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel rôle le sommeil joue‑t‑il dans la consolidation de la mémoire ?",
+      "questionAudio": "Quel rôle le sommeil joue‑t‑il dans la consolidation de la mémoire ?",
+      "emojis": [
+        "🧠",
+        "🌙",
+        "🛌",
+        "🔬",
+        "💤",
+        "🧪",
+        "🚀"
+      ],
+      "options": [
+        "Réduit la vigilance",
+        "Facilite la consolidation de la mémoire",
+        "Augmente la production de cortisol"
+      ],
+      "correct": 1,
+      "answer": "Facilite la consolidation de la mémoire",
+      "explanation": "Pendant le sommeil, en particulier le stade REM, le cerveau réactive et stabilise les traces mémorielles.",
+      "explanationAudio": "Pendant le sommeil, en particulier le stade REM, le cerveau réactive et stabilise les traces mémorielles.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of 3D render of a person with reduced alertness, dim lighting, photorealistic, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D night‑time brain scan showing memory traces being consolidated during REM sleep, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of 3D illustration of adrenal glands releasing cortisol, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

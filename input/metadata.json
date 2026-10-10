@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Médecine, Sommeil & Santé du Quotidien",
-  "description": "Testez vos connaissances sur le sommeil et la santé quotidienne avec des faits scientifiques vérifiés.",
+  "topic": "🧠 Quiz : Science du Sport & Biomécanique",
+  "description": "Plongez au cœur de la science du sport et découvrez les secrets du mouvement humain.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Combien d'heures de sommeil recommande t on aux adultes pour une santé optimale ?",
-      "questionAudio": "Combien d'heures de sommeil recommande t on aux adultes pour une santé optimale ?",
+      "question": "Quel mécanisme explique l'augmentation de la puissance lors d'un saut plyométrique ?",
+      "questionAudio": "Quel mécanisme explique l'augmentation de la puissance lors d'un saut plyométrique ?",
       "emojis": [
-        "🛏️",
-        "🌙",
-        "😴",
-        "⏰",
-        "🧠",
-        "💡",
-        "🌟"
+        "🏃‍♂️",
+        "⚡",
+        "🦵",
+        "🔬",
+        "📏",
+        "💪",
+        "🤸"
       ],
       "options": [
-        "Quatre à six heures",
-        "Sept à neuf heures",
-        "Six à huit heures"
-      ],
-      "correct": 1,
-      "answer": "Sept à neuf heures",
-      "explanation": "Les experts suggèrent que sept à neuf heures de sommeil favorisent la récupération physique et cognitive.",
-      "explanationAudio": "Les experts suggèrent que sept à neuf heures de sommeil favorisent la récupération physique et cognitive.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a restless sleeper in a dim room with a clock showing four to six hours, dramatic shadows, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a sleeping adult under a night sky with a digital display showing seven to nine hours of sleep, gentle illumination, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a sleeping adult in a cozy bedroom with a clock indicating six to eight hours, soft lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle hormone est principalement libérée pendant le sommeil profond pour favoriser la croissance et la réparation cellulaire ?",
-      "questionAudio": "Quelle hormone est principalement libérée pendant le sommeil profond pour favoriser la croissance et la réparation cellulaire ?",
-      "emojis": [
-        "💤",
-        "🏋️‍♂️",
-        "🧬",
-        "🌙",
-        "🧪",
-        "📈",
-        "🌟"
-      ],
-      "options": [
-        "Adrénaline",
-        "Hormone de croissance",
-        "Cortisol"
-      ],
-      "correct": 1,
-      "answer": "Hormone de croissance",
-      "explanation": "L'hormone de croissance est sécrétée pendant le sommeil à ondes lentes et aide à la régénération des tissus.",
-      "explanationAudio": "L'hormone de croissance est sécrétée pendant le sommeil à ondes lentes et aide à la régénération des tissus.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D detailed illustration of a human adrenal gland releasing adrenaline, bright red particles, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D detailed illustration of a pituitary gland secreting growth hormone during deep sleep, luminous effect, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D detailed illustration of a human adrenal gland releasing cortisol, glowing molecules, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel pourcentage de la population adulte souffre de trouble du sommeil appelé apnée obstructive du sommeil ?",
-      "questionAudio": "Quel pourcentage de la population adulte souffre de trouble du sommeil appelé apnée obstructive du sommeil ?",
-      "emojis": [
-        "😴",
-        "🫁",
-        "📊",
-        "🩺",
-        "🌙",
-        "⚖️",
-        "🩹"
-      ],
-      "options": [
-        "Environ cinq pour cent",
-        "Environ deux pour cent",
-        "Environ dix pour cent"
+        "Le cycle d'étirement raccourcissement",
+        "Le phénomène de fatigue",
+        "La contraction isométrique"
       ],
       "correct": 0,
-      "answer": "Environ cinq pour cent",
-      "explanation": "L'apnée obstructive du sommeil touche environ cinq pour cent des adultes et augmente les risques cardiovasculaires.",
-      "explanationAudio": "L'apnée obstructive du sommeil touche environ cinq pour cent des adultes et augmente les risques cardiovasculaires.",
+      "answer": "Le cycle d'étirement raccourcissement",
+      "explanation": "Le cycle d'étirement raccourcissement permet de stocker de l'énergie élastique pendant la phase d'étirement et de la restituer lors de la phase de raccourcissement, augmentant ainsi la puissance du saut.",
+      "explanationAudio": "Le cycle d'étirement raccourcissement permet de stocker de l'énergie élastique pendant la phase d'étirement et de la restituer lors de la phase de raccourcissement, augmentant ainsi la puissance du saut.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D infographic showing five percent of adult silhouettes highlighted, representing sleep apnea prevalence, clean design, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D infographic showing two percent of adult silhouettes highlighted, representing sleep apnea prevalence, clean design, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D infographic showing ten percent of adult silhouettes highlighted, representing sleep apnea prevalence, clean design, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of an athlete performing a plyometric jump, muscles highlighted, with visual arrows showing stretch shortening cycle energy flow, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a fatigued athlete after repeated jumps, sweat droplets and muscle fatigue visualized, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a human leg in isometric contraction, showing muscle fibers tense, realistic shading and studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel est l'effet immédiat de la lumière bleue sur la production de mélatonine ?",
-      "questionAudio": "Quel est l'effet immédiat de la lumière bleue sur la production de mélatonine ?",
+      "question": "Comment définit‑on le VO2 max en physiologie de l'exercice ?",
+      "questionAudio": "Comment définit‑on le VO2 max en physiologie de l'exercice ?",
       "emojis": [
-        "📱",
-        "💡",
-        "🌙",
-        "🕒",
-        "🧠",
-        "🛌",
-        "🚫"
+        "🫁",
+        "📈",
+        "🏃‍♀️",
+        "🔬",
+        "⚙️",
+        "💨",
+        "🧪"
       ],
       "options": [
-        "Elle n'a aucun effet",
-        "Elle la supprime",
-        "Elle l'augmente"
+        "Le volume sanguin total",
+        "La quantité maximale d'oxygène consommée par minute pendant un effort maximal",
+        "La fréquence cardiaque maximale"
       ],
       "correct": 1,
-      "answer": "Elle la supprime",
-      "explanation": "L'exposition à la lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
-      "explanationAudio": "L'exposition à la lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
+      "answer": "La quantité maximale d'oxygène consommée par minute pendant un effort maximal",
+      "explanation": "Le VO2 max représente la capacité aérobie maximale, c’est‑à‑dire la plus grande quantité d'oxygène que le corps peut utiliser chaque minute lors d'un exercice intense.",
+      "explanationAudio": "Le VO2 max représente la capacité aérobie maximale, c’est‑à‑dire la plus grande quantité d'oxygène que le corps peut utiliser chaque minute lors d'un exercice intense.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a brain with neutral white light having no effect on melatonin, balanced lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a brain with blue light suppressing melatonin production, darkened aura, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a brain with blue light increasing melatonin levels, glowing effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the human circulatory system highlighting total blood volume, with transparent tissues and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A high‑resolution 3D visualization of a treadmill test with a digital readout showing maximal oxygen uptake, realistic lab environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a heart monitor displaying maximal heart rate during intense exercise, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel type d'exercice est le plus recommandé pour améliorer la qualité du sommeil selon les études ?",
-      "questionAudio": "Quel type d'exercice est le plus recommandé pour améliorer la qualité du sommeil selon les études ?",
+      "question": "Dans quelle direction principale s'exerce la force de réaction du sol pendant la phase d'appui d'un coureur ?",
+      "questionAudio": "Dans quelle direction principale s'exerce la force de réaction du sol pendant la phase d'appui d'un coureur ?",
+      "emojis": [
+        "🏃",
+        "⬆️",
+        "🦶",
+        "🔬",
+        "📊",
+        "💨",
+        "⚡"
+      ],
+      "options": [
+        "Vers le côté",
+        "Vers le haut",
+        "Vers l'arrière"
+      ],
+      "correct": 1,
+      "answer": "Vers le haut",
+      "explanation": "La force de réaction du sol agit principalement vers le haut, contrebalançant la gravité et permettant la propulsion du corps.",
+      "explanationAudio": "La force de réaction du sol agit principalement vers le haut, contrebalançant la gravité et permettant la propulsion du corps.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of lateral force components on a runner's foot, studio lighting and motion blur, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a runner's foot striking the ground, arrows showing upward ground reaction force, realistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a runner showing posterior force vectors during stride, high fidelity materials, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type de fibre musculaire est recruté en priorité lors d'un effort de faible intensité et de longue durée ?",
+      "questionAudio": "Quel type de fibre musculaire est recruté en priorité lors d'un effort de faible intensité et de longue durée ?",
+      "emojis": [
+        "💪",
+        "🧬",
+        "⏳",
+        "🔬",
+        "🏃‍♂️",
+        "⚙️",
+        "📈"
+      ],
+      "options": [
+        "Fibres de type IIa",
+        "Fibres de type I",
+        "Fibres de type IIb"
+      ],
+      "correct": 1,
+      "answer": "Fibres de type I",
+      "explanation": "Les fibres de type I sont lentes, résistantes à la fatigue et sont privilégiées pour les activités d'endurance à faible intensité.",
+      "explanationAudio": "Les fibres de type I sont lentes, résistantes à la fatigue et sont privilégiées pour les activités d'endurance à faible intensité.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A high‑detail 3D model of type IIa fibers with intermediate characteristics, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D detailed cross‑section of a muscle showing type I fibers highlighted in red, photorealistic lighting and texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of fast‑twitch type IIb fibers, bright colors and dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel impact une mobilité limitée de la flexion dorsale de la cheville a‑t‑elle sur la profondeur d'un squat ?",
+      "questionAudio": "Quel impact une mobilité limitée de la flexion dorsale de la cheville a‑t‑elle sur la profondeur d'un squat ?",
+      "emojis": [
+        "🦶",
+        "🏋️‍♀️",
+        "📉",
+        "🔬",
+        "⚖️",
+        "💡",
+        "🤸"
+      ],
+      "options": [
+        "Réduction de la profondeur du squat",
+        "Augmentation de la vitesse d'exécution",
+        "Amélioration de l'alignement du tronc"
+      ],
+      "correct": 0,
+      "answer": "Réduction de la profondeur du squat",
+      "explanation": "Une mobilité restreinte en flexion dorsale empêche le genou de se déplacer suffisamment vers l'avant, limitant ainsi la profondeur atteignable du squat.",
+      "explanationAudio": "Une mobilité restreinte en flexion dorsale empêche le genou de se déplacer suffisamment vers l'avant, limitant ainsi la profondeur atteignable du squat.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an athlete performing a squat with limited ankle dorsiflexion, showing shallow depth, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a squat with increased speed, blurred motion lines, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of proper trunk alignment during a deep squat, highlighted spine, high‑detail lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel facteur principal détermine l'accélération d'un sprinteur selon la deuxième loi de Newton ?",
+      "questionAudio": "Quel facteur principal détermine l'accélération d'un sprinteur selon la deuxième loi de Newton ?",
       "emojis": [
         "🏃‍♀️",
-        "🏃‍♂️",
-        "🌙",
-        "💤",
-        "🧘‍♀️",
-        "📈",
-        "🕖"
+        "⚡",
+        "🦵",
+        "🔬",
+        "📊",
+        "💥",
+        "🧮"
       ],
       "options": [
-        "Exercice aérobique modéré",
-        "Exercice de haute intensité",
-        "Exercice de force uniquement"
+        "La longueur des jambes",
+        "La force appliquée contre le sol",
+        "Le nombre de foulées par minute"
       ],
-      "correct": 0,
-      "answer": "Exercice aérobique modéré",
-      "explanation": "Les recherches montrent que l'exercice aérobique modéré, pratiqué plusieurs heures avant le coucher, améliore la profondeur du sommeil.",
-      "explanationAudio": "Les recherches montrent que l'exercice aérobique modéré, pratiqué plusieurs heures avant le coucher, améliore la profondeur du sommeil.",
+      "correct": 1,
+      "answer": "La force appliquée contre le sol",
+      "explanation": "Selon la loi F = ma, la force que le sprinteur exerce contre le sol génère l'accélération, les autres paramètres influencent mais ne sont pas la cause directe.",
+      "explanationAudio": "Selon la loi F = ma, la force que le sprinteur exerce contre le sol génère l'accélération, les autres paramètres influencent mais ne sont pas la cause directe.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a person jogging at moderate pace in a park during early evening, serene atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a person performing high intensity interval training in a gym, dynamic motion, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a person lifting heavy weights in a gym, focused expression, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a sprinter with exaggerated leg length, realistic anatomy and textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a sprinter pushing against the track, force vectors visualized upward, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A high‑detail 3D illustration of stride frequency meter, digital readout, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Comment le tendon d'Achille contribue‑t‑il à l'économie de course ?",
+      "questionAudio": "Comment le tendon d'Achille contribue‑t‑il à l'économie de course ?",
+      "emojis": [
+        "👟",
+        "🦶",
+        "🔄",
+        "⚡",
+        "🔬",
+        "📉",
+        "🏃"
+      ],
+      "options": [
+        "Il régule la température du pied",
+        "Il stocke et restitue de l'énergie élastique",
+        "Il augmente la puissance du muscle quadriceps"
+      ],
+      "correct": 1,
+      "answer": "Il stocke et restitue de l'énergie élastique",
+      "explanation": "Le tendon d'Achille agit comme un ressort, absorbant l'énergie lors de l'impact et la restituant lors du décollage, réduisant ainsi le coût énergétique de la course.",
+      "explanationAudio": "Le tendon d'Achille agit comme un ressort, absorbant l'énergie lors de l'impact et la restituant lors du décollage, réduisant ainsi le coût énergétique de la course.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D model of a foot with thermal map indicating temperature regulation, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a runner's lower leg showing the Achilles tendon stretching and recoiling like a spring, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of the quadriceps muscle with exaggerated power output, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

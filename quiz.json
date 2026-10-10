@@ -1,88 +1,58 @@
 [
   {
-    "question": "Quelle réaction chimique fait lever le pain ?",
-    "questionAudio": "Quelle réaction chimique fait lever le pain ?",
+    "question": "Combien d'heures de sommeil recommande t on aux adultes pour une santé optimale ?",
+    "questionAudio": "Combien d'heures de sommeil recommande t on aux adultes pour une santé optimale ?",
     "options": [
-      "Fermentation par les levures",
-      "Réaction de Maillard",
-      "Caramélisation du sucre"
-    ],
-    "correct": 0,
-    "explanation": "Les levures transforment les sucres en dioxyde de carbone, ce qui fait gonfler la pâte.",
-    "explanationAudio": "Les levures transforment les sucres en dioxyde de carbone, ce qui fait gonfler la pâte.",
-    "emojis": [
-      "🍞",
-      "🔬",
-      "🧪",
-      "🌡️",
-      "🧂",
-      "🥖",
-      "👩‍🍳"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D cinematic render of yeast cells fermenting dough with carbon dioxide bubbles rising, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close up of a slice of bread undergoing Maillard reaction, golden crust, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of sugar crystals caramelizing in a pan, glossy melt, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel composé donne aux piments leur piquant ?",
-    "questionAudio": "Quel composé donne aux piments leur piquant ?",
-    "options": [
-      "Capsaïcine",
-      "Pipérine",
-      "Caféine"
-    ],
-    "correct": 0,
-    "explanation": "La capsaïcine active les récepteurs de chaleur dans la bouche, créant la sensation de brûlure.",
-    "explanationAudio": "La capsaïcine active les récepteurs de chaleur dans la bouche, créant la sensation de brûlure.",
-    "emojis": [
-      "🌶️",
-      "🧬",
-      "🔬",
-      "🔥",
-      "👅",
-      "🥵",
-      "🧑‍🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A hyper‑realistic 3D render of a red chili pepper molecule highlighting capsaicin structure, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a black peppercorn showing piperine molecules, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of coffee beans with caffeine crystals, cinematic depth and realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Pourquoi le sel augmente le point d’ébullition de l’eau ?",
-    "questionAudio": "Pourquoi le sel augmente le point d’ébullition de l’eau ?",
-    "options": [
-      "Augmentation de l’acidité",
-      "Élévation du point d’ébullition",
-      "Diminution de la tension superficielle"
+      "Quatre à six heures",
+      "Sept à neuf heures",
+      "Six à huit heures"
     ],
     "correct": 1,
-    "explanation": "Le sel crée une solution colligative qui nécessite plus d’énergie pour atteindre l’ébullition.",
-    "explanationAudio": "Le sel crée une solution colligative qui nécessite plus d’énergie pour atteindre l’ébullition.",
+    "explanation": "Les experts suggèrent que sept à neuf heures de sommeil favorisent la récupération physique et cognitive.",
+    "explanationAudio": "Les experts suggèrent que sept à neuf heures de sommeil favorisent la récupération physique et cognitive.",
     "emojis": [
-      "🧂",
-      "💧",
-      "🌡️",
+      "🛏️",
+      "🌙",
+      "😴",
+      "⏰",
+      "🧠",
+      "💡",
+      "🌟"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a restless sleeper in a dim room with a clock showing four to six hours, dramatic shadows, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a sleeping adult under a night sky with a digital display showing seven to nine hours of sleep, gentle illumination, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a sleeping adult in a cozy bedroom with a clock indicating six to eight hours, soft lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle hormone est principalement libérée pendant le sommeil profond pour favoriser la croissance et la réparation cellulaire ?",
+    "questionAudio": "Quelle hormone est principalement libérée pendant le sommeil profond pour favoriser la croissance et la réparation cellulaire ?",
+    "options": [
+      "Adrénaline",
+      "Hormone de croissance",
+      "Cortisol"
+    ],
+    "correct": 1,
+    "explanation": "L'hormone de croissance est sécrétée pendant le sommeil à ondes lentes et aide à la régénération des tissus.",
+    "explanationAudio": "L'hormone de croissance est sécrétée pendant le sommeil à ondes lentes et aide à la régénération des tissus.",
+    "emojis": [
+      "💤",
+      "🏋️‍♂️",
+      "🧬",
+      "🌙",
+      "🧪",
       "📈",
-      "🥘",
-      "🔬",
-      "⚗️"
+      "🌟"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a lemon slice in water highlighting increased acidity, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a pot of water with dissolved salt crystals, showing rising temperature markers, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of water surface with reduced surface tension droplets, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D detailed illustration of a human adrenal gland releasing adrenaline, bright red particles, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D detailed illustration of a pituitary gland secreting growth hormone during deep sleep, luminous effect, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D detailed illustration of a human adrenal gland releasing cortisol, glowing molecules, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,59 +60,89 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel mode de cuisson conserve le mieux la vitamine C ?",
-    "questionAudio": "Quel mode de cuisson conserve le mieux la vitamine C ?",
+    "question": "Quel pourcentage de la population adulte souffre de trouble du sommeil appelé apnée obstructive du sommeil ?",
+    "questionAudio": "Quel pourcentage de la population adulte souffre de trouble du sommeil appelé apnée obstructive du sommeil ?",
     "options": [
-      "Friture profonde",
-      "Grillage",
-      "Cuisson à la vapeur"
-    ],
-    "correct": 2,
-    "explanation": "La vapeur limite la perte de nutriments solubles dans l’eau comme la vitamine C.",
-    "explanationAudio": "La vapeur limite la perte de nutriments solubles dans l’eau comme la vitamine C.",
-    "emojis": [
-      "🥦",
-      "💨",
-      "🍲",
-      "🔥",
-      "🥕",
-      "🧑‍🍳",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a deep‑fat fryer bubbling with oil, vegetables being dropped in, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of vegetables on a grill with char marks, realistic heat glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of vegetables cooking in a steamer basket, gentle vapor clouds, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Pourquoi la cuisson lente rend la viande tendre ?",
-    "questionAudio": "Pourquoi la cuisson lente rend la viande tendre ?",
-    "options": [
-      "Le collagène se transforme en gélatine",
-      "La dénaturation des protéines",
-      "La fonte du gras"
+      "Environ cinq pour cent",
+      "Environ deux pour cent",
+      "Environ dix pour cent"
     ],
     "correct": 0,
-    "explanation": "À basse température, le collagène se décompose en gélatine, ce qui rend la texture moelleuse.",
-    "explanationAudio": "À basse température, le collagène se décompose en gélatine, ce qui rend la texture moelleuse.",
+    "explanation": "L'apnée obstructive du sommeil touche environ cinq pour cent des adultes et augmente les risques cardiovasculaires.",
+    "explanationAudio": "L'apnée obstructive du sommeil touche environ cinq pour cent des adultes et augmente les risques cardiovasculaires.",
     "emojis": [
-      "🥩",
-      "⏲️",
-      "🧊",
-      "🧬",
-      "🔥",
-      "🍖",
-      "🔬"
+      "😴",
+      "🫁",
+      "📊",
+      "🩺",
+      "🌙",
+      "⚖️",
+      "🩹"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D cinematic render of meat fibers showing collagen converting to gelatin, realistic texture and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of protein chains unfolding under heat, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D scene of melting fat droplets within a piece of meat, cinematic depth and realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D infographic showing five percent of adult silhouettes highlighted, representing sleep apnea prevalence, clean design, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D infographic showing two percent of adult silhouettes highlighted, representing sleep apnea prevalence, clean design, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D infographic showing ten percent of adult silhouettes highlighted, representing sleep apnea prevalence, clean design, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est l'effet immédiat de la lumière bleue sur la production de mélatonine ?",
+    "questionAudio": "Quel est l'effet immédiat de la lumière bleue sur la production de mélatonine ?",
+    "options": [
+      "Elle n'a aucun effet",
+      "Elle la supprime",
+      "Elle l'augmente"
+    ],
+    "correct": 1,
+    "explanation": "L'exposition à la lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
+    "explanationAudio": "L'exposition à la lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
+    "emojis": [
+      "📱",
+      "💡",
+      "🌙",
+      "🕒",
+      "🧠",
+      "🛌",
+      "🚫"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a brain with neutral white light having no effect on melatonin, balanced lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a brain with blue light suppressing melatonin production, darkened aura, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a brain with blue light increasing melatonin levels, glowing effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type d'exercice est le plus recommandé pour améliorer la qualité du sommeil selon les études ?",
+    "questionAudio": "Quel type d'exercice est le plus recommandé pour améliorer la qualité du sommeil selon les études ?",
+    "options": [
+      "Exercice aérobique modéré",
+      "Exercice de haute intensité",
+      "Exercice de force uniquement"
+    ],
+    "correct": 0,
+    "explanation": "Les recherches montrent que l'exercice aérobique modéré, pratiqué plusieurs heures avant le coucher, améliore la profondeur du sommeil.",
+    "explanationAudio": "Les recherches montrent que l'exercice aérobique modéré, pratiqué plusieurs heures avant le coucher, améliore la profondeur du sommeil.",
+    "emojis": [
+      "🏃‍♀️",
+      "🏃‍♂️",
+      "🌙",
+      "💤",
+      "🧘‍♀️",
+      "📈",
+      "🕖"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D scene of a person jogging at moderate pace in a park during early evening, serene atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene of a person performing high intensity interval training in a gym, dynamic motion, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene of a person lifting heavy weights in a gym, focused expression, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

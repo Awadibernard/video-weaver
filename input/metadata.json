@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Océans & Abysses",
-  "description": "Plongez dans les mystères des profondeurs marines avec ces questions surprenantes !",
+  "topic": "🧠 Quiz : Mathématiques, Logique & Paradoxes",
+  "description": "Plongez dans les mystères de la logique, des paradoxes et des théorèmes qui défient l’entendement.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -10,150 +10,150 @@
   "cta": "Abonne toi pour en apprendre plus !",
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
-    "🌊",
-    "🐠",
     "🔬",
     "🧪",
     "✨",
     "🌍",
+    "⚡",
+    "🧠",
     "🚀"
   ],
   "uiScale": 0.85,
   "questionCount": 5,
   "questions": [
     {
-      "question": "Quelle est la profondeur exacte du Challenger Deep, la partie la plus profonde de la fosse des Mariannes ?",
-      "questionAudio": "Quelle est la profondeur exacte du Challenger Deep, la partie la plus profonde de la fosse des Mariannes ?",
+      "question": "Quel est le principe du paradoxe du menteur ?",
+      "questionAudio": "Quel est le principe du paradoxe du menteur ?",
       "emojis": [
-        "🌊",
-        "🔱",
-        "📏",
-        "🐋",
-        "🦑",
-        "🌐",
-        "⚓"
+        "🧩",
+        "🤔",
+        "🔄",
+        "📜",
+        "🕰️",
+        "🧠",
+        "❓"
       ],
       "options": [
-        "Environ douze mille mètres",
-        "Environ huit mille mètres",
-        "Environ dix mille neuf cent quatre vingt quatre mètres"
+        "Une phrase qui indique une vérité universelle",
+        "Une phrase qui se contredit elle‑même",
+        "Une phrase qui décrit un futur"
       ],
-      "correct": 2,
-      "answer": "Environ dix mille neuf cent quatre vingt quatre mètres",
-      "explanation": "Le Challenger Deep atteint environ dix mille neuf cent quatre vingt quatre mètres, soit la zone la plus profonde connue des océans.",
-      "explanationAudio": "Le Challenger Deep atteint environ dix mille neuf cent quatre vingt quatre mètres, soit la zone la plus profonde connue des océans.",
+      "correct": 1,
+      "answer": "Une phrase qui se contredit elle‑même",
+      "explanation": "Le paradoxe du menteur est une assertion qui se déclare fausse, créant une contradiction logique.",
+      "explanationAudio": "Le paradoxe du menteur est une assertion qui se déclare fausse, créant une contradiction logique.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D visual of the Mariana Trench with a depth indicator at twelve thousand meters, dramatic lighting, ocean floor details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of the Mariana Trench with a depth marker showing eight thousand meters, deep blue water, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic rendering of the Mariana Trench showing a depth gauge indicating ten thousand nine hundred eighty four meters, dark abyssal water, detailed seabed, high contrast lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D ancient stone tablet engraved with a universal truth inscription, realistic lighting and texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of an ancient parchment with a self‑referential sentence glowing, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D futuristic cityscape featuring a billboard predicting the future, highly detailed, cinematic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel phénomène permet à de nombreux organismes des abysses de produire de la lumière ?",
-      "questionAudio": "Quel phénomène permet à de nombreux organismes des abysses de produire de la lumière ?",
+      "question": "Que démontre le premier théorème d’incomplétude de Gödel ?",
+      "questionAudio": "Que démontre le premier théorème d’incomplétude de Gödel ?",
       "emojis": [
-        "💡",
-        "🐙",
-        "🧬",
-        "🌌",
-        "🔦",
-        "🦑",
-        "🌊"
+        "📚",
+        "🧮",
+        "🧠",
+        "🔐",
+        "🕳️",
+        "🌀",
+        "🧩"
       ],
       "options": [
-        "Photosynthèse",
-        "Réflexion de la lumière",
-        "Bioluminescence"
-      ],
-      "correct": 2,
-      "answer": "Bioluminescence",
-      "explanation": "La bioluminescence est la capacité de certains animaux marins à générer de la lumière grâce à des réactions chimiques, très répandue dans les profondeurs où la lumière du soleil ne pénètre pas.",
-      "explanationAudio": "La bioluminescence est la capacité de certains animaux marins à générer de la lumière grâce à des réactions chimiques, très répandue dans les profondeurs où la lumière du soleil ne pénètre pas.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D realistic illustration of phytoplankton performing photosynthesis near the surface, bright sunlight, ocean surface, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of deep‑sea creature reflecting ambient light from surrounding particles, subtle glow, realistic water, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D cinematic scene of a deep‑sea anglerfish emitting bioluminescent light from its lure, photorealistic, dark water, glowing effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Dans quelle zone océanique la pression dépasse généralement mille atmosphères ?",
-      "questionAudio": "Dans quelle zone océanique la pression dépasse généralement mille atmosphères ?",
-      "emojis": [
-        "⚖️",
-        "🧭",
-        "🌊",
-        "📍",
-        "🦈",
-        "🔬",
-        "🏔️"
-      ],
-      "options": [
-        "Zone hadale",
-        "Zone bathypélagique",
-        "Zone abyssale"
+        "Tout système formel suffisamment puissant contient des énoncés indémontrables",
+        "Les mathématiques sont inutiles",
+        "Tout système formel complet est incohérent"
       ],
       "correct": 0,
-      "answer": "Zone hadale",
-      "explanation": "La zone hadale, située sous les fosses océaniques, présente des pressions supérieures à mille fois la pression atmosphérique.",
-      "explanationAudio": "La zone hadale, située sous les fosses océaniques, présente des pressions supérieures à mille fois la pression atmosphérique.",
+      "answer": "Tout système formel suffisamment puissant contient des énoncés indémontrables",
+      "explanation": "Gödel a montré qu’aucun système formel assez riche ne peut prouver toutes les vérités mathématiques qui lui sont accessibles.",
+      "explanationAudio": "Gödel a montré qu’aucun système formel assez riche ne peut prouver toutes les vérités mathématiques qui lui sont accessibles.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of the hadal zone inside a trench, showing extreme pressure gauges exceeding one thousand atmospheres, dark water, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic view of the bathypelagic zone at four thousand meters, faint bioluminescent organisms, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of the abyssal plain at six thousand meters depth, dim lighting, seabed details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D abstract maze of logical symbols with a locked door labeled “undecidable”, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a mathematician looking at an empty chalkboard, symbolic of futility, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of a massive library of books with some pages glowing, representing unprovable statements, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel gaz est le plus abondant dissous dans l'eau de mer ?",
-      "questionAudio": "Quel gaz est le plus abondant dissous dans l'eau de mer ?",
+      "question": "Dans le problème de Monty Hall, quelle stratégie maximise les chances de gagner ?",
+      "questionAudio": "Dans le problème de Monty Hall, quelle stratégie maximise les chances de gagner ?",
       "emojis": [
-        "🧪",
-        "💨",
-        "🌊",
-        "🔬",
+        "🚪",
+        "🎲",
+        "🤔",
         "📊",
-        "⚗️",
-        "🌍"
+        "🎉",
+        "🧠",
+        "🔀"
       ],
       "options": [
-        "Oxygène",
-        "Dioxyde de carbone",
-        "Azote"
+        "Changer de porte augmente les chances de gagner",
+        "Les deux stratégies donnent les mêmes chances",
+        "Rester sur la porte initiale maximise les chances"
       ],
-      "correct": 2,
-      "answer": "Azote",
-      "explanation": "L'azote représente environ soixante dix pour cent des gaz dissous dans l'océan, bien plus que l'oxygène.",
-      "explanationAudio": "L'azote représente environ soixante dix pour cent des gaz dissous dans l'océan, bien plus que l'oxygène.",
+      "correct": 0,
+      "answer": "Changer de porte augmente les chances de gagner",
+      "explanation": "En changeant de porte après que l’hôte révèle une porte perdante, la probabilité de succès passe à deux tiers.",
+      "explanationAudio": "En changeant de porte après que l’hôte révèle une porte perdante, la probabilité de succès passe à deux tiers.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D realistic illustration of dissolved oxygen molecules in seawater, bubbles, detailed water texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic depiction of carbon dioxide molecules interacting with seawater, subtle bubbles, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render showing nitrogen gas molecules dispersed in ocean water, scientific visualization, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D scene of three colorful doors with one highlighted, a host figure pointing, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D diagram showing equal probability bars for both strategies, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a contestant staying behind the first door, with a tense atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel est le plus grand organisme unicellulaire connu vivant dans les abysses ?",
-      "questionAudio": "Quel est le plus grand organisme unicellulaire connu vivant dans les abysses ?",
+      "question": "Quel ensemble est au cœur du paradoxe de Russell ?",
+      "questionAudio": "Quel ensemble est au cœur du paradoxe de Russell ?",
       "emojis": [
-        "🔬",
-        "🦠",
-        "📏",
-        "🌊",
-        "🧪",
-        "🪱",
-        "🔍"
+        "🧩",
+        "📦",
+        "🤯",
+        "🧠",
+        "🔄",
+        "📚",
+        "❓"
       ],
       "options": [
-        "Éponge de verre",
-        "Foraminifère géant",
-        "Xénophyoforme"
+        "Un ensemble qui ne contient que les nombres premiers",
+        "Un ensemble qui contient tous les ensembles",
+        "Un ensemble qui ne se contient pas lui‑même"
       ],
       "correct": 2,
-      "answer": "Xénophyoforme",
-      "explanation": "Les xénophyoformes sont d'énormes protistes pouvant atteindre plusieurs centimètres, les plus grands organismes unicellulaires découverts.",
-      "explanationAudio": "Les xénophyoformes sont d'énormes protistes pouvant atteindre plusieurs centimètres, les plus grands organismes unicellulaires découverts.",
+      "answer": "Un ensemble qui ne se contient pas lui‑même",
+      "explanation": "Le paradoxe de Russell considère l’ensemble de tous les ensembles qui ne se contiennent pas eux‑mêmes, menant à une contradiction.",
+      "explanationAudio": "Le paradoxe de Russell considère l’ensemble de tous les ensembles qui ne se contiennent pas eux‑mêmes, menant à une contradiction.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D realistic illustration of a glass sponge, delicate silica skeleton, deep ocean environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a giant foraminifera with intricate shell, deep‑sea lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D cinematic rendering of a giant xenophyophore on the seafloor, textured surface, dark abyssal background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D chalkboard showing prime numbers inside a small set, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D massive sphere labeled “all sets”, with a paradoxical swirl inside, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a floating set container labeled “does not contain itself”, with a reflective surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Que révèle l’argument diagonal de Cantor sur la taille des ensembles infinis ?",
+      "questionAudio": "Que révèle l’argument diagonal de Cantor sur la taille des ensembles infinis ?",
+      "emojis": [
+        "♾️",
+        "📈",
+        "🧮",
+        "🧠",
+        "🔢",
+        "📚",
+        "🌌"
+      ],
+      "options": [
+        "Tous les infinis ont la même taille",
+        "Les nombres entiers sont infinis mais dénombrables",
+        "Les nombres réels sont plus nombreux que les entiers"
+      ],
+      "correct": 2,
+      "answer": "Les nombres réels sont plus nombreux que les entiers",
+      "explanation": "Cantor montre que l’ensemble des nombres réels ne peut pas être mis en correspondance avec les entiers, il est donc d’une taille supérieure.",
+      "explanationAudio": "Cantor montre que l’ensemble des nombres réels ne peut pas être mis en correspondance avec les entiers, il est donc d’une taille supérieure.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D abstract representation of equal‑sized infinite clouds, illustrating the false idea of identical infinities, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D stack of numbered blocks representing countable integers, realistic texture and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of a continuum of real numbers as a glowing line, contrasted with discrete points for integers, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

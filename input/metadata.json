@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Mathématiques, Logique & Paradoxes",
-  "description": "Plongez dans les mystères de la logique, des paradoxes et des théorèmes qui défient l’entendement.",
+  "topic": "🧠 Quiz : Histoire des Découvertes & Sérendipité",
+  "description": "Explore les moments où la chance a changé le cours de la science.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,168 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Quel est le principe du paradoxe du menteur ?",
-      "questionAudio": "Quel est le principe du paradoxe du menteur ?",
+      "question": "Quel scientifique a découvert la pénicilline grâce à une observation fortuite d’une moisissure contaminant ses boîtes de Pétri ?",
+      "questionAudio": "Quel scientifique a découvert la pénicilline grâce à une observation fortuite d’une moisissure contaminant ses boîtes de Pétri ?",
       "emojis": [
-        "🧩",
-        "🤔",
-        "🔄",
+        "🧪",
+        "💡",
+        "🔬",
+        "🦠",
         "📜",
-        "🕰️",
-        "🧠",
-        "❓"
+        "🌟",
+        "⚗️"
       ],
       "options": [
-        "Une phrase qui indique une vérité universelle",
-        "Une phrase qui se contredit elle‑même",
-        "Une phrase qui décrit un futur"
-      ],
-      "correct": 1,
-      "answer": "Une phrase qui se contredit elle‑même",
-      "explanation": "Le paradoxe du menteur est une assertion qui se déclare fausse, créant une contradiction logique.",
-      "explanationAudio": "Le paradoxe du menteur est une assertion qui se déclare fausse, créant une contradiction logique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D ancient stone tablet engraved with a universal truth inscription, realistic lighting and texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an ancient parchment with a self‑referential sentence glowing, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D futuristic cityscape featuring a billboard predicting the future, highly detailed, cinematic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Que démontre le premier théorème d’incomplétude de Gödel ?",
-      "questionAudio": "Que démontre le premier théorème d’incomplétude de Gödel ?",
-      "emojis": [
-        "📚",
-        "🧮",
-        "🧠",
-        "🔐",
-        "🕳️",
-        "🌀",
-        "🧩"
-      ],
-      "options": [
-        "Tout système formel suffisamment puissant contient des énoncés indémontrables",
-        "Les mathématiques sont inutiles",
-        "Tout système formel complet est incohérent"
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Robert Koch"
       ],
       "correct": 0,
-      "answer": "Tout système formel suffisamment puissant contient des énoncés indémontrables",
-      "explanation": "Gödel a montré qu’aucun système formel assez riche ne peut prouver toutes les vérités mathématiques qui lui sont accessibles.",
-      "explanationAudio": "Gödel a montré qu’aucun système formel assez riche ne peut prouver toutes les vérités mathématiques qui lui sont accessibles.",
+      "answer": "Alexander Fleming",
+      "explanation": "Fleming a remarqué que la moisissure Penicillium inhibait la croissance bactérienne, menant à la première antibiotique.",
+      "explanationAudio": "Fleming a remarqué que la moisissure Penicillium inhibait la croissance bactérienne, menant à la première antibiotique.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D abstract maze of logical symbols with a locked door labeled “undecidable”, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a mathematician looking at an empty chalkboard, symbolic of futility, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of a massive library of books with some pages glowing, representing unprovable statements, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of Alexander Fleming in a laboratory, microscope and petri dishes on the table, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Louis Pasteur holding a flask of culture, laboratory background, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of Robert Koch examining a bacterial slide, dramatic shadows, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Dans le problème de Monty Hall, quelle stratégie maximise les chances de gagner ?",
-      "questionAudio": "Dans le problème de Monty Hall, quelle stratégie maximise les chances de gagner ?",
+      "question": "Qui a découvert les rayons X en mille huit cent quatre‑vingt‑quinze en observant la fluorescence d’un tube à vide ?",
+      "questionAudio": "Qui a découvert les rayons X en mille huit cent quatre‑vingt‑quinze en observant la fluorescence d’un tube à vide ?",
       "emojis": [
-        "🚪",
-        "🎲",
-        "🤔",
-        "📊",
-        "🎉",
-        "🧠",
-        "🔀"
-      ],
-      "options": [
-        "Changer de porte augmente les chances de gagner",
-        "Les deux stratégies donnent les mêmes chances",
-        "Rester sur la porte initiale maximise les chances"
-      ],
-      "correct": 0,
-      "answer": "Changer de porte augmente les chances de gagner",
-      "explanation": "En changeant de porte après que l’hôte révèle une porte perdante, la probabilité de succès passe à deux tiers.",
-      "explanationAudio": "En changeant de porte après que l’hôte révèle une porte perdante, la probabilité de succès passe à deux tiers.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D scene of three colorful doors with one highlighted, a host figure pointing, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D diagram showing equal probability bars for both strategies, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a contestant staying behind the first door, with a tense atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel ensemble est au cœur du paradoxe de Russell ?",
-      "questionAudio": "Quel ensemble est au cœur du paradoxe de Russell ?",
-      "emojis": [
-        "🧩",
-        "📦",
-        "🤯",
-        "🧠",
-        "🔄",
-        "📚",
-        "❓"
-      ],
-      "options": [
-        "Un ensemble qui ne contient que les nombres premiers",
-        "Un ensemble qui contient tous les ensembles",
-        "Un ensemble qui ne se contient pas lui‑même"
-      ],
-      "correct": 2,
-      "answer": "Un ensemble qui ne se contient pas lui‑même",
-      "explanation": "Le paradoxe de Russell considère l’ensemble de tous les ensembles qui ne se contiennent pas eux‑mêmes, menant à une contradiction.",
-      "explanationAudio": "Le paradoxe de Russell considère l’ensemble de tous les ensembles qui ne se contiennent pas eux‑mêmes, menant à une contradiction.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D chalkboard showing prime numbers inside a small set, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D massive sphere labeled “all sets”, with a paradoxical swirl inside, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a floating set container labeled “does not contain itself”, with a reflective surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Que révèle l’argument diagonal de Cantor sur la taille des ensembles infinis ?",
-      "questionAudio": "Que révèle l’argument diagonal de Cantor sur la taille des ensembles infinis ?",
-      "emojis": [
-        "♾️",
-        "📈",
-        "🧮",
-        "🧠",
-        "🔢",
-        "📚",
+        "⚡",
+        "🔬",
+        "📸",
+        "🧪",
+        "💡",
+        "🧫",
         "🌌"
       ],
       "options": [
-        "Tous les infinis ont la même taille",
-        "Les nombres entiers sont infinis mais dénombrables",
-        "Les nombres réels sont plus nombreux que les entiers"
+        "Henri Becquerel",
+        "Marie Curie",
+        "Wilhelm Röntgen"
       ],
       "correct": 2,
-      "answer": "Les nombres réels sont plus nombreux que les entiers",
-      "explanation": "Cantor montre que l’ensemble des nombres réels ne peut pas être mis en correspondance avec les entiers, il est donc d’une taille supérieure.",
-      "explanationAudio": "Cantor montre que l’ensemble des nombres réels ne peut pas être mis en correspondance avec les entiers, il est donc d’une taille supérieure.",
+      "answer": "Wilhelm Röntgen",
+      "explanation": "Röntgen a constaté qu’une plaque recouverte de nitrate d’argent s’assombrissait malgré l’absence de lumière visible.",
+      "explanationAudio": "Röntgen a constaté qu’une plaque recouverte de nitrate d’argent s’assombrissait malgré l’absence de lumière visible.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D abstract representation of equal‑sized infinite clouds, illustrating the false idea of identical infinities, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D stack of numbered blocks representing countable integers, realistic texture and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of a continuum of real numbers as a glowing line, contrasted with discrete points for integers, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of Henri Becquerel holding a uranium salt crystal, soft lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Marie Curie in her lab, surrounded by glassware, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of Wilhelm Rontgen operating an early X‑ray apparatus, glowing tube, realistic laboratory setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel ingénieur suisse a inventé le Velcro après avoir observé les graines de bardane collées à ses vêtements ?",
+      "questionAudio": "Quel ingénieur suisse a inventé le Velcro après avoir observé les graines de bardane collées à ses vêtements ?",
+      "emojis": [
+        "🧲",
+        "🌿",
+        "🛠️",
+        "🔧",
+        "✨",
+        "📐",
+        "🚀"
+      ],
+      "options": [
+        "Thomas Edison",
+        "Georges de Mestral",
+        "Nikola Tesla"
+      ],
+      "correct": 1,
+      "answer": "Georges de Mestral",
+      "explanation": "De Mestral a reproduit les microcrochets de la bardane pour créer un système de fixation réutilisable.",
+      "explanationAudio": "De Mestral a reproduit les microcrochets de la bardane pour créer un système de fixation réutilisable.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D model of Thomas Edison in his workshop surrounded by light bulbs, realistic materials, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of Georges de Mestral examining burrs on a hike, close‑up of burr texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of Nikola Tesla beside a coil of electricity, dramatic background, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel chimiste a créé le premier plastique synthétique, la Bakélite, en mille neuf cent sept en cherchant un isolant électrique résistant ?",
+      "questionAudio": "Quel chimiste a créé le premier plastique synthétique, la Bakélite, en mille neuf cent sept en cherchant un isolant électrique résistant ?",
+      "emojis": [
+        "🧪",
+        "🏭",
+        "🔬",
+        "💡",
+        "📦",
+        "🧱",
+        "⚙️"
+      ],
+      "options": [
+        "Leo Baekeland",
+        "Wallace Carothers",
+        "John Wesley Hyatt"
+      ],
+      "correct": 0,
+      "answer": "Leo Baekeland",
+      "explanation": "Baekeland a combiné du phénol et du formaldéhyde sous chaleur pour obtenir un matériau dur et non conducteur.",
+      "explanationAudio": "Baekeland a combiné du phénol et du formaldéhyde sous chaleur pour obtenir un matériau dur et non conducteur.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Leo Baekeland in a 1900s laboratory, mixing chemicals in glassware, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Wallace Carothers beside a polymer extrusion machine, high‑resolution textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of John Wesley Hyatt holding a celluloid sheet, vintage studio background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel médecin anglais a mis au point la première vaccination contre la variole en mille sept cent quatre‑vingt‑six après avoir observé que les personnes exposées à la vaccine ne contractaient pas la maladie ?",
+      "questionAudio": "Quel médecin anglais a mis au point la première vaccination contre la variole en mille sept cent quatre‑vingt‑six après avoir observé que les personnes exposées à la vaccine ne contractaient pas la maladie ?",
+      "emojis": [
+        "💉",
+        "🧪",
+        "🐄",
+        "📜",
+        "🦠",
+        "🩺",
+        "🌟"
+      ],
+      "options": [
+        "Edward Jenner",
+        "Jonas Salk",
+        "Louis Pasteur"
+      ],
+      "correct": 0,
+      "answer": "Edward Jenner",
+      "explanation": "Jenner a utilisé le virus de la vaccine provenant de vaches pour immuniser les humains contre la variole.",
+      "explanationAudio": "Jenner a utilisé le virus de la vaccine provenant de vaches pour immuniser les humains contre la variole.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of Edward Jenner examining a cow, historical clothing, realistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Jonas Salk holding a vial of polio vaccine, modern lab setting, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of Louis Pasteur with a culture flask, laboratory ambience, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel physicien a découvert la radioactivité en mille huit cent quatre‑vingt‑six en remarquant que des sels d’uranium exposés à la lumière du soleil déclenchaient une impression sur une plaque photographique ?",
+      "questionAudio": "Quel physicien a découvert la radioactivité en mille huit cent quatre‑vingt‑six en remarquant que des sels d’uranium exposés à la lumière du soleil déclenchaient une impression sur une plaque photographique ?",
+      "emojis": [
+        "☢️",
+        "🔬",
+        "📸",
+        "🧪",
+        "💡",
+        "📜",
+        "⚛️"
+      ],
+      "options": [
+        "Pierre Curie",
+        "Ernest Rutherford",
+        "Henri Becquerel"
+      ],
+      "correct": 2,
+      "answer": "Henri Becquerel",
+      "explanation": "Becquerel a compris que les sels d’uranium émettaient une énergie invisible capable de noircir la plaque même dans l’obscurité.",
+      "explanationAudio": "Becquerel a compris que les sels d’uranium émettaient une énergie invisible capable de noircir la plaque même dans l’obscurité.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Pierre Curie working with a magnetometer, vintage laboratory, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of Ernest Rutherford directing a particle scattering experiment, high‑detail equipment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of Henri Becquerel in a darkroom, holding uranium salts and a photographic plate, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Histoire des Découvertes & Sérendipité",
-  "description": "Explore les moments où la chance a changé le cours de la science.",
+  "topic": "🧠 Quiz : Physique & Astronomie",
+  "description": "Testez vos connaissances sur les mystères de l’univers et les lois qui régissent la matière.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,168 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Quel scientifique a découvert la pénicilline grâce à une observation fortuite d’une moisissure contaminant ses boîtes de Pétri ?",
-      "questionAudio": "Quel scientifique a découvert la pénicilline grâce à une observation fortuite d’une moisissure contaminant ses boîtes de Pétri ?",
+      "question": "Quelle est la principale source d’énergie du Soleil ?",
+      "questionAudio": "Quelle est la principale source d’énergie du Soleil ?",
       "emojis": [
-        "🧪",
-        "💡",
-        "🔬",
-        "🦠",
-        "📜",
-        "🌟",
-        "⚗️"
-      ],
-      "options": [
-        "Alexander Fleming",
-        "Louis Pasteur",
-        "Robert Koch"
-      ],
-      "correct": 0,
-      "answer": "Alexander Fleming",
-      "explanation": "Fleming a remarqué que la moisissure Penicillium inhibait la croissance bactérienne, menant à la première antibiotique.",
-      "explanationAudio": "Fleming a remarqué que la moisissure Penicillium inhibait la croissance bactérienne, menant à la première antibiotique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of Alexander Fleming in a laboratory, microscope and petri dishes on the table, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Louis Pasteur holding a flask of culture, laboratory background, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of Robert Koch examining a bacterial slide, dramatic shadows, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Qui a découvert les rayons X en mille huit cent quatre‑vingt‑quinze en observant la fluorescence d’un tube à vide ?",
-      "questionAudio": "Qui a découvert les rayons X en mille huit cent quatre‑vingt‑quinze en observant la fluorescence d’un tube à vide ?",
-      "emojis": [
-        "⚡",
-        "🔬",
-        "📸",
-        "🧪",
-        "💡",
-        "🧫",
-        "🌌"
-      ],
-      "options": [
-        "Henri Becquerel",
-        "Marie Curie",
-        "Wilhelm Röntgen"
-      ],
-      "correct": 2,
-      "answer": "Wilhelm Röntgen",
-      "explanation": "Röntgen a constaté qu’une plaque recouverte de nitrate d’argent s’assombrissait malgré l’absence de lumière visible.",
-      "explanationAudio": "Röntgen a constaté qu’une plaque recouverte de nitrate d’argent s’assombrissait malgré l’absence de lumière visible.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of Henri Becquerel holding a uranium salt crystal, soft lighting, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Marie Curie in her lab, surrounded by glassware, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of Wilhelm Rontgen operating an early X‑ray apparatus, glowing tube, realistic laboratory setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel ingénieur suisse a inventé le Velcro après avoir observé les graines de bardane collées à ses vêtements ?",
-      "questionAudio": "Quel ingénieur suisse a inventé le Velcro après avoir observé les graines de bardane collées à ses vêtements ?",
-      "emojis": [
-        "🧲",
-        "🌿",
-        "🛠️",
-        "🔧",
-        "✨",
-        "📐",
+        "☀️",
+        "🔭",
+        "⚛️",
+        "🌞",
+        "💥",
+        "🪐",
         "🚀"
       ],
       "options": [
-        "Thomas Edison",
-        "Georges de Mestral",
-        "Nikola Tesla"
+        "La désintégration radioactive",
+        "La fusion nucléaire de l’hydrogène",
+        "La combustion du carbone"
       ],
       "correct": 1,
-      "answer": "Georges de Mestral",
-      "explanation": "De Mestral a reproduit les microcrochets de la bardane pour créer un système de fixation réutilisable.",
-      "explanationAudio": "De Mestral a reproduit les microcrochets de la bardane pour créer un système de fixation réutilisable.",
+      "answer": "La fusion nucléaire de l’hydrogène",
+      "explanation": "Le Soleil produit son énergie grâce à la fusion de noyaux d’hydrogène en hélium.",
+      "explanationAudio": "Le Soleil produit son énergie grâce à la fusion de noyaux d’hydrogène en hélium.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D model of Thomas Edison in his workshop surrounded by light bulbs, realistic materials, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of Georges de Mestral examining burrs on a hike, close‑up of burr texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of Nikola Tesla beside a coil of electricity, dramatic background, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A high‑resolution 3D rendering of radioactive decay with particles emitting from an unstable nucleus, glowing effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of the Sun’s core showing hydrogen nuclei fusing into helium, bright plasma, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a coal fire burning, realistic flames, laboratory setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel chimiste a créé le premier plastique synthétique, la Bakélite, en mille neuf cent sept en cherchant un isolant électrique résistant ?",
-      "questionAudio": "Quel chimiste a créé le premier plastique synthétique, la Bakélite, en mille neuf cent sept en cherchant un isolant électrique résistant ?",
+      "question": "Quel phénomène explique la courbure de la lumière autour d’un corps massif ?",
+      "questionAudio": "Quel phénomène explique la courbure de la lumière autour d’un corps massif ?",
       "emojis": [
-        "🧪",
-        "🏭",
-        "🔬",
-        "💡",
-        "📦",
-        "🧱",
-        "⚙️"
+        "🪐",
+        "🌟",
+        "🔭",
+        "🌀",
+        "✨",
+        "📡",
+        "🚀"
       ],
       "options": [
-        "Leo Baekeland",
-        "Wallace Carothers",
-        "John Wesley Hyatt"
-      ],
-      "correct": 0,
-      "answer": "Leo Baekeland",
-      "explanation": "Baekeland a combiné du phénol et du formaldéhyde sous chaleur pour obtenir un matériau dur et non conducteur.",
-      "explanationAudio": "Baekeland a combiné du phénol et du formaldéhyde sous chaleur pour obtenir un matériau dur et non conducteur.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Leo Baekeland in a 1900s laboratory, mixing chemicals in glassware, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Wallace Carothers beside a polymer extrusion machine, high‑resolution textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of John Wesley Hyatt holding a celluloid sheet, vintage studio background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel médecin anglais a mis au point la première vaccination contre la variole en mille sept cent quatre‑vingt‑six après avoir observé que les personnes exposées à la vaccine ne contractaient pas la maladie ?",
-      "questionAudio": "Quel médecin anglais a mis au point la première vaccination contre la variole en mille sept cent quatre‑vingt‑six après avoir observé que les personnes exposées à la vaccine ne contractaient pas la maladie ?",
-      "emojis": [
-        "💉",
-        "🧪",
-        "🐄",
-        "📜",
-        "🦠",
-        "🩺",
-        "🌟"
-      ],
-      "options": [
-        "Edward Jenner",
-        "Jonas Salk",
-        "Louis Pasteur"
-      ],
-      "correct": 0,
-      "answer": "Edward Jenner",
-      "explanation": "Jenner a utilisé le virus de la vaccine provenant de vaches pour immuniser les humains contre la variole.",
-      "explanationAudio": "Jenner a utilisé le virus de la vaccine provenant de vaches pour immuniser les humains contre la variole.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of Edward Jenner examining a cow, historical clothing, realistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Jonas Salk holding a vial of polio vaccine, modern lab setting, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of Louis Pasteur with a culture flask, laboratory ambience, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel physicien a découvert la radioactivité en mille huit cent quatre‑vingt‑six en remarquant que des sels d’uranium exposés à la lumière du soleil déclenchaient une impression sur une plaque photographique ?",
-      "questionAudio": "Quel physicien a découvert la radioactivité en mille huit cent quatre‑vingt‑six en remarquant que des sels d’uranium exposés à la lumière du soleil déclenchaient une impression sur une plaque photographique ?",
-      "emojis": [
-        "☢️",
-        "🔬",
-        "📸",
-        "🧪",
-        "💡",
-        "📜",
-        "⚛️"
-      ],
-      "options": [
-        "Pierre Curie",
-        "Ernest Rutherford",
-        "Henri Becquerel"
+        "La réfraction atmosphérique",
+        "La diffraction",
+        "La gravité"
       ],
       "correct": 2,
-      "answer": "Henri Becquerel",
-      "explanation": "Becquerel a compris que les sels d’uranium émettaient une énergie invisible capable de noircir la plaque même dans l’obscurité.",
-      "explanationAudio": "Becquerel a compris que les sels d’uranium émettaient une énergie invisible capable de noircir la plaque même dans l’obscurité.",
+      "answer": "La gravité",
+      "explanation": "La gravité déforme l’espace‑temps et fait dévier le trajet de la lumière.",
+      "explanationAudio": "La gravité déforme l’espace‑temps et fait dévier le trajet de la lumière.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Pierre Curie working with a magnetometer, vintage laboratory, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of Ernest Rutherford directing a particle scattering experiment, high‑detail equipment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of Henri Becquerel in a darkroom, holding uranium salts and a photographic plate, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D scene of light rays bending around a massive planet due to gravity, starry background, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a diffraction pattern created by a slit, laser light, high‑definition rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of atmospheric layers causing light refraction, sunrise over mountains, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle particule porte la force électromagnétique ?",
+      "questionAudio": "Quelle particule porte la force électromagnétique ?",
+      "emojis": [
+        "💡",
+        "🔬",
+        "⚡",
+        "📡",
+        "🪐",
+        "🌌",
+        "🚀"
+      ],
+      "options": [
+        "Le gluon",
+        "Le photon",
+        "Le graviton"
+      ],
+      "correct": 1,
+      "answer": "Le photon",
+      "explanation": "Le photon est le quantum de la lumière et transmet l’interaction électromagnétique.",
+      "explanationAudio": "Le photon est le quantum de la lumière et transmet l’interaction électromagnétique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a gluon binding quarks inside a proton, vibrant colors, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a photon as a glowing particle traveling through space, cinematic lighting, ultra‑realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a graviton concept, abstract wave in curved spacetime, scientific visualization, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type d’étoile est le Soleil ?",
+      "questionAudio": "Quel type d’étoile est le Soleil ?",
+      "emojis": [
+        "☀️",
+        "⭐",
+        "🟡",
+        "🔭",
+        "🌞",
+        "🪐",
+        "🚀"
+      ],
+      "options": [
+        "Une naine jaune",
+        "Une géante rouge",
+        "Une naine blanche"
+      ],
+      "correct": 0,
+      "answer": "Une naine jaune",
+      "explanation": "Le Soleil est classé comme une naine jaune de type G2V.",
+      "explanationAudio": "Le Soleil est classé comme une naine jaune de type G deux V.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A high‑resolution 3D rendering of a yellow dwarf star similar to the Sun, bright surface, realistic space environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a red giant star expanding, orange hue, surrounding nebula, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D model of a white dwarf star, small size, intense white light, cinematic backdrop, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle est la vitesse maximale possible selon la physique moderne ?",
+      "questionAudio": "Quelle est la vitesse maximale possible selon la physique moderne ?",
+      "emojis": [
+        "⚡",
+        "🚀",
+        "🌌",
+        "🔭",
+        "📡",
+        "🪐",
+        "✨"
+      ],
+      "options": [
+        "La vitesse du son",
+        "La vitesse du vent",
+        "La vitesse de la lumière"
+      ],
+      "correct": 2,
+      "answer": "La vitesse de la lumière",
+      "explanation": "La vitesse de la lumière dans le vide est la limite supérieure de toute vitesse.",
+      "explanationAudio": "La vitesse de la lumière dans le vide est la limite supérieure de toute vitesse.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of sound waves propagating through air, visualized as concentric ripples, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D scene of wind blowing through a field of grass, dynamic motion, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D depiction of a beam of light traveling through vacuum, glowing trail, ultra‑realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel instrument permet de détecter les ondes gravitationnelles ?",
+      "questionAudio": "Quel instrument permet de détecter les ondes gravitationnelles ?",
+      "emojis": [
+        "🔭",
+        "📡",
+        "🧪",
+        "⚙️",
+        "🪐",
+        "🌌",
+        "🚀"
+      ],
+      "options": [
+        "Le microscope électronique",
+        "Le détecteur LIGO",
+        "Le radiotélescope"
+      ],
+      "correct": 1,
+      "answer": "Le détecteur LIGO",
+      "explanation": "LIGO utilise des interféromètres laser pour mesurer les minuscules déformations de l’espace‑temps.",
+      "explanationAudio": "LIGO utilise des interféromètres laser pour mesurer les minuscules déformations de l’espace‑temps.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of an electron microscope showing a sample under magnification, scientific lab setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of the LIGO interferometer with laser beams and suspended mirrors, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a radio telescope dish under a night sky, detailed metal structure, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle est la période orbitale de la Terre autour du Soleil ?",
+      "questionAudio": "Quelle est la période orbitale de la Terre autour du Soleil ?",
+      "emojis": [
+        "🌍",
+        "☀️",
+        "🗓️",
+        "🔭",
+        "🪐",
+        "🚀",
+        "✨"
+      ],
+      "options": [
+        "Quatre cent jours",
+        "Trois cent soixante‑cinq jours",
+        "Deux cent quatre‑vingt‑cinq jours"
+      ],
+      "correct": 1,
+      "answer": "Trois cent soixante‑cinq jours",
+      "explanation": "La Terre met environ trois cent soixante‑cinq jours pour accomplir une révolution complète autour du Soleil.",
+      "explanationAudio": "La Terre met environ trois cent soixante‑cinq jours pour accomplir une révolution complète autour du Soleil.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of a telescope focused on Earth's orbit path, starry background, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D animation of Earth orbiting the Sun, showing a full year trajectory, realistic planetary textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a calendar with days highlighted, scientific illustration, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

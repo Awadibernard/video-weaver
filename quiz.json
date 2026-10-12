@@ -1,28 +1,28 @@
 [
   {
-    "question": "Quel est le composant principal de l'atmosphère terrestre ?",
-    "questionAudio": "Quel est le composant principal de l'atmosphère terrestre ?",
+    "question": "Quel phénomène géologique crée les montagnes les plus hautes de la Terre ?",
+    "questionAudio": "Quel phénomène géologique crée les montagnes les plus hautes de la Terre ?",
     "options": [
-      "Oxygène",
-      "Dioxyde de carbone",
-      "Azote"
+      "L’activité volcanique",
+      "L’érosion par le vent",
+      "Le plissement des plaques tectoniques"
     ],
     "correct": 2,
-    "explanation": "L'azote constitue la majeure partie de l'atmosphère terrestre.",
-    "explanationAudio": "L'azote constitue la majeure partie de l'atmosphère terrestre.",
+    "explanation": "Le plissement des plaques tectoniques lors de leur collision élève les reliefs les plus imposants.",
+    "explanationAudio": "Le plissement des plaques tectoniques lors de leur collision élève les reliefs les plus imposants.",
     "emojis": [
+      "🏔️",
       "🌍",
-      "💨",
-      "🔬",
-      "🧪",
-      "⚗️",
-      "🧊",
-      "🔥"
+      "🪨",
+      "🌋",
+      "📐",
+      "🌐",
+      "🧭"
     ],
     "imagePrompts": [
-      "A photorealistic 3D illustration of oxygen gas molecules with a faint blue glow, cinematic lighting, highly detailed",
-      "A photorealistic 3D illustration of carbon dioxide molecules drifting in the atmosphere, cinematic lighting, highly detailed",
-      "A photorealistic 3D illustration of nitrogen gas molecules in a clear blue sky, cinematic lighting, highly detailed"
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of an active volcano building a cone, lava flowing, ash plume, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a desert landscape sculpted by strong wind erosion, sand particles swirling, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic render of two massive continental plates colliding and folding, detailed rock textures, dust clouds, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,89 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
-    "questionAudio": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
+    "question": "Quel type de roches se forme à partir du refroidissement du magma ?",
+    "questionAudio": "Quel type de roches se forme à partir du refroidissement du magma ?",
     "options": [
-      "Liaison métallique",
-      "Liaison ionique",
-      "Liaison covalente"
+      "Roche sédimentaire",
+      "Roche ignée",
+      "Roche métamorphique"
     ],
-    "correct": 2,
-    "explanation": "La liaison covalente se forme lorsque deux atomes partagent des électrons.",
-    "explanationAudio": "La liaison covalente se forme lorsque deux atomes partagent des électrons.",
+    "correct": 1,
+    "explanation": "Lorsque le magma se refroidit, il cristallise pour donner des roches ignées.",
+    "explanationAudio": "Lorsque le magma se refroidit, il cristallise pour donner des roches ignées.",
     "emojis": [
-      "🔗",
-      "🧪",
-      "⚗️",
-      "🔬",
-      "💡",
-      "🧬",
-      "🧫"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a lattice of metal atoms with delocalized electrons, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of oppositely charged ions attracting each other, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of two atoms sharing electron clouds, photorealistic, with glowing shared electrons, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle est la valeur du pH d'une solution aqueuse neutre à température standard ?",
-    "questionAudio": "Quelle est la valeur du pH d'une solution aqueuse neutre à température standard ?",
-    "options": [
-      "Neuf",
-      "Quatre",
-      "Sept"
-    ],
-    "correct": 2,
-    "explanation": "Une solution neutre a un pH égal à sept.",
-    "explanationAudio": "Une solution neutre a un pH égal à sept.",
-    "emojis": [
-      "⚗️",
-      "🧪",
-      "📊",
-      "🔬",
-      "💧",
-      "🌡️",
-      "🧬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a pH meter needle pointing at nine, with a clear liquid sample, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a pH meter needle pointing at four, with a clear liquid sample, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a pH meter needle pointing at seven, with a clear liquid sample, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel élément est représenté par le symbole chimique Fe ?",
-    "questionAudio": "Quel élément est représenté par le symbole chimique Fe ?",
-    "options": [
-      "Fer",
-      "Francium",
-      "Fluor"
-    ],
-    "correct": 0,
-    "explanation": "Le symbole Fe provient du latin ferrum, désignant le fer.",
-    "explanationAudio": "Le symbole Fe provient du latin ferrum, désignant le fer.",
-    "emojis": [
-      "⚙️",
-      "🧲",
-      "🔩",
-      "🧪",
-      "🔬",
-      "💎",
+      "🪨",
+      "🌋",
+      "🔥",
+      "❄️",
+      "🌍",
+      "📏",
       "🧱"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a lump of iron metal with a glowing Fe symbol, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a rare francium atom with a glowing aura, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of fluorine gas in a bright yellow container, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of layered sedimentary rocks formed by deposition of particles in water, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D render of molten magma solidifying into crystalline igneous rock, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of metamorphic rock showing folded layers after intense heat and pressure, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,89 +60,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel processus transforme directement un solide en gaz sans passer par l'état liquide ?",
-    "questionAudio": "Quel processus transforme directement un solide en gaz sans passer par l'état liquide ?",
+    "question": "Quel est le principal processus qui renouvelle l’atmosphère en oxygène ?",
+    "questionAudio": "Quel est le principal processus qui renouvelle l’atmosphère en oxygène ?",
     "options": [
-      "Dépôt",
-      "Condensation",
-      "Sublimation"
+      "La décomposition des roches",
+      "La photosynthèse des plantes terrestres",
+      "La respiration des animaux"
+    ],
+    "correct": 1,
+    "explanation": "Les plantes terrestres utilisent la lumière du soleil pour transformer le dioxyde de carbone en oxygène grâce à la photosynthèse.",
+    "explanationAudio": "Les plantes terrestres utilisent la lumière du soleil pour transformer le dioxyde de carbone en oxygène grâce à la photosynthèse.",
+    "emojis": [
+      "🌿",
+      "☀️",
+      "🌱",
+      "🍃",
+      "🌍",
+      "🌤️",
+      "💨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D render of weathered rocks releasing minerals, with subtle chemical reactions, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic scene of a forest canopy bathed in sunlight, leaves converting CO2 to O2, visible light rays, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of animals breathing, showing exchange of gases, realistic anatomy, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle couche de l’atmosphère contient la majorité des nuages ?",
+    "questionAudio": "Quelle couche de l’atmosphère contient la majorité des nuages ?",
+    "options": [
+      "La troposphère",
+      "La mésosphère",
+      "La stratosphère"
+    ],
+    "correct": 0,
+    "explanation": "La troposphère, la couche la plus basse de l’atmosphère, abrite la plupart des nuages et des phénomènes météorologiques.",
+    "explanationAudio": "La troposphère, la couche la plus basse de l’atmosphère, abrite la plupart des nuages et des phénomènes météorologiques.",
+    "emojis": [
+      "☁️",
+      "🌦️",
+      "🌍",
+      "🌬️",
+      "📏",
+      "🌡️",
+      "🪐"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D cinematic view of the Earth's troposphere filled with layered clouds, realistic lighting from the sun, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the mesosphere with faint noctilucent clouds, detailed atmospheric gradients, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of the stratosphere showing the ozone layer and few clouds, photorealistic, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel phénomène explique le déplacement des continents au cours des millions d’années ?",
+    "questionAudio": "Quel phénomène explique le déplacement des continents au cours des millions d’années ?",
+    "options": [
+      "La dérive des continents",
+      "Le soulèvement des fonds marins",
+      "L’érosion des montagnes"
+    ],
+    "correct": 0,
+    "explanation": "La dérive des continents décrit le mouvement lent des plaques lithosphériques qui entraîne les continents sur des éons.",
+    "explanationAudio": "La dérive des continents décrit le mouvement lent des plaques lithosphériques qui entraîne les continents sur des éons.",
+    "emojis": [
+      "🌍",
+      "🧭",
+      "🪨",
+      "🌊",
+      "📏",
+      "🚢",
+      "🗺️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic animation of continental plates slowly moving across the mantle, realistic textures, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D render of underwater volcanic ridges uplifting the ocean floor, realistic lava flow, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of mountain ranges being worn down by wind and water over time, detailed erosion patterns, cinematic feel, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type d’énergie renouvelable exploite la chaleur interne de la Terre ?",
+    "questionAudio": "Quel type d’énergie renouvelable exploite la chaleur interne de la Terre ?",
+    "options": [
+      "L’énergie solaire",
+      "L’énergie éolienne",
+      "L’énergie géothermique"
     ],
     "correct": 2,
-    "explanation": "La sublimation est le passage direct de l'état solide à l'état gazeux.",
-    "explanationAudio": "La sublimation est le passage direct de l'état solide à l'état gazeux.",
+    "explanation": "L’énergie géothermique utilise la chaleur provenant du noyau terrestre pour produire de l’électricité ou du chauffage.",
+    "explanationAudio": "L’énergie géothermique utilise la chaleur provenant du noyau terrestre pour produire de l’électricité ou du chauffage.",
     "emojis": [
-      "❄️",
-      "💨",
-      "⚗️",
-      "🧊",
-      "🔥",
-      "🔬",
-      "🧪"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of vapor depositing as frost on a surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of water vapor condensing into droplets on a cold surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of dry ice sublimating into vapor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle molécule est la principale source d'énergie dans les cellules ?",
-    "questionAudio": "Quelle molécule est la principale source d'énergie dans les cellules ?",
-    "options": [
-      "ADN",
-      "ATP",
-      "ARN"
-    ],
-    "correct": 1,
-    "explanation": "L'ATP fournit l'énergie nécessaire aux réactions cellulaires.",
-    "explanationAudio": "L'ATP fournit l'énergie nécessaire aux réactions cellulaires.",
-    "emojis": [
+      "♨️",
+      "🌋",
+      "🏞️",
+      "🌍",
+      "🔋",
       "⚡",
-      "🧬",
-      "🔬",
-      "🧪",
-      "💊",
-      "🔋",
-      "🧫"
+      "🛢️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a DNA double helix, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an ATP molecule with glowing phosphate groups, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an RNA strand, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Comment s'appelle le groupe du tableau périodique contenant des éléments avec un seul électron dans leur couche externe ?",
-    "questionAudio": "Comment s'appelle le groupe du tableau périodique contenant des éléments avec un seul électron dans leur couche externe ?",
-    "options": [
-      "Halogènes",
-      "Métaux alcalins",
-      "Gaz nobles"
-    ],
-    "correct": 1,
-    "explanation": "Les métaux alcalins possèdent un électron de valence unique.",
-    "explanationAudio": "Les métaux alcalins possèdent un électron de valence unique.",
-    "emojis": [
-      "🔋",
-      "🧪",
-      "⚗️",
-      "🔬",
-      "💡",
-      "🧬",
-      "🌡️"
-    ],
-    "imagePrompts": [
-      "A photorealistic 3D illustration of halogen molecules with vivid colors, cinematic lighting",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of alkali metal elements like sodium and potassium in metallic form, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of noble gas atoms glowing softly, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of solar panels basking in sunlight, detailed reflections, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of wind turbines spinning on a hill, realistic blade motion, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic view of a geothermal power plant tapping hot steam from underground, realistic pipes and turbines, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

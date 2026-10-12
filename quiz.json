@@ -1,28 +1,28 @@
 [
   {
-    "question": "Quelle est la principale source d’énergie du Soleil ?",
-    "questionAudio": "Quelle est la principale source d’énergie du Soleil ?",
+    "question": "Quelle est la fonction principale du foie ?",
+    "questionAudio": "Quelle est la fonction principale du foie ?",
     "options": [
-      "La désintégration radioactive",
-      "La fusion nucléaire de l’hydrogène",
-      "La combustion du carbone"
+      "Filtrer les déchets urinaires",
+      "Détoxifier le sang",
+      "Produire les globules rouges"
     ],
     "correct": 1,
-    "explanation": "Le Soleil produit son énergie grâce à la fusion de noyaux d’hydrogène en hélium.",
-    "explanationAudio": "Le Soleil produit son énergie grâce à la fusion de noyaux d’hydrogène en hélium.",
+    "explanation": "Le foie métabolise les substances toxiques et les élimine du sang.",
+    "explanationAudio": "Le foie métabolise les substances toxiques et les élimine du sang.",
     "emojis": [
-      "☀️",
-      "🔭",
-      "⚛️",
-      "🌞",
-      "💥",
-      "🪐",
-      "🚀"
+      "🧬",
+      "🧪",
+      "🔬",
+      "💉",
+      "⚗️",
+      "🫀",
+      "🫁"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D rendering of radioactive decay with particles emitting from an unstable nucleus, glowing effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of the Sun’s core showing hydrogen nuclei fusing into helium, bright plasma, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a coal fire burning, realistic flames, laboratory setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D model of kidneys filtering waste, with clear fluid flow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A highly detailed 3D render of a human liver with toxic substances being broken down, cinematic lighting, photorealistic",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of bone marrow producing red blood cells inside the human body, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,59 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel phénomène explique la courbure de la lumière autour d’un corps massif ?",
-    "questionAudio": "Quel phénomène explique la courbure de la lumière autour d’un corps massif ?",
+    "question": "Quel rôle principal remplissent les globules rouges ?",
+    "questionAudio": "Quel rôle principal remplissent les globules rouges ?",
     "options": [
-      "La réfraction atmosphérique",
-      "La diffraction",
-      "La gravité"
+      "Défendre contre les infections",
+      "Coaguler le sang",
+      "Transporter l'oxygène"
     ],
     "correct": 2,
-    "explanation": "La gravité déforme l’espace‑temps et fait dévier le trajet de la lumière.",
-    "explanationAudio": "La gravité déforme l’espace‑temps et fait dévier le trajet de la lumière.",
+    "explanation": "Les globules rouges contiennent l'hémoglobine qui lie l'oxygène et le transporte vers les tissus.",
+    "explanationAudio": "Les globules rouges contiennent l'hémoglobine qui lie l'oxygène et le transporte vers les tissus.",
     "emojis": [
-      "🪐",
-      "🌟",
-      "🔭",
-      "🌀",
-      "✨",
-      "📡",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D scene of light rays bending around a massive planet due to gravity, starry background, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a diffraction pattern created by a slit, laser light, high‑definition rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of atmospheric layers causing light refraction, sunrise over mountains, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle particule porte la force électromagnétique ?",
-    "questionAudio": "Quelle particule porte la force électromagnétique ?",
-    "options": [
-      "Le gluon",
-      "Le photon",
-      "Le graviton"
-    ],
-    "correct": 1,
-    "explanation": "Le photon est le quantum de la lumière et transmet l’interaction électromagnétique.",
-    "explanationAudio": "Le photon est le quantum de la lumière et transmet l’interaction électromagnétique.",
-    "emojis": [
-      "💡",
+      "🩸",
+      "🫁",
+      "🧬",
       "🔬",
-      "⚡",
-      "📡",
-      "🪐",
-      "🌌",
-      "🚀"
+      "🩺",
+      "💉",
+      "⚕️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a gluon binding quarks inside a proton, vibrant colors, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a photon as a glowing particle traveling through space, cinematic lighting, ultra‑realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a graviton concept, abstract wave in curved spacetime, scientific visualization, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D model of white blood cells attacking pathogens, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of platelets forming a clot in a blood vessel, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D animation of red blood cells carrying oxygen molecules through capillaries, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type d’étoile est le Soleil ?",
-    "questionAudio": "Quel type d’étoile est le Soleil ?",
+    "question": "Quelle valve cardiaque empêche le reflux du sang vers les poumons ?",
+    "questionAudio": "Quelle valve cardiaque empêche le reflux du sang vers les poumons ?",
     "options": [
-      "Une naine jaune",
-      "Une géante rouge",
-      "Une naine blanche"
+      "Valve pulmonaire",
+      "Valve mitrale",
+      "Valve aortique"
     ],
     "correct": 0,
-    "explanation": "Le Soleil est classé comme une naine jaune de type G2V.",
-    "explanationAudio": "Le Soleil est classé comme une naine jaune de type G deux V.",
+    "explanation": "La valve pulmonaire assure le flux unidirectionnel du sang du cœur vers les poumons.",
+    "explanationAudio": "La valve pulmonaire assure le flux unidirectionnel du sang du cœur vers les poumons.",
     "emojis": [
-      "☀️",
-      "⭐",
-      "🟡",
-      "🔭",
-      "🌞",
-      "🪐",
-      "🚀"
+      "❤️",
+      "🫀",
+      "🔬",
+      "🧬",
+      "💓",
+      "🩺",
+      "⚙️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D rendering of a yellow dwarf star similar to the Sun, bright surface, realistic space environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a red giant star expanding, orange hue, surrounding nebula, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A realistic 3D model of a white dwarf star, small size, intense white light, cinematic backdrop, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of the pulmonary valve controlling blood flow to the lungs, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the mitral valve opening and closing, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of the aortic valve with blood flow, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,59 +90,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle est la vitesse maximale possible selon la physique moderne ?",
-    "questionAudio": "Quelle est la vitesse maximale possible selon la physique moderne ?",
+    "question": "Quelle couche de la peau forme la barrière principale contre les agents pathogènes ?",
+    "questionAudio": "Quelle couche de la peau forme la barrière principale contre les agents pathogènes ?",
     "options": [
-      "La vitesse du son",
-      "La vitesse du vent",
-      "La vitesse de la lumière"
+      "Hypoderme",
+      "Derme",
+      "Épiderme"
     ],
     "correct": 2,
-    "explanation": "La vitesse de la lumière dans le vide est la limite supérieure de toute vitesse.",
-    "explanationAudio": "La vitesse de la lumière dans le vide est la limite supérieure de toute vitesse.",
+    "explanation": "L'épiderme, couche externe, protège le corps des micro‑organismes et de la perte d'eau.",
+    "explanationAudio": "L'épiderme, couche externe, protège le corps des micro‑organismes et de la perte d'eau.",
     "emojis": [
-      "⚡",
-      "🚀",
-      "🌌",
-      "🔭",
-      "📡",
-      "🪐",
-      "✨"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of sound waves propagating through air, visualized as concentric ripples, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of wind blowing through a field of grass, dynamic motion, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D depiction of a beam of light traveling through vacuum, glowing trail, ultra‑realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel instrument permet de détecter les ondes gravitationnelles ?",
-    "questionAudio": "Quel instrument permet de détecter les ondes gravitationnelles ?",
-    "options": [
-      "Le microscope électronique",
-      "Le détecteur LIGO",
-      "Le radiotélescope"
-    ],
-    "correct": 1,
-    "explanation": "LIGO utilise des interféromètres laser pour mesurer les minuscules déformations de l’espace‑temps.",
-    "explanationAudio": "LIGO utilise des interféromètres laser pour mesurer les minuscules déformations de l’espace‑temps.",
-    "emojis": [
-      "🔭",
-      "📡",
+      "🧖‍♀️",
       "🧪",
-      "⚙️",
-      "🪐",
-      "🌌",
-      "🚀"
+      "🔬",
+      "🧬",
+      "💧",
+      "☀️",
+      "🛡️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of an electron microscope showing a sample under magnification, scientific lab setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of the LIGO interferometer with laser beams and suspended mirrors, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a radio telescope dish under a night sky, detailed metal structure, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of subcutaneous tissue with fat cells, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of the dermis with collagen fibers and blood vessels, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A close‑up 3D render of human epidermis showing keratinocyte layers, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -180,29 +120,59 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle est la période orbitale de la Terre autour du Soleil ?",
-    "questionAudio": "Quelle est la période orbitale de la Terre autour du Soleil ?",
+    "question": "Quel organe sécrète l'insuline pour réguler la glycémie ?",
+    "questionAudio": "Quel organe sécrète l'insuline pour réguler la glycémie ?",
     "options": [
-      "Quatre cent jours",
-      "Trois cent soixante‑cinq jours",
-      "Deux cent quatre‑vingt‑cinq jours"
+      "Rate",
+      "Foie",
+      "Pancréas"
     ],
-    "correct": 1,
-    "explanation": "La Terre met environ trois cent soixante‑cinq jours pour accomplir une révolution complète autour du Soleil.",
-    "explanationAudio": "La Terre met environ trois cent soixante‑cinq jours pour accomplir une révolution complète autour du Soleil.",
+    "correct": 2,
+    "explanation": "Les cellules bêta du pancréas produisent l'insuline, hormone qui diminue le taux de glucose sanguin.",
+    "explanationAudio": "Les cellules bêta du pancréas produisent l'insuline, hormone qui diminue le taux de glucose sanguin.",
     "emojis": [
-      "🌍",
-      "☀️",
-      "🗓️",
-      "🔭",
-      "🪐",
-      "🚀",
-      "✨"
+      "🍬",
+      "🩸",
+      "🧬",
+      "🔬",
+      "🧪",
+      "💉",
+      "🩺"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of a telescope focused on Earth's orbit path, starry background, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D animation of Earth orbiting the Sun, showing a full year trajectory, realistic planetary textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a calendar with days highlighted, scientific illustration, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the spleen with immune cells, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of the liver processing nutrients, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of the human pancreas highlighting beta cells releasing insulin, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel segment du tube digestif absorbe la majorité des nutriments ?",
+    "questionAudio": "Quel segment du tube digestif absorbe la majorité des nutriments ?",
+    "options": [
+      "Intestin grêle",
+      "Estomac",
+      "Côlon"
+    ],
+    "correct": 0,
+    "explanation": "L'intestin grêle possède une grande surface d'absorption grâce aux villosités, capturant la plupart des nutriments.",
+    "explanationAudio": "L'intestin grêle possède une grande surface d'absorption grâce aux villosités, capturant la plupart des nutriments.",
+    "emojis": [
+      "🥗",
+      "🧬",
+      "🔬",
+      "🧪",
+      "💊",
+      "🍽️",
+      "🦠"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D view of the small intestine with villi absorbing nutrients, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the stomach churning food, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of the colon with microbial flora, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

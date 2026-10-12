@@ -1,28 +1,118 @@
 [
   {
-    "question": "Quel phénomène géologique crée les montagnes les plus hautes de la Terre ?",
-    "questionAudio": "Quel phénomène géologique crée les montagnes les plus hautes de la Terre ?",
+    "question": "Quel était le nom du réseau précurseur d'Internet développé aux États Unis dans les années soixante ?",
+    "questionAudio": "Quel était le nom du réseau précurseur d'Internet développé aux États Unis dans les années soixante ?",
     "options": [
-      "L’activité volcanique",
-      "L’érosion par le vent",
-      "Le plissement des plaques tectoniques"
+      "BITNET",
+      "ARPANET",
+      "USENET"
+    ],
+    "correct": 1,
+    "explanation": "ARPANET a été le premier réseau à connecter des ordinateurs universitaires et militaires, jetant les bases de l'Internet.",
+    "explanationAudio": "ARPANET a été le premier réseau à connecter des ordinateurs universitaires et militaires, jetant les bases de l'Internet.",
+    "emojis": [
+      "💻",
+      "🌐",
+      "📡",
+      "🛰️",
+      "🔌",
+      "🕸️",
+      "⚙️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a vintage academic computer room with BITNET node symbols on screens, realistic textures, cinematic angle, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D render of early computer terminals connected by glowing cables forming a network, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene showing a bulletin board system with USENET messages scrolling, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel physicien a inventé le laser, un dispositif qui amplifie la lumière par émission stimulée ?",
+    "questionAudio": "Quel physicien a inventé le laser, un dispositif qui amplifie la lumière par émission stimulée ?",
+    "options": [
+      "Niels Bohr",
+      "Theodore Maiman",
+      "Albert Einstein"
+    ],
+    "correct": 1,
+    "explanation": "Theodore Maiman a construit le premier laser fonctionnel, ouvrant la voie à de nombreuses applications.",
+    "explanationAudio": "Theodore Maiman a construit le premier laser fonctionnel, ouvrant la voie à de nombreuses applications.",
+    "emojis": [
+      "🔦",
+      "⚛️",
+      "💡",
+      "📡",
+      "🔬",
+      "🧪",
+      "🚀"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of Niels Bohr in a laboratory with atomic models, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a ruby laser cavity with glowing red beam, cinematic lighting, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D portrait of Albert Einstein beside a chalkboard illustrating stimulated emission, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel composant électronique a remplacé les tubes à vide grâce à sa petite taille et sa fiabilité ?",
+    "questionAudio": "Quel composant électronique a remplacé les tubes à vide grâce à sa petite taille et sa fiabilité ?",
+    "options": [
+      "Transistor",
+      "Diode",
+      "Capacitor"
+    ],
+    "correct": 0,
+    "explanation": "Le transistor a permis la miniaturisation des circuits électroniques et est à la base des puces modernes.",
+    "explanationAudio": "Le transistor a permis la miniaturisation des circuits électroniques et est à la base des puces modernes.",
+    "emojis": [
+      "📱",
+      "🔧",
+      "⚙️",
+      "💾",
+      "🧩",
+      "🔋",
+      "🛠️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A close‑up 3D render of a silicon transistor on a circuit board, glowing pins, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a semiconductor diode with electron flow visualized, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of an electrolytic capacitor with charge arcs, detailed, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle technologie permet de modifier précisément l'ADN en utilisant une enzyme guidée par un ARN ?",
+    "questionAudio": "Quelle technologie permet de modifier précisément l'ADN en utilisant une enzyme guidée par un ARN ?",
+    "options": [
+      "Gel electrophoresis",
+      "PCR",
+      "CRISPR Cas9"
     ],
     "correct": 2,
-    "explanation": "Le plissement des plaques tectoniques lors de leur collision élève les reliefs les plus imposants.",
-    "explanationAudio": "Le plissement des plaques tectoniques lors de leur collision élève les reliefs les plus imposants.",
+    "explanation": "CRISPR Cas9 utilise une molécule d'ARN guide pour couper l'ADN à un endroit précis, permettant des modifications ciblées.",
+    "explanationAudio": "CRISPR Cas9 utilise une molécule d'ARN guide pour couper l'ADN à un endroit précis, permettant des modifications ciblées.",
     "emojis": [
-      "🏔️",
-      "🌍",
-      "🪨",
-      "🌋",
-      "📐",
-      "🌐",
+      "🧬",
+      "🔬",
+      "🧪",
+      "💉",
+      "🧫",
+      "⚗️",
       "🧭"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of an active volcano building a cone, lava flowing, ash plume, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a desert landscape sculpted by strong wind erosion, sand particles swirling, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic render of two massive continental plates colliding and folding, detailed rock textures, dust clouds, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an agarose gel with DNA bands separated, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D lab scene showing a thermal cycler performing polymerase chain reaction, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D molecular visualization of the CRISPR Cas9 complex cutting a DNA strand, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,149 +120,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de roches se forme à partir du refroidissement du magma ?",
-    "questionAudio": "Quel type de roches se forme à partir du refroidissement du magma ?",
+    "question": "Quel appareil combine les fonctions d’un téléphone, d’un ordinateur et d’un appareil photo dans un seul dispositif portable ?",
+    "questionAudio": "Quel appareil combine les fonctions d’un téléphone, d’un ordinateur et d’un appareil photo dans un seul dispositif portable ?",
     "options": [
-      "Roche sédimentaire",
-      "Roche ignée",
-      "Roche métamorphique"
-    ],
-    "correct": 1,
-    "explanation": "Lorsque le magma se refroidit, il cristallise pour donner des roches ignées.",
-    "explanationAudio": "Lorsque le magma se refroidit, il cristallise pour donner des roches ignées.",
-    "emojis": [
-      "🪨",
-      "🌋",
-      "🔥",
-      "❄️",
-      "🌍",
-      "📏",
-      "🧱"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of layered sedimentary rocks formed by deposition of particles in water, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D render of molten magma solidifying into crystalline igneous rock, realistic texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of metamorphic rock showing folded layers after intense heat and pressure, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le principal processus qui renouvelle l’atmosphère en oxygène ?",
-    "questionAudio": "Quel est le principal processus qui renouvelle l’atmosphère en oxygène ?",
-    "options": [
-      "La décomposition des roches",
-      "La photosynthèse des plantes terrestres",
-      "La respiration des animaux"
-    ],
-    "correct": 1,
-    "explanation": "Les plantes terrestres utilisent la lumière du soleil pour transformer le dioxyde de carbone en oxygène grâce à la photosynthèse.",
-    "explanationAudio": "Les plantes terrestres utilisent la lumière du soleil pour transformer le dioxyde de carbone en oxygène grâce à la photosynthèse.",
-    "emojis": [
-      "🌿",
-      "☀️",
-      "🌱",
-      "🍃",
-      "🌍",
-      "🌤️",
-      "💨"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D render of weathered rocks releasing minerals, with subtle chemical reactions, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic scene of a forest canopy bathed in sunlight, leaves converting CO2 to O2, visible light rays, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of animals breathing, showing exchange of gases, realistic anatomy, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle couche de l’atmosphère contient la majorité des nuages ?",
-    "questionAudio": "Quelle couche de l’atmosphère contient la majorité des nuages ?",
-    "options": [
-      "La troposphère",
-      "La mésosphère",
-      "La stratosphère"
+      "Smartphone",
+      "Ordinateur portable",
+      "Tablette"
     ],
     "correct": 0,
-    "explanation": "La troposphère, la couche la plus basse de l’atmosphère, abrite la plupart des nuages et des phénomènes météorologiques.",
-    "explanationAudio": "La troposphère, la couche la plus basse de l’atmosphère, abrite la plupart des nuages et des phénomènes météorologiques.",
+    "explanation": "Le smartphone intègre la téléphonie, le calcul et la photographie, devenant un outil central du quotidien.",
+    "explanationAudio": "Le smartphone intègre la téléphonie, le calcul et la photographie, devenant un outil central du quotidien.",
     "emojis": [
-      "☁️",
-      "🌦️",
-      "🌍",
-      "🌬️",
-      "📏",
-      "🌡️",
-      "🪐"
+      "📱",
+      "📞",
+      "📸",
+      "💻",
+      "🛰️",
+      "🌐",
+      "🔋"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑detail 3D cinematic view of the Earth's troposphere filled with layered clouds, realistic lighting from the sun, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the mesosphere with faint noctilucent clouds, detailed atmospheric gradients, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of the stratosphere showing the ozone layer and few clouds, photorealistic, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel phénomène explique le déplacement des continents au cours des millions d’années ?",
-    "questionAudio": "Quel phénomène explique le déplacement des continents au cours des millions d’années ?",
-    "options": [
-      "La dérive des continents",
-      "Le soulèvement des fonds marins",
-      "L’érosion des montagnes"
-    ],
-    "correct": 0,
-    "explanation": "La dérive des continents décrit le mouvement lent des plaques lithosphériques qui entraîne les continents sur des éons.",
-    "explanationAudio": "La dérive des continents décrit le mouvement lent des plaques lithosphériques qui entraîne les continents sur des éons.",
-    "emojis": [
-      "🌍",
-      "🧭",
-      "🪨",
-      "🌊",
-      "📏",
-      "🚢",
-      "🗺️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic animation of continental plates slowly moving across the mantle, realistic textures, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D render of underwater volcanic ridges uplifting the ocean floor, realistic lava flow, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of mountain ranges being worn down by wind and water over time, detailed erosion patterns, cinematic feel, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel type d’énergie renouvelable exploite la chaleur interne de la Terre ?",
-    "questionAudio": "Quel type d’énergie renouvelable exploite la chaleur interne de la Terre ?",
-    "options": [
-      "L’énergie solaire",
-      "L’énergie éolienne",
-      "L’énergie géothermique"
-    ],
-    "correct": 2,
-    "explanation": "L’énergie géothermique utilise la chaleur provenant du noyau terrestre pour produire de l’électricité ou du chauffage.",
-    "explanationAudio": "L’énergie géothermique utilise la chaleur provenant du noyau terrestre pour produire de l’électricité ou du chauffage.",
-    "emojis": [
-      "♨️",
-      "🌋",
-      "🏞️",
-      "🌍",
-      "🔋",
-      "⚡",
-      "🛢️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of solar panels basking in sunlight, detailed reflections, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of wind turbines spinning on a hill, realistic blade motion, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic view of a geothermal power plant tapping hot steam from underground, realistic pipes and turbines, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D render of a modern smartphone displaying a vibrant home screen, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a laptop open with code on screen, detailed, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a tablet on a desk with stylus, realistic textures, cinematic angle, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

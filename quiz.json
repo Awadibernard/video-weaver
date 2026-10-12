@@ -1,178 +1,208 @@
 [
   {
-    "question": "Quelle est la fonction principale du foie ?",
-    "questionAudio": "Quelle est la fonction principale du foie ?",
+    "question": "Quel est le composant principal de l'atmosphère terrestre ?",
+    "questionAudio": "Quel est le composant principal de l'atmosphère terrestre ?",
     "options": [
-      "Filtrer les déchets urinaires",
-      "Détoxifier le sang",
-      "Produire les globules rouges"
+      "Oxygène",
+      "Dioxyde de carbone",
+      "Azote"
+    ],
+    "correct": 2,
+    "explanation": "L'azote constitue la majeure partie de l'atmosphère terrestre.",
+    "explanationAudio": "L'azote constitue la majeure partie de l'atmosphère terrestre.",
+    "emojis": [
+      "🌍",
+      "💨",
+      "🔬",
+      "🧪",
+      "⚗️",
+      "🧊",
+      "🔥"
+    ],
+    "imagePrompts": [
+      "A photorealistic 3D illustration of oxygen gas molecules with a faint blue glow, cinematic lighting, highly detailed",
+      "A photorealistic 3D illustration of carbon dioxide molecules drifting in the atmosphere, cinematic lighting, highly detailed",
+      "A photorealistic 3D illustration of nitrogen gas molecules in a clear blue sky, cinematic lighting, highly detailed"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
+    "questionAudio": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
+    "options": [
+      "Liaison métallique",
+      "Liaison ionique",
+      "Liaison covalente"
+    ],
+    "correct": 2,
+    "explanation": "La liaison covalente se forme lorsque deux atomes partagent des électrons.",
+    "explanationAudio": "La liaison covalente se forme lorsque deux atomes partagent des électrons.",
+    "emojis": [
+      "🔗",
+      "🧪",
+      "⚗️",
+      "🔬",
+      "💡",
+      "🧬",
+      "🧫"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a lattice of metal atoms with delocalized electrons, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of oppositely charged ions attracting each other, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of two atoms sharing electron clouds, photorealistic, with glowing shared electrons, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle est la valeur du pH d'une solution aqueuse neutre à température standard ?",
+    "questionAudio": "Quelle est la valeur du pH d'une solution aqueuse neutre à température standard ?",
+    "options": [
+      "Neuf",
+      "Quatre",
+      "Sept"
+    ],
+    "correct": 2,
+    "explanation": "Une solution neutre a un pH égal à sept.",
+    "explanationAudio": "Une solution neutre a un pH égal à sept.",
+    "emojis": [
+      "⚗️",
+      "🧪",
+      "📊",
+      "🔬",
+      "💧",
+      "🌡️",
+      "🧬"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a pH meter needle pointing at nine, with a clear liquid sample, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a pH meter needle pointing at four, with a clear liquid sample, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a pH meter needle pointing at seven, with a clear liquid sample, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel élément est représenté par le symbole chimique Fe ?",
+    "questionAudio": "Quel élément est représenté par le symbole chimique Fe ?",
+    "options": [
+      "Fer",
+      "Francium",
+      "Fluor"
+    ],
+    "correct": 0,
+    "explanation": "Le symbole Fe provient du latin ferrum, désignant le fer.",
+    "explanationAudio": "Le symbole Fe provient du latin ferrum, désignant le fer.",
+    "emojis": [
+      "⚙️",
+      "🧲",
+      "🔩",
+      "🧪",
+      "🔬",
+      "💎",
+      "🧱"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a lump of iron metal with a glowing Fe symbol, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a rare francium atom with a glowing aura, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of fluorine gas in a bright yellow container, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel processus transforme directement un solide en gaz sans passer par l'état liquide ?",
+    "questionAudio": "Quel processus transforme directement un solide en gaz sans passer par l'état liquide ?",
+    "options": [
+      "Dépôt",
+      "Condensation",
+      "Sublimation"
+    ],
+    "correct": 2,
+    "explanation": "La sublimation est le passage direct de l'état solide à l'état gazeux.",
+    "explanationAudio": "La sublimation est le passage direct de l'état solide à l'état gazeux.",
+    "emojis": [
+      "❄️",
+      "💨",
+      "⚗️",
+      "🧊",
+      "🔥",
+      "🔬",
+      "🧪"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of vapor depositing as frost on a surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of water vapor condensing into droplets on a cold surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of dry ice sublimating into vapor, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle molécule est la principale source d'énergie dans les cellules ?",
+    "questionAudio": "Quelle molécule est la principale source d'énergie dans les cellules ?",
+    "options": [
+      "ADN",
+      "ATP",
+      "ARN"
     ],
     "correct": 1,
-    "explanation": "Le foie métabolise les substances toxiques et les élimine du sang.",
-    "explanationAudio": "Le foie métabolise les substances toxiques et les élimine du sang.",
+    "explanation": "L'ATP fournit l'énergie nécessaire aux réactions cellulaires.",
+    "explanationAudio": "L'ATP fournit l'énergie nécessaire aux réactions cellulaires.",
     "emojis": [
-      "🧬",
-      "🧪",
-      "🔬",
-      "💉",
-      "⚗️",
-      "🫀",
-      "🫁"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of kidneys filtering waste, with clear fluid flow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A highly detailed 3D render of a human liver with toxic substances being broken down, cinematic lighting, photorealistic",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of bone marrow producing red blood cells inside the human body, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel rôle principal remplissent les globules rouges ?",
-    "questionAudio": "Quel rôle principal remplissent les globules rouges ?",
-    "options": [
-      "Défendre contre les infections",
-      "Coaguler le sang",
-      "Transporter l'oxygène"
-    ],
-    "correct": 2,
-    "explanation": "Les globules rouges contiennent l'hémoglobine qui lie l'oxygène et le transporte vers les tissus.",
-    "explanationAudio": "Les globules rouges contiennent l'hémoglobine qui lie l'oxygène et le transporte vers les tissus.",
-    "emojis": [
-      "🩸",
-      "🫁",
-      "🧬",
-      "🔬",
-      "🩺",
-      "💉",
-      "⚕️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of white blood cells attacking pathogens, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of platelets forming a clot in a blood vessel, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D animation of red blood cells carrying oxygen molecules through capillaries, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle valve cardiaque empêche le reflux du sang vers les poumons ?",
-    "questionAudio": "Quelle valve cardiaque empêche le reflux du sang vers les poumons ?",
-    "options": [
-      "Valve pulmonaire",
-      "Valve mitrale",
-      "Valve aortique"
-    ],
-    "correct": 0,
-    "explanation": "La valve pulmonaire assure le flux unidirectionnel du sang du cœur vers les poumons.",
-    "explanationAudio": "La valve pulmonaire assure le flux unidirectionnel du sang du cœur vers les poumons.",
-    "emojis": [
-      "❤️",
-      "🫀",
-      "🔬",
-      "🧬",
-      "💓",
-      "🩺",
-      "⚙️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of the pulmonary valve controlling blood flow to the lungs, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the mitral valve opening and closing, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of the aortic valve with blood flow, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle couche de la peau forme la barrière principale contre les agents pathogènes ?",
-    "questionAudio": "Quelle couche de la peau forme la barrière principale contre les agents pathogènes ?",
-    "options": [
-      "Hypoderme",
-      "Derme",
-      "Épiderme"
-    ],
-    "correct": 2,
-    "explanation": "L'épiderme, couche externe, protège le corps des micro‑organismes et de la perte d'eau.",
-    "explanationAudio": "L'épiderme, couche externe, protège le corps des micro‑organismes et de la perte d'eau.",
-    "emojis": [
-      "🧖‍♀️",
-      "🧪",
-      "🔬",
-      "🧬",
-      "💧",
-      "☀️",
-      "🛡️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of subcutaneous tissue with fat cells, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of the dermis with collagen fibers and blood vessels, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A close‑up 3D render of human epidermis showing keratinocyte layers, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel organe sécrète l'insuline pour réguler la glycémie ?",
-    "questionAudio": "Quel organe sécrète l'insuline pour réguler la glycémie ?",
-    "options": [
-      "Rate",
-      "Foie",
-      "Pancréas"
-    ],
-    "correct": 2,
-    "explanation": "Les cellules bêta du pancréas produisent l'insuline, hormone qui diminue le taux de glucose sanguin.",
-    "explanationAudio": "Les cellules bêta du pancréas produisent l'insuline, hormone qui diminue le taux de glucose sanguin.",
-    "emojis": [
-      "🍬",
-      "🩸",
-      "🧬",
-      "🔬",
-      "🧪",
-      "💉",
-      "🩺"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the spleen with immune cells, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of the liver processing nutrients, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of the human pancreas highlighting beta cells releasing insulin, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel segment du tube digestif absorbe la majorité des nutriments ?",
-    "questionAudio": "Quel segment du tube digestif absorbe la majorité des nutriments ?",
-    "options": [
-      "Intestin grêle",
-      "Estomac",
-      "Côlon"
-    ],
-    "correct": 0,
-    "explanation": "L'intestin grêle possède une grande surface d'absorption grâce aux villosités, capturant la plupart des nutriments.",
-    "explanationAudio": "L'intestin grêle possède une grande surface d'absorption grâce aux villosités, capturant la plupart des nutriments.",
-    "emojis": [
-      "🥗",
+      "⚡",
       "🧬",
       "🔬",
       "🧪",
       "💊",
-      "🍽️",
-      "🦠"
+      "🔋",
+      "🧫"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D view of the small intestine with villi absorbing nutrients, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the stomach churning food, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of the colon with microbial flora, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a DNA double helix, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an ATP molecule with glowing phosphate groups, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an RNA strand, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment s'appelle le groupe du tableau périodique contenant des éléments avec un seul électron dans leur couche externe ?",
+    "questionAudio": "Comment s'appelle le groupe du tableau périodique contenant des éléments avec un seul électron dans leur couche externe ?",
+    "options": [
+      "Halogènes",
+      "Métaux alcalins",
+      "Gaz nobles"
+    ],
+    "correct": 1,
+    "explanation": "Les métaux alcalins possèdent un électron de valence unique.",
+    "explanationAudio": "Les métaux alcalins possèdent un électron de valence unique.",
+    "emojis": [
+      "🔋",
+      "🧪",
+      "⚗️",
+      "🔬",
+      "💡",
+      "🧬",
+      "🌡️"
+    ],
+    "imagePrompts": [
+      "A photorealistic 3D illustration of halogen molecules with vivid colors, cinematic lighting",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of alkali metal elements like sodium and potassium in metallic form, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of noble gas atoms glowing softly, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

@@ -1,28 +1,28 @@
 [
   {
-    "question": "Quel était le nom du réseau précurseur d'Internet développé aux États Unis dans les années soixante ?",
-    "questionAudio": "Quel était le nom du réseau précurseur d'Internet développé aux États Unis dans les années soixante ?",
+    "question": "Quelle région du cerveau déclenche la libération de cortisol lors du stress ?",
+    "questionAudio": "Quelle région du cerveau déclenche la libération de cortisol lors du stress ?",
     "options": [
-      "BITNET",
-      "ARPANET",
-      "USENET"
+      "Le noyau accumbens",
+      "L'hypothalamus",
+      "Le cervelet"
     ],
     "correct": 1,
-    "explanation": "ARPANET a été le premier réseau à connecter des ordinateurs universitaires et militaires, jetant les bases de l'Internet.",
-    "explanationAudio": "ARPANET a été le premier réseau à connecter des ordinateurs universitaires et militaires, jetant les bases de l'Internet.",
+    "explanation": "L'hypothalamus déclenche la libération de cortisol en activant l'axe hypothalamo‑hypophyso‑surrénalien.",
+    "explanationAudio": "L'hypothalamus déclenche la libération de cortisol en activant l'axe hypothalamo‑hypophyso‑surrénalien.",
     "emojis": [
-      "💻",
-      "🌐",
-      "📡",
-      "🛰️",
-      "🔌",
-      "🕸️",
-      "⚙️"
+      "🧠",
+      "🔬",
+      "⚡",
+      "💡",
+      "🧪",
+      "📊",
+      "🌡️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a vintage academic computer room with BITNET node symbols on screens, realistic textures, cinematic angle, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D render of early computer terminals connected by glowing cables forming a network, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D scene showing a bulletin board system with USENET messages scrolling, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the nucleus accumbens region in the brain, glowing blue, ultra realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A highly detailed 3D render of the human brain highlighting the hypothalamus in bright red, cinematic lighting, photorealistic",
+      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of the cerebellum with textured surface, realistic shading, close up view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel physicien a inventé le laser, un dispositif qui amplifie la lumière par émission stimulée ?",
-    "questionAudio": "Quel physicien a inventé le laser, un dispositif qui amplifie la lumière par émission stimulée ?",
+    "question": "Quel neurotransmetteur est le principal moteur de la sensation de récompense et de motivation ?",
+    "questionAudio": "Quel neurotransmetteur est le principal moteur de la sensation de récompense et de motivation ?",
     "options": [
-      "Niels Bohr",
-      "Theodore Maiman",
-      "Albert Einstein"
+      "Dopamine",
+      "Sérotonine",
+      "Acétylcholine"
     ],
-    "correct": 1,
-    "explanation": "Theodore Maiman a construit le premier laser fonctionnel, ouvrant la voie à de nombreuses applications.",
-    "explanationAudio": "Theodore Maiman a construit le premier laser fonctionnel, ouvrant la voie à de nombreuses applications.",
+    "correct": 0,
+    "explanation": "La dopamine est libérée dans le système de récompense et renforce les comportements motivants.",
+    "explanationAudio": "La dopamine est libérée dans le système de récompense et renforce les comportements motivants.",
     "emojis": [
-      "🔦",
-      "⚛️",
-      "💡",
-      "📡",
+      "🧠",
+      "💊",
+      "⚡",
+      "🎯",
       "🔬",
-      "🧪",
+      "💡",
       "🚀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of Niels Bohr in a laboratory with atomic models, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a ruby laser cavity with glowing red beam, cinematic lighting, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D portrait of Albert Einstein beside a chalkboard illustrating stimulated emission, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of dopamine molecules diffusing in a neural synapse, cinematic glow, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of serotonin structures floating in a brain environment, soft lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of acetylcholine interacting with a neuronal receptor, detailed shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,59 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel composant électronique a remplacé les tubes à vide grâce à sa petite taille et sa fiabilité ?",
-    "questionAudio": "Quel composant électronique a remplacé les tubes à vide grâce à sa petite taille et sa fiabilité ?",
+    "question": "Quel phénomène décrit la capacité du cerveau à réorganiser ses connexions après une lésion ?",
+    "questionAudio": "Quel phénomène décrit la capacité du cerveau à réorganiser ses connexions après une lésion ?",
     "options": [
-      "Transistor",
-      "Diode",
-      "Capacitor"
+      "Myélinisation",
+      "Plasticité cérébrale",
+      "Neurogenèse"
     ],
-    "correct": 0,
-    "explanation": "Le transistor a permis la miniaturisation des circuits électroniques et est à la base des puces modernes.",
-    "explanationAudio": "Le transistor a permis la miniaturisation des circuits électroniques et est à la base des puces modernes.",
+    "correct": 1,
+    "explanation": "La plasticité cérébrale permet aux neurones de former de nouvelles connexions après un dommage.",
+    "explanationAudio": "La plasticité cérébrale permet aux neurones de former de nouvelles connexions après un dommage.",
     "emojis": [
-      "📱",
+      "🧠",
       "🔧",
+      "🛠️",
       "⚙️",
-      "💾",
-      "🧩",
-      "🔋",
-      "🛠️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A close‑up 3D render of a silicon transistor on a circuit board, glowing pins, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a semiconductor diode with electron flow visualized, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of an electrolytic capacitor with charge arcs, detailed, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle technologie permet de modifier précisément l'ADN en utilisant une enzyme guidée par un ARN ?",
-    "questionAudio": "Quelle technologie permet de modifier précisément l'ADN en utilisant une enzyme guidée par un ARN ?",
-    "options": [
-      "Gel electrophoresis",
-      "PCR",
-      "CRISPR Cas9"
-    ],
-    "correct": 2,
-    "explanation": "CRISPR Cas9 utilise une molécule d'ARN guide pour couper l'ADN à un endroit précis, permettant des modifications ciblées.",
-    "explanationAudio": "CRISPR Cas9 utilise une molécule d'ARN guide pour couper l'ADN à un endroit précis, permettant des modifications ciblées.",
-    "emojis": [
-      "🧬",
+      "🌱",
       "🔬",
-      "🧪",
-      "💉",
-      "🧫",
-      "⚗️",
-      "🧭"
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of an agarose gel with DNA bands separated, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D lab scene showing a thermal cycler performing polymerase chain reaction, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D molecular visualization of the CRISPR Cas9 complex cutting a DNA strand, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of myelin sheaths wrapping around axons, realistic lighting, close‑up view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of brain neurons forming new synaptic connections, glowing pathways, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of newborn neurons in the hippocampus, soft ambient light, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,29 +90,59 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel appareil combine les fonctions d’un téléphone, d’un ordinateur et d’un appareil photo dans un seul dispositif portable ?",
-    "questionAudio": "Quel appareil combine les fonctions d’un téléphone, d’un ordinateur et d’un appareil photo dans un seul dispositif portable ?",
+    "question": "Quel type de mémoire est le plus affecté par l'amnésie antérograde ?",
+    "questionAudio": "Quel type de mémoire est le plus affecté par l'amnésie antérograde ?",
     "options": [
-      "Smartphone",
-      "Ordinateur portable",
-      "Tablette"
+      "Mémoire à court terme",
+      "Mémoire déclarative",
+      "Mémoire procédurale"
     ],
-    "correct": 0,
-    "explanation": "Le smartphone intègre la téléphonie, le calcul et la photographie, devenant un outil central du quotidien.",
-    "explanationAudio": "Le smartphone intègre la téléphonie, le calcul et la photographie, devenant un outil central du quotidien.",
+    "correct": 1,
+    "explanation": "L'amnésie antérograde affecte surtout la capacité à former de nouveaux souvenirs déclaratifs.",
+    "explanationAudio": "L'amnésie antérograde affecte surtout la capacité à former de nouveaux souvenirs déclaratifs.",
     "emojis": [
-      "📱",
-      "📞",
-      "📸",
-      "💻",
-      "🛰️",
-      "🌐",
-      "🔋"
+      "🧠",
+      "📚",
+      "🕰️",
+      "💭",
+      "🔬",
+      "🧩",
+      "🧪"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D render of a modern smartphone displaying a vibrant home screen, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a laptop open with code on screen, detailed, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a tablet on a desk with stylus, realistic textures, cinematic angle, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of short‑term memory circuits in the prefrontal cortex, glowing nodes, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene showing a brain with highlighted areas for declarative memory, bright colors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of procedural memory pathways in the basal ganglia, detailed textures, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle zone du cortex préfrontal participe à la prise de décision et au contrôle des impulsions ?",
+    "questionAudio": "Quelle zone du cortex préfrontal participe à la prise de décision et au contrôle des impulsions ?",
+    "options": [
+      "Cortex cingulaire antérieur",
+      "Cortex préfrontal dorsolatéral",
+      "Cortex orbitofrontal"
+    ],
+    "correct": 1,
+    "explanation": "Le cortex préfrontal dorsolatéral participe à la planification, à la prise de décision et à l'inhibition des impulsions.",
+    "explanationAudio": "Le cortex préfrontal dorsolatéral participe à la planification, à la prise de décision et à l'inhibition des impulsions.",
+    "emojis": [
+      "🧠",
+      "🧭",
+      "⚖️",
+      "💭",
+      "🔬",
+      "🚦",
+      "📈"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of the anterior cingulate cortex with glowing outlines, ultra realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D rendering of the dorsolateral prefrontal cortex highlighted in teal, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the orbitofrontal cortex with textured surface, realistic shading, close‑up view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

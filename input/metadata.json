@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Science du Quotidien & Idées Reçues",
-  "description": "Démystifions les croyances populaires grâce à la science du quotidien !",
+  "topic": "🧠 Quiz : Science de la Cuisine & Alimentation",
+  "description": "Découvrez les secrets scientifiques qui se cachent derrière chaque plat que vous préparez.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -22,138 +22,138 @@
   "questionCount": 5,
   "questions": [
     {
-      "question": "Les micro‑ondes peuvent‑elles causer le cancer ?",
-      "questionAudio": "Les micro‑ondes peuvent‑elles causer le cancer ?",
+      "question": "Comment la chaleur influence t elle la coagulation des protéines dans les œufs ?",
+      "questionAudio": "Comment la chaleur influence t elle la coagulation des protéines dans les œufs ?",
       "emojis": [
-        "📡",
-        "⚡",
-        "🍲",
-        "🚫",
+        "🍳",
+        "🔥",
+        "🧪",
         "🔬",
-        "💡",
-        "🧪"
+        "🥚",
+        "🌡️",
+        "📚"
       ],
       "options": [
-        "Non, elles utilisent des ondes non ionisantes",
-        "Elles augmentent le métabolisme",
-        "Oui, elles détruisent l’ADN"
+        "Elle dénature les protéines, créant un réseau solide",
+        "Elle n affecte pas les protéines",
+        "Elle augmente la solubilité des protéines"
       ],
       "correct": 0,
-      "answer": "Non, elles utilisent des ondes non ionisantes",
-      "explanation": "Les micro‑ondes sont des ondes non ionisantes qui n’ont pas assez d’énergie pour endommager l’ADN et provoquer le cancer.",
-      "explanationAudio": "Les micro‑ondes sont des ondes non ionisantes qui n’ont pas assez d’énergie pour endommager l’ADN et provoquer le cancer.",
+      "answer": "Elle dénature les protéines, créant un réseau solide",
+      "explanation": "La chaleur provoque le dépliement des chaînes protéiques qui se lient entre elles, formant un gel ferme.",
+      "explanationAudio": "La chaleur provoque le dépliement des chaînes protéiques qui se lient entre elles, formant un gel ferme.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a microwave oven emitting blue non‑ionizing waves, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visual of a human body with metabolic pathways highlighted, bright colors, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A close‑up 3D illustration of DNA strands being unaffected by low‑energy radiation, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a cracked egg in a hot pan, proteins coagulating, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A scientific 3D visualization of protein molecules unfolding and linking together in a pan, glowing effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of liquid egg whites turning opaque under heat, close up, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Le sucre rend‑il les enfants hyperactifs ?",
-      "questionAudio": "Le sucre rend‑il les enfants hyperactifs ?",
+      "question": "Quel rôle joue le pH dans la couleur du chou rouge lorsqu’il est utilisé comme indicateur ?",
+      "questionAudio": "Quel rôle joue le pH dans la couleur du chou rouge lorsqu il est utilisé comme indicateur ?",
       "emojis": [
-        "🍭",
-        "👦",
-        "🧠",
-        "❌",
+        "🥬",
+        "🧪",
         "🔬",
+        "🌈",
         "📊",
-        "🤔"
+        "⚗️",
+        "🧑‍🔬"
       ],
       "options": [
-        "Seulement chez les enfants allergiques",
-        "Non, aucune preuve scientifique",
-        "Oui, il stimule le système nerveux"
-      ],
-      "correct": 1,
-      "answer": "Non, aucune preuve scientifique",
-      "explanation": "Les études contrôlées n’ont pas trouvé de lien causal entre la consommation de sucre et l’hyperactivité chez les enfants.",
-      "explanationAudio": "Les études contrôlées n’ont pas trouvé de lien causal entre la consommation de sucre et l’hyperactivité chez les enfants.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D depiction of an allergic reaction with histamine release, detailed textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D realistic scene of a child eating candy, with scientific graphs showing no correlation, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of neural pathways being activated by caffeine, bright colors, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Faut‑il boire exactement huit verres d’eau chaque jour ?",
-      "questionAudio": "Faut‑il boire exactement huit verres d’eau chaque jour ?",
-      "emojis": [
-        "💧",
-        "🚰",
-        "🤷‍♂️",
-        "📏",
-        "🔬",
-        "🧊",
-        "🥤"
-      ],
-      "options": [
-        "Non, les besoins varient selon l’individu",
-        "Oui, c’est indispensable",
-        "Seulement en été"
+        "Un pH acide donne une couleur rouge",
+        "Un pH basique donne une couleur rouge",
+        "Le pH n influence pas la couleur"
       ],
       "correct": 0,
-      "answer": "Non, les besoins varient selon l’individu",
-      "explanation": "L’apport hydrique dépend de l’âge, du niveau d’activité, du climat et de la santé, il n’existe pas de règle fixe.",
-      "explanationAudio": "L’apport hydrique dépend de l’âge, du niveau d’activité, du climat et de la santé, il n’existe pas de règle fixe.",
+      "answer": "Un pH acide donne une couleur rouge",
+      "explanation": "Les pigments anthocyaniques du chou changent de teinte selon l’acidité, passant du rouge au bleu selon le pH.",
+      "explanationAudio": "Les pigments anthocyaniques du chou changent de teinte selon l acidité, passant du rouge au bleu selon le pH.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D photorealistic illustration of diverse people drinking water in different settings, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D detailed model of a glass of water with a bold “8” overlay, stylized, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D summer scene with sweating figures and water bottles, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of red cabbage leaves immersed in acidic liquid, vivid red color, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the same cabbage in neutral solution, purple hue, detailed texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene showing cabbage in alkaline solution, turning blue green, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Un éclair ne peut‑il jamais frapper le même point deux fois ?",
-      "questionAudio": "Un éclair ne peut‑il jamais frapper le même point deux fois ?",
+      "question": "Pourquoi la levure de boulangerie produit‑elle du dioxyde de carbone lors de la fermentation ?",
+      "questionAudio": "Pourquoi la levure de boulangerie produit elle du dioxyde de carbone lors de la fermentation ?",
       "emojis": [
-        "⚡",
-        "🌩️",
-        "🏠",
-        "🔧",
-        "📍",
-        "🔬",
-        "🌪️"
-      ],
-      "options": [
-        "Vrai, l’électricité se disperse",
-        "Faux, ils peuvent frapper plusieurs fois",
-        "Seuls les grands immeubles sont concernés"
-      ],
-      "correct": 1,
-      "answer": "Faux, ils peuvent frapper plusieurs fois",
-      "explanation": "Les éclairs suivent les chemins de moindre résistance et peuvent toucher le même objet à plusieurs reprises lors d’une même tempête.",
-      "explanationAudio": "Les éclairs suivent les chemins de moindre résistance et peuvent toucher le même objet à plusieurs reprises lors d’une même tempête.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of electric fields showing dispersion, glowing arcs, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a lightning bolt striking a tall building repeatedly, photorealistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a city skyline with multiple lightning strikes on the same skyscraper, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Les cheveux et les ongles continuent‑ils de pousser après la mort ?",
-      "questionAudio": "Les cheveux et les ongles continuent‑ils de pousser après la mort ?",
-      "emojis": [
-        "⚰️",
-        "💀",
+        "🍞",
+        "🧫",
+        "⚗️",
+        "💨",
         "🧬",
         "🔬",
-        "👻",
-        "🕰️",
-        "🪦"
+        "🥖"
       ],
       "options": [
-        "Non, la peau se rétracte donnant cette impression",
-        "Oui, les cellules restent actives",
-        "Seulement les ongles"
+        "Elle convertit les sucres en alcool et en dioxyde de carbone",
+        "Elle libère de l oxygène",
+        "Elle consomme le dioxyde de carbone"
       ],
       "correct": 0,
-      "answer": "Non, la peau se rétracte donnant cette impression",
-      "explanation": "Après le décès, la peau se déshydrate et se rétracte, ce qui fait paraître les cheveux et les ongles plus longs, mais aucune croissance réelle n’a lieu.",
-      "explanationAudio": "Après le décès, la peau se déshydrate et se rétracte, ce qui fait paraître les cheveux et les ongles plus longs, mais aucune croissance réelle n’a lieu.",
+      "answer": "Elle convertit les sucres en alcool et en dioxyde de carbone",
+      "explanation": "Les levures métabolisent les glucides en éthanol et en CO2, ce qui fait lever la pâte.",
+      "explanationAudio": "Les levures métabolisent les glucides en éthanol et en CO2, ce qui fait lever la pâte.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D realistic depiction of a cadaver with retracted skin showing longer hair, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of cellular activity halted, with faded DNA strands, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration focusing on nails appearing longer due to skin shrinkage, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D photorealistic illustration of yeast cells fermenting sugar, bubbles of CO2 rising, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A scientific 3D model showing the biochemical pathway of sugar to ethanol and carbon dioxide inside a yeast cell, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a dough rising with visible gas bubbles, detailed texture, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel phénomène explique le craquement d’une pâte à crêpes lorsqu’elle est versée dans une poêle chaude ?",
+      "questionAudio": "Quel phénomène explique le craquement d une pâte à crêpes lorsqu elle est versée dans une poêle chaude ?",
+      "emojis": [
+        "🥞",
+        "🔥",
+        "💦",
+        "⚡",
+        "🔊",
+        "🧪",
+        "👩‍🍳"
+      ],
+      "options": [
+        "La solidification instantanée du gluten",
+        "La réaction Maillard",
+        "La vaporisation rapide de l eau contenue"
+      ],
+      "correct": 2,
+      "answer": "La vaporisation rapide de l eau contenue",
+      "explanation": "L’eau s’évapore brusquement au contact du métal chaud, créant des bulles qui produisent le craquement.",
+      "explanationAudio": "L eau s évapore brusquement au contact du métal chaud, créant des bulles qui produisent le craquement.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of water droplets turning into vapor on a sizzling surface, detailed lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A scientific 3D illustration of heat transfer causing rapid phase change in batter, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of batter hitting a hot pan, steam bursts and crackling sound visualized, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Comment la taille des particules de sucre influence‑t‑elle la vitesse de dissolution dans un liquide chaud ?",
+      "questionAudio": "Comment la taille des particules de sucre influence t elle la vitesse de dissolution dans un liquide chaud ?",
+      "emojis": [
+        "🍬",
+        "☕",
+        "🌡️",
+        "🔬",
+        "📈",
+        "💧",
+        "🧊"
+      ],
+      "options": [
+        "Des particules plus grandes se dissolvent plus rapidement",
+        "Des particules plus petites se dissolvent plus rapidement",
+        "La taille n a aucun effet"
+      ],
+      "correct": 1,
+      "answer": "Des particules plus petites se dissolvent plus rapidement",
+      "explanation": "Une surface plus grande favorise le contact avec le solvant, accélérant la dissolution.",
+      "explanationAudio": "Une surface plus grande favorise le contact avec le solvant, accélérant la dissolution.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration contrasting coarse sugar cubes and fine sugar in the same liquid, showing speed difference, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D photorealistic scene of fine sugar crystals dissolving in hot tea, swirling particles, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A scientific 3D model visualizing diffusion of sugar molecules from small particles into a warm solvent, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

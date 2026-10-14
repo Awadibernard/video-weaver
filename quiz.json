@@ -1,58 +1,28 @@
 [
   {
-    "question": "Quel est le rôle principal de la mélatonine dans le sommeil ?",
-    "questionAudio": "Quel est le rôle principal de la mélatonine dans le sommeil ?",
+    "question": "Quel paramètre biomécanique indique la position du centre de pression pendant la marche ?",
+    "questionAudio": "Quel paramètre biomécanique indique la position du centre de pression pendant la marche ?",
     "options": [
-      "Stimuler la vigilance",
-      "Induire la somnolence",
-      "Accélérer le métabolisme"
+      "La fréquence cardiaque",
+      "La position du centre de pression",
+      "Le taux d’oxygène sanguin"
     ],
     "correct": 1,
-    "explanation": "La mélatonine, sécrétée par la glande pinéale, signale au corps qu’il est temps de dormir.",
-    "explanationAudio": "La mélatonine, sécrétée par la glande pinéale, signale au corps qu’il est temps de dormir.",
+    "explanation": "Le centre de pression reflète la répartition des forces au sol et aide à analyser la stabilité du marcheur.",
+    "explanationAudio": "Le centre de pression reflète la répartition des forces au sol et aide à analyser la stabilité du marcheur.",
     "emojis": [
-      "💤",
-      "🌙",
-      "🧪",
-      "🧬",
-      "🛌",
-      "🌟",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D vibrant scene of an alert brain with bright yellow activity, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D realistic illustration of a pineal gland releasing melatonin particles into the bloodstream, soft blue lighting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D detailed model of a human metabolism with fire symbols, high contrast, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle est la durée de sommeil recommandée pour un adulte en bonne santé ?",
-    "questionAudio": "Quelle est la durée de sommeil recommandée pour un adulte en bonne santé ?",
-    "options": [
-      "Onze à douze heures",
-      "Sept à neuf heures",
-      "Cinq à six heures"
-    ],
-    "correct": 1,
-    "explanation": "Les spécialistes conseillent généralement sept à neuf heures de sommeil chaque nuit pour soutenir les fonctions cognitives et métaboliques.",
-    "explanationAudio": "Les spécialistes conseillent généralement sept à neuf heures de sommeil chaque nuit pour soutenir les fonctions cognitives et métaboliques.",
-    "emojis": [
-      "🛏️",
-      "⏰",
+      "🚶‍♂️",
       "📊",
-      "👤",
-      "🌙",
-      "💤",
-      "🔢"
+      "👣",
+      "🦶",
+      "⚖️",
+      "🔍",
+      "🏃‍♀️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D detailed representation of a night sky with twelve stars forming a circle, high detail, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic bedroom scene showing a person peacefully sleeping, soft moonlight, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a clock with five to six hour markings, abstract design, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a heart monitor displaying heart rate data, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a foot pressure map showing the center of pressure trajectory during walking, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a blood oxygen saturation measurement device, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,119 +30,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Comment la lumière bleue influence t elle le rythme circadien ?",
-    "questionAudio": "Comment la lumière bleue influence t elle le rythme circadien ?",
+    "question": "Quel muscle est principalement sollicité lors d’un squat profond ?",
+    "questionAudio": "Quel muscle est principalement sollicité lors d’un squat profond ?",
     "options": [
-      "Elle augmente la production d’adrénaline",
-      "Elle supprime la production de mélatonine",
-      "Elle stabilise la température corporelle"
-    ],
-    "correct": 1,
-    "explanation": "L’exposition à la lumière bleue le soir inhibe la sécrétion de mélatonine, retardant l’endormissement.",
-    "explanationAudio": "L’exposition à la lumière bleue le soir inhibe la sécrétion de mélatonine, retardant l’endormissement.",
-    "emojis": [
-      "🔵",
-      "💡",
-      "🌙",
-      "🧠",
-      "📱",
-      "🕶️",
-      "🕑"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D dynamic illustration of adrenal glands releasing adrenaline, bright red tones, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a smartphone screen emitting blue light onto a sleeping person, cinematic shadows, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visual of a human body with temperature gauges balanced, cool colors, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel processus cognitif est principalement renforcé pendant le sommeil paradoxal ?",
-    "questionAudio": "Quel processus cognitif est principalement renforcé pendant le sommeil paradoxal ?",
-    "options": [
-      "Régénération musculaire",
-      "Élimination des toxines",
-      "Consolidation de la mémoire"
+      "Le triceps sural",
+      "Le biceps brachial",
+      "Le quadriceps fémoral"
     ],
     "correct": 2,
-    "explanation": "Le sommeil paradoxal active les réseaux neuronaux liés à la consolidation des souvenirs.",
-    "explanationAudio": "Le sommeil paradoxal active les réseaux neuronaux liés à la consolidation des souvenirs.",
+    "explanation": "Le quadriceps fémoral étend le genou, fournissant la force principale pendant le squat.",
+    "explanationAudio": "Le quadriceps fémoral étend le genou, fournissant la force principale pendant le squat.",
     "emojis": [
-      "🧠",
-      "💭",
-      "🛌",
-      "🔄",
-      "📚",
-      "🌙",
-      "✨"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D detailed model of muscular fibers repairing themselves, high detail, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of a glymphatic system clearing waste, soft blue tones, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a brain during REM sleep with glowing memory pathways, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est l’effet principal de la caféine sur les récepteurs d’adénosine ?",
-    "questionAudio": "Quel est l’effet principal de la caféine sur les récepteurs d’adénosine ?",
-    "options": [
-      "Elle les active, augmentant la somnolence",
-      "Elle bloque les récepteurs, réduisant la sensation de fatigue",
-      "Elle les transforme en récepteurs de dopamine"
-    ],
-    "correct": 1,
-    "explanation": "La caféine se lie aux récepteurs d’adénosine, empêchant l’adénosine d’induire la somnolence.",
-    "explanationAudio": "La caféine se lie aux récepteurs d’adénosine, empêchant l’adénosine d’induire la somnolence.",
-    "emojis": [
-      "☕",
-      "⚡",
-      "🧠",
-      "🔬",
-      "🚀",
-      "😴",
-      "🛑"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of adenosine receptors being activated, bright red glow, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of caffeine molecules occupying adenosine receptors in a brain synapse, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D artistic rendering of dopamine receptors morphing, surreal style, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel avantage cardiovasculaire est associé à une activité physique régulière ?",
-    "questionAudio": "Quel avantage cardiovasculaire est associé à une activité physique régulière ?",
-    "options": [
-      "Augmentation du taux de cholestérol",
-      "Diminution de la densité osseuse",
-      "Réduction de la pression artérielle"
-    ],
-    "correct": 2,
-    "explanation": "L’exercice modéré améliore la fonction vasculaire et contribue à abaisser la pression artérielle.",
-    "explanationAudio": "L’exercice modéré améliore la fonction vasculaire et contribue à abaisser la pression artérielle.",
-    "emojis": [
-      "🏃‍♂️",
-      "❤️",
-      "🩺",
+      "🏋️‍♂️",
       "💪",
-      "📈",
-      "🌿",
-      "🚴‍♀️"
+      "🦵",
+      "🔧",
+      "📏",
+      "⚙️",
+      "🤸‍♀️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D detailed illustration of cholesterol particles accumulating, dark tones, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of bone density decreasing, skeletal structure fading, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D dynamic scene of a runner with a glowing heart, blood vessels highlighted, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of the calf muscles (triceps surae) during a standing heel raise, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an arm performing a biceps curl, detailed anatomy, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D model of a human thigh highlighting the quadriceps femoris muscle during a squat, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de fibres musculaires se contracte le plus rapidement ?",
+    "questionAudio": "Quel type de fibres musculaires se contracte le plus rapidement ?",
+    "options": [
+      "Fibres de type I",
+      "Fibres de type II",
+      "Fibres cardiaques"
+    ],
+    "correct": 1,
+    "explanation": "Les fibres de type II sont dites rapides et produisent des contractions très rapides et puissantes.",
+    "explanationAudio": "Les fibres de type II sont dites rapides et produisent des contractions très rapides et puissantes.",
+    "emojis": [
+      "⚡",
+      "🏃‍♂️",
+      "🔬",
+      "💨",
+      "🧬",
+      "📈",
+      "🦿"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of slow‑twitch type I muscle fibers, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D microscopic view of fast‑twitch type II muscle fibers contracting, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D model of cardiac muscle fibers showing rhythmic contraction, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel principe explique que la force appliquée à un objet augmente son accélération ?",
+    "questionAudio": "Quel principe explique que la force appliquée à un objet augmente son accélération ?",
+    "options": [
+      "Le principe de la conservation de l’énergie",
+      "Le principe de la deuxième loi de Newton",
+      "Le principe de l’inertie"
+    ],
+    "correct": 1,
+    "explanation": "La deuxième loi de Newton indique que l’accélération d’un objet est proportionnelle à la force nette appliquée et inversement proportionnelle à sa masse.",
+    "explanationAudio": "La deuxième loi de Newton indique que l’accélération d’un objet est proportionnelle à la force nette appliquée et inversement proportionnelle à sa masse.",
+    "emojis": [
+      "📚",
+      "🧠",
+      "🔭",
+      "🧲",
+      "⚙️",
+      "🚀",
+      "🪐"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene showing energy conservation with a pendulum, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D render of a force vector acting on a mass causing acceleration, high‑detail physics visualization, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an object at rest illustrating inertia, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle adaptation cardiovasculaire est typique chez les coureurs de fond ?",
+    "questionAudio": "Quelle adaptation cardiovasculaire est typique chez les coureurs de fond ?",
+    "options": [
+      "Une augmentation du volume sanguin total",
+      "Une réduction de la capacité pulmonaire",
+      "Une diminution du nombre de capillaires"
+    ],
+    "correct": 0,
+    "explanation": "Les athlètes d’endurance développent un volume sanguin total plus élevé, améliorant le transport d’oxygène.",
+    "explanationAudio": "Les athlètes d’endurance développent un volume sanguin total plus élevé, améliorant le transport d’oxygène.",
+    "emojis": [
+      "❤️",
+      "🏃‍♀️",
+      "🩸",
+      "📈",
+      "🌬️",
+      "🫁",
+      "🏅"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an enlarged circulatory system showing increased blood volume in a long‑distance runner, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of lungs with decreased capacity, high‑detail textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of muscle tissue with reduced capillary density, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

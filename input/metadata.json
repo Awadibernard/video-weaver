@@ -1,159 +1,159 @@
 {
-  "topic": "🧠 Quiz : Science du Sport & Biomécanique",
-  "description": "Testez vos connaissances sur la science du sport et la biomécanique avec ces questions passionnantes !",
+  "topic": "🧠 Quiz : Paléontologie & Histoire de la Terre",
+  "description": "Explorez les mystères des fossiles et des ères géologiques qui ont façonné notre planète.",
   "hashtags": [
     "#science",
-    "#sport",
-    "#biomecanique"
+    "#quiz",
+    "#paléontologie"
   ],
   "motif": "science",
   "cta": "Abonne toi pour en apprendre plus !",
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
-    "🧠",
-    "⚽",
-    "🏃‍♂️",
-    "📊",
     "🔬",
-    "💡",
+    "🧪",
+    "✨",
+    "🌍",
+    "⚡",
+    "🧠",
     "🚀"
   ],
   "uiScale": 0.85,
   "questionCount": 5,
   "questions": [
     {
-      "question": "Quel paramètre biomécanique indique la position du centre de pression pendant la marche ?",
-      "questionAudio": "Quel paramètre biomécanique indique la position du centre de pression pendant la marche ?",
+      "question": "Quel événement marque la fin du Permien et l'extinction massive qui a éliminé environ quatre‑vingt‑dix pour cent des espèces marines ?",
+      "questionAudio": "Quel événement marque la fin du Permien et l'extinction massive qui a éliminé environ quatre‑vingt‑dix pour cent des espèces marines ?",
       "emojis": [
-        "🚶‍♂️",
-        "📊",
-        "👣",
-        "🦶",
-        "⚖️",
-        "🔍",
-        "🏃‍♀️"
+        "🦖",
+        "🌋",
+        "📚",
+        "🌍",
+        "🦕",
+        "⏳",
+        "🔬"
       ],
       "options": [
-        "La fréquence cardiaque",
-        "La position du centre de pression",
-        "Le taux d’oxygène sanguin"
+        "L'extinction du Dévonien",
+        "L'extinction du Permien Trias",
+        "L'extinction du Crétacé Paléogène"
       ],
       "correct": 1,
-      "answer": "La position du centre de pression",
-      "explanation": "Le centre de pression reflète la répartition des forces au sol et aide à analyser la stabilité du marcheur.",
-      "explanationAudio": "Le centre de pression reflète la répartition des forces au sol et aide à analyser la stabilité du marcheur.",
+      "answer": "L'extinction du Permien Trias",
+      "explanation": "Cette crise, appelée extinction du Permien Trias, a détruit la majorité des formes de vie marine il y a environ deux cent cinquante millions d'années.",
+      "explanationAudio": "Cette crise, appelée extinction du Permien Trias, a détruit la majorité des formes de vie marine il y a environ deux cent cinquante millions d'années.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a heart monitor displaying heart rate data, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a foot pressure map showing the center of pressure trajectory during walking, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a blood oxygen saturation measurement device, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D cross‑section of sedimentary rock layers showing a sharp disappearance of fossilized marine organisms, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a late Permian marine ecosystem with numerous extinct species fading away, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a volcanic eruption and massive wildfires during the Permian‑Triassic boundary, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel muscle est principalement sollicité lors d’un squat profond ?",
-      "questionAudio": "Quel muscle est principalement sollicité lors d’un squat profond ?",
+      "question": "Quel groupe d'animaux a colonisé les terres fermes pour la première fois il y a trois cents millions d'années ?",
+      "questionAudio": "Quel groupe d'animaux a colonisé les terres fermes pour la première fois il y a trois cents millions d'années ?",
       "emojis": [
-        "🏋️‍♂️",
-        "💪",
-        "🦵",
-        "🔧",
-        "📏",
-        "⚙️",
-        "🤸‍♀️"
+        "🦎",
+        "🌳",
+        "🏞️",
+        "🦕",
+        "🐾",
+        "⏳",
+        "🔬"
       ],
       "options": [
-        "Le triceps sural",
-        "Le biceps brachial",
-        "Le quadriceps fémoral"
+        "Les arthropodes",
+        "Les tétrapodes",
+        "Les mollusques"
+      ],
+      "correct": 1,
+      "answer": "Les tétrapodes",
+      "explanation": "Les premiers tétrapodes ont quitté l'eau et ont évolué pour vivre sur la terre ferme au cours du Carbonifère.",
+      "explanationAudio": "Les premiers tétrapodes ont quitté l'eau et ont évolué pour vivre sur la terre ferme au cours du Carbonifère.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D model of a Carboniferous forest with arthropods crawling on foliage, detailed lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of early tetrapods crawling out of a swamp onto dry land, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D underwater view of mollusks in a shallow sea, realistic water effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel fossile est considéré comme un indice clé pour dater les couches du Jurassique inférieur ?",
+      "questionAudio": "Quel fossile est considéré comme un indice clé pour dater les couches du Jurassique inférieur ?",
+      "emojis": [
+        "🐚",
+        "⏳",
+        "📏",
+        "🌊",
+        "🦖",
+        "🔎",
+        "🧭"
+      ],
+      "options": [
+        "Brachiopode",
+        "Trilobite",
+        "Ammonite"
       ],
       "correct": 2,
-      "answer": "Le quadriceps fémoral",
-      "explanation": "Le quadriceps fémoral étend le genou, fournissant la force principale pendant le squat.",
-      "explanationAudio": "Le quadriceps fémoral étend le genou, fournissant la force principale pendant le squat.",
+      "answer": "Ammonite",
+      "explanation": "Les ammonites évoluent rapidement et sont largement utilisées comme fossiles indicateurs du Jurassique inférieur.",
+      "explanationAudio": "Les ammonites évoluent rapidement et sont largement utilisées comme fossiles indicateurs du Jurassique inférieur.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of the calf muscles (triceps surae) during a standing heel raise, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an arm performing a biceps curl, detailed anatomy, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of a human thigh highlighting the quadriceps femoris muscle during a squat, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a brachiopod shell on a sediment surface, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D detailed model of a trilobite crawling on ancient seabed, high resolution textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D photorealistic render of a spiraled ammonite fossil partially embedded in Jurassic rock, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel type de fibres musculaires se contracte le plus rapidement ?",
-      "questionAudio": "Quel type de fibres musculaires se contracte le plus rapidement ?",
+      "question": "Quelle période géologique a vu l'apparition des premiers grands mammifères placentaires ?",
+      "questionAudio": "Quelle période géologique a vu l'apparition des premiers grands mammifères placentaires ?",
       "emojis": [
-        "⚡",
-        "🏃‍♂️",
+        "🦣",
+        "🌿",
+        "📅",
+        "🦕",
+        "🦖",
+        "⏳",
+        "🔬"
+      ],
+      "options": [
+        "Le Néogène",
+        "Le Crétacé",
+        "Le Paléogène"
+      ],
+      "correct": 2,
+      "answer": "Le Paléogène",
+      "explanation": "Les premiers grands mammifères placentaires sont apparus au Paléogène, après l'extinction des dinosaures.",
+      "explanationAudio": "Les premiers grands mammifères placentaires sont apparus au Paléogène, après l'extinction des dinosaures.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D scene of a Neogene savanna with modern mammals, ultra realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of early placental mammals roaming a Paleogene forest, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D reconstruction of a Cretaceous landscape with dinosaurs, detailed environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel phénomène a entraîné la formation du Grand Canyon il y a plusieurs millions d'années ?",
+      "questionAudio": "Quel phénomène a entraîné la formation du Grand Canyon il y a plusieurs millions d'années ?",
+      "emojis": [
+        "🏞️",
+        "🌊",
+        "🪨",
+        "⏳",
+        "📏",
         "🔬",
-        "💨",
-        "🧬",
-        "📈",
-        "🦿"
+        "🗺️"
       ],
       "options": [
-        "Fibres de type I",
-        "Fibres de type II",
-        "Fibres cardiaques"
+        "Le glissement de terrain",
+        "L'érosion fluviale du fleuve Colorado",
+        "L'activité volcanique"
       ],
       "correct": 1,
-      "answer": "Fibres de type II",
-      "explanation": "Les fibres de type II sont dites rapides et produisent des contractions très rapides et puissantes.",
-      "explanationAudio": "Les fibres de type II sont dites rapides et produisent des contractions très rapides et puissantes.",
+      "answer": "L'érosion fluviale du fleuve Colorado",
+      "explanation": "L'érosion du fleuve Colorado a creusé le Grand Canyon sur des millions d'années.",
+      "explanationAudio": "L'érosion du fleuve Colorado a creusé le Grand Canyon sur des millions d'années.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of slow‑twitch type I muscle fibers, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D microscopic view of fast‑twitch type II muscle fibers contracting, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of cardiac muscle fibers showing rhythmic contraction, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel principe explique que la force appliquée à un objet augmente son accélération ?",
-      "questionAudio": "Quel principe explique que la force appliquée à un objet augmente son accélération ?",
-      "emojis": [
-        "📚",
-        "🧠",
-        "🔭",
-        "🧲",
-        "⚙️",
-        "🚀",
-        "🪐"
-      ],
-      "options": [
-        "Le principe de la conservation de l’énergie",
-        "Le principe de la deuxième loi de Newton",
-        "Le principe de l’inertie"
-      ],
-      "correct": 1,
-      "answer": "Le principe de la deuxième loi de Newton",
-      "explanation": "La deuxième loi de Newton indique que l’accélération d’un objet est proportionnelle à la force nette appliquée et inversement proportionnelle à sa masse.",
-      "explanationAudio": "La deuxième loi de Newton indique que l’accélération d’un objet est proportionnelle à la force nette appliquée et inversement proportionnelle à sa masse.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene showing energy conservation with a pendulum, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a force vector acting on a mass causing acceleration, high‑detail physics visualization, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an object at rest illustrating inertia, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle adaptation cardiovasculaire est typique chez les coureurs de fond ?",
-      "questionAudio": "Quelle adaptation cardiovasculaire est typique chez les coureurs de fond ?",
-      "emojis": [
-        "❤️",
-        "🏃‍♀️",
-        "🩸",
-        "📈",
-        "🌬️",
-        "🫁",
-        "🏅"
-      ],
-      "options": [
-        "Une augmentation du volume sanguin total",
-        "Une réduction de la capacité pulmonaire",
-        "Une diminution du nombre de capillaires"
-      ],
-      "correct": 0,
-      "answer": "Une augmentation du volume sanguin total",
-      "explanation": "Les athlètes d’endurance développent un volume sanguin total plus élevé, améliorant le transport d’oxygène.",
-      "explanationAudio": "Les athlètes d’endurance développent un volume sanguin total plus élevé, améliorant le transport d’oxygène.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an enlarged circulatory system showing increased blood volume in a long‑distance runner, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of lungs with decreased capacity, high‑detail textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of muscle tissue with reduced capillary density, realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D landslide simulation on a steep canyon wall, realistic debris and dust, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic view of the Colorado River carving deep canyons, photorealistic water and rock textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D volcanic eruption scene with lava flows in a canyon environment, detailed lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

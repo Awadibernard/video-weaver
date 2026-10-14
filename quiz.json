@@ -1,28 +1,88 @@
 [
   {
-    "question": "Quel événement marque la fin du Permien et l'extinction massive qui a éliminé environ quatre‑vingt‑dix pour cent des espèces marines ?",
-    "questionAudio": "Quel événement marque la fin du Permien et l'extinction massive qui a éliminé environ quatre‑vingt‑dix pour cent des espèces marines ?",
+    "question": "Quel est le point le plus profond connu de l'océan mondial ?",
+    "questionAudio": "Quel est le point le plus profond connu de l'océan mondial ?",
     "options": [
-      "L'extinction du Dévonien",
-      "L'extinction du Permien Trias",
-      "L'extinction du Crétacé Paléogène"
+      "Challenger Deep",
+      "Tonga Trench",
+      "Puerto Rico Trench"
+    ],
+    "correct": 0,
+    "explanation": "Le Challenger Deep, situé dans la fosse des Mariannes, atteint près de onze kilomètres de profondeur, ce qui en fait le point le plus profond mesuré.",
+    "explanationAudio": "Le Challenger Deep, situé dans la fosse des Mariannes, atteint près de onze kilomètres de profondeur, ce qui en fait le point le plus profond mesuré.",
+    "emojis": [
+      "🌊",
+      "📏",
+      "🧭",
+      "🔍",
+      "🦈",
+      "🐙",
+      "🌌"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of the Challenger Deep trench at midnight, cinematic lighting, ultra‑detailed water textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of the Tonga Trench showing steep walls and swirling currents, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D model of the Puerto Rico Trench with seabed sediments and faint bioluminescent organisms, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel organisme crée les plus grandes colonies continues au fond des océans ?",
+    "questionAudio": "Quel organisme crée les plus grandes colonies continues au fond des océans ?",
+    "options": [
+      "Deep‑sea squid",
+      "Giant tube worm",
+      "Anglerfish"
     ],
     "correct": 1,
-    "explanation": "Cette crise, appelée extinction du Permien Trias, a détruit la majorité des formes de vie marine il y a environ deux cent cinquante millions d'années.",
-    "explanationAudio": "Cette crise, appelée extinction du Permien Trias, a détruit la majorité des formes de vie marine il y a environ deux cent cinquante millions d'années.",
+    "explanation": "Les vers tubulaires géants forment d’immenses tapis autour des cheminées hydrothermales, créant les plus grandes structures biologiques continues du fond marin.",
+    "explanationAudio": "Les vers tubulaires géants forment d’immenses tapis autour des cheminées hydrothermales, créant les plus grandes structures biologiques continues du fond marin.",
     "emojis": [
-      "🦖",
+      "🐛",
+      "🔥",
+      "🪸",
+      "🔦",
       "🌋",
-      "📚",
+      "🧪",
+      "📡"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A realistic 3D model of a deep‑sea squid gliding through dark water, high‑resolution textures and cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of giant tube worms clustered around a hydrothermal vent, glowing minerals, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of an anglerfish in the deep sea with bioluminescent lure, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle proportion de la surface de la Terre est recouverte par les océans ?",
+    "questionAudio": "Quelle proportion de la surface de la Terre est recouverte par les océans ?",
+    "options": [
+      "quatre‑vingt‑dix pour cent",
+      "soixante‑dix pour cent",
+      "cinquante pour cent"
+    ],
+    "correct": 1,
+    "explanation": "Environ soixante‑dix pour cent de la surface terrestre est recouvert d’eau salée, formant les océans mondiaux.",
+    "explanationAudio": "Environ soixante‑dix pour cent de la surface terrestre est recouvert d’eau salée, formant les océans mondiaux.",
+    "emojis": [
       "🌍",
-      "🦕",
-      "⏳",
+      "📊",
+      "📈",
+      "🧭",
+      "🗺️",
+      "💧",
       "🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cross‑section of sedimentary rock layers showing a sharp disappearance of fossilized marine organisms, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a late Permian marine ecosystem with numerous extinct species fading away, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a volcanic eruption and massive wildfires during the Permian‑Triassic boundary, highly detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a planet with ninety percent ocean coverage, dramatic lighting and realistic clouds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D globe showing blue oceans covering seventy percent of the surface, cinematic lighting, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a world map highlighting fifty percent ocean coverage with stylized water, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,119 +90,59 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel groupe d'animaux a colonisé les terres fermes pour la première fois il y a trois cents millions d'années ?",
-    "questionAudio": "Quel groupe d'animaux a colonisé les terres fermes pour la première fois il y a trois cents millions d'années ?",
+    "question": "Quel océan possède la plus grande étendue de plaines abyssales ?",
+    "questionAudio": "Quel océan possède la plus grande étendue de plaines abyssales ?",
     "options": [
-      "Les arthropodes",
-      "Les tétrapodes",
-      "Les mollusques"
+      "Océan Atlantique",
+      "Océan Pacifique",
+      "Océan Indien"
     ],
     "correct": 1,
-    "explanation": "Les premiers tétrapodes ont quitté l'eau et ont évolué pour vivre sur la terre ferme au cours du Carbonifère.",
-    "explanationAudio": "Les premiers tétrapodes ont quitté l'eau et ont évolué pour vivre sur la terre ferme au cours du Carbonifère.",
+    "explanation": "L’océan Pacifique couvre la plus vaste zone de plaines abyssales, s’étendant sur plusieurs millions de kilomètres carrés.",
+    "explanationAudio": "L’océan Pacifique couvre la plus vaste zone de plaines abyssales, s’étendant sur plusieurs millions de kilomètres carrés.",
     "emojis": [
-      "🦎",
-      "🌳",
-      "🏞️",
-      "🦕",
-      "🐾",
-      "⏳",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of a Carboniferous forest with arthropods crawling on foliage, detailed lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of early tetrapods crawling out of a swamp onto dry land, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D underwater view of mollusks in a shallow sea, realistic water effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel fossile est considéré comme un indice clé pour dater les couches du Jurassique inférieur ?",
-    "questionAudio": "Quel fossile est considéré comme un indice clé pour dater les couches du Jurassique inférieur ?",
-    "options": [
-      "Brachiopode",
-      "Trilobite",
-      "Ammonite"
-    ],
-    "correct": 2,
-    "explanation": "Les ammonites évoluent rapidement et sont largement utilisées comme fossiles indicateurs du Jurassique inférieur.",
-    "explanationAudio": "Les ammonites évoluent rapidement et sont largement utilisées comme fossiles indicateurs du Jurassique inférieur.",
-    "emojis": [
-      "🐚",
-      "⏳",
-      "📏",
       "🌊",
-      "🦖",
-      "🔎",
-      "🧭"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of a brachiopod shell on a sediment surface, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D detailed model of a trilobite crawling on ancient seabed, high resolution textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic render of a spiraled ammonite fossil partially embedded in Jurassic rock, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle période géologique a vu l'apparition des premiers grands mammifères placentaires ?",
-    "questionAudio": "Quelle période géologique a vu l'apparition des premiers grands mammifères placentaires ?",
-    "options": [
-      "Le Néogène",
-      "Le Crétacé",
-      "Le Paléogène"
-    ],
-    "correct": 2,
-    "explanation": "Les premiers grands mammifères placentaires sont apparus au Paléogène, après l'extinction des dinosaures.",
-    "explanationAudio": "Les premiers grands mammifères placentaires sont apparus au Paléogène, après l'extinction des dinosaures.",
-    "emojis": [
-      "🦣",
-      "🌿",
-      "📅",
-      "🦕",
-      "🦖",
-      "⏳",
-      "🔬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D scene of a Neogene savanna with modern mammals, ultra realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of early placental mammals roaming a Paleogene forest, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D reconstruction of a Cretaceous landscape with dinosaurs, detailed environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel phénomène a entraîné la formation du Grand Canyon il y a plusieurs millions d'années ?",
-    "questionAudio": "Quel phénomène a entraîné la formation du Grand Canyon il y a plusieurs millions d'années ?",
-    "options": [
-      "Le glissement de terrain",
-      "L'érosion fluviale du fleuve Colorado",
-      "L'activité volcanique"
-    ],
-    "correct": 1,
-    "explanation": "L'érosion du fleuve Colorado a creusé le Grand Canyon sur des millions d'années.",
-    "explanationAudio": "L'érosion du fleuve Colorado a creusé le Grand Canyon sur des millions d'années.",
-    "emojis": [
-      "🏞️",
-      "🌊",
-      "🪨",
-      "⏳",
+      "🗺️",
       "📏",
-      "🔬",
-      "🗺️"
+      "🧭",
+      "🏔️",
+      "🔭",
+      "🌌"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D landslide simulation on a steep canyon wall, realistic debris and dust, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic view of the Colorado River carving deep canyons, photorealistic water and rock textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D volcanic eruption scene with lava flows in a canyon environment, detailed lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D render of the Atlantic Ocean abyssal plain with subtle ridges and marine life, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D view of the Pacific Ocean floor showing vast abyssal plains, ultra‑detailed sediment textures, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of the Indian Ocean abyssal region with scattered seamounts, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel facteur chimique principal du sel marin entraîne la circulation océanique par différences de densité ?",
+    "questionAudio": "Quel facteur chimique principal du sel marin entraîne la circulation océanique par différences de densité ?",
+    "options": [
+      "Salinité",
+      "Température",
+      "Lumière"
+    ],
+    "correct": 0,
+    "explanation": "La salinité, c’est‑à‑dire la concentration de sel, modifie la densité de l’eau et conduit aux courants thermohalins qui font circuler les masses d’eau profondes.",
+    "explanationAudio": "La salinité, c’est‑à‑dire la concentration de sel, modifie la densité de l’eau et conduit aux courants thermohalins qui font circuler les masses d’eau profondes.",
+    "emojis": [
+      "🧂",
+      "💧",
+      "🌡️",
+      "🔄",
+      "🌊",
+      "🧭",
+      "📚"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of seawater molecules with varying salt concentrations, showing density gradients, photorealistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D model of ocean temperature layers with color gradients, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of sunlight penetrating shallow water, creating light beams, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

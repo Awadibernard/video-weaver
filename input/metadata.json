@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Histoire des Découvertes & Sérendipité",
-  "description": "Explorez les moments où le hasard a conduit aux plus grandes avancées scientifiques.",
+  "topic": "🧠 Quiz : Physique & Astronomie",
+  "description": "Explore les mystères de l'univers avec des questions captivantes sur la physique et l'astronomie.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,195 +19,141 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 7,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Comment Alexander Fleming a‑t‑il découvert la pénicilline ?",
-      "questionAudio": "Comment Alexander Fleming a‑t‑il découvert la pénicilline ?",
+      "question": "Quel phénomène explique pourquoi les étoiles semblent changer de couleur lorsqu'elles se déplacent par rapport à la Terre ?",
+      "questionAudio": "Quel phénomène explique pourquoi les étoiles semblent changer de couleur lorsqu'elles se déplacent par rapport à la Terre ?",
       "emojis": [
-        "🧫",
-        "🧪",
-        "🦠",
-        "💊",
-        "🔬",
-        "🧬",
-        "📜"
+        "🌟",
+        "🚀",
+        "🔭",
+        "✨",
+        "🪐",
+        "⚡",
+        "📡"
       ],
       "options": [
-        "Il a observé une zone d’inhibition autour d’une moisissure",
-        "Il a testé des composés synthétiques",
-        "Il a utilisé la chromatographie"
+        "L'effet Doppler",
+        "La réfraction atmosphérique",
+        "La diffusion Rayleigh"
       ],
       "correct": 0,
-      "answer": "Il a observé une zone d’inhibition autour d’une moisissure",
-      "explanation": "Fleming a remarqué que la moisissure Penicillium notatum empêchait la croissance de bactéries sur la plaque de Petri.",
-      "explanationAudio": "Fleming a remarqué que la moisissure Penicillium notatum empêchait la croissance de bactéries sur la plaque de Petri.",
+      "answer": "L'effet Doppler",
+      "explanation": "L'effet Doppler décrit le changement de fréquence d'une onde lorsqu'il y a un mouvement relatif entre la source et l'observateur.",
+      "explanationAudio": "L'effet Doppler décrit le changement de fréquence d'une onde lorsqu'il y a un mouvement relatif entre la source et l'observateur.",
       "imagePrompts": [
-        "A highly detailed 3D render of a petri dish with a blue mold colony creating a clear inhibition zone, cinematic lighting, photorealistic",
-        "A hyper-realistic photorealistic 3D render of A 3D laboratory bench with synthetic chemical bottles and a scientist measuring solutions, ultra realistic, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D chromatographic column with colorful bands separating compounds, photorealistic lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a star with blue shift and red shift visualized as color gradients, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of Earth’s atmosphere showing light refraction, highly detailed, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of scattering particles causing Rayleigh scattering, glowing effect, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel phénomène Henri Becquerel a‑t‑il découvert en étudiant les sels d’uranium ?",
-      "questionAudio": "Quel phénomène Henri Becquerel a‑t‑il découvert en étudiant les sels d’uranium ?",
+      "question": "Quelle est la température approximative de la surface du Soleil ?",
+      "questionAudio": "Quelle est la température approximative de la surface du Soleil ?",
       "emojis": [
-        "☢️",
-        "📷",
-        "🔬",
-        "⚛️",
-        "🧪",
+        "☀️",
+        "🔥",
         "🌞",
-        "⛈️"
-      ],
-      "options": [
-        "Il a étudié les éclairs",
-        "Il a constaté que les sels d’uranium émettaient des rayons invisibles après exposition à la lumière",
-        "Il a mesuré la température du soleil"
-      ],
-      "correct": 1,
-      "answer": "Il a constaté que les sels d’uranium émettaient des rayons invisibles après exposition à la lumière",
-      "explanation": "Becquerel a découvert la radioactivité naturelle lorsque les sels d’uranium ont impressionné une plaque photographique sans lumière directe.",
-      "explanationAudio": "Becquerel a découvert la radioactivité naturelle lorsque les sels d’uranium ont impressionné une plaque photographique sans lumière directe.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D storm scene with detailed lightning bolts striking a landscape, high detail, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of uranium crystals glowing faintly, casting invisible rays onto a photographic plate, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of the sun with temperature gauges, realistic solar surface, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle anecdote a inspiré Isaac Newton à formuler la loi de la gravité ?",
-      "questionAudio": "Quelle anecdote a inspiré Isaac Newton à formuler la loi de la gravité ?",
-      "emojis": [
-        "🍎",
-        "🌳",
+        "🔆",
         "🪐",
-        "📚",
+        "🌡️",
+        "🚀"
+      ],
+      "options": [
+        "Environ cinq mille degrés Celsius",
+        "Environ quinze mille degrés Celsius",
+        "Environ un million de degrés Celsius"
+      ],
+      "correct": 0,
+      "answer": "Environ cinq mille degrés Celsius",
+      "explanation": "La surface du Soleil atteint environ cinq mille degrés Celsius, ce qui correspond à la photosphère visible.",
+      "explanationAudio": "La surface du Soleil atteint environ cinq mille degrés Celsius, ce qui correspond à la photosphère visible.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of the Sun’s surface showing bright plasma filaments, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a thermometer reading five thousand degrees Celsius near the Sun, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a solar flare with intense heat effects, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type de corps céleste est le plus commun dans notre galaxie ?",
+      "questionAudio": "Quel type de corps céleste est le plus commun dans notre galaxie ?",
+      "emojis": [
+        "🌌",
+        "⭐",
+        "🟥",
         "🔭",
-        "⚖️",
-        "🌍"
+        "🪐",
+        "🚀",
+        "✨"
       ],
       "options": [
-        "Il a analysé les éclipses",
-        "Il a observé la chute d’une pomme",
-        "Il a étudié les marées"
-      ],
-      "correct": 1,
-      "answer": "Il a observé la chute d’une pomme",
-      "explanation": "Newton a réfléchi à la raison pour laquelle une pomme tombe, ce qui l’a conduit à concevoir la gravité universelle.",
-      "explanationAudio": "Newton a réfléchi à la raison pour laquelle une pomme tombe, ce qui l’a conduit à concevoir la gravité universelle.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of a solar eclipse with realistic shadow on Earth, photorealistic, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D scene of an apple detaching from a tree branch and falling, ultra realistic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of ocean tides with precise wave motion, cinematic lighting, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Comment Edward Jenner a‑t‑il mis au point la première vaccination ?",
-      "questionAudio": "Comment Edward Jenner a‑t‑il mis au point la première vaccination ?",
-      "emojis": [
-        "🧑‍⚕️",
-        "🐄",
-        "💉",
-        "🦠",
-        "🛡️",
-        "📜",
-        "🔬"
-      ],
-      "options": [
-        "Il a utilisé des antibiotiques",
-        "Il a développé un sérum",
-        "Il a inoculé du pus de vache sur un garçon"
+        "Les étoiles à neutrons",
+        "Les géantes bleues",
+        "Les naines rouges"
       ],
       "correct": 2,
-      "answer": "Il a inoculé du pus de vache sur un garçon",
-      "explanation": "Jenner a remarqué que les personnes ayant la vaccine contre la variole bovine ne contractaient pas la variole humaine et a testé cette protection sur un enfant.",
-      "explanationAudio": "Jenner a remarqué que les personnes ayant la vaccine contre la variole bovine ne contractaient pas la variole humaine et a testé cette protection sur un enfant.",
+      "answer": "Les naines rouges",
+      "explanation": "Les naines rouges représentent plus de la moitié des étoiles de la Voie lactée, ce sont les plus petites et les plus froides.",
+      "explanationAudio": "Les naines rouges représentent plus de la moitié des étoiles de la Voie lactée, ce sont les plus petites et les plus froides.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D depiction of antibiotic pills spilling from a bottle, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D laboratory scene showing serum production in glass flasks, detailed, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D medical illustration of a small child receiving a skin scarification with cowpox material, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D model of a neutron star with extreme magnetic fields visualized, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a massive blue giant star with intense blue light, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a red dwarf star glowing softly in deep space, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel raisonnement Alfred Wegener a‑t‑il utilisé pour proposer la dérive des continents ?",
-      "questionAudio": "Quel raisonnement Alfred Wegener a‑t‑il utilisé pour proposer la dérive des continents ?",
+      "question": "Quelle est la durée d'une journée solaire sur Mars ?",
+      "questionAudio": "Quelle est la durée d'une journée solaire sur Mars ?",
       "emojis": [
-        "🗺️",
-        "🧩",
+        "🔴",
+        "🪐",
+        "⏳",
+        "🚀",
         "🌍",
-        "🪨",
-        "🔥",
+        "🌑",
+        "📅"
+      ],
+      "options": [
+        "Vingt quatre heures trente neuf minutes",
+        "Vingt trois heures cinquante neuf minutes",
+        "Vingt quatre heures"
+      ],
+      "correct": 0,
+      "answer": "Vingt quatre heures trente neuf minutes",
+      "explanation": "Une journée solaire martienne, appelée sol, dure environ vingt quatre heures trente neuf minutes.",
+      "explanationAudio": "Une journée solaire martienne, appelée sol, dure environ vingt quatre heures trente neuf minutes.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of the Martian surface with a rotating planet showing a 24 hour 39 minute day cycle, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of a rover observing the sunrise on Mars, with time overlay of twenty four hours thirty nine minutes, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a clock on Mars displaying twenty four hours, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel instrument a permis la première détection directe des ondes gravitationnelles ?",
+      "questionAudio": "Quel instrument a permis la première détection directe des ondes gravitationnelles ?",
+      "emojis": [
         "🌊",
-        "📚"
-      ],
-      "options": [
-        "Il a mesuré les courants océaniques",
-        "Il a comparé les formes des côtes de l’Afrique et de l’Amérique du Sud",
-        "Il a étudié les volcans actifs"
-      ],
-      "correct": 1,
-      "answer": "Il a comparé les formes des côtes de l’Afrique et de l’Amérique du Sud",
-      "explanation": "Wegener a constaté que les contours des continents s’emboîtent comme les pièces d’un puzzle, soutenant l’idée d’un supercontinent ancien.",
-      "explanationAudio": "Wegener a constaté que les contours des continents s’emboîtent comme les pièces d’un puzzle, soutenant l’idée d’un supercontinent ancien.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D oceanic current simulation showing swirling water masses, realistic shading, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of the African and South American coastlines fitting together like puzzle pieces, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D volcanic landscape with erupting lava flows, detailed textures, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle expérience James Joule a‑t‑il réalisée pour démontrer la conservation de l’énergie ?",
-      "questionAudio": "Quelle expérience James Joule a‑t‑il réalisée pour démontrer la conservation de l’énergie ?",
-      "emojis": [
-        "⚙️",
-        "💧",
-        "🔥",
-        "🧪",
-        "📏",
-        "🔬",
-        "📚"
-      ],
-      "options": [
-        "Il a observé la combustion du charbon",
-        "Il a mesuré la chaleur produite par le frottement d’une roue dans l’eau",
-        "Il a étudié la lumière du soleil"
-      ],
-      "correct": 1,
-      "answer": "Il a mesuré la chaleur produite par le frottement d’une roue dans l’eau",
-      "explanation": "Joule a fait tourner une roue dans de l’eau et a constaté que le travail mécanique se transformait en chaleur, prouvant la conservation de l’énergie.",
-      "explanationAudio": "Joule a fait tourner une roue dans de l’eau et a constaté que le travail mécanique se transformait en chaleur, prouvant la conservation de l’énergie.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a coal furnace with flames and glowing embers, high detail, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D scene of a wooden paddle wheel rotating in clear water, with steam rising to show heat generation, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of the sun with rays and a solar panel, realistic lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel élément clé a permis à Watson et Crick de proposer la double hélice de l’ADN ?",
-      "questionAudio": "Quel élément clé a permis à Watson et Crick de proposer la double hélice de l’ADN ?",
-      "emojis": [
-        "🧬",
+        "🔭",
+        "🛰️",
+        "⚛️",
         "📡",
-        "🔬",
-        "🧪",
-        "📸",
-        "🧑‍🔬",
-        "📚"
+        "🚀",
+        "💫"
       ],
       "options": [
-        "Ils ont utilisé la spectroscopie infrarouge",
-        "Ils ont étudié les protéines",
-        "Ils ont interprété les images de diffraction aux rayons X de Rosalind Franklin"
+        "Le télescope Hubble",
+        "L'observatoire LIGO",
+        "Le satellite Voyager"
       ],
-      "correct": 2,
-      "answer": "Ils ont interprété les images de diffraction aux rayons X de Rosalind Franklin",
-      "explanation": "Les photographies de diffraction X de Franklin ont révélé la structure hélicoïdale, guidant Watson et Crick vers le modèle de la double hélice.",
-      "explanationAudio": "Les photographies de diffraction X de Franklin ont révélé la structure hélicoïdale, guidant Watson et Crick vers le modèle de la double hélice.",
+      "correct": 1,
+      "answer": "L'observatoire LIGO",
+      "explanation": "L'observatoire LIGO a réalisé la première détection directe d'ondes gravitationnelles en deux mille et quinze.",
+      "explanationAudio": "L'observatoire LIGO a réalisé la première détection directe d'ondes gravitationnelles en deux mille et quinze.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an infrared spectrometer with glowing spectra, realistic textures, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a protein complex with ribbons and surfaces, ultra detailed, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of an X‑ray diffraction pattern of DNA on a glass plate, cinematic lighting, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the Hubble Space Telescope orbiting Earth, detailed and cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of the LIGO interferometer with laser beams inside vacuum tubes, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of the Voyager spacecraft traveling through interstellar space, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

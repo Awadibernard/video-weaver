@@ -1,159 +1,159 @@
 {
-  "topic": "🧠 Quiz : Océans & Abysses",
-  "description": "Plongez dans les mystères des profondeurs marines et testez vos connaissances !",
+  "topic": "🧠 Quiz : Mathématiques, Logique & Paradoxes",
+  "description": "Testez vos connaissances sur les mystères des mathématiques, de la logique et des paradoxes célèbres.",
   "hashtags": [
     "#science",
     "#quiz",
-    "#océans"
+    "#cultureg"
   ],
   "motif": "science",
   "cta": "Abonne toi pour en apprendre plus !",
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
-    "🌊",
-    "🐠",
-    "🦑",
-    "🔱",
-    "📚",
-    "🧭",
-    "🌍"
+    "🔬",
+    "🧪",
+    "✨",
+    "🌍",
+    "⚡",
+    "🧠",
+    "🚀"
   ],
   "uiScale": 0.85,
   "questionCount": 5,
   "questions": [
     {
-      "question": "Quel est le point le plus profond connu de l'océan mondial ?",
-      "questionAudio": "Quel est le point le plus profond connu de l'océan mondial ?",
+      "question": "Quel est le principe du paradoxe du menteur ?",
+      "questionAudio": "Quel est le principe du paradoxe du menteur ?",
       "emojis": [
-        "🌊",
-        "📏",
-        "🧭",
+        "🤔",
+        "🧩",
+        "📜",
         "🔍",
-        "🦈",
-        "🐙",
-        "🌌"
+        "⚖️",
+        "🌀",
+        "💭"
       ],
       "options": [
-        "Challenger Deep",
-        "Tonga Trench",
-        "Puerto Rico Trench"
+        "Une affirmation toujours vraie",
+        "Une phrase qui se contredit elle‑même",
+        "Une proposition indéterminée"
+      ],
+      "correct": 1,
+      "answer": "Une phrase qui se contredit elle‑même",
+      "explanation": "Le paradoxe du menteur repose sur une phrase qui affirme être fausse, créant une contradiction logique.",
+      "explanationAudio": "Le paradoxe du menteur repose sur une phrase qui affirme être fausse, créant une contradiction logique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a bright sunrise with a clear sky and a banner reading \"All statements are true\", ultra realistic, cinematic composition, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of a speech bubble containing the sentence \"This statement is false\" hovering over a surreal landscape, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D abstract representation of a gray, floating cloud labeled \"Indeterminate proposition\", soft lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel mathématicien a introduit le concept d’infini actuel ?",
+      "questionAudio": "Quel mathématicien a introduit le concept d’infini actuel ?",
+      "emojis": [
+        "📚",
+        "🔢",
+        "🧮",
+        "🪐",
+        "🧠",
+        "📏",
+        "✨"
+      ],
+      "options": [
+        "Georg Cantor",
+        "Isaac Newton",
+        "Leonhard Euler"
       ],
       "correct": 0,
-      "answer": "Challenger Deep",
-      "explanation": "Le Challenger Deep, situé dans la fosse des Mariannes, atteint près de onze kilomètres de profondeur, ce qui en fait le point le plus profond mesuré.",
-      "explanationAudio": "Le Challenger Deep, situé dans la fosse des Mariannes, atteint près de onze kilomètres de profondeur, ce qui en fait le point le plus profond mesuré.",
+      "answer": "Georg Cantor",
+      "explanation": "Georg Cantor a développé la théorie des ensembles et a formalisé la notion d’infini actuel au XIXᵉ siècle.",
+      "explanationAudio": "Georg Cantor a développé la théorie des ensembles et a formalisé la notion d’infini actuel au dix‑neuvième siècle.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of the Challenger Deep trench at midnight, cinematic lighting, ultra‑detailed water textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of the Tonga Trench showing steep walls and swirling currents, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of the Puerto Rico Trench with seabed sediments and faint bioluminescent organisms, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D portrait of Georg Cantor standing in a library of infinite shelves, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of an 17th‑century laboratory with Isaac Newton working at a desk, realistic textures, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of an 18th‑century study with Leonhard Euler writing equations on parchment, high detail, cinematic ambience, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel organisme crée les plus grandes colonies continues au fond des océans ?",
-      "questionAudio": "Quel organisme crée les plus grandes colonies continues au fond des océans ?",
+      "question": "Quelle est la conclusion du paradoxe de la poule et de l’œuf ?",
+      "questionAudio": "Quelle est la conclusion du paradoxe de la poule et de l’œuf ?",
       "emojis": [
-        "🐛",
-        "🔥",
-        "🪸",
-        "🔦",
-        "🌋",
-        "🧪",
-        "📡"
-      ],
-      "options": [
-        "Deep‑sea squid",
-        "Giant tube worm",
-        "Anglerfish"
-      ],
-      "correct": 1,
-      "answer": "Giant tube worm",
-      "explanation": "Les vers tubulaires géants forment d’immenses tapis autour des cheminées hydrothermales, créant les plus grandes structures biologiques continues du fond marin.",
-      "explanationAudio": "Les vers tubulaires géants forment d’immenses tapis autour des cheminées hydrothermales, créant les plus grandes structures biologiques continues du fond marin.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of a deep‑sea squid gliding through dark water, high‑resolution textures and cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of giant tube worms clustered around a hydrothermal vent, glowing minerals, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of an anglerfish in the deep sea with bioluminescent lure, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle proportion de la surface de la Terre est recouverte par les océans ?",
-      "questionAudio": "Quelle proportion de la surface de la Terre est recouverte par les océans ?",
-      "emojis": [
-        "🌍",
-        "📊",
-        "📈",
-        "🧭",
-        "🗺️",
-        "💧",
-        "🔬"
-      ],
-      "options": [
-        "quatre‑vingt‑dix pour cent",
-        "soixante‑dix pour cent",
-        "cinquante pour cent"
-      ],
-      "correct": 1,
-      "answer": "soixante‑dix pour cent",
-      "explanation": "Environ soixante‑dix pour cent de la surface terrestre est recouvert d’eau salée, formant les océans mondiaux.",
-      "explanationAudio": "Environ soixante‑dix pour cent de la surface terrestre est recouvert d’eau salée, formant les océans mondiaux.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a planet with ninety percent ocean coverage, dramatic lighting and realistic clouds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D globe showing blue oceans covering seventy percent of the surface, cinematic lighting, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a world map highlighting fifty percent ocean coverage with stylized water, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel océan possède la plus grande étendue de plaines abyssales ?",
-      "questionAudio": "Quel océan possède la plus grande étendue de plaines abyssales ?",
-      "emojis": [
-        "🌊",
-        "🗺️",
-        "📏",
-        "🧭",
-        "🏔️",
-        "🔭",
-        "🌌"
-      ],
-      "options": [
-        "Océan Atlantique",
-        "Océan Pacifique",
-        "Océan Indien"
-      ],
-      "correct": 1,
-      "answer": "Océan Pacifique",
-      "explanation": "L’océan Pacifique couvre la plus vaste zone de plaines abyssales, s’étendant sur plusieurs millions de kilomètres carrés.",
-      "explanationAudio": "L’océan Pacifique couvre la plus vaste zone de plaines abyssales, s’étendant sur plusieurs millions de kilomètres carrés.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of the Atlantic Ocean abyssal plain with subtle ridges and marine life, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D view of the Pacific Ocean floor showing vast abyssal plains, ultra‑detailed sediment textures, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of the Indian Ocean abyssal region with scattered seamounts, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel facteur chimique principal du sel marin entraîne la circulation océanique par différences de densité ?",
-      "questionAudio": "Quel facteur chimique principal du sel marin entraîne la circulation océanique par différences de densité ?",
-      "emojis": [
-        "🧂",
-        "💧",
-        "🌡️",
+        "🥚",
+        "🐔",
         "🔄",
-        "🌊",
-        "🧭",
+        "🌀",
+        "🤯",
+        "🧩",
+        "⚖️"
+      ],
+      "options": [
+        "La poule précède l’œuf",
+        "L’œuf précède la poule",
+        "Il n’existe pas de première cause"
+      ],
+      "correct": 2,
+      "answer": "Il n’existe pas de première cause",
+      "explanation": "Le paradoxe montre que la question de la première cause ne peut être résolue de façon linéaire, chaque élément dépend de l’autre.",
+      "explanationAudio": "Le paradoxe montre que la question de la première cause ne peut être résolue de façon linéaire, chaque élément dépend de l’autre.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D render of a chicken standing proudly on a hill, detailed feathers, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a golden egg perched on a pedestal, ultra realistic, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a chicken and an egg caught in a Mobius‑style loop, photorealistic lighting, surreal atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le résultat du problème de la porte de Monty Hall lorsqu’on change de porte ?",
+      "questionAudio": "Quel est le résultat du problème de la porte de Monty Hall lorsqu’on change de porte ?",
+      "emojis": [
+        "🚪",
+        "🎲",
+        "📊",
+        "🤔",
+        "🔀",
+        "🏆",
+        "⚡"
+      ],
+      "options": [
+        "Deux tiers de chances de gagner",
+        "Toujours perdre",
+        "Un tiers de chances de gagner"
+      ],
+      "correct": 0,
+      "answer": "Deux tiers de chances de gagner",
+      "explanation": "En changeant de porte, les probabilités passent de un tiers à deux tiers, augmentant ainsi les chances de succès.",
+      "explanationAudio": "En changeant de porte, les probabilités passent de un tiers à deux tiers, augmentant ainsi les chances de succès.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D photorealistic scene of three doors on a game show set, with a spotlight on the contestant switching doors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a losing scenario with all doors closing, dark lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a single door with a one‑third probability gauge, realistic textures, dramatic ambience, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel concept logique décrit une proposition qui ne peut être ni vraie ni fausse ?",
+      "questionAudio": "Quel concept logique décrit une proposition qui ne peut être ni vraie ni fausse ?",
+      "emojis": [
+        "❓",
+        "⚖️",
+        "🔄",
+        "🧩",
+        "🤯",
+        "🌀",
         "📚"
       ],
       "options": [
-        "Salinité",
-        "Température",
-        "Lumière"
+        "Une tautologie",
+        "Une contradiction",
+        "Une proposition indéterminée"
       ],
-      "correct": 0,
-      "answer": "Salinité",
-      "explanation": "La salinité, c’est‑à‑dire la concentration de sel, modifie la densité de l’eau et conduit aux courants thermohalins qui font circuler les masses d’eau profondes.",
-      "explanationAudio": "La salinité, c’est‑à‑dire la concentration de sel, modifie la densité de l’eau et conduit aux courants thermohalins qui font circuler les masses d’eau profondes.",
+      "correct": 2,
+      "answer": "Une proposition indéterminée",
+      "explanation": "Une proposition indéterminée, ou « proposition à trois valeurs », n’est ni vraie ni fausse dans la logique classique.",
+      "explanationAudio": "Une proposition indéterminée, ou « proposition à trois valeurs », n’est ni vraie ni fausse dans la logique classique.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of seawater molecules with varying salt concentrations, showing density gradients, photorealistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of ocean temperature layers with color gradients, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of sunlight penetrating shallow water, creating light beams, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D render of a glowing circle labeled \"Always true\" hovering over a clear sky, ultra realistic, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene of two opposing symbols clashing, depicting a contradiction, high detail, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a floating question mark inside a translucent cube, representing indeterminacy, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

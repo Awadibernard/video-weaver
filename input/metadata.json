@@ -1,10 +1,10 @@
 {
-  "topic": "🧠 Quiz : Sciences de la Terre & Nature",
-  "description": "Testez vos connaissances sur la planète qui nous porte !",
+  "topic": "🧠 Quiz : Technologies & Inventions Scientifiques",
+  "description": "Plongez dans l’histoire des inventions qui ont changé le monde moderne.",
   "hashtags": [
     "#science",
     "#quiz",
-    "#nature"
+    "#cultureg"
   ],
   "motif": "science",
   "cta": "Abonne toi pour en apprendre plus !",
@@ -19,168 +19,141 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Quel processus explique la création de nouvelles croûtes océaniques au niveau des dorsales médio‑océaniques ?",
-      "questionAudio": "Quel processus explique la création de nouvelles croûtes océaniques au niveau des dorsales médio‑océaniques ?",
+      "question": "Quel scientifique a inventé le premier moteur à combustion interne fonctionnel ?",
+      "questionAudio": "Quel scientifique a inventé le premier moteur à combustion interne fonctionnel ?",
       "emojis": [
-        "🌊",
-        "🪨",
-        "🌋",
-        "📏",
-        "🔬",
-        "🌍",
-        "⚙️"
-      ],
-      "options": [
-        "La subduction des plaques",
-        "La collision continentale",
-        "L'expansion du plancher océanique"
-      ],
-      "correct": 2,
-      "answer": "L'expansion du plancher océanique",
-      "explanation": "L'expansion du plancher océanique crée de la croûte nouvelle lorsque le magma monte et se solidifie le long des dorsales.",
-      "explanationAudio": "L'expansion du plancher océanique crée de la croûte nouvelle lorsque le magma monte et se solidifie le long des dorsales.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of an oceanic plate being forced beneath a continental plate at a subduction zone, realistic textures, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of two continental plates colliding to form a mountain range, detailed rock layers, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of magma rising at a mid‑ocean ridge forming new oceanic crust, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel phénomène transforme l'eau liquide en vapeur dans le cycle de l'eau ?",
-      "questionAudio": "Quel phénomène transforme l'eau liquide en vapeur dans le cycle de l'eau ?",
-      "emojis": [
-        "💧",
-        "🌦️",
-        "☀️",
-        "🌬️",
-        "🌍",
-        "🔄",
-        "📚"
-      ],
-      "options": [
-        "La précipitation",
-        "La condensation",
-        "L'évaporation"
-      ],
-      "correct": 2,
-      "answer": "L'évaporation",
-      "explanation": "L'évaporation chauffe l'eau liquide et la libère sous forme de vapeur dans l'atmosphère.",
-      "explanationAudio": "L'évaporation chauffe l'eau liquide et la libère sous forme de vapeur dans l'atmosphère.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of rain falling from clouds onto terrain, high‑resolution droplets, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of water vapor cooling to form clouds, detailed droplets, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D scene of sunlight heating a lake surface, water molecules turning into vapor, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel facteur contribue le plus à la formation du sol dans les régions arides ?",
-      "questionAudio": "Quel facteur contribue le plus à la formation du sol dans les régions arides ?",
-      "emojis": [
-        "🪨",
-        "☀️",
-        "🌵",
-        "🌍",
-        "🔬",
-        "💨",
-        "📚"
-      ],
-      "options": [
-        "L'érosion par le vent",
-        "L'accumulation de matière organique",
-        "L'altération physique des roches"
-      ],
-      "correct": 2,
-      "answer": "L'altération physique des roches",
-      "explanation": "Dans les climats secs, les variations de température provoquent la fissuration des roches, générant du matériau granulaire qui forme le sol.",
-      "explanationAudio": "Dans les climats secs, les variations de température provoquent la fissuration des roches, générant du matériau granulaire qui forme le sol.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of strong wind sculpting sand dunes and removing fine particles, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of organic litter accumulating on a desert floor, realistic textures, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of sun‑heated rock surface cracking and breaking into sand particles, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
-      "questionAudio": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
-      "emojis": [
-        "🌋",
-        "🔥",
-        "⛰️",
         "⚙️",
-        "📏",
-        "🔭",
-        "🌍"
+        "🚗",
+        "🛠️",
+        "🔧",
+        "💡",
+        "📜",
+        "🏭"
       ],
       "options": [
-        "Stratovolcan",
-        "Shield volcano",
-        "Cinder cone"
+        "Nikolaus Otto",
+        "Thomas Edison",
+        "Alphonse Pérec"
       ],
       "correct": 0,
-      "answer": "Stratovolcan",
-      "explanation": "Les stratovolcans produisent des éruptions violentes et forment souvent des dômes de lave visqueuse.",
-      "explanationAudio": "Les stratovolcans produisent des éruptions violentes et forment souvent des dômes de lave visqueuse.",
+      "answer": "Nikolaus Otto",
+      "explanation": "Nikolaus Otto a développé en dix huit cinquante‑huit le moteur à quatre temps qui est à la base des moteurs modernes.",
+      "explanationAudio": "Nikolaus Otto a développé en dix‑huit cinquante‑huit le moteur à quatre temps qui est à la base des moteurs modernes.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a steep stratovolcano erupting explosively, glowing lava dome, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a broad shield volcano with gentle lava flows, bright colors, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a small cinder cone built from tephra fragments, detailed ash particles, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a historic internal combustion engine with pistons moving, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cutaway view of a four‑stroke engine showing combustion chambers, ultra‑realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Nikolaus Otto in a 19th‑century workshop, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel instrument mesure les mouvements du sol lors d'un séisme ?",
-      "questionAudio": "Quel instrument mesure les mouvements du sol lors d'un séisme ?",
+      "question": "Quel inventeur a réalisé la première transmission télévisée en couleur ?",
+      "questionAudio": "Quel inventeur a réalisé la première transmission télévisée en couleur ?",
       "emojis": [
-        "🌎",
-        "📡",
-        "🛎️",
-        "🔔",
-        "⚡",
-        "🧭",
-        "📚"
-      ],
-      "options": [
-        "Un sismomètre",
-        "Un anémomètre",
-        "Un baromètre"
-      ],
-      "correct": 0,
-      "answer": "Un sismomètre",
-      "explanation": "Le sismomètre enregistre les vibrations du sol et fournit les données nécessaires à l'analyse des séismes.",
-      "explanationAudio": "Le sismomètre enregistre les vibrations du sol et fournit les données nécessaires à l'analyse des séismes.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D model of a modern seismometer installed on solid ground, cinematic lighting, realistic metal, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of an anemometer with rotating cups on a pole, realistic textures, bright sky background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a barometer with mercury column, classic design, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle couche de l'atmosphère contient la majorité de l'ozone ?",
-      "questionAudio": "Quelle couche de l'atmosphère contient la majorité de l'ozone ?",
-      "emojis": [
-        "🌤️",
+        "📺",
+        "🌈",
+        "🔌",
+        "🎥",
         "🧪",
-        "☁️",
-        "🔬",
-        "🌍",
-        "📊",
-        "📚"
+        "⚙️",
+        "🕰️"
       ],
       "options": [
-        "La troposphère",
-        "La stratosphère",
-        "La mésosphère"
+        "John Logie Baird",
+        "Guglielmo Marconi",
+        "Philo Farnsworth"
+      ],
+      "correct": 0,
+      "answer": "John Logie Baird",
+      "explanation": "John Logie Baird a présenté en mil neuf cent vingt‑huit une image couleur par un système mécanique, marquant la première diffusion télévisée en couleur.",
+      "explanationAudio": "John Logie Baird a présenté en mil neuf cent vingt‑huit une image couleur par un système mécanique, marquant la première diffusion télévisée en couleur.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D scene of an early mechanical television set displaying a vivid colour image, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of colour scan lines forming an image on a vintage TV screen, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of John Logie Baird operating his colour transmission equipment, studio backdrop, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le principe de base du laser, inventé par Theodore Maiman en mille neuf cent soixante ?",
+      "questionAudio": "Quel est le principe de base du laser, inventé par Theodore Maiman en mille neuf cent soixante ?",
+      "emojis": [
+        "🔦",
+        "💎",
+        "⚡",
+        "📡",
+        "🧬",
+        "🛸",
+        "🔬"
+      ],
+      "options": [
+        "Diffraction de la lumière par réseaux",
+        "Polarisation de la lumière",
+        "Amplification de la lumière par émission stimulée"
+      ],
+      "correct": 2,
+      "answer": "Amplification de la lumière par émission stimulée",
+      "explanation": "Le laser fonctionne grâce à l’amplification de photons dans un milieu actif lorsque les atomes sont excités, produisant un faisceau cohérent.",
+      "explanationAudio": "Le laser fonctionne grâce à l’amplification de photons dans un milieu actif lorsque les atomes sont excités, produisant un faisceau cohérent.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of stimulated emission inside a crystal, particles visualized, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A futuristic 3D lab setup showing a laser apparatus with precise optics, realistic reflections, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A high‑detail 3D rendering of a ruby laser cavity emitting a bright red beam, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle invention de Tim Berners‑Lee a révolutionné l’accès à l’information sur Internet ?",
+      "questionAudio": "Quelle invention de Tim Berners‑Lee a révolutionné l’accès à l’information sur Internet ?",
+      "emojis": [
+        "🌐",
+        "💻",
+        "🔗",
+        "📡",
+        "🖥️",
+        "📚",
+        "🚀"
+      ],
+      "options": [
+        "Le moteur de recherche Google",
+        "Le World Wide Web",
+        "Le protocole HTTP"
       ],
       "correct": 1,
-      "answer": "La stratosphère",
-      "explanation": "La stratosphère, située au dessus de la troposphère, concentre la couche d'ozone qui protège la Terre des rayons UV.",
-      "explanationAudio": "La stratosphère, située au dessus de la troposphère, concentre la couche d'ozone qui protège la Terre des rayons UV.",
+      "answer": "Le World Wide Web",
+      "explanation": "Tim Berners‑Lee a créé le World Wide Web en mille neuf cent quatre‑vingt‑cinq, permettant la navigation hypertexte entre documents.",
+      "explanationAudio": "Tim Berners‑Lee a créé le World Wide Web en mille neuf cent quatre‑vingt‑cinq, permettant la navigation hypertexte entre documents.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of the tropospheric weather layer with clouds and rain, detailed textures, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of Earth's atmosphere highlighting the ozone‑rich stratosphere, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of the mesosphere with faint auroral glows, high detail, atmospheric perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A futuristic 3D interface showing hyperlinked documents flowing across a digital network, ultra‑realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a globe made of interconnected web pages, glowing nodes, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Tim Berners‑Lee at a computer workstation in 1985, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel dispositif portable, lancé en deux mille sept, a popularisé les smartphones modernes ?",
+      "questionAudio": "Quel dispositif portable, lancé en deux mille sept, a popularisé les smartphones modernes ?",
+      "emojis": [
+        "📱",
+        "🍎",
+        "✨",
+        "🖐️",
+        "🔋",
+        "🚀",
+        "💡"
+      ],
+      "options": [
+        "Le BlackBerry Curve",
+        "L'iPhone d'Apple",
+        "Le Nokia N95"
+      ],
+      "correct": 1,
+      "answer": "L'iPhone d'Apple",
+      "explanation": "L'iPhone d'Apple, présenté en deux mille sept, a introduit un écran tactile capacitif et une interface intuitive, ouvrant la voie aux smartphones actuels.",
+      "explanationAudio": "L'iPhone d'Apple, présenté en deux mille sept, a introduit un écran tactile capacitif et une interface intuitive, ouvrant la voie aux smartphones actuels.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A futuristic 3D scene showing the evolution of smartphones with the 2007 iPhone at the center, ultra‑realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of the original iPhone lying on a sleek surface, realistic reflections, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a hand holding the iPhone with the home screen visible, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

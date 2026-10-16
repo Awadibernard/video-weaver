@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Physique & Astronomie",
-  "description": "Explore les mystères de l'univers avec des questions captivantes sur la physique et l'astronomie.",
+  "topic": "🧠 Quiz : Biologie & Corps Humain",
+  "description": "Explore les mystères du corps humain en quelques questions captivantes.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,168 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Quel phénomène explique pourquoi les étoiles semblent changer de couleur lorsqu'elles se déplacent par rapport à la Terre ?",
-      "questionAudio": "Quel phénomène explique pourquoi les étoiles semblent changer de couleur lorsqu'elles se déplacent par rapport à la Terre ?",
+      "question": "Quelle est la fonction principale du foie ?",
+      "questionAudio": "Quelle est la fonction principale du foie ?",
       "emojis": [
-        "🌟",
-        "🚀",
-        "🔭",
-        "✨",
-        "🪐",
-        "⚡",
-        "📡"
+        "🫀",
+        "🧬",
+        "⚗️",
+        "🩸",
+        "🫁",
+        "🔬",
+        "🧪"
       ],
       "options": [
-        "L'effet Doppler",
-        "La réfraction atmosphérique",
-        "La diffusion Rayleigh"
-      ],
-      "correct": 0,
-      "answer": "L'effet Doppler",
-      "explanation": "L'effet Doppler décrit le changement de fréquence d'une onde lorsqu'il y a un mouvement relatif entre la source et l'observateur.",
-      "explanationAudio": "L'effet Doppler décrit le changement de fréquence d'une onde lorsqu'il y a un mouvement relatif entre la source et l'observateur.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a star with blue shift and red shift visualized as color gradients, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of Earth’s atmosphere showing light refraction, highly detailed, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of scattering particles causing Rayleigh scattering, glowing effect, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle est la température approximative de la surface du Soleil ?",
-      "questionAudio": "Quelle est la température approximative de la surface du Soleil ?",
-      "emojis": [
-        "☀️",
-        "🔥",
-        "🌞",
-        "🔆",
-        "🪐",
-        "🌡️",
-        "🚀"
-      ],
-      "options": [
-        "Environ cinq mille degrés Celsius",
-        "Environ quinze mille degrés Celsius",
-        "Environ un million de degrés Celsius"
-      ],
-      "correct": 0,
-      "answer": "Environ cinq mille degrés Celsius",
-      "explanation": "La surface du Soleil atteint environ cinq mille degrés Celsius, ce qui correspond à la photosphère visible.",
-      "explanationAudio": "La surface du Soleil atteint environ cinq mille degrés Celsius, ce qui correspond à la photosphère visible.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of the Sun’s surface showing bright plasma filaments, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a thermometer reading five thousand degrees Celsius near the Sun, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a solar flare with intense heat effects, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel type de corps céleste est le plus commun dans notre galaxie ?",
-      "questionAudio": "Quel type de corps céleste est le plus commun dans notre galaxie ?",
-      "emojis": [
-        "🌌",
-        "⭐",
-        "🟥",
-        "🔭",
-        "🪐",
-        "🚀",
-        "✨"
-      ],
-      "options": [
-        "Les étoiles à neutrons",
-        "Les géantes bleues",
-        "Les naines rouges"
+        "Filtration de l'oxygène",
+        "Production de globules rouges",
+        "Détoxification du sang"
       ],
       "correct": 2,
-      "answer": "Les naines rouges",
-      "explanation": "Les naines rouges représentent plus de la moitié des étoiles de la Voie lactée, ce sont les plus petites et les plus froides.",
-      "explanationAudio": "Les naines rouges représentent plus de la moitié des étoiles de la Voie lactée, ce sont les plus petites et les plus froides.",
+      "answer": "Détoxification du sang",
+      "explanation": "Le foie transforme les substances toxiques en composés moins nocifs et les élimine du sang.",
+      "explanationAudio": "Le foie transforme les substances toxiques en composés moins nocifs et les élimine du sang.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of a neutron star with extreme magnetic fields visualized, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a massive blue giant star with intense blue light, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a red dwarf star glowing softly in deep space, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of human lungs filtering oxygen, realistic textures, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D anatomical illustration of bone marrow producing red blood cells, glowing particles, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human liver with toxins being filtered out, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quelle est la durée d'une journée solaire sur Mars ?",
-      "questionAudio": "Quelle est la durée d'une journée solaire sur Mars ?",
+      "question": "Quel type de tissu compose la couche externe de la peau ?",
+      "questionAudio": "Quel type de tissu compose la couche externe de la peau ?",
       "emojis": [
-        "🔴",
-        "🪐",
-        "⏳",
-        "🚀",
-        "🌍",
-        "🌑",
-        "📅"
+        "🦠",
+        "🔬",
+        "🧬",
+        "🧖‍♀️",
+        "🩹",
+        "⚗️",
+        "🌡️"
       ],
       "options": [
-        "Vingt quatre heures trente neuf minutes",
-        "Vingt trois heures cinquante neuf minutes",
-        "Vingt quatre heures"
+        "Épiderme",
+        "Myoïde",
+        "Endothélium"
       ],
       "correct": 0,
-      "answer": "Vingt quatre heures trente neuf minutes",
-      "explanation": "Une journée solaire martienne, appelée sol, dure environ vingt quatre heures trente neuf minutes.",
-      "explanationAudio": "Une journée solaire martienne, appelée sol, dure environ vingt quatre heures trente neuf minutes.",
+      "answer": "Épiderme",
+      "explanation": "L'épiderme est la couche protectrice extérieure de la peau.",
+      "explanationAudio": "L'épiderme est la couche protectrice extérieure de la peau.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of the Martian surface with a rotating planet showing a 24 hour 39 minute day cycle, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of a rover observing the sunrise on Mars, with time overlay of twenty four hours thirty nine minutes, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of a clock on Mars displaying twenty four hours, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of human skin showing the epidermis layer highlighted in bright color, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of muscular tissue (myoid) with fibers, realistic shading, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of endothelial cells lining a blood vessel, photorealistic, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel instrument a permis la première détection directe des ondes gravitationnelles ?",
-      "questionAudio": "Quel instrument a permis la première détection directe des ondes gravitationnelles ?",
+      "question": "Combien de vertèbres cervicales possède l'adulte humain ?",
+      "questionAudio": "Combien de vertèbres cervicales possède l'adulte humain ?",
       "emojis": [
-        "🌊",
-        "🔭",
-        "🛰️",
-        "⚛️",
-        "📡",
-        "🚀",
-        "💫"
+        "🦴",
+        "🔍",
+        "📏",
+        "🧍‍♂️",
+        "🧠",
+        "⚙️",
+        "🩺"
       ],
       "options": [
-        "Le télescope Hubble",
-        "L'observatoire LIGO",
-        "Le satellite Voyager"
+        "neuf",
+        "cinq",
+        "sept"
+      ],
+      "correct": 2,
+      "answer": "sept",
+      "explanation": "L'adulte humain a sept vertèbres cervicales qui soutiennent la tête.",
+      "explanationAudio": "L'adulte humain a sept vertèbres cervicales qui soutiennent la tête.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D render of a spine with nine cervical vertebrae, photorealistic, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a human torso highlighting five cervical vertebrae, stylized, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of the human cervical spine showing seven vertebrae, high detail, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel organe produit l'insuline ?",
+      "questionAudio": "Quel organe produit l'insuline ?",
+      "emojis": [
+        "🍎",
+        "🩸",
+        "🔬",
+        "🧪",
+        "🧬",
+        "⚗️",
+        "💉"
+      ],
+      "options": [
+        "Rate",
+        "Pancréas",
+        "Thyroïde"
       ],
       "correct": 1,
-      "answer": "L'observatoire LIGO",
-      "explanation": "L'observatoire LIGO a réalisé la première détection directe d'ondes gravitationnelles en deux mille et quinze.",
-      "explanationAudio": "L'observatoire LIGO a réalisé la première détection directe d'ondes gravitationnelles en deux mille et quinze.",
+      "answer": "Pancréas",
+      "explanation": "Le pancréas sécrète l'insuline pour réguler le taux de glucose sanguin.",
+      "explanationAudio": "Le pancréas sécrète l'insuline pour réguler le taux de glucose sanguin.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of the Hubble Space Telescope orbiting Earth, detailed and cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of the LIGO interferometer with laser beams inside vacuum tubes, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of the Voyager spacecraft traveling through interstellar space, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D anatomical illustration of the spleen with immune cells, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human pancreas releasing insulin molecules, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D detailed model of the thyroid gland with hormone particles, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le principal pigment responsable de la couleur de la peau ?",
+      "questionAudio": "Quel est le principal pigment responsable de la couleur de la peau ?",
+      "emojis": [
+        "🖤",
+        "☀️",
+        "🔬",
+        "🧬",
+        "🧪",
+        "🌈",
+        "👩‍⚕️"
+      ],
+      "options": [
+        "Kératine",
+        "Hémoglobine",
+        "Mélanine"
+      ],
+      "correct": 2,
+      "answer": "Mélanine",
+      "explanation": "La mélanine absorbe les rayons UV et détermine la teinte de la peau.",
+      "explanationAudio": "La mélanine absorbe les rayons UV et détermine la teinte de la peau.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D model of keratin fibers in hair and skin, realistic textures, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of red blood cells rich in hemoglobin flowing in a vessel, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic close‑up of skin cells showing melanin granules absorbing UV light, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le rôle principal des globules rouges ?",
+      "questionAudio": "Quel est le rôle principal des globules rouges ?",
+      "emojis": [
+        "🩸",
+        "💨",
+        "🫁",
+        "🔬",
+        "🧬",
+        "⚗️",
+        "🩹"
+      ],
+      "options": [
+        "Lutter contre les infections",
+        "Coaguler le sang",
+        "Transporter l'oxygène"
+      ],
+      "correct": 2,
+      "answer": "Transporter l'oxygène",
+      "explanation": "Les globules rouges contiennent de l'hémoglobine qui transporte l'oxygène des poumons vers les tissus.",
+      "explanationAudio": "Les globules rouges contiennent de l'hémoglobine qui transporte l'oxygène des poumons vers les tissus.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of white blood cells attacking pathogens, realistic detail, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of platelets forming a clot at a wound site, high detail, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D animation of red blood cells carrying oxygen molecules through capillaries, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

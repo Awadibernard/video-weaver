@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Biologie & Corps Humain",
-  "description": "Explore les mystères du corps humain en quelques questions captivantes.",
+  "topic": "🧠 Quiz : Chimie & Matière",
+  "description": "Testez vos connaissances sur les secrets de la matière et les phénomènes chimiques qui façonnent notre monde.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -12,175 +12,175 @@
   "emojis": [
     "🔬",
     "🧪",
-    "✨",
-    "🌍",
-    "⚡",
-    "🧠",
+    "⚗️",
+    "💡",
+    "🌡️",
+    "🧬",
     "🚀"
   ],
   "uiScale": 0.85,
   "questionCount": 6,
   "questions": [
     {
-      "question": "Quelle est la fonction principale du foie ?",
-      "questionAudio": "Quelle est la fonction principale du foie ?",
+      "question": "Quel est l’élément le plus abondant dans la croûte terrestre ?",
+      "questionAudio": "Quel est l’élément le plus abondant dans la croûte terrestre ?",
       "emojis": [
-        "🫀",
-        "🧬",
+        "🪨",
+        "🌍",
         "⚗️",
-        "🩸",
-        "🫁",
-        "🔬",
-        "🧪"
-      ],
-      "options": [
-        "Filtration de l'oxygène",
-        "Production de globules rouges",
-        "Détoxification du sang"
-      ],
-      "correct": 2,
-      "answer": "Détoxification du sang",
-      "explanation": "Le foie transforme les substances toxiques en composés moins nocifs et les élimine du sang.",
-      "explanationAudio": "Le foie transforme les substances toxiques en composés moins nocifs et les élimine du sang.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of human lungs filtering oxygen, realistic textures, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D anatomical illustration of bone marrow producing red blood cells, glowing particles, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human liver with toxins being filtered out, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel type de tissu compose la couche externe de la peau ?",
-      "questionAudio": "Quel type de tissu compose la couche externe de la peau ?",
-      "emojis": [
-        "🦠",
-        "🔬",
-        "🧬",
-        "🧖‍♀️",
-        "🩹",
-        "⚗️",
-        "🌡️"
-      ],
-      "options": [
-        "Épiderme",
-        "Myoïde",
-        "Endothélium"
-      ],
-      "correct": 0,
-      "answer": "Épiderme",
-      "explanation": "L'épiderme est la couche protectrice extérieure de la peau.",
-      "explanationAudio": "L'épiderme est la couche protectrice extérieure de la peau.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of human skin showing the epidermis layer highlighted in bright color, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of muscular tissue (myoid) with fibers, realistic shading, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of endothelial cells lining a blood vessel, photorealistic, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Combien de vertèbres cervicales possède l'adulte humain ?",
-      "questionAudio": "Combien de vertèbres cervicales possède l'adulte humain ?",
-      "emojis": [
-        "🦴",
-        "🔍",
-        "📏",
-        "🧍‍♂️",
-        "🧠",
-        "⚙️",
-        "🩺"
-      ],
-      "options": [
-        "neuf",
-        "cinq",
-        "sept"
-      ],
-      "correct": 2,
-      "answer": "sept",
-      "explanation": "L'adulte humain a sept vertèbres cervicales qui soutiennent la tête.",
-      "explanationAudio": "L'adulte humain a sept vertèbres cervicales qui soutiennent la tête.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of a spine with nine cervical vertebrae, photorealistic, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a human torso highlighting five cervical vertebrae, stylized, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of the human cervical spine showing seven vertebrae, high detail, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel organe produit l'insuline ?",
-      "questionAudio": "Quel organe produit l'insuline ?",
-      "emojis": [
-        "🍎",
-        "🩸",
         "🔬",
         "🧪",
-        "🧬",
-        "⚗️",
-        "💉"
+        "💧",
+        "🧊"
       ],
       "options": [
-        "Rate",
-        "Pancréas",
-        "Thyroïde"
+        "Silicium",
+        "Oxygène",
+        "Fer"
       ],
       "correct": 1,
-      "answer": "Pancréas",
-      "explanation": "Le pancréas sécrète l'insuline pour réguler le taux de glucose sanguin.",
-      "explanationAudio": "Le pancréas sécrète l'insuline pour réguler le taux de glucose sanguin.",
+      "answer": "Oxygène",
+      "explanation": "L’oxygène représente environ quarante‑six pour cent de la masse de la croûte terrestre.",
+      "explanationAudio": "L’oxygène représente environ quarante‑six pour cent de la masse de la croûte terrestre.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D anatomical illustration of the spleen with immune cells, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human pancreas releasing insulin molecules, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D detailed model of the thyroid gland with hormone particles, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of silicon crystals with reflective surfaces, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A high detail 3D render of oxygen molecules forming a crystal lattice, glowing blue, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of iron atoms forming a metallic lattice, warm tones, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel est le principal pigment responsable de la couleur de la peau ?",
-      "questionAudio": "Quel est le principal pigment responsable de la couleur de la peau ?",
+      "question": "Quel type de liaison implique le partage de paires d’électrons entre atomes ?",
+      "questionAudio": "Quel type de liaison implique le partage de paires d’électrons entre atomes ?",
       "emojis": [
-        "🖤",
-        "☀️",
-        "🔬",
-        "🧬",
+        "🔗",
         "🧪",
-        "🌈",
-        "👩‍⚕️"
+        "⚛️",
+        "💡",
+        "🔬",
+        "🧫",
+        "✨"
       ],
       "options": [
-        "Kératine",
-        "Hémoglobine",
-        "Mélanine"
+        "Liaison ionique",
+        "Liaison covalente",
+        "Liaison métallique"
       ],
-      "correct": 2,
-      "answer": "Mélanine",
-      "explanation": "La mélanine absorbe les rayons UV et détermine la teinte de la peau.",
-      "explanationAudio": "La mélanine absorbe les rayons UV et détermine la teinte de la peau.",
+      "correct": 1,
+      "answer": "Liaison covalente",
+      "explanation": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre une configuration stable.",
+      "explanationAudio": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre une configuration stable.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of keratin fibers in hair and skin, realistic textures, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of red blood cells rich in hemoglobin flowing in a vessel, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic close‑up of skin cells showing melanin granules absorbing UV light, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D model of oppositely charged ions attracting each other, metallic sheen, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D visualization of two atoms sharing electron clouds, bright cyan glow, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a sea of delocalized electrons surrounding metal nuclei, warm gold tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel est le rôle principal des globules rouges ?",
-      "questionAudio": "Quel est le rôle principal des globules rouges ?",
+      "question": "Quel est le niveau d’acidité de l’eau pure à vingt‑cinq degrés Celsius ?",
+      "questionAudio": "Quel est le niveau d’acidité de l’eau pure à vingt‑cinq degrés Celsius ?",
       "emojis": [
-        "🩸",
-        "💨",
-        "🫁",
-        "🔬",
-        "🧬",
+        "💧",
         "⚗️",
-        "🩹"
+        "🧪",
+        "🔬",
+        "🌡️",
+        "🧊",
+        "🟦"
       ],
       "options": [
-        "Lutter contre les infections",
-        "Coaguler le sang",
-        "Transporter l'oxygène"
+        "Neuf",
+        "Quatre",
+        "Sept"
       ],
       "correct": 2,
-      "answer": "Transporter l'oxygène",
-      "explanation": "Les globules rouges contiennent de l'hémoglobine qui transporte l'oxygène des poumons vers les tissus.",
-      "explanationAudio": "Les globules rouges contiennent de l'hémoglobine qui transporte l'oxygène des poumons vers les tissus.",
+      "answer": "Sept",
+      "explanation": "L’eau pure à vingt‑cinq degrés Celsius possède un pH neutre, soit sept.",
+      "explanationAudio": "L’eau pure à vingt‑cinq degrés Celsius possède un pH neutre, soit sept.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of white blood cells attacking pathogens, realistic detail, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of platelets forming a clot at a wound site, high detail, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D animation of red blood cells carrying oxygen molecules through capillaries, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D render of basic solution with green hue, sparkling particles, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of acidic solution with red tint, bubbles, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A crystal‑clear 3D droplet of water with a subtle blue glow, representing neutral pH, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel gaz est libéré lorsque le sodium réagit avec de l’eau ?",
+      "questionAudio": "Quel gaz est libéré lorsque le sodium réagit avec de l’eau ?",
+      "emojis": [
+        "⚡",
+        "🧪",
+        "💥",
+        "💧",
+        "🔬",
+        "🧊",
+        "🟢"
+      ],
+      "options": [
+        "Oxygène",
+        "Hydrogène",
+        "Chlore"
+      ],
+      "correct": 1,
+      "answer": "Hydrogène",
+      "explanation": "La réaction du sodium avec l’eau produit de l’hydrogène gazeux et de l’hydroxyde de sodium.",
+      "explanationAudio": "La réaction du sodium avec l’eau produit de l’hydrogène gazeux et de l’hydroxyde de sodium.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of oxygen molecules swirling in air, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A dynamic 3D scene of sodium metal dropping into water, releasing bubbles of hydrogen gas, cinematic explosion, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of chlorine gas as greenish vapor, dramatic backlight, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Comment appelle‑t‑on le passage direct d’un solide à l’état gazeux ?",
+      "questionAudio": "Comment appelle‑t‑on le passage direct d’un solide à l’état gazeux ?",
+      "emojis": [
+        "❄️",
+        "🔥",
+        "💨",
+        "🔬",
+        "🧊",
+        "🧪",
+        "✨"
+      ],
+      "options": [
+        "Déposition",
+        "Condensation",
+        "Sublimation"
+      ],
+      "correct": 2,
+      "answer": "Sublimation",
+      "explanation": "La sublimation décrit la transition d’un solide directement en vapeur sans passer par l’état liquide.",
+      "explanationAudio": "La sublimation décrit la transition d’un solide directement en vapeur sans passer par l’état liquide.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of vapor depositing onto a cold surface forming frost, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of water droplets condensing on a glass pane, reflective surfaces, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A high‑resolution 3D illustration of dry ice sublimating into carbon dioxide vapor, cinematic mist, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel élément possède la plus grande électronégativité ?",
+      "questionAudio": "Quel élément possède la plus grande électronégativité ?",
+      "emojis": [
+        "⚛️",
+        "🟨",
+        "🔬",
+        "🧪",
+        "💡",
+        "🟢",
+        "🟦"
+      ],
+      "options": [
+        "Fluor",
+        "Chlore",
+        "Oxygène"
+      ],
+      "correct": 0,
+      "answer": "Fluor",
+      "explanation": "Le fluor a l’électronégativité la plus élevée parmi tous les éléments, ce qui le rend très attractif pour les électrons.",
+      "explanationAudio": "Le fluor a l’électronégativité la plus élevée parmi tous les éléments, ce qui le rend très attractif pour les électrons.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A vivid 3D render of fluorine atoms with bright yellow glow, high contrast, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of chlorine gas as greenish clouds, atmospheric perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of oxygen molecules in a blue haze, detailed shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

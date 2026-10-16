@@ -1,148 +1,88 @@
 [
   {
-    "question": "Quel est l’élément le plus abondant dans la croûte terrestre ?",
-    "questionAudio": "Quel est l’élément le plus abondant dans la croûte terrestre ?",
+    "question": "Quel processus explique la création de nouvelles croûtes océaniques au niveau des dorsales médio‑océaniques ?",
+    "questionAudio": "Quel processus explique la création de nouvelles croûtes océaniques au niveau des dorsales médio‑océaniques ?",
     "options": [
-      "Silicium",
-      "Oxygène",
-      "Fer"
+      "La subduction des plaques",
+      "La collision continentale",
+      "L'expansion du plancher océanique"
     ],
-    "correct": 1,
-    "explanation": "L’oxygène représente environ quarante‑six pour cent de la masse de la croûte terrestre.",
-    "explanationAudio": "L’oxygène représente environ quarante‑six pour cent de la masse de la croûte terrestre.",
+    "correct": 2,
+    "explanation": "L'expansion du plancher océanique crée de la croûte nouvelle lorsque le magma monte et se solidifie le long des dorsales.",
+    "explanationAudio": "L'expansion du plancher océanique crée de la croûte nouvelle lorsque le magma monte et se solidifie le long des dorsales.",
+    "emojis": [
+      "🌊",
+      "🪨",
+      "🌋",
+      "📏",
+      "🔬",
+      "🌍",
+      "⚙️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of an oceanic plate being forced beneath a continental plate at a subduction zone, realistic textures, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of two continental plates colliding to form a mountain range, detailed rock layers, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of magma rising at a mid‑ocean ridge forming new oceanic crust, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel phénomène transforme l'eau liquide en vapeur dans le cycle de l'eau ?",
+    "questionAudio": "Quel phénomène transforme l'eau liquide en vapeur dans le cycle de l'eau ?",
+    "options": [
+      "La précipitation",
+      "La condensation",
+      "L'évaporation"
+    ],
+    "correct": 2,
+    "explanation": "L'évaporation chauffe l'eau liquide et la libère sous forme de vapeur dans l'atmosphère.",
+    "explanationAudio": "L'évaporation chauffe l'eau liquide et la libère sous forme de vapeur dans l'atmosphère.",
+    "emojis": [
+      "💧",
+      "🌦️",
+      "☀️",
+      "🌬️",
+      "🌍",
+      "🔄",
+      "📚"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of rain falling from clouds onto terrain, high‑resolution droplets, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of water vapor cooling to form clouds, detailed droplets, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of sunlight heating a lake surface, water molecules turning into vapor, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel facteur contribue le plus à la formation du sol dans les régions arides ?",
+    "questionAudio": "Quel facteur contribue le plus à la formation du sol dans les régions arides ?",
+    "options": [
+      "L'érosion par le vent",
+      "L'accumulation de matière organique",
+      "L'altération physique des roches"
+    ],
+    "correct": 2,
+    "explanation": "Dans les climats secs, les variations de température provoquent la fissuration des roches, générant du matériau granulaire qui forme le sol.",
+    "explanationAudio": "Dans les climats secs, les variations de température provoquent la fissuration des roches, générant du matériau granulaire qui forme le sol.",
     "emojis": [
       "🪨",
+      "☀️",
+      "🌵",
       "🌍",
-      "⚗️",
       "🔬",
-      "🧪",
-      "💧",
-      "🧊"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of silicon crystals with reflective surfaces, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high detail 3D render of oxygen molecules forming a crystal lattice, glowing blue, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of iron atoms forming a metallic lattice, warm tones, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel type de liaison implique le partage de paires d’électrons entre atomes ?",
-    "questionAudio": "Quel type de liaison implique le partage de paires d’électrons entre atomes ?",
-    "options": [
-      "Liaison ionique",
-      "Liaison covalente",
-      "Liaison métallique"
-    ],
-    "correct": 1,
-    "explanation": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre une configuration stable.",
-    "explanationAudio": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre une configuration stable.",
-    "emojis": [
-      "🔗",
-      "🧪",
-      "⚛️",
-      "💡",
-      "🔬",
-      "🧫",
-      "✨"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of oppositely charged ions attracting each other, metallic sheen, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D visualization of two atoms sharing electron clouds, bright cyan glow, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a sea of delocalized electrons surrounding metal nuclei, warm gold tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le niveau d’acidité de l’eau pure à vingt‑cinq degrés Celsius ?",
-    "questionAudio": "Quel est le niveau d’acidité de l’eau pure à vingt‑cinq degrés Celsius ?",
-    "options": [
-      "Neuf",
-      "Quatre",
-      "Sept"
-    ],
-    "correct": 2,
-    "explanation": "L’eau pure à vingt‑cinq degrés Celsius possède un pH neutre, soit sept.",
-    "explanationAudio": "L’eau pure à vingt‑cinq degrés Celsius possède un pH neutre, soit sept.",
-    "emojis": [
-      "💧",
-      "⚗️",
-      "🧪",
-      "🔬",
-      "🌡️",
-      "🧊",
-      "🟦"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D render of basic solution with green hue, sparkling particles, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of acidic solution with red tint, bubbles, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A crystal‑clear 3D droplet of water with a subtle blue glow, representing neutral pH, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel gaz est libéré lorsque le sodium réagit avec de l’eau ?",
-    "questionAudio": "Quel gaz est libéré lorsque le sodium réagit avec de l’eau ?",
-    "options": [
-      "Oxygène",
-      "Hydrogène",
-      "Chlore"
-    ],
-    "correct": 1,
-    "explanation": "La réaction du sodium avec l’eau produit de l’hydrogène gazeux et de l’hydroxyde de sodium.",
-    "explanationAudio": "La réaction du sodium avec l’eau produit de l’hydrogène gazeux et de l’hydroxyde de sodium.",
-    "emojis": [
-      "⚡",
-      "🧪",
-      "💥",
-      "💧",
-      "🔬",
-      "🧊",
-      "🟢"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of oxygen molecules swirling in air, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A dynamic 3D scene of sodium metal dropping into water, releasing bubbles of hydrogen gas, cinematic explosion, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of chlorine gas as greenish vapor, dramatic backlight, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Comment appelle‑t‑on le passage direct d’un solide à l’état gazeux ?",
-    "questionAudio": "Comment appelle‑t‑on le passage direct d’un solide à l’état gazeux ?",
-    "options": [
-      "Déposition",
-      "Condensation",
-      "Sublimation"
-    ],
-    "correct": 2,
-    "explanation": "La sublimation décrit la transition d’un solide directement en vapeur sans passer par l’état liquide.",
-    "explanationAudio": "La sublimation décrit la transition d’un solide directement en vapeur sans passer par l’état liquide.",
-    "emojis": [
-      "❄️",
-      "🔥",
       "💨",
-      "🔬",
-      "🧊",
-      "🧪",
-      "✨"
+      "📚"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of vapor depositing onto a cold surface forming frost, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D render of water droplets condensing on a glass pane, reflective surfaces, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D illustration of dry ice sublimating into carbon dioxide vapor, cinematic mist, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of strong wind sculpting sand dunes and removing fine particles, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of organic litter accumulating on a desert floor, realistic textures, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D close‑up of sun‑heated rock surface cracking and breaking into sand particles, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -150,29 +90,89 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel élément possède la plus grande électronégativité ?",
-    "questionAudio": "Quel élément possède la plus grande électronégativité ?",
+    "question": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
+    "questionAudio": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
     "options": [
-      "Fluor",
-      "Chlore",
-      "Oxygène"
+      "Stratovolcan",
+      "Shield volcano",
+      "Cinder cone"
     ],
     "correct": 0,
-    "explanation": "Le fluor a l’électronégativité la plus élevée parmi tous les éléments, ce qui le rend très attractif pour les électrons.",
-    "explanationAudio": "Le fluor a l’électronégativité la plus élevée parmi tous les éléments, ce qui le rend très attractif pour les électrons.",
+    "explanation": "Les stratovolcans produisent des éruptions violentes et forment souvent des dômes de lave visqueuse.",
+    "explanationAudio": "Les stratovolcans produisent des éruptions violentes et forment souvent des dômes de lave visqueuse.",
     "emojis": [
-      "⚛️",
-      "🟨",
-      "🔬",
-      "🧪",
-      "💡",
-      "🟢",
-      "🟦"
+      "🌋",
+      "🔥",
+      "⛰️",
+      "⚙️",
+      "📏",
+      "🔭",
+      "🌍"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A vivid 3D render of fluorine atoms with bright yellow glow, high contrast, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of chlorine gas as greenish clouds, atmospheric perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of oxygen molecules in a blue haze, detailed shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a steep stratovolcano erupting explosively, glowing lava dome, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a broad shield volcano with gentle lava flows, bright colors, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a small cinder cone built from tephra fragments, detailed ash particles, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel instrument mesure les mouvements du sol lors d'un séisme ?",
+    "questionAudio": "Quel instrument mesure les mouvements du sol lors d'un séisme ?",
+    "options": [
+      "Un sismomètre",
+      "Un anémomètre",
+      "Un baromètre"
+    ],
+    "correct": 0,
+    "explanation": "Le sismomètre enregistre les vibrations du sol et fournit les données nécessaires à l'analyse des séismes.",
+    "explanationAudio": "Le sismomètre enregistre les vibrations du sol et fournit les données nécessaires à l'analyse des séismes.",
+    "emojis": [
+      "🌎",
+      "📡",
+      "🛎️",
+      "🔔",
+      "⚡",
+      "🧭",
+      "📚"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D model of a modern seismometer installed on solid ground, cinematic lighting, realistic metal, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of an anemometer with rotating cups on a pole, realistic textures, bright sky background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a barometer with mercury column, classic design, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle couche de l'atmosphère contient la majorité de l'ozone ?",
+    "questionAudio": "Quelle couche de l'atmosphère contient la majorité de l'ozone ?",
+    "options": [
+      "La troposphère",
+      "La stratosphère",
+      "La mésosphère"
+    ],
+    "correct": 1,
+    "explanation": "La stratosphère, située au dessus de la troposphère, concentre la couche d'ozone qui protège la Terre des rayons UV.",
+    "explanationAudio": "La stratosphère, située au dessus de la troposphère, concentre la couche d'ozone qui protège la Terre des rayons UV.",
+    "emojis": [
+      "🌤️",
+      "🧪",
+      "☁️",
+      "🔬",
+      "🌍",
+      "📊",
+      "📚"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of the tropospheric weather layer with clouds and rain, detailed textures, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of Earth's atmosphere highlighting the ozone‑rich stratosphere, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of the mesosphere with faint auroral glows, high detail, atmospheric perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

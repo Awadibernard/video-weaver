@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Neurosciences & Psychologie Scientifique",
-  "description": "Explore les mystères du cerveau et de l’esprit avec des questions scientifiques fascinantes.",
+  "topic": "🧠 Quiz : Science du Quotidien & Idées Reçues",
+  "description": "Démystifions les idées reçues du quotidien avec des faits scientifiques vérifiés.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,195 +19,168 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 7,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Quel région du cerveau régule principalement les réponses émotionnelles ?",
-      "questionAudio": "Quel région du cerveau régule principalement les réponses émotionnelles ?",
+      "question": "Les micro‑ondes rendent‑ils les aliments radioactifs ?",
+      "questionAudio": "Les micro‑ondes rendent‑ils les aliments radioactifs ?",
       "emojis": [
-        "🧠",
-        "❤️",
-        "⚡",
+        "📡",
+        "🍲",
+        "⚛️",
         "🔬",
-        "🩸",
-        "🤔",
-        "🌡"
+        "💡",
+        "🧊",
+        "🛑"
       ],
       "options": [
-        "Le cervelet",
-        "L'amygdale",
-        "Le bulbe rachidien"
+        "Oui, ils ionisent les aliments",
+        "Non, les micro‑ondes n’induisent pas de radioactivité",
+        "Oui, ils transforment les molécules d’eau en isotopes"
       ],
       "correct": 1,
-      "answer": "L'amygdale",
-      "explanation": "L'amygdale joue un rôle central dans la détection et la modulation des émotions, notamment la peur et l’anxiété.",
-      "explanationAudio": "L'amygdale joue un rôle central dans la détection et la modulation des émotions, notamment la peur et l’anxiété.",
+      "answer": "Non, les micro‑ondes n’induisent pas de radioactivité",
+      "explanation": "Les ondes micro‑ondes excitent les molécules d’eau mais ne créent pas de rayonnement ionisant.",
+      "explanationAudio": "Les ondes micro‑ondes excitent les molécules d’eau mais ne créent pas de rayonnement ionisant.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D anatomical model of the cerebellum with intricate folds, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A highly detailed 3D render of the human brain highlighting the amygdala in vivid red, cinematic lighting, photorealistic",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of the medulla oblongata surrounded by blood vessels, ultra‑realistic lighting, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of food items inside a microwave, showing no radioactive symbols, bright realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D kitchen scene showing a microwave oven with glowing waves inside, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D atomic model illustrating water molecules being heated, with subtle radiation symbols, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel neurotransmetteur est le plus étroitement associé à la récompense et à la motivation ?",
-      "questionAudio": "Quel neurotransmetteur est le plus étroitement associé à la récompense et à la motivation ?",
+      "question": "Boire du lait chaud fait‑il perdre du calcium ?",
+      "questionAudio": "Boire du lait chaud fait‑il perdre du calcium ?",
       "emojis": [
-        "🧪",
-        "⚡",
+        "🥛",
+        "🔥",
+        "🦴",
         "🔬",
-        "🧠",
-        "💡",
-        "🔭",
-        "🧩"
+        "📚",
+        "💧",
+        "✅"
       ],
       "options": [
-        "La dopamine",
-        "La sérotonine",
-        "Le GABA"
+        "Oui, le lait chaud augmente l’absorption du calcium",
+        "Non, la chaleur n’affecte pas la teneur en calcium",
+        "Oui, la chaleur décompose le calcium"
+      ],
+      "correct": 1,
+      "answer": "Non, la chaleur n’affecte pas la teneur en calcium",
+      "explanation": "La température du lait ne modifie pas la quantité de calcium disponible.",
+      "explanationAudio": "La température du lait ne modifie pas la quantité de calcium disponible.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a human digestive system absorbing calcium from warm milk, detailed and realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a steaming mug of milk, calcium atoms highlighted, realistic lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D molecular view showing calcium ions breaking apart in hot liquid, stylized but photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Les éclairs frappent toujours le point le plus haut ?",
+      "questionAudio": "Les éclairs frappent toujours le point le plus haut ?",
+      "emojis": [
+        "⚡",
+        "🌩️",
+        "🌲",
+        "🏙️",
+        "🔌",
+        "📏",
+        "🔎"
+      ],
+      "options": [
+        "Oui, ils visent le sommet le plus élevé",
+        "Non, ils suivent le chemin de moindre résistance électrique",
+        "Non, ils sont attirés uniquement par les objets métalliques"
+      ],
+      "correct": 1,
+      "answer": "Non, ils suivent le chemin de moindre résistance électrique",
+      "explanation": "Un éclair cherche le trajet où la résistance du milieu est la plus faible, pas forcément le point le plus élevé.",
+      "explanationAudio": "Un éclair cherche le trajet où la résistance du milieu est la plus faible, pas forcément le point le plus élevé.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of electric field lines showing paths of least resistance, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D storm scene with a lightning bolt arcing toward a low‑lying tree, realistic clouds and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of a cityscape with lightning striking a metal pole, photorealistic rain and glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Un verre d’eau glacée fait‑il brûler plus de calories que de l’eau à température ambiante ?",
+      "questionAudio": "Un verre d’eau glacée fait‑il brûler plus de calories que de l’eau à température ambiante ?",
+      "emojis": [
+        "❄️",
+        "💧",
+        "🔥",
+        "⚖️",
+        "🏃‍♂️",
+        "📊",
+        "🥤"
+      ],
+      "options": [
+        "Oui, le corps dépense de l’énergie pour réchauffer l’eau",
+        "Non, la différence est négligeable",
+        "Oui, l’eau glacée active la thermogenèse"
       ],
       "correct": 0,
-      "answer": "La dopamine",
-      "explanation": "La dopamine est libérée dans les circuits de récompense et influence fortement la motivation et le plaisir.",
-      "explanationAudio": "La dopamine est libérée dans les circuits de récompense et influence fortement la motivation et le plaisir.",
+      "answer": "Oui, le corps dépense de l’énergie pour réchauffer l’eau",
+      "explanation": "Réchauffer de l’eau froide nécessite un petit apport calorique, ce qui augmente légèrement la dépense énergétique.",
+      "explanationAudio": "Réchauffer de l’eau froide nécessite un petit apport calorique, ce qui augmente légèrement la dépense énergétique.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of dopamine molecules sparkling in a neural synapse, cinematic glow, ultra‑high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of serotonin pathways in the brain, soft lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of GABA receptors on neuronal membranes, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D glass of ice water with visible steam forming as it warms, realistic lighting and reflections, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a human metabolism diagram showing heat production from drinking cold water, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of water droplets melting in a glass, with subtle energy wave effects, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel type de mémoire est le plus affecté par le processus de reconsolidation ?",
-      "questionAudio": "Quel type de mémoire est le plus affecté par le processus de reconsolidation ?",
+      "question": "Le sucre cause‑t‑il l’hyperactivité chez les enfants ?",
+      "questionAudio": "Le sucre cause‑t‑il l’hyperactivité chez les enfants ?",
       "emojis": [
-        "🧠",
+        "🍭",
+        "👦",
         "📚",
-        "🔄",
-        "💭",
-        "🧩",
         "🔬",
-        "🧪"
+        "🧠",
+        "⚖️",
+        "🚫"
       ],
       "options": [
-        "La mémoire procédurale",
-        "La mémoire implicite",
-        "La mémoire déclarative"
+        "Oui, il stimule le système nerveux",
+        "Non, les études n’ont pas montré de lien causal",
+        "Oui, il augmente la production d’adrénaline"
+      ],
+      "correct": 1,
+      "answer": "Non, les études n’ont pas montré de lien causal",
+      "explanation": "Les recherches scientifiques n’ont pas confirmé que le sucre déclenche une hyperactivité mesurable.",
+      "explanationAudio": "Les recherches scientifiques n’ont pas confirmé que le sucre déclenche une hyperactivité mesurable.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D scientific chart comparing sugar intake and activity levels in children, photorealistic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D playground scene with children playing, a candy jar nearby, realistic lighting, no exaggerated motion, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of glucose molecules entering a brain cell, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Laisser les aliments à l’air libre les rend‑ils plus nutritifs ?",
+      "questionAudio": "Laisser les aliments à l’air libre les rend‑ils plus nutritifs ?",
+      "emojis": [
+        "🥦",
+        "☀️",
+        "🌬️",
+        "🧪",
+        "📉",
+        "🍎",
+        "🔬"
+      ],
+      "options": [
+        "Oui, l’oxygène augmente la vitamine C",
+        "Oui, l’air améliore la biodisponibilité",
+        "Non, l’exposition à l’air peut dégrader les nutriments"
       ],
       "correct": 2,
-      "answer": "La mémoire déclarative",
-      "explanation": "La reconsolidation touche surtout les souvenirs déclaratifs, permettant leur mise à jour ou leur renforcement.",
-      "explanationAudio": "La reconsolidation touche surtout les souvenirs déclaratifs, permettant leur mise à jour ou leur renforcement.",
+      "answer": "Non, l’exposition à l’air peut dégrader les nutriments",
+      "explanation": "L’oxydation et la lumière peuvent diminuer la teneur en vitamines et en antioxydants.",
+      "explanationAudio": "L’oxydation et la lumière peuvent diminuer la teneur en vitamines et en antioxydants.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of procedural memory pathways involving the basal ganglia, cinematic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of implicit memory traces in the cerebellum, high‑resolution, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene showing a human brain with declarative memory networks lighting up, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle bande de fréquence d'ondes cérébrales domine pendant le sommeil profond non‑REM ?",
-      "questionAudio": "Quelle bande de fréquence d'ondes cérébrales domine pendant le sommeil profond non‑REM ?",
-      "emojis": [
-        "💤",
-        "🌙",
-        "🔊",
-        "🧠",
-        "⚡",
-        "🔬",
-        "📈"
-      ],
-      "options": [
-        "Les ondes delta",
-        "Les ondes bêta",
-        "Les ondes alpha"
-      ],
-      "correct": 0,
-      "answer": "Les ondes delta",
-      "explanation": "Les ondes delta, de très basse fréquence, caractérisent le sommeil profond et favorisent la récupération physique.",
-      "explanationAudio": "Les ondes delta, de très basse fréquence, caractérisent le sommeil profond et favorisent la récupération physique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of a sleeping brain with delta wave patterns glowing in deep blue, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D illustration of beta wave activity in an alert brain, vibrant colors, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D render of alpha wave activity over a relaxed brain, soft lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle technique d'imagerie cérébrale mesure les variations d'oxygénation sanguine pour inférer l'activité neuronale ?",
-      "questionAudio": "Quelle technique d'imagerie cérébrale mesure les variations d'oxygénation sanguine pour inférer l'activité neuronale ?",
-      "emojis": [
-        "🧲",
-        "🧠",
-        "📊",
-        "🔬",
-        "⚡",
-        "💡",
-        "🩺"
-      ],
-      "options": [
-        "L'IRM fonctionnelle",
-        "La TEP",
-        "L'EEG"
-      ],
-      "correct": 0,
-      "answer": "L'IRM fonctionnelle",
-      "explanation": "L'IRM fonctionnelle détecte les changements de flux sanguin oxygéné, reflétant l'activité des régions cérébrales.",
-      "explanationAudio": "L'IRM fonctionnelle détecte les changements de flux sanguin oxygéné, reflétant l'activité des régions cérébrales.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a functional MRI scanner with brain images highlighted in warm colors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a PET scan showing radiotracer distribution in the brain, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of EEG electrodes on a scalp with electrical activity visualized, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel terme désigne la capacité du cerveau à se réorganiser en formant de nouvelles connexions neuronales ?",
-      "questionAudio": "Quel terme désigne la capacité du cerveau à se réorganiser en formant de nouvelles connexions neuronales ?",
-      "emojis": [
-        "🔄",
-        "🧠",
-        "🌱",
-        "⚡",
-        "🔬",
-        "💡",
-        "🧪"
-      ],
-      "options": [
-        "La neurogenèse",
-        "La neuroplasticité",
-        "La synaptogenèse"
-      ],
-      "correct": 1,
-      "answer": "La neuroplasticité",
-      "explanation": "La neuroplasticité englobe les processus par lesquels le cerveau s'adapte, apprend et récupère après des lésions.",
-      "explanationAudio": "La neuroplasticité englobe les processus par lesquels le cerveau s'adapte, apprend et récupère après des lésions.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of newborn neurons in the hippocampus representing neurogenesis, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of neurons forming new synaptic connections, glowing pathways, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of synapse formation (synaptogenesis) with vesicles and receptors, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle théorie psychologique propose que le comportement est guidé par des conflits inconscients ?",
-      "questionAudio": "Quelle théorie psychologique propose que le comportement est guidé par des conflits inconscients ?",
-      "emojis": [
-        "🧠",
-        "🔍",
-        "🌀",
-        "📚",
-        "🧩",
-        "💭",
-        "⚖"
-      ],
-      "options": [
-        "La psychologie humaniste",
-        "La théorie psychanalytique",
-        "Le béhaviorisme"
-      ],
-      "correct": 1,
-      "answer": "La théorie psychanalytique",
-      "explanation": "La psychanalyse, fondée par Freud, soutient que des désirs et conflits inconscients influencent les actions et les pensées.",
-      "explanationAudio": "La psychanalyse, fondée par Freud, soutient que des désirs et conflits inconscients influencent les actions et les pensées.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a human silhouette surrounded by self‑actualization symbols, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D portrait of Sigmund Freud’s study with symbolic unconscious imagery, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D scene depicting a behaviorist experiment with a lever and a rat, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of molecular degradation of vitamin C exposed to air, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D realistic kitchen scene showing fresh versus air‑exposed food, high‑resolution textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D bowl of cut fruit left on a kitchen counter with subtle oxidation effects, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

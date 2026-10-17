@@ -1,178 +1,178 @@
 [
   {
-    "question": "Les micro‑ondes rendent‑ils les aliments radioactifs ?",
-    "questionAudio": "Les micro‑ondes rendent‑ils les aliments radioactifs ?",
+    "question": "Pourquoi l'ajout de sel à l'eau augmente t il son point d'ébullition ?",
+    "questionAudio": "Pourquoi l'ajout de sel à l'eau augmente t il son point d'ébullition ?",
     "options": [
-      "Oui, ils ionisent les aliments",
-      "Non, les micro‑ondes n’induisent pas de radioactivité",
-      "Oui, ils transforment les molécules d’eau en isotopes"
-    ],
-    "correct": 1,
-    "explanation": "Les ondes micro‑ondes excitent les molécules d’eau mais ne créent pas de rayonnement ionisant.",
-    "explanationAudio": "Les ondes micro‑ondes excitent les molécules d’eau mais ne créent pas de rayonnement ionisant.",
-    "emojis": [
-      "📡",
-      "🍲",
-      "⚛️",
-      "🔬",
-      "💡",
-      "🧊",
-      "🛑"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of food items inside a microwave, showing no radioactive symbols, bright realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D kitchen scene showing a microwave oven with glowing waves inside, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D atomic model illustrating water molecules being heated, with subtle radiation symbols, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Boire du lait chaud fait‑il perdre du calcium ?",
-    "questionAudio": "Boire du lait chaud fait‑il perdre du calcium ?",
-    "options": [
-      "Oui, le lait chaud augmente l’absorption du calcium",
-      "Non, la chaleur n’affecte pas la teneur en calcium",
-      "Oui, la chaleur décompose le calcium"
-    ],
-    "correct": 1,
-    "explanation": "La température du lait ne modifie pas la quantité de calcium disponible.",
-    "explanationAudio": "La température du lait ne modifie pas la quantité de calcium disponible.",
-    "emojis": [
-      "🥛",
-      "🔥",
-      "🦴",
-      "🔬",
-      "📚",
-      "💧",
-      "✅"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a human digestive system absorbing calcium from warm milk, detailed and realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of a steaming mug of milk, calcium atoms highlighted, realistic lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D molecular view showing calcium ions breaking apart in hot liquid, stylized but photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Les éclairs frappent toujours le point le plus haut ?",
-    "questionAudio": "Les éclairs frappent toujours le point le plus haut ?",
-    "options": [
-      "Oui, ils visent le sommet le plus élevé",
-      "Non, ils suivent le chemin de moindre résistance électrique",
-      "Non, ils sont attirés uniquement par les objets métalliques"
-    ],
-    "correct": 1,
-    "explanation": "Un éclair cherche le trajet où la résistance du milieu est la plus faible, pas forcément le point le plus élevé.",
-    "explanationAudio": "Un éclair cherche le trajet où la résistance du milieu est la plus faible, pas forcément le point le plus élevé.",
-    "emojis": [
-      "⚡",
-      "🌩️",
-      "🌲",
-      "🏙️",
-      "🔌",
-      "📏",
-      "🔎"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of electric field lines showing paths of least resistance, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D storm scene with a lightning bolt arcing toward a low‑lying tree, realistic clouds and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a cityscape with lightning striking a metal pole, photorealistic rain and glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Un verre d’eau glacée fait‑il brûler plus de calories que de l’eau à température ambiante ?",
-    "questionAudio": "Un verre d’eau glacée fait‑il brûler plus de calories que de l’eau à température ambiante ?",
-    "options": [
-      "Oui, le corps dépense de l’énergie pour réchauffer l’eau",
-      "Non, la différence est négligeable",
-      "Oui, l’eau glacée active la thermogenèse"
-    ],
-    "correct": 0,
-    "explanation": "Réchauffer de l’eau froide nécessite un petit apport calorique, ce qui augmente légèrement la dépense énergétique.",
-    "explanationAudio": "Réchauffer de l’eau froide nécessite un petit apport calorique, ce qui augmente légèrement la dépense énergétique.",
-    "emojis": [
-      "❄️",
-      "💧",
-      "🔥",
-      "⚖️",
-      "🏃‍♂️",
-      "📊",
-      "🥤"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D glass of ice water with visible steam forming as it warms, realistic lighting and reflections, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a human metabolism diagram showing heat production from drinking cold water, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of water droplets melting in a glass, with subtle energy wave effects, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Le sucre cause‑t‑il l’hyperactivité chez les enfants ?",
-    "questionAudio": "Le sucre cause‑t‑il l’hyperactivité chez les enfants ?",
-    "options": [
-      "Oui, il stimule le système nerveux",
-      "Non, les études n’ont pas montré de lien causal",
-      "Oui, il augmente la production d’adrénaline"
-    ],
-    "correct": 1,
-    "explanation": "Les recherches scientifiques n’ont pas confirmé que le sucre déclenche une hyperactivité mesurable.",
-    "explanationAudio": "Les recherches scientifiques n’ont pas confirmé que le sucre déclenche une hyperactivité mesurable.",
-    "emojis": [
-      "🍭",
-      "👦",
-      "📚",
-      "🔬",
-      "🧠",
-      "⚖️",
-      "🚫"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D scientific chart comparing sugar intake and activity levels in children, photorealistic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D playground scene with children playing, a candy jar nearby, realistic lighting, no exaggerated motion, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of glucose molecules entering a brain cell, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Laisser les aliments à l’air libre les rend‑ils plus nutritifs ?",
-    "questionAudio": "Laisser les aliments à l’air libre les rend‑ils plus nutritifs ?",
-    "options": [
-      "Oui, l’oxygène augmente la vitamine C",
-      "Oui, l’air améliore la biodisponibilité",
-      "Non, l’exposition à l’air peut dégrader les nutriments"
+      "Il augmente la densité de l'eau",
+      "Il abaisse la pression de vapeur de l'eau",
+      "Il élève la température à laquelle les molécules d'eau s'évaporent"
     ],
     "correct": 2,
-    "explanation": "L’oxydation et la lumière peuvent diminuer la teneur en vitamines et en antioxydants.",
-    "explanationAudio": "L’oxydation et la lumière peuvent diminuer la teneur en vitamines et en antioxydants.",
+    "explanation": "Le sel crée une solution colligative qui nécessite plus d'énergie thermique pour que l'eau passe à l'état vapeur, ce qui élève le point d'ébullition.",
+    "explanationAudio": "Le sel crée une solution colligative qui nécessite plus d'énergie thermique pour que l'eau passe à l'état vapeur, ce qui élève le point d'ébullition.",
     "emojis": [
-      "🥦",
-      "☀️",
-      "🌬️",
-      "🧪",
-      "📉",
-      "🍎",
-      "🔬"
+      "🧂",
+      "💧",
+      "🥘",
+      "🌡️",
+      "🔥",
+      "🔬",
+      "⚗️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of molecular degradation of vitamin C exposed to air, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D realistic kitchen scene showing fresh versus air‑exposed food, high‑resolution textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D bowl of cut fruit left on a kitchen counter with subtle oxidation effects, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D visualization of water molecules packed more tightly, showing increased density, rendered with realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a vapor pressure gauge showing reduced pressure over a water surface, scientific atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a stainless steel pot of water on a stove with salt crystals dissolving, vivid boiling bubbles, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Qu'est‑ce que la réaction de Maillard ?",
+    "questionAudio": "Qu'est‑ce que la réaction de Maillard ?",
+    "options": [
+      "La caramélisation des sucres à haute température",
+      "Une réaction chimique entre acides aminés et sucres réducteurs qui crée couleur brune et arômes",
+      "La dégradation des protéines en acides aminés"
+    ],
+    "correct": 1,
+    "explanation": "Cette réaction produit des composés aromatiques et une coloration brune caractéristique des viandes grillées et du pain toasté.",
+    "explanationAudio": "Cette réaction produit des composés aromatiques et une coloration brune caractéristique des viandes grillées et du pain toasté.",
+    "emojis": [
+      "🍖",
+      "🍞",
+      "🔥",
+      "⚗️",
+      "👃",
+      "🔬",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D render of sugar crystals caramelizing in a pan, golden melt, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D close‑up of a sizzling steak surface where brown compounds form, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A scientific 3D model showing amino acids interacting with reducing sugars, molecular bonds forming, illuminated, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment la cuisson sous‑vide préserve‑t‑elle les nutriments ?",
+    "questionAudio": "Comment la cuisson sous‑vide préserve‑t‑elle les nutriments ?",
+    "options": [
+      "En chauffant rapidement à haute température",
+      "En cuisant à basse température constante dans des sachets hermétiques, limitant l'oxydation",
+      "En ajoutant des antioxydants pendant la cuisson"
+    ],
+    "correct": 1,
+    "explanation": "La cuisson à température contrôlée évite la sur‑cuisson et limite l'exposition à l'oxygène, conservant vitamines et minéraux.",
+    "explanationAudio": "La cuisson à température contrôlée évite la sur‑cuisson et limite l'exposition à l'oxygène, conservant vitamines et minéraux.",
+    "emojis": [
+      "🫙",
+      "💧",
+      "🌡️",
+      "⏱️",
+      "🔒",
+      "🔬",
+      "🍽️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of nutrient molecules retained inside a sealed bag, highlighted against a dark background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of a vacuum‑sealed bag immersed in a water bath with precise temperature display, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a sous‑vide circulator device controlling water temperature, detailed metal textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Pourquoi laisser reposer la viande après la cuisson améliore‑t‑elle son jus ?",
+    "questionAudio": "Pourquoi laisser reposer la viande après la cuisson améliore‑t‑elle son jus ?",
+    "options": [
+      "Cela augmente la dénaturation des protéines",
+      "Cela permet aux jus de se redistribuer dans les fibres musculaires",
+      "Cela refroidit la viande pour éviter les brûlures"
+    ],
+    "correct": 1,
+    "explanation": "Le repos laisse les fibres se détendre, les sucs internes se diffusent uniformément, rendant chaque bouchée plus juteuse.",
+    "explanationAudio": "Le repos laisse les fibres se détendre, les sucs internes se diffusent uniformément, rendant chaque bouchée plus juteuse.",
+    "emojis": [
+      "🥩",
+      "⏲️",
+      "🍴",
+      "💧",
+      "📏",
+      "🔬",
+      "🛌"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D scene of a timer beside the steak, emphasizing the resting period, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a cooked steak on a cutting board, steam rising, with arrows indicating juice movement inside fibers, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of muscle fibers relaxing after heat, highlighted water droplets moving, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel rôle joue l'acide (comme le jus de citron) dans les blancs d'œufs pour la meringue ?",
+    "questionAudio": "Quel rôle joue l'acide comme le jus de citron dans les blancs d'œufs pour la meringue ?",
+    "options": [
+      "Il sucrée le mélange",
+      "Il accélère la coagulation des protéines",
+      "Il stabilise le réseau protéique, créant une mousse ferme"
+    ],
+    "correct": 2,
+    "explanation": "L'acide augmente le pH, renforçant les liaisons entre les protéines, ce qui empêche le collapse de la mousse.",
+    "explanationAudio": "L'acide augmente le pH, renforçant les liaisons entre les protéines, ce qui empêche le collapse de la mousse.",
+    "emojis": [
+      "🍋",
+      "🥚",
+      "🌀",
+      "🧪",
+      "⚖️",
+      "🔬",
+      "🍰"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model showing protein strands linking together in the presence of citric acid, highlighted bonds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a finished glossy meringue on a tart, close‑up of airy texture, realistic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a mixing bowl with egg whites being whisked, lemon slices nearby, foam forming, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment la taille des cristaux de glace influence la texture des desserts glacés ?",
+    "questionAudio": "Comment la taille des cristaux de glace influence la texture des desserts glacés ?",
+    "options": [
+      "La taille des cristaux n'affecte pas la texture",
+      "Des cristaux plus petits donnent une texture plus lisse",
+      "Des cristaux plus gros rendent le dessert plus crémeux"
+    ],
+    "correct": 1,
+    "explanation": "Un processus de congélation rapide crée de minuscules cristaux, offrant une sensation crémeuse et onctueuse.",
+    "explanationAudio": "Un processus de congélation rapide crée de minuscules cristaux, offrant une sensation crémeuse et onctueuse.",
+    "emojis": [
+      "🍨",
+      "❄️",
+      "💎",
+      "🥄",
+      "🧊",
+      "🔬",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of an industrial freezer with rapid freezing jets, showing crystal formation at microscopic level, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of an ice cream scoop with visible micro‑crystals, glossy surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration contrasting large ice crystals in a frozen sorbet with rough texture, scientific comparison, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

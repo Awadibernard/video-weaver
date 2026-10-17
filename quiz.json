@@ -1,28 +1,28 @@
 [
   {
-    "question": "Pourquoi l'ajout de sel à l'eau augmente t il son point d'ébullition ?",
-    "questionAudio": "Pourquoi l'ajout de sel à l'eau augmente t il son point d'ébullition ?",
+    "question": "Quel est le rôle principal de la mélatonine dans le corps humain ?",
+    "questionAudio": "Quel est le rôle principal de la mélatonine dans le corps humain ?",
     "options": [
-      "Il augmente la densité de l'eau",
-      "Il abaisse la pression de vapeur de l'eau",
-      "Il élève la température à laquelle les molécules d'eau s'évaporent"
+      "Réguler le cycle veille sommeil",
+      "Stimuler la production d'insuline",
+      "Augmenter la fréquence cardiaque"
     ],
-    "correct": 2,
-    "explanation": "Le sel crée une solution colligative qui nécessite plus d'énergie thermique pour que l'eau passe à l'état vapeur, ce qui élève le point d'ébullition.",
-    "explanationAudio": "Le sel crée une solution colligative qui nécessite plus d'énergie thermique pour que l'eau passe à l'état vapeur, ce qui élève le point d'ébullition.",
+    "correct": 0,
+    "explanation": "La mélatonine prépare le corps au sommeil en synchronisant le rythme circadien.",
+    "explanationAudio": "La mélatonine prépare le corps au sommeil en synchronisant le rythme circadien.",
     "emojis": [
-      "🧂",
-      "💧",
-      "🥘",
-      "🌡️",
-      "🔥",
+      "🌙",
+      "💤",
+      "🧬",
+      "🕒",
+      "🧪",
       "🔬",
-      "⚗️"
+      "🧠"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑detail 3D visualization of water molecules packed more tightly, showing increased density, rendered with realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a vapor pressure gauge showing reduced pressure over a water surface, scientific atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a stainless steel pot of water on a stove with salt crystals dissolving, vivid boiling bubbles, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a pineal gland releasing melatonin molecules under a night sky, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a pancreas secreting insulin with bright colors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of a beating heart with highlighted rhythm, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Qu'est‑ce que la réaction de Maillard ?",
-    "questionAudio": "Qu'est‑ce que la réaction de Maillard ?",
+    "question": "Combien de cycles de sommeil complet parcourt on pendant une nuit typique ?",
+    "questionAudio": "Combien de cycles de sommeil complet parcourt on pendant une nuit typique ?",
     "options": [
-      "La caramélisation des sucres à haute température",
-      "Une réaction chimique entre acides aminés et sucres réducteurs qui crée couleur brune et arômes",
-      "La dégradation des protéines en acides aminés"
+      "Quatre à cinq",
+      "Six à sept",
+      "Deux à trois"
     ],
-    "correct": 1,
-    "explanation": "Cette réaction produit des composés aromatiques et une coloration brune caractéristique des viandes grillées et du pain toasté.",
-    "explanationAudio": "Cette réaction produit des composés aromatiques et une coloration brune caractéristique des viandes grillées et du pain toasté.",
+    "correct": 0,
+    "explanation": "Une nuit de sommeil normale comprend généralement entre quatre et cinq cycles complets.",
+    "explanationAudio": "Une nuit de sommeil normale comprend généralement entre quatre et cinq cycles complets.",
     "emojis": [
-      "🍖",
-      "🍞",
-      "🔥",
-      "⚗️",
-      "👃",
-      "🔬",
-      "✨"
+      "🛏️",
+      "🌙",
+      "🔄",
+      "🕗",
+      "💤",
+      "📊",
+      "🧠"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D render of sugar crystals caramelizing in a pan, golden melt, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D close‑up of a sizzling steak surface where brown compounds form, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A scientific 3D model showing amino acids interacting with reducing sugars, molecular bonds forming, illuminated, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a sleeping person with a circular diagram showing four to five sleep cycles, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of six to seven overlapping sleep cycles around a bed, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a person with two to three sleep stages highlighted, gentle glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,59 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Comment la cuisson sous‑vide préserve‑t‑elle les nutriments ?",
-    "questionAudio": "Comment la cuisson sous‑vide préserve‑t‑elle les nutriments ?",
+    "question": "Quel stade du sommeil est principalement associé à la consolidation de la mémoire ?",
+    "questionAudio": "Quel stade du sommeil est principalement associé à la consolidation de la mémoire ?",
     "options": [
-      "En chauffant rapidement à haute température",
-      "En cuisant à basse température constante dans des sachets hermétiques, limitant l'oxydation",
-      "En ajoutant des antioxydants pendant la cuisson"
+      "Sommeil paradoxal",
+      "Sommeil léger",
+      "Sommeil lent profond"
     ],
-    "correct": 1,
-    "explanation": "La cuisson à température contrôlée évite la sur‑cuisson et limite l'exposition à l'oxygène, conservant vitamines et minéraux.",
-    "explanationAudio": "La cuisson à température contrôlée évite la sur‑cuisson et limite l'exposition à l'oxygène, conservant vitamines et minéraux.",
+    "correct": 0,
+    "explanation": "Le sommeil paradoxal, ou REM, joue un rôle clé dans le renforcement des souvenirs.",
+    "explanationAudio": "Le sommeil paradoxal, ou REM, joue un rôle clé dans le renforcement des souvenirs.",
     "emojis": [
-      "🫙",
-      "💧",
-      "🌡️",
-      "⏱️",
-      "🔒",
-      "🔬",
-      "🍽️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of nutrient molecules retained inside a sealed bag, highlighted against a dark background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of a vacuum‑sealed bag immersed in a water bath with precise temperature display, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a sous‑vide circulator device controlling water temperature, detailed metal textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Pourquoi laisser reposer la viande après la cuisson améliore‑t‑elle son jus ?",
-    "questionAudio": "Pourquoi laisser reposer la viande après la cuisson améliore‑t‑elle son jus ?",
-    "options": [
-      "Cela augmente la dénaturation des protéines",
-      "Cela permet aux jus de se redistribuer dans les fibres musculaires",
-      "Cela refroidit la viande pour éviter les brûlures"
-    ],
-    "correct": 1,
-    "explanation": "Le repos laisse les fibres se détendre, les sucs internes se diffusent uniformément, rendant chaque bouchée plus juteuse.",
-    "explanationAudio": "Le repos laisse les fibres se détendre, les sucs internes se diffusent uniformément, rendant chaque bouchée plus juteuse.",
-    "emojis": [
-      "🥩",
-      "⏲️",
-      "🍴",
-      "💧",
-      "📏",
-      "🔬",
+      "🧠",
+      "💤",
+      "🔁",
+      "🌙",
+      "📚",
+      "🧬",
       "🛌"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D scene of a timer beside the steak, emphasizing the resting period, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a cooked steak on a cutting board, steam rising, with arrows indicating juice movement inside fibers, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of muscle fibers relaxing after heat, highlighted water droplets moving, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D brain during REM sleep with vivid dream imagery, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D scene of a sleeping head showing light sleep with subtle brain waves, gentle illumination, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a brain in deep slow wave sleep with low activity, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,59 +90,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel rôle joue l'acide (comme le jus de citron) dans les blancs d'œufs pour la meringue ?",
-    "questionAudio": "Quel rôle joue l'acide comme le jus de citron dans les blancs d'œufs pour la meringue ?",
+    "question": "Quel effet la privation de sommeil prolongée a t elle sur le système immunitaire ?",
+    "questionAudio": "Quel effet la privation de sommeil prolongée a t elle sur le système immunitaire ?",
     "options": [
-      "Il sucrée le mélange",
-      "Il accélère la coagulation des protéines",
-      "Il stabilise le réseau protéique, créant une mousse ferme"
-    ],
-    "correct": 2,
-    "explanation": "L'acide augmente le pH, renforçant les liaisons entre les protéines, ce qui empêche le collapse de la mousse.",
-    "explanationAudio": "L'acide augmente le pH, renforçant les liaisons entre les protéines, ce qui empêche le collapse de la mousse.",
-    "emojis": [
-      "🍋",
-      "🥚",
-      "🌀",
-      "🧪",
-      "⚖️",
-      "🔬",
-      "🍰"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model showing protein strands linking together in the presence of citric acid, highlighted bonds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a finished glossy meringue on a tart, close‑up of airy texture, realistic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a mixing bowl with egg whites being whisked, lemon slices nearby, foam forming, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Comment la taille des cristaux de glace influence la texture des desserts glacés ?",
-    "questionAudio": "Comment la taille des cristaux de glace influence la texture des desserts glacés ?",
-    "options": [
-      "La taille des cristaux n'affecte pas la texture",
-      "Des cristaux plus petits donnent une texture plus lisse",
-      "Des cristaux plus gros rendent le dessert plus crémeux"
+      "Aucun impact notable",
+      "Diminution de la réponse immunitaire",
+      "Augmentation de la production d’anticorps"
     ],
     "correct": 1,
-    "explanation": "Un processus de congélation rapide crée de minuscules cristaux, offrant une sensation crémeuse et onctueuse.",
-    "explanationAudio": "Un processus de congélation rapide crée de minuscules cristaux, offrant une sensation crémeuse et onctueuse.",
+    "explanation": "Le manque de sommeil affaiblit la capacité du corps à combattre les infections.",
+    "explanationAudio": "Le manque de sommeil affaiblit la capacité du corps à combattre les infections.",
     "emojis": [
-      "🍨",
-      "❄️",
-      "💎",
-      "🥄",
-      "🧊",
-      "🔬",
-      "✨"
+      "🦠",
+      "💤",
+      "⚠️",
+      "🛡️",
+      "📉",
+      "🧬",
+      "🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of an industrial freezer with rapid freezing jets, showing crystal formation at microscopic level, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑detail 3D render of an ice cream scoop with visible micro‑crystals, glossy surface, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration contrasting large ice crystals in a frozen sorbet with rough texture, scientific comparison, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D neutral scene of a sleeping individual with unchanged immune cells, soft focus, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic depiction of a weakened immune system with fewer white blood cells under a sleeping figure, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration showing an abundance of antibodies surrounding a sleeping person, bright colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle pratique favorise le mieux une hygiène du sommeil optimale ?",
+    "questionAudio": "Quelle pratique favorise le mieux une hygiène du sommeil optimale ?",
+    "options": [
+      "Faire de l exercice intense juste avant le coucher",
+      "Éteindre les écrans au moins une heure avant le coucher",
+      "Boire un café fort avant de dormir"
+    ],
+    "correct": 1,
+    "explanation": "Réduire l’exposition aux écrans aide le cerveau à préparer le sommeil.",
+    "explanationAudio": "Réduire l’exposition aux écrans aide le cerveau à préparer le sommeil.",
+    "emojis": [
+      "📱",
+      "🌙",
+      "🛌",
+      "🚫",
+      "☕",
+      "🏃‍♀️",
+      "💡"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a person doing high intensity workout right before bed, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a bedroom with a smartphone turned off and a dim lamp, emphasizing calm, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a coffee cup steaming beside a sleeping person, bright colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le terme scientifique du phénomène où le corps augmente sa température avant le réveil ?",
+    "questionAudio": "Quel est le terme scientifique du phénomène où le corps augmente sa température avant le réveil ?",
+    "options": [
+      "Effet de l obscurité",
+      "Réaction cortisolique",
+      "Thermorégulation matinale"
+    ],
+    "correct": 2,
+    "explanation": "La thermorégulation matinale décrit l’augmentation naturelle de la température corporelle avant le lever.",
+    "explanationAudio": "La thermorégulation matinale décrit l’augmentation naturelle de la température corporelle avant le lever.",
+    "emojis": [
+      "🌅",
+      "🌡️",
+      "🧬",
+      "🕖",
+      "🔬",
+      "💤",
+      "⚙️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D scene of darkness surrounding a sleeping figure with no temperature change, muted tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D depiction of cortisol molecules increasing near a sunrise, vibrant glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a human body with a temperature gauge rising at dawn, soft sunrise lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel trouble du sommeil se caractérise par des pauses respiratoires répétées pendant la nuit ?",
+    "questionAudio": "Quel trouble du sommeil se caractérise par des pauses respiratoires répétées pendant la nuit ?",
+    "options": [
+      "Narcolepsie",
+      "Apnée du sommeil",
+      "Insomnie"
+    ],
+    "correct": 1,
+    "explanation": "L’apnée du sommeil provoque des arrêts temporaires de la respiration pendant le repos.",
+    "explanationAudio": "L’apnée du sommeil provoque des arrêts temporaires de la respiration pendant le repos.",
+    "emojis": [
+      "😴",
+      "🫁",
+      "🚨",
+      "💤",
+      "🔊",
+      "🛏️",
+      "🧭"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D scene depicting sudden sleep attacks in a daytime setting, bright lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a sleeping person with airway blockage visualized, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a person lying awake in a dark room, showing insomnia, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

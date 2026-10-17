@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Technologies & Inventions Scientifiques",
-  "description": "Plongez dans l’histoire des inventions qui ont changé le monde moderne.",
+  "topic": "🧠 Quiz : Neurosciences & Psychologie Scientifique",
+  "description": "Explore les mystères du cerveau et de l’esprit avec des questions scientifiques fascinantes.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Quel scientifique a inventé le premier moteur à combustion interne fonctionnel ?",
-      "questionAudio": "Quel scientifique a inventé le premier moteur à combustion interne fonctionnel ?",
+      "question": "Quel région du cerveau régule principalement les réponses émotionnelles ?",
+      "questionAudio": "Quel région du cerveau régule principalement les réponses émotionnelles ?",
       "emojis": [
-        "⚙️",
-        "🚗",
-        "🛠️",
-        "🔧",
-        "💡",
-        "📜",
-        "🏭"
-      ],
-      "options": [
-        "Nikolaus Otto",
-        "Thomas Edison",
-        "Alphonse Pérec"
-      ],
-      "correct": 0,
-      "answer": "Nikolaus Otto",
-      "explanation": "Nikolaus Otto a développé en dix huit cinquante‑huit le moteur à quatre temps qui est à la base des moteurs modernes.",
-      "explanationAudio": "Nikolaus Otto a développé en dix‑huit cinquante‑huit le moteur à quatre temps qui est à la base des moteurs modernes.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a historic internal combustion engine with pistons moving, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cutaway view of a four‑stroke engine showing combustion chambers, ultra‑realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Nikolaus Otto in a 19th‑century workshop, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel inventeur a réalisé la première transmission télévisée en couleur ?",
-      "questionAudio": "Quel inventeur a réalisé la première transmission télévisée en couleur ?",
-      "emojis": [
-        "📺",
-        "🌈",
-        "🔌",
-        "🎥",
-        "🧪",
-        "⚙️",
-        "🕰️"
-      ],
-      "options": [
-        "John Logie Baird",
-        "Guglielmo Marconi",
-        "Philo Farnsworth"
-      ],
-      "correct": 0,
-      "answer": "John Logie Baird",
-      "explanation": "John Logie Baird a présenté en mil neuf cent vingt‑huit une image couleur par un système mécanique, marquant la première diffusion télévisée en couleur.",
-      "explanationAudio": "John Logie Baird a présenté en mil neuf cent vingt‑huit une image couleur par un système mécanique, marquant la première diffusion télévisée en couleur.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D scene of an early mechanical television set displaying a vivid colour image, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of colour scan lines forming an image on a vintage TV screen, photorealistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of John Logie Baird operating his colour transmission equipment, studio backdrop, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est le principe de base du laser, inventé par Theodore Maiman en mille neuf cent soixante ?",
-      "questionAudio": "Quel est le principe de base du laser, inventé par Theodore Maiman en mille neuf cent soixante ?",
-      "emojis": [
-        "🔦",
-        "💎",
+        "🧠",
+        "❤️",
         "⚡",
-        "📡",
-        "🧬",
-        "🛸",
-        "🔬"
+        "🔬",
+        "🩸",
+        "🤔",
+        "🌡"
       ],
       "options": [
-        "Diffraction de la lumière par réseaux",
-        "Polarisation de la lumière",
-        "Amplification de la lumière par émission stimulée"
+        "Le cervelet",
+        "L'amygdale",
+        "Le bulbe rachidien"
+      ],
+      "correct": 1,
+      "answer": "L'amygdale",
+      "explanation": "L'amygdale joue un rôle central dans la détection et la modulation des émotions, notamment la peur et l’anxiété.",
+      "explanationAudio": "L'amygdale joue un rôle central dans la détection et la modulation des émotions, notamment la peur et l’anxiété.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D anatomical model of the cerebellum with intricate folds, realistic textures, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A highly detailed 3D render of the human brain highlighting the amygdala in vivid red, cinematic lighting, photorealistic",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of the medulla oblongata surrounded by blood vessels, ultra‑realistic lighting, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel neurotransmetteur est le plus étroitement associé à la récompense et à la motivation ?",
+      "questionAudio": "Quel neurotransmetteur est le plus étroitement associé à la récompense et à la motivation ?",
+      "emojis": [
+        "🧪",
+        "⚡",
+        "🔬",
+        "🧠",
+        "💡",
+        "🔭",
+        "🧩"
+      ],
+      "options": [
+        "La dopamine",
+        "La sérotonine",
+        "Le GABA"
+      ],
+      "correct": 0,
+      "answer": "La dopamine",
+      "explanation": "La dopamine est libérée dans les circuits de récompense et influence fortement la motivation et le plaisir.",
+      "explanationAudio": "La dopamine est libérée dans les circuits de récompense et influence fortement la motivation et le plaisir.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of dopamine molecules sparkling in a neural synapse, cinematic glow, ultra‑high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of serotonin pathways in the brain, soft lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of GABA receptors on neuronal membranes, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type de mémoire est le plus affecté par le processus de reconsolidation ?",
+      "questionAudio": "Quel type de mémoire est le plus affecté par le processus de reconsolidation ?",
+      "emojis": [
+        "🧠",
+        "📚",
+        "🔄",
+        "💭",
+        "🧩",
+        "🔬",
+        "🧪"
+      ],
+      "options": [
+        "La mémoire procédurale",
+        "La mémoire implicite",
+        "La mémoire déclarative"
       ],
       "correct": 2,
-      "answer": "Amplification de la lumière par émission stimulée",
-      "explanation": "Le laser fonctionne grâce à l’amplification de photons dans un milieu actif lorsque les atomes sont excités, produisant un faisceau cohérent.",
-      "explanationAudio": "Le laser fonctionne grâce à l’amplification de photons dans un milieu actif lorsque les atomes sont excités, produisant un faisceau cohérent.",
+      "answer": "La mémoire déclarative",
+      "explanation": "La reconsolidation touche surtout les souvenirs déclaratifs, permettant leur mise à jour ou leur renforcement.",
+      "explanationAudio": "La reconsolidation touche surtout les souvenirs déclaratifs, permettant leur mise à jour ou leur renforcement.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of stimulated emission inside a crystal, particles visualized, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A futuristic 3D lab setup showing a laser apparatus with precise optics, realistic reflections, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D rendering of a ruby laser cavity emitting a bright red beam, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A realistic 3D model of procedural memory pathways involving the basal ganglia, cinematic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of implicit memory traces in the cerebellum, high‑resolution, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene showing a human brain with declarative memory networks lighting up, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quelle invention de Tim Berners‑Lee a révolutionné l’accès à l’information sur Internet ?",
-      "questionAudio": "Quelle invention de Tim Berners‑Lee a révolutionné l’accès à l’information sur Internet ?",
+      "question": "Quelle bande de fréquence d'ondes cérébrales domine pendant le sommeil profond non‑REM ?",
+      "questionAudio": "Quelle bande de fréquence d'ondes cérébrales domine pendant le sommeil profond non‑REM ?",
       "emojis": [
-        "🌐",
-        "💻",
-        "🔗",
-        "📡",
-        "🖥️",
+        "💤",
+        "🌙",
+        "🔊",
+        "🧠",
+        "⚡",
+        "🔬",
+        "📈"
+      ],
+      "options": [
+        "Les ondes delta",
+        "Les ondes bêta",
+        "Les ondes alpha"
+      ],
+      "correct": 0,
+      "answer": "Les ondes delta",
+      "explanation": "Les ondes delta, de très basse fréquence, caractérisent le sommeil profond et favorisent la récupération physique.",
+      "explanationAudio": "Les ondes delta, de très basse fréquence, caractérisent le sommeil profond et favorisent la récupération physique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of a sleeping brain with delta wave patterns glowing in deep blue, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A high‑detail 3D illustration of beta wave activity in an alert brain, vibrant colors, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D render of alpha wave activity over a relaxed brain, soft lighting, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle technique d'imagerie cérébrale mesure les variations d'oxygénation sanguine pour inférer l'activité neuronale ?",
+      "questionAudio": "Quelle technique d'imagerie cérébrale mesure les variations d'oxygénation sanguine pour inférer l'activité neuronale ?",
+      "emojis": [
+        "🧲",
+        "🧠",
+        "📊",
+        "🔬",
+        "⚡",
+        "💡",
+        "🩺"
+      ],
+      "options": [
+        "L'IRM fonctionnelle",
+        "La TEP",
+        "L'EEG"
+      ],
+      "correct": 0,
+      "answer": "L'IRM fonctionnelle",
+      "explanation": "L'IRM fonctionnelle détecte les changements de flux sanguin oxygéné, reflétant l'activité des régions cérébrales.",
+      "explanationAudio": "L'IRM fonctionnelle détecte les changements de flux sanguin oxygéné, reflétant l'activité des régions cérébrales.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a functional MRI scanner with brain images highlighted in warm colors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a PET scan showing radiotracer distribution in the brain, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of EEG electrodes on a scalp with electrical activity visualized, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel terme désigne la capacité du cerveau à se réorganiser en formant de nouvelles connexions neuronales ?",
+      "questionAudio": "Quel terme désigne la capacité du cerveau à se réorganiser en formant de nouvelles connexions neuronales ?",
+      "emojis": [
+        "🔄",
+        "🧠",
+        "🌱",
+        "⚡",
+        "🔬",
+        "💡",
+        "🧪"
+      ],
+      "options": [
+        "La neurogenèse",
+        "La neuroplasticité",
+        "La synaptogenèse"
+      ],
+      "correct": 1,
+      "answer": "La neuroplasticité",
+      "explanation": "La neuroplasticité englobe les processus par lesquels le cerveau s'adapte, apprend et récupère après des lésions.",
+      "explanationAudio": "La neuroplasticité englobe les processus par lesquels le cerveau s'adapte, apprend et récupère après des lésions.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A realistic 3D model of newborn neurons in the hippocampus representing neurogenesis, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of neurons forming new synaptic connections, glowing pathways, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of synapse formation (synaptogenesis) with vesicles and receptors, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle théorie psychologique propose que le comportement est guidé par des conflits inconscients ?",
+      "questionAudio": "Quelle théorie psychologique propose que le comportement est guidé par des conflits inconscients ?",
+      "emojis": [
+        "🧠",
+        "🔍",
+        "🌀",
         "📚",
-        "🚀"
+        "🧩",
+        "💭",
+        "⚖"
       ],
       "options": [
-        "Le moteur de recherche Google",
-        "Le World Wide Web",
-        "Le protocole HTTP"
+        "La psychologie humaniste",
+        "La théorie psychanalytique",
+        "Le béhaviorisme"
       ],
       "correct": 1,
-      "answer": "Le World Wide Web",
-      "explanation": "Tim Berners‑Lee a créé le World Wide Web en mille neuf cent quatre‑vingt‑cinq, permettant la navigation hypertexte entre documents.",
-      "explanationAudio": "Tim Berners‑Lee a créé le World Wide Web en mille neuf cent quatre‑vingt‑cinq, permettant la navigation hypertexte entre documents.",
+      "answer": "La théorie psychanalytique",
+      "explanation": "La psychanalyse, fondée par Freud, soutient que des désirs et conflits inconscients influencent les actions et les pensées.",
+      "explanationAudio": "La psychanalyse, fondée par Freud, soutient que des désirs et conflits inconscients influencent les actions et les pensées.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A futuristic 3D interface showing hyperlinked documents flowing across a digital network, ultra‑realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a globe made of interconnected web pages, glowing nodes, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Tim Berners‑Lee at a computer workstation in 1985, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel dispositif portable, lancé en deux mille sept, a popularisé les smartphones modernes ?",
-      "questionAudio": "Quel dispositif portable, lancé en deux mille sept, a popularisé les smartphones modernes ?",
-      "emojis": [
-        "📱",
-        "🍎",
-        "✨",
-        "🖐️",
-        "🔋",
-        "🚀",
-        "💡"
-      ],
-      "options": [
-        "Le BlackBerry Curve",
-        "L'iPhone d'Apple",
-        "Le Nokia N95"
-      ],
-      "correct": 1,
-      "answer": "L'iPhone d'Apple",
-      "explanation": "L'iPhone d'Apple, présenté en deux mille sept, a introduit un écran tactile capacitif et une interface intuitive, ouvrant la voie aux smartphones actuels.",
-      "explanationAudio": "L'iPhone d'Apple, présenté en deux mille sept, a introduit un écran tactile capacitif et une interface intuitive, ouvrant la voie aux smartphones actuels.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A futuristic 3D scene showing the evolution of smartphones with the 2007 iPhone at the center, ultra‑realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of the original iPhone lying on a sleek surface, realistic reflections, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a hand holding the iPhone with the home screen visible, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a human silhouette surrounded by self‑actualization symbols, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D portrait of Sigmund Freud’s study with symbolic unconscious imagery, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D scene depicting a behaviorist experiment with a lever and a rat, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

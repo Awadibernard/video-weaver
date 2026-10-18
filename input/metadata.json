@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Paléontologie & Histoire de la Terre",
-  "description": "Teste tes connaissances sur les fossiles, les extinctions et les grands événements qui ont façonné notre planète.",
+  "topic": "🧠 Quiz : Océans & Abysses",
+  "description": "Plongez dans les mystères des profondeurs marines et découvrez des faits fascinants.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -10,150 +10,177 @@
   "cta": "Abonne toi pour en apprendre plus !",
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
+    "🌊",
+    "🐋",
+    "🦑",
     "🔬",
-    "🧪",
-    "✨",
-    "🌍",
-    "⚡",
-    "🧠",
-    "🚀"
+    "🧭",
+    "📚",
+    "🌌"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Quel événement marque la fin du Permien, la plus grande extinction de masse de l’histoire de la Terre ?",
-      "questionAudio": "Quel événement marque la fin du Permien, la plus grande extinction de masse de l’histoire de la Terre ?",
+      "question": "Quelle est la profondeur moyenne des océans du monde ?",
+      "questionAudio": "Quelle est la profondeur moyenne des océans du monde ?",
       "emojis": [
-        "🦖",
-        "🦕",
-        "🌋",
+        "🌊",
+        "🐋",
+        "🦑",
+        "📏",
+        "🔎",
         "🌍",
-        "📚",
-        "🪨",
-        "🔬"
+        "⚓"
       ],
       "options": [
-        "L’extinction du Crétacé‑Paléogène",
-        "L’extinction du Dévonien",
-        "L’extinction du Permien‑Trias"
+        "Six mille mètres",
+        "Deux mille mètres",
+        "Quatre mille mètres"
       ],
       "correct": 2,
-      "answer": "L’extinction du Permien‑Trias",
-      "explanation": "L’extinction du Permien‑Trias a éliminé plus de soixante‑cinq pour cent des espèces marines et terrestres.",
-      "explanationAudio": "L’extinction du Permien‑Trias a éliminé plus de soixante‑cinq pour cent des espèces marines et terrestres.",
+      "answer": "Quatre mille mètres",
+      "explanation": "La profondeur moyenne des océans est d’environ trois mille sept cents mètres, soit proche de quatre mille mètres.",
+      "explanationAudio": "La profondeur moyenne des océans est d’environ trois mille sept cents mètres, soit proche de quatre mille mètres.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of a Cretaceous shoreline with asteroid impact fireball, high detail, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of an early Devonian marine reef with soft‑bodied organisms, underwater lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic scene of a volcanic eruption blanketing the Permian landscape with ash, detailed atmospheric effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the ocean floor with a marker at six thousand meters depth, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a cross‑section of the ocean showing two thousand meters depth, realistic water textures, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a vast ocean surface with a depth gauge indicating four thousand meters, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel groupe de dinosaures est connu pour ses longues cornes et son col bosselé ?",
-      "questionAudio": "Quel groupe de dinosaures est connu pour ses longues cornes et son col bosselé ?",
+      "question": "Quel est le principal producteur de lumière dans les profondeurs abyssales ?",
+      "questionAudio": "Quel est le principal producteur de lumière dans les profondeurs abyssales ?",
       "emojis": [
-        "🦖",
-        "🦕",
-        "🦴",
-        "🌿",
-        "🌋",
-        "📖",
-        "🪨"
+        "🐟",
+        "💡",
+        "🌊",
+        "🦑",
+        "🔦",
+        "🧜‍♀️",
+        "🌌"
       ],
       "options": [
-        "Stegosaurus",
-        "Brachiosaurus",
-        "Triceratops"
+        "Les poissons bioluminescents",
+        "Les algues",
+        "Les coraux"
       ],
-      "correct": 2,
-      "answer": "Triceratops",
-      "explanation": "Le Triceratops possédait trois cornes proéminentes et un large col orné de boucliers osseux.",
-      "explanationAudio": "Le Triceratops possédait trois cornes proéminentes et un large col orné de boucliers osseux.",
+      "correct": 0,
+      "answer": "Les poissons bioluminescents",
+      "explanation": "Dans les abysses, ce sont surtout les poissons bioluminescents qui émettent de la lumière pour attirer des proies ou communiquer.",
+      "explanationAudio": "Dans les abysses, ce sont surtout les poissons bioluminescents qui émettent de la lumière pour attirer des proies ou communiquer.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a Stegosaurus with its plated back illuminated by sunrise, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a Brachiosaurus reaching high into Jurassic trees, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a Triceratops standing in a Cretaceous forest, detailed skin texture and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a deep‑sea fish emitting a blue bioluminescent glow, photorealistic, detailed scales, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of algae in the abyss, showing minimal light, realistic water, subtle glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a deep‑sea coral with faint lighting, realistic textures, underwater scene, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel est le plus ancien fossile connu d’un organisme multicellulaire ?",
-      "questionAudio": "Quel est le plus ancien fossile connu d’un organisme multicellulaire ?",
+      "question": "Quelle zone océanique est caractérisée par une pression d’environ mille fois la pression atmosphérique ?",
+      "questionAudio": "Quelle zone océanique est caractérisée par une pression d’environ mille fois la pression atmosphérique ?",
+      "emojis": [
+        "🔱",
+        "⚓",
+        "🌊",
+        "📊",
+        "🧭",
+        "🌍",
+        "💧"
+      ],
+      "options": [
+        "Zone hadale",
+        "Zone épipélagique",
+        "Zone mésopélagique"
+      ],
+      "correct": 0,
+      "answer": "Zone hadale",
+      "explanation": "La zone hadale, située entre six mille et onze mille mètres de profondeur, subit une pression d’environ mille fois la pression atmosphérique.",
+      "explanationAudio": "La zone hadale, située entre six mille et onze mille mètres de profondeur, subit une pression d’environ mille fois la pression atmosphérique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of the ocean highlighting the hadal zone at depths of eight thousand meters, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the epipelagic zone near the surface with bright sunlight, detailed water, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of the mesopelagic zone with dim light and mid‑depth creatures, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle est la principale source d’énergie pour les écosystèmes des abysses dépourvus de lumière ?",
+      "questionAudio": "Quelle est la principale source d’énergie pour les écosystèmes des abysses dépourvus de lumière ?",
       "emojis": [
         "🦠",
+        "🔥",
+        "🌋",
+        "🔬",
         "🌊",
-        "📜",
-        "🪨",
-        "🧬",
-        "🌍",
-        "🔬"
-      ],
-      "options": [
-        "Spongiforme",
-        "Dickinsonia",
-        "Ediacara"
-      ],
-      "correct": 1,
-      "answer": "Dickinsonia",
-      "explanation": "Dickinsonia, découvert dans les roches d’Ediacarien, représente l’un des premiers animaux à plusieurs cellules.",
-      "explanationAudio": "Dickinsonia, découvert dans les roches d’Ediacarien, représente l’un des premiers animaux à plusieurs cellules.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of an ancient sponge‑like organism in early oceanic conditions, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D reconstruction of Dickinsonia lying on a Precambrian seabed, soft lighting and realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of an Ediacaran community with various soft‑bodied organisms, underwater ambience, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel phénomène géologique a permis la formation du supercontinent Pangée ?",
-      "questionAudio": "Quel phénomène géologique a permis la formation du supercontinent Pangée ?",
-      "emojis": [
-        "🌍",
-        "🗺️",
-        "🪨",
-        "🏔️",
-        "🌊",
-        "🔭",
+        "🧪",
         "📚"
       ],
       "options": [
-        "La dérive des continents",
-        "L’expansion du manteau",
-        "Le retournement des pôles"
+        "La chimiosynthèse",
+        "La respiration",
+        "La photosynthèse"
       ],
       "correct": 0,
-      "answer": "La dérive des continents",
-      "explanation": "La dérive des continents, due aux mouvements des plaques tectoniques, a rassemblé les terres pour former Pangée.",
-      "explanationAudio": "La dérive des continents, due aux mouvements des plaques tectoniques, a rassemblé les terres pour former Pangée.",
+      "answer": "La chimiosynthèse",
+      "explanation": "Dans les abysses sans lumière, les bactéries utilisent la chimiosynthèse, transformant les produits chimiques en énergie.",
+      "explanationAudio": "Dans les abysses sans lumière, les bactéries utilisent la chimiosynthèse, transformant les produits chimiques en énergie.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic animation of tectonic plates converging to form Pangea, realistic mantle flow and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of mantle upwelling creating a bulge, cinematic lighting and textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D visualization of a magnetic pole reversal with aurora effects, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of chemosynthetic bacteria near hydrothermal vents, glowing, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render showing marine organisms breathing oxygen, realistic underwater environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of photosynthetic algae under sunlight, unrealistic for abyss, but for contrast, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel type de roche sédimentaire contient généralement les plus grands fossiles de dinosaures ?",
-      "questionAudio": "Quel type de roche sédimentaire contient généralement les plus grands fossiles de dinosaures ?",
+      "question": "Quel est le nom du courant océanique qui transporte de l’eau froide du sud vers le nord le long de la côte ouest de l’Amérique du Sud ?",
+      "questionAudio": "Quel est le nom du courant océanique qui transporte de l’eau froide du sud vers le nord le long de la côte ouest de l’Amérique du Sud ?",
       "emojis": [
-        "🪨",
-        "⛏️",
-        "🦖",
-        "📚",
-        "🌍",
-        "🔬",
-        "🏞️"
+        "🌊",
+        "🗺️",
+        "🇵🇪",
+        "🇺🇸",
+        "🇯🇵",
+        "📍",
+        "🧭"
       ],
       "options": [
-        "Le calcaire",
-        "Le schiste",
-        "Le grès"
+        "Courant de Humboldt",
+        "Courant du Gulf Stream",
+        "Courant de Kuroshio"
       ],
-      "correct": 2,
-      "answer": "Le grès",
-      "explanation": "Le grès, formé par le compactage du sable, conserve souvent de volumineux ossements de dinosaures.",
-      "explanationAudio": "Le grès, formé par le compactage du sable, conserve souvent de volumineux ossements de dinosaures.",
+      "correct": 0,
+      "answer": "Courant de Humboldt",
+      "explanation": "Le courant de Humboldt, aussi appelé courant péruvien, apporte de l’eau froide du sud le long de la côte ouest de l’Amérique du Sud.",
+      "explanationAudio": "Le courant de Humboldt, aussi appelé courant péruvien, apporte de l’eau froide du sud le long de la côte ouest de l’Amérique du Sud.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D render of limestone cliffs with embedded small marine fossils, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of metamorphic schist with foliated textures, subtle lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of sandstone layers revealing a massive dinosaur femur, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D realistic map showing the Humboldt current flowing north along the South American west coast, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the Gulf Stream moving north along the Atlantic coast of the United States, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of the Kuroshio current flowing past Japan, vibrant water textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle espèce de mammifère marin détient le record du plus grand plongeon enregistré ?",
+      "questionAudio": "Quelle espèce de mammifère marin détient le record du plus grand plongeon enregistré ?",
+      "emojis": [
+        "🐋",
+        "🤿",
+        "🌊",
+        "❄️",
+        "📏",
+        "🧊",
+        "🔍"
+      ],
+      "options": [
+        "Le cachalot",
+        "Le grand dauphin",
+        "Le phoque de Weddell"
+      ],
+      "correct": 0,
+      "answer": "Le cachalot",
+      "explanation": "Le cachalot peut plonger à plus de deux mille neuf cents mètres, établissant le record du plus grand plongeon parmi les mammifères marins.",
+      "explanationAudio": "Le cachalot peut plonger à plus de deux mille neuf cents mètres, établissant le record du plus grand plongeon parmi les mammifères marins.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D depiction of a sperm whale diving deep into the ocean, dramatic lighting, detailed skin, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a bottlenose dolphin leaping near the surface, bright water, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a Weddell seal on an Antarctic ice shelf, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

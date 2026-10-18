@@ -1,28 +1,28 @@
 [
   {
-    "question": "Quelle est la profondeur moyenne des océans du monde ?",
-    "questionAudio": "Quelle est la profondeur moyenne des océans du monde ?",
+    "question": "Quel paradoxe illustre que même un hôtel complet peut accueillir de nouveaux clients en déplaçant les occupants ?",
+    "questionAudio": "Quel paradoxe illustre que même un hôtel complet peut accueillir de nouveaux clients en déplaçant les occupants ?",
     "options": [
-      "Six mille mètres",
-      "Deux mille mètres",
-      "Quatre mille mètres"
+      "Le paradoxe de Zénon",
+      "Le paradoxe du chat de Schrödinger",
+      "Le paradoxe de l’hôtel de Hilbert"
     ],
     "correct": 2,
-    "explanation": "La profondeur moyenne des océans est d’environ trois mille sept cents mètres, soit proche de quatre mille mètres.",
-    "explanationAudio": "La profondeur moyenne des océans est d’environ trois mille sept cents mètres, soit proche de quatre mille mètres.",
+    "explanation": "Le paradoxe de l’hôtel de Hilbert montre comment un hôtel infini peut toujours accueillir plus de visiteurs.",
+    "explanationAudio": "Le paradoxe de l’hôtel de Hilbert montre comment un hôtel infini peut toujours accueillir plus de visiteurs.",
     "emojis": [
-      "🌊",
-      "🐋",
-      "🦑",
+      "🏨",
+      "👥",
+      "♾️",
       "📏",
-      "🔎",
-      "🌍",
-      "⚓"
+      "🤯",
+      "🧩",
+      "🚪"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of the ocean floor with a marker at six thousand meters depth, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a cross‑section of the ocean showing two thousand meters depth, realistic water textures, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a vast ocean surface with a depth gauge indicating four thousand meters, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D scene depicting Achilles and a tortoise on a race track, stylized, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a cat inside a sealed box with a radioactive source, glowing particles, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of an infinite hotel corridor with doors opening to reveal more rooms, cinematic lighting, ultra detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le principal producteur de lumière dans les profondeurs abyssales ?",
-    "questionAudio": "Quel est le principal producteur de lumière dans les profondeurs abyssales ?",
+    "question": "Quelle proposition logique affirme que si A implique B et B implique C alors A implique C ?",
+    "questionAudio": "Quelle proposition logique affirme que si A implique B et B implique C alors A implique C ?",
     "options": [
-      "Les poissons bioluminescents",
-      "Les algues",
-      "Les coraux"
+      "Le principe du tiers exclu",
+      "Le modus ponens",
+      "Le syllogisme hypothétique"
     ],
-    "correct": 0,
-    "explanation": "Dans les abysses, ce sont surtout les poissons bioluminescents qui émettent de la lumière pour attirer des proies ou communiquer.",
-    "explanationAudio": "Dans les abysses, ce sont surtout les poissons bioluminescents qui émettent de la lumière pour attirer des proies ou communiquer.",
+    "correct": 2,
+    "explanation": "Le syllogisme hypothétique exprime la transitivité de l’implication logique.",
+    "explanationAudio": "Le syllogisme hypothétique exprime la transitivité de l’implication logique.",
     "emojis": [
-      "🐟",
-      "💡",
-      "🌊",
-      "🦑",
-      "🔦",
-      "🧜‍♀️",
-      "🌌"
+      "🧠",
+      "📚",
+      "🔗",
+      "📖",
+      "🧩",
+      "✅",
+      "🗂️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a deep‑sea fish emitting a blue bioluminescent glow, photorealistic, detailed scales, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of algae in the abyss, showing minimal light, realistic water, subtle glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a deep‑sea coral with faint lighting, realistic textures, underwater scene, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D visual of a binary switch labeled true and false, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a logical flow chart with premises leading to a conclusion, sleek design, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D representation of three linked statements forming a conditional chain, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle zone océanique est caractérisée par une pression d’environ mille fois la pression atmosphérique ?",
-    "questionAudio": "Quelle zone océanique est caractérisée par une pression d’environ mille fois la pression atmosphérique ?",
+    "question": "Quel problème consiste à déterminer si chaque nombre impair supérieur à cinq peut être exprimé comme la somme de trois nombres premiers ?",
+    "questionAudio": "Quel problème consiste à déterminer si chaque nombre impair supérieur à cinq peut être exprimé comme la somme de trois nombres premiers ?",
     "options": [
-      "Zone hadale",
-      "Zone épipélagique",
-      "Zone mésopélagique"
+      "La conjecture de Goldbach faible",
+      "Le problème des quatre couleurs",
+      "Le théorème de Fermat"
     ],
     "correct": 0,
-    "explanation": "La zone hadale, située entre six mille et onze mille mètres de profondeur, subit une pression d’environ mille fois la pression atmosphérique.",
-    "explanationAudio": "La zone hadale, située entre six mille et onze mille mètres de profondeur, subit une pression d’environ mille fois la pression atmosphérique.",
+    "explanation": "La conjecture de Goldbach faible affirme que tout nombre impair supérieur à cinq est somme de trois nombres premiers.",
+    "explanationAudio": "La conjecture de Goldbach faible affirme que tout nombre impair supérieur à cinq est somme de trois nombres premiers.",
     "emojis": [
-      "🔱",
-      "⚓",
-      "🌊",
+      "🧮",
+      "🔢",
+      "🧩",
       "📊",
-      "🧭",
-      "🌍",
-      "💧"
+      "🧠",
+      "🎲",
+      "📈"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of the ocean highlighting the hadal zone at depths of eight thousand meters, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the epipelagic zone near the surface with bright sunlight, detailed water, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of the mesopelagic zone with dim light and mid‑depth creatures, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of odd numbers composed of three prime spheres merging, vibrant, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D map of a planar region colored with four distinct colors, detailed textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D depiction of a large equation with a superscript three, ancient parchment style, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,29 +90,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle est la principale source d’énergie pour les écosystèmes des abysses dépourvus de lumière ?",
-    "questionAudio": "Quelle est la principale source d’énergie pour les écosystèmes des abysses dépourvus de lumière ?",
+    "question": "Quel concept logique désigne une affirmation qui ne peut être ni vraie ni fausse dans un système classique ?",
+    "questionAudio": "Quel concept logique désigne une affirmation qui ne peut être ni vraie ni fausse dans un système classique ?",
     "options": [
-      "La chimiosynthèse",
-      "La respiration",
-      "La photosynthèse"
+      "Le syllogisme disjonctif",
+      "Le paradoxe du menteur",
+      "Le principe de non‑contradiction"
     ],
-    "correct": 0,
-    "explanation": "Dans les abysses sans lumière, les bactéries utilisent la chimiosynthèse, transformant les produits chimiques en énergie.",
-    "explanationAudio": "Dans les abysses sans lumière, les bactéries utilisent la chimiosynthèse, transformant les produits chimiques en énergie.",
+    "correct": 1,
+    "explanation": "Le paradoxe du menteur crée une phrase qui se réfute elle‑même, rendant la vérité indéterminée.",
+    "explanationAudio": "Le paradoxe du menteur crée une phrase qui se réfute elle‑même, rendant la vérité indéterminée.",
     "emojis": [
-      "🦠",
-      "🔥",
-      "🌋",
-      "🔬",
-      "🌊",
-      "🧪",
-      "📚"
+      "🤥",
+      "🗣️",
+      "🧩",
+      "❓",
+      "🧠",
+      "📜",
+      "🌀"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of chemosynthetic bacteria near hydrothermal vents, glowing, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render showing marine organisms breathing oxygen, realistic underwater environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of photosynthetic algae under sunlight, unrealistic for abyss, but for contrast, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D diagram showing two alternative paths branching from a decision node, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D portrait of a person speaking a speech bubble that reads 'This statement is false', with reflective surfaces, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D balanced scale with opposing statements, precise lighting, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,59 +120,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le nom du courant océanique qui transporte de l’eau froide du sud vers le nord le long de la côte ouest de l’Amérique du Sud ?",
-    "questionAudio": "Quel est le nom du courant océanique qui transporte de l’eau froide du sud vers le nord le long de la côte ouest de l’Amérique du Sud ?",
+    "question": "Quel type de nombre ne peut pas être exprimé comme le rapport de deux entiers ?",
+    "questionAudio": "Quel type de nombre ne peut pas être exprimé comme le rapport de deux entiers ?",
     "options": [
-      "Courant de Humboldt",
-      "Courant du Gulf Stream",
-      "Courant de Kuroshio"
+      "Nombre irrationnel",
+      "Nombre entier",
+      "Nombre premier"
     ],
     "correct": 0,
-    "explanation": "Le courant de Humboldt, aussi appelé courant péruvien, apporte de l’eau froide du sud le long de la côte ouest de l’Amérique du Sud.",
-    "explanationAudio": "Le courant de Humboldt, aussi appelé courant péruvien, apporte de l’eau froide du sud le long de la côte ouest de l’Amérique du Sud.",
+    "explanation": "Un nombre irrationnel ne peut pas être écrit comme une fraction d’entiers, contrairement aux nombres rationnels.",
+    "explanationAudio": "Un nombre irrationnel ne peut pas être écrit comme une fraction d’entiers, contrairement aux nombres rationnels.",
     "emojis": [
-      "🌊",
-      "🗺️",
-      "🇵🇪",
-      "🇺🇸",
-      "🇯🇵",
-      "📍",
-      "🧭"
+      "📐",
+      "🧮",
+      "🔢",
+      "🌀",
+      "🧠",
+      "📊",
+      "🌐"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D realistic map showing the Humboldt current flowing north along the South American west coast, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the Gulf Stream moving north along the Atlantic coast of the United States, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of the Kuroshio current flowing past Japan, vibrant water textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle espèce de mammifère marin détient le record du plus grand plongeon enregistré ?",
-    "questionAudio": "Quelle espèce de mammifère marin détient le record du plus grand plongeon enregistré ?",
-    "options": [
-      "Le cachalot",
-      "Le grand dauphin",
-      "Le phoque de Weddell"
-    ],
-    "correct": 0,
-    "explanation": "Le cachalot peut plonger à plus de deux mille neuf cents mètres, établissant le record du plus grand plongeon parmi les mammifères marins.",
-    "explanationAudio": "Le cachalot peut plonger à plus de deux mille neuf cents mètres, établissant le record du plus grand plongeon parmi les mammifères marins.",
-    "emojis": [
-      "🐋",
-      "🤿",
-      "🌊",
-      "❄️",
-      "📏",
-      "🧊",
-      "🔍"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D depiction of a sperm whale diving deep into the ocean, dramatic lighting, detailed skin, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a bottlenose dolphin leaping near the surface, bright water, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a Weddell seal on an Antarctic ice shelf, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D representation of the square root of two as an endless spiral, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D stack of integer blocks labeled with whole numbers, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a prime number symbol made of golden blocks, shining, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

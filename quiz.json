@@ -1,118 +1,28 @@
 [
   {
-    "question": "Quel est le rôle principal de la mélatonine dans le corps humain ?",
-    "questionAudio": "Quel est le rôle principal de la mélatonine dans le corps humain ?",
+    "question": "Quel est le facteur biomécanique principal qui détermine la vitesse maximale d’un sprinteur ?",
+    "questionAudio": "Quel est le facteur biomécanique principal qui détermine la vitesse maximale d’un sprinteur ?",
     "options": [
-      "Réguler le cycle veille sommeil",
-      "Stimuler la production d'insuline",
-      "Augmenter la fréquence cardiaque"
+      "La flexibilité de la colonne vertébrale",
+      "Le rythme cardiaque maximal",
+      "La production de force des muscles des jambes"
     ],
-    "correct": 0,
-    "explanation": "La mélatonine prépare le corps au sommeil en synchronisant le rythme circadien.",
-    "explanationAudio": "La mélatonine prépare le corps au sommeil en synchronisant le rythme circadien.",
+    "correct": 2,
+    "explanation": "La capacité à générer une grande force propulsive avec les muscles des jambes est le déterminant majeur de la vitesse maximale.",
+    "explanationAudio": "La capacité à générer une grande force propulsive avec les muscles des jambes est le déterminant majeur de la vitesse maximale.",
     "emojis": [
-      "🌙",
-      "💤",
-      "🧬",
-      "🕒",
-      "🧪",
-      "🔬",
-      "🧠"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a pineal gland releasing melatonin molecules under a night sky, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a pancreas secreting insulin with bright colors, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of a beating heart with highlighted rhythm, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Combien de cycles de sommeil complet parcourt on pendant une nuit typique ?",
-    "questionAudio": "Combien de cycles de sommeil complet parcourt on pendant une nuit typique ?",
-    "options": [
-      "Quatre à cinq",
-      "Six à sept",
-      "Deux à trois"
-    ],
-    "correct": 0,
-    "explanation": "Une nuit de sommeil normale comprend généralement entre quatre et cinq cycles complets.",
-    "explanationAudio": "Une nuit de sommeil normale comprend généralement entre quatre et cinq cycles complets.",
-    "emojis": [
-      "🛏️",
-      "🌙",
-      "🔄",
-      "🕗",
-      "💤",
+      "🏃‍♂️",
+      "🦵",
+      "⚡",
       "📊",
-      "🧠"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a sleeping person with a circular diagram showing four to five sleep cycles, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of six to seven overlapping sleep cycles around a bed, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a person with two to three sleep stages highlighted, gentle glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel stade du sommeil est principalement associé à la consolidation de la mémoire ?",
-    "questionAudio": "Quel stade du sommeil est principalement associé à la consolidation de la mémoire ?",
-    "options": [
-      "Sommeil paradoxal",
-      "Sommeil léger",
-      "Sommeil lent profond"
-    ],
-    "correct": 0,
-    "explanation": "Le sommeil paradoxal, ou REM, joue un rôle clé dans le renforcement des souvenirs.",
-    "explanationAudio": "Le sommeil paradoxal, ou REM, joue un rôle clé dans le renforcement des souvenirs.",
-    "emojis": [
-      "🧠",
-      "💤",
-      "🔁",
-      "🌙",
-      "📚",
-      "🧬",
-      "🛌"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D brain during REM sleep with vivid dream imagery, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D scene of a sleeping head showing light sleep with subtle brain waves, gentle illumination, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a brain in deep slow wave sleep with low activity, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel effet la privation de sommeil prolongée a t elle sur le système immunitaire ?",
-    "questionAudio": "Quel effet la privation de sommeil prolongée a t elle sur le système immunitaire ?",
-    "options": [
-      "Aucun impact notable",
-      "Diminution de la réponse immunitaire",
-      "Augmentation de la production d’anticorps"
-    ],
-    "correct": 1,
-    "explanation": "Le manque de sommeil affaiblit la capacité du corps à combattre les infections.",
-    "explanationAudio": "Le manque de sommeil affaiblit la capacité du corps à combattre les infections.",
-    "emojis": [
-      "🦠",
-      "💤",
-      "⚠️",
-      "🛡️",
-      "📉",
-      "🧬",
+      "💪",
+      "🏅",
       "🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D neutral scene of a sleeping individual with unchanged immune cells, soft focus, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic depiction of a weakened immune system with fewer white blood cells under a sleeping figure, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration showing an abundance of antibodies surrounding a sleeping person, bright colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a flexible spine bending, soft lighting, anatomical detail, not related to sprint speed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model of a heart beating at high rate, glowing veins, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a sprinter's legs in mid‑stride, muscles highlighted in red, cinematic lighting, showing force vectors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle pratique favorise le mieux une hygiène du sommeil optimale ?",
-    "questionAudio": "Quelle pratique favorise le mieux une hygiène du sommeil optimale ?",
+    "question": "Quel joint subit le couple de torsion le plus élevé lors d’un squat profond ?",
+    "questionAudio": "Quel joint subit le couple de torsion le plus élevé lors d’un squat profond ?",
     "options": [
-      "Faire de l exercice intense juste avant le coucher",
-      "Éteindre les écrans au moins une heure avant le coucher",
-      "Boire un café fort avant de dormir"
+      "L’articulation de la cheville",
+      "L’articulation du genou",
+      "L’articulation de l’épaule"
     ],
     "correct": 1,
-    "explanation": "Réduire l’exposition aux écrans aide le cerveau à préparer le sommeil.",
-    "explanationAudio": "Réduire l’exposition aux écrans aide le cerveau à préparer le sommeil.",
+    "explanation": "Le genou porte la majeure partie du moment de force pendant la phase descendante du squat.",
+    "explanationAudio": "Le genou porte la majeure partie du moment de force pendant la phase descendante du squat.",
     "emojis": [
-      "📱",
-      "🌙",
-      "🛌",
-      "🚫",
-      "☕",
-      "🏃‍♀️",
-      "💡"
+      "🏋️‍♀️",
+      "🦵",
+      "📏",
+      "⚙️",
+      "💥",
+      "🔍",
+      "🦴"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a person doing high intensity workout right before bed, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a bedroom with a smartphone turned off and a dim lamp, emphasizing calm, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a coffee cup steaming beside a sleeping person, bright colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D model of an ankle joint under load, detailed bones and ligaments, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a person performing a deep squat, knee joint highlighted with torque arrows, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an shoulder joint with weights, realistic textures, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -150,59 +60,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le terme scientifique du phénomène où le corps augmente sa température avant le réveil ?",
-    "questionAudio": "Quel est le terme scientifique du phénomène où le corps augmente sa température avant le réveil ?",
+    "question": "Quel type de contraction musculaire domine pendant la phase concentrique d’un saut ?",
+    "questionAudio": "Quel type de contraction musculaire domine pendant la phase concentrique d’un saut ?",
     "options": [
-      "Effet de l obscurité",
-      "Réaction cortisolique",
-      "Thermorégulation matinale"
+      "Contraction isométrique",
+      "Contraction concentrique",
+      "Contraction excentrique"
+    ],
+    "correct": 1,
+    "explanation": "Lors de la poussée vers le haut, les muscles raccourcissent activement, ce qui correspond à une contraction concentrique.",
+    "explanationAudio": "Lors de la poussée vers le haut, les muscles raccourcissent activement, ce qui correspond à une contraction concentrique.",
+    "emojis": [
+      "🤾‍♀️",
+      "💪",
+      "⬆️",
+      "🔬",
+      "⚡",
+      "📐",
+      "🏃‍♀️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a muscle holding length under tension, isometric state, muted colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of a muscle being stretched under load, excentric action, detailed fibers, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of an athlete in mid‑jump, muscles highlighted to show concentric contraction, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment l’allongement de la foulée influence l’économie de course chez le coureur ?",
+    "questionAudio": "Comment l’allongement de la foulée influence l’économie de course chez le coureur ?",
+    "options": [
+      "Améliore l’économie en réduisant le nombre de pas",
+      "Diminue l’économie en augmentant les forces de réaction au sol",
+      "N’a aucun effet sur l’économie"
+    ],
+    "correct": 1,
+    "explanation": "Une foulée trop longue augmente les forces d’impact, ce qui élève la dépense énergétique et réduit l’efficacité.",
+    "explanationAudio": "Une foulée trop longue augmente les forces d’impact, ce qui élève la dépense énergétique et réduit l’efficacité.",
+    "emojis": [
+      "🏃‍♂️",
+      "📏",
+      "⚖️",
+      "💨",
+      "🔬",
+      "🦶",
+      "📊"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of a runner with an extended stride, ground reaction forces shown as red vectors, realistic environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a runner with optimal stride length, minimal force arrows, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D abstract representation of a runner with no change in stride, neutral colors, studio setup, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel paramètre du cadre de tennis influence le plus la vitesse de la balle après impact ?",
+    "questionAudio": "Quel paramètre du cadre de tennis influence le plus la vitesse de la balle après impact ?",
+    "options": [
+      "La longueur du cadre",
+      "La tension des cordes",
+      "Le poids du cadre"
+    ],
+    "correct": 1,
+    "explanation": "Une tension plus élevée des cordes augmente la restitution d’énergie, ce qui accélère la balle.",
+    "explanationAudio": "Une tension plus élevée des cordes augmente la restitution d’énergie, ce qui accélère la balle.",
+    "emojis": [
+      "🎾",
+      "🏸",
+      "🔧",
+      "⚡",
+      "📐",
+      "💥",
+      "🏆"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of an extended tennis racket, length emphasized, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a tennis racket with strings under high tension, glowing energy lines, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a heavy tennis racket balanced on a scale, realistic textures, studio light, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est l’effet d’une force de réaction au sol élevée lors d’un atterrissage sur le risque de blessure ?",
+    "questionAudio": "Quel est l’effet d’une force de réaction au sol élevée lors d’un atterrissage sur le risque de blessure ?",
+    "options": [
+      "N’a aucun impact sur le risque de blessure",
+      "Réduit le risque en renforçant la densité osseuse",
+      "Augmente le risque en raison de forces d’impact plus importantes"
     ],
     "correct": 2,
-    "explanation": "La thermorégulation matinale décrit l’augmentation naturelle de la température corporelle avant le lever.",
-    "explanationAudio": "La thermorégulation matinale décrit l’augmentation naturelle de la température corporelle avant le lever.",
+    "explanation": "Des forces d’impact élevées sollicitent davantage les tissus musculo‑squelettiques, augmentant la probabilité de lésions.",
+    "explanationAudio": "Des forces d’impact élevées sollicitent davantage les tissus musculo‑squelettiques, augmentant la probabilité de lésions.",
     "emojis": [
-      "🌅",
-      "🌡️",
-      "🧬",
-      "🕖",
+      "🤸‍♀️",
+      "🦴",
+      "⚡",
+      "📉",
       "🔬",
-      "💤",
-      "⚙️"
+      "🚑",
+      "💥"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D scene of darkness surrounding a sleeping figure with no temperature change, muted tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D depiction of cortisol molecules increasing near a sunrise, vibrant glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a human body with a temperature gauge rising at dawn, soft sunrise lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel trouble du sommeil se caractérise par des pauses respiratoires répétées pendant la nuit ?",
-    "questionAudio": "Quel trouble du sommeil se caractérise par des pauses respiratoires répétées pendant la nuit ?",
-    "options": [
-      "Narcolepsie",
-      "Apnée du sommeil",
-      "Insomnie"
-    ],
-    "correct": 1,
-    "explanation": "L’apnée du sommeil provoque des arrêts temporaires de la respiration pendant le repos.",
-    "explanationAudio": "L’apnée du sommeil provoque des arrêts temporaires de la respiration pendant le repos.",
-    "emojis": [
-      "😴",
-      "🫁",
-      "🚨",
-      "💤",
-      "🔊",
-      "🛏️",
-      "🧭"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D scene depicting sudden sleep attacks in a daytime setting, bright lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a sleeping person with airway blockage visualized, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a person lying awake in a dark room, showing insomnia, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D abstract image showing no forces, calm colors, neutral pose, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of an athlete landing from a jump, ground reaction forces visualized as intense red arrows, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of bone remodeling under moderate load, subtle lighting, educational style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

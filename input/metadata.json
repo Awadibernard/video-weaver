@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Science du Sport & Biomécanique",
-  "description": "Plongez dans les secrets du corps en mouvement et découvrez comment la science explique la performance sportive.",
+  "topic": "🧠 Quiz : Paléontologie & Histoire de la Terre",
+  "description": "Teste tes connaissances sur les fossiles, les extinctions et les grands événements qui ont façonné notre planète.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,168 +19,141 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Quel est le facteur biomécanique principal qui détermine la vitesse maximale d’un sprinteur ?",
-      "questionAudio": "Quel est le facteur biomécanique principal qui détermine la vitesse maximale d’un sprinteur ?",
+      "question": "Quel événement marque la fin du Permien, la plus grande extinction de masse de l’histoire de la Terre ?",
+      "questionAudio": "Quel événement marque la fin du Permien, la plus grande extinction de masse de l’histoire de la Terre ?",
       "emojis": [
-        "🏃‍♂️",
-        "🦵",
-        "⚡",
-        "📊",
-        "💪",
-        "🏅",
+        "🦖",
+        "🦕",
+        "🌋",
+        "🌍",
+        "📚",
+        "🪨",
         "🔬"
       ],
       "options": [
-        "La flexibilité de la colonne vertébrale",
-        "Le rythme cardiaque maximal",
-        "La production de force des muscles des jambes"
+        "L’extinction du Crétacé‑Paléogène",
+        "L’extinction du Dévonien",
+        "L’extinction du Permien‑Trias"
       ],
       "correct": 2,
-      "answer": "La production de force des muscles des jambes",
-      "explanation": "La capacité à générer une grande force propulsive avec les muscles des jambes est le déterminant majeur de la vitesse maximale.",
-      "explanationAudio": "La capacité à générer une grande force propulsive avec les muscles des jambes est le déterminant majeur de la vitesse maximale.",
+      "answer": "L’extinction du Permien‑Trias",
+      "explanation": "L’extinction du Permien‑Trias a éliminé plus de soixante‑cinq pour cent des espèces marines et terrestres.",
+      "explanationAudio": "L’extinction du Permien‑Trias a éliminé plus de soixante‑cinq pour cent des espèces marines et terrestres.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a flexible spine bending, soft lighting, anatomical detail, not related to sprint speed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a heart beating at high rate, glowing veins, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a sprinter's legs in mid‑stride, muscles highlighted in red, cinematic lighting, showing force vectors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of a Cretaceous shoreline with asteroid impact fireball, high detail, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of an early Devonian marine reef with soft‑bodied organisms, underwater lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic scene of a volcanic eruption blanketing the Permian landscape with ash, detailed atmospheric effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel joint subit le couple de torsion le plus élevé lors d’un squat profond ?",
-      "questionAudio": "Quel joint subit le couple de torsion le plus élevé lors d’un squat profond ?",
+      "question": "Quel groupe de dinosaures est connu pour ses longues cornes et son col bosselé ?",
+      "questionAudio": "Quel groupe de dinosaures est connu pour ses longues cornes et son col bosselé ?",
       "emojis": [
-        "🏋️‍♀️",
-        "🦵",
-        "📏",
-        "⚙️",
-        "💥",
-        "🔍",
-        "🦴"
-      ],
-      "options": [
-        "L’articulation de la cheville",
-        "L’articulation du genou",
-        "L’articulation de l’épaule"
-      ],
-      "correct": 1,
-      "answer": "L’articulation du genou",
-      "explanation": "Le genou porte la majeure partie du moment de force pendant la phase descendante du squat.",
-      "explanationAudio": "Le genou porte la majeure partie du moment de force pendant la phase descendante du squat.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of an ankle joint under load, detailed bones and ligaments, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a person performing a deep squat, knee joint highlighted with torque arrows, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an shoulder joint with weights, realistic textures, studio lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel type de contraction musculaire domine pendant la phase concentrique d’un saut ?",
-      "questionAudio": "Quel type de contraction musculaire domine pendant la phase concentrique d’un saut ?",
-      "emojis": [
-        "🤾‍♀️",
-        "💪",
-        "⬆️",
-        "🔬",
-        "⚡",
-        "📐",
-        "🏃‍♀️"
-      ],
-      "options": [
-        "Contraction isométrique",
-        "Contraction concentrique",
-        "Contraction excentrique"
-      ],
-      "correct": 1,
-      "answer": "Contraction concentrique",
-      "explanation": "Lors de la poussée vers le haut, les muscles raccourcissent activement, ce qui correspond à une contraction concentrique.",
-      "explanationAudio": "Lors de la poussée vers le haut, les muscles raccourcissent activement, ce qui correspond à une contraction concentrique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a muscle holding length under tension, isometric state, muted colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of a muscle being stretched under load, excentric action, detailed fibers, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of an athlete in mid‑jump, muscles highlighted to show concentric contraction, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Comment l’allongement de la foulée influence l’économie de course chez le coureur ?",
-      "questionAudio": "Comment l’allongement de la foulée influence l’économie de course chez le coureur ?",
-      "emojis": [
-        "🏃‍♂️",
-        "📏",
-        "⚖️",
-        "💨",
-        "🔬",
-        "🦶",
-        "📊"
-      ],
-      "options": [
-        "Améliore l’économie en réduisant le nombre de pas",
-        "Diminue l’économie en augmentant les forces de réaction au sol",
-        "N’a aucun effet sur l’économie"
-      ],
-      "correct": 1,
-      "answer": "Diminue l’économie en augmentant les forces de réaction au sol",
-      "explanation": "Une foulée trop longue augmente les forces d’impact, ce qui élève la dépense énergétique et réduit l’efficacité.",
-      "explanationAudio": "Une foulée trop longue augmente les forces d’impact, ce qui élève la dépense énergétique et réduit l’efficacité.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic visualization of a runner with an extended stride, ground reaction forces shown as red vectors, realistic environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a runner with optimal stride length, minimal force arrows, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D abstract representation of a runner with no change in stride, neutral colors, studio setup, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel paramètre du cadre de tennis influence le plus la vitesse de la balle après impact ?",
-      "questionAudio": "Quel paramètre du cadre de tennis influence le plus la vitesse de la balle après impact ?",
-      "emojis": [
-        "🎾",
-        "🏸",
-        "🔧",
-        "⚡",
-        "📐",
-        "💥",
-        "🏆"
-      ],
-      "options": [
-        "La longueur du cadre",
-        "La tension des cordes",
-        "Le poids du cadre"
-      ],
-      "correct": 1,
-      "answer": "La tension des cordes",
-      "explanation": "Une tension plus élevée des cordes augmente la restitution d’énergie, ce qui accélère la balle.",
-      "explanationAudio": "Une tension plus élevée des cordes augmente la restitution d’énergie, ce qui accélère la balle.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of an extended tennis racket, length emphasized, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a tennis racket with strings under high tension, glowing energy lines, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a heavy tennis racket balanced on a scale, realistic textures, studio light, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est l’effet d’une force de réaction au sol élevée lors d’un atterrissage sur le risque de blessure ?",
-      "questionAudio": "Quel est l’effet d’une force de réaction au sol élevée lors d’un atterrissage sur le risque de blessure ?",
-      "emojis": [
-        "🤸‍♀️",
+        "🦖",
+        "🦕",
         "🦴",
-        "⚡",
-        "📉",
-        "🔬",
-        "🚑",
-        "💥"
+        "🌿",
+        "🌋",
+        "📖",
+        "🪨"
       ],
       "options": [
-        "N’a aucun impact sur le risque de blessure",
-        "Réduit le risque en renforçant la densité osseuse",
-        "Augmente le risque en raison de forces d’impact plus importantes"
+        "Stegosaurus",
+        "Brachiosaurus",
+        "Triceratops"
       ],
       "correct": 2,
-      "answer": "Augmente le risque en raison de forces d’impact plus importantes",
-      "explanation": "Des forces d’impact élevées sollicitent davantage les tissus musculo‑squelettiques, augmentant la probabilité de lésions.",
-      "explanationAudio": "Des forces d’impact élevées sollicitent davantage les tissus musculo‑squelettiques, augmentant la probabilité de lésions.",
+      "answer": "Triceratops",
+      "explanation": "Le Triceratops possédait trois cornes proéminentes et un large col orné de boucliers osseux.",
+      "explanationAudio": "Le Triceratops possédait trois cornes proéminentes et un large col orné de boucliers osseux.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D abstract image showing no forces, calm colors, neutral pose, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of an athlete landing from a jump, ground reaction forces visualized as intense red arrows, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of bone remodeling under moderate load, subtle lighting, educational style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a Stegosaurus with its plated back illuminated by sunrise, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a Brachiosaurus reaching high into Jurassic trees, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a Triceratops standing in a Cretaceous forest, detailed skin texture and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le plus ancien fossile connu d’un organisme multicellulaire ?",
+      "questionAudio": "Quel est le plus ancien fossile connu d’un organisme multicellulaire ?",
+      "emojis": [
+        "🦠",
+        "🌊",
+        "📜",
+        "🪨",
+        "🧬",
+        "🌍",
+        "🔬"
+      ],
+      "options": [
+        "Spongiforme",
+        "Dickinsonia",
+        "Ediacara"
+      ],
+      "correct": 1,
+      "answer": "Dickinsonia",
+      "explanation": "Dickinsonia, découvert dans les roches d’Ediacarien, représente l’un des premiers animaux à plusieurs cellules.",
+      "explanationAudio": "Dickinsonia, découvert dans les roches d’Ediacarien, représente l’un des premiers animaux à plusieurs cellules.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of an ancient sponge‑like organism in early oceanic conditions, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D reconstruction of Dickinsonia lying on a Precambrian seabed, soft lighting and realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of an Ediacaran community with various soft‑bodied organisms, underwater ambience, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel phénomène géologique a permis la formation du supercontinent Pangée ?",
+      "questionAudio": "Quel phénomène géologique a permis la formation du supercontinent Pangée ?",
+      "emojis": [
+        "🌍",
+        "🗺️",
+        "🪨",
+        "🏔️",
+        "🌊",
+        "🔭",
+        "📚"
+      ],
+      "options": [
+        "La dérive des continents",
+        "L’expansion du manteau",
+        "Le retournement des pôles"
+      ],
+      "correct": 0,
+      "answer": "La dérive des continents",
+      "explanation": "La dérive des continents, due aux mouvements des plaques tectoniques, a rassemblé les terres pour former Pangée.",
+      "explanationAudio": "La dérive des continents, due aux mouvements des plaques tectoniques, a rassemblé les terres pour former Pangée.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic animation of tectonic plates converging to form Pangea, realistic mantle flow and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of mantle upwelling creating a bulge, cinematic lighting and textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D visualization of a magnetic pole reversal with aurora effects, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type de roche sédimentaire contient généralement les plus grands fossiles de dinosaures ?",
+      "questionAudio": "Quel type de roche sédimentaire contient généralement les plus grands fossiles de dinosaures ?",
+      "emojis": [
+        "🪨",
+        "⛏️",
+        "🦖",
+        "📚",
+        "🌍",
+        "🔬",
+        "🏞️"
+      ],
+      "options": [
+        "Le calcaire",
+        "Le schiste",
+        "Le grès"
+      ],
+      "correct": 2,
+      "answer": "Le grès",
+      "explanation": "Le grès, formé par le compactage du sable, conserve souvent de volumineux ossements de dinosaures.",
+      "explanationAudio": "Le grès, formé par le compactage du sable, conserve souvent de volumineux ossements de dinosaures.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of limestone cliffs with embedded small marine fossils, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of metamorphic schist with foliated textures, subtle lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of sandstone layers revealing a massive dinosaur femur, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

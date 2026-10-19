@@ -1,88 +1,28 @@
 [
   {
-    "question": "Quel paradoxe illustre que même un hôtel complet peut accueillir de nouveaux clients en déplaçant les occupants ?",
-    "questionAudio": "Quel paradoxe illustre que même un hôtel complet peut accueillir de nouveaux clients en déplaçant les occupants ?",
+    "question": "Comment Alexander Fleming a t il découvert la pénicilline ?",
+    "questionAudio": "Comment Alexander Fleming a t il découvert la pénicilline ?",
     "options": [
-      "Le paradoxe de Zénon",
-      "Le paradoxe du chat de Schrödinger",
-      "Le paradoxe de l’hôtel de Hilbert"
-    ],
-    "correct": 2,
-    "explanation": "Le paradoxe de l’hôtel de Hilbert montre comment un hôtel infini peut toujours accueillir plus de visiteurs.",
-    "explanationAudio": "Le paradoxe de l’hôtel de Hilbert montre comment un hôtel infini peut toujours accueillir plus de visiteurs.",
-    "emojis": [
-      "🏨",
-      "👥",
-      "♾️",
-      "📏",
-      "🤯",
-      "🧩",
-      "🚪"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D scene depicting Achilles and a tortoise on a race track, stylized, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a cat inside a sealed box with a radioactive source, glowing particles, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of an infinite hotel corridor with doors opening to reveal more rooms, cinematic lighting, ultra detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle proposition logique affirme que si A implique B et B implique C alors A implique C ?",
-    "questionAudio": "Quelle proposition logique affirme que si A implique B et B implique C alors A implique C ?",
-    "options": [
-      "Le principe du tiers exclu",
-      "Le modus ponens",
-      "Le syllogisme hypothétique"
-    ],
-    "correct": 2,
-    "explanation": "Le syllogisme hypothétique exprime la transitivité de l’implication logique.",
-    "explanationAudio": "Le syllogisme hypothétique exprime la transitivité de l’implication logique.",
-    "emojis": [
-      "🧠",
-      "📚",
-      "🔗",
-      "📖",
-      "🧩",
-      "✅",
-      "🗂️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D visual of a binary switch labeled true and false, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a logical flow chart with premises leading to a conclusion, sleek design, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D representation of three linked statements forming a conditional chain, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel problème consiste à déterminer si chaque nombre impair supérieur à cinq peut être exprimé comme la somme de trois nombres premiers ?",
-    "questionAudio": "Quel problème consiste à déterminer si chaque nombre impair supérieur à cinq peut être exprimé comme la somme de trois nombres premiers ?",
-    "options": [
-      "La conjecture de Goldbach faible",
-      "Le problème des quatre couleurs",
-      "Le théorème de Fermat"
+      "Contamination d’une boîte de pétri par un champignon",
+      "Test délibéré de bactéries contre des composés chimiques",
+      "Observation d’une éruption volcanique"
     ],
     "correct": 0,
-    "explanation": "La conjecture de Goldbach faible affirme que tout nombre impair supérieur à cinq est somme de trois nombres premiers.",
-    "explanationAudio": "La conjecture de Goldbach faible affirme que tout nombre impair supérieur à cinq est somme de trois nombres premiers.",
+    "explanation": "Un champignon s’est développé accidentellement sur une boîte de pétri, inhibant la croissance bactérienne et révélant la pénicilline.",
+    "explanationAudio": "Un champignon s’est développé accidentellement sur une boîte de pétri, inhibant la croissance bactérienne et révélant la pénicilline.",
     "emojis": [
-      "🧮",
-      "🔢",
-      "🧩",
-      "📊",
-      "🧠",
-      "🎲",
-      "📈"
+      "🧫",
+      "🔬",
+      "🦠",
+      "💊",
+      "📜",
+      "🧪",
+      "🧑‍🔬"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of odd numbers composed of three prime spheres merging, vibrant, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D map of a planar region colored with four distinct colors, detailed textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D depiction of a large equation with a superscript three, ancient parchment style, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a vintage laboratory bench with a petri dish showing green mold inhibiting red bacteria, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a scientist in a 1920s coat examining a culture plate, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D macro view of fungal spores spreading on agar, glowing spores, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,59 +30,149 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel concept logique désigne une affirmation qui ne peut être ni vraie ni fausse dans un système classique ?",
-    "questionAudio": "Quel concept logique désigne une affirmation qui ne peut être ni vraie ni fausse dans un système classique ?",
+    "question": "Quel était le but initial de l’expérience qui a conduit à la découverte du fond diffus cosmologique ?",
+    "questionAudio": "Quel était le but initial de l’expérience qui a conduit à la découverte du fond diffus cosmologique ?",
     "options": [
-      "Le syllogisme disjonctif",
-      "Le paradoxe du menteur",
-      "Le principe de non‑contradiction"
+      "Chercher des signaux extraterrestres",
+      "Mesurer les éruptions solaires",
+      "Étudier le bruit de fond d’une antenne radio"
+    ],
+    "correct": 2,
+    "explanation": "Les chercheurs cherchaient à réduire le bruit de leur antenne lorsqu’ils ont détecté un rayonnement uniforme provenant de toutes les directions.",
+    "explanationAudio": "Les chercheurs cherchaient à réduire le bruit de leur antenne lorsqu’ils ont détecté un rayonnement uniforme provenant de toutes les directions.",
+    "emojis": [
+      "🌌",
+      "📡",
+      "🔭",
+      "🛰️",
+      "🧑‍🔬",
+      "🧪",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A realistic 3D model of two scientists adjusting radio equipment inside a dimly lit lab, soft light, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of cosmic microwave background radiation as a subtle veil over a star field, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D scene of a large horn antenna on a remote mountain, with faint microwave glow surrounding it, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel élément fortuit a aidé Watson et Crick à élucider la structure de l’ADN ?",
+    "questionAudio": "Quel élément fortuit a aidé Watson et Crick à élucider la structure de l’ADN ?",
+    "options": [
+      "Modélisation informatique de protéines",
+      "Synthèse chimique de nucléotides",
+      "Image de diffraction aux rayons X d’une fibre d’ADN"
+    ],
+    "correct": 2,
+    "explanation": "La fameuse photo 51, obtenue par Rosalind Franklin, a fourni les dimensions essentielles pour le modèle en double hélice.",
+    "explanationAudio": "La fameuse photo cinquante et un, obtenue par Rosalind Franklin, a fourni les dimensions essentielles pour le modèle en double hélice.",
+    "emojis": [
+      "🧬",
+      "🔬",
+      "📸",
+      "🧪",
+      "🧑‍🔬",
+      "📜",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of Modelisation informatique de proteines, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Synthese chimique de nucleotides, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Image de diffraction aux rayons X d’une fibre d’ADN, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel était le contexte de la découverte de la planète Uranus par William Herschel ?",
+    "questionAudio": "Quel était le contexte de la découverte de la planète Uranus par William Herschel ?",
+    "options": [
+      "Observation d’étoiles avec un nouveau télescope",
+      "Cartographie de la Lune",
+      "Observation d’une éclipse solaire"
+    ],
+    "correct": 0,
+    "explanation": "En cataloguant des étoiles, Herschel a remarqué un point lumineux se déplaçant différemment, révélant la septième planète connue.",
+    "explanationAudio": "En cataloguant des étoiles, Herschel a remarqué un point lumineux se déplaçant différemment, révélant la septième planète connue.",
+    "emojis": [
+      "🔭",
+      "🌟",
+      "🪐",
+      "📜",
+      "🧑‍🔬",
+      "✨",
+      "🕰️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of Observation d’etoiles avec un nouveau telescope, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Cartographie de la Lune, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Observation d’une eclipse solaire, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment Selman Waksman a découvert la streptomycine ?",
+    "questionAudio": "Comment Selman Waksman a découvert la streptomycine ?",
+    "options": [
+      "Dépistage d’activités antibactériennes dans des microbes du sol",
+      "Analyse de gaz volcaniques",
+      "Test d’extraits d’algues marines"
+    ],
+    "correct": 0,
+    "explanation": "En cultivant des bactéries du sol, il a trouvé une souche qui inhibait la croissance du bacille responsable de la tuberculose.",
+    "explanationAudio": "En cultivant des bactéries du sol, il a trouvé une souche qui inhibait la croissance du bacille responsable de la tuberculose.",
+    "emojis": [
+      "🧫",
+      "🪱",
+      "💊",
+      "🔬",
+      "🧑‍🔬",
+      "🌱",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of Depistage d’activites antibacteriennes dans des microbes du sol, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Analyse de gaz volcaniques, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Test d’extraits d’algues marines, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quelle observation a conduit Edward Jenner à développer la vaccination contre la variole ?",
+    "questionAudio": "Quelle observation a conduit Edward Jenner à développer la vaccination contre la variole ?",
+    "options": [
+      "Création d’un virus synthétique",
+      "Observation que les laitières exposées à la vaccine étaient protégées contre la variole",
+      "Test de la variole sur des animaux"
     ],
     "correct": 1,
-    "explanation": "Le paradoxe du menteur crée une phrase qui se réfute elle‑même, rendant la vérité indéterminée.",
-    "explanationAudio": "Le paradoxe du menteur crée une phrase qui se réfute elle‑même, rendant la vérité indéterminée.",
+    "explanation": "Jenner a remarqué que les femmes qui manipulaient la vaccine ne contractaient pas la variole, ce qui l’a inspiré à tester l’inoculation.",
+    "explanationAudio": "Jenner a remarqué que les femmes qui manipulaient la vaccine ne contractaient pas la variole, ce qui l’a inspiré à tester l’inoculation.",
     "emojis": [
-      "🤥",
-      "🗣️",
-      "🧩",
-      "❓",
-      "🧠",
+      "🧪",
+      "👩‍🌾",
+      "💉",
+      "🦠",
       "📜",
-      "🌀"
+      "🧑‍🔬",
+      "✨"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D diagram showing two alternative paths branching from a decision node, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D portrait of a person speaking a speech bubble that reads 'This statement is false', with reflective surfaces, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D balanced scale with opposing statements, precise lighting, realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel type de nombre ne peut pas être exprimé comme le rapport de deux entiers ?",
-    "questionAudio": "Quel type de nombre ne peut pas être exprimé comme le rapport de deux entiers ?",
-    "options": [
-      "Nombre irrationnel",
-      "Nombre entier",
-      "Nombre premier"
-    ],
-    "correct": 0,
-    "explanation": "Un nombre irrationnel ne peut pas être écrit comme une fraction d’entiers, contrairement aux nombres rationnels.",
-    "explanationAudio": "Un nombre irrationnel ne peut pas être écrit comme une fraction d’entiers, contrairement aux nombres rationnels.",
-    "emojis": [
-      "📐",
-      "🧮",
-      "🔢",
-      "🌀",
-      "🧠",
-      "📊",
-      "🌐"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D representation of the square root of two as an endless spiral, glowing, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D stack of integer blocks labeled with whole numbers, realistic textures, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a prime number symbol made of golden blocks, shining, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of Creation d’un virus synthetique, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Observation que les laitieres exposees a la vaccine etaient protegees contre la variole, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of Test de la variole sur des animaux, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

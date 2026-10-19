@@ -1,28 +1,28 @@
 [
   {
-    "question": "Quel organe produit la majorité des protéines plasmatiques ?",
-    "questionAudio": "Quel organe produit la majorité des protéines plasmatiques ?",
+    "question": "Quel est l'élément le plus abondant dans la croûte terrestre ?",
+    "questionAudio": "Quel est l'élément le plus abondant dans la croûte terrestre ?",
     "options": [
-      "Le pancréas",
-      "Le foie",
-      "Les reins"
+      "Silicium",
+      "Oxygène",
+      "Aluminium"
     ],
     "correct": 1,
-    "explanation": "Le foie synthétise la plupart des protéines présentes dans le plasma sanguin.",
-    "explanationAudio": "Le foie synthétise la plupart des protéines présentes dans le plasma sanguin.",
+    "explanation": "L'oxygène représente près de quarante six pour cent de la masse de la croûte terrestre, le rendant l'élément le plus abondant.",
+    "explanationAudio": "L'oxygène représente près de quarante six pour cent de la masse de la croûte terrestre, le rendant l'élément le plus abondant.",
     "emojis": [
-      "🫀",
-      "🧬",
-      "🦴",
       "🔬",
       "🧪",
-      "🩸",
-      "👁️"
+      "⚗️",
+      "🧫",
+      "🌍",
+      "🪨",
+      "💎"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of the pancreas with highlighted endocrine zones, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human liver highlighting protein synthesis, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of human kidneys with a muted color palette, realistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D model of silicon crystal structures with shimmering gray facets, cinematic lighting, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of oxygen molecules swirling in a crystal lattice, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of aluminium metal with a bright reflective surface, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle couche de la peau contient les mélanocytes ?",
-    "questionAudio": "Quelle couche de la peau contient les mélanocytes ?",
+    "question": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
+    "questionAudio": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
     "options": [
-      "Le derme",
-      "L'hypoderme",
-      "L'épiderme"
+      "Liaison ionique",
+      "Liaison covalente",
+      "Liaison métallique"
     ],
-    "correct": 2,
-    "explanation": "Les mélanocytes se trouvent dans la couche externe de la peau, l'épiderme.",
-    "explanationAudio": "Les mélanocytes se trouvent dans la couche externe de la peau, l'épiderme.",
+    "correct": 1,
+    "explanation": "Dans une liaison covalente les atomes partagent des paires d'électrons pour atteindre une configuration stable.",
+    "explanationAudio": "Dans une liaison covalente les atomes partagent des paires d'électrons pour atteindre une configuration stable.",
     "emojis": [
-      "🧑‍⚕️",
-      "🧬",
-      "🦠",
       "🔬",
       "🧪",
-      "✨",
-      "👁️"
+      "⚛️",
+      "🧬",
+      "🔗",
+      "💡",
+      "📚"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D cross‑section of skin emphasizing the dermis with collagen fibers, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of the hypodermis with fat cells, realistic shading, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A close‑up 3D render of human skin showing the epidermis with melanin cells glowing, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of ionic bonds with opposite charged ions attracting each other, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of covalent bonds showing two atoms sharing electron clouds, cinematic lighting, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of metallic bonding with a sea of delocalized electrons surrounding positive metal ions, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de muscle est responsable du mouvement du cœur ?",
-    "questionAudio": "Quel type de muscle est responsable du mouvement du cœur ?",
+    "question": "Quel est le pH de l'eau pure à vingt degrés Celsius ?",
+    "questionAudio": "Quel est le pH de l'eau pure à vingt degrés Celsius ?",
     "options": [
-      "Muscle cardiaque",
-      "Muscle lisse",
-      "Muscle squelettique"
+      "Sept",
+      "Quatre",
+      "Neuf"
     ],
     "correct": 0,
-    "explanation": "Le muscle cardiaque, ou myocarde, assure les contractions rythmiques du cœur.",
-    "explanationAudio": "Le muscle cardiaque, ou myocarde, assure les contractions rythmiques du cœur.",
+    "explanation": "L'eau pure est neutre et possède un pH d'environ sept à température ambiante.",
+    "explanationAudio": "L'eau pure est neutre et possède un pH d'environ sept à température ambiante.",
     "emojis": [
-      "❤️",
-      "🫀",
-      "🧬",
-      "🔬",
       "🧪",
-      "✨",
-      "⚡"
+      "⚗️",
+      "💧",
+      "🔬",
+      "📈",
+      "🌡️",
+      "🔎"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A realistic 3D animation of the human heart showing cardiac muscle fibers contracting, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of smooth muscle in a blood vessel, ultra realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of skeletal muscle tissue with striations, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D close‑up of pure water droplets with a floating pH meter reading seven, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of acidic solution with a pH indicator turning red, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of basic solution with a pH indicator turning blue, cinematic lighting, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,59 +90,89 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel gaz est principalement transporté par l'hémoglobine vers les tissus ?",
-    "questionAudio": "Quel gaz est principalement transporté par l'hémoglobine vers les tissus ?",
+    "question": "Quel gaz est libéré à la cathode lors de l'électrolyse de l'eau ?",
+    "questionAudio": "Quel gaz est libéré à la cathode lors de l'électrolyse de l'eau ?",
     "options": [
-      "L'azote",
-      "Le dioxyde de carbone",
-      "L'oxygène"
-    ],
-    "correct": 2,
-    "explanation": "L'hémoglobine lie l'oxygène dans les poumons et le libère aux tissus.",
-    "explanationAudio": "L'hémoglobine lie l'oxygène dans les poumons et le libère aux tissus.",
-    "emojis": [
-      "🩸",
-      "🫁",
-      "🧬",
-      "🔬",
-      "🧪",
-      "✨",
-      "⚡"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model showing nitrogen dissolved in blood, subtle lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of blood plasma with carbon dioxide molecules, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D photorealistic render of red blood cells carrying oxygen molecules, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le plus grand os du corps humain ?",
-    "questionAudio": "Quel est le plus grand os du corps humain ?",
-    "options": [
-      "Le tibia",
-      "Le fémur",
-      "L'humérus"
+      "Azote",
+      "Hydrogène",
+      "Oxygène"
     ],
     "correct": 1,
-    "explanation": "Le fémur, situé dans la cuisse, est le plus long et le plus solide des os humains.",
-    "explanationAudio": "Le fémur, situé dans la cuisse, est le plus long et le plus solide des os humains.",
+    "explanation": "À la cathode les électrons réduisent les ions hydrogène pour former du gaz hydrogène.",
+    "explanationAudio": "À la cathode les électrons réduisent les ions hydrogène pour former du gaz hydrogène.",
     "emojis": [
-      "🦴",
-      "🦾",
-      "🦿",
+      "⚡",
       "🔬",
       "🧪",
-      "✨",
-      "👁️"
+      "💧",
+      "🔋",
+      "🧫",
+      "🌊"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D render of the tibia bone, photorealistic surface details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of the human femur with realistic bone texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the humerus with anatomical accuracy, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of nitrogen gas molecules in a laboratory setting, cinematic lighting, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D animation of hydrogen gas bubbles forming at the cathode of an electrolytic cell, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of oxygen gas bubbles forming at the anode of an electrolytic cell, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment s'appelle le processus par lequel un solide se transforme directement en gaz ?",
+    "questionAudio": "Comment s'appelle le processus par lequel un solide se transforme directement en gaz ?",
+    "options": [
+      "Sublimation",
+      "Déposition",
+      "Condensation"
+    ],
+    "correct": 0,
+    "explanation": "La sublimation est la transition directe d’un état solide à l’état gazeux sans passer par la phase liquide.",
+    "explanationAudio": "La sublimation est la transition directe d’un état solide à l’état gazeux sans passer par la phase liquide.",
+    "emojis": [
+      "❄️",
+      "🔥",
+      "🧪",
+      "🔬",
+      "🌫️",
+      "⚗️",
+      "🧫"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of dry ice sublimating into vapor, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of deposition where vapor crystals form on a cold surface, cinematic lighting, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of condensation droplets forming on a glass surface, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel élément possède l'électronégativité la plus élevée du tableau périodique ?",
+    "questionAudio": "Quel élément possède l'électronégativité la plus élevée du tableau périodique ?",
+    "options": [
+      "Fluor",
+      "Chlore",
+      "Oxygène"
+    ],
+    "correct": 0,
+    "explanation": "Le fluor a l'électronégativité la plus élevée, ce qui signifie qu'il attire fortement les électrons dans les liaisons chimiques.",
+    "explanationAudio": "Le fluor a l'électronégativité la plus élevée, ce qui signifie qu'il attire fortement les électrons dans les liaisons chimiques.",
+    "emojis": [
+      "⚛️",
+      "🧪",
+      "🔬",
+      "💡",
+      "📚",
+      "🧬",
+      "🌟"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of fluor atoms with bright yellow glow, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D render of chlorine atoms with a greenish tint, cinematic lighting, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of oxygen molecules in a vibrant blue hue, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

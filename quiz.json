@@ -1,148 +1,28 @@
 [
   {
-    "question": "Quel phénomène explique la déviation de la lumière des étoiles lorsqu’elle passe près du Soleil ?",
-    "questionAudio": "Quel phénomène explique la déviation de la lumière des étoiles lorsqu’elle passe près du Soleil ?",
+    "question": "Quel organe produit la majorité des protéines plasmatiques ?",
+    "questionAudio": "Quel organe produit la majorité des protéines plasmatiques ?",
     "options": [
-      "La réfraction atmosphérique",
-      "La diffusion Rayleigh",
-      "La déflexion gravitationnelle"
-    ],
-    "correct": 2,
-    "explanation": "La gravité du Soleil courbe l’espace‑temps et dévie le trajet de la lumière, un effet prédit par la relativité générale.",
-    "explanationAudio": "La gravité du Soleil courbe l’espace‑temps et dévie le trajet de la lumière, un effet prédit par la relativité générale.",
-    "emojis": [
-      "🌞",
-      "🔭",
-      "✨",
-      "🪐",
-      "⚛️",
-      "🌌",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of starlight bending around the Sun, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of atmospheric refraction around a planet, showing light paths, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of gravitational lensing with a bright star behind a massive sphere, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle est la durée approximative d’une journée sur Vénus ?",
-    "questionAudio": "Quelle est la durée approximative d’une journée sur Vénus ?",
-    "options": [
-      "Environ deux cent quarante‑trois jours terrestres",
-      "Environ vingt‑quatre heures",
-      "Environ douze heures"
-    ],
-    "correct": 0,
-    "explanation": "Vénus tourne très lentement dans le sens rétrograde, ce qui donne une journée plus longue que son année.",
-    "explanationAudio": "Vénus tourne très lentement dans le sens rétrograde, ce qui donne une journée plus longue que son année.",
-    "emojis": [
-      "🪐",
-      "⏳",
-      "🌞",
-      "🚀",
-      "✨",
-      "⚡",
-      "🔭"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D scene of a day‑night cycle on Venus with exaggerated shadows, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a clock with Venus symbols indicating long duration, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of Venus with a rotating axis highlighted, showing slow rotation, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel type d’étoile est le Soleil ?",
-    "questionAudio": "Quel type d’étoile est le Soleil ?",
-    "options": [
-      "Naine jaune",
-      "Géante bleue",
-      "Naine rouge"
-    ],
-    "correct": 0,
-    "explanation": "Le Soleil appartient à la classe des naines jaunes, des étoiles de taille moyenne et de température modérée.",
-    "explanationAudio": "Le Soleil appartient à la classe des naines jaunes, des étoiles de taille moyenne et de température modérée.",
-    "emojis": [
-      "☀️",
-      "⭐",
-      "🟡",
-      "🔭",
-      "🌌",
-      "✨",
-      "🚀"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a yellow dwarf star similar to the Sun, detailed surface texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a massive blue giant star, intense blue light, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a red dwarf star, glowing reddish, cinematic background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel instrument a permis la première mesure précise de la distance Terre‑Lune ?",
-    "questionAudio": "Quel instrument a permis la première mesure précise de la distance Terre‑Lune ?",
-    "options": [
-      "Le laser",
-      "Le télescope optique",
-      "Le radar"
-    ],
-    "correct": 0,
-    "explanation": "Les rétro‑réflecteurs lunaires ont permis d’utiliser le laser pour mesurer avec une précision centimétrique la distance Terre‑Lune.",
-    "explanationAudio": "Les rétro‑réflecteurs lunaires ont permis d’utiliser le laser pour mesurer avec une précision centimétrique la distance Terre‑Lune.",
-    "emojis": [
-      "🌕",
-      "🔭",
-      "📡",
-      "🚀",
-      "✨",
-      "⚡",
-      "🛰️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of a laser beam hitting a lunar retro‑reflector, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of an optical telescope aimed at the Moon, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a radar dish emitting waves towards the Moon, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle particule est responsable du rayonnement de fond cosmologique micro‑onde ?",
-    "questionAudio": "Quelle particule est responsable du rayonnement de fond cosmologique micro‑onde ?",
-    "options": [
-      "Neutrinos",
-      "Photons",
-      "Gravitons"
+      "Le pancréas",
+      "Le foie",
+      "Les reins"
     ],
     "correct": 1,
-    "explanation": "Le rayonnement de fond est constitué de photons qui ont été libérés peu après le Big Bang.",
-    "explanationAudio": "Le rayonnement de fond est constitué de photons qui ont été libérés peu après le Big Bang.",
+    "explanation": "Le foie synthétise la plupart des protéines présentes dans le plasma sanguin.",
+    "explanationAudio": "Le foie synthétise la plupart des protéines présentes dans le plasma sanguin.",
     "emojis": [
-      "🌌",
-      "📡",
+      "🫀",
+      "🧬",
+      "🦴",
       "🔬",
-      "✨",
-      "🚀",
-      "⚛️",
-      "🪐"
+      "🧪",
+      "🩸",
+      "👁️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of neutrinos streaming through space, subtle glow, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of microwave background photons filling the universe, detailed texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of hypothetical gravitons as ripples in spacetime, artistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of the pancreas with highlighted endocrine zones, cinematic depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human liver highlighting protein synthesis, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of human kidneys with a muted color palette, realistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -150,29 +30,59 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le nom du phénomène qui fait que les planètes semblent se déplacer en rétrograde depuis la Terre ?",
-    "questionAudio": "Quel est le nom du phénomène qui fait que les planètes semblent se déplacer en rétrograde depuis la Terre ?",
+    "question": "Quelle couche de la peau contient les mélanocytes ?",
+    "questionAudio": "Quelle couche de la peau contient les mélanocytes ?",
     "options": [
-      "La rétrogradation",
-      "L’ellipse orbitale",
-      "La résonance gravitationnelle"
+      "Le derme",
+      "L'hypoderme",
+      "L'épiderme"
+    ],
+    "correct": 2,
+    "explanation": "Les mélanocytes se trouvent dans la couche externe de la peau, l'épiderme.",
+    "explanationAudio": "Les mélanocytes se trouvent dans la couche externe de la peau, l'épiderme.",
+    "emojis": [
+      "🧑‍⚕️",
+      "🧬",
+      "🦠",
+      "🔬",
+      "🧪",
+      "✨",
+      "👁️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cross‑section of skin emphasizing the dermis with collagen fibers, cinematic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of the hypodermis with fat cells, realistic shading, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A close‑up 3D render of human skin showing the epidermis with melanin cells glowing, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de muscle est responsable du mouvement du cœur ?",
+    "questionAudio": "Quel type de muscle est responsable du mouvement du cœur ?",
+    "options": [
+      "Muscle cardiaque",
+      "Muscle lisse",
+      "Muscle squelettique"
     ],
     "correct": 0,
-    "explanation": "Lorsque la Terre dépasse une planète extérieure, celle‑ci apparaît se déplacer vers l’ouest dans le ciel, phénomène de rétrogradation.",
-    "explanationAudio": "Lorsque la Terre dépasse une planète extérieure, celle‑ci apparaît se déplacer vers l’ouest dans le ciel, phénomène de rétrogradation.",
+    "explanation": "Le muscle cardiaque, ou myocarde, assure les contractions rythmiques du cœur.",
+    "explanationAudio": "Le muscle cardiaque, ou myocarde, assure les contractions rythmiques du cœur.",
     "emojis": [
-      "🪐",
-      "🔭",
-      "↩️",
-      "🌟",
-      "🚀",
+      "❤️",
+      "🫀",
+      "🧬",
+      "🔬",
+      "🧪",
       "✨",
       "⚡"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D animation of a planet moving backward relative to the star field, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D diagram of an elliptical orbit showing Earth overtaking another planet, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of gravitational resonance between two moons, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A realistic 3D animation of the human heart showing cardiac muscle fibers contracting, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of smooth muscle in a blood vessel, ultra realistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of skeletal muscle tissue with striations, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -180,29 +90,59 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel est le processus qui alimente le Soleil en énergie ?",
-    "questionAudio": "Quel est le processus qui alimente le Soleil en énergie ?",
+    "question": "Quel gaz est principalement transporté par l'hémoglobine vers les tissus ?",
+    "questionAudio": "Quel gaz est principalement transporté par l'hémoglobine vers les tissus ?",
     "options": [
-      "Fission nucléaire",
-      "Fusion nucléaire",
-      "Décomposition radioactive"
+      "L'azote",
+      "Le dioxyde de carbone",
+      "L'oxygène"
     ],
-    "correct": 1,
-    "explanation": "Dans le cœur solaire, des noyaux d’hydrogène fusionnent pour former de l’hélium, libérant une immense énergie.",
-    "explanationAudio": "Dans le cœur solaire, des noyaux d’hydrogène fusionnent pour former de l’hélium, libérant une immense énergie.",
+    "correct": 2,
+    "explanation": "L'hémoglobine lie l'oxygène dans les poumons et le libère aux tissus.",
+    "explanationAudio": "L'hémoglobine lie l'oxygène dans les poumons et le libère aux tissus.",
     "emojis": [
-      "☀️",
-      "⚛️",
-      "🔥",
+      "🩸",
+      "🫁",
+      "🧬",
+      "🔬",
       "🧪",
-      "🚀",
       "✨",
-      "🌞"
+      "⚡"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D render of a nuclear fission reactor core, detailed metallic structures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of hydrogen nuclei fusing in the Sun’s core, bright plasma, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of radioactive decay particles emitted from a sample, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D model showing nitrogen dissolved in blood, subtle lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of blood plasma with carbon dioxide molecules, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic render of red blood cells carrying oxygen molecules, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel est le plus grand os du corps humain ?",
+    "questionAudio": "Quel est le plus grand os du corps humain ?",
+    "options": [
+      "Le tibia",
+      "Le fémur",
+      "L'humérus"
+    ],
+    "correct": 1,
+    "explanation": "Le fémur, situé dans la cuisse, est le plus long et le plus solide des os humains.",
+    "explanationAudio": "Le fémur, situé dans la cuisse, est le plus long et le plus solide des os humains.",
+    "emojis": [
+      "🦴",
+      "🦾",
+      "🦿",
+      "🔬",
+      "🧪",
+      "✨",
+      "👁️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A detailed 3D render of the tibia bone, photorealistic surface details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high‑resolution 3D model of the human femur with realistic bone texture, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the humerus with anatomical accuracy, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Chimie & Matière",
-  "description": "Plongez dans les mystères de la chimie et découvrez des faits étonnants sur la matière.",
+  "topic": "🧠 Quiz : Sciences de la Terre & Nature",
+  "description": "Plongez dans les mystères de la Terre et découvrez les phénomènes qui façonnent notre planète.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,168 +19,141 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Quel est l'élément le plus abondant dans la croûte terrestre ?",
-      "questionAudio": "Quel est l'élément le plus abondant dans la croûte terrestre ?",
+      "question": "Quel phénomène géologique est responsable de la formation des montagnes par la collision de deux plaques tectoniques ?",
+      "questionAudio": "Quel phénomène géologique est responsable de la formation des montagnes par la collision de deux plaques tectoniques ?",
       "emojis": [
-        "🔬",
-        "🧪",
-        "⚗️",
-        "🧫",
+        "🏔️",
         "🌍",
+        "🌋",
         "🪨",
-        "💎"
+        "📏",
+        "🌐",
+        "🔭"
       ],
       "options": [
-        "Silicium",
-        "Oxygène",
-        "Aluminium"
+        "L'orogenèse",
+        "La subduction",
+        "La dérive des continents"
       ],
-      "correct": 1,
-      "answer": "Oxygène",
-      "explanation": "L'oxygène représente près de quarante six pour cent de la masse de la croûte terrestre, le rendant l'élément le plus abondant.",
-      "explanationAudio": "L'oxygène représente près de quarante six pour cent de la masse de la croûte terrestre, le rendant l'élément le plus abondant.",
+      "correct": 0,
+      "answer": "L'orogenèse",
+      "explanation": "L'orogenèse désigne le processus de formation des chaînes de montagnes lors de la convergence des plaques tectoniques.",
+      "explanationAudio": "L'orogenèse désigne le processus de formation des chaînes de montagnes lors de la convergence des plaques tectoniques.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of silicon crystal structures with shimmering gray facets, cinematic lighting, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of oxygen molecules swirling in a crystal lattice, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of aluminium metal with a bright reflective surface, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of towering mountain ranges formed by colliding tectonic plates, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D visualization of an oceanic plate subducting beneath a continental plate, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model showing continents slowly drifting over the mantle with dynamic flow, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
-      "questionAudio": "Quel type de liaison implique le partage de paires d'électrons entre atomes ?",
+      "question": "Quel gaz constitue la majeure partie de l'atmosphère terrestre ?",
+      "questionAudio": "Quel gaz constitue la majeure partie de l'atmosphère terrestre ?",
       "emojis": [
-        "🔬",
+        "🌬️",
+        "🌍",
+        "☁️",
         "🧪",
-        "⚛️",
-        "🧬",
-        "🔗",
-        "💡",
-        "📚"
-      ],
-      "options": [
-        "Liaison ionique",
-        "Liaison covalente",
-        "Liaison métallique"
-      ],
-      "correct": 1,
-      "answer": "Liaison covalente",
-      "explanation": "Dans une liaison covalente les atomes partagent des paires d'électrons pour atteindre une configuration stable.",
-      "explanationAudio": "Dans une liaison covalente les atomes partagent des paires d'électrons pour atteindre une configuration stable.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of ionic bonds with opposite charged ions attracting each other, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of covalent bonds showing two atoms sharing electron clouds, cinematic lighting, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of metallic bonding with a sea of delocalized electrons surrounding positive metal ions, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel est le pH de l'eau pure à vingt degrés Celsius ?",
-      "questionAudio": "Quel est le pH de l'eau pure à vingt degrés Celsius ?",
-      "emojis": [
-        "🧪",
-        "⚗️",
-        "💧",
-        "🔬",
-        "📈",
         "🌡️",
-        "🔎"
+        "💨",
+        "🔬"
       ],
       "options": [
-        "Sept",
-        "Quatre",
-        "Neuf"
+        "Le dioxyde de carbone",
+        "L'oxygène",
+        "L'azote"
       ],
-      "correct": 0,
-      "answer": "Sept",
-      "explanation": "L'eau pure est neutre et possède un pH d'environ sept à température ambiante.",
-      "explanationAudio": "L'eau pure est neutre et possède un pH d'environ sept à température ambiante.",
+      "correct": 2,
+      "answer": "L'azote",
+      "explanation": "Environ sept dixième de l'atmosphère est composé d'azote, ce qui en fait le gaz dominant.",
+      "explanationAudio": "Environ sept dixième de l'atmosphère est composé d'azote, ce qui en fait le gaz dominant.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of pure water droplets with a floating pH meter reading seven, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of acidic solution with a pH indicator turning red, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of basic solution with a pH indicator turning blue, cinematic lighting, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of carbon dioxide concentrations over industrial regions, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D scene showing oxygen molecules surrounding the planet, photorealistic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of Earth’s atmosphere highlighting nitrogen molecules in blue, cinematic light, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel gaz est libéré à la cathode lors de l'électrolyse de l'eau ?",
-      "questionAudio": "Quel gaz est libéré à la cathode lors de l'électrolyse de l'eau ?",
+      "question": "Quelle couche de la Terre est liquide ?",
+      "questionAudio": "Quelle couche de la Terre est liquide ?",
       "emojis": [
-        "⚡",
-        "🔬",
-        "🧪",
+        "🌋",
+        "🪨",
+        "🔥",
+        "🌍",
         "💧",
-        "🔋",
-        "🧫",
-        "🌊"
+        "⚙️",
+        "🌐"
       ],
       "options": [
-        "Azote",
-        "Hydrogène",
-        "Oxygène"
+        "La croûte océanique",
+        "Le noyau externe",
+        "Le manteau supérieur"
       ],
       "correct": 1,
-      "answer": "Hydrogène",
-      "explanation": "À la cathode les électrons réduisent les ions hydrogène pour former du gaz hydrogène.",
-      "explanationAudio": "À la cathode les électrons réduisent les ions hydrogène pour former du gaz hydrogène.",
+      "answer": "Le noyau externe",
+      "explanation": "Le noyau externe est composé de fer et de nickel en état liquide, contrairement aux couches solides du manteau et de la croûte.",
+      "explanationAudio": "Le noyau externe est composé de fer et de nickel en état liquide, contrairement aux couches solides du manteau et de la croûte.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of nitrogen gas molecules in a laboratory setting, cinematic lighting, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D animation of hydrogen gas bubbles forming at the cathode of an electrolytic cell, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of oxygen gas bubbles forming at the anode of an electrolytic cell, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D view of the oceanic crust with tectonic features, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cross‑section of Earth showing a glowing liquid outer core, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the upper mantle with solid rock textures, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Comment s'appelle le processus par lequel un solide se transforme directement en gaz ?",
-      "questionAudio": "Comment s'appelle le processus par lequel un solide se transforme directement en gaz ?",
+      "question": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
+      "questionAudio": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
       "emojis": [
-        "❄️",
+        "🌋",
         "🔥",
-        "🧪",
-        "🔬",
-        "🌫️",
-        "⚗️",
-        "🧫"
+        "💥",
+        "🗻",
+        "🌑",
+        "🌪️",
+        "🌍"
       ],
       "options": [
-        "Sublimation",
-        "Déposition",
-        "Condensation"
+        "Le volcan de type dôme",
+        "Le volcan fissural",
+        "Le volcan bouclier"
       ],
       "correct": 0,
-      "answer": "Sublimation",
-      "explanation": "La sublimation est la transition directe d’un état solide à l’état gazeux sans passer par la phase liquide.",
-      "explanationAudio": "La sublimation est la transition directe d’un état solide à l’état gazeux sans passer par la phase liquide.",
+      "answer": "Le volcan de type dôme",
+      "explanation": "Les volcans de type dôme produisent des éruptions violentes et forment des dômes de lave visqueuse.",
+      "explanationAudio": "Les volcans de type dôme produisent des éruptions violentes et forment des dômes de lave visqueuse.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D scene of dry ice sublimating into vapor, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of deposition where vapor crystals form on a cold surface, cinematic lighting, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of condensation droplets forming on a glass surface, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a steep lava dome volcano erupting explosively, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a fissural volcanic system with linear vents, cinematic view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a broad shield volcano with gentle slopes, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel élément possède l'électronégativité la plus élevée du tableau périodique ?",
-      "questionAudio": "Quel élément possède l'électronégativité la plus élevée du tableau périodique ?",
+      "question": "Quel phénomène explique le déplacement des continents au fil du temps ?",
+      "questionAudio": "Quel phénomène explique le déplacement des continents au fil du temps ?",
       "emojis": [
-        "⚛️",
-        "🧪",
-        "🔬",
-        "💡",
-        "📚",
-        "🧬",
-        "🌟"
+        "🌍",
+        "📦",
+        "🧭",
+        "🌊",
+        "🗺️",
+        "🪨",
+        "🔭"
       ],
       "options": [
-        "Fluor",
-        "Chlore",
-        "Oxygène"
+        "L'orogenèse",
+        "La subduction",
+        "La dérive des continents"
       ],
-      "correct": 0,
-      "answer": "Fluor",
-      "explanation": "Le fluor a l'électronégativité la plus élevée, ce qui signifie qu'il attire fortement les électrons dans les liaisons chimiques.",
-      "explanationAudio": "Le fluor a l'électronégativité la plus élevée, ce qui signifie qu'il attire fortement les électrons dans les liaisons chimiques.",
+      "correct": 2,
+      "answer": "La dérive des continents",
+      "explanation": "La dérive des continents décrit le mouvement lent des plaques lithosphériques qui entraîne le déplacement des masses continentales.",
+      "explanationAudio": "La dérive des continents décrit le mouvement lent des plaques lithosphériques qui entraîne le déplacement des masses continentales.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of fluor atoms with bright yellow glow, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of chlorine atoms with a greenish tint, cinematic lighting, high realism, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of oxygen molecules in a vibrant blue hue, cinematic lighting, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of mountain building during orogeny, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of a subducting plate diving beneath another, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D animation of ancient supercontinent breaking apart, showing continental drift over millions of years, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

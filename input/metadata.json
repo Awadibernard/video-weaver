@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Sciences de la Terre & Nature",
-  "description": "Plongez dans les mystères de la Terre et découvrez les phénomènes qui façonnent notre planète.",
+  "topic": "🧠 Quiz : Technologies & Inventions Scientifiques",
+  "description": "Testez vos connaissances sur les grandes inventions qui ont transformé la science et la technologie.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -22,138 +22,138 @@
   "questionCount": 5,
   "questions": [
     {
-      "question": "Quel phénomène géologique est responsable de la formation des montagnes par la collision de deux plaques tectoniques ?",
-      "questionAudio": "Quel phénomène géologique est responsable de la formation des montagnes par la collision de deux plaques tectoniques ?",
+      "question": "Quel composant a remplacé la lampe à vide dans les premiers ordinateurs modernes ?",
+      "questionAudio": "Quel composant a remplacé la lampe à vide dans les premiers ordinateurs modernes ?",
       "emojis": [
-        "🏔️",
-        "🌍",
-        "🌋",
-        "🪨",
-        "📏",
-        "🌐",
-        "🔭"
+        "⚡",
+        "🔧",
+        "🖥️",
+        "🔬",
+        "🧪",
+        "🚀",
+        "💡"
       ],
       "options": [
-        "L'orogenèse",
-        "La subduction",
-        "La dérive des continents"
+        "Le transistor",
+        "Le circuit intégré",
+        "Le tube à vide"
       ],
       "correct": 0,
-      "answer": "L'orogenèse",
-      "explanation": "L'orogenèse désigne le processus de formation des chaînes de montagnes lors de la convergence des plaques tectoniques.",
-      "explanationAudio": "L'orogenèse désigne le processus de formation des chaînes de montagnes lors de la convergence des plaques tectoniques.",
+      "answer": "Le transistor",
+      "explanation": "Le transistor a permis de miniaturiser les circuits et d’améliorer la fiabilité des ordinateurs.",
+      "explanationAudio": "Le transistor a permis de miniaturiser les circuits et d’améliorer la fiabilité des ordinateurs.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of towering mountain ranges formed by colliding tectonic plates, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D visualization of an oceanic plate subducting beneath a continental plate, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model showing continents slowly drifting over the mantle with dynamic flow, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A highly detailed 3D model of a silicon transistor on a circuit board, glowing with electric currents, cinematic lighting, photorealistic",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a modern integrated circuit with millions of tiny components, illuminated by soft light, cinematic, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a vintage vacuum tube glowing orange, placed in an old computer chassis, cinematic atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel gaz constitue la majeure partie de l'atmosphère terrestre ?",
-      "questionAudio": "Quel gaz constitue la majeure partie de l'atmosphère terrestre ?",
+      "question": "Quel a été le premier ordinateur entièrement programmable construit pendant la Seconde Guerre mondiale ?",
+      "questionAudio": "Quel a été le premier ordinateur entièrement programmable construit pendant la Seconde Guerre mondiale ?",
       "emojis": [
-        "🌬️",
-        "🌍",
-        "☁️",
-        "🧪",
-        "🌡️",
-        "💨",
-        "🔬"
-      ],
-      "options": [
-        "Le dioxyde de carbone",
-        "L'oxygène",
-        "L'azote"
-      ],
-      "correct": 2,
-      "answer": "L'azote",
-      "explanation": "Environ sept dixième de l'atmosphère est composé d'azote, ce qui en fait le gaz dominant.",
-      "explanationAudio": "Environ sept dixième de l'atmosphère est composé d'azote, ce qui en fait le gaz dominant.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of carbon dioxide concentrations over industrial regions, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D scene showing oxygen molecules surrounding the planet, photorealistic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of Earth’s atmosphere highlighting nitrogen molecules in blue, cinematic light, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle couche de la Terre est liquide ?",
-      "questionAudio": "Quelle couche de la Terre est liquide ?",
-      "emojis": [
-        "🌋",
-        "🪨",
-        "🔥",
-        "🌍",
-        "💧",
+        "💻",
+        "🧮",
+        "📟",
         "⚙️",
-        "🌐"
+        "🔢",
+        "🕹️",
+        "🚀"
       ],
       "options": [
-        "La croûte océanique",
-        "Le noyau externe",
-        "Le manteau supérieur"
+        "ENIAC",
+        "Z3",
+        "UNIVAC I"
+      ],
+      "correct": 0,
+      "answer": "ENIAC",
+      "explanation": "L’ENIAC, mis en service en 1945, pouvait être reprogrammé par connexion de câbles et de commutateurs.",
+      "explanationAudio": "L’ENIAC, mis en service en mille neuf cent quarante‑cinq, pouvait être reprogrammé par connexion de câbles et de commutateurs.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of the ENIAC computer with its massive panels of vacuum tubes, cinematic lighting, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of Konrad Zuse's Z3 machine with its electromechanical relays, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of the UNIVAC I with its sleek aluminum case and front panel switches, cinematic atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle technologie a révolutionné le génie génétique en 2012 grâce à une coupe d’ADN précise ?",
+      "questionAudio": "Quelle technologie a révolutionné le génie génétique en deux mille douze grâce à une coupe d’ADN précise ?",
+      "emojis": [
+        "🧬",
+        "🔬",
+        "🧪",
+        "🧑‍🔬",
+        "⚗️",
+        "💡",
+        "🌱"
+      ],
+      "options": [
+        "Les nucléases à doigts de zinc",
+        "CRISPR‑Cas9",
+        "L’interférence ARN"
       ],
       "correct": 1,
-      "answer": "Le noyau externe",
-      "explanation": "Le noyau externe est composé de fer et de nickel en état liquide, contrairement aux couches solides du manteau et de la croûte.",
-      "explanationAudio": "Le noyau externe est composé de fer et de nickel en état liquide, contrairement aux couches solides du manteau et de la croûte.",
+      "answer": "CRISPR‑Cas9",
+      "explanation": "CRISPR‑Cas9 permet de cibler et de couper l’ADN avec une précision sans précédent.",
+      "explanationAudio": "CRISPR‑Cas9 permet de cibler et de couper l’ADN avec une précision sans précédent.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D view of the oceanic crust with tectonic features, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cross‑section of Earth showing a glowing liquid outer core, cinematic perspective, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the upper mantle with solid rock textures, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D model of a zinc‑finger nuclease interacting with DNA, metallic sheen, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a CRISPR‑Cas9 complex cutting a DNA strand, glowing nucleic acids, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of RNA interference molecules binding to messenger RNA, detailed cellular environment, cinematic, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
-      "questionAudio": "Quel type de volcan est caractérisé par des éruptions explosives et la formation de dômes de lave ?",
+      "question": "Quel dispositif a été inventé en 1960 et a ouvert la voie aux communications optiques ?",
+      "questionAudio": "Quel dispositif a été inventé en mille neuf cent soixante et a ouvert la voie aux communications optiques ?",
       "emojis": [
-        "🌋",
-        "🔥",
-        "💥",
-        "🗻",
-        "🌑",
-        "🌪️",
-        "🌍"
+        "🔦",
+        "⚡",
+        "💡",
+        "🧪",
+        "🔬",
+        "🚀",
+        "✨"
       ],
       "options": [
-        "Le volcan de type dôme",
-        "Le volcan fissural",
-        "Le volcan bouclier"
+        "La LED",
+        "Le laser",
+        "Le maser"
       ],
-      "correct": 0,
-      "answer": "Le volcan de type dôme",
-      "explanation": "Les volcans de type dôme produisent des éruptions violentes et forment des dômes de lave visqueuse.",
-      "explanationAudio": "Les volcans de type dôme produisent des éruptions violentes et forment des dômes de lave visqueuse.",
+      "correct": 1,
+      "answer": "Le laser",
+      "explanation": "Le laser produit un faisceau lumineux cohérent utilisé dans de nombreuses applications modernes.",
+      "explanationAudio": "Le laser produit un faisceau lumineux cohérent utilisé dans de nombreuses applications modernes.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a steep lava dome volcano erupting explosively, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a fissural volcanic system with linear vents, cinematic view, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a broad shield volcano with gentle slopes, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D model of a high‑efficiency LED array emitting soft white light, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a solid‑state laser emitting a bright red beam, cinematic lighting, detailed optics, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a microwave maser device with glowing microwaves, cinematic atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel phénomène explique le déplacement des continents au fil du temps ?",
-      "questionAudio": "Quel phénomène explique le déplacement des continents au fil du temps ?",
+      "question": "Quel organisme a développé le système de positionnement global utilisé aujourd’hui ?",
+      "questionAudio": "Quel organisme a développé le système de positionnement global utilisé aujourd’hui ?",
       "emojis": [
-        "🌍",
-        "📦",
-        "🧭",
-        "🌊",
-        "🗺️",
-        "🪨",
-        "🔭"
+        "📡",
+        "🛰️",
+        "🌐",
+        "🚀",
+        "🔭",
+        "⚙️",
+        "🗺️"
       ],
       "options": [
-        "L'orogenèse",
-        "La subduction",
-        "La dérive des continents"
+        "L’Union européenne",
+        "Le département de la Défense des États‑Unis",
+        "La NASA"
       ],
-      "correct": 2,
-      "answer": "La dérive des continents",
-      "explanation": "La dérive des continents décrit le mouvement lent des plaques lithosphériques qui entraîne le déplacement des masses continentales.",
-      "explanationAudio": "La dérive des continents décrit le mouvement lent des plaques lithosphériques qui entraîne le déplacement des masses continentales.",
+      "correct": 1,
+      "answer": "Le département de la Défense des États‑Unis",
+      "explanation": "Le GPS a été créé par le département de la Défense américaine pour des applications militaires avant d’être ouvert au civil.",
+      "explanationAudio": "Le GPS a été créé par le département de la Défense américaine pour des applications militaires avant d’être ouvert au civil.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of mountain building during orogeny, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of a subducting plate diving beneath another, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D animation of ancient supercontinent breaking apart, showing continental drift over millions of years, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a European navigation satellite with detailed solar panels, cinematic lighting, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D satellite constellation orbiting Earth, each satellite glowing, cinematic view from space, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a NASA spacecraft with GPS antennae, detailed surface, cinematic atmosphere, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

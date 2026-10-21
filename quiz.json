@@ -1,118 +1,28 @@
 [
   {
-    "question": "Le micro ondes rend il les aliments radioactifs ?",
-    "questionAudio": "Le micro ondes rend il les aliments radioactifs ?",
+    "question": "Pourquoi l’ajout de sel à l’eau augmente‑t‑elle le point d’ébullition ?",
+    "questionAudio": "Pourquoi l’ajout de sel à l’eau augmente‑t‑elle le point d’ébullition ?",
     "options": [
-      "Oui, les ondes ionisent les molécules alimentaires",
-      "Non, les micro ondes n’induisent aucune radioactivité",
-      "Oui, mais seulement si l’appareil est défectueux"
-    ],
-    "correct": 1,
-    "explanation": "Les micro ondes chauffent les molécules d’eau sans modifier la structure atomique, il n’y a donc aucune création de radioactivité.",
-    "explanationAudio": "Les micro ondes chauffent les molécules d’eau sans modifier la structure atomique, il n’y a donc aucune création de radioactivité.",
-    "emojis": [
-      "📡",
-      "🍲",
-      "⚛️",
-      "❌",
-      "🔊",
-      "💡",
-      "🧊"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of atomic nuclei unchanged inside food inside a microwave, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D kitchen scene with a microwave emitting blue waves heating a plate of food, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D render of a warning sign with a crossed out radiation symbol next to a microwave, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Boire huit verres d’eau chaque jour est‑il indispensable à la santé ?",
-    "questionAudio": "Boire huit verres d’eau chaque jour est‑il indispensable à la santé ?",
-    "options": [
-      "Oui, mais uniquement pour les personnes âgées",
-      "Oui, c’est une règle absolue pour tous les adultes",
-      "Non, les besoins varient selon l’activité et le climat"
-    ],
-    "correct": 2,
-    "explanation": "Les besoins hydriques dépendent de la température, de l’effort physique et de la santé individuelle, il n’existe pas de nombre fixe.",
-    "explanationAudio": "Les besoins hydriques dépendent de la température, de l’effort physique et de la santé individuelle, il n’existe pas de nombre fixe.",
-    "emojis": [
-      "💧",
-      "🏃",
-      "☀️",
-      "📊",
-      "🗓️",
-      "🤔",
-      "🌡️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a calendar with water glasses highlighted on different days, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D infographic showing varying water intake recommendations based on activity level, bright colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D realistic scene of a person drinking water from a glass in a sunny environment, cinematic focus, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Le sucre rend‑il les enfants hyperactifs ?",
-    "questionAudio": "Le sucre rend‑il les enfants hyperactifs ?",
-    "options": [
-      "Oui, le sucre augmente le niveau d’énergie de façon incontrôlée",
-      "Non, les études ne montrent aucun lien direct",
-      "Oui, mais seulement chez les enfants sensibles au glucose"
-    ],
-    "correct": 1,
-    "explanation": "Les recherches scientifiques n’ont pas trouvé de preuve que le sucre cause une hyperactivité chez les enfants en bonne santé.",
-    "explanationAudio": "Les recherches scientifiques n’ont pas trouvé de preuve que le sucre cause une hyperactivité chez les enfants en bonne santé.",
-    "emojis": [
-      "🍭",
-      "🧒",
-      "🧠",
-      "🔬",
-      "📈",
-      "🤷",
-      "💭"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D brain scan comparison showing no activity change after sugar consumption, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D vibrant kitchen table with children eating candy, realistic lighting, focus on joyful expressions, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a sugar cube dissolving in water, cinematic close‑up, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Faire craquer les articulations entraîne‑t‑il l’arthrite ?",
-    "questionAudio": "Faire craquer les articulations entraîne‑t‑il l’arthrite ?",
-    "options": [
-      "Non, le craquement n’endommage pas le cartilage",
-      "Oui, mais uniquement chez les personnes âgées",
-      "Oui, chaque craquement affaiblit les articulations"
+      "Le sel élève la température à laquelle l’eau bout",
+      "Le sel accélère la cuisson des aliments",
+      "Le sel diminue la densité de l’eau"
     ],
     "correct": 0,
-    "explanation": "Le bruit provient de la libération de gaz dans le liquide synovial et ne cause pas d’arthrite.",
-    "explanationAudio": "Le bruit provient de la libération de gaz dans le liquide synovial et ne cause pas d’arthrite.",
+    "explanation": "Le sel crée une solution colligative qui nécessite plus d’énergie thermique pour atteindre l’ébullition.",
+    "explanationAudio": "Le sel crée une solution colligative qui nécessite plus d’énergie thermique pour atteindre l’ébullition.",
     "emojis": [
-      "🤲",
-      "🔊",
-      "🦴",
+      "🍳",
+      "🧂",
+      "🔥",
       "💧",
-      "⚙️",
-      "❌",
-      "📚"
+      "📈",
+      "🧪",
+      "🥄"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of a human hand joint releasing a small bubble, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of an arthritic joint contrasted with a healthy joint, side by side, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model of cartilage and synovial fluid with no damage after repeated cracking, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a boiling pot of water with salt crystals dissolving, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a kitchen timer speeding up, representing faster cooking, hyper‑realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D close‑up of water molecules with reduced density, scientific illustration style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,89 +30,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Le sèche‑cheveux abîme‑t‑il les cheveux ?",
-    "questionAudio": "Le sèche‑cheveux abîme‑t‑il les cheveux ?",
+    "question": "Qu’est‑ce que la réaction de Maillard dans la cuisson ?",
+    "questionAudio": "Qu’est‑ce que la réaction de Maillard dans la cuisson ?",
     "options": [
-      "Non, il n’a aucun effet sur la santé du cheveu",
-      "Oui, mais seulement si l’on utilise un réglage trop chaud",
-      "Oui, la chaleur excessive peut fragiliser la fibre capillaire"
+      "Un processus de fermentation lactique",
+      "Une réaction chimique entre sucres et acides aminés qui crée des arômes bruns",
+      "Une décomposition thermique de l’amidon"
+    ],
+    "correct": 1,
+    "explanation": "Cette réaction produit des composés aromatiques et la couleur brune caractéristique des viandes grillées.",
+    "explanationAudio": "Cette réaction produit des composés aromatiques et la couleur brune caractéristique des viandes grillées.",
+    "emojis": [
+      "🥩",
+      "🔥",
+      "🧪",
+      "🍖",
+      "🌡️",
+      "🧑‍🍳",
+      "✨"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D model of bacterial cells fermenting milk, scientific style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a steak searing, with brown crust forming, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of starch granules breaking down under heat, detailed rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Comment le pH d’une solution influence la couleur du chou rouge en tant qu’indicateur ?",
+    "questionAudio": "Comment le pH d’une solution influence la couleur du chou rouge en tant qu’indicateur ?",
+    "options": [
+      "Il devient rouge en milieu basique",
+      "Il reste incolore quel que soit le pH",
+      "Il devient bleu en milieu basique"
     ],
     "correct": 2,
-    "explanation": "Une température trop élevée peut dénaturer les protéines du cheveu, entraînant une perte de brillance et de résistance.",
-    "explanationAudio": "Une température trop élevée peut dénaturer les protéines du cheveu, entraînant une perte de brillance et de résistance.",
+    "explanation": "Les pigments anthocyaniques du chou changent de couleur selon l’acidité, passant au bleu dans un environnement basique.",
+    "explanationAudio": "Les pigments anthocyaniques du chou changent de couleur selon l’acidité, passant au bleu dans un environnement basique.",
     "emojis": [
-      "💇",
-      "🔥",
-      "🧬",
-      "⚡",
-      "🛁",
+      "🥬",
+      "🧪",
       "🔬",
+      "💙",
+      "📊",
+      "🧑‍🔬",
+      "🌈"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D close‑up of red cabbage cells turning red in acidic solution, scientific illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D abstract representation of colorless solution with no indicator, minimalist style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D photorealistic scene of a beaker containing blue liquid with red cabbage slices, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Pourquoi laisser reposer la viande après cuisson améliore‑t‑elle sa tendreté ?",
+    "questionAudio": "Pourquoi laisser reposer la viande après cuisson améliore‑t‑elle sa tendreté ?",
+    "options": [
+      "Les jus se redistribuent dans les fibres musculaires",
+      "La graisse se solidifie et rend la viande dure",
+      "La chaleur continue de cuire les protéines"
+    ],
+    "correct": 0,
+    "explanation": "Le temps de repos permet aux liquides internes de se rééquilibrer, évitant qu’ils s’échappent lors de la découpe.",
+    "explanationAudio": "Le temps de repos permet aux liquides internes de se rééquilibrer, évitant qu’ils s’échappent lors de la découpe.",
+    "emojis": [
+      "🥩",
+      "⏱️",
+      "💧",
+      "🔪",
+      "🧈",
+      "🍽️",
+      "🧑‍🍳"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a steak on a cutting board with juices flowing back into the meat, hyper‑realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D depiction of solidified fat crystals on meat surface, detailed rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of muscle fibers heating, scientific style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel rôle joue le gluten dans la pâte à pain ?",
+    "questionAudio": "Quel rôle joue le gluten dans la pâte à pain ?",
+    "options": [
+      "Il fournit des nutriments aux levures",
+      "Il forme un réseau élastique qui retient les gaz de fermentation",
+      "Il empêche la fermentation de la pâte"
+    ],
+    "correct": 1,
+    "explanation": "Le réseau de gluten s’étire et capture les bulles de dioxyde de carbone, donnant au pain son volume.",
+    "explanationAudio": "Le réseau de gluten s’étire et capture les bulles de dioxyde de carbone, donnant au pain son volume.",
+    "emojis": [
+      "🍞",
+      "🧵",
+      "🌾",
+      "⚗️",
+      "💨",
+      "🧑‍🍳",
       "📏"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D cross‑section of a hair fiber showing protein denaturation after heat exposure, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of two hair strands, one healthy and one damaged by heat, side by side, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D realistic bathroom scene with a hair dryer blowing warm air onto glossy hair strands, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "La pleine lune influence‑t‑elle le comportement humain ?",
-    "questionAudio": "La pleine lune influence‑t‑elle le comportement humain ?",
-    "options": [
-      "Oui, elle augmente le nombre d’incidents nocturnes",
-      "Oui, mais uniquement chez les personnes sensibles aux cycles lunaires",
-      "Non, aucune étude fiable ne montre d’effet significatif"
-    ],
-    "correct": 2,
-    "explanation": "Les recherches ont montré que les corrélations observées sont dues à des biais de perception, pas à une influence réelle de la lune.",
-    "explanationAudio": "Les recherches ont montré que les corrélations observées sont dues à des biais de perception, pas à une influence réelle de la lune.",
-    "emojis": [
-      "🌕",
-      "🧠",
-      "📊",
-      "🌃",
-      "🔭",
-      "❓",
-      "🕵️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a brain with no activity change under moonlight, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D chart comparing incident rates during full moon versus other phases, clear graphics, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D night sky with a bright full moon over a calm city, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Mettre du métal dans le micro‑ondes provoque‑t‑il une explosion ?",
-    "questionAudio": "Mettre du métal dans le micro‑ondes provoque‑t‑il une explosion ?",
-    "options": [
-      "Non, il crée simplement des étincelles sans explosion",
-      "Oui, le métal peut déclencher une explosion violente",
-      "Oui, mais uniquement avec des objets pointus"
-    ],
-    "correct": 0,
-    "explanation": "Le métal reflète les ondes, ce qui peut générer des arcs électriques visibles, mais cela ne conduit pas à une explosion.",
-    "explanationAudio": "Le métal reflète les ondes, ce qui peut générer des arcs électriques visibles, mais cela ne conduit pas à une explosion.",
-    "emojis": [
-      "⚡",
-      "🥄",
-      "🚫",
-      "🔧",
-      "📡",
-      "🛑",
-      "💥"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D realistic microwave interior with a metal fork sparking, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of electromagnetic waves reflecting off a metal object, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D safety infographic showing a crossed‑out metal utensil inside a microwave, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D model of yeast cells feeding on nutrients, scientific rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of dough stretching, showing elastic gluten strands, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D depiction of dough with no gluten, collapsing under gas pressure, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

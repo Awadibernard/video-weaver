@@ -1,10 +1,10 @@
 {
-  "topic": "🧠 Quiz : Science de la Cuisine & Alimentation",
-  "description": "Explore les phénomènes scientifiques qui transforment chaque plat en une expérience sensorielle.",
+  "topic": "🧠 Quiz : Médecine, Sommeil & Santé du Quotidien",
+  "description": "Explore les liens entre sommeil, santé et médecine au quotidien.",
   "hashtags": [
     "#science",
     "#quiz",
-    "#cuisine"
+    "#cultureg"
   ],
   "motif": "science",
   "cta": "Abonne toi pour en apprendre plus !",
@@ -19,141 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Pourquoi l’ajout de sel à l’eau augmente‑t‑elle le point d’ébullition ?",
-      "questionAudio": "Pourquoi l’ajout de sel à l’eau augmente‑t‑elle le point d’ébullition ?",
+      "question": "Combien d'heures de sommeil sont recommandées pour un adulte ?",
+      "questionAudio": "Combien d'heures de sommeil sont recommandées pour un adulte ?",
       "emojis": [
-        "🍳",
-        "🧂",
-        "🔥",
-        "💧",
-        "📈",
-        "🧪",
-        "🥄"
+        "🛏️",
+        "🌙",
+        "😴",
+        "⏰",
+        "💤",
+        "🧬",
+        "📊"
       ],
       "options": [
-        "Le sel élève la température à laquelle l’eau bout",
-        "Le sel accélère la cuisson des aliments",
-        "Le sel diminue la densité de l’eau"
+        "Sept à neuf heures",
+        "Cinq à six heures",
+        "Onze à douze heures"
       ],
       "correct": 0,
-      "answer": "Le sel élève la température à laquelle l’eau bout",
-      "explanation": "Le sel crée une solution colligative qui nécessite plus d’énergie thermique pour atteindre l’ébullition.",
-      "explanationAudio": "Le sel crée une solution colligative qui nécessite plus d’énergie thermique pour atteindre l’ébullition.",
+      "answer": "Sept à neuf heures",
+      "explanation": "Les adultes ont besoin en moyenne de sept à neuf heures de sommeil chaque nuit pour une santé optimale.",
+      "explanationAudio": "Les adultes ont besoin en moyenne de sept à neuf heures de sommeil chaque nuit pour une santé optimale.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a boiling pot of water with salt crystals dissolving, photorealistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a kitchen timer speeding up, representing faster cooking, hyper‑realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of water molecules with reduced density, scientific illustration style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an adult sleeping peacefully with a digital clock displaying seven to nine hours, soft ambient lighting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an adult sleeping with a digital clock showing five to six hours, dim lighting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an adult sleeping with a digital clock showing eleven to twelve hours, bright lighting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Qu’est‑ce que la réaction de Maillard dans la cuisson ?",
-      "questionAudio": "Qu’est‑ce que la réaction de Maillard dans la cuisson ?",
+      "question": "Quelle hormone est principalement libérée pendant le sommeil profond pour favoriser la croissance et la réparation des tissus ?",
+      "questionAudio": "Quelle hormone est principalement libérée pendant le sommeil profond pour favoriser la croissance et la réparation des tissus ?",
       "emojis": [
-        "🥩",
-        "🔥",
         "🧪",
-        "🍖",
-        "🌡️",
-        "🧑‍🍳",
-        "✨"
-      ],
-      "options": [
-        "Un processus de fermentation lactique",
-        "Une réaction chimique entre sucres et acides aminés qui crée des arômes bruns",
-        "Une décomposition thermique de l’amidon"
-      ],
-      "correct": 1,
-      "answer": "Une réaction chimique entre sucres et acides aminés qui crée des arômes bruns",
-      "explanation": "Cette réaction produit des composés aromatiques et la couleur brune caractéristique des viandes grillées.",
-      "explanationAudio": "Cette réaction produit des composés aromatiques et la couleur brune caractéristique des viandes grillées.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of bacterial cells fermenting milk, scientific style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a steak searing, with brown crust forming, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of starch granules breaking down under heat, detailed rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Comment le pH d’une solution influence la couleur du chou rouge en tant qu’indicateur ?",
-      "questionAudio": "Comment le pH d’une solution influence la couleur du chou rouge en tant qu’indicateur ?",
-      "emojis": [
-        "🥬",
-        "🧪",
+        "🛌",
+        "🌙",
+        "🧬",
+        "💪",
         "🔬",
-        "💙",
-        "📊",
-        "🧑‍🔬",
-        "🌈"
+        "🩺"
       ],
       "options": [
-        "Il devient rouge en milieu basique",
-        "Il reste incolore quel que soit le pH",
-        "Il devient bleu en milieu basique"
-      ],
-      "correct": 2,
-      "answer": "Il devient bleu en milieu basique",
-      "explanation": "Les pigments anthocyaniques du chou changent de couleur selon l’acidité, passant au bleu dans un environnement basique.",
-      "explanationAudio": "Les pigments anthocyaniques du chou changent de couleur selon l’acidité, passant au bleu dans un environnement basique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D close‑up of red cabbage cells turning red in acidic solution, scientific illustration, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D abstract representation of colorless solution with no indicator, minimalist style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D photorealistic scene of a beaker containing blue liquid with red cabbage slices, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Pourquoi laisser reposer la viande après cuisson améliore‑t‑elle sa tendreté ?",
-      "questionAudio": "Pourquoi laisser reposer la viande après cuisson améliore‑t‑elle sa tendreté ?",
-      "emojis": [
-        "🥩",
-        "⏱️",
-        "💧",
-        "🔪",
-        "🧈",
-        "🍽️",
-        "🧑‍🍳"
-      ],
-      "options": [
-        "Les jus se redistribuent dans les fibres musculaires",
-        "La graisse se solidifie et rend la viande dure",
-        "La chaleur continue de cuire les protéines"
+        "Hormone de croissance",
+        "Cortisol",
+        "Adrénaline"
       ],
       "correct": 0,
-      "answer": "Les jus se redistribuent dans les fibres musculaires",
-      "explanation": "Le temps de repos permet aux liquides internes de se rééquilibrer, évitant qu’ils s’échappent lors de la découpe.",
-      "explanationAudio": "Le temps de repos permet aux liquides internes de se rééquilibrer, évitant qu’ils s’échappent lors de la découpe.",
+      "answer": "Hormone de croissance",
+      "explanation": "L'hormone de croissance est sécrétée en grande quantité durant le sommeil à ondes lentes, aidant à la régénération cellulaire.",
+      "explanationAudio": "L'hormone de croissance est sécrétée en grande quantité durant le sommeil à ondes lentes, aidant à la régénération cellulaire.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of a steak on a cutting board with juices flowing back into the meat, hyper‑realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D depiction of solidified fat crystals on meat surface, detailed rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of muscle fibers heating, scientific style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a human body with growth hormone molecules highlighted during deep sleep, soft blue lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of cortisol molecules flooding the bloodstream, with a stressed figure, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of an adrenaline surge in a person waking up abruptly, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel rôle joue le gluten dans la pâte à pain ?",
-      "questionAudio": "Quel rôle joue le gluten dans la pâte à pain ?",
+      "question": "Quel est l'impact du manque de sommeil sur la sensibilité à l'insuline ?",
+      "questionAudio": "Quel est l'impact du manque de sommeil sur la sensibilité à l'insuline ?",
       "emojis": [
-        "🍞",
-        "🧵",
-        "🌾",
-        "⚗️",
-        "💨",
-        "🧑‍🍳",
-        "📏"
+        "🍎",
+        "🩸",
+        "🛏️",
+        "⚖️",
+        "🧬",
+        "📈",
+        "🩺"
       ],
       "options": [
-        "Il fournit des nutriments aux levures",
-        "Il forme un réseau élastique qui retient les gaz de fermentation",
-        "Il empêche la fermentation de la pâte"
+        "Amélioration de la sensibilité à l'insuline",
+        "Augmentation de la résistance à l'insuline",
+        "Aucun effet"
       ],
       "correct": 1,
-      "answer": "Il forme un réseau élastique qui retient les gaz de fermentation",
-      "explanation": "Le réseau de gluten s’étire et capture les bulles de dioxyde de carbone, donnant au pain son volume.",
-      "explanationAudio": "Le réseau de gluten s’étire et capture les bulles de dioxyde de carbone, donnant au pain son volume.",
+      "answer": "Augmentation de la résistance à l'insuline",
+      "explanation": "Le déficit de sommeil augmente la résistance à l'insuline, favorisant le risque de diabète de type deux.",
+      "explanationAudio": "Le déficit de sommeil augmente la résistance à l'insuline, favorisant le risque de diabète de type deux.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of yeast cells feeding on nutrients, scientific rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of dough stretching, showing elastic gluten strands, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D depiction of dough with no gluten, collapsing under gas pressure, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a pancreas with insulin receptors highly active, bright lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a pancreas with insulin receptors becoming less responsive, dark background, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a neutral pancreas with no change, neutral tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel effet la lumière bleue des écrans a t elle sur la production de mélatonine ?",
+      "questionAudio": "Quel effet la lumière bleue des écrans a t elle sur la production de mélatonine ?",
+      "emojis": [
+        "📱",
+        "🔵",
+        "🌙",
+        "🛌",
+        "🧬",
+        "💤",
+        "⚙️"
+      ],
+      "options": [
+        "Stimulation de la mélatonine",
+        "Suppression de la mélatonine",
+        "Aucun effet"
+      ],
+      "correct": 1,
+      "answer": "Suppression de la mélatonine",
+      "explanation": "L'exposition à la lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
+      "explanationAudio": "L'exposition à la lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a phone emitting soft warm light enhancing melatonin glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a smartphone emitting blue light onto a sleeping person, melatonin particles fading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a neutral screen with no effect on melatonin, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel pourcentage approximatif d'adultes souffrent d'apnée du sommeil selon les études ?",
+      "questionAudio": "Quel pourcentage approximatif d'adultes souffrent d'apnée du sommeil selon les études ?",
+      "emojis": [
+        "😴",
+        "🫁",
+        "📊",
+        "🩺",
+        "💤",
+        "⚕️",
+        "🧭"
+      ],
+      "options": [
+        "Quatre à cinq pour cent",
+        "Dix à douze pour cent",
+        "Un à deux pour cent"
+      ],
+      "correct": 0,
+      "answer": "Quatre à cinq pour cent",
+      "explanation": "Environ quatre à cinq pour cent des adultes présentent une apnée du sommeil modérée à sévère.",
+      "explanationAudio": "Environ quatre à cinq pour cent des adultes présentent une apnée du sommeil modérée à sévère.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D realistic illustration of a sleeping adult with airway obstruction visualized, medical imaging style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a night scene with statistical chart showing ten percent prevalence, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a healthy airway during sleep, calm atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel rôle joue la sieste courte de vingt minutes sur la vigilance ?",
+      "questionAudio": "Quel rôle joue la sieste courte de vingt minutes sur la vigilance ?",
+      "emojis": [
+        "☕",
+        "🕑",
+        "😌",
+        "🧠",
+        "📈",
+        "🛌",
+        "💡"
+      ],
+      "options": [
+        "N'a aucun impact",
+        "Améliore la vigilance",
+        "Diminue la vigilance"
+      ],
+      "correct": 1,
+      "answer": "Améliore la vigilance",
+      "explanation": "Une sieste courte d'environ vingt minutes augmente la vigilance et la performance cognitive sans provoquer de somnolence résiduelle.",
+      "explanationAudio": "Une sieste courte d'environ vingt minutes augmente la vigilance et la performance cognitive sans provoquer de somnolence résiduelle.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a person with neutral state, no change after a brief rest, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a person taking a twenty minute nap, brain activity lighting up, bright office, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a person feeling drowsy after a long nap, muted colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel lien a été démontré entre le sommeil et le système immunitaire ?",
+      "questionAudio": "Quel lien a été démontré entre le sommeil et le système immunitaire ?",
+      "emojis": [
+        "🛡️",
+        "🧬",
+        "🛏️",
+        "🌙",
+        "🩺",
+        "💉",
+        "📚"
+      ],
+      "options": [
+        "Le sommeil renforce la réponse immunitaire",
+        "Le sommeil affaiblit la réponse immunitaire",
+        "Le sommeil n'influence pas l'immunité"
+      ],
+      "correct": 0,
+      "answer": "Le sommeil renforce la réponse immunitaire",
+      "explanation": "Un sommeil adéquat favorise la production de cytokines et d'anticorps, renforçant la défense contre les infections.",
+      "explanationAudio": "Un sommeil adéquat favorise la production de cytokines et d'anticorps, renforçant la défense contre les infections.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of immune cells activating during deep sleep, glowing environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of immune cells dormant during sleep deprivation, dark tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of neutral immune activity with no sleep effect, balanced lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

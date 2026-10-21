@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Neurosciences & Psychologie Scientifique",
-  "description": "Plongez dans les mystères du cerveau et de l'esprit avec des questions basées sur des faits scientifiques avérés.",
+  "topic": "🧠 Quiz : Science du Quotidien & Idées Reçues",
+  "description": "Démystifions les idées reçues qui nous entourent au quotidien.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Quelle est la fonction principale de l'hippocampe ?",
-      "questionAudio": "Quelle est la fonction principale de l'hippocampe ?",
-      "emojis": [
-        "🧠",
-        "📚",
-        "🗺️",
-        "🔬",
-        "✨",
-        "🧪",
-        "⚡"
-      ],
-      "options": [
-        "La consolidation de la mémoire",
-        "La régulation du rythme cardiaque",
-        "La production de dopamine"
-      ],
-      "correct": 0,
-      "answer": "La consolidation de la mémoire",
-      "explanation": "L'hippocampe joue un rôle central dans la mémoire et la navigation spatiale.",
-      "explanationAudio": "L'hippocampe joue un rôle central dans la mémoire et la navigation spatiale.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a human brain highlighting the hippocampus in blue with glowing neural pathways, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a human heart beating rhythmically, ultra realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of dopamine molecules swirling around synapses in a neural network, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel neurotransmetteur est principalement impliqué dans la modulation de l'humeur et la dépression ?",
-      "questionAudio": "Quel neurotransmetteur est principalement impliqué dans la modulation de l'humeur et la dépression ?",
-      "emojis": [
-        "🧪",
-        "😊",
-        "💤",
-        "📊",
-        "🧠",
-        "🔬",
-        "⚡"
-      ],
-      "options": [
-        "Le glutamate",
-        "La sérotonine",
-        "L'acétylcholine"
-      ],
-      "correct": 1,
-      "answer": "La sérotonine",
-      "explanation": "La sérotonine régule l'humeur, le sommeil et l'appétit, et son déséquilibre est lié à la dépression.",
-      "explanationAudio": "La sérotonine régule l'humeur, le sommeil et l'appétit, et son déséquilibre est lié à la dépression.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of glutamate neurotransmission in the cerebral cortex, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of serotonin molecules diffusing in a brain synapse, glowing teal, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of an acetylcholine molecule interacting with a neuronal membrane, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle région cérébrale est associée à la prise de décision basée sur la récompense ?",
-      "questionAudio": "Quelle région cérébrale est associée à la prise de décision basée sur la récompense ?",
-      "emojis": [
-        "🏆",
-        "🧠",
-        "🔴",
-        "📈",
-        "⚡",
-        "🔬",
-        "✨"
-      ],
-      "options": [
-        "Le tronc cérébral",
-        "Le cervelet",
-        "Le noyau accumbens"
-      ],
-      "correct": 2,
-      "answer": "Le noyau accumbens",
-      "explanation": "Le noyau accumbens intègre les signaux de récompense et influence les comportements motivés.",
-      "explanationAudio": "Le noyau accumbens intègre les signaux de récompense et influence les comportements motivés.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of the brainstem with vascular structures, high detail, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the cerebellum with fine neuronal textures, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cross‑section of a human brain highlighting the nucleus accumbens in red, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel phénomène décrit la perte progressive de neurones liée à l'âge ?",
-      "questionAudio": "Quel phénomène décrit la perte progressive de neurones liée à l'âge ?",
-      "emojis": [
-        "📉",
-        "🧠",
-        "⏳",
-        "🔬",
-        "🧪",
-        "⚡",
-        "✨"
-      ],
-      "options": [
-        "La plasticité synaptique",
-        "L'atrophie cérébrale",
-        "La neurogenèse"
-      ],
-      "correct": 1,
-      "answer": "L'atrophie cérébrale",
-      "explanation": "L'atrophie cérébrale correspond à une réduction du volume du cerveau observée avec le vieillissement.",
-      "explanationAudio": "L'atrophie cérébrale correspond à une réduction du volume du cerveau observée avec le vieillissement.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic view of synaptic connections strengthening in a neural network, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of an aging brain showing cortical thinning and volume loss, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of newborn neurons forming in the hippocampus, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle méthode d'imagerie permet de visualiser l'activité métabolique du cerveau en temps réel ?",
-      "questionAudio": "Quelle méthode d'imagerie permet de visualiser l'activité métabolique du cerveau en temps réel ?",
+      "question": "Le micro ondes rend il les aliments radioactifs ?",
+      "questionAudio": "Le micro ondes rend il les aliments radioactifs ?",
       "emojis": [
         "📡",
-        "🧠",
-        "🔥",
-        "🔬",
+        "🍲",
+        "⚛️",
+        "❌",
+        "🔊",
         "💡",
-        "⚡",
-        "✨"
+        "🧊"
       ],
       "options": [
-        "L'électroencéphalographie",
-        "L'IRM fonctionnelle",
-        "La tomographie par émission de positons"
+        "Oui, les ondes ionisent les molécules alimentaires",
+        "Non, les micro ondes n’induisent aucune radioactivité",
+        "Oui, mais seulement si l’appareil est défectueux"
+      ],
+      "correct": 1,
+      "answer": "Non, les micro ondes n’induisent aucune radioactivité",
+      "explanation": "Les micro ondes chauffent les molécules d’eau sans modifier la structure atomique, il n’y a donc aucune création de radioactivité.",
+      "explanationAudio": "Les micro ondes chauffent les molécules d’eau sans modifier la structure atomique, il n’y a donc aucune création de radioactivité.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of atomic nuclei unchanged inside food inside a microwave, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D kitchen scene with a microwave emitting blue waves heating a plate of food, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a warning sign with a crossed out radiation symbol next to a microwave, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Boire huit verres d’eau chaque jour est‑il indispensable à la santé ?",
+      "questionAudio": "Boire huit verres d’eau chaque jour est‑il indispensable à la santé ?",
+      "emojis": [
+        "💧",
+        "🏃",
+        "☀️",
+        "📊",
+        "🗓️",
+        "🤔",
+        "🌡️"
+      ],
+      "options": [
+        "Oui, mais uniquement pour les personnes âgées",
+        "Oui, c’est une règle absolue pour tous les adultes",
+        "Non, les besoins varient selon l’activité et le climat"
       ],
       "correct": 2,
-      "answer": "La tomographie par émission de positons",
-      "explanation": "La tomographie par émission de positons mesure la consommation de glucose et révèle l'activité métabolique cérébrale.",
-      "explanationAudio": "La tomographie par émission de positons mesure la consommation de glucose et révèle l'activité métabolique cérébrale.",
+      "answer": "Non, les besoins varient selon l’activité et le climat",
+      "explanation": "Les besoins hydriques dépendent de la température, de l’effort physique et de la santé individuelle, il n’existe pas de nombre fixe.",
+      "explanationAudio": "Les besoins hydriques dépendent de la température, de l’effort physique et de la santé individuelle, il n’existe pas de nombre fixe.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of EEG electrodes on a scalp with electrical waveforms, cinematic style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of an fMRI machine with brain activation maps, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a PET scanner with a glowing brain showing metabolic hotspots, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a calendar with water glasses highlighted on different days, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D infographic showing varying water intake recommendations based on activity level, bright colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D realistic scene of a person drinking water from a glass in a sunny environment, cinematic focus, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Le sucre rend‑il les enfants hyperactifs ?",
+      "questionAudio": "Le sucre rend‑il les enfants hyperactifs ?",
+      "emojis": [
+        "🍭",
+        "🧒",
+        "🧠",
+        "🔬",
+        "📈",
+        "🤷",
+        "💭"
+      ],
+      "options": [
+        "Oui, le sucre augmente le niveau d’énergie de façon incontrôlée",
+        "Non, les études ne montrent aucun lien direct",
+        "Oui, mais seulement chez les enfants sensibles au glucose"
+      ],
+      "correct": 1,
+      "answer": "Non, les études ne montrent aucun lien direct",
+      "explanation": "Les recherches scientifiques n’ont pas trouvé de preuve que le sucre cause une hyperactivité chez les enfants en bonne santé.",
+      "explanationAudio": "Les recherches scientifiques n’ont pas trouvé de preuve que le sucre cause une hyperactivité chez les enfants en bonne santé.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D brain scan comparison showing no activity change after sugar consumption, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D vibrant kitchen table with children eating candy, realistic lighting, focus on joyful expressions, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a sugar cube dissolving in water, cinematic close‑up, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Faire craquer les articulations entraîne‑t‑il l’arthrite ?",
+      "questionAudio": "Faire craquer les articulations entraîne‑t‑il l’arthrite ?",
+      "emojis": [
+        "🤲",
+        "🔊",
+        "🦴",
+        "💧",
+        "⚙️",
+        "❌",
+        "📚"
+      ],
+      "options": [
+        "Non, le craquement n’endommage pas le cartilage",
+        "Oui, mais uniquement chez les personnes âgées",
+        "Oui, chaque craquement affaiblit les articulations"
+      ],
+      "correct": 0,
+      "answer": "Non, le craquement n’endommage pas le cartilage",
+      "explanation": "Le bruit provient de la libération de gaz dans le liquide synovial et ne cause pas d’arthrite.",
+      "explanationAudio": "Le bruit provient de la libération de gaz dans le liquide synovial et ne cause pas d’arthrite.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a human hand joint releasing a small bubble, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of an arthritic joint contrasted with a healthy joint, side by side, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of cartilage and synovial fluid with no damage after repeated cracking, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Le sèche‑cheveux abîme‑t‑il les cheveux ?",
+      "questionAudio": "Le sèche‑cheveux abîme‑t‑il les cheveux ?",
+      "emojis": [
+        "💇",
+        "🔥",
+        "🧬",
+        "⚡",
+        "🛁",
+        "🔬",
+        "📏"
+      ],
+      "options": [
+        "Non, il n’a aucun effet sur la santé du cheveu",
+        "Oui, mais seulement si l’on utilise un réglage trop chaud",
+        "Oui, la chaleur excessive peut fragiliser la fibre capillaire"
+      ],
+      "correct": 2,
+      "answer": "Oui, la chaleur excessive peut fragiliser la fibre capillaire",
+      "explanation": "Une température trop élevée peut dénaturer les protéines du cheveu, entraînant une perte de brillance et de résistance.",
+      "explanationAudio": "Une température trop élevée peut dénaturer les protéines du cheveu, entraînant une perte de brillance et de résistance.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D cross‑section of a hair fiber showing protein denaturation after heat exposure, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of two hair strands, one healthy and one damaged by heat, side by side, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D realistic bathroom scene with a hair dryer blowing warm air onto glossy hair strands, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "La pleine lune influence‑t‑elle le comportement humain ?",
+      "questionAudio": "La pleine lune influence‑t‑elle le comportement humain ?",
+      "emojis": [
+        "🌕",
+        "🧠",
+        "📊",
+        "🌃",
+        "🔭",
+        "❓",
+        "🕵️"
+      ],
+      "options": [
+        "Oui, elle augmente le nombre d’incidents nocturnes",
+        "Oui, mais uniquement chez les personnes sensibles aux cycles lunaires",
+        "Non, aucune étude fiable ne montre d’effet significatif"
+      ],
+      "correct": 2,
+      "answer": "Non, aucune étude fiable ne montre d’effet significatif",
+      "explanation": "Les recherches ont montré que les corrélations observées sont dues à des biais de perception, pas à une influence réelle de la lune.",
+      "explanationAudio": "Les recherches ont montré que les corrélations observées sont dues à des biais de perception, pas à une influence réelle de la lune.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of a brain with no activity change under moonlight, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D chart comparing incident rates during full moon versus other phases, clear graphics, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D night sky with a bright full moon over a calm city, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Mettre du métal dans le micro‑ondes provoque‑t‑il une explosion ?",
+      "questionAudio": "Mettre du métal dans le micro‑ondes provoque‑t‑il une explosion ?",
+      "emojis": [
+        "⚡",
+        "🥄",
+        "🚫",
+        "🔧",
+        "📡",
+        "🛑",
+        "💥"
+      ],
+      "options": [
+        "Non, il crée simplement des étincelles sans explosion",
+        "Oui, le métal peut déclencher une explosion violente",
+        "Oui, mais uniquement avec des objets pointus"
+      ],
+      "correct": 0,
+      "answer": "Non, il crée simplement des étincelles sans explosion",
+      "explanation": "Le métal reflète les ondes, ce qui peut générer des arcs électriques visibles, mais cela ne conduit pas à une explosion.",
+      "explanationAudio": "Le métal reflète les ondes, ce qui peut générer des arcs électriques visibles, mais cela ne conduit pas à une explosion.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D realistic microwave interior with a metal fork sparking, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of electromagnetic waves reflecting off a metal object, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D safety infographic showing a crossed‑out metal utensil inside a microwave, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

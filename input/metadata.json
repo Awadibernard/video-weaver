@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Médecine, Sommeil & Santé du Quotidien",
-  "description": "Explore les liens entre sommeil, santé et médecine au quotidien.",
+  "topic": "🧠 Quiz : Science du Sport & Biomémécanique",
+  "description": "Testez vos connaissances sur la science du sport et la biomécanique avec ces questions captivantes !",
   "hashtags": [
     "#science",
     "#quiz",
@@ -10,204 +10,150 @@
   "cta": "Abonne toi pour en apprendre plus !",
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
+    "⚽",
+    "🏃‍♂️",
+    "🦵",
+    "📊",
+    "💪",
     "🔬",
-    "🧪",
-    "✨",
-    "🌍",
-    "⚡",
-    "🧠",
-    "🚀"
+    "⚡"
   ],
   "uiScale": 0.85,
-  "questionCount": 7,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Combien d'heures de sommeil sont recommandées pour un adulte ?",
-      "questionAudio": "Combien d'heures de sommeil sont recommandées pour un adulte ?",
+      "question": "Comment le cycle d’étirement‑raccourcissement améliore t il la performance de saut ?",
+      "questionAudio": "Comment le cycle d'étirement raccourcissement améliore t il la performance de saut ?",
       "emojis": [
-        "🛏️",
-        "🌙",
-        "😴",
-        "⏰",
-        "💤",
-        "🧬",
-        "📊"
-      ],
-      "options": [
-        "Sept à neuf heures",
-        "Cinq à six heures",
-        "Onze à douze heures"
-      ],
-      "correct": 0,
-      "answer": "Sept à neuf heures",
-      "explanation": "Les adultes ont besoin en moyenne de sept à neuf heures de sommeil chaque nuit pour une santé optimale.",
-      "explanationAudio": "Les adultes ont besoin en moyenne de sept à neuf heures de sommeil chaque nuit pour une santé optimale.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an adult sleeping peacefully with a digital clock displaying seven to nine hours, soft ambient lighting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an adult sleeping with a digital clock showing five to six hours, dim lighting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of an adult sleeping with a digital clock showing eleven to twelve hours, bright lighting, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle hormone est principalement libérée pendant le sommeil profond pour favoriser la croissance et la réparation des tissus ?",
-      "questionAudio": "Quelle hormone est principalement libérée pendant le sommeil profond pour favoriser la croissance et la réparation des tissus ?",
-      "emojis": [
-        "🧪",
-        "🛌",
-        "🌙",
-        "🧬",
+        "🏃‍♂️",
+        "🦵",
+        "⚡",
+        "📊",
         "💪",
         "🔬",
-        "🩺"
+        "⚽"
       ],
       "options": [
-        "Hormone de croissance",
-        "Cortisol",
-        "Adrénaline"
+        "Il augmente la fréquence cardiaque pendant l’effort",
+        "Il réduit le recrutement des fibres musculaires",
+        "Il stocke l’énergie élastique dans les tendons et la libère lors du décollage"
       ],
-      "correct": 0,
-      "answer": "Hormone de croissance",
-      "explanation": "L'hormone de croissance est sécrétée en grande quantité durant le sommeil à ondes lentes, aidant à la régénération cellulaire.",
-      "explanationAudio": "L'hormone de croissance est sécrétée en grande quantité durant le sommeil à ondes lentes, aidant à la régénération cellulaire.",
+      "correct": 2,
+      "answer": "Il stocke l’énergie élastique dans les tendons et la libère lors du décollage",
+      "explanation": "Le cycle d’étirement‑raccourcissement permet aux tendons d’accumuler de l’énergie qui est restituée au moment du décollage, augmentant ainsi la hauteur du saut.",
+      "explanationAudio": "Le cycle d'étirement raccourcissement permet aux tendons d'accumuler de l'énergie qui est restituée au moment du décollage, augmentant ainsi la hauteur du saut.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of a human body with growth hormone molecules highlighted during deep sleep, soft blue lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of cortisol molecules flooding the bloodstream, with a stressed figure, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of an adrenaline surge in a person waking up abruptly, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a heart beating rapidly with motion blur, realistic textures, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of muscle fibers with reduced activation, soft shading, realistic anatomy, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a sprinter's lower leg showing tendons stretched like a spring, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel est l'impact du manque de sommeil sur la sensibilité à l'insuline ?",
-      "questionAudio": "Quel est l'impact du manque de sommeil sur la sensibilité à l'insuline ?",
+      "question": "Quel groupe musculaire contribue le plus à la propulsion vers l’avant lors d’un sprint ?",
+      "questionAudio": "Quel groupe musculaire contribue le plus à la propulsion vers l'avant lors d'un sprint ?",
       "emojis": [
-        "🍎",
-        "🩸",
-        "🛏️",
-        "⚖️",
-        "🧬",
-        "📈",
-        "🩺"
-      ],
-      "options": [
-        "Amélioration de la sensibilité à l'insuline",
-        "Augmentation de la résistance à l'insuline",
-        "Aucun effet"
-      ],
-      "correct": 1,
-      "answer": "Augmentation de la résistance à l'insuline",
-      "explanation": "Le déficit de sommeil augmente la résistance à l'insuline, favorisant le risque de diabète de type deux.",
-      "explanationAudio": "Le déficit de sommeil augmente la résistance à l'insuline, favorisant le risque de diabète de type deux.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a pancreas with insulin receptors highly active, bright lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a pancreas with insulin receptors becoming less responsive, dark background, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a neutral pancreas with no change, neutral tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel effet la lumière bleue des écrans a t elle sur la production de mélatonine ?",
-      "questionAudio": "Quel effet la lumière bleue des écrans a t elle sur la production de mélatonine ?",
-      "emojis": [
-        "📱",
-        "🔵",
-        "🌙",
-        "🛌",
-        "🧬",
-        "💤",
-        "⚙️"
-      ],
-      "options": [
-        "Stimulation de la mélatonine",
-        "Suppression de la mélatonine",
-        "Aucun effet"
-      ],
-      "correct": 1,
-      "answer": "Suppression de la mélatonine",
-      "explanation": "L'exposition à la lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
-      "explanationAudio": "L'exposition à la lumière bleue inhibe la sécrétion de mélatonine, retardant l'endormissement.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a phone emitting soft warm light enhancing melatonin glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a smartphone emitting blue light onto a sleeping person, melatonin particles fading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a neutral screen with no effect on melatonin, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel pourcentage approximatif d'adultes souffrent d'apnée du sommeil selon les études ?",
-      "questionAudio": "Quel pourcentage approximatif d'adultes souffrent d'apnée du sommeil selon les études ?",
-      "emojis": [
-        "😴",
-        "🫁",
+        "🏃‍♂️",
+        "🦵",
+        "💪",
+        "⚽",
         "📊",
-        "🩺",
-        "💤",
-        "⚕️",
-        "🧭"
+        "🔬",
+        "⚡"
       ],
       "options": [
-        "Quatre à cinq pour cent",
-        "Dix à douze pour cent",
-        "Un à deux pour cent"
+        "Gluteus maximus",
+        "Deltoïde antérieur",
+        "Biceps brachial"
       ],
       "correct": 0,
-      "answer": "Quatre à cinq pour cent",
-      "explanation": "Environ quatre à cinq pour cent des adultes présentent une apnée du sommeil modérée à sévère.",
-      "explanationAudio": "Environ quatre à cinq pour cent des adultes présentent une apnée du sommeil modérée à sévère.",
+      "answer": "Gluteus maximus",
+      "explanation": "Le grand fessier génère la majeure partie de la force propulsive lors de la phase d’appui du sprint.",
+      "explanationAudio": "Le grand fessier génère la majeure partie de la force propulsive lors de la phase d'appui du sprint.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D realistic illustration of a sleeping adult with airway obstruction visualized, medical imaging style, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a night scene with statistical chart showing ten percent prevalence, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a healthy airway during sleep, calm atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D anatomical model of a human pelvis highlighting the gluteus maximus in bright red, cinematic lighting, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a shoulder showing the anterior deltoid muscle, realistic texture, cinematic illumination, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of an arm flexing with the biceps highlighted, soft shadows, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel rôle joue la sieste courte de vingt minutes sur la vigilance ?",
-      "questionAudio": "Quel rôle joue la sieste courte de vingt minutes sur la vigilance ?",
+      "question": "Le pic de force de réaction au sol pendant la course est‑il généralement supérieur, égal ou inférieur à deux fois le poids du corps ?",
+      "questionAudio": "Le pic de force de réaction au sol pendant la course est il généralement supérieur, égal ou inférieur à deux fois le poids du corps ?",
       "emojis": [
-        "☕",
-        "🕑",
-        "😌",
-        "🧠",
-        "📈",
-        "🛌",
-        "💡"
+        "🏃‍♂️",
+        "⚽",
+        "📊",
+        "⚡",
+        "💪",
+        "🔬",
+        "🦵"
       ],
       "options": [
-        "N'a aucun impact",
-        "Améliore la vigilance",
-        "Diminue la vigilance"
+        "Supérieur à deux fois le poids du corps",
+        "Égal au poids du corps",
+        "Inférieur au poids du corps"
+      ],
+      "correct": 0,
+      "answer": "Supérieur à deux fois le poids du corps",
+      "explanation": "Lors de la course, la force de réaction au sol atteint souvent entre deux et trois fois le poids du corps, reflétant les charges dynamiques élevées.",
+      "explanationAudio": "Lors de la course, la force de réaction au sol atteint souvent entre deux et trois fois le poids du corps, reflétant les charges dynamiques élevées.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D simulation of a runner's foot contacting the ground with force vectors showing magnitude greater than two times body weight, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a balanced scale with equal weight, realistic materials, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a foot with reduced force arrows indicating less than body weight, photorealistic surface, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel paramètre biomécanique est le plus directement lié à la fatigue lors d’une séance de cyclisme prolongée ?",
+      "questionAudio": "Quel paramètre biomécanique est le plus directement lié à la fatigue lors d'une séance de cyclisme prolongée ?",
+      "emojis": [
+        "🚴‍♀️",
+        "🦵",
+        "📊",
+        "⚡",
+        "💪",
+        "🔬",
+        "⚽"
+      ],
+      "options": [
+        "Modification de la température corporelle",
+        "Diminution de la force appliquée sur les pédales",
+        "Augmentation de la variabilité de la fréquence cardiaque"
       ],
       "correct": 1,
-      "answer": "Améliore la vigilance",
-      "explanation": "Une sieste courte d'environ vingt minutes augmente la vigilance et la performance cognitive sans provoquer de somnolence résiduelle.",
-      "explanationAudio": "Une sieste courte d'environ vingt minutes augmente la vigilance et la performance cognitive sans provoquer de somnolence résiduelle.",
+      "answer": "Diminution de la force appliquée sur les pédales",
+      "explanation": "Avec la fatigue, la capacité à maintenir une force de pédalage élevée diminue, ce qui affecte directement la performance.",
+      "explanationAudio": "Avec la fatigue, la capacité à maintenir une force de pédalage élevée diminue, ce qui affecte directement la performance.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a person with neutral state, no change after a brief rest, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a person taking a twenty minute nap, brain activity lighting up, bright office, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a person feeling drowsy after a long nap, muted colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a human body with thermal imaging indicating temperature changes, photorealistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a cyclist's legs pressing on pedals with force arrows decreasing over time, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visual of a heart monitor showing increased heart rate variability, realistic textures, soft illumination, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel lien a été démontré entre le sommeil et le système immunitaire ?",
-      "questionAudio": "Quel lien a été démontré entre le sommeil et le système immunitaire ?",
+      "question": "Quel est l’effet d’une longueur de foulée plus grande sur l’économie de course à vitesse constante ?",
+      "questionAudio": "Quel est l'effet d'une longueur de foulée plus grande sur l'économie de course à vitesse constante ?",
       "emojis": [
-        "🛡️",
-        "🧬",
-        "🛏️",
-        "🌙",
-        "🩺",
-        "💉",
-        "📚"
+        "🏃‍♂️",
+        "🦵",
+        "📊",
+        "⚡",
+        "💪",
+        "🔬",
+        "⚽"
       ],
       "options": [
-        "Le sommeil renforce la réponse immunitaire",
-        "Le sommeil affaiblit la réponse immunitaire",
-        "Le sommeil n'influence pas l'immunité"
+        "Elle réduit généralement l'économie de course",
+        "Elle améliore l'économie de course",
+        "Elle n’a aucun effet sur l'économie de course"
       ],
       "correct": 0,
-      "answer": "Le sommeil renforce la réponse immunitaire",
-      "explanation": "Un sommeil adéquat favorise la production de cytokines et d'anticorps, renforçant la défense contre les infections.",
-      "explanationAudio": "Un sommeil adéquat favorise la production de cytokines et d'anticorps, renforçant la défense contre les infections.",
+      "answer": "Elle réduit généralement l'économie de course",
+      "explanation": "Une foulée trop longue augmente le temps de contact au sol et les pertes d’énergie, diminuant ainsi l’efficacité à vitesse constante.",
+      "explanationAudio": "Une foulée trop longue augmente le temps de contact au sol et les pertes d'énergie, diminuant ainsi l'efficacité à vitesse constante.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of immune cells activating during deep sleep, glowing environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of immune cells dormant during sleep deprivation, dark tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of neutral immune activity with no sleep effect, balanced lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D animation of a runner with an exaggerated stride length showing increased ground contact time, cinematic lighting, realistic anatomy, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a runner with optimal stride showing smooth motion, photorealistic detail, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a runner with neutral stride showing no change in energy expenditure, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

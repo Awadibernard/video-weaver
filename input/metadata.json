@@ -1,10 +1,10 @@
 {
-  "topic": "🧠 Quiz : Paléontologie & Histoire de la Terre",
-  "description": "Testez vos connaissances sur les fossiles, les extinctions et les géants préhistoriques qui ont façonné notre planète.",
+  "topic": "🧠 Quiz : Océans & Abysses",
+  "description": "Plongez dans les mystères des océans et des abysses avec ces questions fascinantes.",
   "hashtags": [
     "#science",
     "#quiz",
-    "#paleontologie"
+    "#cultureg"
   ],
   "motif": "science",
   "cta": "Abonne toi pour en apprendre plus !",
@@ -22,138 +22,138 @@
   "questionCount": 5,
   "questions": [
     {
-      "question": "Quel est le plus ancien fossile connu d’un vertébré ?",
-      "questionAudio": "Quel est le plus ancien fossile connu d’un vertébré ?",
-      "emojis": [
-        "🦕",
-        "🦖",
-        "🌊",
-        "🪨",
-        "⏳",
-        "🌍",
-        "📜"
-      ],
-      "options": [
-        "Coelacanthe",
-        "Myllokunmingia",
-        "Tiktaalik"
-      ],
-      "correct": 1,
-      "answer": "Myllokunmingia",
-      "explanation": "Myllokunmingia, découvert en Chine, est le plus ancien vertébré fossile daté d’il y a environ cinq cent millions d’années.",
-      "explanationAudio": "Myllokunmingia, découvert en Chine, est le plus ancien vertébré fossile daté d’il y a environ cinq cent millions d’années.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a coelacanth in deep ocean water, cinematic lighting with bioluminescent details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A highly detailed 3D render of the Cambrian fish Myllokunmingia swimming in ancient seas, photorealistic lighting, cinematic atmosphere",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of the lobe‑finned fish Tiktaalik crawling near a shoreline, realistic water effects and textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel événement a entraîné l’extinction massive il y a environ trois cent soixante millions d’années ?",
-      "questionAudio": "Quel événement a entraîné l’extinction massive il y a environ trois cent soixante millions d’années ?",
-      "emojis": [
-        "🌋",
-        "🦖",
-        "🌡️",
-        "📉",
-        "🪨",
-        "⏳",
-        "🌍"
-      ],
-      "options": [
-        "Le refroidissement climatique du Permien",
-        "Les éruptions massives des Trapps du Permien",
-        "L’impact d’un astéroïde"
-      ],
-      "correct": 1,
-      "answer": "Les éruptions massives des Trapps du Permien",
-      "explanation": "Les Trapps du Permien ont libéré d’immenses quantités de gaz à effet de serre, provoquant un réchauffement global et la perte de la plupart des espèces marines et terrestres.",
-      "explanationAudio": "Les Trapps du Permien ont libéré d’immenses quantités de gaz à effet de serre, provoquant un réchauffement global et la perte de la plupart des espèces marines et terrestres.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of a cooling climate with glaciated terrain and sparse vegetation, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of an asteroid impact crater on a prehistoric landscape, photorealistic details and dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A massive 3D volcanic eruption of the Permian Traps with lava flows and ash clouds, cinematic perspective and realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel groupe d’amphibiens a donné naissance aux premiers tétrapodes terrestres ?",
-      "questionAudio": "Quel groupe d’amphibiens a donné naissance aux premiers tétrapodes terrestres ?",
-      "emojis": [
-        "🐸",
-        "🦎",
-        "🌱",
-        "🪨",
-        "🌍",
-        "📜",
-        "⏳"
-      ],
-      "options": [
-        "Les Dinosaures",
-        "Les Ptérosaure",
-        "Les Ichthyostegues"
-      ],
-      "correct": 2,
-      "answer": "Les Ichthyostegues",
-      "explanation": "Les Ichthyostegues, vivants au Dévonien, sont parmi les premiers vertébrés capables de se déplacer sur la terre ferme.",
-      "explanationAudio": "Les Ichthyostegues, vivants au Dévonien, sont parmi les premiers vertébrés capables de se déplacer sur la terre ferme.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a generic dinosaur in a prehistoric forest, realistic shading and environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a pterosaur soaring over a Jurassic coastline, cinematic lighting and atmospheric effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of an Ichthyostega emerging from a swamp onto a dry land, photorealistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle période géologique est connue pour l’explosion cambrienne ?",
-      "questionAudio": "Quelle période géologique est connue pour l’explosion cambrienne ?",
+      "question": "Quel est le point le plus profond connu de l’océan mondial ?",
+      "questionAudio": "Quel est le point le plus profond connu de l’océan mondial ?",
       "emojis": [
         "🌊",
-        "🐚",
-        "🦐",
-        "📈",
-        "⏳",
-        "🌍",
-        "🪨"
-      ],
-      "options": [
-        "Ordovicien",
-        "Édiacarien",
-        "Cambrien"
-      ],
-      "correct": 2,
-      "answer": "Cambrien",
-      "explanation": "L’explosion cambrienne, survenue au Cambrien, a vu l’apparition rapide d’une grande diversité d’organismes multicellulaires avec des squelettes durs.",
-      "explanationAudio": "L’explosion cambrienne, survenue au Cambrien, a vu l’apparition rapide d’une grande diversité d’organismes multicellulaires avec des squelettes durs.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Ordovician brachiopods on a sea floor, realistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A vivid 3D underwater scene of Cambrian marine life during the Cambrian explosion, photorealistic lighting and diverse fauna, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D reconstruction of an Ediacaran microbial mat with soft‑body organisms, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel dinosaure est considéré comme le plus grand carnivore connu ?",
-      "questionAudio": "Quel dinosaure est considéré comme le plus grand carnivore connu ?",
-      "emojis": [
-        "🦖",
-        "🐟",
-        "🌊",
-        "🪨",
         "📏",
-        "🌍",
-        "🏞️"
+        "🕳️",
+        "🔎",
+        "⚓",
+        "🐠",
+        "🧭"
       ],
       "options": [
-        "Giganotosaurus",
-        "Tyrannosaurus rex",
-        "Spinosaurus"
+        "Fosse de Tonga",
+        "Fosse des Porto Rico",
+        "Challenger Deep dans la fosse des Mariannes"
       ],
       "correct": 2,
-      "answer": "Spinosaurus",
-      "explanation": "Le Spinosaurus, avec une longueur dépassant trente mètres, était plus grand que le Tyrannosaurus rex et le Giganotosaurus, et possédait une voile dorsale distinctive.",
-      "explanationAudio": "Le Spinosaurus, avec une longueur dépassant trente mètres, était plus grand que le Tyrannosaurus rex et le Giganotosaurus, et possédait une voile dorsale distinctive.",
+      "answer": "Challenger Deep dans la fosse des Mariannes",
+      "explanation": "Le Challenger Deep, situé dans la fosse des Mariannes, atteint la profondeur la plus grande jamais mesurée.",
+      "explanationAudio": "Le Challenger Deep, situé dans la fosse des Mariannes, atteint la profondeur la plus grande jamais mesurée.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a Giganotosaurus hunting in a prehistoric valley, cinematic atmosphere and high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of a Tyrannosaurus rex roaring in a Cretaceous forest, realistic textures and dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a massive Spinosaurus walking along a riverbank, cinematic lighting and water splashes, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of the Tonga Trench with deep blue water and detailed seabed topography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the Puerto Rico Trench with realistic underwater lighting and sediment layers, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of the Mariana Trench showing the Challenger Deep with dramatic lighting and oceanic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel animal marin est célèbre pour sa capacité à produire de la lumière dans les abysses ?",
+      "questionAudio": "Quel animal marin est célèbre pour sa capacité à produire de la lumière dans les abysses ?",
+      "emojis": [
+        "🐟",
+        "💡",
+        "🌌",
+        "🔦",
+        "🦈",
+        "🐋",
+        "🌊"
+      ],
+      "options": [
+        "Poisson pêcheur",
+        "Grand requin blanc",
+        "Baleine bleue"
+      ],
+      "correct": 0,
+      "answer": "Poisson pêcheur",
+      "explanation": "Le poisson pêcheur possède un organe lumineux qui attire ses proies dans les profondeurs obscures.",
+      "explanationAudio": "Le poisson pêcheur possède un organe lumineux qui attire ses proies dans les profondeurs obscures.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A vivid 3D cinematic scene of an anglerfish in the deep sea, glowing lure illuminated by bioluminescence, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of a great white shark swimming near the surface with sunlit water, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A massive 3D model of a blue whale gliding through clear ocean water, detailed skin texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel pourcentage de la surface de la Terre est recouvert par les océans ?",
+      "questionAudio": "Quel pourcentage de la surface de la Terre est recouvert par les océans ?",
+      "emojis": [
+        "🌍",
+        "📊",
+        "💧",
+        "🗺️",
+        "⚖️",
+        "🔢",
+        "🧭"
+      ],
+      "options": [
+        "quatre vingt pour cent",
+        "soixante et un pour cent",
+        "quarante pour cent"
+      ],
+      "correct": 1,
+      "answer": "soixante et un pour cent",
+      "explanation": "Environ soixante et un pour cent de la surface terrestre est recouvert d’eau marine.",
+      "explanationAudio": "Environ soixante et un pour cent de la surface terrestre est recouvert d’eau marine.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A dramatic 3D illustration of a planet with eighty percent water coverage, emphasizing vast oceans, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A high‑resolution 3D globe showing blue oceans covering sixty‑one percent of the surface, with realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A stylized 3D map highlighting land areas representing forty percent, with vibrant colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle courante océanique transporte de l’eau chaude du golfe du Mexique vers l’Europe ?",
+      "questionAudio": "Quelle courante océanique transporte de l’eau chaude du golfe du Mexique vers l’Europe ?",
+      "emojis": [
+        "🌊",
+        "🔥",
+        "🗺️",
+        "🇺🇸",
+        "🇪🇺",
+        "📈",
+        "🌡️"
+      ],
+      "options": [
+        "Courant d’Humboldt",
+        "Gulf Stream",
+        "Courant Kuroshio"
+      ],
+      "correct": 1,
+      "answer": "Gulf Stream",
+      "explanation": "Le Gulf Stream conduit l’eau chaude du golfe du Mexique vers les côtes atlantiques de l’Europe, influençant le climat.",
+      "explanationAudio": "Le Gulf Stream conduit l’eau chaude du golfe du Mexique vers les côtes atlantiques de l’Europe, influençant le climat.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the Humboldt Current along the South American west coast, showing upwelling nutrients, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D visualization of the Gulf Stream flowing from the Gulf of Mexico across the Atlantic, with warm water colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of the Kuroshio Current moving past Japan, with vivid blue and green tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel composant principal du sel marin donne à l’eau son goût salé ?",
+      "questionAudio": "Quel composant principal du sel marin donne à l’eau son goût salé ?",
+      "emojis": [
+        "🧂",
+        "💧",
+        "⚗️",
+        "🔬",
+        "🌊",
+        "🧪",
+        "📚"
+      ],
+      "options": [
+        "Sulfate de magnésium",
+        "Carbonate de calcium",
+        "Chlorure de sodium"
+      ],
+      "correct": 2,
+      "answer": "Chlorure de sodium",
+      "explanation": "Le chlorure de sodium, communément appelé sel, constitue la majeure partie de la salinité marine.",
+      "explanationAudio": "Le chlorure de sodium, communément appelé sel, constitue la majeure partie de la salinité marine.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of magnesium sulfate crystals in water, with scientific annotations, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D model of calcium carbonate particles suspended in ocean water, showing texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of sodium chloride crystals dissolving in seawater, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

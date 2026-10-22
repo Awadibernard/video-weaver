@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Océans & Abysses",
-  "description": "Plongez dans les mystères des océans et des abysses avec ces questions fascinantes.",
+  "topic": "🧠 Quiz : Mathématiques, Logique & Paradoxes",
+  "description": "Testez votre esprit avec des énigmes et des paradoxes qui défient la raison.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -22,138 +22,138 @@
   "questionCount": 5,
   "questions": [
     {
-      "question": "Quel est le point le plus profond connu de l’océan mondial ?",
-      "questionAudio": "Quel est le point le plus profond connu de l’océan mondial ?",
+      "question": "Quel paradoxe montre qu’une phrase peut se contredire en affirmant qu’elle est toujours fausse ?",
+      "questionAudio": "Quel paradoxe montre qu’une phrase peut se contredire en affirmant qu’elle est toujours fausse ?",
       "emojis": [
-        "🌊",
-        "📏",
-        "🕳️",
-        "🔎",
-        "⚓",
-        "🐠",
-        "🧭"
-      ],
-      "options": [
-        "Fosse de Tonga",
-        "Fosse des Porto Rico",
-        "Challenger Deep dans la fosse des Mariannes"
-      ],
-      "correct": 2,
-      "answer": "Challenger Deep dans la fosse des Mariannes",
-      "explanation": "Le Challenger Deep, situé dans la fosse des Mariannes, atteint la profondeur la plus grande jamais mesurée.",
-      "explanationAudio": "Le Challenger Deep, situé dans la fosse des Mariannes, atteint la profondeur la plus grande jamais mesurée.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of the Tonga Trench with deep blue water and detailed seabed topography, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the Puerto Rico Trench with realistic underwater lighting and sediment layers, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of the Mariana Trench showing the Challenger Deep with dramatic lighting and oceanic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel animal marin est célèbre pour sa capacité à produire de la lumière dans les abysses ?",
-      "questionAudio": "Quel animal marin est célèbre pour sa capacité à produire de la lumière dans les abysses ?",
-      "emojis": [
-        "🐟",
-        "💡",
-        "🌌",
-        "🔦",
-        "🦈",
-        "🐋",
-        "🌊"
-      ],
-      "options": [
-        "Poisson pêcheur",
-        "Grand requin blanc",
-        "Baleine bleue"
-      ],
-      "correct": 0,
-      "answer": "Poisson pêcheur",
-      "explanation": "Le poisson pêcheur possède un organe lumineux qui attire ses proies dans les profondeurs obscures.",
-      "explanationAudio": "Le poisson pêcheur possède un organe lumineux qui attire ses proies dans les profondeurs obscures.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A vivid 3D cinematic scene of an anglerfish in the deep sea, glowing lure illuminated by bioluminescence, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of a great white shark swimming near the surface with sunlit water, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A massive 3D model of a blue whale gliding through clear ocean water, detailed skin texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel pourcentage de la surface de la Terre est recouvert par les océans ?",
-      "questionAudio": "Quel pourcentage de la surface de la Terre est recouvert par les océans ?",
-      "emojis": [
-        "🌍",
-        "📊",
-        "💧",
-        "🗺️",
-        "⚖️",
-        "🔢",
-        "🧭"
-      ],
-      "options": [
-        "quatre vingt pour cent",
-        "soixante et un pour cent",
-        "quarante pour cent"
-      ],
-      "correct": 1,
-      "answer": "soixante et un pour cent",
-      "explanation": "Environ soixante et un pour cent de la surface terrestre est recouvert d’eau marine.",
-      "explanationAudio": "Environ soixante et un pour cent de la surface terrestre est recouvert d’eau marine.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A dramatic 3D illustration of a planet with eighty percent water coverage, emphasizing vast oceans, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high‑resolution 3D globe showing blue oceans covering sixty‑one percent of the surface, with realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A stylized 3D map highlighting land areas representing forty percent, with vibrant colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle courante océanique transporte de l’eau chaude du golfe du Mexique vers l’Europe ?",
-      "questionAudio": "Quelle courante océanique transporte de l’eau chaude du golfe du Mexique vers l’Europe ?",
-      "emojis": [
-        "🌊",
-        "🔥",
-        "🗺️",
-        "🇺🇸",
-        "🇪🇺",
-        "📈",
-        "🌡️"
-      ],
-      "options": [
-        "Courant d’Humboldt",
-        "Gulf Stream",
-        "Courant Kuroshio"
-      ],
-      "correct": 1,
-      "answer": "Gulf Stream",
-      "explanation": "Le Gulf Stream conduit l’eau chaude du golfe du Mexique vers les côtes atlantiques de l’Europe, influençant le climat.",
-      "explanationAudio": "Le Gulf Stream conduit l’eau chaude du golfe du Mexique vers les côtes atlantiques de l’Europe, influençant le climat.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the Humboldt Current along the South American west coast, showing upwelling nutrients, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D visualization of the Gulf Stream flowing from the Gulf of Mexico across the Atlantic, with warm water colors, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of the Kuroshio Current moving past Japan, with vivid blue and green tones, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel composant principal du sel marin donne à l’eau son goût salé ?",
-      "questionAudio": "Quel composant principal du sel marin donne à l’eau son goût salé ?",
-      "emojis": [
-        "🧂",
-        "💧",
-        "⚗️",
-        "🔬",
-        "🌊",
-        "🧪",
+        "🧠",
+        "🤔",
+        "📜",
+        "🔍",
+        "✨",
+        "🧮",
         "📚"
       ],
       "options": [
-        "Sulfate de magnésium",
-        "Carbonate de calcium",
-        "Chlorure de sodium"
+        "Le paradoxe de Zénon",
+        "Le paradoxe du menteur",
+        "Le paradoxe de Russell"
+      ],
+      "correct": 1,
+      "answer": "Le paradoxe du menteur",
+      "explanation": "Le paradoxe du menteur se formule par une phrase qui se déclare fausse, créant une contradiction logique.",
+      "explanationAudio": "Le paradoxe du menteur se formule par une phrase qui se déclare fausse, créant une contradiction logique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D representation of a paradoxical loop with arrows forming an endless circle, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of an ancient Greek philosopher holding a parchment that reads \"This statement is false\", dramatic lighting, photorealistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene of a modern digital screen displaying the sentence \"This statement is false\" with glitch effects, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle est la propriété d’un ensemble qui ne contient que les ensembles qui ne se contiennent pas eux‑mêmes ?",
+      "questionAudio": "Quelle est la propriété d’un ensemble qui ne contient que les ensembles qui ne se contiennent pas eux‑mêmes ?",
+      "emojis": [
+        "🧮",
+        "📦",
+        "🔁",
+        "🤯",
+        "🧠",
+        "🔬",
+        "📚"
+      ],
+      "options": [
+        "Paradoxe de Berry",
+        "Paradoxe de Cantor",
+        "Paradoxe de Russell"
       ],
       "correct": 2,
-      "answer": "Chlorure de sodium",
-      "explanation": "Le chlorure de sodium, communément appelé sel, constitue la majeure partie de la salinité marine.",
-      "explanationAudio": "Le chlorure de sodium, communément appelé sel, constitue la majeure partie de la salinité marine.",
+      "answer": "Paradoxe de Russell",
+      "explanation": "Ce problème, connu sous le nom de paradoxe de Russell, montre qu’un tel ensemble mène à une contradiction.",
+      "explanationAudio": "Ce problème, connu sous le nom de paradoxe de Russell, montre qu’un tel ensemble mène à une contradiction.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of magnesium sulfate crystals in water, with scientific annotations, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of calcium carbonate particles suspended in ocean water, showing texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D close‑up of sodium chloride crystals dissolving in seawater, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D abstract visualization of overlapping spheres representing sets, with a central sphere highlighted as contradictory, high‑resolution rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a library with books labeled as sets, one book refusing to be placed inside another, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a set symbol containing smaller set icons, some inside themselves and some not, with a glowing outline indicating paradox, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel théorème affirme l’existence de propositions indémontrables dans tout système formel cohérent ?",
+      "questionAudio": "Quel théorème affirme l’existence de propositions indémontrables dans tout système formel cohérent ?",
+      "emojis": [
+        "📐",
+        "🧠",
+        "🔢",
+        "📖",
+        "🤔",
+        "✨",
+        "🔬"
+      ],
+      "options": [
+        "Le théorème d’incomplétude de Gödel",
+        "Le théorème de Fermat",
+        "Le théorème de Pythagore"
+      ],
+      "correct": 0,
+      "answer": "Le théorème d’incomplétude de Gödel",
+      "explanation": "Le théorème d’incomplétude de Gödel montre que certains énoncés restent indécidables au sein du même système.",
+      "explanationAudio": "Le théorème d’incomplétude de Gödel montre que certains énoncés restent indécidables au sein du même système.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of a towering book labeled \"Godel\" with pages floating away, cinematic lighting, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene of a labyrinthine library with a hidden door marked \"Undecidable\", realistic shadows and depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D abstract composition of interlocking gears labeled with logical symbols, one gear missing, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel problème illustre l’impossibilité de déterminer si un programme s’arrêtera jamais ?",
+      "questionAudio": "Quel problème illustre l’impossibilité de déterminer si un programme s’arrêtera jamais ?",
+      "emojis": [
+        "💻",
+        "🖥️",
+        "🔁",
+        "❓",
+        "🤖",
+        "🧩",
+        "🧠"
+      ],
+      "options": [
+        "Le problème de la factorisation",
+        "Le problème des trois corps",
+        "Le problème de l’arrêt"
+      ],
+      "correct": 2,
+      "answer": "Le problème de l’arrêt",
+      "explanation": "Le problème de l’arrêt montre qu’il n’existe aucun algorithme général capable de prévoir l’arrêt d’un programme quelconque.",
+      "explanationAudio": "Le problème de l’arrêt montre qu’il n’existe aucun algorithme général capable de prévoir l’arrêt d’un programme quelconque.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a robotic arm trying to press a button labeled \"Stop\", but the button fades away, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D abstract scene of infinite loops made of neon tubes, with a central processor highlighted, high‑resolution rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic view of a computer terminal with code scrolling endlessly, a red stop sign hovering above, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel concept logique décrit une proposition qui implique sa propre négation ?",
+      "questionAudio": "Quel concept logique décrit une proposition qui implique sa propre négation ?",
+      "emojis": [
+        "🔁",
+        "🧩",
+        "🤯",
+        "🧠",
+        "📜",
+        "✨",
+        "🧮"
+      ],
+      "options": [
+        "Paradoxe de Curry",
+        "Paradoxe de Newcomb",
+        "Paradoxe de Monty Hall"
+      ],
+      "correct": 0,
+      "answer": "Paradoxe de Curry",
+      "explanation": "Le paradoxe de Curry est une forme d’auto‑référence où la proposition entraîne sa négation, créant une boucle logique.",
+      "explanationAudio": "Le paradoxe de Curry est une forme d’auto‑référence où la proposition entraîne sa négation, créant une boucle logique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic depiction of a mirror reflecting a statement that reads \"This statement is false\", with surreal lighting and depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a circuit board where a logic gate feeds its own output back as input, glowing components, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D abstract sculpture of a snake biting its own tail, inscribed with logical symbols, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Mathématiques, Logique & Paradoxes",
-  "description": "Testez votre esprit avec des énigmes et des paradoxes qui défient la raison.",
+  "topic": "🧠 Quiz : Histoire des Découvertes & Sérendipité",
+  "description": "Explore les moments où le hasard a changé le cours de la science.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,168 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Quel paradoxe montre qu’une phrase peut se contredire en affirmant qu’elle est toujours fausse ?",
-      "questionAudio": "Quel paradoxe montre qu’une phrase peut se contredire en affirmant qu’elle est toujours fausse ?",
+      "question": "Comment Alexander Fleming a t il découvert la pénicilline ?",
+      "questionAudio": "Comment Alexander Fleming a t il découvert la pénicilline ?",
       "emojis": [
-        "🧠",
-        "🤔",
+        "🔬",
+        "🧫",
+        "💊",
+        "🦠",
+        "🧪",
         "📜",
-        "🔍",
-        "✨",
-        "🧮",
-        "📚"
+        "✨"
       ],
       "options": [
-        "Le paradoxe de Zénon",
-        "Le paradoxe du menteur",
-        "Le paradoxe de Russell"
+        "En observant la moisissure qui inhibait les bactéries",
+        "En testant des composés chimiques synthétiques",
+        "En étudiant les effets des rayons X"
+      ],
+      "correct": 0,
+      "answer": "En observant la moisissure qui inhibait les bactéries",
+      "explanation": "Fleming a remarqué que la moisissure Penicillium notatum détruisait les colonies de staphylocoques, menant à la découverte de la pénicilline.",
+      "explanationAudio": "Fleming a remarqué que la moisissure Penicillium notatum détruisait les colonies de staphylocoques, menant à la découverte de la pénicilline.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a petri dish with Penicillium mold spreading over bacterial colonies, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of a laboratory bench with synthetic chemical compounds in glass vials, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of a cathode ray tube emitting rays onto a fluorescent screen, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle était l'intention initiale de Christophe Colomb lors de son premier voyage ?",
+      "questionAudio": "Quelle était l'intention initiale de Christophe Colomb lors de son premier voyage ?",
+      "emojis": [
+        "⛵",
+        "🗺️",
+        "🌍",
+        "🚢",
+        "⚓",
+        "📚",
+        "✨"
+      ],
+      "options": [
+        "Cartographier le continent américain",
+        "Trouver une route maritime vers l'Asie",
+        "Découvrir de nouvelles espèces animales"
       ],
       "correct": 1,
-      "answer": "Le paradoxe du menteur",
-      "explanation": "Le paradoxe du menteur se formule par une phrase qui se déclare fausse, créant une contradiction logique.",
-      "explanationAudio": "Le paradoxe du menteur se formule par une phrase qui se déclare fausse, créant une contradiction logique.",
+      "answer": "Trouver une route maritime vers l'Asie",
+      "explanation": "Colomb cherchait à atteindre l'Asie en naviguant vers l'ouest, sans savoir qu'il atteindrait un nouveau continent.",
+      "explanationAudio": "Colomb cherchait à atteindre l'Asie en naviguant vers l'ouest, sans savoir qu'il atteindrait un nouveau continent.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D representation of a paradoxical loop with arrows forming an endless circle, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of an ancient Greek philosopher holding a parchment that reads \"This statement is false\", dramatic lighting, photorealistic rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a modern digital screen displaying the sentence \"This statement is false\" with glitch effects, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D render of an explorer charting the coastline of a newly discovered continent, detailed parchment map, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic map showing a sailing ship navigating westward from Europe towards Asia, detailed ocean and clouds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of exotic animals in a jungle, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quelle est la propriété d’un ensemble qui ne contient que les ensembles qui ne se contiennent pas eux‑mêmes ?",
-      "questionAudio": "Quelle est la propriété d’un ensemble qui ne contient que les ensembles qui ne se contiennent pas eux‑mêmes ?",
+      "question": "Quel phénomène Wilhelm Röntgen a t il découvert par hasard ?",
+      "questionAudio": "Quel phénomène Wilhelm Röntgen a t il découvert par hasard ?",
       "emojis": [
-        "🧮",
-        "📦",
-        "🔁",
-        "🤯",
-        "🧠",
+        "⚡",
+        "🔭",
+        "📸",
+        "🧪",
+        "💡",
         "🔬",
-        "📚"
+        "✨"
       ],
       "options": [
-        "Paradoxe de Berry",
-        "Paradoxe de Cantor",
-        "Paradoxe de Russell"
+        "Les ondes radio",
+        "Les rayons X",
+        "Les neutrons"
       ],
-      "correct": 2,
-      "answer": "Paradoxe de Russell",
-      "explanation": "Ce problème, connu sous le nom de paradoxe de Russell, montre qu’un tel ensemble mène à une contradiction.",
-      "explanationAudio": "Ce problème, connu sous le nom de paradoxe de Russell, montre qu’un tel ensemble mène à une contradiction.",
+      "correct": 1,
+      "answer": "Les rayons X",
+      "explanation": "En manipulant des rayons cathodiques, Röntgen a observé une fluorescence qui a conduit à la découverte des rayons X.",
+      "explanationAudio": "En manipulant des rayons cathodiques, Röntgen a observé une fluorescence qui a conduit à la découverte des rayons X.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D abstract visualization of overlapping spheres representing sets, with a central sphere highlighted as contradictory, high‑resolution rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a library with books labeled as sets, one book refusing to be placed inside another, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a set symbol containing smaller set icons, some inside themselves and some not, with a glowing outline indicating paradox, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D model of a radio antenna transmitting radio waves across a landscape, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a cathode ray tube emitting invisible X‑rays causing a fluorescent screen to glow, hyperrealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a particle collider detecting neutrons, detailed scientific equipment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel théorème affirme l’existence de propositions indémontrables dans tout système formel cohérent ?",
-      "questionAudio": "Quel théorème affirme l’existence de propositions indémontrables dans tout système formel cohérent ?",
+      "question": "Quel élément fortuit a aidé Watson et Crick à élucider la structure de l'ADN ?",
+      "questionAudio": "Quel élément fortuit a aidé Watson et Crick à élucider la structure de l'ADN ?",
       "emojis": [
-        "📐",
+        "🧬",
+        "📷",
+        "🔬",
+        "🧪",
+        "💡",
         "🧠",
-        "🔢",
-        "📖",
-        "🤔",
-        "✨",
-        "🔬"
+        "✨"
       ],
       "options": [
-        "Le théorème d’incomplétude de Gödel",
-        "Le théorème de Fermat",
-        "Le théorème de Pythagore"
+        "La photo 51 de Rosalind Franklin",
+        "Un modèle en papier",
+        "Une découverte en chimie organique"
       ],
       "correct": 0,
-      "answer": "Le théorème d’incomplétude de Gödel",
-      "explanation": "Le théorème d’incomplétude de Gödel montre que certains énoncés restent indécidables au sein du même système.",
-      "explanationAudio": "Le théorème d’incomplétude de Gödel montre que certains énoncés restent indécidables au sein du même système.",
+      "answer": "La photo 51 de Rosalind Franklin",
+      "explanation": "La diffraction X de la photo 51 a fourni les dimensions essentielles du double hélice, guidant Watson et Crick.",
+      "explanationAudio": "La diffraction X de la photo 51 a fourni les dimensions essentielles du double hélice, guidant Watson et Crick.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D rendering of a towering book labeled \"Godel\" with pages floating away, cinematic lighting, photorealistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a labyrinthine library with a hidden door marked \"Undecidable\", realistic shadows and depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D abstract composition of interlocking gears labeled with logical symbols, one gear missing, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of Rosalind Franklin's X‑ray diffraction image of DNA (Photo 51) displayed on a lab screen, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a paper origami double helix structure on a desk, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a laboratory bench with organic chemistry reagents, detailed glassware, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel problème illustre l’impossibilité de déterminer si un programme s’arrêtera jamais ?",
-      "questionAudio": "Quel problème illustre l’impossibilité de déterminer si un programme s’arrêtera jamais ?",
+      "question": "Quel était le but initial de William Herschel lorsqu’il a observé Uranus ?",
+      "questionAudio": "Quel était le but initial de William Herschel lorsqu’il a observé Uranus ?",
       "emojis": [
-        "💻",
-        "🖥️",
-        "🔁",
-        "❓",
-        "🤖",
-        "🧩",
-        "🧠"
+        "🔭",
+        "🌌",
+        "🪐",
+        "✨",
+        "📡",
+        "🧑‍🔬",
+        "🚀"
       ],
       "options": [
-        "Le problème de la factorisation",
-        "Le problème des trois corps",
-        "Le problème de l’arrêt"
+        "Mesurer la distance du Soleil",
+        "Chercher une nouvelle étoile double",
+        "Étudier les comètes"
+      ],
+      "correct": 1,
+      "answer": "Chercher une nouvelle étoile double",
+      "explanation": "Herschel scrutait le ciel à la recherche d’étoiles binaires lorsqu’il a repéré un objet lumineux qui s’est avéré être une planète.",
+      "explanationAudio": "Herschel scrutait le ciel à la recherche d’étoiles binaires lorsqu’il a repéré un objet lumineux qui s’est avéré être une planète.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D model of the Sun with distance markers extending to Earth, realistic solar surface, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic night sky view of a telescope focusing on a binary star system, detailed stars and Milky Way, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a comet streaking across space, photorealistic tail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Que cherchaient initialement Penzias et Wilson lorsqu’ils ont détecté le fond diffus cosmologique ?",
+      "questionAudio": "Que cherchaient initialement Penzias et Wilson lorsqu’ils ont détecté le fond diffus cosmologique ?",
+      "emojis": [
+        "🌌",
+        "📡",
+        "🔊",
+        "🛰️",
+        "🧭",
+        "✨",
+        "🧑‍🔬"
+      ],
+      "options": [
+        "Mesurer la température du Soleil",
+        "Observer des pulsars",
+        "Éliminer le bruit de leurs antennes"
       ],
       "correct": 2,
-      "answer": "Le problème de l’arrêt",
-      "explanation": "Le problème de l’arrêt montre qu’il n’existe aucun algorithme général capable de prévoir l’arrêt d’un programme quelconque.",
-      "explanationAudio": "Le problème de l’arrêt montre qu’il n’existe aucun algorithme général capable de prévoir l’arrêt d’un programme quelconque.",
+      "answer": "Éliminer le bruit de leurs antennes",
+      "explanation": "Ils tentaient de réduire le bruit de fond de leurs récepteurs lorsqu’ils ont découvert le rayonnement micro‑ondues résiduel de l’univers primordial.",
+      "explanationAudio": "Ils tentaient de réduire le bruit de fond de leurs récepteurs lorsqu’ils ont découvert le rayonnement micro‑ondues résiduel de l’univers primordial.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a robotic arm trying to press a button labeled \"Stop\", but the button fades away, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D abstract scene of infinite loops made of neon tubes, with a central processor highlighted, high‑resolution rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic view of a computer terminal with code scrolling endlessly, a red stop sign hovering above, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel concept logique décrit une proposition qui implique sa propre négation ?",
-      "questionAudio": "Quel concept logique décrit une proposition qui implique sa propre négation ?",
-      "emojis": [
-        "🔁",
-        "🧩",
-        "🤯",
-        "🧠",
-        "📜",
-        "✨",
-        "🧮"
-      ],
-      "options": [
-        "Paradoxe de Curry",
-        "Paradoxe de Newcomb",
-        "Paradoxe de Monty Hall"
-      ],
-      "correct": 0,
-      "answer": "Paradoxe de Curry",
-      "explanation": "Le paradoxe de Curry est une forme d’auto‑référence où la proposition entraîne sa négation, créant une boucle logique.",
-      "explanationAudio": "Le paradoxe de Curry est une forme d’auto‑référence où la proposition entraîne sa négation, créant une boucle logique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic depiction of a mirror reflecting a statement that reads \"This statement is false\", with surreal lighting and depth, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a circuit board where a logic gate feeds its own output back as input, glowing components, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D abstract sculpture of a snake biting its own tail, inscribed with logical symbols, high detail, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of a solar observatory measuring Sun temperature, detailed instrumentation, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene of a telescope aimed at a pulsar, with data streams displayed, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D realistic rendering of a radio telescope with engineers adjusting equipment to reduce background noise, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

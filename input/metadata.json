@@ -1,159 +1,159 @@
 {
-  "topic": "🧠 Quiz : Science du Sport & Biomémécanique",
-  "description": "Testez vos connaissances sur la science du sport et la biomécanique avec ces questions captivantes !",
+  "topic": "🧠 Quiz : Paléontologie & Histoire de la Terre",
+  "description": "Testez vos connaissances sur les fossiles, les extinctions et les géants préhistoriques qui ont façonné notre planète.",
   "hashtags": [
     "#science",
     "#quiz",
-    "#cultureg"
+    "#paleontologie"
   ],
   "motif": "science",
   "cta": "Abonne toi pour en apprendre plus !",
   "ctaAudio": "Abonne toi pour en apprendre plus !",
   "emojis": [
-    "⚽",
-    "🏃‍♂️",
-    "🦵",
-    "📊",
-    "💪",
     "🔬",
-    "⚡"
+    "🧪",
+    "✨",
+    "🌍",
+    "⚡",
+    "🧠",
+    "🚀"
   ],
   "uiScale": 0.85,
   "questionCount": 5,
   "questions": [
     {
-      "question": "Comment le cycle d’étirement‑raccourcissement améliore t il la performance de saut ?",
-      "questionAudio": "Comment le cycle d'étirement raccourcissement améliore t il la performance de saut ?",
+      "question": "Quel est le plus ancien fossile connu d’un vertébré ?",
+      "questionAudio": "Quel est le plus ancien fossile connu d’un vertébré ?",
       "emojis": [
-        "🏃‍♂️",
-        "🦵",
-        "⚡",
-        "📊",
-        "💪",
-        "🔬",
-        "⚽"
+        "🦕",
+        "🦖",
+        "🌊",
+        "🪨",
+        "⏳",
+        "🌍",
+        "📜"
       ],
       "options": [
-        "Il augmente la fréquence cardiaque pendant l’effort",
-        "Il réduit le recrutement des fibres musculaires",
-        "Il stocke l’énergie élastique dans les tendons et la libère lors du décollage"
-      ],
-      "correct": 2,
-      "answer": "Il stocke l’énergie élastique dans les tendons et la libère lors du décollage",
-      "explanation": "Le cycle d’étirement‑raccourcissement permet aux tendons d’accumuler de l’énergie qui est restituée au moment du décollage, augmentant ainsi la hauteur du saut.",
-      "explanationAudio": "Le cycle d'étirement raccourcissement permet aux tendons d'accumuler de l'énergie qui est restituée au moment du décollage, augmentant ainsi la hauteur du saut.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a heart beating rapidly with motion blur, realistic textures, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of muscle fibers with reduced activation, soft shading, realistic anatomy, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a sprinter's lower leg showing tendons stretched like a spring, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel groupe musculaire contribue le plus à la propulsion vers l’avant lors d’un sprint ?",
-      "questionAudio": "Quel groupe musculaire contribue le plus à la propulsion vers l'avant lors d'un sprint ?",
-      "emojis": [
-        "🏃‍♂️",
-        "🦵",
-        "💪",
-        "⚽",
-        "📊",
-        "🔬",
-        "⚡"
-      ],
-      "options": [
-        "Gluteus maximus",
-        "Deltoïde antérieur",
-        "Biceps brachial"
-      ],
-      "correct": 0,
-      "answer": "Gluteus maximus",
-      "explanation": "Le grand fessier génère la majeure partie de la force propulsive lors de la phase d’appui du sprint.",
-      "explanationAudio": "Le grand fessier génère la majeure partie de la force propulsive lors de la phase d'appui du sprint.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D anatomical model of a human pelvis highlighting the gluteus maximus in bright red, cinematic lighting, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a shoulder showing the anterior deltoid muscle, realistic texture, cinematic illumination, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of an arm flexing with the biceps highlighted, soft shadows, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Le pic de force de réaction au sol pendant la course est‑il généralement supérieur, égal ou inférieur à deux fois le poids du corps ?",
-      "questionAudio": "Le pic de force de réaction au sol pendant la course est il généralement supérieur, égal ou inférieur à deux fois le poids du corps ?",
-      "emojis": [
-        "🏃‍♂️",
-        "⚽",
-        "📊",
-        "⚡",
-        "💪",
-        "🔬",
-        "🦵"
-      ],
-      "options": [
-        "Supérieur à deux fois le poids du corps",
-        "Égal au poids du corps",
-        "Inférieur au poids du corps"
-      ],
-      "correct": 0,
-      "answer": "Supérieur à deux fois le poids du corps",
-      "explanation": "Lors de la course, la force de réaction au sol atteint souvent entre deux et trois fois le poids du corps, reflétant les charges dynamiques élevées.",
-      "explanationAudio": "Lors de la course, la force de réaction au sol atteint souvent entre deux et trois fois le poids du corps, reflétant les charges dynamiques élevées.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D simulation of a runner's foot contacting the ground with force vectors showing magnitude greater than two times body weight, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a balanced scale with equal weight, realistic materials, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of a foot with reduced force arrows indicating less than body weight, photorealistic surface, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel paramètre biomécanique est le plus directement lié à la fatigue lors d’une séance de cyclisme prolongée ?",
-      "questionAudio": "Quel paramètre biomécanique est le plus directement lié à la fatigue lors d'une séance de cyclisme prolongée ?",
-      "emojis": [
-        "🚴‍♀️",
-        "🦵",
-        "📊",
-        "⚡",
-        "💪",
-        "🔬",
-        "⚽"
-      ],
-      "options": [
-        "Modification de la température corporelle",
-        "Diminution de la force appliquée sur les pédales",
-        "Augmentation de la variabilité de la fréquence cardiaque"
+        "Coelacanthe",
+        "Myllokunmingia",
+        "Tiktaalik"
       ],
       "correct": 1,
-      "answer": "Diminution de la force appliquée sur les pédales",
-      "explanation": "Avec la fatigue, la capacité à maintenir une force de pédalage élevée diminue, ce qui affecte directement la performance.",
-      "explanationAudio": "Avec la fatigue, la capacité à maintenir une force de pédalage élevée diminue, ce qui affecte directement la performance.",
+      "answer": "Myllokunmingia",
+      "explanation": "Myllokunmingia, découvert en Chine, est le plus ancien vertébré fossile daté d’il y a environ cinq cent millions d’années.",
+      "explanationAudio": "Myllokunmingia, découvert en Chine, est le plus ancien vertébré fossile daté d’il y a environ cinq cent millions d’années.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a human body with thermal imaging indicating temperature changes, photorealistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of a cyclist's legs pressing on pedals with force arrows decreasing over time, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visual of a heart monitor showing increased heart rate variability, realistic textures, soft illumination, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a coelacanth in deep ocean water, cinematic lighting with bioluminescent details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A highly detailed 3D render of the Cambrian fish Myllokunmingia swimming in ancient seas, photorealistic lighting, cinematic atmosphere",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the lobe‑finned fish Tiktaalik crawling near a shoreline, realistic water effects and textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel est l’effet d’une longueur de foulée plus grande sur l’économie de course à vitesse constante ?",
-      "questionAudio": "Quel est l'effet d'une longueur de foulée plus grande sur l'économie de course à vitesse constante ?",
+      "question": "Quel événement a entraîné l’extinction massive il y a environ trois cent soixante millions d’années ?",
+      "questionAudio": "Quel événement a entraîné l’extinction massive il y a environ trois cent soixante millions d’années ?",
       "emojis": [
-        "🏃‍♂️",
-        "🦵",
-        "📊",
-        "⚡",
-        "💪",
-        "🔬",
-        "⚽"
+        "🌋",
+        "🦖",
+        "🌡️",
+        "📉",
+        "🪨",
+        "⏳",
+        "🌍"
       ],
       "options": [
-        "Elle réduit généralement l'économie de course",
-        "Elle améliore l'économie de course",
-        "Elle n’a aucun effet sur l'économie de course"
+        "Le refroidissement climatique du Permien",
+        "Les éruptions massives des Trapps du Permien",
+        "L’impact d’un astéroïde"
       ],
-      "correct": 0,
-      "answer": "Elle réduit généralement l'économie de course",
-      "explanation": "Une foulée trop longue augmente le temps de contact au sol et les pertes d’énergie, diminuant ainsi l’efficacité à vitesse constante.",
-      "explanationAudio": "Une foulée trop longue augmente le temps de contact au sol et les pertes d'énergie, diminuant ainsi l'efficacité à vitesse constante.",
+      "correct": 1,
+      "answer": "Les éruptions massives des Trapps du Permien",
+      "explanation": "Les Trapps du Permien ont libéré d’immenses quantités de gaz à effet de serre, provoquant un réchauffement global et la perte de la plupart des espèces marines et terrestres.",
+      "explanationAudio": "Les Trapps du Permien ont libéré d’immenses quantités de gaz à effet de serre, provoquant un réchauffement global et la perte de la plupart des espèces marines et terrestres.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D animation of a runner with an exaggerated stride length showing increased ground contact time, cinematic lighting, realistic anatomy, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a runner with optimal stride showing smooth motion, photorealistic detail, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of a runner with neutral stride showing no change in energy expenditure, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of a cooling climate with glaciated terrain and sparse vegetation, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of an asteroid impact crater on a prehistoric landscape, photorealistic details and dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A massive 3D volcanic eruption of the Permian Traps with lava flows and ash clouds, cinematic perspective and realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel groupe d’amphibiens a donné naissance aux premiers tétrapodes terrestres ?",
+      "questionAudio": "Quel groupe d’amphibiens a donné naissance aux premiers tétrapodes terrestres ?",
+      "emojis": [
+        "🐸",
+        "🦎",
+        "🌱",
+        "🪨",
+        "🌍",
+        "📜",
+        "⏳"
+      ],
+      "options": [
+        "Les Dinosaures",
+        "Les Ptérosaure",
+        "Les Ichthyostegues"
+      ],
+      "correct": 2,
+      "answer": "Les Ichthyostegues",
+      "explanation": "Les Ichthyostegues, vivants au Dévonien, sont parmi les premiers vertébrés capables de se déplacer sur la terre ferme.",
+      "explanationAudio": "Les Ichthyostegues, vivants au Dévonien, sont parmi les premiers vertébrés capables de se déplacer sur la terre ferme.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a generic dinosaur in a prehistoric forest, realistic shading and environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a pterosaur soaring over a Jurassic coastline, cinematic lighting and atmospheric effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of an Ichthyostega emerging from a swamp onto a dry land, photorealistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle période géologique est connue pour l’explosion cambrienne ?",
+      "questionAudio": "Quelle période géologique est connue pour l’explosion cambrienne ?",
+      "emojis": [
+        "🌊",
+        "🐚",
+        "🦐",
+        "📈",
+        "⏳",
+        "🌍",
+        "🪨"
+      ],
+      "options": [
+        "Ordovicien",
+        "Édiacarien",
+        "Cambrien"
+      ],
+      "correct": 2,
+      "answer": "Cambrien",
+      "explanation": "L’explosion cambrienne, survenue au Cambrien, a vu l’apparition rapide d’une grande diversité d’organismes multicellulaires avec des squelettes durs.",
+      "explanationAudio": "L’explosion cambrienne, survenue au Cambrien, a vu l’apparition rapide d’une grande diversité d’organismes multicellulaires avec des squelettes durs.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of Ordovician brachiopods on a sea floor, realistic textures and lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A vivid 3D underwater scene of Cambrian marine life during the Cambrian explosion, photorealistic lighting and diverse fauna, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D reconstruction of an Ediacaran microbial mat with soft‑body organisms, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel dinosaure est considéré comme le plus grand carnivore connu ?",
+      "questionAudio": "Quel dinosaure est considéré comme le plus grand carnivore connu ?",
+      "emojis": [
+        "🦖",
+        "🐟",
+        "🌊",
+        "🪨",
+        "📏",
+        "🌍",
+        "🏞️"
+      ],
+      "options": [
+        "Giganotosaurus",
+        "Tyrannosaurus rex",
+        "Spinosaurus"
+      ],
+      "correct": 2,
+      "answer": "Spinosaurus",
+      "explanation": "Le Spinosaurus, avec une longueur dépassant trente mètres, était plus grand que le Tyrannosaurus rex et le Giganotosaurus, et possédait une voile dorsale distinctive.",
+      "explanationAudio": "Le Spinosaurus, avec une longueur dépassant trente mètres, était plus grand que le Tyrannosaurus rex et le Giganotosaurus, et possédait une voile dorsale distinctive.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a Giganotosaurus hunting in a prehistoric valley, cinematic atmosphere and high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of a Tyrannosaurus rex roaring in a Cretaceous forest, realistic textures and dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of a massive Spinosaurus walking along a riverbank, cinematic lighting and water splashes, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

@@ -1,118 +1,28 @@
 [
   {
-    "question": "Quel est le principal constituant de l'eau ?",
-    "questionAudio": "Quel est le principal constituant de l'eau ?",
+    "question": "Quelle est la principale cause du mouvement des plaques tectoniques ?",
+    "questionAudio": "Quelle est la principale cause du mouvement des plaques tectoniques ?",
     "options": [
-      "Deux atomes d'hydrogène et un atome d'oxygène",
-      "Un atome d'hydrogène et deux atomes d'oxygène",
-      "Un atome de carbone et deux atomes d'hydrogène"
-    ],
-    "correct": 0,
-    "explanation": "L'eau est composée de deux atomes d'hydrogène liés à un atome d'oxygène.",
-    "explanationAudio": "L'eau est composée de deux atomes d'hydrogène liés à un atome d'oxygène.",
-    "emojis": [
-      "💧",
-      "🧪",
-      "🔬",
-      "⚗️",
-      "🌡️",
-      "🧬",
-      "💦"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a water molecule with two hydrogen atoms and one oxygen atom, highlighted bonds, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of a molecule showing one hydrogen atom bonded to two oxygen atoms, stylized, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a methane fragment with one carbon atom and two hydrogen atoms, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quelle liaison chimique implique le partage d'électrons entre deux atomes ?",
-    "questionAudio": "Quelle liaison chimique implique le partage d'électrons entre deux atomes ?",
-    "options": [
-      "La liaison métallique",
-      "La liaison covalente",
-      "La liaison ionique"
+      "Le vent solaire",
+      "Le convection du manteau",
+      "Les marées océaniques"
     ],
     "correct": 1,
-    "explanation": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre la stabilité.",
-    "explanationAudio": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre la stabilité.",
+    "explanation": "Les courants de convection dans le manteau entraînent le déplacement des plaques lithosphériques.",
+    "explanationAudio": "Les courants de convection dans le manteau entraînent le déplacement des plaques lithosphériques.",
     "emojis": [
-      "🔗",
-      "⚛️",
-      "🧪",
-      "🔬",
-      "💡",
-      "📚",
-      "🧬"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D model of a metallic lattice with delocalized electrons, reflective surfaces, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of a covalent bond between two hydrogen atoms sharing electrons, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D visualization of an ionic bond showing transfer of an electron from sodium to chlorine, glowing ions, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel phénomène explique pourquoi les métaux conduisent l'électricité ?",
-    "questionAudio": "Quel phénomène explique pourquoi les métaux conduisent l'électricité ?",
-    "options": [
-      "La mobilité des électrons libres dans le réseau métallique",
-      "La vibration des atomes du réseau",
-      "La présence d'ions positifs fixes"
-    ],
-    "correct": 0,
-    "explanation": "Les électrons libres se déplacent facilement dans le réseau métallique, permettant le passage du courant.",
-    "explanationAudio": "Les électrons libres se déplacent facilement dans le réseau métallique, permettant le passage du courant.",
-    "emojis": [
-      "⚡",
-      "🔧",
-      "🧪",
-      "🔬",
-      "💎",
-      "🛠️",
-      "🌩️"
-    ],
-    "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a metal crystal lattice with free electrons flowing, bright trails, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D animation frame showing vibrating atoms in a solid lattice, subtle motion, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a solid with stationary positive ions and immobile electrons, dim lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-    ],
-    "motif": "science",
-    "ctaText": "Abonne toi pour en apprendre plus !",
-    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
-    "uiScale": 0.85
-  },
-  {
-    "question": "Quel est le point de fusion de l'eau pure en degrés Celsius ?",
-    "questionAudio": "Quel est le point de fusion de l'eau pure en degrés celsius ?",
-    "options": [
-      "Deux cent cinquante degrés Celsius",
-      "Cent degrés Celsius",
-      "Zéro degré Celsius"
-    ],
-    "correct": 2,
-    "explanation": "L'eau pure gèle à zéro degré Celsius sous pression atmosphérique normale.",
-    "explanationAudio": "L'eau pure gèle à zéro degré celsius sous pression atmosphérique normale.",
-    "emojis": [
-      "❄️",
+      "🌍",
+      "🪨",
+      "🌋",
       "🌡️",
-      "🧊",
-      "🔬",
-      "⚗️",
-      "💧",
-      "📏"
+      "📏",
+      "🌊",
+      "🔭"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of superheated water at two hundred fifty degrees Celsius in a high pressure vessel, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of water boiling at one hundred degrees Celsius, steam rising, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of pure ice crystals at zero degrees Celsius, icy lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of the Sun's solar wind streaming toward Earth, cinematic lighting, photorealistic, space environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A high resolution 3D cinematic render of Earth's mantle convection currents visualized as glowing orange and blue flows, photorealistic, detailed geology background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D scene showing ocean tides affecting a coastline, with water movement, cinematic lighting, detailed shoreline, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,29 +30,119 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de réaction libère de l'énergie sous forme de chaleur et de lumière ?",
-    "questionAudio": "Quel type de réaction libère de l énergie sous forme de chaleur et de lumière ?",
+    "question": "Quel processus transforme l'eau liquide en vapeur dans l'atmosphère ?",
+    "questionAudio": "Quel processus transforme l'eau liquide en vapeur dans l'atmosphère ?",
     "options": [
-      "La réaction de synthèse",
-      "La réaction de combustion",
-      "La réaction d'oxydoréduction"
+      "La condensation",
+      "L'évaporation",
+      "La précipitation"
     ],
     "correct": 1,
-    "explanation": "La combustion est une réaction exothermique qui produit chaleur et flamme.",
-    "explanationAudio": "La combustion est une réaction exothermique qui produit chaleur et flamme.",
+    "explanation": "L'évaporation fait passer l'eau des surfaces vers l'atmosphère sous forme de vapeur.",
+    "explanationAudio": "L'évaporation fait passer l'eau des surfaces vers l'atmosphère sous forme de vapeur.",
     "emojis": [
+      "🌧️",
+      "🌦️",
+      "🌊",
+      "💧",
+      "☀️",
+      "🌈",
+      "🌍"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of water vapor condensing into clouds over mountains, photorealistic, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of water droplets rising from a lake under sunlight, cinematic lighting, detailed atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of raindrops falling from dark clouds onto a forest, cinematic atmosphere, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel type de roche se forme à partir du refroidissement du magma ?",
+    "questionAudio": "Quel type de roche se forme à partir du refroidissement du magma ?",
+    "options": [
+      "Roche ignée",
+      "Roche métamorphique",
+      "Roche sédimentaire"
+    ],
+    "correct": 0,
+    "explanation": "Les roches ignées résultent du solidification du magma ou de la lave.",
+    "explanationAudio": "Les roches ignées résultent du solidification du magma ou de la lave.",
+    "emojis": [
+      "🪨",
       "🔥",
-      "⚗️",
-      "🧪",
-      "💥",
-      "🔬",
-      "🌡️",
-      "🧯"
+      "🌋",
+      "📚",
+      "🌍",
+      "🏔️",
+      "🧱"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of two reactants combining to form a single product in a laboratory flask, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A cinematic 3D depiction of a combustion reaction, flame and heat emanating from reacting gases, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A detailed 3D model showing electron transfer between two species, with glowing arrows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A detailed 3D cinematic render of molten magma cooling into crystalline igneous rock, photorealistic, volcanic setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of metamorphic rock textures created by pressure and heat deep underground, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of layered sedimentary rocks forming in a river delta, cinematic lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel gaz contribue le plus à l'effet de serre naturel sur Terre ?",
+    "questionAudio": "Quel gaz contribue le plus à l'effet de serre naturel sur Terre ?",
+    "options": [
+      "La vapeur d'eau",
+      "Le méthane",
+      "Le dioxyde de carbone"
+    ],
+    "correct": 0,
+    "explanation": "La vapeur d'eau retient la chaleur solaire et est le principal contributeur à l'effet de serre naturel.",
+    "explanationAudio": "La vapeur d'eau retient la chaleur solaire et est le principal contributeur à l'effet de serre naturel.",
+    "emojis": [
+      "🌡️",
+      "🌍",
+      "💧",
+      "🌞",
+      "🌿",
+      "🏭",
+      "🌧️"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic render of water vapor particles swirling in the lower atmosphere, detailed lighting, Earth background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of methane molecules escaping from wetlands, realistic textures, atmospheric lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D scene showing carbon dioxide emissions from a volcano, cinematic atmosphere, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+    ],
+    "motif": "science",
+    "ctaText": "Abonne toi pour en apprendre plus !",
+    "ctaTextAudio": "Abonne toi pour en apprendre plus !",
+    "uiScale": 0.85
+  },
+  {
+    "question": "Quel instrument mesure l'amplitude des ondes sismiques ?",
+    "questionAudio": "Quel instrument mesure l'amplitude des ondes sismiques ?",
+    "options": [
+      "Le sismomètre",
+      "Le baromètre",
+      "Le anémomètre"
+    ],
+    "correct": 0,
+    "explanation": "Le sismomètre enregistre les mouvements du sol causés par les ondes sismiques.",
+    "explanationAudio": "Le sismomètre enregistre les mouvements du sol causés par les ondes sismiques.",
+    "emojis": [
+      "🌍",
+      "📡",
+      "🪨",
+      "📊",
+      "⏱️",
+      "🏚️",
+      "📐"
+    ],
+    "imagePrompts": [
+      "A hyper-realistic photorealistic 3D render of A high‑detail 3D cinematic render of a modern seismometer on a rocky ground, photorealistic, scientific lab setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a barometer showing atmospheric pressure changes, realistic textures, indoor environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of an anemometer rotating in strong wind, cinematic lighting, outdoor scene, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

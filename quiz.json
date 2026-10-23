@@ -1,28 +1,28 @@
 [
   {
-    "question": "Quelle est la fonction principale du pancréas ?",
-    "questionAudio": "Quelle est la fonction principale du pancréas ?",
+    "question": "Quel est le principal constituant de l'eau ?",
+    "questionAudio": "Quel est le principal constituant de l'eau ?",
     "options": [
-      "La production d'insuline",
-      "La production de globules rouges",
-      "Le stockage de la bile"
+      "Deux atomes d'hydrogène et un atome d'oxygène",
+      "Un atome d'hydrogène et deux atomes d'oxygène",
+      "Un atome de carbone et deux atomes d'hydrogène"
     ],
     "correct": 0,
-    "explanation": "Le pancréas sécrète de l'insuline pour réguler le taux de glucose sanguin.",
-    "explanationAudio": "Le pancréas sécrète de l'insuline pour réguler le taux de glucose sanguin.",
+    "explanation": "L'eau est composée de deux atomes d'hydrogène liés à un atome d'oxygène.",
+    "explanationAudio": "L'eau est composée de deux atomes d'hydrogène liés à un atome d'oxygène.",
     "emojis": [
-      "🧬",
-      "🫀",
+      "💧",
       "🧪",
       "🔬",
-      "🫁",
-      "🦠",
-      "👩‍⚕️"
+      "⚗️",
+      "🌡️",
+      "🧬",
+      "💦"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human pancreas highlighting insulin producing cells, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of bone marrow producing red blood cells, glowing particles, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of the gallbladder storing bile, realistic textures, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of a water molecule with two hydrogen atoms and one oxygen atom, highlighted bonds, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of a molecule showing one hydrogen atom bonded to two oxygen atoms, stylized, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a methane fragment with one carbon atom and two hydrogen atoms, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -30,29 +30,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quelle partie de l'œil contrôle la quantité de lumière qui entre ?",
-    "questionAudio": "Quelle partie de l'œil contrôle la quantité de lumière qui entre ?",
+    "question": "Quelle liaison chimique implique le partage d'électrons entre deux atomes ?",
+    "questionAudio": "Quelle liaison chimique implique le partage d'électrons entre deux atomes ?",
     "options": [
-      "L'iris",
-      "La rétine",
-      "La cornée"
+      "La liaison métallique",
+      "La liaison covalente",
+      "La liaison ionique"
     ],
-    "correct": 0,
-    "explanation": "L'iris ajuste le diamètre de la pupille pour réguler la lumière entrant dans l'œil.",
-    "explanationAudio": "L'iris ajuste le diamètre de la pupille pour réguler la lumière entrant dans l'œil.",
+    "correct": 1,
+    "explanation": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre la stabilité.",
+    "explanationAudio": "Dans une liaison covalente, les atomes partagent des électrons pour atteindre la stabilité.",
     "emojis": [
-      "👁️",
-      "🧬",
-      "🔬",
+      "🔗",
+      "⚛️",
       "🧪",
-      "🧠",
-      "✨",
-      "🦠"
+      "🔬",
+      "💡",
+      "📚",
+      "🧬"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of a human eye with the iris highlighted in vibrant color, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of the retinal layer with photoreceptor cells illuminated, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a human cornea showing its transparent curvature, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D model of a metallic lattice with delocalized electrons, reflective surfaces, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of a covalent bond between two hydrogen atoms sharing electrons, cinematic glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D visualization of an ionic bond showing transfer of an electron from sodium to chlorine, glowing ions, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -60,29 +60,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type d'articulation relie le fémur à l'os du bassin ?",
-    "questionAudio": "Quel type d'articulation relie le fémur à l'os du bassin ?",
+    "question": "Quel phénomène explique pourquoi les métaux conduisent l'électricité ?",
+    "questionAudio": "Quel phénomène explique pourquoi les métaux conduisent l'électricité ?",
     "options": [
-      "En sphéroïde (bille et socket)",
-      "Charnière",
-      "Pivot"
+      "La mobilité des électrons libres dans le réseau métallique",
+      "La vibration des atomes du réseau",
+      "La présence d'ions positifs fixes"
     ],
     "correct": 0,
-    "explanation": "L'articulation de la hanche est une articulation en sphéroïde qui permet de grands mouvements.",
-    "explanationAudio": "L'articulation de la hanche est une articulation en sphéroïde qui permet de grands mouvements.",
+    "explanation": "Les électrons libres se déplacent facilement dans le réseau métallique, permettant le passage du courant.",
+    "explanationAudio": "Les électrons libres se déplacent facilement dans le réseau métallique, permettant le passage du courant.",
     "emojis": [
-      "🦴",
-      "🦾",
-      "⚙️",
-      "🔬",
+      "⚡",
+      "🔧",
       "🧪",
-      "🧬",
-      "✨"
+      "🔬",
+      "💎",
+      "🛠️",
+      "🌩️"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of the human hip joint showing the ball‑and‑socket mechanism, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of a hinge joint such as the elbow, detailed anatomy, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D rendering of a pivot joint like the atlas‑axis, high detail, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a metal crystal lattice with free electrons flowing, bright trails, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D animation frame showing vibrating atoms in a solid lattice, subtle motion, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D model of a solid with stationary positive ions and immobile electrons, dim lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -90,29 +90,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel type de cellules sanguines assure la coagulation ?",
-    "questionAudio": "Quel type de cellules sanguines assure la coagulation ?",
+    "question": "Quel est le point de fusion de l'eau pure en degrés Celsius ?",
+    "questionAudio": "Quel est le point de fusion de l'eau pure en degrés celsius ?",
     "options": [
-      "Les leucocytes",
-      "Les érythrocytes",
-      "Les plaquettes"
+      "Deux cent cinquante degrés Celsius",
+      "Cent degrés Celsius",
+      "Zéro degré Celsius"
     ],
     "correct": 2,
-    "explanation": "Les plaquettes s'agrègent pour former un caillot et stopper les saignements.",
-    "explanationAudio": "Les plaquettes s'agrègent pour former un caillot et stopper les saignements.",
+    "explanation": "L'eau pure gèle à zéro degré Celsius sous pression atmosphérique normale.",
+    "explanationAudio": "L'eau pure gèle à zéro degré celsius sous pression atmosphérique normale.",
     "emojis": [
-      "🩸",
-      "🧬",
+      "❄️",
+      "🌡️",
+      "🧊",
       "🔬",
-      "🧪",
-      "🦠",
-      "🩺",
-      "✨"
+      "⚗️",
+      "💧",
+      "📏"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of white blood cells attacking a pathogen, high detail, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D model of red blood cells flowing in a vessel, detailed textures, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D close‑up of blood platelets clustering to form a clot, cinematic lighting, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of superheated water at two hundred fifty degrees Celsius in a high pressure vessel, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A 3D rendering of water boiling at one hundred degrees Celsius, steam rising, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A realistic 3D scene of pure ice crystals at zero degrees Celsius, icy lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",
@@ -120,29 +120,29 @@
     "uiScale": 0.85
   },
   {
-    "question": "Quel organe est le principal responsable de la détoxification du corps ?",
-    "questionAudio": "Quel organe est le principal responsable de la détoxification du corps ?",
+    "question": "Quel type de réaction libère de l'énergie sous forme de chaleur et de lumière ?",
+    "questionAudio": "Quel type de réaction libère de l énergie sous forme de chaleur et de lumière ?",
     "options": [
-      "La rate",
-      "Le rein",
-      "Le foie"
+      "La réaction de synthèse",
+      "La réaction de combustion",
+      "La réaction d'oxydoréduction"
     ],
-    "correct": 2,
-    "explanation": "Le foie métabolise les substances toxiques et les élimine du sang.",
-    "explanationAudio": "Le foie métabolise les substances toxiques et les élimine du sang.",
+    "correct": 1,
+    "explanation": "La combustion est une réaction exothermique qui produit chaleur et flamme.",
+    "explanationAudio": "La combustion est une réaction exothermique qui produit chaleur et flamme.",
     "emojis": [
-      "🍎",
-      "🧬",
-      "🔬",
+      "🔥",
+      "⚗️",
       "🧪",
-      "🦠",
-      "🩺",
-      "✨"
+      "💥",
+      "🔬",
+      "🌡️",
+      "🧯"
     ],
     "imagePrompts": [
-      "A hyper-realistic photorealistic 3D render of A 3D illustration of the spleen with immune cells, high detail, soft illumination, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A 3D anatomical model of a human kidney filtering blood, detailed textures, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-      "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human liver highlighting detoxification pathways, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      "A hyper-realistic photorealistic 3D render of A 3D illustration of two reactants combining to form a single product in a laboratory flask, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A cinematic 3D depiction of a combustion reaction, flame and heat emanating from reacting gases, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+      "A hyper-realistic photorealistic 3D render of A detailed 3D model showing electron transfer between two species, with glowing arrows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
     ],
     "motif": "science",
     "ctaText": "Abonne toi pour en apprendre plus !",

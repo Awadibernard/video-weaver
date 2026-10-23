@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Physique & Astronomie",
-  "description": "Testez vos connaissances sur les mystères de l'univers et les lois qui gouvernent la matière.",
+  "topic": "🧠 Quiz : Biologie & Corps Humain",
+  "description": "Testez vos connaissances sur le corps humain avec ces questions fascinantes.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,195 +19,141 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 7,
+  "questionCount": 5,
   "questions": [
     {
-      "question": "Quelle est la cause principale des aurores boréales ?",
-      "questionAudio": "Quelle est la cause principale des aurores boréales ?",
+      "question": "Quelle est la fonction principale du pancréas ?",
+      "questionAudio": "Quelle est la fonction principale du pancréas ?",
       "emojis": [
-        "🌌",
-        "🚀",
-        "🔭",
-        "⭐",
-        "🌞",
-        "🪐",
-        "⚛️"
+        "🧬",
+        "🫀",
+        "🧪",
+        "🔬",
+        "🫁",
+        "🦠",
+        "👩‍⚕️"
       ],
       "options": [
-        "La réfraction de la lumière solaire dans l'atmosphère",
-        "L'interaction du vent solaire avec le champ magnétique terrestre",
-        "La combustion de particules de poussière dans l'espace"
-      ],
-      "correct": 1,
-      "answer": "L'interaction du vent solaire avec le champ magnétique terrestre",
-      "explanation": "Les particules du vent solaire frappent le champ magnétique terrestre et excitent les molécules d'air, créant les lumières colorées.",
-      "explanationAudio": "Les particules du vent solaire frappent le champ magnétique terrestre et excitent les molécules d'air, créant les lumières colorées.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of sunlight refracting through Earth's atmosphere creating a rainbow effect, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Earth's magnetic field lines interacting with solar wind particles, glowing green aurora, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of dust particles burning in space near Earth, detailed particle effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle est la distance moyenne entre la Terre et le Soleil ?",
-      "questionAudio": "Quelle est la distance moyenne entre la Terre et le Soleil ?",
-      "emojis": [
-        "🌌",
-        "🚀",
-        "🔭",
-        "⭐",
-        "🌞",
-        "🪐",
-        "⚛️"
-      ],
-      "options": [
-        "Deux cent cinquante millions de kilomètres",
-        "Cent cinquante millions de kilomètres",
-        "Trois cent millions de kilomètres"
-      ],
-      "correct": 1,
-      "answer": "Cent cinquante millions de kilomètres",
-      "explanation": "La distance moyenne, appelée unité astronomique, est d'environ cent cinquante millions de kilomètres.",
-      "explanationAudio": "La distance moyenne, appelée unité astronomique, est d'environ cent cinquante millions de kilomètres.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a spacecraft traveling two hundred fifty million kilometers between planets, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of the Sun and Earth separated by a scale line showing one hundred fifty million kilometers, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of a distant planet three hundred million kilometers from the Sun, detailed space background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel phénomène explique le décalage vers le rouge des galaxies lointaines ?",
-      "questionAudio": "Quel phénomène explique le décalage vers le rouge des galaxies lointaines ?",
-      "emojis": [
-        "🌌",
-        "🚀",
-        "🔭",
-        "⭐",
-        "🌞",
-        "🪐",
-        "⚛️"
-      ],
-      "options": [
-        "L'expansion de l'univers",
-        "La réflexion de la lumière sur la poussière interstellaire",
-        "La gravité des trous noirs"
+        "La production d'insuline",
+        "La production de globules rouges",
+        "Le stockage de la bile"
       ],
       "correct": 0,
-      "answer": "L'expansion de l'univers",
-      "explanation": "Lorsque l'univers s'étend, la lumière des galaxies lointaines est étirée vers des longueurs d'onde plus longues, ce qui apparaît rouge.",
-      "explanationAudio": "Lorsque l'univers s'étend, la lumière des galaxies lointaines est étirée vers des longueurs d'onde plus longues, ce qui apparaît rouge.",
+      "answer": "La production d'insuline",
+      "explanation": "Le pancréas sécrète de l'insuline pour réguler le taux de glucose sanguin.",
+      "explanationAudio": "Le pancréas sécrète de l'insuline pour réguler le taux de glucose sanguin.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of distant galaxies moving away in an expanding universe, redshift visualized, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene showing interstellar dust scattering light, soft glow, detailed particles, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a black hole bending light, dramatic lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human pancreas highlighting insulin producing cells, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of bone marrow producing red blood cells, glowing particles, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D anatomical model of the gallbladder storing bile, realistic textures, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quelle particule porte la charge négative dans un atome ?",
-      "questionAudio": "Quelle particule porte la charge négative dans un atome ?",
+      "question": "Quelle partie de l'œil contrôle la quantité de lumière qui entre ?",
+      "questionAudio": "Quelle partie de l'œil contrôle la quantité de lumière qui entre ?",
       "emojis": [
-        "🌌",
-        "🚀",
-        "🔭",
-        "⭐",
-        "🌞",
-        "🪐",
-        "⚛️"
+        "👁️",
+        "🧬",
+        "🔬",
+        "🧪",
+        "🧠",
+        "✨",
+        "🦠"
       ],
       "options": [
-        "L'électron",
-        "Le proton",
-        "Le neutron"
+        "L'iris",
+        "La rétine",
+        "La cornée"
       ],
       "correct": 0,
-      "answer": "L'électron",
-      "explanation": "L'électron possède une charge négative et orbite autour du noyau atomique.",
-      "explanationAudio": "L'électron possède une charge négative et orbite autour du noyau atomique.",
+      "answer": "L'iris",
+      "explanation": "L'iris ajuste le diamètre de la pupille pour réguler la lumière entrant dans l'œil.",
+      "explanationAudio": "L'iris ajuste le diamètre de la pupille pour réguler la lumière entrant dans l'œil.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D atomic model highlighting electrons as blue spheres orbiting a nucleus, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a proton as a red sphere inside the nucleus, photorealistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of a neutron as a neutral gray sphere within the nucleus, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of a human eye with the iris highlighted in vibrant color, cinematic depth of field, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of the retinal layer with photoreceptor cells illuminated, ultra detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a human cornea showing its transparent curvature, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quelle est la période de rotation d'une journée sur Mars ?",
-      "questionAudio": "Quelle est la période de rotation d'une journée sur Mars ?",
+      "question": "Quel type d'articulation relie le fémur à l'os du bassin ?",
+      "questionAudio": "Quel type d'articulation relie le fémur à l'os du bassin ?",
       "emojis": [
-        "🌌",
-        "🚀",
-        "🔭",
-        "⭐",
-        "🌞",
-        "🪐",
-        "⚛️"
+        "🦴",
+        "🦾",
+        "⚙️",
+        "🔬",
+        "🧪",
+        "🧬",
+        "✨"
       ],
       "options": [
-        "Vingt deux heures",
-        "Vingt trois heures trente six minutes",
-        "Vingt quatre heures trente sept minutes"
+        "En sphéroïde (bille et socket)",
+        "Charnière",
+        "Pivot"
       ],
-      "correct": 2,
-      "answer": "Vingt quatre heures trente sept minutes",
-      "explanation": "Une journée martienne, ou sol, dure vingt quatre heures trente sept minutes environ.",
-      "explanationAudio": "Une journée martienne, ou sol, dure vingt quatre heures trente sept minutes environ.",
+      "correct": 0,
+      "answer": "En sphéroïde (bille et socket)",
+      "explanation": "L'articulation de la hanche est une articulation en sphéroïde qui permet de grands mouvements.",
+      "explanationAudio": "L'articulation de la hanche est une articulation en sphéroïde qui permet de grands mouvements.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of a hypothetical planet with a twenty two hour rotation, detailed terrain, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of Earth rotating for twenty three hours thirty six minutes, photorealistic clouds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic view of Mars rotating, showing a time lapse of twenty four hours thirty seven minutes, realistic surface textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of the human hip joint showing the ball‑and‑socket mechanism, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of a hinge joint such as the elbow, detailed anatomy, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of a pivot joint like the atlas‑axis, high detail, soft shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quel phénomène rend les étoiles scintiller lorsqu'elles sont observées depuis la Terre ?",
-      "questionAudio": "Quel phénomène rend les étoiles scintiller lorsqu'elles sont observées depuis la Terre ?",
+      "question": "Quel type de cellules sanguines assure la coagulation ?",
+      "questionAudio": "Quel type de cellules sanguines assure la coagulation ?",
       "emojis": [
-        "🌌",
-        "🚀",
-        "🔭",
-        "⭐",
-        "🌞",
-        "🪐",
-        "⚛️"
+        "🩸",
+        "🧬",
+        "🔬",
+        "🧪",
+        "🦠",
+        "🩺",
+        "✨"
       ],
       "options": [
-        "La rotation de la Terre",
-        "L'effet Doppler",
-        "La turbulence atmosphérique"
+        "Les leucocytes",
+        "Les érythrocytes",
+        "Les plaquettes"
       ],
       "correct": 2,
-      "answer": "La turbulence atmosphérique",
-      "explanation": "Les variations de densité dans l'atmosphère dévient la lumière des étoiles, créant l'effet de scintillement.",
-      "explanationAudio": "Les variations de densité dans l'atmosphère dévient la lumière des étoiles, créant l'effet de scintillement.",
+      "answer": "Les plaquettes",
+      "explanation": "Les plaquettes s'agrègent pour former un caillot et stopper les saignements.",
+      "explanationAudio": "Les plaquettes s'agrègent pour former un caillot et stopper les saignements.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of Earth rotating, showing day and night cycle, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of a star's light shifted by the Doppler effect, detailed wave patterns, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of starlight passing through turbulent atmospheric layers, causing twinkling, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of white blood cells attacking a pathogen, high detail, dynamic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of red blood cells flowing in a vessel, detailed textures, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D close‑up of blood platelets clustering to form a clot, cinematic lighting, ultra realistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Quelle est la principale source d'énergie du Soleil ?",
-      "questionAudio": "Quelle est la principale source d'énergie du Soleil ?",
+      "question": "Quel organe est le principal responsable de la détoxification du corps ?",
+      "questionAudio": "Quel organe est le principal responsable de la détoxification du corps ?",
       "emojis": [
-        "🌌",
-        "🚀",
-        "🔭",
-        "⭐",
-        "🌞",
-        "🪐",
-        "⚛️"
+        "🍎",
+        "🧬",
+        "🔬",
+        "🧪",
+        "🦠",
+        "🩺",
+        "✨"
       ],
       "options": [
-        "La fission nucléaire du fer",
-        "La combustion du carbone",
-        "La fusion de l'hydrogène en hélium"
+        "La rate",
+        "Le rein",
+        "Le foie"
       ],
       "correct": 2,
-      "answer": "La fusion de l'hydrogène en hélium",
-      "explanation": "Dans le cœur solaire, les noyaux d'hydrogène fusionnent pour former de l'hélium, libérant une immense énergie.",
-      "explanationAudio": "Dans le cœur solaire, les noyaux d'hydrogène fusionnent pour former de l'hélium, libérant une immense énergie.",
+      "answer": "Le foie",
+      "explanation": "Le foie métabolise les substances toxiques et les élimine du sang.",
+      "explanationAudio": "Le foie métabolise les substances toxiques et les élimine du sang.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a nuclear fission reactor using iron, realistic metal textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene depicting a coal combustion process with flames and smoke, detailed rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic view of the Sun's core where hydrogen nuclei fuse into helium, bright plasma, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of the spleen with immune cells, high detail, soft illumination, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D anatomical model of a human kidney filtering blood, detailed textures, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a human liver highlighting detoxification pathways, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

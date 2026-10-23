@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Histoire des Découvertes & Sérendipité",
-  "description": "Explore les moments où le hasard a changé le cours de la science.",
+  "topic": "🧠 Quiz : Physique & Astronomie",
+  "description": "Testez vos connaissances sur les mystères de l'univers et les lois qui gouvernent la matière.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,168 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 6,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Comment Alexander Fleming a t il découvert la pénicilline ?",
-      "questionAudio": "Comment Alexander Fleming a t il découvert la pénicilline ?",
+      "question": "Quelle est la cause principale des aurores boréales ?",
+      "questionAudio": "Quelle est la cause principale des aurores boréales ?",
       "emojis": [
-        "🔬",
-        "🧫",
-        "💊",
-        "🦠",
-        "🧪",
-        "📜",
-        "✨"
-      ],
-      "options": [
-        "En observant la moisissure qui inhibait les bactéries",
-        "En testant des composés chimiques synthétiques",
-        "En étudiant les effets des rayons X"
-      ],
-      "correct": 0,
-      "answer": "En observant la moisissure qui inhibait les bactéries",
-      "explanation": "Fleming a remarqué que la moisissure Penicillium notatum détruisait les colonies de staphylocoques, menant à la découverte de la pénicilline.",
-      "explanationAudio": "Fleming a remarqué que la moisissure Penicillium notatum détruisait les colonies de staphylocoques, menant à la découverte de la pénicilline.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of a petri dish with Penicillium mold spreading over bacterial colonies, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D render of a laboratory bench with synthetic chemical compounds in glass vials, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of a cathode ray tube emitting rays onto a fluorescent screen, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle était l'intention initiale de Christophe Colomb lors de son premier voyage ?",
-      "questionAudio": "Quelle était l'intention initiale de Christophe Colomb lors de son premier voyage ?",
-      "emojis": [
-        "⛵",
-        "🗺️",
-        "🌍",
-        "🚢",
-        "⚓",
-        "📚",
-        "✨"
-      ],
-      "options": [
-        "Cartographier le continent américain",
-        "Trouver une route maritime vers l'Asie",
-        "Découvrir de nouvelles espèces animales"
-      ],
-      "correct": 1,
-      "answer": "Trouver une route maritime vers l'Asie",
-      "explanation": "Colomb cherchait à atteindre l'Asie en naviguant vers l'ouest, sans savoir qu'il atteindrait un nouveau continent.",
-      "explanationAudio": "Colomb cherchait à atteindre l'Asie en naviguant vers l'ouest, sans savoir qu'il atteindrait un nouveau continent.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D render of an explorer charting the coastline of a newly discovered continent, detailed parchment map, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic map showing a sailing ship navigating westward from Europe towards Asia, detailed ocean and clouds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of exotic animals in a jungle, photorealistic, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel phénomène Wilhelm Röntgen a t il découvert par hasard ?",
-      "questionAudio": "Quel phénomène Wilhelm Röntgen a t il découvert par hasard ?",
-      "emojis": [
-        "⚡",
-        "🔭",
-        "📸",
-        "🧪",
-        "💡",
-        "🔬",
-        "✨"
-      ],
-      "options": [
-        "Les ondes radio",
-        "Les rayons X",
-        "Les neutrons"
-      ],
-      "correct": 1,
-      "answer": "Les rayons X",
-      "explanation": "En manipulant des rayons cathodiques, Röntgen a observé une fluorescence qui a conduit à la découverte des rayons X.",
-      "explanationAudio": "En manipulant des rayons cathodiques, Röntgen a observé une fluorescence qui a conduit à la découverte des rayons X.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of a radio antenna transmitting radio waves across a landscape, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic scene of a cathode ray tube emitting invisible X‑rays causing a fluorescent screen to glow, hyperrealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a particle collider detecting neutrons, detailed scientific equipment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel élément fortuit a aidé Watson et Crick à élucider la structure de l'ADN ?",
-      "questionAudio": "Quel élément fortuit a aidé Watson et Crick à élucider la structure de l'ADN ?",
-      "emojis": [
-        "🧬",
-        "📷",
-        "🔬",
-        "🧪",
-        "💡",
-        "🧠",
-        "✨"
-      ],
-      "options": [
-        "La photo 51 de Rosalind Franklin",
-        "Un modèle en papier",
-        "Une découverte en chimie organique"
-      ],
-      "correct": 0,
-      "answer": "La photo 51 de Rosalind Franklin",
-      "explanation": "La diffraction X de la photo 51 a fourni les dimensions essentielles du double hélice, guidant Watson et Crick.",
-      "explanationAudio": "La diffraction X de la photo 51 a fourni les dimensions essentielles du double hélice, guidant Watson et Crick.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D rendering of Rosalind Franklin's X‑ray diffraction image of DNA (Photo 51) displayed on a lab screen, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D model of a paper origami double helix structure on a desk, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a laboratory bench with organic chemistry reagents, detailed glassware, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel était le but initial de William Herschel lorsqu’il a observé Uranus ?",
-      "questionAudio": "Quel était le but initial de William Herschel lorsqu’il a observé Uranus ?",
-      "emojis": [
-        "🔭",
         "🌌",
+        "🚀",
+        "🔭",
+        "⭐",
+        "🌞",
         "🪐",
-        "✨",
-        "📡",
-        "🧑‍🔬",
-        "🚀"
+        "⚛️"
       ],
       "options": [
-        "Mesurer la distance du Soleil",
-        "Chercher une nouvelle étoile double",
-        "Étudier les comètes"
+        "La réfraction de la lumière solaire dans l'atmosphère",
+        "L'interaction du vent solaire avec le champ magnétique terrestre",
+        "La combustion de particules de poussière dans l'espace"
       ],
       "correct": 1,
-      "answer": "Chercher une nouvelle étoile double",
-      "explanation": "Herschel scrutait le ciel à la recherche d’étoiles binaires lorsqu’il a repéré un objet lumineux qui s’est avéré être une planète.",
-      "explanationAudio": "Herschel scrutait le ciel à la recherche d’étoiles binaires lorsqu’il a repéré un objet lumineux qui s’est avéré être une planète.",
+      "answer": "L'interaction du vent solaire avec le champ magnétique terrestre",
+      "explanation": "Les particules du vent solaire frappent le champ magnétique terrestre et excitent les molécules d'air, créant les lumières colorées.",
+      "explanationAudio": "Les particules du vent solaire frappent le champ magnétique terrestre et excitent les molécules d'air, créant les lumières colorées.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D model of the Sun with distance markers extending to Earth, realistic solar surface, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic night sky view of a telescope focusing on a binary star system, detailed stars and Milky Way, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of a comet streaking across space, photorealistic tail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of sunlight refracting through Earth's atmosphere creating a rainbow effect, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic render of Earth's magnetic field lines interacting with solar wind particles, glowing green aurora, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of dust particles burning in space near Earth, detailed particle effects, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Que cherchaient initialement Penzias et Wilson lorsqu’ils ont détecté le fond diffus cosmologique ?",
-      "questionAudio": "Que cherchaient initialement Penzias et Wilson lorsqu’ils ont détecté le fond diffus cosmologique ?",
+      "question": "Quelle est la distance moyenne entre la Terre et le Soleil ?",
+      "questionAudio": "Quelle est la distance moyenne entre la Terre et le Soleil ?",
       "emojis": [
         "🌌",
-        "📡",
-        "🔊",
-        "🛰️",
-        "🧭",
-        "✨",
-        "🧑‍🔬"
+        "🚀",
+        "🔭",
+        "⭐",
+        "🌞",
+        "🪐",
+        "⚛️"
       ],
       "options": [
-        "Mesurer la température du Soleil",
-        "Observer des pulsars",
-        "Éliminer le bruit de leurs antennes"
+        "Deux cent cinquante millions de kilomètres",
+        "Cent cinquante millions de kilomètres",
+        "Trois cent millions de kilomètres"
+      ],
+      "correct": 1,
+      "answer": "Cent cinquante millions de kilomètres",
+      "explanation": "La distance moyenne, appelée unité astronomique, est d'environ cent cinquante millions de kilomètres.",
+      "explanationAudio": "La distance moyenne, appelée unité astronomique, est d'environ cent cinquante millions de kilomètres.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a spacecraft traveling two hundred fifty million kilometers between planets, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of the Sun and Earth separated by a scale line showing one hundred fifty million kilometers, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of a distant planet three hundred million kilometers from the Sun, detailed space background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel phénomène explique le décalage vers le rouge des galaxies lointaines ?",
+      "questionAudio": "Quel phénomène explique le décalage vers le rouge des galaxies lointaines ?",
+      "emojis": [
+        "🌌",
+        "🚀",
+        "🔭",
+        "⭐",
+        "🌞",
+        "🪐",
+        "⚛️"
+      ],
+      "options": [
+        "L'expansion de l'univers",
+        "La réflexion de la lumière sur la poussière interstellaire",
+        "La gravité des trous noirs"
+      ],
+      "correct": 0,
+      "answer": "L'expansion de l'univers",
+      "explanation": "Lorsque l'univers s'étend, la lumière des galaxies lointaines est étirée vers des longueurs d'onde plus longues, ce qui apparaît rouge.",
+      "explanationAudio": "Lorsque l'univers s'étend, la lumière des galaxies lointaines est étirée vers des longueurs d'onde plus longues, ce qui apparaît rouge.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of distant galaxies moving away in an expanding universe, redshift visualized, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene showing interstellar dust scattering light, soft glow, detailed particles, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a black hole bending light, dramatic lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle particule porte la charge négative dans un atome ?",
+      "questionAudio": "Quelle particule porte la charge négative dans un atome ?",
+      "emojis": [
+        "🌌",
+        "🚀",
+        "🔭",
+        "⭐",
+        "🌞",
+        "🪐",
+        "⚛️"
+      ],
+      "options": [
+        "L'électron",
+        "Le proton",
+        "Le neutron"
+      ],
+      "correct": 0,
+      "answer": "L'électron",
+      "explanation": "L'électron possède une charge négative et orbite autour du noyau atomique.",
+      "explanationAudio": "L'électron possède une charge négative et orbite autour du noyau atomique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D atomic model highlighting electrons as blue spheres orbiting a nucleus, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a proton as a red sphere inside the nucleus, photorealistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of a neutron as a neutral gray sphere within the nucleus, realistic shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle est la période de rotation d'une journée sur Mars ?",
+      "questionAudio": "Quelle est la période de rotation d'une journée sur Mars ?",
+      "emojis": [
+        "🌌",
+        "🚀",
+        "🔭",
+        "⭐",
+        "🌞",
+        "🪐",
+        "⚛️"
+      ],
+      "options": [
+        "Vingt deux heures",
+        "Vingt trois heures trente six minutes",
+        "Vingt quatre heures trente sept minutes"
       ],
       "correct": 2,
-      "answer": "Éliminer le bruit de leurs antennes",
-      "explanation": "Ils tentaient de réduire le bruit de fond de leurs récepteurs lorsqu’ils ont découvert le rayonnement micro‑ondues résiduel de l’univers primordial.",
-      "explanationAudio": "Ils tentaient de réduire le bruit de fond de leurs récepteurs lorsqu’ils ont découvert le rayonnement micro‑ondues résiduel de l’univers primordial.",
+      "answer": "Vingt quatre heures trente sept minutes",
+      "explanation": "Une journée martienne, ou sol, dure vingt quatre heures trente sept minutes environ.",
+      "explanationAudio": "Une journée martienne, ou sol, dure vingt quatre heures trente sept minutes environ.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D visualization of a solar observatory measuring Sun temperature, detailed instrumentation, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D scene of a telescope aimed at a pulsar, with data streams displayed, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D realistic rendering of a radio telescope with engineers adjusting equipment to reduce background noise, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D model of a hypothetical planet with a twenty two hour rotation, detailed terrain, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of Earth rotating for twenty three hours thirty six minutes, photorealistic clouds, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic view of Mars rotating, showing a time lapse of twenty four hours thirty seven minutes, realistic surface textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel phénomène rend les étoiles scintiller lorsqu'elles sont observées depuis la Terre ?",
+      "questionAudio": "Quel phénomène rend les étoiles scintiller lorsqu'elles sont observées depuis la Terre ?",
+      "emojis": [
+        "🌌",
+        "🚀",
+        "🔭",
+        "⭐",
+        "🌞",
+        "🪐",
+        "⚛️"
+      ],
+      "options": [
+        "La rotation de la Terre",
+        "L'effet Doppler",
+        "La turbulence atmosphérique"
+      ],
+      "correct": 2,
+      "answer": "La turbulence atmosphérique",
+      "explanation": "Les variations de densité dans l'atmosphère dévient la lumière des étoiles, créant l'effet de scintillement.",
+      "explanationAudio": "Les variations de densité dans l'atmosphère dévient la lumière des étoiles, créant l'effet de scintillement.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of Earth rotating, showing day and night cycle, realistic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D visualization of a star's light shifted by the Doppler effect, detailed wave patterns, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic rendering of starlight passing through turbulent atmospheric layers, causing twinkling, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle est la principale source d'énergie du Soleil ?",
+      "questionAudio": "Quelle est la principale source d'énergie du Soleil ?",
+      "emojis": [
+        "🌌",
+        "🚀",
+        "🔭",
+        "⭐",
+        "🌞",
+        "🪐",
+        "⚛️"
+      ],
+      "options": [
+        "La fission nucléaire du fer",
+        "La combustion du carbone",
+        "La fusion de l'hydrogène en hélium"
+      ],
+      "correct": 2,
+      "answer": "La fusion de l'hydrogène en hélium",
+      "explanation": "Dans le cœur solaire, les noyaux d'hydrogène fusionnent pour former de l'hélium, libérant une immense énergie.",
+      "explanationAudio": "Dans le cœur solaire, les noyaux d'hydrogène fusionnent pour former de l'hélium, libérant une immense énergie.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of a nuclear fission reactor using iron, realistic metal textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D scene depicting a coal combustion process with flames and smoke, detailed rendering, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D cinematic view of the Sun's core where hydrogen nuclei fuse into helium, bright plasma, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

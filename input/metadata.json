@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Technologies & Inventions Scientifiques",
-  "description": "Explorez les inventions qui ont transformé notre monde moderne !",
+  "topic": "🧠 Quiz : Neurosciences & Psychologie Scientifique",
+  "description": "Testez vos connaissances en neurosciences et psychologie avec des faits scientifiques passionnants.",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,195 +19,168 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 7,
+  "questionCount": 6,
   "questions": [
     {
-      "question": "Qui est l'inventeur du World Wide Web ?",
-      "questionAudio": "Qui est l'inventeur du World Wide Web ?",
+      "question": "Quel neurotransmetteur est principalement associé à la sensation de récompense et à la motivation ?",
+      "questionAudio": "Quel neurotransmetteur est principalement associé à la sensation de récompense et à la motivation ?",
       "emojis": [
-        "🖥️",
-        "🌐",
-        "📡",
+        "🧠",
+        "⚡",
         "💡",
-        "🧑‍💻",
-        "🚀",
-        "🔧"
-      ],
-      "options": [
-        "Vint Cerf",
-        "Tim Berners‑Lee",
-        "Robert Kahn"
-      ],
-      "correct": 1,
-      "answer": "Tim Berners‑Lee",
-      "explanation": "Tim Berners‑Lee a créé le World Wide Web en 1989 pour faciliter le partage d'informations.",
-      "explanationAudio": "Tim Berners‑Lee a créé le World Wide Web en mille neuf cent quatre‑vingt‑neuf pour faciliter le partage d'informations.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of Vint Cerf working on early internet hardware, realistic textures, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of Tim Berners‑Lee at a vintage computer desk, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Robert Kahn presenting a network diagram, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel était le premier ordinateur entièrement électronique ?",
-      "questionAudio": "Quel était le premier ordinateur entièrement électronique ?",
-      "emojis": [
-        "💻",
-        "🔌",
-        "⚙️",
-        "📟",
-        "🕹️",
-        "🧮",
-        "🚀"
-      ],
-      "options": [
-        "Colossus",
-        "UNIVAC I",
-        "ENIAC"
-      ],
-      "correct": 2,
-      "answer": "ENIAC",
-      "explanation": "ENIAC, achevé en 1945, est considéré comme le premier ordinateur entièrement électronique.",
-      "explanationAudio": "ENIAC, achevé en mille neuf cent quarante‑cinq, est considéré comme le premier ordinateur entièrement électronique.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of the Colossus code‑breaking machine, dramatic shadows, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of the UNIVAC I computer in a 1950s lab, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D rendering of the ENIAC machine with glowing vacuum tubes, photorealistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle protéine est au cœur de la technologie CRISPR pour l'édition génétique ?",
-      "questionAudio": "Quelle protéine est au cœur de la technologie CRISPR pour l'édition génétique ?",
-      "emojis": [
-        "🧬",
         "🔬",
         "🧪",
-        "⚛️",
-        "🧑‍🔬",
-        "💉",
+        "🎯",
         "🚀"
       ],
       "options": [
-        "ARN polymérase",
-        "Ligase ADN",
-        "Cas9"
+        "La dopamine",
+        "La sérotonine",
+        "Le GABA"
+      ],
+      "correct": 0,
+      "answer": "La dopamine",
+      "explanation": "La dopamine joue un rôle clé dans les circuits de récompense du cerveau.",
+      "explanationAudio": "La dopamine joue un rôle clé dans les circuits de récompense du cerveau.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A hyper realistic 3D illustration of dopamine molecules glowing in a neural reward pathway, cinematic lighting, ultra detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of serotonin molecules flowing through synapses, photorealistic, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D model of an inhibitory synapse with GABA molecules, high contrast, cinematic effect, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle région cérébrale est principalement responsable du traitement de l'information visuelle ?",
+      "questionAudio": "Quelle région cérébrale est principalement responsable du traitement de l'information visuelle ?",
+      "emojis": [
+        "👁️",
+        "🧠",
+        "🖼️",
+        "🔬",
+        "⚡",
+        "📊",
+        "🚀"
+      ],
+      "options": [
+        "Le lobe temporal",
+        "Le lobe frontal",
+        "Le lobe occipital"
       ],
       "correct": 2,
-      "answer": "Cas9",
-      "explanation": "Cas9 agit comme des ciseaux moléculaires, découpant l'ADN à des endroits précis.",
-      "explanationAudio": "Cas9 agit comme des ciseaux moléculaires, découpant l'ADN à des endroits précis.",
+      "answer": "Le lobe occipital",
+      "explanation": "Le lobe occipital est le centre visuel du cortex cérébral.",
+      "explanationAudio": "Le lobe occipital est le centre visuel du cortex cérébral.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A realistic 3D model of RNA polymerase synthesizing RNA, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of DNA ligase sealing DNA fragments, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D photorealistic illustration of a Cas9 protein cutting a DNA strand, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A 3D brain illustration focusing on the temporal lobe, with ear structures, realistic texture, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D brain model emphasizing the frontal lobe with detailed gyri, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A photorealistic 3D brain model highlighting the occipital lobe in vivid colors, cinematic lighting"
       ]
     },
     {
-      "question": "Quel est le principe de base des cellules photovoltaïques solaires ?",
-      "questionAudio": "Quel est le principe de base des cellules photovoltaïques solaires ?",
+      "question": "Quel phénomène décrit la capacité du cerveau à se réorganiser après une lésion ?",
+      "questionAudio": "Quel phénomène décrit la capacité du cerveau à se réorganiser après une lésion ?",
       "emojis": [
-        "☀️",
-        "🔋",
-        "⚡",
-        "📡",
-        "🏭",
-        "🌞",
+        "🔄",
+        "🧠",
+        "⚙️",
+        "🔬",
+        "🛠️",
+        "🌱",
         "🚀"
       ],
       "options": [
-        "Production de chaleur à partir du soleil",
-        "Conversion des photons en courant électrique",
-        "Réflexion de la lumière solaire"
+        "La synaptogenèse",
+        "La neurogenèse",
+        "La neuroplasticité"
       ],
-      "correct": 1,
-      "answer": "Conversion des photons en courant électrique",
-      "explanation": "Les cellules photovoltaïques convertissent l'énergie des photons en courant électrique grâce à l'effet photovoltaïque.",
-      "explanationAudio": "Les cellules photovoltaïques convertissent l'énergie des photons en courant électrique grâce à l'effet photovoltaïque.",
+      "correct": 2,
+      "answer": "La neuroplasticité",
+      "explanation": "La neuroplasticité permet aux réseaux neuronaux de s'adapter et de former de nouvelles connexions.",
+      "explanationAudio": "La neuroplasticité permet aux réseaux neuronaux de s'adapter et de former de nouvelles connexions.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a solar thermal collector heating fluid, detailed shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a solar panel array under bright sunlight, showing photon flow turning into electric current, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of mirrors reflecting sunlight away, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of synapse formation with glowing synaptic vesicles, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of newborn neurons in the hippocampus, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D animation of brain neurons forming new connections after injury, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     },
     {
-      "question": "Qui a breveté la première ampoule électrique pratique ?",
-      "questionAudio": "Qui a breveté la première ampoule électrique pratique ?",
+      "question": "Quel noyau cérébral contrôle les rythmes circadiens ?",
+      "questionAudio": "Quel noyau cérébral contrôle les rythmes circadiens ?",
       "emojis": [
-        "💡",
+        "⏰",
+        "🧠",
+        "🌙",
+        "🔬",
         "🕰️",
         "⚡",
-        "🔧",
-        "🧑‍🏭",
-        "📜",
         "🚀"
       ],
       "options": [
-        "Thomas Edison",
-        "Alexander Graham Bell",
-        "Nikola Tesla"
-      ],
-      "correct": 0,
-      "answer": "Thomas Edison",
-      "explanation": "Thomas Edison a obtenu le brevet de l'ampoule à filament en 1879, rendant l'éclairage électrique viable.",
-      "explanationAudio": "Thomas Edison a obtenu le brevet de l'ampoule à filament en mille huit cent soixante‑dix‑neuf, rendant l'éclairage électrique viable.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of Thomas Edison holding a glowing filament bulb in a 19th‑century workshop, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Alexander Graham Bell with an early telephone, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of Nikola Tesla experimenting with alternating current devices, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Que signifie l'acronyme LIDAR ?",
-      "questionAudio": "Que signifie l'acronyme LIDAR ?",
-      "emojis": [
-        "📡",
-        "🚁",
-        "🌲",
-        "🔦",
-        "🛰️",
-        "⚙️",
-        "🚀"
-      ],
-      "options": [
-        "Light Detection and Ranging",
-        "Light Integrated Data Acquisition",
-        "Laser Imaging Direct Access Radar"
-      ],
-      "correct": 0,
-      "answer": "Light Detection and Ranging",
-      "explanation": "LIDAR mesure la distance en émettant des impulsions laser et en analysant le temps de retour.",
-      "explanationAudio": "LIDAR mesure la distance en émettant des impulsions laser et en analysant le temps de retour.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a LIDAR sensor scanning a forest, laser beams visible, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a data acquisition unit with integrated light sensors, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a radar dish labeled ‘Laser Imaging Direct Access Radar’, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quelle invention des années 1970 a révolutionné le stockage de données avec des disques magnétiques ?",
-      "questionAudio": "Quelle invention des années mille neuf cent soixante‑dix a révolutionné le stockage de données avec des disques magnétiques ?",
-      "emojis": [
-        "💾",
-        "📀",
-        "🖱️",
-        "🖥️",
-        "🔧",
-        "🗄️",
-        "🚀"
-      ],
-      "options": [
-        "Disquette",
-        "Disque dur",
-        "Solid‑state drive"
+        "Le cervelet",
+        "Le noyau suprachiasmatique",
+        "L'amygdale"
       ],
       "correct": 1,
-      "answer": "Disque dur",
-      "explanation": "Le disque dur a permis de stocker de grandes quantités de données de façon réutilisable et rapide.",
-      "explanationAudio": "Le disque dur a permis de stocker de grandes quantités de données de façon réutilisable et rapide.",
+      "answer": "Le noyau suprachiasmatique",
+      "explanation": "Le noyau suprachiasmatique, situé dans l'hypothalamus, régule l'horloge interne.",
+      "explanationAudio": "Le noyau suprachiasmatique, situé dans l'hypothalamus, régule l'horloge interne.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a floppy disk beside a computer, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A cinematic 3D rendering of a classic hard disk drive with spinning platters, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a modern solid‑state drive on a motherboard, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of the cerebellum with fine folia, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of the suprachiasmatic nucleus illuminated within the hypothalamus, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D rendering of the amygdala with emotional expression cues, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel type de mémoire permet de retenir des faits et connaissances générales ?",
+      "questionAudio": "Quel type de mémoire permet de retenir des faits et connaissances générales ?",
+      "emojis": [
+        "📚",
+        "🧠",
+        "🗂️",
+        "🔬",
+        "💡",
+        "⚡",
+        "🚀"
+      ],
+      "options": [
+        "La mémoire déclarative",
+        "La mémoire procédurale",
+        "La mémoire épisodique"
+      ],
+      "correct": 0,
+      "answer": "La mémoire déclarative",
+      "explanation": "La mémoire déclarative stocke les informations factuelles et les connaissances.",
+      "explanationAudio": "La mémoire déclarative stocke les informations factuelles et les connaissances.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D visual of a brain with highlighted declarative memory networks, glowing nodes, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D illustration of procedural memory pathways controlling motor skills, detailed, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D render of episodic memory scenes with vivid recollection, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel neurotransmetteur est principalement inhibiteur dans le système nerveux central ?",
+      "questionAudio": "Quel neurotransmetteur est principalement inhibiteur dans le système nerveux central ?",
+      "emojis": [
+        "🛑",
+        "🧠",
+        "🔬",
+        "⚡",
+        "🧪",
+        "💤",
+        "🚀"
+      ],
+      "options": [
+        "Le GABA",
+        "L'acétylcholine",
+        "Le glutamate"
+      ],
+      "correct": 0,
+      "answer": "Le GABA",
+      "explanation": "Le GABA réduit l'excitabilité neuronale et agit comme principal neurotransmetteur inhibiteur.",
+      "explanationAudio": "Le GABA réduit l'excitabilité neuronale et agit comme principal neurotransmetteur inhibiteur.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A hyper realistic 3D illustration of GABA molecules binding to receptors, soft glow, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D render of acetylcholine molecules at neuromuscular junction, photorealistic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A vivid 3D depiction of glutamate excitatory synapse with bright sparks, cinematic, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]

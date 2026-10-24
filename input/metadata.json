@@ -1,6 +1,6 @@
 {
-  "topic": "🧠 Quiz : Sciences de la Terre & Nature",
-  "description": "Teste tes connaissances sur les phénomènes qui façonnent notre planète.",
+  "topic": "🧠 Quiz : Technologies & Inventions Scientifiques",
+  "description": "Explorez les inventions qui ont transformé notre monde moderne !",
   "hashtags": [
     "#science",
     "#quiz",
@@ -19,141 +19,195 @@
     "🚀"
   ],
   "uiScale": 0.85,
-  "questionCount": 5,
+  "questionCount": 7,
   "questions": [
     {
-      "question": "Quelle est la principale cause du mouvement des plaques tectoniques ?",
-      "questionAudio": "Quelle est la principale cause du mouvement des plaques tectoniques ?",
+      "question": "Qui est l'inventeur du World Wide Web ?",
+      "questionAudio": "Qui est l'inventeur du World Wide Web ?",
       "emojis": [
-        "🌍",
-        "🪨",
-        "🌋",
-        "🌡️",
-        "📏",
-        "🌊",
-        "🔭"
-      ],
-      "options": [
-        "Le vent solaire",
-        "Le convection du manteau",
-        "Les marées océaniques"
-      ],
-      "correct": 1,
-      "answer": "Le convection du manteau",
-      "explanation": "Les courants de convection dans le manteau entraînent le déplacement des plaques lithosphériques.",
-      "explanationAudio": "Les courants de convection dans le manteau entraînent le déplacement des plaques lithosphériques.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of the Sun's solar wind streaming toward Earth, cinematic lighting, photorealistic, space environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A high resolution 3D cinematic render of Earth's mantle convection currents visualized as glowing orange and blue flows, photorealistic, detailed geology background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D scene showing ocean tides affecting a coastline, with water movement, cinematic lighting, detailed shoreline, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel processus transforme l'eau liquide en vapeur dans l'atmosphère ?",
-      "questionAudio": "Quel processus transforme l'eau liquide en vapeur dans l'atmosphère ?",
-      "emojis": [
-        "🌧️",
-        "🌦️",
-        "🌊",
-        "💧",
-        "☀️",
-        "🌈",
-        "🌍"
-      ],
-      "options": [
-        "La condensation",
-        "L'évaporation",
-        "La précipitation"
-      ],
-      "correct": 1,
-      "answer": "L'évaporation",
-      "explanation": "L'évaporation fait passer l'eau des surfaces vers l'atmosphère sous forme de vapeur.",
-      "explanationAudio": "L'évaporation fait passer l'eau des surfaces vers l'atmosphère sous forme de vapeur.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of water vapor condensing into clouds over mountains, photorealistic, soft lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of water droplets rising from a lake under sunlight, cinematic lighting, detailed atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D scene of raindrops falling from dark clouds onto a forest, cinematic atmosphere, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel type de roche se forme à partir du refroidissement du magma ?",
-      "questionAudio": "Quel type de roche se forme à partir du refroidissement du magma ?",
-      "emojis": [
-        "🪨",
-        "🔥",
-        "🌋",
-        "📚",
-        "🌍",
-        "🏔️",
-        "🧱"
-      ],
-      "options": [
-        "Roche ignée",
-        "Roche métamorphique",
-        "Roche sédimentaire"
-      ],
-      "correct": 0,
-      "answer": "Roche ignée",
-      "explanation": "Les roches ignées résultent du solidification du magma ou de la lave.",
-      "explanationAudio": "Les roches ignées résultent du solidification du magma ou de la lave.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A detailed 3D cinematic render of molten magma cooling into crystalline igneous rock, photorealistic, volcanic setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of metamorphic rock textures created by pressure and heat deep underground, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D illustration of layered sedimentary rocks forming in a river delta, cinematic lighting, realistic textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel gaz contribue le plus à l'effet de serre naturel sur Terre ?",
-      "questionAudio": "Quel gaz contribue le plus à l'effet de serre naturel sur Terre ?",
-      "emojis": [
-        "🌡️",
-        "🌍",
-        "💧",
-        "🌞",
-        "🌿",
-        "🏭",
-        "🌧️"
-      ],
-      "options": [
-        "La vapeur d'eau",
-        "Le méthane",
-        "Le dioxyde de carbone"
-      ],
-      "correct": 0,
-      "answer": "La vapeur d'eau",
-      "explanation": "La vapeur d'eau retient la chaleur solaire et est le principal contributeur à l'effet de serre naturel.",
-      "explanationAudio": "La vapeur d'eau retient la chaleur solaire et est le principal contributeur à l'effet de serre naturel.",
-      "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A photorealistic 3D cinematic render of water vapor particles swirling in the lower atmosphere, detailed lighting, Earth background, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of methane molecules escaping from wetlands, realistic textures, atmospheric lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D scene showing carbon dioxide emissions from a volcano, cinematic atmosphere, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
-      ]
-    },
-    {
-      "question": "Quel instrument mesure l'amplitude des ondes sismiques ?",
-      "questionAudio": "Quel instrument mesure l'amplitude des ondes sismiques ?",
-      "emojis": [
-        "🌍",
+        "🖥️",
+        "🌐",
         "📡",
-        "🪨",
-        "📊",
-        "⏱️",
-        "🏚️",
-        "📐"
+        "💡",
+        "🧑‍💻",
+        "🚀",
+        "🔧"
       ],
       "options": [
-        "Le sismomètre",
-        "Le baromètre",
-        "Le anémomètre"
+        "Vint Cerf",
+        "Tim Berners‑Lee",
+        "Robert Kahn"
+      ],
+      "correct": 1,
+      "answer": "Tim Berners‑Lee",
+      "explanation": "Tim Berners‑Lee a créé le World Wide Web en 1989 pour faciliter le partage d'informations.",
+      "explanationAudio": "Tim Berners‑Lee a créé le World Wide Web en mille neuf cent quatre‑vingt‑neuf pour faciliter le partage d'informations.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A 3D illustration of Vint Cerf working on early internet hardware, realistic textures, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of Tim Berners‑Lee at a vintage computer desk, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Robert Kahn presenting a network diagram, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel était le premier ordinateur entièrement électronique ?",
+      "questionAudio": "Quel était le premier ordinateur entièrement électronique ?",
+      "emojis": [
+        "💻",
+        "🔌",
+        "⚙️",
+        "📟",
+        "🕹️",
+        "🧮",
+        "🚀"
+      ],
+      "options": [
+        "Colossus",
+        "UNIVAC I",
+        "ENIAC"
+      ],
+      "correct": 2,
+      "answer": "ENIAC",
+      "explanation": "ENIAC, achevé en 1945, est considéré comme le premier ordinateur entièrement électronique.",
+      "explanationAudio": "ENIAC, achevé en mille neuf cent quarante‑cinq, est considéré comme le premier ordinateur entièrement électronique.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D illustration of the Colossus code‑breaking machine, dramatic shadows, high resolution, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D model of the UNIVAC I computer in a 1950s lab, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D rendering of the ENIAC machine with glowing vacuum tubes, photorealistic details, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle protéine est au cœur de la technologie CRISPR pour l'édition génétique ?",
+      "questionAudio": "Quelle protéine est au cœur de la technologie CRISPR pour l'édition génétique ?",
+      "emojis": [
+        "🧬",
+        "🔬",
+        "🧪",
+        "⚛️",
+        "🧑‍🔬",
+        "💉",
+        "🚀"
+      ],
+      "options": [
+        "ARN polymérase",
+        "Ligase ADN",
+        "Cas9"
+      ],
+      "correct": 2,
+      "answer": "Cas9",
+      "explanation": "Cas9 agit comme des ciseaux moléculaires, découpant l'ADN à des endroits précis.",
+      "explanationAudio": "Cas9 agit comme des ciseaux moléculaires, découpant l'ADN à des endroits précis.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A realistic 3D model of RNA polymerase synthesizing RNA, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D rendering of DNA ligase sealing DNA fragments, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A 3D photorealistic illustration of a Cas9 protein cutting a DNA strand, cinematic lighting, high detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quel est le principe de base des cellules photovoltaïques solaires ?",
+      "questionAudio": "Quel est le principe de base des cellules photovoltaïques solaires ?",
+      "emojis": [
+        "☀️",
+        "🔋",
+        "⚡",
+        "📡",
+        "🏭",
+        "🌞",
+        "🚀"
+      ],
+      "options": [
+        "Production de chaleur à partir du soleil",
+        "Conversion des photons en courant électrique",
+        "Réflexion de la lumière solaire"
+      ],
+      "correct": 1,
+      "answer": "Conversion des photons en courant électrique",
+      "explanation": "Les cellules photovoltaïques convertissent l'énergie des photons en courant électrique grâce à l'effet photovoltaïque.",
+      "explanationAudio": "Les cellules photovoltaïques convertissent l'énergie des photons en courant électrique grâce à l'effet photovoltaïque.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a solar thermal collector heating fluid, detailed shading, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D render of a solar panel array under bright sunlight, showing photon flow turning into electric current, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D model of mirrors reflecting sunlight away, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Qui a breveté la première ampoule électrique pratique ?",
+      "questionAudio": "Qui a breveté la première ampoule électrique pratique ?",
+      "emojis": [
+        "💡",
+        "🕰️",
+        "⚡",
+        "🔧",
+        "🧑‍🏭",
+        "📜",
+        "🚀"
+      ],
+      "options": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Nikola Tesla"
       ],
       "correct": 0,
-      "answer": "Le sismomètre",
-      "explanation": "Le sismomètre enregistre les mouvements du sol causés par les ondes sismiques.",
-      "explanationAudio": "Le sismomètre enregistre les mouvements du sol causés par les ondes sismiques.",
+      "answer": "Thomas Edison",
+      "explanation": "Thomas Edison a obtenu le brevet de l'ampoule à filament en 1879, rendant l'éclairage électrique viable.",
+      "explanationAudio": "Thomas Edison a obtenu le brevet de l'ampoule à filament en mille huit cent soixante‑dix‑neuf, rendant l'éclairage électrique viable.",
       "imagePrompts": [
-        "A hyper-realistic photorealistic 3D render of A high‑detail 3D cinematic render of a modern seismometer on a rocky ground, photorealistic, scientific lab setting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A 3D cinematic illustration of a barometer showing atmospheric pressure changes, realistic textures, indoor environment, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
-        "A hyper-realistic photorealistic 3D render of A realistic 3D visualization of an anemometer rotating in strong wind, cinematic lighting, outdoor scene, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D illustration of Thomas Edison holding a glowing filament bulb in a 19th‑century workshop, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of Alexander Graham Bell with an early telephone, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D rendering of Nikola Tesla experimenting with alternating current devices, dramatic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Que signifie l'acronyme LIDAR ?",
+      "questionAudio": "Que signifie l'acronyme LIDAR ?",
+      "emojis": [
+        "📡",
+        "🚁",
+        "🌲",
+        "🔦",
+        "🛰️",
+        "⚙️",
+        "🚀"
+      ],
+      "options": [
+        "Light Detection and Ranging",
+        "Light Integrated Data Acquisition",
+        "Laser Imaging Direct Access Radar"
+      ],
+      "correct": 0,
+      "answer": "Light Detection and Ranging",
+      "explanation": "LIDAR mesure la distance en émettant des impulsions laser et en analysant le temps de retour.",
+      "explanationAudio": "LIDAR mesure la distance en émettant des impulsions laser et en analysant le temps de retour.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A photorealistic 3D render of a LIDAR sensor scanning a forest, laser beams visible, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a data acquisition unit with integrated light sensors, cinematic atmosphere, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a radar dish labeled ‘Laser Imaging Direct Access Radar’, detailed textures, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
+      ]
+    },
+    {
+      "question": "Quelle invention des années 1970 a révolutionné le stockage de données avec des disques magnétiques ?",
+      "questionAudio": "Quelle invention des années mille neuf cent soixante‑dix a révolutionné le stockage de données avec des disques magnétiques ?",
+      "emojis": [
+        "💾",
+        "📀",
+        "🖱️",
+        "🖥️",
+        "🔧",
+        "🗄️",
+        "🚀"
+      ],
+      "options": [
+        "Disquette",
+        "Disque dur",
+        "Solid‑state drive"
+      ],
+      "correct": 1,
+      "answer": "Disque dur",
+      "explanation": "Le disque dur a permis de stocker de grandes quantités de données de façon réutilisable et rapide.",
+      "explanationAudio": "Le disque dur a permis de stocker de grandes quantités de données de façon réutilisable et rapide.",
+      "imagePrompts": [
+        "A hyper-realistic photorealistic 3D render of A detailed 3D model of a floppy disk beside a computer, dramatic shadows, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A cinematic 3D rendering of a classic hard disk drive with spinning platters, photorealistic detail, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus",
+        "A hyper-realistic photorealistic 3D render of A realistic 3D illustration of a modern solid‑state drive on a motherboard, cinematic lighting, cinematic lighting, 8k resolution, highly detailed, vivid colors, ultra sharp focus"
       ]
     }
   ]
